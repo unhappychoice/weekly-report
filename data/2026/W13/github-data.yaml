@@ -17,10 +17,10 @@ dateRange:
   to: 2026-03-29
 stats:
   totalCommits: 120
-  totalAdditions: 30906
-  totalDeletions: 4480
-  prsOpened: 56
-  prsMerged: 55
+  totalAdditions: 2295
+  totalDeletions: 1527
+  prsOpened: 5
+  prsMerged: 4
   prsReviewed: 68
   issuesOpened: 0
   issuesClosed: 0
@@ -40,20 +40,6 @@ dailyCommits:
   - date: 2026-03-29
     count: 26
 repositories:
-  - name: deariary/blog
-    commits: 0
-    prsOpened: 24
-    prsMerged: 24
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/deariary/blog
-  - name: deariary/frontend
-    commits: 0
-    prsOpened: 15
-    prsMerged: 14
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/deariary/frontend
   - name: unhappychoice/mdts
     commits: 0
     prsOpened: 11
@@ -61,20 +47,6 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/mdts
-  - name: unhappychoice/hibinoki
-    commits: 0
-    prsOpened: 8
-    prsMerged: 8
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/unhappychoice/hibinoki
-  - name: deariary/backend
-    commits: 0
-    prsOpened: 7
-    prsMerged: 7
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/deariary/backend
   - name: unhappychoice/blog
     commits: 0
     prsOpened: 7
@@ -110,13 +82,6 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/irasutoya-tools/irasutoya-cli
-  - name: deariary/lp
-    commits: 0
-    prsOpened: 5
-    prsMerged: 5
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/deariary/lp
   - name: unhappychoice/slack_channel_stats
     commits: 0
     prsOpened: 5
@@ -194,13 +159,6 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/oss-issue-opener
-  - name: unhappychoice-vault/cycle-videos
-    commits: 0
-    prsOpened: 1
-    prsMerged: 1
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/unhappychoice-vault/cycle-videos
   - name: unhappychoice/cycle-cropper
     commits: 0
     prsOpened: 1
@@ -216,232 +174,6 @@ repositories:
     issuesClosed: 0
     url: https://github.com/unhappychoice/cycle-pusher
 pullRequests:
-  - title: "daily-log: 2026-03-29"
-    body: >-
-      Auto-generated daily log for 2026-03-29
-
-
-      ## Summary by CodeRabbit
-
-
-      * **Chores**
-       * Updated cached GitHub repository statistics and Steam playtime data.
-       * Collected daily activity snapshots including GitHub commits, pull requests, issues, Linear tickets, Slack messages, weather data, and location ch...
-    url: https://github.com/unhappychoice/hibinoki/pull/96
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 847
-    deletions: 15
-    changedFiles: 10
-    author: unhappychoice
-    createdAt: 2026-03-29T20:16:49Z
-    mergedAt: 2026-03-29T20:17:02Z
-  - title: "daily-log: 2026-03-28"
-    body: |-
-      Auto-generated daily log for 2026-03-28
-
-      ## Summary by CodeRabbit
-
-      * **New Features**
-       * Added backend dashboard and admin panel functionality.
-
-      * **Chores**
-       * Updated blog deployment time from 17:00 UTC to 15:00 UTC.
-       * Bumped version to 0.9.0.
-       * Refreshed data snapshots across GitHub, Slack, Ste...
-    url: https://github.com/unhappychoice/hibinoki/pull/94
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 404
-    deletions: 23
-    changedFiles: 9
-    author: unhappychoice
-    createdAt: 2026-03-28T20:15:06Z
-    mergedAt: 2026-03-28T20:15:19Z
-  - title: 'feat: add blog post "Journal burnout is real" with distribution channels'
-    body: >-
-      - Add new essay blog post: "Journal burnout is real. Here's the fix: stop writing."
-      (`2026-04-20-journal-burnout.md`)
-
-      - Target keyword: `journal burnout` (140/mo)
-
-      - Create distribution channel files: X Article, X reply, Bluesky post, note article (Japanese)
-
-      - Update `docs/content-ideas.md` to mark t...
-    url: https://github.com/deariary/blog/pull/65
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 211
-    deletions: 1
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-29T16:34:12Z
-    mergedAt: 2026-03-29T16:40:15Z
-  - title: 'feat: add blog post "Journey journal app vs deariary" with distribution channels'
-    body: >-
-      - Add competitor comparison blog post: **Journey journal app vs deariary: feature-rich manual vs fully automatic**
-      (`2026-04-19-journey-app-vs-deariary.md`)
-
-      - Target keyword: `journey journal app` (880/mo, +83%) — Pillar 3: Competitor Capture
-
-      - Create distribution channel files: X Article, X reply, ...
-    url: https://github.com/deariary/blog/pull/64
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 193
-    deletions: 1
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-29T13:10:24Z
-    mergedAt: 2026-03-29T14:13:04Z
-  - title: 'feat: add blog post "Turn your Google Calendar into a journal"'
-    body: >-
-      - Add new blog post `2026-04-18-turn-your-google-calendar-into-a-journal.md` targeting keyword `calendar journal
-      app` (210/mo)
-
-      - Integration Long-Tail article comparing three methods: manual review, Notion/Obsidian templates, and fully
-      automatic (deariary)
-
-      - Differentiated from existing Google Calen...
-    url: https://github.com/deariary/blog/pull/63
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 164
-    deletions: 1
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-29T11:49:17Z
-    mergedAt: 2026-03-29T12:16:35Z
-  - title: "daily-log: 2026-03-27"
-    body: >-
-      Auto-generated daily log for 2026-03-27
-
-
-      ## Summary by CodeRabbit
-
-
-      * **Chores**
-       * Updated cached data for GitHub repository statistics and Steam playtime metrics.
-       * Added daily snapshot files capturing activity data across multiple platforms (GitHub, Linear, Steam, Swarm, and weather).
-
-      * **Docume...
-    url: https://github.com/unhappychoice/hibinoki/pull/93
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 2968
-    deletions: 26
-    changedFiles: 10
-    author: unhappychoice
-    createdAt: 2026-03-27T20:20:36Z
-    mergedAt: 2026-03-27T20:20:49Z
-  - title: "feat: add realtime analytics dashboard to admin panel"
-    body: >-
-      - Add a Google Analytics-style realtime dashboard at `/kpi/realtime` with active user counts (5m/30m),
-      pageview/event counters, pageviews-per-minute chart, country distribution map, top pages table, and live event
-      feed
-
-      - Client-side polling (15s interval) fetches `/kpi/realtime/data` JSON endpoint t...
-    url: https://github.com/deariary/backend/pull/733
-    repository: deariary/backend
-    state: merged
-    labels: []
-    additions: 841
-    deletions: 8
-    changedFiles: 10
-    author: unhappychoice
-    createdAt: 2026-03-28T00:55:38Z
-    mergedAt: 2026-03-28T01:10:15Z
-  - title: "daily-log: 2026-03-26"
-    body: >-
-      Auto-generated daily log for 2026-03-26
-
-
-      ## Summary by CodeRabbit
-
-
-      * **Chores**
-       * Updated cached metrics for GitHub repositories and Steam playtime.
-       * Added automated daily snapshots capturing GitHub activity, Steam playtime, task tracking, location check-ins, and weather data.
-       * Added daily summ...
-    url: https://github.com/unhappychoice/hibinoki/pull/92
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 3010
-    deletions: 84
-    changedFiles: 10
-    author: unhappychoice
-    createdAt: 2026-03-27T10:32:16Z
-    mergedAt: 2026-03-27T10:32:29Z
-  - title: "feat: add disconnect action to admin integration detail page"
-    body: |-
-      - Admin の連携詳細ページ (`/integrations/:id`) から特定の連携を解除 (disconnect) できるようにした
-      - `POST /integrations/:id/disconnect` エンドポイントを追加し、`disconnected_at` をセットするソフトデリート方式で実装
-      - Active な連携にのみ「Disconnect」ボタンを表示し、confirm ダイアログで誤操作を防止
-    url: https://github.com/deariary/backend/pull/730
-    repository: deariary/backend
-    state: merged
-    labels: []
-    additions: 49
-    deletions: 4
-    changedFiles: 3
-    author: unhappychoice
-    createdAt: 2026-03-27T09:54:07Z
-    mergedAt: 2026-03-27T09:57:35Z
-  - title: "feat: strengthen Entry-PipelineRun navigation in admin panel"
-    body: |-
-      - Entry と Pipeline Run 間のナビゲーションを全面的に強化
-      - 一覧ページ、詳細ページの両方で相互に行き来できるようにした
-    url: https://github.com/deariary/backend/pull/732
-    repository: deariary/backend
-    state: merged
-    labels: []
-    additions: 262
-    deletions: 53
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-27T10:11:26Z
-    mergedAt: 2026-03-27T10:19:02Z
-  - title: 'feat: add blog post "Day One made me love journaling" with distribution channels'
-    body: >-
-      - Add new blog post `2026-04-17-day-one-made-me-love-journaling.md` targeting `day one journal` (6,600/mo) keyword
-      (Competitor Capture pillar)
-
-      - A personal nostalgia arc about Day One: the love story, the streak breaking when life got busy, the painful gap,
-      the failed return, and why an automatic di...
-    url: https://github.com/deariary/blog/pull/62
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 230
-    deletions: 1
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-27T08:11:36Z
-    mergedAt: 2026-03-27T08:18:22Z
-  - title: "feat: add blog post \"I can't remember what I did yesterday\""
-    body: >-
-      - Add new essay post `2026-04-16-i-cant-remember-what-i-did-yesterday.md` targeting keyword `what did I do
-      yesterday` (210/mo, +86%)
-
-      - Angle: the immediate, social experience of drawing a blank when asked about yesterday. Distinct from "The
-      forgetting problem" (memory science) and "Re-reading your d...
-    url: https://github.com/deariary/blog/pull/61
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 249
-    deletions: 1
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-27T07:24:32Z
-    mergedAt: 2026-03-27T07:27:08Z
   - title: "post: 今の無職期間にしていること"
     body: |-
       - OSS 4つ (gitlogue, gittype, mdts, steamfetch) で合計約 6,000 star を獲得した話
@@ -457,6 +189,21 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-03-26T16:43:53Z
     mergedAt: 2026-03-27T05:31:38Z
+  - title: "fix: prevent flash during view transition"
+    body: |-
+      - View transition 時にページが一瞬暗く(黒く)フラッシュする問題を修正
+      - fade-out (0.2s) と fade-in (0.3s) の duration が異なっていたため、中間地点で両方の opacity が低くなり背景色が透けていた
+      - `html` に背景色が未設定(デフォルト白)で、`body`/`#main` の `$color-dark` と不一致だった
+    url: https://github.com/unhappychoice/blog/pull/687
+    repository: unhappychoice/blog
+    state: merged
+    labels: []
+    additions: 13
+    deletions: 2
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-26T10:10:16Z
+    mergedAt: 2026-03-26T10:14:22Z
   - title: "style: add task list checkbox styles in markdown body"
     body: >-
       - Add custom styles for GFM task list checkboxes (`- [x]`, `- [ ]`) in markdown content
@@ -475,94 +222,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-03-26T12:18:26Z
     mergedAt: 2026-03-26T12:23:50Z
-  - title: 'feat: add blog post "Daily reflection app: automate your end-of-day review"'
-    body: >-
-      - Add new Pillar 1 SEO blog post targeting `daily reflection app` (+600% breakout keyword)
-
-      - Post compares three categories of daily reflection apps (guided prompts, mood trackers, activity-aware) with
-      structured tables, plus a 5-point evaluation framework
-
-      - Create X Article, X self-reply, and Blues...
-    url: https://github.com/deariary/blog/pull/60
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 160
-    deletions: 1
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-27T06:53:49Z
-    mergedAt: 2026-03-27T06:56:50Z
-  - title: 'feat: add blog post "Your daily recap, written for you"'
-    body: >-
-      - Add new Pillar 1 (Category Definition) blog post targeting `daily recap` (1,600/mo) keyword
-
-      - Angle: daily recaps as a "prompt problem" not a memory problem. The skill to summarize your day exists, but
-      without a trigger it never fires.
-
-      - Structure: natural recap to friends → the missing trigger → ...
-    url: https://github.com/deariary/blog/pull/59
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 213
-    deletions: 1
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-26T17:25:11Z
-    mergedAt: 2026-03-26T17:28:16Z
-  - title: "refactor: reorganize content-ideas.md with Keyword Planner data"
-    body: >-
-      - Restructure `docs/content-ideas.md` from 12 categories to 4 (SEO Articles, Essays, Use Cases, Integration
-      Deep-Dives)
-
-      - Unify all items into table format with verified Keyword Planner volume data (worldwide, English, 3 batch runs)
-
-      - Add 16 new article ideas from `deariary/marketing` repo and add K...
-    url: https://github.com/deariary/blog/pull/57
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 310
-    deletions: 479
-    changedFiles: 1
-    author: unhappychoice
-    createdAt: 2026-03-26T13:11:07Z
-    mergedAt: 2026-03-26T14:14:49Z
-  - title: 'feat: add blog post "AI journaling is a spectrum" with distribution channels'
-    body: >-
-      - Add Pillar 1 category definition post targeting `ai journaling` (9,900/mo), mapping AI journaling as a
-      continuous spectrum from chat-based writing partners to fully automatic diary generation
-
-      - Create distribution channel files: X Article (story-driven angle), X reply, Bluesky post, and note artic...
-    url: https://github.com/deariary/blog/pull/58
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 254
-    deletions: 1
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-26T14:52:40Z
-    mergedAt: 2026-03-26T14:53:46Z
-  - title: "feat: add Diarium vs deariary comparison post"
-    body: >-
-      - Add Pillar 3 competitor capture blog post: "Diarium vs deariary: cross-platform manual vs fully automatic"
-
-      - Target keyword: `diarium app` (590/mo, +84% YoY)
-
-      - Fact-checked against diariumapp.com, App Store (4.8, 1.8K ratings), Google Play (4.5, 20K+ reviews, 500K+
-      downloads), and Diarium communit...
-    url: https://github.com/deariary/blog/pull/56
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 189
-    deletions: 2
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-26T10:59:42Z
-    mergedAt: 2026-03-26T11:00:13Z
   - title: "feat: add view transition for smooth page fade-in/out"
     body: >-
       - Add CSS-based cross-document View Transitions API (`@view-transition { navigation: auto }`) for smooth
@@ -581,605 +240,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-03-26T09:14:21Z
     mergedAt: 2026-03-26T09:21:02Z
-  - title: "fix: prevent flash during view transition"
-    body: |-
-      - View transition 時にページが一瞬暗く(黒く)フラッシュする問題を修正
-      - fade-out (0.2s) と fade-in (0.3s) の duration が異なっていたため、中間地点で両方の opacity が低くなり背景色が透けていた
-      - `html` に背景色が未設定(デフォルト白)で、`body`/`#main` の `$color-dark` と不一致だった
-    url: https://github.com/unhappychoice/blog/pull/687
-    repository: unhappychoice/blog
-    state: merged
-    labels: []
-    additions: 13
-    deletions: 2
-    changedFiles: 2
-    author: unhappychoice
-    createdAt: 2026-03-26T10:10:16Z
-    mergedAt: 2026-03-26T10:14:22Z
-  - title: "daily-log: 2026-03-25"
-    body: >-
-      Auto-generated daily log for 2026-03-25
-
-
-      ## Summary by CodeRabbit
-
-
-      * **Chores**
-       * Updated internal caches for GitHub repository statistics and Steam gameplay metrics.
-       * Added new data collection snapshots for GitHub activity, Linear issues, Slack messages, Steam gameplay, weather observations, and...
-    url: https://github.com/unhappychoice/hibinoki/pull/91
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 1886
-    deletions: 74
-    changedFiles: 10
-    author: unhappychoice
-    createdAt: 2026-03-26T06:27:18Z
-    mergedAt: 2026-03-26T06:27:32Z
-  - title: "feat: add blog post 'Life logging without the effort'"
-    body: >-
-      - Add Pillar 1 category definition blog post "Life logging without the effort" targeting `life logging` (2,900/mo)
-
-      - Traces the lifelogging movement (Gordon Bell's MyLifeBits, Narrative Clip, Google Glass) to its collapse, then
-      reframes the impulse: your apps already capture your day, an LLM compose...
-    url: https://github.com/deariary/blog/pull/55
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 230
-    deletions: 2
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-25T17:00:31Z
-    mergedAt: 2026-03-25T17:06:56Z
-  - title: "feat: add Blog column to footer with News, Posts, and Changelog links"
-    body: >-
-      - Add a dedicated **Blog** column to the footer, linking to the blog's main sections.
-
-      - Previously, Blog was a single link buried in the deariary column. Now it has its own column with direct links to
-      each section.
-    url: https://github.com/deariary/lp/pull/138
-    repository: deariary/lp
-    state: merged
-    labels: []
-    additions: 188
-    deletions: 0
-    changedFiles: 44
-    author: unhappychoice
-    createdAt: 2026-03-25T13:35:39Z
-    mergedAt: 2026-03-25T13:43:21Z
-  - title: "feat: add Discord integration changelog post"
-    body: |-
-      - Add changelog post announcing Discord as a new integration (`2026-04-11-new-integration-discord.md`)
-      - Mark "New integration: Discord" as published in `docs/content-ideas.md`
-    url: https://github.com/deariary/blog/pull/54
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 22
-    deletions: 1
-    changedFiles: 2
-    author: unhappychoice
-    createdAt: 2026-03-25T13:26:05Z
-    mergedAt: 2026-03-25T13:36:43Z
-  - title: "feat: make Discord integration publicly available"
-    body: >-
-      - Change Discord integration visibility from `coming_soon` to `public` in the integration master repository.
-
-      - Move DISCORD entry to the public (active) group in the `ALL` array.
-
-
-      Discord integration implementation was completed in prior PRs (#724, #726, #727). This PR makes it visible and
-      connectab...
-    url: https://github.com/deariary/backend/pull/728
-    repository: deariary/backend
-    state: merged
-    labels: []
-    additions: 2
-    deletions: 2
-    changedFiles: 1
-    author: unhappychoice
-    createdAt: 2026-03-25T11:57:47Z
-    mergedAt: 2026-03-25T12:00:10Z
-  - title: "feat: add Discord integration page and activate in all 42 locales"
-    body: >-
-      - Discord integration is now live in the frontend, so this PR adds the corresponding LP page and marks Discord as
-      active across all locales.
-
-      - Content (OAuth2 + Bot hybrid auth, data collected, permissions, plan availability) is aligned with the
-      `deariary/frontend` implementation.
-    url: https://github.com/deariary/lp/pull/136
-    repository: deariary/lp
-    state: merged
-    labels: []
-    additions: 1136
-    deletions: 169
-    changedFiles: 44
-    author: unhappychoice
-    createdAt: 2026-03-25T12:55:45Z
-    mergedAt: 2026-03-25T13:29:49Z
-  - title: "feat: add gaming diary blog post, channels, and blog-writer skill"
-    body: >-
-      - **New blog post:** "Your gaming diary writes itself" targeting `gaming journal` (2,400/mo, +53% YoY). Steam +
-      Discord use case article with private Discord channel as gaming notebook angle.
-
-      - **Distribution channels:** X Article, X reply, Bluesky post, note article (Japanese) for the gaming diary ...
-    url: https://github.com/deariary/blog/pull/53
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 522
-    deletions: 104
-    changedFiles: 9
-    author: unhappychoice
-    createdAt: 2026-03-25T11:34:09Z
-    mergedAt: 2026-03-25T11:42:02Z
-  - title: "feat: add /changelog/ section and write initial release posts"
-    body: |-
-      - Add dedicated `/changelog/` route for release notes, separate from `/news/` and `/posts/`
-      - Write 3 initial release posts covering user-facing changes since 3/10
-      - Document the release notes writing workflow in AGENTS.md
-    url: https://github.com/deariary/blog/pull/52
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 443
-    deletions: 80
-    changedFiles: 17
-    author: unhappychoice
-    createdAt: 2026-03-25T08:56:46Z
-    mergedAt: 2026-03-25T09:33:12Z
-  - title: "fix: remove href from connected integration cards to prevent link interception"
-    body: >-
-      - Connected タブの連携カードで「設定」ボタンをクリックしても about ページに飛んでしまうバグを修正
-
-      - カード全体が `<a href="/integrations/{slug}/about">` でラップされていたため、内側の「設定」ボタン (`/integrations/{slug}`) のクリックイベントが親の
-      `<a>` に吸収されていた
-
-      - Connected カードには「詳細」「設定」の明示的なアクションボタンがあるので、カード自体の `href` を削除
-    url: https://github.com/deariary/frontend/pull/497
-    repository: deariary/frontend
-    state: merged
-    labels: []
-    additions: 0
-    deletions: 2
-    changedFiles: 1
-    author: unhappychoice
-    createdAt: 2026-03-25T10:38:01Z
-    mergedAt: 2026-03-25T10:43:35Z
-  - title: "daily-log: 2026-03-24"
-    body: >-
-      Auto-generated daily log for 2026-03-24
-
-
-      ## Summary by CodeRabbit
-
-
-      * **Chores**
-       * Updated cached GitHub repository statistics and Steam playtime metrics
-       * Added daily data snapshots capturing GitHub activity, Linear issues, Slack messages, Steam achievements, weather observations, and location che...
-    url: https://github.com/unhappychoice/hibinoki/pull/90
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 1573
-    deletions: 68
-    changedFiles: 10
-    author: unhappychoice
-    createdAt: 2026-03-24T20:22:42Z
-    mergedAt: 2026-03-24T20:22:56Z
-  - title: "fix: strip query string from spaNavigate path state to prevent false 404"
-    body: |-
-      - OAuth 連携完了後にフロントエンドへリダイレクトされた際、404 (SpaNotFound) が表示されるバグを修正
-      - `spaNavigate` が `href` をクエリパラメータ込みでそのまま path state にセットしていたため、`matchRoute` がスラッグのマッチに失敗していた
-      - `new URL(href, origin).pathname` で pathname のみを抽出してから state にセットするよう変更
-    url: https://github.com/deariary/frontend/pull/495
-    repository: deariary/frontend
-    state: merged
-    labels: []
-    additions: 4
-    deletions: 1
-    changedFiles: 1
-    author: unhappychoice
-    createdAt: 2026-03-25T10:20:36Z
-    mergedAt: 2026-03-25T10:29:07Z
-  - title: "fix: restore view transitions for SPA navigation"
-    body: >-
-      - SPA化で `next/link` を `SpaLink` (`history.pushState` + `popstate`) に切り替えた際、View Transition が効かなくなっていた
-
-      - 原因: `popstate` 経由の state 更新は transition lane に乗らないため、React の `<ViewTransition>` が
-      `document.startViewTransition()` を呼ばなかった
-
-      - `SpaRouter` context を導入し、パスを React state として `startTransition` 内で更新すること...
-    url: https://github.com/deariary/frontend/pull/494
-    repository: deariary/frontend
-    state: merged
-    labels: []
-    additions: 142
-    deletions: 48
-    changedFiles: 19
-    author: unhappychoice
-    createdAt: 2026-03-24T15:42:16Z
-    mergedAt: 2026-03-24T18:01:04Z
-  - title: "fix: enforce trailing-slash-less URLs across the blog"
-    body: >-
-      Closes deariary/lp#135
-
-
-      - Switch Astro `trailingSlash` from `'always'` to `'never'`
-
-      - Configure Cloudflare Pages `html_handling = "drop-trailing-slash"` in `wrangler.toml` so trailing-slash requests
-      308-redirect to the clean version
-
-      - Remove trailing slashes from all internal links, canonical URLs, ...
-    url: https://github.com/deariary/blog/pull/50
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 48
-    deletions: 45
-    changedFiles: 23
-    author: unhappychoice
-    createdAt: 2026-03-24T12:10:57Z
-    mergedAt: 2026-03-24T12:26:00Z
-  - title: "fix: remove invalid guilds.channels.read OAuth scope for Discord"
-    body: |-
-      - Remove `guilds.channels.read` from Discord OAuth scopes (not a valid OAuth2 user scope)
-      - Switch channel listing from user token to Bot token
-    url: https://github.com/deariary/backend/pull/726
-    repository: deariary/backend
-    state: merged
-    labels: []
-    additions: 10
-    deletions: 10
-    changedFiles: 2
-    author: unhappychoice
-    createdAt: 2026-03-24T12:41:12Z
-    mergedAt: 2026-03-24T12:51:46Z
-  - title: "fix: remove me from Discord source config, fetch at runtime"
-    body: |-
-      - Remove `me` field from Discord source config (was stale if user changed display name)
-      - Fetcher now calls `GET /users/@me` with OAuth token on every run for fresh identity
-    url: https://github.com/deariary/backend/pull/727
-    repository: deariary/backend
-    state: merged
-    labels: []
-    additions: 60
-    deletions: 79
-    changedFiles: 4
-    author: unhappychoice
-    createdAt: 2026-03-24T13:18:31Z
-    mergedAt: 2026-03-24T13:48:28Z
-  - title: "feat: add Discord integration frontend"
-    body: |-
-      - Add full Discord integration UI (detail page, about page, channel config, sync status, disconnect)
-      - Wire up backend API endpoints: OAuth flow, channel listing, source config, disconnect
-      - Add i18n keys for all 42 locales (en/ja translated, others English fallback)
-    url: https://github.com/deariary/frontend/pull/492
-    repository: deariary/frontend
-    state: merged
-    labels: []
-    additions: 3389
-    deletions: 4
-    changedFiles: 61
-    author: unhappychoice
-    createdAt: 2026-03-24T11:52:07Z
-    mergedAt: 2026-03-24T15:21:33Z
-  - title: "fix: remove trailing slash from root redirect target"
-    body: >-
-      - Strip trailing slash from the root redirect target in edge middleware to eliminate a double 308 redirect chain
-      (`/ -> /en/ -> /en`)
-
-      - Point `x-default` hreflang to `/en` instead of `/` for the index page, avoiding a redirect on a search-engine
-      signal URL
-    url: https://github.com/deariary/lp/pull/133
-    repository: deariary/lp
-    state: merged
-    labels: []
-    additions: 2
-    deletions: 2
-    changedFiles: 2
-    author: unhappychoice
-    createdAt: 2026-03-24T11:37:45Z
-    mergedAt: 2026-03-24T11:44:58Z
-  - title: "daily-log: 2026-03-23"
-    body: |-
-      Auto-generated daily log for 2026-03-23
-
-      ## Summary by CodeRabbit
-
-      * **Chores**
-       * Updated cached GitHub repository statistics and Steam playtime metrics
-       * Added daily activity snapshots including GitHub commits, pull requests, and issues
-       * Added new daily tracking records for Linear issue managem...
-    url: https://github.com/unhappychoice/hibinoki/pull/89
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 2140
-    deletions: 47
-    changedFiles: 10
-    author: unhappychoice
-    createdAt: 2026-03-23T20:22:29Z
-    mergedAt: 2026-03-23T20:22:43Z
-  - title: "fix: render Modal via portal and let SpaLink honor target=_blank"
-    body: "- **Modal z-index fix**: Modal was rendered inside the `ViewTransition` wrapper which creates a stacking context
-      via `view-transition-name`. Entry cards with `transform` also create stacking contexts, causing modals to appear
-      behind them. Fixed by rendering Modal into `document.body` via `createPort..."
-    url: https://github.com/deariary/frontend/pull/491
-    repository: deariary/frontend
-    state: merged
-    labels: []
-    additions: 120
-    deletions: 47
-    changedFiles: 11
-    author: unhappychoice
-    createdAt: 2026-03-24T07:33:22Z
-    mergedAt: 2026-03-24T08:17:14Z
-  - title: "chore: clean up view transition PR artifacts"
-    body: |-
-      - Remove `loading.tsx` from `[day]` segment (unnecessary with `force-static` layout)
-      - Revert entry cards from `<Link>` back to original `<article onClick={router.push}>` pattern
-      - Revert tag elements from `<span onClick>` back to original `<Link>` with `stopPropagation`
-      - Revert related test change...
-    url: https://github.com/deariary/frontend/pull/480
-    repository: deariary/frontend
-    state: merged
-    labels: []
-    additions: 571
-    deletions: 308
-    changedFiles: 131
-    author: unhappychoice
-    createdAt: 2026-03-23T18:28:14Z
-    mergedAt: 2026-03-24T05:08:42Z
-  - title: "feat: add Discord integration"
-    body: |-
-      - Discord OAuth連携 (`identify`, `guilds`, `guilds.channels.read`) とBot Tokenによるメッセージ履歴取得を実装
-      - チャンネル一覧APIはユーザーOAuthで権限フィルタ済み + Bot参加サーバーでフィルタ
-      - Cloud Run YAML / Secret Manager (staging + production) を設定済み
-
-      Closes #169
-    url: https://github.com/deariary/backend/pull/724
-    repository: deariary/backend
-    state: merged
-    labels: []
-    additions: 1497
-    deletions: 10
-    changedFiles: 22
-    author: unhappychoice
-    createdAt: 2026-03-24T09:43:33Z
-    mergedAt: 2026-03-24T11:29:19Z
-  - title: "feat: enable View Transition API for smooth page navigation"
-    body: >-
-      - Enable `experimental.viewTransition` in Next.js config (forward-compatible flag)
-
-      - Wrap root layout children with React 19 `<ViewTransition>` component to actually trigger the browser View
-      Transition API during page navigations
-
-      - Add `react/canary` types to tsconfig for `<ViewTransition>` type sup...
-    url: https://github.com/deariary/frontend/pull/478
-    repository: deariary/frontend
-    state: merged
-    labels: []
-    additions: 209
-    deletions: 108
-    changedFiles: 14
-    author: unhappychoice
-    createdAt: 2026-03-23T17:03:25Z
-    mergedAt: 2026-03-23T18:24:05Z
-  - title: "feat: add page transition animations and custom scrollbar styling"
-    body: >-
-      - Add View Transitions API-based page transition animations (subtle fade-in/out) via Astro's `<ViewTransitions />`
-      component
-
-      - Keep header fixed during transitions with `transition:animate="none"`
-
-      - Add `scrollbar-gutter: stable` to prevent layout shift when scrollbar appears/disappears
-
-      - Style scro...
-    url: https://github.com/deariary/blog/pull/49
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 45
-    deletions: 1
-    changedFiles: 3
-    author: unhappychoice
-    createdAt: 2026-03-23T16:20:45Z
-    mergedAt: 2026-03-23T16:44:42Z
-  - title: "content: add privacy-first diary generation post"
-    body: >-
-      - Add new essay/product blog post: "Privacy-first diary generation"
-      (`2026-04-07-privacy-first-diary-generation.md`)
-
-      - Target keyword: `private journal app` (590/mo, +156% YoY)
-
-      - Update `docs/content-ideas.md` with published status and keyword strategy entry
-    url: https://github.com/deariary/blog/pull/46
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 207
-    deletions: 2
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-23T07:02:56Z
-    mergedAt: 2026-03-23T07:28:18Z
-  - title: "content: add public devlog use case post and distribution channels"
-    body: >-
-      - Add new blog post: "Your public devlog, written by your tools"
-      (`2026-04-09-your-public-devlog-written-by-your-tools.md`)
-       - Target keyword: `building in public` (2,400/mo, +26% YoY)
-       - Tags: `usecase`, `essay`
-       - Angle: GitHub + Todoist + Bluesky combine into an automatic devlog for builders. Dif...
-    url: https://github.com/deariary/blog/pull/48
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 159
-    deletions: 1
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-23T12:42:11Z
-    mergedAt: 2026-03-23T12:44:12Z
-  - title: "content: add Rosebud vs deariary comparison post and distribution channels"
-    body: >-
-      - Add Rosebud vs deariary comparison blog post (`src/content/blog/2026-04-08-rosebud-vs-deariary.md`). SEO target:
-      `rosebud app` (1,600/mo). Pillar 3 competitor capture article.
-
-      - Add distribution channels: X Article, X self-reply, and Bluesky post. note article skipped (comparison articles
-      are excl...
-    url: https://github.com/deariary/blog/pull/47
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 184
-    deletions: 2
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-23T10:44:49Z
-    mergedAt: 2026-03-23T10:48:40Z
-  - title: "content: add Reflectly vs deariary comparison post"
-    body: >-
-      - Add Pillar 3 competitor capture blog post: "Reflectly asks you questions. deariary already knows the answers."
-      targeting `reflectly` keyword (2,900/mo, +309% YoY)
-
-      - Add X Article, X reply, and Bluesky post for distribution
-
-      - Update docs/content-ideas.md to mark Reflectly comparison as published
-    url: https://github.com/deariary/blog/pull/45
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 190
-    deletions: 2
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-03-23T06:08:42Z
-    mergedAt: 2026-03-23T06:16:52Z
-  - title: "content: add 'Your digital memory keeper' blog post and distribution channels"
-    body: >-
-      - Add Pillar 1 category-definition blog post: **"Your digital memory keeper"**
-      (`src/content/blog/2026-04-05-your-digital-memory-keeper.md`)
-       - Target keyword: `digital memory keeper` (320/mo, +1,375% YoY)
-       - Explores the gap between abundant digital data and actual memory, digital ephemerality, and...
-    url: https://github.com/deariary/blog/pull/44
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 236
-    deletions: 3
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-23T05:49:33Z
-    mergedAt: 2026-03-23T05:51:56Z
-  - title: "daily-log: 2026-03-22"
-    body: >-
-      Auto-generated daily log for 2026-03-22
-
-
-      ## Summary by CodeRabbit
-
-
-      * **Chores**
-       * Updated GitHub statistics cache with the latest star count increments for multiple repositories.
-       * Added new daily summary document and data collection files for March 22, 2026, capturing GitHub repository metrics an...
-    url: https://github.com/unhappychoice/hibinoki/pull/88
-    repository: unhappychoice/hibinoki
-    state: merged
-    labels: []
-    additions: 895
-    deletions: 25
-    changedFiles: 9
-    author: unhappychoice
-    createdAt: 2026-03-22T20:13:00Z
-    mergedAt: 2026-03-22T20:13:13Z
-  - title: "content: add 8 note article drafts for all essay blog posts"
-    body: >-
-      - Add Japanese note article drafts for all 8 essay-style blog posts that haven't been converted yet
-
-      - All articles follow `note-writing-guide.md` conventions: だ・である style, service account perspective, no direct
-      reader address, Japanese essay restructuring (not sentence-by-sentence translation)
-
-      - Bui...
-    url: https://github.com/deariary/blog/pull/43
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 610
-    deletions: 0
-    changedFiles: 8
-    author: unhappychoice
-    createdAt: 2026-03-22T15:00:55Z
-    mergedAt: 2026-03-22T15:01:16Z
-  - title: "fix: fetch news and regular posts independently on home page"
-    body: >-
-      - **Bug:** Home page News section showed only 1 article (or none) because news and regular posts were filtered
-      from a shared pool of the 8 most recent posts. Since regular posts are published more frequently, news posts got
-      pushed out of the window.
-
-      - **Fix:** Fetch news and regular posts independen...
-    url: https://github.com/deariary/blog/pull/41
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 4
-    deletions: 5
-    changedFiles: 1
-    author: unhappychoice
-    createdAt: 2026-03-22T13:07:25Z
-    mergedAt: 2026-03-22T13:17:27Z
-  - title: "fix: enforce no trailing slash via vercel.json and middleware"
-    body: >-
-      - Add `vercel.json` with `trailingSlash: false` so Vercel redirects slash-suffixed URLs (e.g. `/ja/`) to their
-      canonical form (`/ja`), aligning with Astro's `trailingSlash: "never"` setting.
-
-      - Strip trailing slashes in Edge Middleware before locale redirect to prevent intermediate URLs like `/en/pri...
-    url: https://github.com/deariary/lp/pull/129
-    repository: deariary/lp
-    state: merged
-    labels: []
-    additions: 5
-    deletions: 1
-    changedFiles: 2
-    author: unhappychoice
-    createdAt: 2026-03-22T12:37:05Z
-    mergedAt: 2026-03-22T12:50:39Z
-  - title: "feat: add note distribution channel"
-    body: |-
-      - Add `channels/note-articles/` directory and `channels/note-writing-guide.md` for note.com distribution workflow
-      - Add `scripts/generate-note-cover.mjs` (satori-based cover image generator, 1280x670, Klee One font for Japanese)
-      - Add `src/assets/fonts/KleeOne-Regular.ttf` for Japanese title renderi...
-    url: https://github.com/deariary/blog/pull/42
-    repository: deariary/blog
-    state: merged
-    labels: []
-    additions: 521
-    deletions: 2
-    changedFiles: 7
-    author: unhappychoice
-    createdAt: 2026-03-22T14:18:38Z
-    mergedAt: 2026-03-22T14:25:02Z
-  - title: "fix: align hreflang and localized routes with available pages"
-    body: >-
-      - restrict `hreflang` alternates to locales where each page actually exists, preventing alternates to missing or
-      redirected legal/API URLs
-
-      - generate the API docs page only for `en` and update footer links to point to `/en/api` so sitemap and internal
-      links stay canonical
-
-      - keep legal page alternate...
-    url: https://github.com/deariary/lp/pull/127
-    repository: deariary/lp
-    state: merged
-    labels: []
-    additions: 36
-    deletions: 16
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-03-22T02:11:00Z
-    mergedAt: 2026-03-22T02:16:48Z
   - title: "fix: use REST API for user search to fix incorrect sort order"
     body: The GraphQL user search uses `sort:followers-desc` in the query string, but GitHub does not support the
       `sort:followers` qualifier for user search. This causes non-deterministic results and missing users in the
@@ -1240,29 +300,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:09:30Z
     mergedAt: 2026-03-27T06:00:45Z
-  - title: "chore(deps): bump insta from 1.46.3 to 1.47.0"
-    body: |-
-      Bumps [insta](https://github.com/mitsuhiko/insta) from 1.46.3 to 1.47.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/mitsuhiko/insta/releases">insta's releases</a>.</em></p>
-      <blockquote>
-      <h2>1.47.0</h2>
-      <h2>Release Notes</h2>
-      <ul>
-      <li>Add <code>Comparat...
-    url: https://github.com/unhappychoice/gittype/pull/401
-    repository: unhappychoice/gittype
-    state: merged
-    labels:
-      - dependencies
-      - rust
-    additions: 6
-    deletions: 16
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-27T12:54:57Z
-    mergedAt: 2026-03-27T13:11:15Z
   - title: "chore(deps-dev): bump parser from 3.3.10.2 to 3.3.11.1"
     body: >-
       Bumps [parser](https://github.com/whitequark/parser) from 3.3.10.2 to 3.3.11.1.
@@ -1291,29 +328,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:09:19Z
     mergedAt: 2026-03-27T06:00:48Z
-  - title: "chore(deps): Bump ffi from 1.17.3 to 1.17.4"
+  - title: "chore(deps): bump insta from 1.46.3 to 1.47.0"
     body: |-
-      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
+      Bumps [insta](https://github.com/mitsuhiko/insta) from 1.46.3 to 1.47.0.
       <details>
-      <summary>Changelog</summary>
-      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mitsuhiko/insta/releases">insta's releases</a>.</em></p>
       <blockquote>
-      <h2>1.17.4 / 2026-03-26</h2>
-      <p>Fixed:</p>
+      <h2>1.47.0</h2>
+      <h2>Release Notes</h2>
       <ul>
-      <li>Fix union by-value AB...
-    url: https://github.com/unhappychoice/blog/pull/689
-    repository: unhappychoice/blog
+      <li>Add <code>Comparat...
+    url: https://github.com/unhappychoice/gittype/pull/401
+    repository: unhappychoice/gittype
     state: merged
     labels:
       - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
+      - rust
+    additions: 6
+    deletions: 16
+    changedFiles: 2
     author: dependabot[bot]
-    createdAt: 2026-03-27T03:07:21Z
-    mergedAt: 2026-03-27T06:01:00Z
+    createdAt: 2026-03-27T12:54:57Z
+    mergedAt: 2026-03-27T13:11:15Z
   - title: "chore(deps): bump insta from 1.46.3 to 1.47.0"
     body: |-
       Bumps [insta](https://github.com/mitsuhiko/insta) from 1.46.3 to 1.47.0.
@@ -1337,6 +374,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:08:04Z
     mergedAt: 2026-03-27T06:00:56Z
+  - title: "chore(deps): Bump ffi from 1.17.3 to 1.17.4"
+    body: |-
+      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
+      <details>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
+      <blockquote>
+      <h2>1.17.4 / 2026-03-26</h2>
+      <p>Fixed:</p>
+      <ul>
+      <li>Fix union by-value AB...
+    url: https://github.com/unhappychoice/blog/pull/689
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:07:21Z
+    mergedAt: 2026-03-27T06:01:00Z
   - title: "chore(deps): bump ffi from 1.17.3 to 1.17.4"
     body: |-
       Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
@@ -1360,6 +420,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:06:49Z
     mergedAt: 2026-03-27T06:00:51Z
+  - title: "build(deps-dev): Bump ffi from 1.17.3 to 1.17.4"
+    body: |-
+      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
+      <details>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
+      <blockquote>
+      <h2>1.17.4 / 2026-03-26</h2>
+      <p>Fixed:</p>
+      <ul>
+      <li>Fix union by-value AB...
+    url: https://github.com/unhappychoice/terminal_image/pull/558
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:04:49Z
+    mergedAt: 2026-03-27T06:01:05Z
   - title: "chore(deps): bump parser from 3.3.10.2 to 3.3.11.1"
     body: >-
       Bumps [parser](https://github.com/whitequark/parser) from 3.3.10.2 to 3.3.11.1.
@@ -1444,29 +527,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:04:34Z
     mergedAt: 2026-03-27T06:01:34Z
-  - title: "build(deps-dev): Bump ffi from 1.17.3 to 1.17.4"
-    body: |-
-      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
-      <details>
-      <summary>Changelog</summary>
-      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
-      <blockquote>
-      <h2>1.17.4 / 2026-03-26</h2>
-      <p>Fixed:</p>
-      <ul>
-      <li>Fix union by-value AB...
-    url: https://github.com/unhappychoice/terminal_image/pull/558
-    repository: unhappychoice/terminal_image
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 2
-    deletions: 2
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-27T03:04:49Z
-    mergedAt: 2026-03-27T06:01:05Z
   - title: "chore(deps-dev): bump parser from 3.3.10.2 to 3.3.11.1"
     body: >-
       Bumps [parser](https://github.com/whitequark/parser) from 3.3.10.2 to 3.3.11.1.
@@ -1495,29 +555,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:04:15Z
     mergedAt: 2026-03-27T06:01:20Z
-  - title: "build(deps-dev): bump ffi from 1.17.3 to 1.17.4"
-    body: |-
-      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
-      <details>
-      <summary>Changelog</summary>
-      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
-      <blockquote>
-      <h2>1.17.4 / 2026-03-26</h2>
-      <p>Fixed:</p>
-      <ul>
-      <li>Fix union by-value AB...
-    url: https://github.com/irasutoya-tools/irasutoya/pull/502
-    repository: irasutoya-tools/irasutoya
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-27T03:04:04Z
-    mergedAt: 2026-03-27T06:01:25Z
   - title: ⬆️ Bump parser from 3.3.10.2 to 3.3.11.1
     body: >-
       Bumps [parser](https://github.com/whitequark/parser) from 3.3.10.2 to 3.3.11.1.
@@ -1546,7 +583,7 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:04:05Z
     mergedAt: 2026-03-27T06:01:23Z
-  - title: "chore(deps-dev): bump ffi from 1.17.3 to 1.17.4"
+  - title: "build(deps-dev): bump ffi from 1.17.3 to 1.17.4"
     body: |-
       Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
       <details>
@@ -1557,8 +594,8 @@ pullRequests:
       <p>Fixed:</p>
       <ul>
       <li>Fix union by-value AB...
-    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/624
-    repository: irasutoya-tools/irasutoya-cli
+    url: https://github.com/irasutoya-tools/irasutoya/pull/502
+    repository: irasutoya-tools/irasutoya
     state: merged
     labels:
       - dependencies
@@ -1567,8 +604,8 @@ pullRequests:
     deletions: 1
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-27T03:02:40Z
-    mergedAt: 2026-03-27T06:01:15Z
+    createdAt: 2026-03-27T03:04:04Z
+    mergedAt: 2026-03-27T06:01:25Z
   - title: "chore(deps-dev): bump parser from 3.3.10.2 to 3.3.11.1"
     body: >-
       Bumps [parser](https://github.com/whitequark/parser) from 3.3.10.2 to 3.3.11.1.
@@ -1597,25 +634,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-27T03:03:17Z
     mergedAt: 2026-03-27T06:01:11Z
-  - title: "chore(deps): bump sha2 from 0.10.9 to 0.11.0"
+  - title: "chore(deps-dev): bump ffi from 1.17.3 to 1.17.4"
     body: |-
-      Bumps [sha2](https://github.com/RustCrypto/hashes) from 0.10.9 to 0.11.0.
+      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
       <details>
-      <summary>Commits</summary>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
+      <blockquote>
+      <h2>1.17.4 / 2026-03-26</h2>
+      <p>Fixed:</p>
       <ul>
-      <li><a href="https://github.com/RustCrypto/hashes/commit/ffe093984c004769747e998f77da8ff7c0e7a765"><code>ffe0939</code></a> Release sha2 0.11.0 (<a href="https://redirect.github.com/Ru...
-    url: https://github.com/unhappychoice/gittype/pull/400
-    repository: unhappychoice/gittype
+      <li>Fix union by-value AB...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/624
+    repository: irasutoya-tools/irasutoya-cli
     state: merged
     labels:
       - dependencies
-      - rust
-    additions: 63
-    deletions: 8
-    changedFiles: 2
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-26T12:55:08Z
-    mergedAt: 2026-03-26T16:44:24Z
+    createdAt: 2026-03-27T03:02:40Z
+    mergedAt: 2026-03-27T06:01:15Z
   - title: "chore(deps-dev): Bump eslint-plugin-jest from 29.15.0 to 29.15.1 in /packages/frontend"
     body: >-
       Bumps [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) from 29.15.0 to 29.15.1.
@@ -1642,6 +683,25 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T07:44:44Z
     mergedAt: 2026-03-26T10:57:13Z
+  - title: "chore(deps): bump sha2 from 0.10.9 to 0.11.0"
+    body: |-
+      Bumps [sha2](https://github.com/RustCrypto/hashes) from 0.10.9 to 0.11.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/RustCrypto/hashes/commit/ffe093984c004769747e998f77da8ff7c0e7a765"><code>ffe0939</code></a> Release sha2 0.11.0 (<a href="https://redirect.github.com/Ru...
+    url: https://github.com/unhappychoice/gittype/pull/400
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 63
+    deletions: 8
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-26T12:55:08Z
+    mergedAt: 2026-03-26T16:44:24Z
   - title: "chore(deps): bump json from 2.19.2 to 2.19.3"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
@@ -1664,28 +724,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T03:10:17Z
     mergedAt: 2026-03-26T10:57:26Z
-  - title: "chore(deps): bump json from 2.19.2 to 2.19.3"
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.3</h2>
-      <ul>
-      <li>Fix handling of unescaped control characters preceeded...
-    url: https://github.com/circleci-tools/circleci-cli/pull/977
-    repository: circleci-tools/circleci-cli
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-26T03:04:50Z
-    mergedAt: 2026-03-26T10:57:21Z
   - title: "chore(deps): Bump json from 2.19.2 to 2.19.3"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
@@ -1708,6 +746,28 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T03:05:57Z
     mergedAt: 2026-03-26T09:21:20Z
+  - title: "chore(deps): bump json from 2.19.2 to 2.19.3"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.3</h2>
+      <ul>
+      <li>Fix handling of unescaped control characters preceeded...
+    url: https://github.com/circleci-tools/circleci-cli/pull/977
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-26T03:04:50Z
+    mergedAt: 2026-03-26T10:57:21Z
   - title: "build(deps-dev): bump json from 2.19.2 to 2.19.3"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
@@ -1730,28 +790,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T03:04:49Z
     mergedAt: 2026-03-26T10:57:35Z
-  - title: "build(deps-dev): Bump json from 2.19.2 to 2.19.3"
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.3</h2>
-      <ul>
-      <li>Fix handling of unescaped control characters preceeded...
-    url: https://github.com/unhappychoice/terminal_image/pull/556
-    repository: unhappychoice/terminal_image
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-26T03:04:14Z
-    mergedAt: 2026-03-26T10:57:31Z
   - title: "chore(deps-dev): bump electron from 41.0.3 to 41.0.4"
     body: |-
       Bumps [electron](https://github.com/electron/electron) from 41.0.3 to 41.0.4.
@@ -1773,28 +811,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T03:04:29Z
     mergedAt: 2026-03-26T10:57:40Z
-  - title: ⬆️ Bump json from 2.19.2 to 2.19.3
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.3</h2>
-      <ul>
-      <li>Fix handling of unescaped control characters preceeded...
-    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/162
-    repository: bitflyer-tools/bitflyer-cli
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-26T03:04:07Z
-    mergedAt: 2026-03-26T10:57:54Z
   - title: "chore(deps-dev): bump json from 2.19.2 to 2.19.3"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
@@ -1817,6 +833,50 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T03:04:16Z
     mergedAt: 2026-03-26T10:57:49Z
+  - title: "build(deps-dev): Bump json from 2.19.2 to 2.19.3"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.3</h2>
+      <ul>
+      <li>Fix handling of unescaped control characters preceeded...
+    url: https://github.com/unhappychoice/terminal_image/pull/556
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-26T03:04:14Z
+    mergedAt: 2026-03-26T10:57:31Z
+  - title: ⬆️ Bump json from 2.19.2 to 2.19.3
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.3</h2>
+      <ul>
+      <li>Fix handling of unescaped control characters preceeded...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/162
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-26T03:04:07Z
+    mergedAt: 2026-03-26T10:57:54Z
   - title: "build(deps-dev): bump rbs from 3.10.3 to 3.10.4"
     body: |-
       Bumps [rbs](https://github.com/ruby/rbs) from 3.10.3 to 3.10.4.
@@ -1838,27 +898,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T03:04:05Z
     mergedAt: 2026-03-26T10:57:59Z
-  - title: "chore(deps): bump picomatch from 2.3.1 to 2.3.2"
-    body: |-
-      Bumps [picomatch](https://github.com/micromatch/picomatch) from 2.3.1 to 2.3.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/micromatch/picomatch/releases">picomatch's releases</a>.</em></p>
-      <blockquote>
-      <h2>2.3.2</h2>
-      <p>This is a security release fixin...
-    url: https://github.com/bitflyer-tools/cycle-flyer/pull/856
-    repository: bitflyer-tools/cycle-flyer
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 3
-    deletions: 3
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-25T22:50:41Z
-    mergedAt: 2026-03-26T10:58:03Z
   - title: "chore(deps-dev): bump json from 2.19.2 to 2.19.3"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
@@ -1881,6 +920,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-26T03:03:16Z
     mergedAt: 2026-03-26T10:57:44Z
+  - title: "chore(deps): bump picomatch from 2.3.1 to 2.3.2"
+    body: |-
+      Bumps [picomatch](https://github.com/micromatch/picomatch) from 2.3.1 to 2.3.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/micromatch/picomatch/releases">picomatch's releases</a>.</em></p>
+      <blockquote>
+      <h2>2.3.2</h2>
+      <p>This is a security release fixin...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/856
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-25T22:50:41Z
+    mergedAt: 2026-03-26T10:58:03Z
   - title: "chore(deps-dev): bump activesupport from 8.1.2.1 to 8.1.3"
     body: |-
       Bumps [activesupport](https://github.com/rails/rails) from 8.1.2.1 to 8.1.3.
@@ -1998,24 +1058,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-24T12:54:48Z
     mergedAt: 2026-03-24T13:04:17Z
-  - title: "feat: auto-fallback to next available port on EADDRINUSE"
-    body: >-
-      - When the default port (8521) is already in use, the server automatically tries the next port instead of crashing
-      with `EADDRINUSE`
-
-      - Retries up to 10 times (ports 8521–8531), logging each attempt
-
-      - The actual port is correctly reflected in the browser URL and CLI log output
-    url: https://github.com/unhappychoice/mdts/pull/614
-    repository: unhappychoice/mdts
-    state: merged
-    labels: []
-    additions: 132
-    deletions: 34
-    changedFiles: 4
-    author: hirotoKirimaru
-    createdAt: 2026-03-24T08:34:36Z
-    mergedAt: 2026-03-27T05:38:40Z
   - title: "chore(deps): bump toml_edit from 0.25.5+spec-1.1.0 to 0.25.6+spec-1.1.0"
     body: >-
       Bumps [toml_edit](https://github.com/toml-rs/toml) from 0.25.5+spec-1.1.0 to 0.25.6+spec-1.1.0.
@@ -2043,6 +1085,24 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-25T02:24:36Z
     mergedAt: 2026-03-25T08:14:05Z
+  - title: "feat: auto-fallback to next available port on EADDRINUSE"
+    body: >-
+      - When the default port (8521) is already in use, the server automatically tries the next port instead of crashing
+      with `EADDRINUSE`
+
+      - Retries up to 10 times (ports 8521–8531), logging each attempt
+
+      - The actual port is correctly reflected in the browser URL and CLI log output
+    url: https://github.com/unhappychoice/mdts/pull/614
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 132
+    deletions: 34
+    changedFiles: 4
+    author: hirotoKirimaru
+    createdAt: 2026-03-24T08:34:36Z
+    mergedAt: 2026-03-27T05:38:40Z
   - title: "chore(deps): Bump react-router-dom from 7.13.1 to 7.13.2 in /packages/frontend"
     body: >-
       Bumps [react-router-dom](https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom) from
@@ -2065,30 +1125,6 @@ pullRequests:
     changedFiles: 2
     author: dependabot[bot]
     createdAt: 2026-03-24T07:45:09Z
-    mergedAt: 2026-03-25T08:19:59Z
-  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.1 to 8.57.2 in /packages/frontend"
-    body: >-
-      Bumps
-      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
-      8.57.1 to 8.57.2.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a
-      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
-    url: https://github.com/unhappychoice/mdts/pull/611
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 234
-    deletions: 9
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-24T07:44:55Z
     mergedAt: 2026-03-25T08:19:59Z
   - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.1 to 8.57.2"
     body: >-
@@ -2138,6 +1174,30 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-24T07:44:31Z
     mergedAt: 2026-03-25T08:20:16Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.1 to 8.57.2 in /packages/frontend"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.57.1 to 8.57.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/611
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 234
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T07:44:55Z
+    mergedAt: 2026-03-25T08:19:59Z
   - title: "chore(deps-dev): Bump typescript-eslint from 8.57.1 to 8.57.2 in /packages/frontend"
     body: >-
       Bumps
@@ -2393,27 +1453,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-24T03:04:14Z
     mergedAt: 2026-03-24T05:24:46Z
-  - title: Bump typescript from 5.9.3 to 6.0.2
-    body: |-
-      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
-      <blockquote>
-      <h2>TypeScript 6.0</h2>
-      <p>For release notes, ch...
-    url: https://github.com/unhappychoice-vault/cycle-videos/pull/222
-    repository: unhappychoice-vault/cycle-videos
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 4
-    deletions: 4
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-24T03:04:37Z
-    mergedAt: 2026-03-24T05:24:50Z
   - title: "chore(deps-dev): bump typescript from 5.9.3 to 6.0.2"
     body: |-
       Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
@@ -2511,6 +1550,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-24T03:03:59Z
     mergedAt: 2026-03-24T05:18:39Z
+  - title: "chore(deps-dev): bump rubocop from 1.85.1 to 1.86.0"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.85.1 to 1.86.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.0</h2>
+      <h3>New features</h3>
+      <ul>
+      <li><a hre...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/666
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 11
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:03:57Z
+    mergedAt: 2026-03-24T05:18:36Z
   - title: "chore(deps): bump mcp from 0.9.0 to 0.9.1"
     body: >-
       Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.9.0 to 0.9.1.
@@ -2543,52 +1605,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-24T03:03:55Z
     mergedAt: null
-  - title: "chore(deps-dev): bump rubocop from 1.85.1 to 1.86.0"
-    body: |-
-      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.85.1 to 1.86.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
-      <blockquote>
-      <h2>RuboCop v1.86.0</h2>
-      <h3>New features</h3>
-      <ul>
-      <li><a hre...
-    url: https://github.com/bitflyer-tools/bitflyer/pull/666
-    repository: bitflyer-tools/bitflyer
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 11
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-24T03:03:57Z
-    mergedAt: 2026-03-24T05:18:36Z
-  - title: "chore(deps-dev): bump rubocop from 1.85.1 to 1.86.0"
-    body: |-
-      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.85.1 to 1.86.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
-      <blockquote>
-      <h2>RuboCop v1.86.0</h2>
-      <h3>New features</h3>
-      <ul>
-      <li><a hre...
-    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/621
-    repository: irasutoya-tools/irasutoya-cli
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 11
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-24T03:03:19Z
-    mergedAt: 2026-03-24T05:18:42Z
   - title: "chore(deps-dev): bump mcp from 0.9.0 to 0.9.1"
     body: >-
       Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.9.0 to 0.9.1.
@@ -2621,6 +1637,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-24T03:03:35Z
     mergedAt: 2026-03-24T05:12:58Z
+  - title: "chore(deps-dev): bump rubocop from 1.85.1 to 1.86.0"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.85.1 to 1.86.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.0</h2>
+      <h3>New features</h3>
+      <ul>
+      <li><a hre...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/621
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 11
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:03:19Z
+    mergedAt: 2026-03-24T05:18:42Z
   - title: "chore(deps): bump activesupport from 7.2.3 to 7.2.3.1"
     body: |-
       Bumps [activesupport](https://github.com/rails/rails) from 7.2.3 to 7.2.3.1.
@@ -2672,225 +1711,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-24T02:24:41Z
     mergedAt: 2026-03-24T05:13:35Z
-  - title: "chore(deps-dev): bump typescript from 5.9.3 to 6.0.2"
-    body: |-
-      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
-      <blockquote>
-      <h2>TypeScript 6.0</h2>
-      <p>For release notes, ch...
-    url: https://github.com/deariary/frontend/pull/490
-    repository: deariary/frontend
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 276
-    deletions: 250
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:49:17Z
-    mergedAt: 2026-03-24T15:21:58Z
-  - title: "chore(deps-dev): bump tailwindcss from 4.2.1 to 4.2.2"
-    body: >-
-      Bumps [tailwindcss](https://github.com/tailwindlabs/tailwindcss/tree/HEAD/packages/tailwindcss) from 4.2.1 to
-      4.2.2.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a href="https://github.com/tailwindlabs/tailwindcss/releases">tailwindcss's
-      releases</a>.</em></p>
-
-      <blockquote>
-
-      <h2>v4....
-    url: https://github.com/deariary/frontend/pull/489
-    repository: deariary/frontend
-    state: closed
-    labels:
-      - dependencies
-      - javascript
-    additions: 19
-    deletions: 5
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:49:01Z
-    mergedAt: null
-  - title: "chore(deps-dev): bump jsdom from 29.0.0 to 29.0.1"
-    body: |-
-      Bumps [jsdom](https://github.com/jsdom/jsdom) from 29.0.0 to 29.0.1.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/jsdom/jsdom/releases">jsdom's releases</a>.</em></p>
-      <blockquote>
-      <h2>v29.0.1</h2>
-      <ul>
-      <li>Fixed CSS parsing of <code>border</code>, <code>...
-    url: https://github.com/deariary/frontend/pull/487
-    repository: deariary/frontend
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 10
-    deletions: 10
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:48:42Z
-    mergedAt: 2026-03-24T05:12:16Z
-  - title: "chore(deps-dev): bump @vitest/coverage-v8 from 4.1.0 to 4.1.1"
-    body: |-
-      [//]: # (dependabot-start)
-      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
-
-      Rebasing might not happen immediately, so don't worry if this takes some time.
-
-      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
-
-      ---
-
-      [//]: # (dependabot-end)
-
-      Bumps [@vitest/coverage-...
-    url: https://github.com/deariary/frontend/pull/486
-    repository: deariary/frontend
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 53
-    deletions: 53
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:48:35Z
-    mergedAt: 2026-03-24T05:10:49Z
-  - title: "chore(deps): bump next from 16.1.7 to 16.2.1"
-    body: |-
-      Bumps [next](https://github.com/vercel/next.js) from 16.1.7 to 16.2.1.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/vercel/next.js/releases">next's releases</a>.</em></p>
-      <blockquote>
-      <h2>v16.2.1</h2>
-      <blockquote>
-      <p>[!NOTE]
-      This release is backporting b...
-    url: https://github.com/deariary/frontend/pull/485
-    repository: deariary/frontend
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 42
-    deletions: 42
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:48:24Z
-    mergedAt: 2026-03-24T05:12:11Z
-  - title: "chore(deps-dev): bump eslint-config-next from 16.1.7 to 16.2.1"
-    body: >-
-      Bumps [eslint-config-next](https://github.com/vercel/next.js/tree/HEAD/packages/eslint-config-next) from 16.1.7 to
-      16.2.1.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a href="https://github.com/vercel/next.js/releases">eslint-config-next's
-      releases</a>.</em></p>
-
-      <blockquote>
-
-      <h2>...
-    url: https://github.com/deariary/frontend/pull/484
-    repository: deariary/frontend
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 12
-    deletions: 12
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:48:06Z
-    mergedAt: 2026-03-24T05:10:10Z
-  - title: "chore(deps): Bump ws from 8.19.0 to 8.20.0"
-    body: |-
-      Bumps [ws](https://github.com/websockets/ws) from 8.19.0 to 8.20.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/websockets/ws/releases">ws's releases</a>.</em></p>
-      <blockquote>
-      <h2>8.20.0</h2>
-      <h1>Features</h1>
-      <ul>
-      <li>Added exports for the <code>PerMe...
-    url: https://github.com/unhappychoice/mdts/pull/604
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 3
-    deletions: 228
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-23T07:46:17Z
-    mergedAt: 2026-03-23T07:58:22Z
-  - title: "chore(deps-dev): bump @tailwindcss/postcss from 4.2.1 to 4.2.2"
-    body: >-
-      Bumps [@tailwindcss/postcss](https://github.com/tailwindlabs/tailwindcss/tree/HEAD/packages/@tailwindcss-postcss)
-      from 4.2.1 to 4.2.2.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a
-      href="https://github.com/tailwindlabs/tailwindcss/releases"><code>@​tailwindcss/postcss</code>'s re...
-    url: https://github.com/deariary/frontend/pull/482
-    repository: deariary/frontend
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 114
-    deletions: 375
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:47:32Z
-    mergedAt: 2026-03-24T05:09:53Z
-  - title: "chore(deps): bump @sentry/nextjs from 10.43.0 to 10.45.0"
-    body: >-
-      Bumps [@sentry/nextjs](https://github.com/getsentry/sentry-javascript) from 10.43.0 to 10.45.0.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a
-      href="https://github.com/getsentry/sentry-javascript/releases"><code>@​sentry/nextjs</code>'s
-      releases</a>.</em></p>
-
-      <blockquote>
-
-      <h2>10.4...
-    url: https://github.com/deariary/frontend/pull/481
-    repository: deariary/frontend
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 241
-    deletions: 229
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-23T23:47:20Z
-    mergedAt: 2026-03-24T05:09:36Z
   - title: "chore(deps): Bump activesupport from 8.1.2 to 8.1.2.1"
     body: |-
       Bumps [activesupport](https://github.com/rails/rails) from 8.1.2 to 8.1.2.1.
@@ -2915,6 +1735,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-23T20:57:40Z
     mergedAt: 2026-03-24T05:13:38Z
+  - title: "chore(deps): Bump ws from 8.19.0 to 8.20.0"
+    body: |-
+      Bumps [ws](https://github.com/websockets/ws) from 8.19.0 to 8.20.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/websockets/ws/releases">ws's releases</a>.</em></p>
+      <blockquote>
+      <h2>8.20.0</h2>
+      <h1>Features</h1>
+      <ul>
+      <li>Added exports for the <code>PerMe...
+    url: https://github.com/unhappychoice/mdts/pull/604
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 228
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-23T07:46:17Z
+    mergedAt: 2026-03-23T07:58:22Z
   - title: "build(deps-dev): Bump mcp from 0.8.0 to 0.9.0"
     body: >-
       Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.8.0 to 0.9.0.
@@ -2947,38 +1790,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-23T03:05:07Z
     mergedAt: 2026-03-23T07:58:20Z
-  - title: "build(deps-dev): bump mcp from 0.8.0 to 0.9.0"
-    body: >-
-      Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.8.0 to 0.9.0.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a href="https://github.com/modelcontextprotocol/ruby-sdk/releases">mcp's
-      releases</a>.</em></p>
-
-      <blockquote>
-
-      <h2>v0.9.0</h2>
-
-      <h3>Added</h3>
-
-      <ul>
-
-      <li><cod...
-    url: https://github.com/irasutoya-tools/irasutoya/pull/497
-    repository: irasutoya-tools/irasutoya
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-23T03:04:43Z
-    mergedAt: 2026-03-23T07:58:12Z
   - title: ⬆️ Bump mcp from 0.8.0 to 0.9.0
     body: >-
       Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.8.0 to 0.9.0.
@@ -3011,6 +1822,38 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-23T03:04:48Z
     mergedAt: 2026-03-23T07:58:15Z
+  - title: "build(deps-dev): bump mcp from 0.8.0 to 0.9.0"
+    body: >-
+      Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.8.0 to 0.9.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/modelcontextprotocol/ruby-sdk/releases">mcp's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.9.0</h2>
+
+      <h3>Added</h3>
+
+      <ul>
+
+      <li><cod...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/497
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-23T03:04:43Z
+    mergedAt: 2026-03-23T07:58:12Z
   - title: "chore(deps-dev): bump mcp from 0.8.0 to 0.9.0"
     body: >-
       Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.8.0 to 0.9.0.

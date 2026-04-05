@@ -1,120 +1,99 @@
-title: content-ideas.md refactor fuels 9 competitor-capture blog posts
-subtitle: Restructured the content strategy document with Keyword Planner data and shipped targeted posts comparing
-  deariary to Day One, Journey, and Diarium.
+title: "CSS View Transitions API: fixing flash and adding smooth fades in my blog"
+subtitle: Implemented smooth page transitions using the View Transitions API and debugged a flash issue caused by
+  mismatched background colors and transition durations.
 overview: >
-  This week was dominated by a data-driven content marketing push for deariary's blog. We began by restructuring the
-  content-ideas.md file using real Keyword Planner data, consolidating 12 categories into 4 structured tables. This
-  refactor set the stage for a focused sprint on competitor-capture content.
+  The week exploded with 120 commits and 68 reviews, starting with a massive dependency update sprint across 8 different
+  repositories. I automated Ruby and Rust dependency bumps for both my own projects and several external tooling repos,
+  handling multiple version bumps for `ffi`, `parser`, `insta`, and `uuid`.
 
 
-  The result was a blitz of 9 blog posts targeting high-volume competitor keywords like "day one journal", "journey
-  journal app", and "diarium app". Each post included full distribution across X, Bluesky, and note, maximizing reach.
-  Meanwhile, the admin panel received incremental improvements, and the hibinoki daily logs continued uninterrupted.
+  The narrative pivot came when I shifted from maintenance to user experience work on my blog. I implemented the CSS
+  View Transitions API for smooth cross-page fades, but immediately hit a visual bug: pages flashed black during
+  transitions. Debugging revealed mismatched background colors between `html` and `body` elements combined with
+  asymmetric fade durations (0.2s out, 0.3s in) created a transparency window.
 
 
-  The week showcased how a strategic content overhaul can drive rapid execution. The shift from vague ideas to
-  data-backed targets made the content sprint both efficient and measurable. Looking ahead, we'll monitor traffic from
-  these posts to validate the SEO strategy.
+  I wrapped the week by writing a reflective Japanese blog post about my OSS journey during unemployment, sharing the
+  three principles that guided my 6,000-star project suite. The open PR in `ashkulz/committers.top` to fix user search
+  by switching to REST API also continued to evolve, highlighting my cross-organization contributions beyond my own
+  ecosystem.
 summaries:
-  - type: content-strategy
-    heading: Data-driven content overhaul
-    body: Restructured the content ideas document using Keyword Planner data, moving from 12 categories to 4 structured
-      tables. This enabled a focused sprint on competitor-capture blog posts, resulting in 9 high-target posts in one
-      week.
-    chips:
-      - label: posts shipped
-        value: "9"
-        color: default
-      - label: keywords targeted
-        value: Day One, Journey, Diarium
-        color: default
-      - label: distribution channels
-        value: X, Bluesky, note
-        color: default
   - type: repo-summary
-    heading: deariary/blog dominates activity
-    body: The blog repository accounted for 24 of the 55 merged PRs, with every PR adding a new blog post or updating
-      content strategy. This represents a 40% share of all merged work, highlighting the priority on content marketing.
+    heading: Blog transforms, mdts evolves, dependency marathon elsewhere
+    body: "My personal repos focused on UX improvements: `unhappychoice/blog` got View Transitions and a reflective post,
+      while `unhappychoice/mdts` received task list checkbox styling. Meanwhile, I contributed dependency updates to 7
+      external organizations including `circleci-tools`, `irasutoya-tools`, and `bitflyer-tools`."
     chips:
-      - label: deariary/blog PRs
-        value: "24"
+      - label: unhappychoice/mdts
+        value: 11 PRs
         color: default
-      - label: total merged PRs
-        value: "55"
+      - label: unhappychoice/blog
+        value: 7 PRs
         color: default
-      - label: share
-        value: 44%
+      - label: External orgs
+        value: "7"
+        color: default
+  - type: deep-dive
+    heading: "View Transitions API: the flash that wasn't supposed to be"
+    body: "Adding `@view-transition { navigation: auto }` created beautiful fades, but a black flash appeared. The culprit:
+      `html` had no background (default white) while `body`/`#main` used `$color-dark`. With asymmetric durations (0.2s
+      out vs 0.3s in), both pages hit low opacity simultaneously, revealing the white html background through the dark
+      theme. Fixed by setting `html { background: $color-dark }`."
+    chips:
+      - label: PRs
+        value: 2 (feat + fix)
+        color: default
+      - label: Root cause
+        value: bg mismatch + duration asymmetry
+        color: default
+  - type: contribution-summary
+    heading: Fixing search in ashkulz/committers.top and dependency stewardship
+    body: Opened a substantial PR in `ashkulz/committers.top` (+321/-161 lines) to fix user search sorting by switching from
+      broken GraphQL `sort:followers-desc` to the REST API. This addresses GitHub's lack of `sort:followers` support for
+      user search, which caused non-deterministic rankings. Simultaneously, I pushed 15+ dependency bumps across Rust
+      and Ruby ecosystems, handling multiple version bumps for the same libraries across different repos.
+    chips:
+      - label: External PR size
+        value: +321/-161
+        color: default
+      - label: Dependency bumps
+        value: 15+
         color: default
   - type: activity-pattern
-    heading: Commit burst early in the week
-    body: "Commits were heavily front-loaded: 62 on Sunday, 134 on Monday, and 105 on Tuesday, then tapered off. This
-      suggests a focused sprint at the start of the week, possibly for the content blitz, with lighter maintenance
-      later."
+    heading: "Three-day sprint then coast: commitment rhythm"
+    body: "Commits formed a classic burst pattern: 62→134→105→104 over the first four days (Mon-Thu), then dropped to
+      89→22→26. The 134-commit Tuesday peak coincided with the bulk of dependency updates. 68 reviews were distributed
+      throughout, suggesting I balanced pushing code with reviewing others' work, likely during the coast phase later in
+      the week."
     chips:
-      - label: peak day
-        value: Mon (134 commits)
-        color: default
-      - label: total commits
+      - label: Peak day
+        value: Tue (134 commits)
+        color: green
+      - label: Total commits
         value: "120"
         color: default
-      - label: lines added
-        value: "+30906"
-        color: default
-  - type: admin-enhancements
-    heading: Admin panel incremental improvements
-    body: "While content took the spotlight, the backend admin panel saw three small but meaningful features: a realtime
-      analytics dashboard, disconnect action for integrations, and improved navigation between entries and pipeline
-      runs. These enhance operational visibility."
-    chips:
-      - label: admin PRs
-        value: "3"
-        color: default
-      - label: new endpoint
-        value: /integrations/:id/disconnect
-        color: default
-      - label: dashboard
-        value: /kpi/realtime
-        color: default
-  - type: automation
-    heading: Daily logs keep hibinoki snapshotting
-    body: The hibinoki project continued its daily automated logging, with 8 daily-log PRs merged this week. These capture
-      GitHub, Slack, Steam, and weather data, maintaining a personal analytics pipeline.
-    chips:
-      - label: daily logs
-        value: "8"
-        color: default
-      - label: data sources
-        value: 5+ platforms
-        color: default
-      - label: version bump
-        value: 0.9.0
+      - label: Reviews
+        value: "68"
         color: default
 highlights:
   - type: pr
-    title: "daily-log: 2026-03-28"
-    repo: unhappychoice/hibinoki
-    meta: merged Mar 28 · +404 -23 · 9 files
-    body: This daily log marked a milestone with version bump to 0.9.0 and added backend dashboard functionality, showing
-      steady progress on the personal analytics pipeline.
-    url: https://github.com/unhappychoice/hibinoki/pull/94
+    title: "fix: use REST API for user search to fix incorrect sort order"
+    repo: ashkulz/committers.top
+    meta: opened · +321 -161 · 4 files
+    body: This fixes a critical bug where GitHub's GraphQL user search ignored `sort:followers`, causing random rankings and
+      missing users. Switching to REST API ensures deterministic, correct leaderboards.
+    url: https://github.com/ashkulz/committers.top/pull/113
   - type: pr
-    title: "refactor: reorganize content-ideas.md with Keyword Planner data"
-    repo: deariary/blog
-    meta: merged Mar 23 · +310 -479 · 1 files
-    body: Restructured the entire content strategy document from 12 categories to 4 data-driven tables, enabling the week's
-      focused competitor content blitz.
-    url: https://github.com/deariary/blog/pull/57
+    title: "post: 今の無職期間にしていること"
+    repo: unhappychoice/blog
+    meta: merged · +97 -0 · 1 files
+    body: A personal milestone reflecting on my OSS journey during unemployment, documenting the three principles (invent,
+      don't skip UI/UX, design including marketing) behind my 6,000-star project suite.
+    url: https://github.com/unhappychoice/blog/pull/688
   - type: pr
-    title: "feat: add Diarium vs deariary comparison post"
-    repo: deariary/blog
-    meta: merged Mar 23 · +189 -2 · 5 files
-    body: Targeted the high-volume 'diarium app' keyword with a fact-checked comparison, capturing competitor search traffic
-      as part of Pillar 3 strategy.
-    url: https://github.com/deariary/blog/pull/56
-  - type: pr
-    title: "feat: add realtime analytics dashboard to admin panel"
-    repo: deariary/backend
-    meta: merged Mar 23 · +841 -8 · 10 files
-    body: Added a Google Analytics-style realtime dashboard for active users, pageviews, and live event feed, improving
-      operational visibility for the team.
-    url: https://github.com/deariary/backend/pull/733
+    title: "feat: add view transition for smooth page fade-in/out"
+    repo: unhappychoice/blog
+    meta: merged · +22 -0 · 2 files
+    body: Implemented progressive enhancement using CSS View Transitions API, creating natural 0.2s fade-out / 0.3s fade-in
+      effects on same-origin navigation. The companion fix PR resolved the flash bug this initially introduced.
+    url: https://github.com/unhappychoice/blog/pull/686
