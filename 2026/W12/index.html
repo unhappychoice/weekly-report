@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>_sid parameter unifies cross-domain analytics across deariary - 2026-03-16 - 2026-03-22</title>
+  <title>Markdown Diff and History Tabs Merge into mdts - 2026-03-16 - 2026-03-22</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Implemented cookie-free session ID passing via URL between app, blog, and LP domains to maintain analytics continuity without GDPR consent banners." />
+  <meta name="description" content="Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="_sid parameter unifies cross-domain analytics across deariary" />
-  <meta property="og:description" content="Implemented cookie-free session ID passing via URL between app, blog, and LP domains to maintain analytics continuity without GDPR consent banners." />
+  <meta property="og:title" content="Markdown Diff and History Tabs Merge into mdts" />
+  <meta property="og:description" content="Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow." />
   <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W12/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
   <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W12/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="_sid parameter unifies cross-domain analytics across deariary" />
-  <meta name="twitter:description" content="Implemented cookie-free session ID passing via URL between app, blog, and LP domains to maintain analytics continuity without GDPR consent banners." />
+  <meta name="twitter:title" content="Markdown Diff and History Tabs Merge into mdts" />
+  <meta name="twitter:description" content="Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow." />
   <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W12/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
@@ -30,8 +30,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "_sid parameter unifies cross-domain analytics across deariary",
-    "description": "Implemented cookie-free session ID passing via URL between app, blog, and LP domains to maintain analytics continuity without GDPR consent banners.",
+    "headline": "Markdown Diff and History Tabs Merge into mdts",
+    "description": "Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
@@ -446,17 +446,17 @@
       <span class="header-sep">&middot;</span>
       <span class="header-date">2026-03-16 - 2026-03-22</span>
     </div>
-    <h1 class="header-title">_sid parameter unifies cross-domain analytics across deariary</h1>
-    <p class="header-sub">Implemented cookie-free session ID passing via URL between app, blog, and LP domains to maintain analytics continuity without GDPR consent banners.</p>
+    <h1 class="header-title">Markdown Diff and History Tabs Merge into mdts</h1>
+    <p class="header-sub">Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was defined by two major thrusts: a significant content marketing push for the blog and a technical deep dive into cross-domain analytics. I merged 88 PRs across eight repositories, with deariary/blog alone accounting for 35 of them. The most complex work centered on designing and shipping a session-sharing mechanism using a _sid URL parameter, which required coordinated changes across frontend, LP, and backend.</p>
-  <p>The analytics feature was the week's technical centerpiece. We needed to track user journeys across our separate domains (app.deariary.com, blog.deariary.com, lp.deariary.com) without using cookies, which would trigger GDPR consent requirements. The solution involved the SPA appending _sid to outbound links to the LP, the LP adopting that ID into sessionStorage and propagating it back to the app, and the backend splitting KPI endpoints by traffic segment to accommodate the new session model. Simultaneously, the blog team published five strategic posts and added note.com as a distribution channel, dramatically expanding our content footprint.</p>
-  <p>The commit pattern showed a classic burst-sprint: Monday (137 commits) and Tuesday (142) were intense as we finalized the analytics implementation, then the pace gradually eased through the week as reviews and content integration took over. No zero days, but Friday (48 commits) was notably lighter, likely reflecting a natural decompression after the big push.</p>
+    <p>This week was a balancing act between routine dependency maintenance and a significant feature launch in my core project, mdts. I spent considerable time ensuring various repositories stayed up-to-date with security patches, while also pushing through a long-planned enhancement to the markdown editing workflow.</p>
+  <p>The centerpiece was merging the 'feat: add markdown diff view and previous commit history tabs' pull request, which adds Diff and History tabs to the markdown content view. This required careful integration of git commands for diff output and building a responsive UI with color-coded rendering. Simultaneously, I processed a wave of dependency updates across Ruby, Java, and JavaScript projects, including bumps to nokogiri, gradle-wrapper, and json libraries.</p>
+  <p>The week wrapped up with an open pull request in ashkulz/committers.top, where I'm fixing a GraphQL API misuse that causes incorrect user sorting. This cross-repo collaboration underscores the interconnected nature of open source maintenance beyond my own repositories.</p>
   
   </div>
   <div class="section-group">
@@ -467,287 +467,54 @@
     </div>
   
     <div class="section-summary">
-      <div class="section-type">cross-domain-analytics</div>
-      <div class="section-heading">Cookie-free session sharing goes live</div>
-      <div class="section-body">We shipped the _sid parameter implementation across frontend and LP to maintain analytics continuity when users jump between our domains. The frontend captures outbound clicks to LP and rewrites URLs with _sid; LP reads and adopts it into sessionStorage, then passes it back to app. Backend KPI endpoints were split by traffic segment (app, lp, blog) to accommodate the new session model. No cookies means we stay GDPR-compliant without consent banners.</div>
+      <div class="section-type">feature-launch</div>
+      <div class="section-heading">mdts Workflow Enhancement Lands</div>
+      <div class="section-body">The merged feature PR introduces two new tabs to the markdown content view: Diff, which shows uncommitted changes via <code>git diff</code>, and History, which displays the previous commit's changes via <code>git diff HEAD~1 HEAD</code>. Both tabs feature color-coded diff rendering, making it easier to track changes over time. This addition directly addresses user feedback for better version comparison tools within the editor.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">repos involved</span> <span class="chip-value chip-default">3 (frontend, lp, backend)</span></span>
-        <span class="chip"><span class="chip-label">lines changed</span> <span class="chip-value chip-default">+210 -4</span></span>
-        <span class="chip"><span class="chip-label">key benefit</span> <span class="chip-value chip-default">GDPR-compliant tracking</span></span>
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/mdts</span></span>
+        <span class="chip"><span class="chip-label">lines changed</span> <span class="chip-value chip-default">+878 -42</span></span>
+        <span class="chip"><span class="chip-label">files modified</span> <span class="chip-value chip-default">21</span></span>
+        <span class="chip"><span class="chip-label">user impact</span> <span class="chip-value chip-green">high</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">repo-summary</div>
-      <div class="section-heading">deariary/blog dominates with 35 PRs</div>
-      <div class="section-body">The blog repository was the busiest, with 35 merged PRs focused on content expansion and distribution. We added five new strategic blog posts covering core philosophy, competitor comparison, and objection handling, plus implemented a new note.com distribution channel with automated cover image generation via satori. This pushes our content strategy forward targeting high-value keywords like &#39;daylio&#39;.</div>
+      <div class="section-type">dependency-management</div>
+      <div class="section-heading">Security and Compatibility Updates</div>
+      <div class="section-body">A total of 17 dependency bump PRs were merged across 12 repositories, covering languages like Ruby, Java, Rust, and JavaScript. Key updates include bumping tree-sitter-rust to 0.24.1, nokogiri to 1.19.2, gradle-wrapper to 9.4.1, and json to 2.19.2. These updates patch security vulnerabilities and ensure compatibility with latest toolchains, reducing technical debt.</div>
   
   
   
-      <div class="repo-bars">
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/blog</span>
-            <span class="repo-bar-value">35 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:100%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/frontend</span>
-            <span class="repo-bar-value">25 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:71%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/lp</span>
-            <span class="repo-bar-value">12 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:34%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/backend</span>
-            <span class="repo-bar-value">12 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:34%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/mdts</span>
-            <span class="repo-bar-value">9 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:26%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/hibinoki</span>
-            <span class="repo-bar-value">8 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:23%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/infrastructure</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:9%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:9%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/CircleCI</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:9%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gitlogue</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:9%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:9%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:9%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:9%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gittype</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/blog</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/Norimaki</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/RxSnackbar</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/color-hash.kt</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">agarrharr/awesome-cli-apps</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">ashkulz/committers.top</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/terminal_image</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-      </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-default">35</span></span>
-        <span class="chip"><span class="chip-label">new posts</span> <span class="chip-value chip-default">5</span></span>
-        <span class="chip"><span class="chip-label">distribution channel</span> <span class="chip-value chip-default">note.com added</span></span>
+        <span class="chip"><span class="chip-label">dependency PRs</span> <span class="chip-value chip-default">17</span></span>
+        <span class="chip"><span class="chip-label">repos affected</span> <span class="chip-value chip-default">12</span></span>
+        <span class="chip"><span class="chip-label">security patches</span> <span class="chip-value chip-yellow">multiple CVEs</span></span>
+        <span class="chip"><span class="chip-label">languages</span> <span class="chip-value chip-default">Ruby, Java, JS, Rust</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">pwa-enhancement</div>
-      <div class="section-heading">PWA install prompt added to avatar menu</div>
-      <div class="section-body">Users can now install the PWA directly from the avatar dropdown in supported environments. The install action appears only when the beforeinstallprompt event is available, and we added dedicated i18n keys for the install copy across all 42 locales. This should increase PWA adoption from within the app without cluttering the UI for unsupported browsers.</div>
+      <div class="section-type">cross-repo-collaboration</div>
+      <div class="section-heading">Contributions Beyond Own Repos</div>
+      <div class="section-body">Active in external projects: submitted gitlogue to agarrharr/awesome-cli-apps for inclusion in the curated list, and opened a PR in ashkulz/committers.top to fix incorrect user search sorting by switching from GraphQL to REST API. This shows engagement with the broader community and sharing of my own tools.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">files changed</span> <span class="chip-value chip-default">53</span></span>
-        <span class="chip"><span class="chip-label">i18n keys</span> <span class="chip-value chip-default">42 locales</span></span>
-        <span class="chip"><span class="chip-label">user action</span> <span class="chip-value chip-default">avatar menu install</span></span>
+        <span class="chip"><span class="chip-label">external repos</span> <span class="chip-value chip-default">3</span></span>
+        <span class="chip"><span class="chip-label">submission type</span> <span class="chip-value chip-default">app listing</span></span>
+        <span class="chip"><span class="chip-label">open PRs</span> <span class="chip-value chip-red">1</span></span>
+        <span class="chip"><span class="chip-label">collaboration</span> <span class="chip-value chip-green">active</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Burst early, steady late</div>
-      <div class="section-body">Commit volume peaked on Tuesday (142 commits) and Monday (137), coinciding with the final push on the cross-domain analytics feature. The latter half of the week saw a gradual decline (71→64→48→57) as we shifted to content reviews and smaller fixes. No zero-commit days, but Friday was the lightest with 48 commits, suggesting a natural wind-down after the sprint.</div>
+      <div class="section-heading">Front-Loaded Commit Burst</div>
+      <div class="section-body">Daily commit activity peaked early in the week with 142 commits on Tuesday and 137 on Monday, then steadily declined to 48 by Friday. This burst likely corresponds to the intensive feature development and dependency updates at the week&#39;s start, followed by lighter review and coordination tasks later.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
@@ -784,8 +551,9 @@
   
       <div class="data-chips">
         <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-green">Tue 142</span></span>
-        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">64</span></span>
-        <span class="chip"><span class="chip-label">lines added</span> <span class="chip-value chip-default">+45489</span></span>
+        <span class="chip"><span class="chip-label">commits Mon-Tue</span> <span class="chip-value chip-default">279</span></span>
+        <span class="chip"><span class="chip-label">total daily commits</span> <span class="chip-value chip-default">602</span></span>
+        <span class="chip"><span class="chip-label">pattern</span> <span class="chip-value chip-default">burst then taper</span></span>
       </div>
     </div>
   </div>
@@ -793,33 +561,27 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">4 items</span>
+      <span class="section-group-count">3 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/frontend/pull/471" target="_blank" rel="noopener nofollow">feat: cross-domain analytics session sharing via _sid parameter</a></div>
-      <div class="highlight-meta">deariary/frontend · merged Mar 17 · +142 -3 · 4 files</div>
-      <div class="highlight-body">Core SPA implementation: captures outbound clicks to LP, appends _sid to URLs, and adopts _sid from URL on return. Critical for stitching user journeys without cookies.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/mdts/pull/599" target="_blank" rel="noopener nofollow">feat: add markdown diff view and previous commit history tabs</a></div>
+      <div class="highlight-meta">unhappychoice/mdts · merged 2026-03-19 · +878 -42 · 21 files</div>
+      <div class="highlight-body">This PR significantly enhances the markdown editing experience by providing built-in diff and history comparison tools, reducing the need to switch to external git clients.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/frontend/pull/471" target="_blank" rel="noopener nofollow">feat: cross-domain analytics session sharing via _sid parameter</a></div>
-      <div class="highlight-meta">deariary/lp · merged Mar 18 · +68 -1 · 3 files</div>
-      <div class="highlight-body">LP side implementation: reads _sid from URL, stores in sessionStorage, and rewrites internal links to propagate session ID back to app.</div>
+      <div class="highlight-title"><a href="https://github.com/agarrharr/awesome-cli-apps/pull/787" target="_blank" rel="noopener nofollow">Add gitlogue</a></div>
+      <div class="highlight-meta">agarrharr/awesome-cli-apps · merged 2026-03-19 · +1 -0 · 1 files</div>
+      <div class="highlight-body">Getting my git commit replay tool, gitlogue, listed in a popular curated collection increases its visibility and adoption among developers.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/frontend/pull/474" target="_blank" rel="noopener nofollow">Add PWA install action to avatar menu</a></div>
-      <div class="highlight-meta">deariary/frontend · merged Mar 20 · +402 -2 · 53 files</div>
-      <div class="highlight-body">Major UX improvement making PWA installation discoverable within the app, with full i18n support across 42 locales and conditional display based on browser support.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/lp/pull/125" target="_blank" rel="noopener nofollow">feat: add blog link to header, mobile menu, and footer</a></div>
-      <div class="highlight-meta">deariary/lp · merged Mar 19 · +100 -0 · 46 files</div>
-      <div class="highlight-body">Widespread UI change adding outbound blog link to all navigation areas and footer columns, with proper i18n keys and analytics tracking data attributes.</div>
+      <div class="highlight-title"><a href="https://github.com/ashkulz/committers.top/pull/113" target="_blank" rel="noopener nofollow">fix: use REST API for user search to fix incorrect sort order</a></div>
+      <div class="highlight-meta">ashkulz/committers.top · opened 2026-03-19 · +321 -161 · 4 files</div>
+      <div class="highlight-body">Fixes a critical bug where GitHub&#39;s GraphQL API doesn&#39;t support the sort qualifier used, leading to non-deterministic user rankings; switching to REST API ensures correct sorting by followers.</div>
     </div>
     </div>
   </div>
@@ -828,9 +590,9 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W12/&text=_sid parameter unifies cross-domain analytics across deariary" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W12/&text=Markdown Diff and History Tabs Merge into mdts" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W12/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=_sid parameter unifies cross-domain analytics across deariary%20https://unhappychoice.github.io/weekly-report/2026/W12/" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://bsky.app/intent/compose?text=Markdown Diff and History Tabs Merge into mdts%20https://unhappychoice.github.io/weekly-report/2026/W12/" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
 
