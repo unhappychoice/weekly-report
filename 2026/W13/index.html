@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>content-ideas.md refactor fuels 9 competitor-capture blog posts - 2026-03-23 - 2026-03-29</title>
+  <title>CSS View Transitions API: fixing flash and adding smooth fades in my blog - 2026-03-23 - 2026-03-29</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Restructured the content strategy document with Keyword Planner data and shipped targeted posts comparing deariary to Day One, Journey, and Diarium." />
+  <meta name="description" content="Implemented smooth page transitions using the View Transitions API and debugged a flash issue caused by mismatched background colors and transition durations." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="content-ideas.md refactor fuels 9 competitor-capture blog posts" />
-  <meta property="og:description" content="Restructured the content strategy document with Keyword Planner data and shipped targeted posts comparing deariary to Day One, Journey, and Diarium." />
+  <meta property="og:title" content="CSS View Transitions API: fixing flash and adding smooth fades in my blog" />
+  <meta property="og:description" content="Implemented smooth page transitions using the View Transitions API and debugged a flash issue caused by mismatched background colors and transition durations." />
   <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W13/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
   <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W13/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="content-ideas.md refactor fuels 9 competitor-capture blog posts" />
-  <meta name="twitter:description" content="Restructured the content strategy document with Keyword Planner data and shipped targeted posts comparing deariary to Day One, Journey, and Diarium." />
+  <meta name="twitter:title" content="CSS View Transitions API: fixing flash and adding smooth fades in my blog" />
+  <meta name="twitter:description" content="Implemented smooth page transitions using the View Transitions API and debugged a flash issue caused by mismatched background colors and transition durations." />
   <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W13/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
@@ -30,8 +30,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "content-ideas.md refactor fuels 9 competitor-capture blog posts",
-    "description": "Restructured the content strategy document with Keyword Planner data and shipped targeted posts comparing deariary to Day One, Journey, and Diarium.",
+    "headline": "CSS View Transitions API: fixing flash and adding smooth fades in my blog",
+    "description": "Implemented smooth page transitions using the View Transitions API and debugged a flash issue caused by mismatched background colors and transition durations.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
@@ -446,91 +446,41 @@
       <span class="header-sep">&middot;</span>
       <span class="header-date">2026-03-23 - 2026-03-29</span>
     </div>
-    <h1 class="header-title">content-ideas.md refactor fuels 9 competitor-capture blog posts</h1>
-    <p class="header-sub">Restructured the content strategy document with Keyword Planner data and shipped targeted posts comparing deariary to Day One, Journey, and Diarium.</p>
+    <h1 class="header-title">CSS View Transitions API: fixing flash and adding smooth fades in my blog</h1>
+    <p class="header-sub">Implemented smooth page transitions using the View Transitions API and debugged a flash issue caused by mismatched background colors and transition durations.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was dominated by a data-driven content marketing push for deariary's blog. We began by restructuring the content-ideas.md file using real Keyword Planner data, consolidating 12 categories into 4 structured tables. This refactor set the stage for a focused sprint on competitor-capture content.</p>
-  <p>The result was a blitz of 9 blog posts targeting high-volume competitor keywords like "day one journal", "journey journal app", and "diarium app". Each post included full distribution across X, Bluesky, and note, maximizing reach. Meanwhile, the admin panel received incremental improvements, and the hibinoki daily logs continued uninterrupted.</p>
-  <p>The week showcased how a strategic content overhaul can drive rapid execution. The shift from vague ideas to data-backed targets made the content sprint both efficient and measurable. Looking ahead, we'll monitor traffic from these posts to validate the SEO strategy.</p>
+    <p>The week exploded with 120 commits and 68 reviews, starting with a massive dependency update sprint across 8 different repositories. I automated Ruby and Rust dependency bumps for both my own projects and several external tooling repos, handling multiple version bumps for <code>ffi</code>, <code>parser</code>, <code>insta</code>, and <code>uuid</code>.</p>
+  <p>The narrative pivot came when I shifted from maintenance to user experience work on my blog. I implemented the CSS View Transitions API for smooth cross-page fades, but immediately hit a visual bug: pages flashed black during transitions. Debugging revealed mismatched background colors between <code>html</code> and <code>body</code> elements combined with asymmetric fade durations (0.2s out, 0.3s in) created a transparency window.</p>
+  <p>I wrapped the week by writing a reflective Japanese blog post about my OSS journey during unemployment, sharing the three principles that guided my 6,000-star project suite. The open PR in <code>ashkulz/committers.top</code> to fix user search by switching to REST API also continued to evolve, highlighting my cross-organization contributions beyond my own ecosystem.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">5 sections</span>
+      <span class="section-group-count">4 sections</span>
     </div>
   
-    <div class="section-summary">
-      <div class="section-type">content-strategy</div>
-      <div class="section-heading">Data-driven content overhaul</div>
-      <div class="section-body">Restructured the content ideas document using Keyword Planner data, moving from 12 categories to 4 structured tables. This enabled a focused sprint on competitor-capture blog posts, resulting in 9 high-target posts in one week.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">posts shipped</span> <span class="chip-value chip-default">9</span></span>
-        <span class="chip"><span class="chip-label">keywords targeted</span> <span class="chip-value chip-default">Day One, Journey, Diarium</span></span>
-        <span class="chip"><span class="chip-label">distribution channels</span> <span class="chip-value chip-default">X, Bluesky, note</span></span>
-      </div>
-    </div>
     <div class="section-summary">
       <div class="section-type">repo-summary</div>
-      <div class="section-heading">deariary/blog dominates activity</div>
-      <div class="section-body">The blog repository accounted for 24 of the 55 merged PRs, with every PR adding a new blog post or updating content strategy. This represents a 40% share of all merged work, highlighting the priority on content marketing.</div>
+      <div class="section-heading">Blog transforms, mdts evolves, dependency marathon elsewhere</div>
+      <div class="section-body">My personal repos focused on UX improvements: <code>unhappychoice/blog</code> got View Transitions and a reflective post, while <code>unhappychoice/mdts</code> received task list checkbox styling. Meanwhile, I contributed dependency updates to 7 external organizations including <code>circleci-tools</code>, <code>irasutoya-tools</code>, and <code>bitflyer-tools</code>.</div>
   
   
   
       <div class="repo-bars">
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/blog</span>
-            <span class="repo-bar-value">24 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:100%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/frontend</span>
-            <span class="repo-bar-value">15 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:63%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/mdts</span>
             <span class="repo-bar-value">11 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:46%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/hibinoki</span>
-            <span class="repo-bar-value">8 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:33%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/backend</span>
-            <span class="repo-bar-value">7 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:29%"></div>
+            <div class="repo-bar-fill" style="width:100%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -539,7 +489,7 @@
             <span class="repo-bar-value">7 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:29%"></div>
+            <div class="repo-bar-fill" style="width:64%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -548,7 +498,7 @@
             <span class="repo-bar-value">7 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:29%"></div>
+            <div class="repo-bar-fill" style="width:64%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -557,7 +507,7 @@
             <span class="repo-bar-value">7 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:29%"></div>
+            <div class="repo-bar-fill" style="width:64%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -566,7 +516,7 @@
             <span class="repo-bar-value">6 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:25%"></div>
+            <div class="repo-bar-fill" style="width:55%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -575,16 +525,7 @@
             <span class="repo-bar-value">6 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:25%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/lp</span>
-            <span class="repo-bar-value">5 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:21%"></div>
+            <div class="repo-bar-fill" style="width:55%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -593,7 +534,7 @@
             <span class="repo-bar-value">5 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:21%"></div>
+            <div class="repo-bar-fill" style="width:45%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -602,7 +543,7 @@
             <span class="repo-bar-value">5 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:21%"></div>
+            <div class="repo-bar-fill" style="width:45%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -611,7 +552,7 @@
             <span class="repo-bar-value">5 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:21%"></div>
+            <div class="repo-bar-fill" style="width:45%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -620,7 +561,7 @@
             <span class="repo-bar-value">4 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:36%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -629,7 +570,7 @@
             <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
+            <div class="repo-bar-fill" style="width:27%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -638,7 +579,7 @@
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:8%"></div>
+            <div class="repo-bar-fill" style="width:18%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -647,7 +588,7 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -656,7 +597,7 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -665,7 +606,7 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -674,7 +615,7 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -683,16 +624,7 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice-vault/cycle-videos</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -701,7 +633,7 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -710,21 +642,47 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:4%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
       </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">deariary/blog PRs</span> <span class="chip-value chip-default">24</span></span>
-        <span class="chip"><span class="chip-label">total merged PRs</span> <span class="chip-value chip-default">55</span></span>
-        <span class="chip"><span class="chip-label">share</span> <span class="chip-value chip-default">44%</span></span>
+        <span class="chip"><span class="chip-label">unhappychoice/mdts</span> <span class="chip-value chip-default">11 PRs</span></span>
+        <span class="chip"><span class="chip-label">unhappychoice/blog</span> <span class="chip-value chip-default">7 PRs</span></span>
+        <span class="chip"><span class="chip-label">External orgs</span> <span class="chip-value chip-default">7</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">View Transitions API: the flash that wasn&#39;t supposed to be</div>
+      <div class="section-body">Adding <code>@view-transition { navigation: auto }</code> created beautiful fades, but a black flash appeared. The culprit: <code>html</code> had no background (default white) while <code>body</code>/<code>#main</code> used <code>$color-dark</code>. With asymmetric durations (0.2s out vs 0.3s in), both pages hit low opacity simultaneously, revealing the white html background through the dark theme. Fixed by setting <code>html { background: $color-dark }</code>.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">PRs</span> <span class="chip-value chip-default">2 (feat + fix)</span></span>
+        <span class="chip"><span class="chip-label">Root cause</span> <span class="chip-value chip-default">bg mismatch + duration asymmetry</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">contribution-summary</div>
+      <div class="section-heading">Fixing search in ashkulz/committers.top and dependency stewardship</div>
+      <div class="section-body">Opened a substantial PR in <code>ashkulz/committers.top</code> (+321/-161 lines) to fix user search sorting by switching from broken GraphQL <code>sort:followers-desc</code> to the REST API. This addresses GitHub's lack of <code>sort:followers</code> support for user search, which caused non-deterministic rankings. Simultaneously, I pushed 15+ dependency bumps across Rust and Ruby ecosystems, handling multiple version bumps for the same libraries across different repos.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">External PR size</span> <span class="chip-value chip-default">+321/-161</span></span>
+        <span class="chip"><span class="chip-label">Dependency bumps</span> <span class="chip-value chip-default">15+</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Commit burst early in the week</div>
-      <div class="section-body">Commits were heavily front-loaded: 62 on Sunday, 134 on Monday, and 105 on Tuesday, then tapered off. This suggests a focused sprint at the start of the week, possibly for the content blitz, with lighter maintenance later.</div>
+      <div class="section-heading">Three-day sprint then coast: commitment rhythm</div>
+      <div class="section-body">Commits formed a classic burst pattern: 62→134→105→104 over the first four days (Mon-Thu), then dropped to 89→22→26. The 134-commit Tuesday peak coincided with the bulk of dependency updates. 68 reviews were distributed throughout, suggesting I balanced pushing code with reviewing others&#39; work, likely during the coast phase later in the week.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
@@ -760,37 +718,9 @@
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-default">Mon (134 commits)</span></span>
-        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">120</span></span>
-        <span class="chip"><span class="chip-label">lines added</span> <span class="chip-value chip-default">+30906</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">admin-enhancements</div>
-      <div class="section-heading">Admin panel incremental improvements</div>
-      <div class="section-body">While content took the spotlight, the backend admin panel saw three small but meaningful features: a realtime analytics dashboard, disconnect action for integrations, and improved navigation between entries and pipeline runs. These enhance operational visibility.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">admin PRs</span> <span class="chip-value chip-default">3</span></span>
-        <span class="chip"><span class="chip-label">new endpoint</span> <span class="chip-value chip-default">/integrations/:id/disconnect</span></span>
-        <span class="chip"><span class="chip-label">dashboard</span> <span class="chip-value chip-default">/kpi/realtime</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">automation</div>
-      <div class="section-heading">Daily logs keep hibinoki snapshotting</div>
-      <div class="section-body">The hibinoki project continued its daily automated logging, with 8 daily-log PRs merged this week. These capture GitHub, Slack, Steam, and weather data, maintaining a personal analytics pipeline.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">daily logs</span> <span class="chip-value chip-default">8</span></span>
-        <span class="chip"><span class="chip-label">data sources</span> <span class="chip-value chip-default">5+ platforms</span></span>
-        <span class="chip"><span class="chip-label">version bump</span> <span class="chip-value chip-default">0.9.0</span></span>
+        <span class="chip"><span class="chip-label">Peak day</span> <span class="chip-value chip-green">Tue (134 commits)</span></span>
+        <span class="chip"><span class="chip-label">Total commits</span> <span class="chip-value chip-default">120</span></span>
+        <span class="chip"><span class="chip-label">Reviews</span> <span class="chip-value chip-default">68</span></span>
       </div>
     </div>
   </div>
@@ -798,33 +728,27 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">4 items</span>
+      <span class="section-group-count">3 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/unhappychoice/hibinoki/pull/94" target="_blank" rel="noopener nofollow">daily-log: 2026-03-28</a></div>
-      <div class="highlight-meta">unhappychoice/hibinoki · merged Mar 28 · +404 -23 · 9 files</div>
-      <div class="highlight-body">This daily log marked a milestone with version bump to 0.9.0 and added backend dashboard functionality, showing steady progress on the personal analytics pipeline.</div>
+      <div class="highlight-title"><a href="https://github.com/ashkulz/committers.top/pull/113" target="_blank" rel="noopener nofollow">fix: use REST API for user search to fix incorrect sort order</a></div>
+      <div class="highlight-meta">ashkulz/committers.top · opened · +321 -161 · 4 files</div>
+      <div class="highlight-body">This fixes a critical bug where GitHub's GraphQL user search ignored <code>sort:followers</code>, causing random rankings and missing users. Switching to REST API ensures deterministic, correct leaderboards.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/blog/pull/57" target="_blank" rel="noopener nofollow">refactor: reorganize content-ideas.md with Keyword Planner data</a></div>
-      <div class="highlight-meta">deariary/blog · merged Mar 23 · +310 -479 · 1 files</div>
-      <div class="highlight-body">Restructured the entire content strategy document from 12 categories to 4 data-driven tables, enabling the week&#39;s focused competitor content blitz.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/blog/pull/688" target="_blank" rel="noopener nofollow">post: 今の無職期間にしていること</a></div>
+      <div class="highlight-meta">unhappychoice/blog · merged · +97 -0 · 1 files</div>
+      <div class="highlight-body">A personal milestone reflecting on my OSS journey during unemployment, documenting the three principles (invent, don&#39;t skip UI/UX, design including marketing) behind my 6,000-star project suite.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/blog/pull/56" target="_blank" rel="noopener nofollow">feat: add Diarium vs deariary comparison post</a></div>
-      <div class="highlight-meta">deariary/blog · merged Mar 23 · +189 -2 · 5 files</div>
-      <div class="highlight-body">Targeted the high-volume &#39;diarium app&#39; keyword with a fact-checked comparison, capturing competitor search traffic as part of Pillar 3 strategy.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/backend/pull/733" target="_blank" rel="noopener nofollow">feat: add realtime analytics dashboard to admin panel</a></div>
-      <div class="highlight-meta">deariary/backend · merged Mar 23 · +841 -8 · 10 files</div>
-      <div class="highlight-body">Added a Google Analytics-style realtime dashboard for active users, pageviews, and live event feed, improving operational visibility for the team.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/blog/pull/686" target="_blank" rel="noopener nofollow">feat: add view transition for smooth page fade-in/out</a></div>
+      <div class="highlight-meta">unhappychoice/blog · merged · +22 -0 · 2 files</div>
+      <div class="highlight-body">Implemented progressive enhancement using CSS View Transitions API, creating natural 0.2s fade-out / 0.3s fade-in effects on same-origin navigation. The companion fix PR resolved the flash bug this initially introduced.</div>
     </div>
     </div>
   </div>
@@ -833,15 +757,14 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W13/&text=content-ideas.md refactor fuels 9 competitor-capture blog posts" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W13/&text=CSS View Transitions API: fixing flash and adding smooth fades in my blog" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W13/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=content-ideas.md refactor fuels 9 competitor-capture blog posts%20https://unhappychoice.github.io/weekly-report/2026/W13/" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://bsky.app/intent/compose?text=CSS View Transitions API: fixing flash and adding smooth fades in my blog%20https://unhappychoice.github.io/weekly-report/2026/W13/" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
-
 
 <nav class="week-nav" aria-label="Week navigation">
   <a href="../../2026/W12/" class="week-nav-link">&larr; Previous week</a>
-  <a href="../../2026/W14/" class="week-nav-link">Next week &rarr;</a>
+  <span></span>
 </nav>
 
 
