@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>GitType Now Installable via Homebrew - 2026-03-09 - 2026-03-15</title>
+  <title>Scheduled publishing and per-article OGP images land in deariary blog - 2026-03-09 - 2026-03-15</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Simplified installation process and synchronized dependency updates across eight repositories." />
+  <meta name="description" content="The blog now supports scheduling posts by pubDate and generates unique Open Graph images for each article at build time, with a critical timezone fix." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="GitType Now Installable via Homebrew" />
-  <meta property="og:description" content="Simplified installation process and synchronized dependency updates across eight repositories." />
+  <meta property="og:title" content="Scheduled publishing and per-article OGP images land in deariary blog" />
+  <meta property="og:description" content="The blog now supports scheduling posts by pubDate and generates unique Open Graph images for each article at build time, with a critical timezone fix." />
   <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W11/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
   <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W11/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="GitType Now Installable via Homebrew" />
-  <meta name="twitter:description" content="Simplified installation process and synchronized dependency updates across eight repositories." />
+  <meta name="twitter:title" content="Scheduled publishing and per-article OGP images land in deariary blog" />
+  <meta name="twitter:description" content="The blog now supports scheduling posts by pubDate and generates unique Open Graph images for each article at build time, with a critical timezone fix." />
   <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W11/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
@@ -30,8 +30,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "GitType Now Installable via Homebrew",
-    "description": "Simplified installation process and synchronized dependency updates across eight repositories.",
+    "headline": "Scheduled publishing and per-article OGP images land in deariary blog",
+    "description": "The blog now supports scheduling posts by pubDate and generates unique Open Graph images for each article at build time, with a critical timezone fix.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
@@ -446,56 +446,161 @@
       <span class="header-sep">&middot;</span>
       <span class="header-date">2026-03-09 - 2026-03-15</span>
     </div>
-    <h1 class="header-title">GitType Now Installable via Homebrew</h1>
-    <p class="header-sub">Simplified installation process and synchronized dependency updates across eight repositories.</p>
+    <h1 class="header-title">Scheduled publishing and per-article OGP images land in deariary blog</h1>
+    <p class="header-sub">The blog now supports scheduling posts by pubDate and generates unique Open Graph images for each article at build time, with a critical timezone fix.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was a deep dive into maintenance, with a strong focus on dependency management across my Rust, JavaScript, and Ruby projects. I reviewed and merged over 20 PRs that updated core libraries like clap, jest, and rubocop-ast, ensuring security and compatibility. The volume of work—42 commits and 38 reviews—highlighted the ongoing effort required to keep a diverse tech stack healthy.</p>
-  <p>The highlight was undoubtedly the Homebrew integration for GitType, which simplifies installation for macOS users. This user-facing change, though small in code, significantly lowers the barrier to entry. Meanwhile, I coordinated updates across eight repositories, from gittype to mdts, maintaining consistency in tooling versions.</p>
-  <p>An open PR for upgrading tree-sitter-dart in gitlogue points to future improvements in Dart language support. Looking ahead, I'll address some accrued tech debt and plan for the next feature cycle.</p>
+    <p>This week was dominated by deep work on the deariary project—a diary application—with a laser focus on the blog subsystem and SEO infrastructure. The most substantial narrative centered on two major, interdependent features: scheduled publishing and per-article Open Graph image generation, both of which required careful coordination across the content pipeline and build process. A critical timezone bug surfaced immediately after the initial publishing feature, turning a straightforward addition into a debugging saga that highlighted the perils of date handling in distributed systems.</p>
+  <p>Concurrently, a cross-repo SEO initiative came to fruition with a dynamic sitemap endpoint in the backend and a consuming strategy in the frontend, automatically indexing public profiles and shared links. The landing page also received meaningful polish with dark mode and an official profile link. Throughout, a series of targeted bug fixes—locale resolution, CORS, GDPR deletion—addressed technical debt and compliance gaps that had been lurking in the margins.</p>
+  <p>The rhythm was intensely focused: long stretches of solitary coding on complex features, punctuated by quick, precise bug fixes and review cycles. The work demonstrated a mature ability to ship user-facing features while simultaneously hardening the underlying platform.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">5 sections</span>
+      <span class="section-group-count">6 sections</span>
     </div>
   
     <div class="section-summary">
-      <div class="section-type">installation-improvement</div>
-      <div class="section-heading">Homebrew Support Simplifies GitType Setup</div>
-      <div class="section-body">The documentation update for GitType removed the need for a custom Homebrew tap, allowing installation with a simple &#39;brew install gittype&#39;. This change, merged from PR #12, makes the tool more accessible to the macOS community.</div>
+      <div class="section-type">feature-summary</div>
+      <div class="section-heading">Blog gains scheduled publishing and per-article OGP images</div>
+      <div class="section-body">The blog now supports scheduling posts by pubDate, filtering future-dated content at build time. A critical follow-up fixed timezone handling to use UTC, preventing posts from disappearing on Cloudflare&#39;s UTC build servers. Additionally, each article now generates a unique, branded Open Graph image at build time using satori and resvg, dramatically improving social sharing previews.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/gittype</span></span>
-        <span class="chip"><span class="chip-label">lines changed</span> <span class="chip-value chip-default">+8 -3</span></span>
-        <span class="chip"><span class="chip-label">files updated</span> <span class="chip-value chip-default">2</span></span>
-        <span class="chip"><span class="chip-label">undefined</span> <span class="chip-value chip-default">undefined</span></span>
+        <span class="chip"><span class="chip-label">scheduled publishing</span> <span class="chip-value chip-default">2 PRs</span></span>
+        <span class="chip"><span class="chip-label">OGP images</span> <span class="chip-value chip-default">1 PR (+703 lines)</span></span>
+        <span class="chip"><span class="chip-label">timezone fix</span> <span class="chip-value chip-default">1 PR (+3 -3)</span></span>
+        <span class="chip"><span class="chip-label">build tooling</span> <span class="chip-value chip-default">satori + resvg</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">seo-improvements</div>
+      <div class="section-heading">Dynamic sitemap and robots strategy for public pages</div>
+      <div class="section-body">A new <code>GET /sitemap</code> endpoint in the backend dynamically lists all public profiles and shared links with proper SEO metadata. The frontend consumes this via a new <code>sitemap.ts</code>, and <code>robots.ts</code> was updated to allow <code>/u/</code> paths and reference the dynamic sitemap. This ensures user-generated content is properly indexed without manual intervention.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">backend endpoint</span> <span class="chip-value chip-default">GET /sitemap</span></span>
+        <span class="chip"><span class="chip-label">frontend strategy</span> <span class="chip-value chip-default">dynamic sitemap.ts</span></span>
+        <span class="chip"><span class="chip-label">robots updated</span> <span class="chip-value chip-default">allow /u/</span></span>
+        <span class="chip"><span class="chip-label">public paths</span> <span class="chip-value chip-default">profiles, shares</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">bug-fix-roundup</div>
+      <div class="section-heading">Locale, CORS, and GDPR fixes polish the experience</div>
+      <div class="section-body">Three distinct bug classes were addressed: locale resolution on public profiles now correctly falls back to the profile owner's setting instead of browser language; blog analytics requests were unblocked by adding <code>blog.deariary.com</code> to CORS origins; and GDPR data deletion now properly cascades to <code>analytics_events</code> and <code>user_milestones</code> to prevent orphaned records and FK constraint failures.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">locale fix</span> <span class="chip-value chip-default">2 PRs</span></span>
+        <span class="chip"><span class="chip-label">CORS fix</span> <span class="chip-value chip-default">1 PR</span></span>
+        <span class="chip"><span class="chip-label">GDPR fix</span> <span class="chip-value chip-default">1 PR</span></span>
+        <span class="chip"><span class="chip-label">data integrity</span> <span class="chip-value chip-default">FK constraints satisfied</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">lp-enhancements</div>
+      <div class="section-heading">Landing page gets dark mode and official profile link</div>
+      <div class="section-body">The deariary landing page launched dark mode with system preference detection and a manual toggle. Simultaneously, an official public profile link (<code>@deariaryapp</code>) was added in three strategic locations, requiring updates to 42 locale files. These changes strengthen branding and provide a consistent entry point to the app's social proof.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">dark mode</span> <span class="chip-value chip-default">1 PR (+806 lines)</span></span>
+        <span class="chip"><span class="chip-label">profile link</span> <span class="chip-value chip-default">1 PR (+121 lines)</span></span>
+        <span class="chip"><span class="chip-label">i18n keys</span> <span class="chip-value chip-default">42 locales</span></span>
+        <span class="chip"><span class="chip-label">locations</span> <span class="chip-value chip-default">3</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">personal-project</div>
+      <div class="section-heading">Daily logging continues in hibinoki</div>
+      <div class="section-body">The personal daily logging project (hibinoki) saw two more auto-generated daily logs, aggregating activity from GitHub, Linear, Steam, Swarm, and weather. These logs are part of a larger effort to track daily activity across multiple services, with summaries generated by CodeRabbit.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">daily logs</span> <span class="chip-value chip-default">2 PRs</span></span>
+        <span class="chip"><span class="chip-label">services tracked</span> <span class="chip-value chip-default">5+</span></span>
+        <span class="chip"><span class="chip-label">auto-generated</span> <span class="chip-value chip-default">yes</span></span>
+        <span class="chip"><span class="chip-label">lines added</span> <span class="chip-value chip-default">+5696</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">repo-summary</div>
-      <div class="section-heading">Dependency Updates Span Eight Repositories</div>
-      <div class="section-body">I focused on synchronizing dependencies across my portfolio, with mdts leading at 13 PRs, followed by gittype and gitlogue with 4 each. The updates covered Rust crates, JavaScript packages, and Ruby gems, ensuring security and compatibility.</div>
+      <div class="section-heading">Cross-repo collaboration in deariary and personal projects</div>
+      <div class="section-body">The deariary project saw balanced activity across four repos: backend (5 PRs), frontend (5 PRs), blog (5 PRs), and lp (2 PRs). The developer also maintained personal repos (hibinoki, mdts, gittype, gitlogue) with 8, 13, 4, and 4 PRs respectively. This distribution shows a primary focus on the core product while keeping personal tooling active.</div>
   
   
   
       <div class="repo-bars">
         <div class="repo-bar-item">
           <div class="repo-bar-header">
+            <span class="repo-bar-label">deariary/backend</span>
+            <span class="repo-bar-value">53 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">deariary/frontend</span>
+            <span class="repo-bar-value">30 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:57%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">deariary/lp</span>
+            <span class="repo-bar-value">15 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:28%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/mdts</span>
             <span class="repo-bar-value">13 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:100%"></div>
+            <div class="repo-bar-fill" style="width:25%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">deariary/blog</span>
+            <span class="repo-bar-value">11 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:21%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/hibinoki</span>
+            <span class="repo-bar-value">8 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:15%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -504,7 +609,7 @@
             <span class="repo-bar-value">4 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:31%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -513,7 +618,25 @@
             <span class="repo-bar-value">4 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:31%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -522,7 +645,25 @@
             <span class="repo-bar-value">4 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:31%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:6%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -531,7 +672,25 @@
             <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:23%"></div>
+            <div class="repo-bar-fill" style="width:6%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:6%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:6%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -540,16 +699,16 @@
             <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:23%"></div>
+            <div class="repo-bar-fill" style="width:6%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
+            <span class="repo-bar-label">deariary/infrastructure</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:15%"></div>
+            <div class="repo-bar-fill" style="width:4%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -558,7 +717,16 @@
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:15%"></div>
+            <div class="repo-bar-fill" style="width:4%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:4%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -567,88 +735,16 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:8%"></div>
+            <div class="repo-bar-fill" style="width:2%"></div>
           </div>
         </div>
       </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">active repos</span> <span class="chip-value chip-default">8</span></span>
-        <span class="chip"><span class="chip-label">total PRs</span> <span class="chip-value chip-default">35</span></span>
-        <span class="chip"><span class="chip-label">languages</span> <span class="chip-value chip-default">Rust, JS, Ruby</span></span>
-        <span class="chip"><span class="chip-label">undefined</span> <span class="chip-value chip-default">undefined</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Commit Burst Early in the Week</div>
-      <div class="section-body">Commit activity peaked on Monday and Tuesday with 34 and 31 commits respectively, then gradually decreased. This pattern suggests I tackled the bulk of updates at the start, with lighter activity towards the weekend.</div>
-  
-      <div class="mini-heatmap">
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">34</div>
-          <div class="mh-label">Mon</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">31</div>
-          <div class="mh-label">Tue</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">29</div>
-          <div class="mh-label">Wed</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-3">24</div>
-          <div class="mh-label">Thu</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">26</div>
-          <div class="mh-label">Fri</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">26</div>
-          <div class="mh-label">Sat</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-2">14</div>
-          <div class="mh-label">Sun</div>
-        </div>
-      </div>
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-default">Mon (34 commits)</span></span>
-        <span class="chip"><span class="chip-label">total weekly commits</span> <span class="chip-value chip-default">184</span></span>
-        <span class="chip"><span class="chip-label">undefined</span> <span class="chip-value chip-default">undefined</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">review-summary</div>
-      <div class="section-heading">Heavy Review Load on Dependency PRs</div>
-      <div class="section-body">With 38 reviews completed, I ensured all dependency bumps were properly vetted. Reviews focused on compatibility notes and changelog verification, especially for critical updates like clap and jest.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">reviews given</span> <span class="chip-value chip-default">38</span></span>
-        <span class="chip"><span class="chip-label">PRs reviewed</span> <span class="chip-value chip-default">~20</span></span>
-        <span class="chip"><span class="chip-label">undefined</span> <span class="chip-value chip-default">undefined</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">dependency-management</div>
-      <div class="section-heading">Synchronizing Dependencies Across the Board</div>
-      <div class="section-body">The week&#39;s primary theme was updating dependencies to latest versions. From Rust&#39;s clap to JavaScript&#39;s jest and Ruby&#39;s rubocop-ast, I applied consistent bump PRs across repos, patching vulnerabilities and leveraging upstream fixes.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">dependency PRs</span> <span class="chip-value chip-default">20+</span></span>
-        <span class="chip"><span class="chip-label">languages affected</span> <span class="chip-value chip-default">3</span></span>
-        <span class="chip"><span class="chip-label">undefined</span> <span class="chip-value chip-default">undefined</span></span>
+        <span class="chip"><span class="chip-label">deariary/backend</span> <span class="chip-value chip-default">5 PRs</span></span>
+        <span class="chip"><span class="chip-label">deariary/frontend</span> <span class="chip-value chip-default">5 PRs</span></span>
+        <span class="chip"><span class="chip-label">deariary/blog</span> <span class="chip-value chip-default">5 PRs</span></span>
+        <span class="chip"><span class="chip-label">deariary/lp</span> <span class="chip-value chip-default">2 PRs</span></span>
       </div>
     </div>
   </div>
@@ -656,21 +752,33 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">2 items</span>
+      <span class="section-group-count">4 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/unhappychoice/gittype/pull/391" target="_blank" rel="noopener nofollow">docs: Update installation instructions for Homebrew</a></div>
-      <div class="highlight-meta">unhappychoice/gittype · merged Mar 12 · +8 -3 · 2 files</div>
-      <div class="highlight-body">This PR removed the custom tap requirement, enabling standard Homebrew installation for macOS users.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/blog/pull/6" target="_blank" rel="noopener nofollow">feat: generate per-article OGP images at build time</a></div>
+      <div class="highlight-meta">deariary/blog · merged · +703 -1 · 8 files</div>
+      <div class="highlight-body">This PR introduced build-time Open Graph image generation for each blog post, using satori and resvg to create branded images matching the frontend&#39;s share cards. It significantly improves social sharing previews and required careful design token alignment.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/unhappychoice/mdts/pull/589" target="_blank" rel="noopener nofollow">chore(deps-dev): Bump jest from 30.2.0 to 30.3.0 in /packages/frontend</a></div>
-      <div class="highlight-meta">unhappychoice/mdts · merged Mar 13 · +485 -1092 · 2 files</div>
-      <div class="highlight-body">The large diff reflects significant changes in Jest, requiring careful review to maintain test compatibility.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/blog/pull/9" target="_blank" rel="noopener nofollow">feat: add scheduled publishing by filtering future-dated posts</a></div>
+      <div class="highlight-meta">deariary/blog · merged · +54 -41 · 9 files</div>
+      <div class="highlight-body">This PR added the core scheduled publishing feature by filtering posts with future pubDates at build time. It also extracted shared helpers (<code>isNewsPost</code>, <code>postPath</code>) to eliminate duplication across seven route files, cleaning up the content pipeline.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/deariary/blog/pull/10" target="_blank" rel="noopener nofollow">fix: use UTC for pubDate comparison in scheduled publishing</a></div>
+      <div class="highlight-meta">deariary/blog · merged · +3 -3 · 1 file</div>
+      <div class="highlight-body">A critical fix for the scheduled publishing feature: by switching to UTC via <code>Date.UTC()</code> for pubDate comparisons, it prevents posts from being incorrectly excluded when Cloudflare Pages builds in UTC and the pubDate falls on the current UTC day.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/deariary/frontend/pull/442" target="_blank" rel="noopener nofollow">feat: dynamic sitemap/robots strategy for public pages</a></div>
+      <div class="highlight-meta">deariary/frontend · merged · +128 -5 · 6 files</div>
+      <div class="highlight-body">This PR implemented a dynamic sitemap strategy in the frontend that fetches the sitemap from the backend and updates robots.txt to allow public profile paths (<code>/u/</code>). It's a key SEO improvement that automatically indexes user-generated content without manual updates.</div>
     </div>
     </div>
   </div>
@@ -679,9 +787,9 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W11/&text=GitType Now Installable via Homebrew" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W11/&text=Scheduled publishing and per-article OGP images land in deariary blog" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W11/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=GitType Now Installable via Homebrew%20https://unhappychoice.github.io/weekly-report/2026/W11/" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://bsky.app/intent/compose?text=Scheduled publishing and per-article OGP images land in deariary blog%20https://unhappychoice.github.io/weekly-report/2026/W11/" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
 
