@@ -1,0 +1,104 @@
+title: daily-fetch week rollover bug fixed after Sunday event loss
+subtitle: A critical bug in the daily-fetch cron caused Sunday events to be missed due to ISO week miscalculation,
+  prompting a week of debugging, fixes, and collateral improvements.
+overview: >
+  This week started with a routine maintenance mode but quickly pivoted when I discovered that Sunday's GitHub events
+  were missing from the weekly reports. The root cause was a subtle bug in the daily-fetch script's week calculation
+  logic, which used the previous ISO week instead of the current one when running mid-week.
+
+
+  After identifying the issue in `buildWeeklyRange` and `getWeekId`, I implemented `buildCurrentWeekRange` and
+  `getCurrentWeekId` to ensure daily-fetch always collects the current week's events. This fix triggered a cascade of
+  related improvements: better PR fetch error handling, exclusion of private repos from searches, and enhanced
+  documentation.
+
+
+  By week's end, the main repository saw 19 PRs merged, test coverage jumped from 40% to 97%, and I set up Dependabot to
+  automate future dependency updates. The burst of activity on Tuesday and Thursday, with 161 and 283 commits
+  respectively, reflected the intensity of the debugging and subsequent refactoring.
+summaries:
+  - type: debugging-story
+    heading: The Sunday event loss mystery
+    body: On Monday, I noticed that Sunday's events were absent from the weekly report. After reproducing the issue, I found
+      that daily-fetch's cron at midnight on Monday used `buildWeeklyRange` which targeted the previous ISO week (W14),
+      so Sunday's events (still in W14) were never collected. The fix involved creating `buildCurrentWeekRange` and
+      `getCurrentWeekId` to always target the current week, ensuring no events are missed.
+    chips:
+      - label: bug impact
+        value: lost Sunday events
+        color: default
+      - label: fix scope
+        value: daily-fetch core
+        color: default
+      - label: PRs spawned
+        value: 4 related fixes
+        color: default
+  - type: repo-summary
+    heading: "deariary/github-weekly-reporter: the main stage"
+    body: "The primary repository absorbed most of my focus, with 19 PRs merged covering bug fixes, test improvements,
+      documentation, and dependency updates. The week's work significantly enhanced reliability: fixed event collection,
+      improved PR fetching error handling, excluded private repos, and added comprehensive docs. Test coverage climbed
+      from 40% to 97%, and Dependabot was integrated for automated updates."
+    chips:
+      - label: PRs merged
+        value: "19"
+        color: default
+      - label: test coverage
+        value: 97%
+        color: default
+      - label: files changed
+        value: 37 in refactor
+        color: default
+  - type: activity-pattern
+    heading: Burst coding sessions on Tuesday and Thursday
+    body: Commit activity wasn't spread evenly; Tuesday saw 161 commits and Thursday a massive 283, likely due to
+      concentrated debugging and refactoring sessions. The total of 312 commits reflects intense periods of
+      problem-solving and implementation, with lower activity on Wednesday and Friday allowing for review and
+      documentation work.
+    chips:
+      - label: peak day
+        value: Thu 283
+        color: default
+      - label: total commits
+        value: "312"
+        color: default
+      - label: lines changed
+        value: +30828 -10527
+        color: default
+  - type: testing
+    heading: Test coverage jumps from 40% to 97%
+    body: I undertook a major testing push, adding 128 new test cases across multiple modules. This increased statement
+      coverage from 40.71% to 97.1% and function coverage from 61.11% to 87.50%. Key modules like collector, llm, and
+      deployer now have 97-100% coverage, greatly boosting confidence in the codebase before public release.
+    chips:
+      - label: coverage increase
+        value: +56.39pt
+        color: default
+      - label: tests added
+        value: "128"
+        color: default
+      - label: modules at 100%
+        value: "3"
+        color: default
+highlights:
+  - type: pr
+    title: "fix: daily-fetch collects yesterday's events, not current day's"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 5 · +439 -102 · 9 files
+    body: This was the critical fix that resolved the Sunday event loss by replacing `buildWeeklyRange` with
+      `buildCurrentWeekRange` to always target the current week's events.
+    url: https://github.com/deariary/github-weekly-reporter/pull/89
+  - type: pr
+    title: "test: improve test coverage from 40% to 63%"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 5 · +2522 -8 · 20 files
+    body: Added 128 new tests, nearly doubling the test count and raising coverage from 40% to 63%, laying the groundwork
+      for the final push to 97%.
+    url: https://github.com/deariary/github-weekly-reporter/pull/75
+  - type: pr
+    title: "ci: add Dependabot for dependency updates"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 5 · +19 -0 · 2 files
+    body: Integrated Dependabot to automatically keep npm and GitHub Actions dependencies up to date, reducing future
+      maintenance overhead.
+    url: https://github.com/deariary/github-weekly-reporter/pull/76
