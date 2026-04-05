@@ -1,0 +1,766 @@
+username: unhappychoice
+avatarUrl: https://avatars.githubusercontent.com/u/5608948?u=6ca2fca8320cb6be5b802f6c5a6359933754ab2e&v=4
+profile:
+  name: Yuji Ueki
+  bio: "\r
+
+    \    ＼ Full Stack Software Engineer ／\r
+
+    \r\n"
+  company: null
+  location: Tokyo, Japan
+  followers: 3503
+  following: 9585
+  publicRepos: 48
+dateRange:
+  from: 2026-03-16
+  to: 2026-03-22
+stats:
+  totalCommits: 47
+  totalAdditions: 2426
+  totalDeletions: 945
+  prsOpened: 3
+  prsMerged: 2
+  prsReviewed: 25
+  issuesOpened: 0
+  issuesClosed: 0
+dailyCommits:
+  - date: 2026-03-16
+    count: 17
+  - date: 2026-03-17
+    count: 31
+  - date: 2026-03-18
+    count: 31
+  - date: 2026-03-19
+    count: 29
+  - date: 2026-03-20
+    count: 26
+  - date: 2026-03-21
+    count: 28
+  - date: 2026-03-22
+    count: 14
+repositories:
+  - name: unhappychoice/mdts
+    commits: 0
+    prsOpened: 9
+    prsMerged: 8
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/mdts
+  - name: unhappychoice/slack_channel_stats
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/slack_channel_stats
+  - name: unhappychoice/gitlogue
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gitlogue
+  - name: unhappychoice/gittype
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gittype
+  - name: unhappychoice/blog
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/blog
+  - name: unhappychoice/cycle-pusher
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/cycle-pusher
+  - name: unhappychoice/RxSnackbar
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/RxSnackbar
+  - name: unhappychoice/color-hash.kt
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/color-hash.kt
+  - name: agarrharr/awesome-cli-apps
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/agarrharr/awesome-cli-apps
+  - name: ashkulz/committers.top
+    commits: 0
+    prsOpened: 1
+    prsMerged: 0
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/ashkulz/committers.top
+  - name: unhappychoice/terminal_image
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/terminal_image
+pullRequests:
+  - title: "feat: add markdown diff view and previous commit history tabs"
+    body: >-
+      - Add **Diff** and **History** tabs to the markdown content view (alongside existing Preview, Frontmatter, Raw
+      tabs)
+
+      - **Diff** tab shows uncommitted working tree changes via `git diff`
+
+      - **History** tab shows the previous commit's changes via `git diff HEAD~1 HEAD`
+
+      - Color-coded diff rendering: gre...
+    url: https://github.com/unhappychoice/mdts/pull/599
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 878
+    deletions: 42
+    changedFiles: 21
+    author: unhappychoice
+    createdAt: 2026-03-17T11:00:05Z
+    mergedAt: 2026-03-17T23:08:04Z
+  - title: "chore(deps): bump tree-sitter-rust from 0.24.0 to 0.24.1"
+    body: >-
+      Bumps [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) from 0.24.0 to 0.24.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/tree-sitter/tree-sitter-rust/releases">tree-sitter-rust's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.24.1</h2>
+
+      <...
+    url: https://github.com/unhappychoice/gittype/pull/398
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-20T12:55:05Z
+    mergedAt: 2026-03-20T22:56:16Z
+  - title: "chore(deps): Bump nokogiri from 1.19.1 to 1.19.2"
+    body: |-
+      Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.19.1 to 1.19.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/releases">nokogiri's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.19.2 / 2026-03-19</h2>
+      <h3>Dependencies...
+    url: https://github.com/unhappychoice/blog/pull/682
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-20T03:05:10Z
+    mergedAt: 2026-03-20T03:20:15Z
+  - title: Add gitlogue
+    body: >-
+      #### New App Submission
+
+
+      - [x] I've read the contribution guidelines.
+
+
+      **Repo or homepage link:** https://github.com/unhappychoice/gitlogue
+
+
+      **Description:** A cinematic Git commit replay tool for the terminal, turning your Git history into a living,
+      animated story with typing animations and syntax ...
+    url: https://github.com/agarrharr/awesome-cli-apps/pull/787
+    repository: agarrharr/awesome-cli-apps
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-02-12T19:07:35Z
+    mergedAt: 2026-03-16T09:20:11Z
+  - title: "fix: use REST API for user search to fix incorrect sort order"
+    body: The GraphQL user search uses `sort:followers-desc` in the query string, but GitHub does not support the
+      `sort:followers` qualifier for user search. This causes non-deterministic results and missing users in the
+      rankings.
+    url: https://github.com/ashkulz/committers.top/pull/113
+    repository: ashkulz/committers.top
+    state: open
+    labels: []
+    additions: 321
+    deletions: 161
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-02-08T18:35:12Z
+    mergedAt: null
+  - title: "build(deps): bump pusher-js from 8.4.2 to 8.4.3"
+    body: |-
+      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.2 to 8.4.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
+      <blockquote>
+      <h2>v8.4.3</h2>
+      <h2>8.4.3</h2>
+      <ul>
+      <li>[FIXED] Pin additi...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/347
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-20T03:04:00Z
+    mergedAt: 2026-03-20T03:20:32Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.0 to 9.4.1"
+    body: |-
+      Bumps gradle-wrapper from 9.4.0 to 9.4.1.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gradle-wrapper&package-manager=gradle&previous-version=9.4.0&new-version=9.4.1)](https://docs.github.com/en/github/managing-security-vulner...
+    url: https://github.com/unhappychoice/RxSnackbar/pull/227
+    repository: unhappychoice/RxSnackbar
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 2
+    deletions: 2
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-20T03:03:59Z
+    mergedAt: 2026-03-20T03:20:21Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.0 to 9.4.1"
+    body: |-
+      Bumps gradle-wrapper from 9.4.0 to 9.4.1.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gradle-wrapper&package-manager=gradle&previous-version=9.4.0&new-version=9.4.1)](https://docs.github.com/en/github/managing-security-vulner...
+    url: https://github.com/unhappychoice/color-hash.kt/pull/242
+    repository: unhappychoice/color-hash.kt
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 2
+    deletions: 2
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-20T03:03:59Z
+    mergedAt: 2026-03-20T03:20:30Z
+  - title: "chore(deps): bump json from 2.19.1 to 2.19.2"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.2</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a format string injection ...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/81
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-19T03:08:13Z
+    mergedAt: 2026-03-19T05:47:24Z
+  - title: "chore(deps): bump tree-sitter-rust from 0.24.0 to 0.24.1"
+    body: >-
+      Bumps [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) from 0.24.0 to 0.24.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/tree-sitter/tree-sitter-rust/releases">tree-sitter-rust's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.24.1</h2>
+
+      <...
+    url: https://github.com/unhappychoice/gitlogue/pull/178
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-20T02:24:44Z
+    mergedAt: 2026-03-20T03:20:18Z
+  - title: "chore(deps): Bump json from 2.19.1 to 2.19.2"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.2</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a format string injection ...
+    url: https://github.com/unhappychoice/blog/pull/681
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-19T03:06:14Z
+    mergedAt: 2026-03-19T05:47:28Z
+  - title: "chore(deps-dev): Bump webpack-cli from 7.0.1 to 7.0.2 in /packages/frontend"
+    body: |-
+      Bumps [webpack-cli](https://github.com/webpack/webpack-cli) from 7.0.1 to 7.0.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/webpack/webpack-cli/releases">webpack-cli's releases</a>.</em></p>
+      <blockquote>
+      <h2>webpack-cli@7.0.2</h2>
+      <h3>Patch Changes</h3...
+    url: https://github.com/unhappychoice/mdts/pull/601
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 230
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-18T07:44:37Z
+    mergedAt: 2026-03-19T01:50:15Z
+  - title: "chore(deps-dev): bump github_changelog_generator from 1.17.0 to 1.18.0"
+    body: >-
+      Bumps [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator) from
+      1.17.0 to 1.18.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/github-changelog-generator/github-changelog-generator/releases">github_change...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/80
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-18T03:07:38Z
+    mergedAt: 2026-03-19T01:49:43Z
+  - title: "build(deps-dev): Bump json from 2.19.1 to 2.19.2"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.2</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a format string injection ...
+    url: https://github.com/unhappychoice/terminal_image/pull/552
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-19T03:04:09Z
+    mergedAt: 2026-03-19T05:47:32Z
+  - title: "chore(deps-dev): Bump @babel/preset-env from 7.29.0 to 7.29.2 in /packages/frontend"
+    body: >-
+      Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.29.0 to
+      7.29.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/babel/babel/releases"><code>@​babel/preset-env</code>'s
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      ...
+    url: https://github.com/unhappychoice/mdts/pull/600
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 230
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-18T07:44:26Z
+    mergedAt: 2026-03-19T01:49:46Z
+  - title: "build(deps): bump pusher-js from 8.4.0 to 8.4.2"
+    body: |-
+      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.0 to 8.4.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
+      <blockquote>
+      <h2>v8.4.2</h2>
+      <h2>8.4.2</h2>
+      <ul>
+      <li>[CHANGED] Modernis...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/346
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-18T03:04:01Z
+    mergedAt: 2026-03-19T01:49:33Z
+  - title: "chore(deps): bump toml_edit from 0.25.4+spec-1.1.0 to 0.25.5+spec-1.1.0"
+    body: >-
+      Bumps [toml_edit](https://github.com/toml-rs/toml) from 0.25.4+spec-1.1.0 to 0.25.5+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/90790723370aa4981bafe054633c928eb78bcf94"><code>9079072</code></a>
+      chore: Release</li>
+
+      <li><a href="https://gi...
+    url: https://github.com/unhappychoice/gitlogue/pull/177
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 17
+    deletions: 11
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-18T02:24:47Z
+    mergedAt: 2026-03-18T02:48:10Z
+  - title: "chore(deps): bump toml from 1.0.6+spec-1.1.0 to 1.0.7+spec-1.1.0"
+    body: >-
+      Bumps [toml](https://github.com/toml-rs/toml) from 1.0.6+spec-1.1.0 to 1.0.7+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/90790723370aa4981bafe054633c928eb78bcf94"><code>9079072</code></a>
+      chore: Release</li>
+
+      <li><a href="https://github.co...
+    url: https://github.com/unhappychoice/gitlogue/pull/176
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 5
+    deletions: 11
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-18T02:24:35Z
+    mergedAt: 2026-03-18T02:54:44Z
+  - title: "chore(deps-dev): Bump webpack-cli from 6.0.1 to 7.0.1 in /packages/frontend"
+    body: |-
+      Bumps [webpack-cli](https://github.com/webpack/webpack-cli) from 6.0.1 to 7.0.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/webpack/webpack-cli/releases">webpack-cli's releases</a>.</em></p>
+      <blockquote>
+      <h2>webpack-cli@7.0.1</h2>
+      <h3>Patch Changes</h3...
+    url: https://github.com/unhappychoice/mdts/pull/598
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 19
+    deletions: 75
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-17T07:45:21Z
+    mergedAt: 2026-03-17T23:13:18Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.0 to 8.57.1 in /packages/frontend"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.57.0 to 8.57.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/597
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 234
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-17T07:44:55Z
+    mergedAt: 2026-03-17T23:13:09Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.57.0 to 8.57.1"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [typescript-eslint...
+    url: https://github.com/unhappychoice/mdts/pull/596
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 61
+    deletions: 61
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-17T07:44:51Z
+    mergedAt: 2026-03-17T23:13:03Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.57.0 to 8.57.1 in /packages/frontend"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.57.0 to 8.57.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/593
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 63
+    deletions: 63
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-17T07:44:26Z
+    mergedAt: 2026-03-17T23:12:52Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.0 to 8.57.1"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.57.0 to 8.57.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/592
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 232
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-17T07:44:20Z
+    mergedAt: 2026-03-17T23:12:39Z
+  - title: "build(deps): bump org.jetbrains.kotlin:kotlin-reflect from 2.3.10 to 2.3.20"
+    body: >-
+      Bumps [org.jetbrains.kotlin:kotlin-reflect](https://github.com/JetBrains/kotlin) from 2.3.10 to 2.3.20.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/JetBrains/kotlin/releases">org.jetbrains.kotlin:kotlin-reflect's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>...
+    url: https://github.com/unhappychoice/color-hash.kt/pull/241
+    repository: unhappychoice/color-hash.kt
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-17T03:05:01Z
+    mergedAt: 2026-03-17T11:48:21Z
+  - title: "chore(deps-dev): bump github_changelog_generator from 1.16.4 to 1.17.0"
+    body: >-
+      Bumps [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator) from
+      1.16.4 to 1.17.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/github-changelog-generator/github-changelog-generator/releases">github_change...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/79
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-16T03:12:43Z
+    mergedAt: 2026-03-16T06:31:20Z
+  - title: "build(deps): bump org.jetbrains.kotlin.android from 2.3.10 to 2.3.20"
+    body: >-
+      Bumps [org.jetbrains.kotlin.android](https://github.com/JetBrains/kotlin) from 2.3.10 to 2.3.20.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/JetBrains/kotlin/releases">org.jetbrains.kotlin.android's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>Kotlin 2.3.20<...
+    url: https://github.com/unhappychoice/RxSnackbar/pull/226
+    repository: unhappychoice/RxSnackbar
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-17T03:04:56Z
+    mergedAt: 2026-03-17T11:48:16Z
+  - title: "chore(deps): bump rusqlite from 0.38.0 to 0.39.0"
+    body: |-
+      Bumps [rusqlite](https://github.com/rusqlite/rusqlite) from 0.38.0 to 0.39.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rusqlite/rusqlite/releases">rusqlite's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.39.0</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix con...
+    url: https://github.com/unhappychoice/gittype/pull/396
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-16T12:57:00Z
+    mergedAt: 2026-03-17T02:02:24Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.56.1 to 8.57.0 in /packages/frontend"
+    body: |-
+      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.56.1 to 8.57.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
+    url: https://github.com/unhappychoice/mdts/pull/586
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 556
+    deletions: 16
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-10T07:45:11Z
+    mergedAt: null
+issues: []
+events: []
+externalContributions: []

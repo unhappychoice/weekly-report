@@ -1,0 +1,113 @@
+title: Diff and History Tabs Land in mdts
+subtitle: The markdown tool now shows uncommitted changes and previous commit diffs, plus a new app listing for gitlogue.
+overview: >
+  This week was a blend of routine dependency maintenance across multiple personal projects and two significant
+  contributions: a major feature in my markdown editor mdts and a critical bug fix in an external project
+  committers.top. The dependency updates, while numerous, were straightforward, but the feature work required deeper
+  design and implementation thinking.
+
+
+  In mdts, I added two new tabs—Diff and History—to the markdown content view. The Diff tab displays uncommitted working
+  tree changes via `git diff`, and the History tab shows the previous commit's changes via `git diff HEAD~1 HEAD`. Both
+  use color-coded rendering for clarity, addressing a long-standing request for better change visibility during editing.
+  Meanwhile, in ashkulz/committers.top, I fixed a user search bug caused by GitHub's GraphQL API not supporting the
+  `sort:followers` qualifier, switching to the REST API to ensure deterministic, complete rankings.
+
+
+  The week also brought a pleasant side effect: my gitlogue tool was accepted into the awesome-cli-apps list, providing
+  external validation. Overall, it was a productive balance of upkeep and meaningful feature work that enhances
+  developer workflows.
+summaries:
+  - type: feature-deep-dive
+    heading: mdts gets Diff and History tabs
+    body: "I implemented two new tabs in the markdown content view: Diff and History. The Diff tab shows uncommitted working
+      tree changes (git diff), while History shows the previous commit's changes (git diff HEAD~1 HEAD). Both use
+      color-coded rendering to make changes clear. This was a highly requested feature that closes the loop on change
+      visibility during markdown editing."
+    chips:
+      - label: repo
+        value: unhappychoice/mdts
+        color: default
+      - label: lines changed
+        value: +878 -42
+        color: default
+      - label: files
+        value: "21"
+        color: default
+      - label: PR status
+        value: merged
+        color: green
+  - type: bug-fix
+    heading: Correcting user search in committers.top
+    body: The GraphQL user search in committers.top was using an unsupported sort qualifier, leading to non-deterministic
+      results and missing users. I switched the implementation to use the REST API's user search endpoint, which
+      correctly supports sorting by followers. This fix ensures the rankings are accurate and complete.
+    chips:
+      - label: repo
+        value: ashkulz/committers.top
+        color: default
+      - label: lines changed
+        value: +321 -161
+        color: default
+      - label: files
+        value: "4"
+        color: default
+      - label: PR status
+        value: open
+        color: yellow
+  - type: maintenance
+    heading: Dependency update sprint
+    body: A significant portion of the week was spent on routine dependency bumps across eight repositories. These updates
+      covered Rust (tree-sitter-rust, toml), Ruby (nokogiri, json, github_changelog_generator), JavaScript (pusher-js,
+      webpack-cli, @babel/preset-env, @typescript-eslint/parser), and Java (gradle-wrapper). While individually small,
+      keeping dependencies current is critical for security and stability.
+    chips:
+      - label: repos updated
+        value: "8"
+        color: default
+      - label: PRs merged
+        value: 13 dependency bumps
+        color: default
+      - label: languages
+        value: Rust, Ruby, JS, Java
+        color: default
+  - type: activity-pattern
+    heading: Consistent high output with bursts
+    body: I committed 47 times this week, with daily counts ranging from 14 to 31. The peak was on Tuesday with 31 commits,
+      driven by the mdts feature and several dependency bumps. The pattern shows sustained productivity with no zero
+      days, though the nature of work shifted between deep feature work and quick maintenance tasks.
+    chips:
+      - label: total commits
+        value: "47"
+        color: default
+      - label: lines added
+        value: "+2426"
+        color: default
+      - label: lines removed
+        value: "-945"
+        color: default
+      - label: peak day
+        value: Tue (31 commits)
+        color: green
+highlights:
+  - type: pr
+    title: "feat: add markdown diff view and previous commit history tabs"
+    repo: unhappychoice/mdts
+    meta: merged Mar 16-22 · +878 -42 · 21 files
+    body: "This feature adds two critical tabs to the markdown editor: Diff for uncommitted changes and History for the last
+      commit's changes. It significantly improves the change tracking workflow for users editing markdown files."
+    url: https://github.com/unhappychoice/mdts/pull/599
+  - type: pr
+    title: "fix: use REST API for user search to fix incorrect sort order"
+    repo: ashkulz/committers.top
+    meta: opened Mar 16-22 · +321 -161 · 4 files
+    body: The fix addresses a bug where GitHub's GraphQL API doesn't support the 'sort:followers' qualifier, causing
+      non-deterministic user rankings. Switching to the REST API ensures correct sorting by followers.
+    url: https://github.com/ashkulz/committers.top/pull/113
+  - type: pr
+    title: Add gitlogue
+    repo: agarrharr/awesome-cli-apps
+    meta: merged Mar 16-22 · +1 -0 · 1 files
+    body: My gitlogue tool, a cinematic Git commit replay tool, was accepted into the awesome-cli-apps list. This is a nice
+      external validation of the tool's utility.
+    url: https://github.com/agarrharr/awesome-cli-apps/pull/787
