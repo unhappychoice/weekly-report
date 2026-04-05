@@ -1,0 +1,1064 @@
+username: unhappychoice
+avatarUrl: https://avatars.githubusercontent.com/u/5608948?u=6ca2fca8320cb6be5b802f6c5a6359933754ab2e&v=4
+profile:
+  name: Yuji Ueki
+  bio: "\r
+
+    \    ＼ Full Stack Software Engineer ／\r
+
+    \r\n"
+  company: null
+  location: Tokyo, Japan
+  followers: 3503
+  following: 9585
+  publicRepos: 48
+dateRange:
+  from: 2026-03-23
+  to: 2026-03-29
+stats:
+  totalCommits: 84
+  totalAdditions: 2250
+  totalDeletions: 1438
+  prsOpened: 5
+  prsMerged: 4
+  prsReviewed: 34
+  issuesOpened: 0
+  issuesClosed: 0
+dailyCommits:
+  - date: 2026-03-23
+    count: 18
+  - date: 2026-03-24
+    count: 32
+  - date: 2026-03-25
+    count: 24
+  - date: 2026-03-26
+    count: 60
+  - date: 2026-03-27
+    count: 52
+  - date: 2026-03-28
+    count: 14
+  - date: 2026-03-29
+    count: 14
+repositories:
+  - name: unhappychoice/mdts
+    commits: 0
+    prsOpened: 11
+    prsMerged: 9
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/mdts
+  - name: unhappychoice/blog
+    commits: 0
+    prsOpened: 7
+    prsMerged: 7
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/blog
+  - name: unhappychoice/terminal_image
+    commits: 0
+    prsOpened: 6
+    prsMerged: 5
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/terminal_image
+  - name: unhappychoice/slack_channel_stats
+    commits: 0
+    prsOpened: 5
+    prsMerged: 5
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/slack_channel_stats
+  - name: unhappychoice/gittype
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gittype
+  - name: unhappychoice/gitlogue
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gitlogue
+  - name: ashkulz/committers.top
+    commits: 0
+    prsOpened: 1
+    prsMerged: 0
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/ashkulz/committers.top
+  - name: unhappychoice/lintric
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/lintric
+  - name: unhappychoice/zenn-docs
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/zenn-docs
+  - name: unhappychoice/oss-issue-opener
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/oss-issue-opener
+  - name: unhappychoice/cycle-pusher
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/cycle-pusher
+  - name: unhappychoice/cycle-cropper
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/cycle-cropper
+pullRequests:
+  - title: "style: add task list checkbox styles in markdown body"
+    body: >-
+      - Add custom styles for GFM task list checkboxes (`- [x]`, `- [ ]`) in markdown content
+
+      - Remove default list bullets from task list items and apply custom checkbox appearance using existing CSS
+      variables (`--markdown-border-color`, `--markdown-link-color`)
+
+      - Checked state shows a blue background wi...
+    url: https://github.com/unhappychoice/mdts/pull/616
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 40
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-26T12:18:26Z
+    mergedAt: 2026-03-26T12:23:50Z
+  - title: "feat: add view transition for smooth page fade-in/out"
+    body: >-
+      - Add CSS-based cross-document View Transitions API (`@view-transition { navigation: auto }`) for smooth
+      fade-in/out on every same-origin page navigation
+
+      - Old page fades out in 0.2s, new page fades in 0.3s for a natural transition feel
+
+      - Progressive enhancement: browsers without View Transitions AP...
+    url: https://github.com/unhappychoice/blog/pull/686
+    repository: unhappychoice/blog
+    state: merged
+    labels: []
+    additions: 22
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-26T09:14:21Z
+    mergedAt: 2026-03-26T09:21:02Z
+  - title: "post: 今の無職期間にしていること"
+    body: |-
+      - OSS 4つ (gitlogue, gittype, mdts, steamfetch) で合計約 6,000 star を獲得した話
+      - 意識していた3つの原則: 発明する、UI/UX をサボらない、マーケも含めて設計する
+      - プロダクト別の具体的なエピソード
+    url: https://github.com/unhappychoice/blog/pull/688
+    repository: unhappychoice/blog
+    state: merged
+    labels: []
+    additions: 97
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-26T16:43:53Z
+    mergedAt: 2026-03-27T05:31:38Z
+  - title: "fix: prevent flash during view transition"
+    body: |-
+      - View transition 時にページが一瞬暗く(黒く)フラッシュする問題を修正
+      - fade-out (0.2s) と fade-in (0.3s) の duration が異なっていたため、中間地点で両方の opacity が低くなり背景色が透けていた
+      - `html` に背景色が未設定(デフォルト白)で、`body`/`#main` の `$color-dark` と不一致だった
+    url: https://github.com/unhappychoice/blog/pull/687
+    repository: unhappychoice/blog
+    state: merged
+    labels: []
+    additions: 13
+    deletions: 2
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-26T10:10:16Z
+    mergedAt: 2026-03-26T10:14:22Z
+  - title: "chore(deps): bump insta from 1.46.3 to 1.47.0"
+    body: |-
+      Bumps [insta](https://github.com/mitsuhiko/insta) from 1.46.3 to 1.47.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mitsuhiko/insta/releases">insta's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.47.0</h2>
+      <h2>Release Notes</h2>
+      <ul>
+      <li>Add <code>Comparat...
+    url: https://github.com/unhappychoice/gittype/pull/401
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 6
+    deletions: 16
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-27T12:54:57Z
+    mergedAt: 2026-03-27T13:11:15Z
+  - title: "chore(deps-dev): bump ffi from 1.17.3 to 1.17.4"
+    body: |-
+      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
+      <details>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
+      <blockquote>
+      <h2>1.17.4 / 2026-03-26</h2>
+      <p>Fixed:</p>
+      <ul>
+      <li>Fix union by-value AB...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/86
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:09:30Z
+    mergedAt: 2026-03-27T06:00:45Z
+  - title: "chore(deps): bump uuid from 1.22.0 to 1.23.0"
+    body: |-
+      Bumps [uuid](https://github.com/uuid-rs/uuid) from 1.22.0 to 1.23.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/uuid-rs/uuid/releases">uuid's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.23.0</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>feat: add support for 'h...
+    url: https://github.com/unhappychoice/gittype/pull/402
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 3
+    deletions: 3
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-27T12:55:07Z
+    mergedAt: 2026-03-27T13:11:19Z
+  - title: "fix: use REST API for user search to fix incorrect sort order"
+    body: The GraphQL user search uses `sort:followers-desc` in the query string, but GitHub does not support the
+      `sort:followers` qualifier for user search. This causes non-deterministic results and missing users in the
+      rankings.
+    url: https://github.com/ashkulz/committers.top/pull/113
+    repository: ashkulz/committers.top
+    state: open
+    labels: []
+    additions: 321
+    deletions: 161
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-02-08T18:35:12Z
+    mergedAt: null
+  - title: "chore(deps-dev): bump parser from 3.3.10.2 to 3.3.11.1"
+    body: >-
+      Bumps [parser](https://github.com/whitequark/parser) from 3.3.10.2 to 3.3.11.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/whitequark/parser/blob/master/CHANGELOG.md">parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v3.3.11.1 (2026-03-27)</h2>
+
+      <p>API modi...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/85
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:09:19Z
+    mergedAt: 2026-03-27T06:00:48Z
+  - title: "chore(deps): Bump ffi from 1.17.3 to 1.17.4"
+    body: |-
+      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
+      <details>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
+      <blockquote>
+      <h2>1.17.4 / 2026-03-26</h2>
+      <p>Fixed:</p>
+      <ul>
+      <li>Fix union by-value AB...
+    url: https://github.com/unhappychoice/blog/pull/689
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:07:21Z
+    mergedAt: 2026-03-27T06:01:00Z
+  - title: "chore(deps): bump insta from 1.46.3 to 1.47.0"
+    body: |-
+      Bumps [insta](https://github.com/mitsuhiko/insta) from 1.46.3 to 1.47.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mitsuhiko/insta/releases">insta's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.47.0</h2>
+      <h2>Release Notes</h2>
+      <ul>
+      <li>Add <code>Comparat...
+    url: https://github.com/unhappychoice/lintric/pull/150
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 28
+    deletions: 14
+    changedFiles: 4
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:08:04Z
+    mergedAt: 2026-03-27T06:00:56Z
+  - title: "build(deps-dev): Bump ffi from 1.17.3 to 1.17.4"
+    body: |-
+      Bumps [ffi](https://github.com/ffi/ffi) from 1.17.3 to 1.17.4.
+      <details>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ffi/ffi/blob/master/CHANGELOG.md">ffi's changelog</a>.</em></p>
+      <blockquote>
+      <h2>1.17.4 / 2026-03-26</h2>
+      <p>Fixed:</p>
+      <ul>
+      <li>Fix union by-value AB...
+    url: https://github.com/unhappychoice/terminal_image/pull/558
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:04:49Z
+    mergedAt: 2026-03-27T06:01:05Z
+  - title: "build(deps-dev): Bump parser from 3.3.10.2 to 3.3.11.1"
+    body: >-
+      Bumps [parser](https://github.com/whitequark/parser) from 3.3.10.2 to 3.3.11.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/whitequark/parser/blob/master/CHANGELOG.md">parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v3.3.11.1 (2026-03-27)</h2>
+
+      <p>API modi...
+    url: https://github.com/unhappychoice/terminal_image/pull/557
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-27T03:04:34Z
+    mergedAt: 2026-03-27T06:01:34Z
+  - title: "chore(deps): bump sha2 from 0.10.9 to 0.11.0"
+    body: |-
+      Bumps [sha2](https://github.com/RustCrypto/hashes) from 0.10.9 to 0.11.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/RustCrypto/hashes/commit/ffe093984c004769747e998f77da8ff7c0e7a765"><code>ffe0939</code></a> Release sha2 0.11.0 (<a href="https://redirect.github.com/Ru...
+    url: https://github.com/unhappychoice/gittype/pull/400
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 63
+    deletions: 8
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-26T12:55:08Z
+    mergedAt: 2026-03-26T16:44:24Z
+  - title: "chore(deps-dev): Bump eslint-plugin-jest from 29.15.0 to 29.15.1 in /packages/frontend"
+    body: >-
+      Bumps [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) from 29.15.0 to 29.15.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/jest-community/eslint-plugin-jest/releases">eslint-plugin-jest's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h...
+    url: https://github.com/unhappychoice/mdts/pull/615
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 6
+    deletions: 231
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-26T07:44:44Z
+    mergedAt: 2026-03-26T10:57:13Z
+  - title: "chore(deps): bump json from 2.19.2 to 2.19.3"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.3</h2>
+      <ul>
+      <li>Fix handling of unescaped control characters preceeded...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/84
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-26T03:10:17Z
+    mergedAt: 2026-03-26T10:57:26Z
+  - title: "chore(deps): Bump json from 2.19.2 to 2.19.3"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.3</h2>
+      <ul>
+      <li>Fix handling of unescaped control characters preceeded...
+    url: https://github.com/unhappychoice/blog/pull/685
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-26T03:05:57Z
+    mergedAt: 2026-03-26T09:21:20Z
+  - title: "build(deps-dev): Bump json from 2.19.2 to 2.19.3"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.2 to 2.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.3</h2>
+      <ul>
+      <li>Fix handling of unescaped control characters preceeded...
+    url: https://github.com/unhappychoice/terminal_image/pull/556
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-26T03:04:14Z
+    mergedAt: 2026-03-26T10:57:31Z
+  - title: Bump zenn-cli from 0.4.6 to 0.4.7
+    body: |-
+      Bumps [zenn-cli](https://github.com/zenn-dev/zenn-editor/tree/HEAD/packages/zenn-cli) from 0.4.6 to 0.4.7.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/zenn-dev/zenn-editor/releases">zenn-cli's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.4.7</h2>
+      <ul>
+      <li>...
+    url: https://github.com/unhappychoice/zenn-docs/pull/3
+    repository: unhappychoice/zenn-docs
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-25T03:07:54Z
+    mergedAt: 2026-03-25T08:13:58Z
+  - title: "chore(deps-dev): bump activesupport from 8.1.2.1 to 8.1.3"
+    body: |-
+      Bumps [activesupport](https://github.com/rails/rails) from 8.1.2.1 to 8.1.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rails/rails/releases">activesupport's releases</a>.</em></p>
+      <blockquote>
+      <h2>8.1.3</h2>
+      <h2>Active Support</h2>
+      <ul>
+      <li>
+      <p>Fix <c...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/83
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-25T03:09:27Z
+    mergedAt: 2026-03-25T08:13:56Z
+  - title: "chore(deps): Bump activesupport from 8.1.2.1 to 8.1.3"
+    body: |-
+      Bumps [activesupport](https://github.com/rails/rails) from 8.1.2.1 to 8.1.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rails/rails/releases">activesupport's releases</a>.</em></p>
+      <blockquote>
+      <h2>8.1.3</h2>
+      <h2>Active Support</h2>
+      <ul>
+      <li>
+      <p>Fix <c...
+    url: https://github.com/unhappychoice/blog/pull/684
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-25T03:04:24Z
+    mergedAt: 2026-03-25T08:14:00Z
+  - title: "chore(deps): bump toml_edit from 0.25.5+spec-1.1.0 to 0.25.6+spec-1.1.0"
+    body: >-
+      Bumps [toml_edit](https://github.com/toml-rs/toml) from 0.25.5+spec-1.1.0 to 0.25.6+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/4cb18e4205c9b31b5ae0a983accdedf9c2f1ca6d"><code>4cb18e4</code></a>
+      chore: Release</li>
+
+      <li><a href="https://gi...
+    url: https://github.com/unhappychoice/gitlogue/pull/181
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-25T02:24:36Z
+    mergedAt: 2026-03-25T08:14:05Z
+  - title: "chore(deps): bump env_logger from 0.11.9 to 0.11.10"
+    body: |-
+      Bumps [env_logger](https://github.com/rust-cli/env_logger) from 0.11.9 to 0.11.10.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rust-cli/env_logger/releases">env_logger's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.11.10</h2>
+      <h2>[0.11.10] - 2026-03-23</h...
+    url: https://github.com/unhappychoice/gittype/pull/399
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 9
+    deletions: 33
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T12:54:48Z
+    mergedAt: 2026-03-24T13:04:17Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.1 to 8.57.2"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.57.1 to 8.57.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/612
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 232
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T07:45:02Z
+    mergedAt: 2026-03-25T08:20:07Z
+  - title: "chore(deps): Bump react-router-dom from 7.13.1 to 7.13.2 in /packages/frontend"
+    body: >-
+      Bumps [react-router-dom](https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom) from
+      7.13.1 to 7.13.2.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/remix-run/react-router/blob/main/packages/react-router-dom/CHANGELOG.md">react-router-...
+    url: https://github.com/unhappychoice/mdts/pull/613
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T07:45:09Z
+    mergedAt: 2026-03-25T08:19:59Z
+  - title: "feat: auto-fallback to next available port on EADDRINUSE"
+    body: >-
+      - When the default port (8521) is already in use, the server automatically tries the next port instead of crashing
+      with `EADDRINUSE`
+
+      - Retries up to 10 times (ports 8521–8531), logging each attempt
+
+      - The actual port is correctly reflected in the browser URL and CLI log output
+    url: https://github.com/unhappychoice/mdts/pull/614
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 132
+    deletions: 34
+    changedFiles: 4
+    author: hirotoKirimaru
+    createdAt: 2026-03-24T08:34:36Z
+    mergedAt: 2026-03-27T05:38:40Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.57.1 to 8.57.2"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.57.1 to 8.57.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/609
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 64
+    deletions: 64
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T07:44:31Z
+    mergedAt: 2026-03-25T08:20:16Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.1 to 8.57.2 in /packages/frontend"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.57.1 to 8.57.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/611
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 234
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T07:44:55Z
+    mergedAt: 2026-03-25T08:19:59Z
+  - title: "chore(deps-dev): bump activesupport from 8.1.2 to 8.1.2.1"
+    body: |-
+      Bumps [activesupport](https://github.com/rails/rails) from 8.1.2 to 8.1.2.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rails/rails/releases">activesupport's releases</a>.</em></p>
+      <blockquote>
+      <h2>8.1.2.1</h2>
+      <h2>Active Support</h2>
+      <ul>
+      <li>
+      <p>Reje...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/82
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:11:47Z
+    mergedAt: 2026-03-24T05:12:23Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.57.1 to 8.57.2 in /packages/frontend"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.57.1 to 8.57.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/608
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 63
+    deletions: 63
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T07:44:30Z
+    mergedAt: 2026-03-25T08:20:01Z
+  - title: "chore(deps-dev): bump typescript from 5.9.3 to 6.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
+      <blockquote>
+      <h2>TypeScript 6.0</h2>
+      <p>For release notes, ch...
+    url: https://github.com/unhappychoice/oss-issue-opener/pull/128
+    repository: unhappychoice/oss-issue-opener
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:07:54Z
+    mergedAt: 2026-03-24T05:24:53Z
+  - title: "build(deps-dev): Bump rubocop from 1.85.1 to 1.86.0"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.85.1 to 1.86.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.0</h2>
+      <h3>New features</h3>
+      <ul>
+      <li><a hre...
+    url: https://github.com/unhappychoice/terminal_image/pull/555
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 11
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:04:17Z
+    mergedAt: 2026-03-24T05:12:32Z
+  - title: "build(deps-dev): bump typescript from 5.9.3 to 6.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
+      <blockquote>
+      <h2>TypeScript 6.0</h2>
+      <p>For release notes, ch...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/348
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:04:01Z
+    mergedAt: 2026-03-24T05:24:41Z
+  - title: "build(deps-dev): Bump mcp from 0.9.0 to 0.9.1"
+    body: >-
+      Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.9.0 to 0.9.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/modelcontextprotocol/ruby-sdk/releases">mcp's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.9.1</h2>
+
+      <h3>Added</h3>
+
+      <ul>
+
+      <li>Allo...
+    url: https://github.com/unhappychoice/terminal_image/pull/554
+    repository: unhappychoice/terminal_image
+    state: closed
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:04:02Z
+    mergedAt: null
+  - title: "chore(deps-dev): bump typescript from 5.9.3 to 6.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
+      <blockquote>
+      <h2>TypeScript 6.0</h2>
+      <p>For release notes, ch...
+    url: https://github.com/unhappychoice/cycle-cropper/pull/128
+    repository: unhappychoice/cycle-cropper
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T03:04:11Z
+    mergedAt: 2026-03-24T05:24:44Z
+  - title: "chore(deps): bump toml from 1.0.7+spec-1.1.0 to 1.1.0+spec-1.1.0"
+    body: >-
+      Bumps [toml](https://github.com/toml-rs/toml) from 1.0.7+spec-1.1.0 to 1.1.0+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/d66e46e2c3f91e1d6d6479c5decea0993c2c76ba"><code>d66e46e</code></a>
+      chore: Release</li>
+
+      <li><a href="https://github.co...
+    url: https://github.com/unhappychoice/gitlogue/pull/180
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 11
+    deletions: 11
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-24T02:24:41Z
+    mergedAt: 2026-03-24T05:13:35Z
+  - title: "chore(deps): Bump activesupport from 8.1.2 to 8.1.2.1"
+    body: |-
+      Bumps [activesupport](https://github.com/rails/rails) from 8.1.2 to 8.1.2.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rails/rails/releases">activesupport's releases</a>.</em></p>
+      <blockquote>
+      <h2>8.1.2.1</h2>
+      <h2>Active Support</h2>
+      <ul>
+      <li>
+      <p>Reje...
+    url: https://github.com/unhappychoice/blog/pull/683
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-23T20:57:40Z
+    mergedAt: 2026-03-24T05:13:38Z
+  - title: "build(deps-dev): Bump mcp from 0.8.0 to 0.9.0"
+    body: >-
+      Bumps [mcp](https://github.com/modelcontextprotocol/ruby-sdk) from 0.8.0 to 0.9.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/modelcontextprotocol/ruby-sdk/releases">mcp's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.9.0</h2>
+
+      <h3>Added</h3>
+
+      <ul>
+
+      <li><cod...
+    url: https://github.com/unhappychoice/terminal_image/pull/553
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-23T03:05:07Z
+    mergedAt: 2026-03-23T07:58:20Z
+  - title: "chore(deps): Bump ws from 8.19.0 to 8.20.0"
+    body: |-
+      Bumps [ws](https://github.com/websockets/ws) from 8.19.0 to 8.20.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/websockets/ws/releases">ws's releases</a>.</em></p>
+      <blockquote>
+      <h2>8.20.0</h2>
+      <h1>Features</h1>
+      <ul>
+      <li>Added exports for the <code>PerMe...
+    url: https://github.com/unhappychoice/mdts/pull/604
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 228
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-23T07:46:17Z
+    mergedAt: 2026-03-23T07:58:22Z
+  - title: "chore(deps-dev): Bump eslint from 9.39.2 to 10.0.3"
+    body: |-
+      Bumps [eslint](https://github.com/eslint/eslint) from 9.39.2 to 10.0.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/eslint/eslint/releases">eslint's releases</a>.</em></p>
+      <blockquote>
+      <h2>v10.0.3</h2>
+      <h2>Bug Fixes</h2>
+      <ul>
+      <li><a href="https://github...
+    url: https://github.com/unhappychoice/mdts/pull/577
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 458
+    deletions: 377
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-09T07:46:54Z
+    mergedAt: null
+  - title: "chore(deps-dev): Bump eslint from 9.39.2 to 10.0.3 in /packages/frontend"
+    body: |-
+      Bumps [eslint](https://github.com/eslint/eslint) from 9.39.2 to 10.0.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/eslint/eslint/releases">eslint's releases</a>.</em></p>
+      <blockquote>
+      <h2>v10.0.3</h2>
+      <h2>Bug Fixes</h2>
+      <ul>
+      <li><a href="https://github...
+    url: https://github.com/unhappychoice/mdts/pull/576
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 397
+    deletions: 119
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-09T07:46:48Z
+    mergedAt: null
+issues: []
+events: []
+externalContributions: []

@@ -1,0 +1,138 @@
+title: View Transitions API and Unemployment Post Transform Blog Experience
+subtitle: A week of UI polish and personal storytelling on my personal platform.
+overview: >
+  This week was dominated by work on my personal blog, where I focused on implementing modern web features and
+  publishing a deeply personal post. The main narrative revolved around adding the View Transitions API for smooth page
+  navigation, which required careful tuning to avoid visual glitches, alongside writing about my current unemployment
+  period and the principles behind my OSS projects.
+
+
+  The burst of activity came mid-week, with over 100 commits on Tuesday and Wednesday combined, largely due to a
+  dependency update spree across multiple repositories. However, the blog work stood out as it combined technical depth
+  with personal storytelling, making it a fulfilling week despite the routine maintenance tasks.
+
+
+  Looking ahead, I plan to continue refining the blog's user experience and explore more ways to integrate personal
+  insights with technical content, while keeping dependencies updated across my projects.
+summaries:
+  - type: deep-dive
+    heading: Smooth Navigation with View Transitions
+    body: I integrated the View Transitions API into the blog, enabling smooth fade-in/out effects between pages without
+      JavaScript. After merging the initial feature, I quickly followed up with a fix to prevent a flash during
+      transitions by aligning opacity durations and ensuring background color consistency. This enhances the reading
+      experience and showcases CSS progressive enhancement.
+    chips:
+      - label: feature
+        value: View Transitions API
+        color: default
+      - label: repo
+        value: unhappychoice/blog
+        color: default
+      - label: PRs merged
+        value: "2"
+        color: default
+      - label: key fix
+        value: flash prevention
+        color: default
+  - type: content-creation
+    heading: Reflecting on Unemployment in Japanese
+    body: "I published a blog post titled '今の無職期間にしていること', sharing my experiences and principles during unemployment. The
+      post covers four OSS projects totaling around 6,000 stars and three guiding principles: inventing, prioritizing
+      UI/UX, and designing with marketing in mind. This personal narrative adds depth to the technical blog and connects
+      with readers on a human level."
+    chips:
+      - label: post title
+        value: 今の無職期間にしていること
+        color: default
+      - label: language
+        value: Japanese
+        color: default
+      - label: focus
+        value: OSS principles
+        color: default
+      - label: repo
+        value: unhappychoice/blog
+        color: default
+  - type: activity-pattern
+    heading: Commit Surge Mid-Week
+    body: Commit activity spiked on Tuesday (60) and Wednesday (52), making up over 50% of the week's 84 commits. This burst
+      aligns with a dependency update marathon across repositories, indicating focused maintenance. The lighter activity
+      on Monday and the weekend suggests a balanced workflow with deep work sessions.
+    chips:
+      - label: peak day
+        value: "2026-03-26: 60"
+        color: green
+      - label: total commits
+        value: "84"
+        color: default
+      - label: lines changed
+        value: +2250 -1438
+        color: default
+      - label: pattern
+        value: burst then taper
+        color: default
+  - type: contribution-summary
+    heading: External Contribution to committers.top
+    body: I opened a PR in ashkulz/committers.top to fix user search sorting by switching from GraphQL to REST API. The
+      issue was GitHub's GraphQL not supporting `sort:followers` for user search, causing non-deterministic results.
+      This change adds 321 lines and removes 161 to ensure accurate follower-based rankings.
+    chips:
+      - label: repo
+        value: ashkulz/committers.top
+        color: default
+      - label: change type
+        value: API switch
+        color: default
+      - label: lines
+        value: +321 -161
+        color: default
+      - label: status
+        value: open
+        color: default
+  - type: repo-summary
+    heading: Wide Repository Maintenance
+    body: Eight repositories saw activity, with unhappychoice/mdts leading in PR volume (11), followed by the blog (7). Most
+      PRs were dependency bumps for security and updates across Rust, Ruby, and JS projects. Only the blog received
+      feature-level changes, highlighting a week where maintenance dominated but with a creative exception.
+    chips:
+      - label: active repos
+        value: "8"
+        color: default
+      - label: top repo by PRs
+        value: "unhappychoice/mdts: 11"
+        color: default
+      - label: dependency PRs
+        value: most
+        color: default
+      - label: feature work
+        value: blog only
+        color: default
+highlights:
+  - type: pr
+    title: "feat: add view transition for smooth page fade-in/out"
+    repo: unhappychoice/blog
+    meta: merged Mar 25 · +22 -0 · 2 files
+    body: Introduced smooth page navigation using View Transitions API, greatly improving the blog's user experience with
+      CSS-only progressive enhancement.
+    url: https://github.com/unhappychoice/blog/pull/686
+  - type: pr
+    title: "post: 今の無職期間にしていること"
+    repo: unhappychoice/blog
+    meta: merged Mar 27 · +97 -0 · 1 files
+    body: Shared a personal reflection on unemployment, discussing OSS achievements and core principles, which connected
+      deeply with the audience.
+    url: https://github.com/unhappychoice/blog/pull/688
+  - type: pr
+    title: "fix: prevent flash during view transition"
+    repo: unhappychoice/blog
+    meta: merged Mar 26 · +13 -2 · 2 files
+    body: Fixed a visual flash issue in the new view transitions by aligning opacity durations and background colors,
+      ensuring smooth transitions.
+    url: https://github.com/unhappychoice/blog/pull/687
+  - type: pr
+    title: "fix: use REST API for user search to fix incorrect sort order"
+    repo: ashkulz/committers.top
+    meta: opened Mar 26 · +321 -161 · 4 files
+    body: Contributed to an external project by fixing user search sorting via REST API, addressing a GraphQL limitation for
+      accurate follower rankings.
+    url: https://github.com/ashkulz/committers.top/pull/113
