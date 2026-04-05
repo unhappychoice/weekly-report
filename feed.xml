@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Dev Pulse</title>
+    <link>https://unhappychoice.github.io/weekly-report/</link>
+    <description>Weekly reports by @unhappychoice</description>
+    <language>en</language>
+    <atom:link href="https://unhappychoice.github.io/weekly-report/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://unhappychoice.github.io/weekly-report/og.png</url>
+      <title>Dev Pulse</title>
+      <link>https://unhappychoice.github.io/weekly-report/</link>
+      <width>1200</width>
+      <height>630</height>
+    </image>
+    <item>
+      <title>daily-fetch week rollover bug fixed after Sunday event loss</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>
+      <description>A critical bug in the daily-fetch cron caused Sunday events to be missed due to ISO week miscalculation, prompting a week of debugging, fixes, and collateral improvements.
+
+This week started with a routine maintenance mode but quickly pivoted when I discovered that Sunday&apos;s GitHub events were missing from the weekly reports. The root cause was a subtle bug in the daily-fetch script&apos;s week calculation logic, which used the previous ISO week instead of the current one when running mid-week.
+
+After identifying the issue in `buildWeeklyRange` and `getWeekId`, I implemented `buildCurrentWeekRange` and `getCurrentWeekId` to ensure daily-fetch always collects the current week&apos;s events. This fix triggered a cascade of related improvements: better PR fetch error handling, exclusion of private repos from searches, and enhanced documentation.
+
+By week&apos;s end, the main repository saw 19 PRs merged, test coverage jumped from 40% to 97%, and I set up Dependabot to automate future dependency updates. The burst of activity on Tuesday and Thursday, with 161 and 283 commits respectively, reflected the intensity of the debugging and subsequent refactoring.
+
+
+Commits: 312, PRs: 53, Reviews: 53</description>
+      <pubDate>Sun, 05 Apr 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
+      <title>CSS View Transitions API: fixing flash and adding smooth fades in my blog</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W13/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W13/</guid>
+      <description>Implemented smooth page transitions using the View Transitions API and debugged a flash issue caused by mismatched background colors and transition durations.
+
+The week exploded with 120 commits and 68 reviews, starting with a massive dependency update sprint across 8 different repositories. I automated Ruby and Rust dependency bumps for both my own projects and several external tooling repos, handling multiple version bumps for `ffi`, `parser`, `insta`, and `uuid`.
+
+The narrative pivot came when I shifted from maintenance to user experience work on my blog. I implemented the CSS View Transitions API for smooth cross-page fades, but immediately hit a visual bug: pages flashed black during transitions. Debugging revealed mismatched background colors between `html` and `body` elements combined with asymmetric fade durations (0.2s out, 0.3s in) created a transparency window.
+
+I wrapped the week by writing a reflective Japanese blog post about my OSS journey during unemployment, sharing the three principles that guided my 6,000-star project suite. The open PR in `ashkulz/committers.top` to fix user search by switching to REST API also continued to evolve, highlighting my cross-organization contributions beyond my own ecosystem.
+
+
+Commits: 120, PRs: 5, Reviews: 68</description>
+      <pubDate>Sun, 29 Mar 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W13/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W13/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
+      <title>Markdown Diff and History Tabs Merge into mdts</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W12/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W12/</guid>
+      <description>Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow.
+
+This week was a balancing act between routine dependency maintenance and a significant feature launch in my core project, mdts. I spent considerable time ensuring various repositories stayed up-to-date with security patches, while also pushing through a long-planned enhancement to the markdown editing workflow.
+
+The centerpiece was merging the &apos;feat: add markdown diff view and previous commit history tabs&apos; pull request, which adds Diff and History tabs to the markdown content view. This required careful integration of git commands for diff output and building a responsive UI with color-coded rendering. Simultaneously, I processed a wave of dependency updates across Ruby, Java, and JavaScript projects, including bumps to nokogiri, gradle-wrapper, and json libraries.
+
+The week wrapped up with an open pull request in ashkulz/committers.top, where I&apos;m fixing a GraphQL API misuse that causes incorrect user sorting. This cross-repo collaboration underscores the interconnected nature of open source maintenance beyond my own repositories.
+
+
+Commits: 64, PRs: 3, Reviews: 42</description>
+      <pubDate>Sun, 22 Mar 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W12/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W12/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
+      <title>tree-sitter-dart 0.1.0 upgrade in gitlogue opens amid 19 dependency merges</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W11/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W11/</guid>
+      <description>Major grammar bump for Dart parsing alongside cross-org maintenance across 14 repositories
+
+This week was dominated by dependency maintenance across my personal projects and several external organizations. I opened a significant PR bumping tree-sitter-dart from 0.0.4 to 0.1.0 in gitlogue—a jump that promises improved Dart parsing—while simultaneously merging 19 other dependency updates spanning Rust, JavaScript, and Ruby ecosystems.
+
+The tree-sitter-dart upgrade is particularly interesting because it&apos;s not just a patch version bump; 0.1.0 likely includes breaking changes or major features that will affect how gitlogue processes Dart repositories. Meanwhile, my contributions to bitflyer-tools, circleci-tools, and irasutoya-tools show how dependency maintenance often crosses organizational boundaries, with the same clap/rubocop-ast updates appearing in multiple places.
+
+With 61 commits and 59 reviews, I stayed busy both pushing changes and reviewing others&apos; work. The pattern emerges clearly: one substantial open PR for a language grammar upgrade, plus a flood of smaller, automated dependency bumps that keep the toolchain healthy across all these projects.
+
+
+Commits: 61, PRs: 0, Reviews: 59</description>
+      <pubDate>Sun, 15 Mar 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W11/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W11/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+  </channel>
+</rss>
