@@ -1,117 +1,114 @@
-title: _sid parameter unifies cross-domain analytics across deariary
-subtitle: Implemented cookie-free session ID passing via URL between app, blog, and LP domains to maintain analytics
-  continuity without GDPR consent banners.
+title: Markdown Diff and History Tabs Merge into mdts
+subtitle: Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow.
 overview: >
-  This week was defined by two major thrusts: a significant content marketing push for the blog and a technical deep
-  dive into cross-domain analytics. I merged 88 PRs across eight repositories, with deariary/blog alone accounting for
-  35 of them. The most complex work centered on designing and shipping a session-sharing mechanism using a _sid URL
-  parameter, which required coordinated changes across frontend, LP, and backend.
+  This week was a balancing act between routine dependency maintenance and a significant feature launch in my core
+  project, mdts. I spent considerable time ensuring various repositories stayed up-to-date with security patches, while
+  also pushing through a long-planned enhancement to the markdown editing workflow.
 
 
-  The analytics feature was the week's technical centerpiece. We needed to track user journeys across our separate
-  domains (app.deariary.com, blog.deariary.com, lp.deariary.com) without using cookies, which would trigger GDPR consent
-  requirements. The solution involved the SPA appending _sid to outbound links to the LP, the LP adopting that ID into
-  sessionStorage and propagating it back to the app, and the backend splitting KPI endpoints by traffic segment to
-  accommodate the new session model. Simultaneously, the blog team published five strategic posts and added note.com as
-  a distribution channel, dramatically expanding our content footprint.
+  The centerpiece was merging the 'feat: add markdown diff view and previous commit history tabs' pull request, which
+  adds Diff and History tabs to the markdown content view. This required careful integration of git commands for diff
+  output and building a responsive UI with color-coded rendering. Simultaneously, I processed a wave of dependency
+  updates across Ruby, Java, and JavaScript projects, including bumps to nokogiri, gradle-wrapper, and json libraries.
 
 
-  The commit pattern showed a classic burst-sprint: Monday (137 commits) and Tuesday (142) were intense as we finalized
-  the analytics implementation, then the pace gradually eased through the week as reviews and content integration took
-  over. No zero days, but Friday (48 commits) was notably lighter, likely reflecting a natural decompression after the
-  big push.
+  The week wrapped up with an open pull request in ashkulz/committers.top, where I'm fixing a GraphQL API misuse that
+  causes incorrect user sorting. This cross-repo collaboration underscores the interconnected nature of open source
+  maintenance beyond my own repositories.
 summaries:
-  - type: cross-domain-analytics
-    heading: Cookie-free session sharing goes live
-    body: We shipped the _sid parameter implementation across frontend and LP to maintain analytics continuity when users
-      jump between our domains. The frontend captures outbound clicks to LP and rewrites URLs with _sid; LP reads and
-      adopts it into sessionStorage, then passes it back to app. Backend KPI endpoints were split by traffic segment
-      (app, lp, blog) to accommodate the new session model. No cookies means we stay GDPR-compliant without consent
-      banners.
+  - type: feature-launch
+    heading: mdts Workflow Enhancement Lands
+    body: "The merged feature PR introduces two new tabs to the markdown content view: Diff, which shows uncommitted changes
+      via `git diff`, and History, which displays the previous commit's changes via `git diff HEAD~1 HEAD`. Both tabs
+      feature color-coded diff rendering, making it easier to track changes over time. This addition directly addresses
+      user feedback for better version comparison tools within the editor."
     chips:
-      - label: repos involved
-        value: 3 (frontend, lp, backend)
+      - label: repo
+        value: unhappychoice/mdts
         color: default
       - label: lines changed
-        value: +210 -4
+        value: +878 -42
         color: default
-      - label: key benefit
-        value: GDPR-compliant tracking
+      - label: files modified
+        value: "21"
         color: default
-  - type: repo-summary
-    heading: deariary/blog dominates with 35 PRs
-    body: The blog repository was the busiest, with 35 merged PRs focused on content expansion and distribution. We added
-      five new strategic blog posts covering core philosophy, competitor comparison, and objection handling, plus
-      implemented a new note.com distribution channel with automated cover image generation via satori. This pushes our
-      content strategy forward targeting high-value keywords like 'daylio'.
+      - label: user impact
+        value: high
+        color: green
+  - type: dependency-management
+    heading: Security and Compatibility Updates
+    body: A total of 17 dependency bump PRs were merged across 12 repositories, covering languages like Ruby, Java, Rust,
+      and JavaScript. Key updates include bumping tree-sitter-rust to 0.24.1, nokogiri to 1.19.2, gradle-wrapper to
+      9.4.1, and json to 2.19.2. These updates patch security vulnerabilities and ensure compatibility with latest
+      toolchains, reducing technical debt.
     chips:
-      - label: PRs merged
-        value: "35"
+      - label: dependency PRs
+        value: "17"
         color: default
-      - label: new posts
-        value: "5"
+      - label: repos affected
+        value: "12"
         color: default
-      - label: distribution channel
-        value: note.com added
+      - label: security patches
+        value: multiple CVEs
+        color: yellow
+      - label: languages
+        value: Ruby, Java, JS, Rust
         color: default
-  - type: pwa-enhancement
-    heading: PWA install prompt added to avatar menu
-    body: Users can now install the PWA directly from the avatar dropdown in supported environments. The install action
-      appears only when the beforeinstallprompt event is available, and we added dedicated i18n keys for the install
-      copy across all 42 locales. This should increase PWA adoption from within the app without cluttering the UI for
-      unsupported browsers.
+  - type: cross-repo-collaboration
+    heading: Contributions Beyond Own Repos
+    body: "Active in external projects: submitted gitlogue to agarrharr/awesome-cli-apps for inclusion in the curated list,
+      and opened a PR in ashkulz/committers.top to fix incorrect user search sorting by switching from GraphQL to REST
+      API. This shows engagement with the broader community and sharing of my own tools."
     chips:
-      - label: files changed
-        value: "53"
+      - label: external repos
+        value: "3"
         color: default
-      - label: i18n keys
-        value: 42 locales
+      - label: submission type
+        value: app listing
         color: default
-      - label: user action
-        value: avatar menu install
-        color: default
+      - label: open PRs
+        value: "1"
+        color: red
+      - label: collaboration
+        value: active
+        color: green
   - type: activity-pattern
-    heading: Burst early, steady late
-    body: Commit volume peaked on Tuesday (142 commits) and Monday (137), coinciding with the final push on the cross-domain
-      analytics feature. The latter half of the week saw a gradual decline (71→64→48→57) as we shifted to content
-      reviews and smaller fixes. No zero-commit days, but Friday was the lightest with 48 commits, suggesting a natural
-      wind-down after the sprint.
+    heading: Front-Loaded Commit Burst
+    body: Daily commit activity peaked early in the week with 142 commits on Tuesday and 137 on Monday, then steadily
+      declined to 48 by Friday. This burst likely corresponds to the intensive feature development and dependency
+      updates at the week's start, followed by lighter review and coordination tasks later.
     chips:
       - label: peak day
         value: Tue 142
         color: green
-      - label: total commits
-        value: "64"
+      - label: commits Mon-Tue
+        value: "279"
         color: default
-      - label: lines added
-        value: "+45489"
+      - label: total daily commits
+        value: "602"
+        color: default
+      - label: pattern
+        value: burst then taper
         color: default
 highlights:
   - type: pr
-    title: "feat: cross-domain analytics session sharing via _sid parameter"
-    repo: deariary/frontend
-    meta: merged Mar 17 · +142 -3 · 4 files
-    body: "Core SPA implementation: captures outbound clicks to LP, appends _sid to URLs, and adopts _sid from URL on
-      return. Critical for stitching user journeys without cookies."
-    url: https://github.com/deariary/frontend/pull/471
+    title: "feat: add markdown diff view and previous commit history tabs"
+    repo: unhappychoice/mdts
+    meta: merged 2026-03-19 · +878 -42 · 21 files
+    body: This PR significantly enhances the markdown editing experience by providing built-in diff and history comparison
+      tools, reducing the need to switch to external git clients.
+    url: https://github.com/unhappychoice/mdts/pull/599
   - type: pr
-    title: "feat: cross-domain analytics session sharing via _sid parameter"
-    repo: deariary/lp
-    meta: merged Mar 18 · +68 -1 · 3 files
-    body: "LP side implementation: reads _sid from URL, stores in sessionStorage, and rewrites internal links to propagate
-      session ID back to app."
-    url: https://github.com/deariary/frontend/pull/471
+    title: Add gitlogue
+    repo: agarrharr/awesome-cli-apps
+    meta: merged 2026-03-19 · +1 -0 · 1 files
+    body: Getting my git commit replay tool, gitlogue, listed in a popular curated collection increases its visibility and
+      adoption among developers.
+    url: https://github.com/agarrharr/awesome-cli-apps/pull/787
   - type: pr
-    title: Add PWA install action to avatar menu
-    repo: deariary/frontend
-    meta: merged Mar 20 · +402 -2 · 53 files
-    body: Major UX improvement making PWA installation discoverable within the app, with full i18n support across 42 locales
-      and conditional display based on browser support.
-    url: https://github.com/deariary/frontend/pull/474
-  - type: pr
-    title: "feat: add blog link to header, mobile menu, and footer"
-    repo: deariary/lp
-    meta: merged Mar 19 · +100 -0 · 46 files
-    body: Widespread UI change adding outbound blog link to all navigation areas and footer columns, with proper i18n keys
-      and analytics tracking data attributes.
-    url: https://github.com/deariary/lp/pull/125
+    title: "fix: use REST API for user search to fix incorrect sort order"
+    repo: ashkulz/committers.top
+    meta: opened 2026-03-19 · +321 -161 · 4 files
+    body: Fixes a critical bug where GitHub's GraphQL API doesn't support the sort qualifier used, leading to
+      non-deterministic user rankings; switching to REST API ensures correct sorting by followers.
+    url: https://github.com/ashkulz/committers.top/pull/113
