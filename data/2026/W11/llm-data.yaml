@@ -1,168 +1,110 @@
-title: Scheduled publishing and per-article OGP images land in deariary blog
-subtitle: The blog now supports scheduling posts by pubDate and generates unique Open Graph images for each article at
-  build time, with a critical timezone fix.
+title: tree-sitter-dart 0.1.0 upgrade in gitlogue opens amid 19 dependency merges
+subtitle: Major grammar bump for Dart parsing alongside cross-org maintenance across 14 repositories
 overview: >
-  This week was dominated by deep work on the deariary project—a diary application—with a laser focus on the blog
-  subsystem and SEO infrastructure. The most substantial narrative centered on two major, interdependent features:
-  scheduled publishing and per-article Open Graph image generation, both of which required careful coordination across
-  the content pipeline and build process. A critical timezone bug surfaced immediately after the initial publishing
-  feature, turning a straightforward addition into a debugging saga that highlighted the perils of date handling in
-  distributed systems.
+  This week was dominated by dependency maintenance across my personal projects and several external organizations. I
+  opened a significant PR bumping tree-sitter-dart from 0.0.4 to 0.1.0 in gitlogue—a jump that promises improved Dart
+  parsing—while simultaneously merging 19 other dependency updates spanning Rust, JavaScript, and Ruby ecosystems.
 
 
-  Concurrently, a cross-repo SEO initiative came to fruition with a dynamic sitemap endpoint in the backend and a
-  consuming strategy in the frontend, automatically indexing public profiles and shared links. The landing page also
-  received meaningful polish with dark mode and an official profile link. Throughout, a series of targeted bug
-  fixes—locale resolution, CORS, GDPR deletion—addressed technical debt and compliance gaps that had been lurking in the
-  margins.
+  The tree-sitter-dart upgrade is particularly interesting because it's not just a patch version bump; 0.1.0 likely
+  includes breaking changes or major features that will affect how gitlogue processes Dart repositories. Meanwhile, my
+  contributions to bitflyer-tools, circleci-tools, and irasutoya-tools show how dependency maintenance often crosses
+  organizational boundaries, with the same clap/rubocop-ast updates appearing in multiple places.
 
 
-  The rhythm was intensely focused: long stretches of solitary coding on complex features, punctuated by quick, precise
-  bug fixes and review cycles. The work demonstrated a mature ability to ship user-facing features while simultaneously
-  hardening the underlying platform.
+  With 61 commits and 59 reviews, I stayed busy both pushing changes and reviewing others' work. The pattern emerges
+  clearly: one substantial open PR for a language grammar upgrade, plus a flood of smaller, automated dependency bumps
+  that keep the toolchain healthy across all these projects.
 summaries:
-  - type: feature-summary
-    heading: Blog gains scheduled publishing and per-article OGP images
-    body: The blog now supports scheduling posts by pubDate, filtering future-dated content at build time. A critical
-      follow-up fixed timezone handling to use UTC, preventing posts from disappearing on Cloudflare's UTC build
-      servers. Additionally, each article now generates a unique, branded Open Graph image at build time using satori
-      and resvg, dramatically improving social sharing previews.
+  - type: deep-dive
+    heading: "tree-sitter-dart 0.1.0: a grammar upgrade with impact"
+    body: The bump from 0.0.4 to 0.1.0 in gitlogue's Dart grammar is the week's most substantive change. Tree-sitter grammar
+      updates often include parser improvements, new syntax nodes, or performance enhancements that directly affect
+      gitlogue's ability to generate accurate commit logs for Dart projects. This PR is still open, indicating active
+      discussion or testing needed for the breaking changes.
     chips:
-      - label: scheduled publishing
-        value: 2 PRs
+      - label: upgrade
+        value: 0.0.4 → 0.1.0
         color: default
-      - label: OGP images
-        value: 1 PR (+703 lines)
+      - label: repo
+        value: unhappychoice/gitlogue
         color: default
-      - label: timezone fix
-        value: 1 PR (+3 -3)
+      - label: status
+        value: open
         color: default
-      - label: build tooling
-        value: satori + resvg
+      - label: impact
+        value: Dart parsing
         color: default
-  - type: seo-improvements
-    heading: Dynamic sitemap and robots strategy for public pages
-    body: A new `GET /sitemap` endpoint in the backend dynamically lists all public profiles and shared links with proper
-      SEO metadata. The frontend consumes this via a new `sitemap.ts`, and `robots.ts` was updated to allow `/u/` paths
-      and reference the dynamic sitemap. This ensures user-generated content is properly indexed without manual
-      intervention.
+  - type: contribution-summary
+    heading: Cross-org dependency symphony
+    body: Seven PRs went to external organizations (bitflyer-tools, circleci-tools, irasutoya-tools), demonstrating how
+      dependency maintenance transcends repository ownership. The same rubocop-ast bump appeared in five different repos
+      across three orgs, while esbuild and electron updates targeted specific tooling projects. This pattern shows the
+      interconnectedness of the ecosystem.
     chips:
-      - label: backend endpoint
-        value: GET /sitemap
+      - label: external repos
+        value: "7"
         color: default
-      - label: frontend strategy
-        value: dynamic sitemap.ts
-        color: default
-      - label: robots updated
-        value: allow /u/
-        color: default
-      - label: public paths
-        value: profiles, shares
-        color: default
-  - type: bug-fix-roundup
-    heading: Locale, CORS, and GDPR fixes polish the experience
-    body: "Three distinct bug classes were addressed: locale resolution on public profiles now correctly falls back to the
-      profile owner's setting instead of browser language; blog analytics requests were unblocked by adding
-      `blog.deariary.com` to CORS origins; and GDPR data deletion now properly cascades to `analytics_events` and
-      `user_milestones` to prevent orphaned records and FK constraint failures."
-    chips:
-      - label: locale fix
-        value: 2 PRs
-        color: default
-      - label: CORS fix
-        value: 1 PR
-        color: default
-      - label: GDPR fix
-        value: 1 PR
-        color: default
-      - label: data integrity
-        value: FK constraints satisfied
-        color: default
-  - type: lp-enhancements
-    heading: Landing page gets dark mode and official profile link
-    body: The deariary landing page launched dark mode with system preference detection and a manual toggle. Simultaneously,
-      an official public profile link (`@deariaryapp`) was added in three strategic locations, requiring updates to 42
-      locale files. These changes strengthen branding and provide a consistent entry point to the app's social proof.
-    chips:
-      - label: dark mode
-        value: 1 PR (+806 lines)
-        color: default
-      - label: profile link
-        value: 1 PR (+121 lines)
-        color: default
-      - label: i18n keys
-        value: 42 locales
-        color: default
-      - label: locations
+      - label: organizations
         value: "3"
         color: default
-  - type: personal-project
-    heading: Daily logging continues in hibinoki
-    body: The personal daily logging project (hibinoki) saw two more auto-generated daily logs, aggregating activity from
-      GitHub, Linear, Steam, Swarm, and weather. These logs are part of a larger effort to track daily activity across
-      multiple services, with summaries generated by CodeRabbit.
-    chips:
-      - label: daily logs
-        value: 2 PRs
-        color: default
-      - label: services tracked
-        value: 5+
-        color: default
-      - label: auto-generated
-        value: yes
-        color: default
-      - label: lines added
-        value: "+5696"
+      - label: shared updates
+        value: rubocop-ast ×5
         color: default
   - type: repo-summary
-    heading: Cross-repo collaboration in deariary and personal projects
-    body: "The deariary project saw balanced activity across four repos: backend (5 PRs), frontend (5 PRs), blog (5 PRs),
-      and lp (2 PRs). The developer also maintained personal repos (hibinoki, mdts, gittype, gitlogue) with 8, 13, 4,
-      and 4 PRs respectively. This distribution shows a primary focus on the core product while keeping personal tooling
-      active."
+    heading: 14 repositories, one focus
+    body: "Activity spanned 14 repositories with a clear theme: dependency hygiene. My own unhappychoice projects (gittype,
+      gitlogue, mdts) saw the most activity, but maintenance extended to specialized tools like cycle-flyer (Electron)
+      and terminal_image (Ruby). The only non-dependency PR was a documentation improvement for gittype's Homebrew
+      installation."
     chips:
-      - label: deariary/backend
-        value: 5 PRs
+      - label: active repos
+        value: "14"
         color: default
-      - label: deariary/frontend
-        value: 5 PRs
+      - label: total PRs
+        value: "20"
         color: default
-      - label: deariary/blog
-        value: 5 PRs
+      - label: non-deps PRs
+        value: "1"
         color: default
-      - label: deariary/lp
-        value: 2 PRs
+  - type: review-summary
+    heading: "59 reviews: keeping the pipeline green"
+    body: While opening and merging PRs, I also found time for 59 code reviews—nearly one per commit. This high review
+      volume suggests I was shepherding both my own dependency updates (checking for breaking changes in
+      clap/tree-sitter bumps) and likely reviewing contributions in the external orgs where I'm a maintainer.
+    chips:
+      - label: reviews
+        value: "59"
+        color: default
+      - label: ratio
+        value: ~1:1 commits:reviews
+        color: default
+  - type: commit-summary
+    heading: 61 commits of tactical maintenance
+    body: "The 61 commits (+3736 -3536 lines) reflect mostly small, focused changes: version bumps in lockfiles, minor
+      documentation tweaks, and configuration updates. There were no large feature commits, reinforcing that this was a
+      week of upkeep rather than new development. The near-equivalent additions/deletions suggest mostly file
+      replacements in lockfiles and generated docs."
+    chips:
+      - label: commits
+        value: "61"
+        color: default
+      - label: lines
+        value: +3736 -3536
         color: default
 highlights:
   - type: pr
-    title: "feat: generate per-article OGP images at build time"
-    repo: deariary/blog
-    meta: merged · +703 -1 · 8 files
-    body: This PR introduced build-time Open Graph image generation for each blog post, using satori and resvg to create
-      branded images matching the frontend's share cards. It significantly improves social sharing previews and required
-      careful design token alignment.
-    url: https://github.com/deariary/blog/pull/6
+    title: "chore(deps): bump tree-sitter-dart from 0.0.4 to 0.1.0"
+    repo: unhappychoice/gitlogue
+    meta: opened Mar 9-15 · +4 -4 · 2 files
+    body: This open PR upgrades the Dart grammar to 0.1.0, a major version jump that will significantly improve Dart parsing
+      in gitlogue. Such grammar updates are rare and often involve breaking changes, making this the week's most
+      technically substantial piece of work.
+    url: https://github.com/unhappychoice/gitlogue/pull/173
   - type: pr
-    title: "feat: add scheduled publishing by filtering future-dated posts"
-    repo: deariary/blog
-    meta: merged · +54 -41 · 9 files
-    body: This PR added the core scheduled publishing feature by filtering posts with future pubDates at build time. It also
-      extracted shared helpers (`isNewsPost`, `postPath`) to eliminate duplication across seven route files, cleaning up
-      the content pipeline.
-    url: https://github.com/deariary/blog/pull/9
-  - type: pr
-    title: "fix: use UTC for pubDate comparison in scheduled publishing"
-    repo: deariary/blog
-    meta: merged · +3 -3 · 1 file
-    body: "A critical fix for the scheduled publishing feature: by switching to UTC via `Date.UTC()` for pubDate
-      comparisons, it prevents posts from being incorrectly excluded when Cloudflare Pages builds in UTC and the pubDate
-      falls on the current UTC day."
-    url: https://github.com/deariary/blog/pull/10
-  - type: pr
-    title: "feat: dynamic sitemap/robots strategy for public pages"
-    repo: deariary/frontend
-    meta: merged · +128 -5 · 6 files
-    body: This PR implemented a dynamic sitemap strategy in the frontend that fetches the sitemap from the backend and
-      updates robots.txt to allow public profile paths (`/u/`). It's a key SEO improvement that automatically indexes
-      user-generated content without manual updates.
-    url: https://github.com/deariary/frontend/pull/442
+    title: "docs: Update installation instructions for Homebrew"
+    repo: unhappychoice/gittype
+    meta: merged Mar 9-15 · +8 -3 · 2 files
+    body: Simplified gittype's installation by removing the custom tap requirement—users can now install directly via `brew
+      install gittype`. This small documentation change significantly lowers the barrier to entry for new users.
+    url: https://github.com/unhappychoice/gittype/pull/391
