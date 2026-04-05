@@ -1,4 +1,4 @@
-# Dev\nPulse
+# Dev Pulse
 
 Weekly GitHub activity reports for [@unhappychoice](https://github.com/unhappychoice), powered by [github-weekly-reporter](https://github.com/deariary/github-weekly-reporter).
 
