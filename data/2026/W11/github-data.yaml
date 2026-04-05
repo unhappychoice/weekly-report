@@ -11,35 +11,56 @@ profile:
   location: Tokyo, Japan
   followers: 3503
   following: 9585
-  publicRepos: 48
+  publicRepos: 58
 dateRange:
   from: 2026-03-09
   to: 2026-03-15
 stats:
-  totalCommits: 42
-  totalAdditions: 3587
-  totalDeletions: 3389
-  prsOpened: 0
-  prsMerged: 0
-  prsReviewed: 38
+  totalCommits: 61
+  totalAdditions: 128291
+  totalDeletions: 10479
+  prsOpened: 115
+  prsMerged: 107
+  prsReviewed: 59
   issuesOpened: 0
   issuesClosed: 0
 dailyCommits:
   - date: 2026-03-09
-    count: 34
+    count: 66
   - date: 2026-03-10
-    count: 31
+    count: 143
   - date: 2026-03-11
-    count: 29
+    count: 66
   - date: 2026-03-12
-    count: 24
+    count: 175
   - date: 2026-03-13
-    count: 26
+    count: 149
   - date: 2026-03-14
-    count: 26
+    count: 118
   - date: 2026-03-15
-    count: 14
+    count: 46
 repositories:
+  - name: deariary/backend
+    commits: 0
+    prsOpened: 53
+    prsMerged: 52
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/backend
+  - name: deariary/frontend
+    commits: 0
+    prsOpened: 30
+    prsMerged: 26
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/frontend
+  - name: deariary/lp
+    commits: 0
+    prsOpened: 15
+    prsMerged: 13
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/lp
   - name: unhappychoice/mdts
     commits: 0
     prsOpened: 13
@@ -47,6 +68,20 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/mdts
+  - name: deariary/blog
+    commits: 0
+    prsOpened: 11
+    prsMerged: 10
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/blog
+  - name: unhappychoice/hibinoki
+    commits: 0
+    prsOpened: 8
+    prsMerged: 8
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/hibinoki
   - name: unhappychoice/gittype
     commits: 0
     prsOpened: 4
@@ -61,6 +96,20 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/gitlogue
+  - name: circleci-tools/circleci-cli
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/circleci-cli
+  - name: bitflyer-tools/bitflyer
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/bitflyer
   - name: unhappychoice/terminal_image
     commits: 0
     prsOpened: 4
@@ -68,6 +117,20 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/terminal_image
+  - name: irasutoya-tools/irasutoya-cli
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/irasutoya-tools/irasutoya-cli
+  - name: bitflyer-tools/cycle-flyer
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/cycle-flyer
   - name: unhappychoice/slack_channel_stats
     commits: 0
     prsOpened: 3
@@ -75,6 +138,20 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/slack_channel_stats
+  - name: irasutoya-tools/irasutoya
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/irasutoya-tools/irasutoya
+  - name: bitflyer-tools/bitflyer-cli
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/bitflyer-cli
   - name: unhappychoice/blog
     commits: 0
     prsOpened: 3
@@ -82,13 +159,13 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/blog
-  - name: unhappychoice/oss-issue-opener
+  - name: deariary/infrastructure
     commits: 0
     prsOpened: 2
     prsMerged: 2
     issuesOpened: 0
     issuesClosed: 0
-    url: https://github.com/unhappychoice/oss-issue-opener
+    url: https://github.com/deariary/infrastructure
   - name: unhappychoice/lintric
     commits: 0
     prsOpened: 2
@@ -96,6 +173,13 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/lintric
+  - name: unhappychoice/oss-issue-opener
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/oss-issue-opener
   - name: unhappychoice/cycle-pusher
     commits: 0
     prsOpened: 1
@@ -104,6 +188,1945 @@ repositories:
     issuesClosed: 0
     url: https://github.com/unhappychoice/cycle-pusher
 pullRequests:
+  - title: "feat: add official profile link and dark mode support"
+    body: |-
+      - Add official public profile link (`@deariaryapp`) to LP (closes #108)
+      - Add dark mode support with system preference detection and manual toggle (closes #109)
+    url: https://github.com/deariary/lp/pull/110
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 806
+    deletions: 68
+    changedFiles: 52
+    author: unhappychoice
+    createdAt: 2026-03-15T22:30:41Z
+    mergedAt: 2026-03-15T22:46:04Z
+  - title: "feat: add GitHub integration deep dive article"
+    body: |-
+      - GitHub連携のディープダイブ記事を追加（pubDate: 2026-03-18、予約投稿）
+      - dev モードで未来日付の記事もプレビューできるよう `getPublishedPosts` を修正
+      - content-ideas.md にキーワード戦略セクションを追加
+    url: https://github.com/deariary/blog/pull/11
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 175
+    deletions: 3
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-03-15T21:47:37Z
+    mergedAt: 2026-03-15T21:49:56Z
+  - title: "feat: dynamic sitemap/robots strategy for public pages"
+    body: >-
+      - Add dynamic `sitemap.ts` that fetches publishable page list from backend `GET /sitemap` with graceful fallback
+      (empty sitemap) when the endpoint is unavailable
+
+      - Update `robots.ts` to allow `/u/` (public profile) paths and include sitemap URL reference
+
+      - Add `/u/` to middleware `PUBLIC_PATHS` so p...
+    url: https://github.com/deariary/frontend/pull/442
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 128
+    deletions: 5
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-03-15T22:02:55Z
+    mergedAt: 2026-03-15T22:11:17Z
+  - title: "feat: add GET /sitemap endpoint for dynamic sitemap generation"
+    body: >-
+      - Add `GET /sitemap` public endpoint that returns publishable page entries for the frontend's dynamic `sitemap.ts`
+
+      - Returns public user profiles (`/u/{slug}`) and active shared links (`/share/{token}`) with `lastModified`,
+      `changeFrequency`, and `priority` fields
+
+      - Includes `Cache-Control: public, ...
+    url: https://github.com/deariary/backend/pull/709
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 275
+    deletions: 11
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-03-15T22:17:30Z
+    mergedAt: 2026-03-15T22:47:48Z
+  - title: "feat: add official public profile link (@deariaryapp) across the app"
+    body: |-
+      - Add links to the official deariary public profile (`/u/deariaryapp`) in three locations throughout the app
+      - Add 3 new i18n keys to all 42 locale files
+    url: https://github.com/deariary/frontend/pull/441
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 121
+    deletions: 0
+    changedFiles: 48
+    author: unhappychoice
+    createdAt: 2026-03-15T21:13:31Z
+    mergedAt: 2026-03-15T21:49:55Z
+  - title: "feat: add scheduled publishing by filtering future-dated posts"
+    body: >-
+      - Add `getPublishedPosts()` helper in `src/content-helpers.ts` that filters out posts where `pubDate` is after
+      today (build-time)
+
+      - Extract shared `isNewsPost()` and `postPath()` helpers, eliminating duplication across 7 files
+
+      - Apply future-date filtering to all routes: homepage, /news, /posts, ind...
+    url: https://github.com/deariary/blog/pull/9
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 54
+    deletions: 41
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-03-15T20:35:21Z
+    mergedAt: 2026-03-15T20:43:52Z
+  - title: "fix: use profile owner locale instead of Accept-Language on public profile page"
+    body: >-
+      - Replace the broken `toLocale` helper (only supported `ja`/`en` via `Accept-Language`) with a proper fallback
+      chain: **profile owner's locale → Accept-Language → DEFAULT_LOCALE**
+
+      - Export `resolveLocaleTag` and add `resolveAcceptLanguage` to the i18n lib for full 40-locale server-side
+      resolution
+
+      - ...
+    url: https://github.com/deariary/frontend/pull/440
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 122
+    deletions: 21
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-03-15T20:46:33Z
+    mergedAt: 2026-03-15T20:59:04Z
+  - title: "feat: include profile owner locale in GET /profiles/:slug/entries response"
+    body: >-
+      - Add `locale` field to `GET /profiles/:slug/entries` response, sourced from the profile owner's
+      `user_preferences.locale`
+
+      - The existing `INNER JOIN` on `user_preferences` (for `publicProfileEnabled` check) is reused — no additional
+      query cost
+    url: https://github.com/deariary/backend/pull/706
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 20
+    deletions: 4
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-03-15T21:05:14Z
+    mergedAt: 2026-03-15T21:12:44Z
+  - title: "fix: use UTC for pubDate comparison in scheduled publishing"
+    body: >-
+      - Fix pubDate filtering to use UTC explicitly via `Date.UTC()` instead of local time
+
+      - Prevents posts from being excluded when Cloudflare Pages builds in UTC and the pubDate falls on the current UTC
+      day
+    url: https://github.com/deariary/blog/pull/10
+    repository: deariary/blog
+    state: closed
+    labels: []
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-15T20:52:36Z
+    mergedAt: null
+  - title: "feat: add tips for better diary quality article"
+    body: >-
+      - Add new how-to guide blog post: "6 ways to get better entries from deariary" (pubDate: 2026-03-17)
+
+      - Covers 6 practical tips: connecting multiple integrations, using tools naturally, identifying thin days,
+      webhooks for custom events, reading regularly, and giving it time
+
+      - Update `docs/content-ide...
+    url: https://github.com/deariary/blog/pull/8
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 72
+    deletions: 1
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-15T20:29:34Z
+    mergedAt: 2026-03-15T20:49:03Z
+  - title: "daily-log: 2026-03-15"
+    body: |-
+      Auto-generated daily log for 2026-03-15
+
+      ## Summary by CodeRabbit
+
+      * **Chores**
+       * Updated daily data aggregation across multiple services (GitHub, Linear, Steam, Swarm, and weather tracking).
+       * Refreshed repository statistics and metrics cache with updated project information.
+       * Added daily activ...
+    url: https://github.com/unhappychoice/hibinoki/pull/81
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 2516
+    deletions: 20
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-03-15T20:14:29Z
+    mergedAt: 2026-03-15T20:14:42Z
+  - title: "fix: add line break between API docs link and upgrade button on settings page"
+    body: >-
+      - Fix missing line break between the API documentation link and the upgrade button in the settings API Keys
+      section (non-Advanced plan view)
+
+      - Change the upgrade `<Link>` from `inline-block` to `block` so it renders on a new line, and add `mb-3` to the
+      docs link for vertical spacing
+    url: https://github.com/deariary/frontend/pull/436
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-15T20:24:14Z
+    mergedAt: 2026-03-15T20:30:20Z
+  - title: "feat: add diary apps comparison article, table CSS, and SEO writing guidelines"
+    body: >-
+      - **New article**: "deariary vs Day One vs Notion vs Obsidian vs paper: which diary actually sticks?" —
+      experience-driven comparison told as a story of trying each tool and hitting the same wall (the writing step)
+
+      - **Table CSS**: Added `.prose table` styles to `global.css` with brand tokens, hover ...
+    url: https://github.com/deariary/blog/pull/7
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 308
+    deletions: 5
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-03-15T19:57:28Z
+    mergedAt: 2026-03-15T20:04:01Z
+  - title: "fix: sync entry locale to LocaleProvider on share page"
+    body: "- **Fix locale mismatch on `/share/[token]` page**: `SharedEntryView` resolved locale from the entry's
+      `generationOptions.locale`, but child components (`ShareCard`, `SnsShareButtons`) used `useLocale()` which reads
+      from the browser's `navigator.languages`. This caused mixed languages (e.g. article ..."
+    url: https://github.com/deariary/frontend/pull/434
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 8
+    deletions: 2
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-14T22:52:54Z
+    mergedAt: 2026-03-14T22:57:54Z
+  - title: "fix: allow blog.deariary.com CORS and add blog segment to admin traffic dashboard"
+    body: >-
+      - Add `blog.deariary.com` to `PRODUCTION_ORIGINS` so the blog's analytics fetch requests are no longer silently
+      blocked by CORS
+
+      - Add `blog` as a distinct traffic segment in the admin KPI traffic dashboard (`segmentSql()`), separating it from
+      LP
+
+      - Show Blog Pageviews (7d) KPI card, Blog trend line i...
+    url: https://github.com/deariary/backend/pull/703
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 59
+    deletions: 4
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-03-15T01:30:00Z
+    mergedAt: 2026-03-15T01:43:55Z
+  - title: "fix: add missing user_milestones deletion step to hard deletion flow"
+    body: >-
+      - `user_milestones` テーブルが `users.id` への外部キー制約を持つにも関わらず、`buildUserDataDeletionSteps` に含まれていなかったため、ハード削除時に FK 制約違反で
+      `DELETE FROM users` が失敗していた
+
+      - `user_milestones` の削除ステップを追加し、`users` レコード削除前に該当行を削除するように修正
+    url: https://github.com/deariary/backend/pull/701
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 4
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-14T22:40:22Z
+    mergedAt: 2026-03-14T22:46:02Z
+  - title: "fix: resolve analytics bugs in deletion, KPI queries, validation, and session tracking"
+    body: >-
+      - **GDPR fix**: Add `analytics_events` DELETE step to user data purge — previously analytics records were orphaned
+      after account deletion
+
+      - **dateTo off-by-one**: Change `lte` → `lt` in admin user activity date filter so events at midnight are not
+      leaked into the next day
+
+      - **Test fixtures**: Align ...
+    url: https://github.com/deariary/backend/pull/699
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 70
+    deletions: 34
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-03-14T21:46:07Z
+    mergedAt: 2026-03-14T21:54:24Z
+  - title: "daily-log: 2026-03-14"
+    body: |-
+      Auto-generated daily log for 2026-03-14
+
+      ## Summary by CodeRabbit
+
+      * **Chores**
+       * Updated GitHub repository statistics cache with reorganized repository entries and refreshed metadata
+       * Updated gaming activity and playtime records
+       * Added daily activity logs and summaries including code commits, ...
+    url: https://github.com/unhappychoice/hibinoki/pull/79
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 3180
+    deletions: 36
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-03-14T20:13:46Z
+    mergedAt: 2026-03-14T20:13:59Z
+  - title: "fix: trim NEXT_PUBLIC_APP_ENV to prevent trailing whitespace errors"
+    body: |-
+      - Vercel 環境変数 `NEXT_PUBLIC_APP_ENV` に末尾の改行 (`\n`) が混入し、`"production\n"` がバリデーションに失敗してランタイムエラーが発生していた
+      - `process.env.NEXT_PUBLIC_APP_ENV` の読み取り時に `.trim()` を適用し、空白・改行を防御的に除去するよう修正
+    url: https://github.com/deariary/lp/pull/107
+    repository: deariary/lp
+    state: closed
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-14T21:51:52Z
+    mergedAt: null
+  - title: "feat: generate per-article OGP images at build time"
+    body: >-
+      - Build-time OGP image generation for each blog post using `satori` + `@resvg/resvg-js`
+
+      - Design matches `deariary/frontend` share OG cards (teal accent stripe, white card on warm beige, CrimsonPro
+      title, brand logo)
+
+      - Non-article pages (homepage, listing) fall back to existing site-wide `/og.png`
+    url: https://github.com/deariary/blog/pull/6
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 703
+    deletions: 1
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-03-14T18:51:52Z
+    mergedAt: 2026-03-14T18:54:55Z
+  - title: "feat: add Gemini Nanobanana infographic generator for SNS posting"
+    body: >-
+      - Add `scripts/generate-infographic.mjs` — CLI tool that generates summary infographic images from blog posts
+      using Gemini (Nanobanana)
+
+      - Reads markdown, embeds article content into a brand-consistent prompt, auto-adapts layout based on article type
+      (story → narrative arc, release note → feature bad...
+    url: https://github.com/deariary/blog/pull/5
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 1019
+    deletions: 6
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-03-14T17:18:12Z
+    mergedAt: 2026-03-14T17:28:33Z
+  - title: "content: add 'The diary I couldn't keep' post and content ideas"
+    body: |-
+      - Add founding story blog post: **"The diary I couldn't keep"** (`/posts/2026-03-15-why-we-built-deariary/`)
+       - Personal origin story: why journaling failed, what the LLM prototype revealed
+       - Core thesis: LLMs summarize and translate your day — they don't invent it
+       - Vision: recording your life sh...
+    url: https://github.com/deariary/blog/pull/4
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 198
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-14T16:35:03Z
+    mergedAt: 2026-03-14T16:39:13Z
+  - title: "feat: add user activity log page to admin panel"
+    body: >-
+      - Add a new admin page at `/users/:userId/activity` that displays `analytics_events` for a specific user with
+      filtering (type, name, date range) and pagination
+
+      - Add an "Activity Log" button to the user detail page header for easy navigation
+
+      - Register `AdminUserActivityController` and `AdminUserAct...
+    url: https://github.com/deariary/backend/pull/697
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 278
+    deletions: 2
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-03-14T12:55:25Z
+    mergedAt: 2026-03-14T13:01:44Z
+  - title: "feat: handle GitHub App installation callback in OAuth endpoint"
+    body: |-
+      - Handle the case where GitHub redirects to the OAuth callback URL after a user installs the GitHub App
+      - GitHub sends `setup_action=install` with no `state` parameter, which was causing a 404
+      - Now redirects to the frontend callback page (`/integrations/callback?slug=github&setup_action=install`)
+    url: https://github.com/deariary/backend/pull/695
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 23
+    deletions: 2
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-14T01:05:01Z
+    mergedAt: 2026-03-14T01:06:57Z
+  - title: "feat: add GitHub App install link for private repository access"
+    body: >-
+      - Add a private-repository prompt on GitHub integration settings with a direct GitHub App install link.
+
+      - Route the install URL by environment using `Environment.githubAppInstallUrl` (`deariary` for production,
+      `deariary-staging` for staging/local).
+
+      - Localize the new prompt/link copy by adding new ...
+    url: https://github.com/deariary/frontend/pull/433
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 189
+    deletions: 0
+    changedFiles: 46
+    author: unhappychoice
+    createdAt: 2026-03-14T01:12:17Z
+    mergedAt: 2026-03-14T01:44:22Z
+  - title: "feat: add Public API docs links across app surfaces"
+    body: >-
+      - Add Public API documentation links in Settings > API Keys for both Advanced users and free-plan upgrade prompts,
+      using locale-aware LP URLs.
+
+      - Link the Billing plan comparison row label for Public API directly to the locale-specific Public API docs.
+
+      - Add the same docs link to the app footer suppo...
+    url: https://github.com/deariary/frontend/pull/430
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 147
+    deletions: 54
+    changedFiles: 50
+    author: unhappychoice
+    createdAt: 2026-03-13T23:03:44Z
+    mergedAt: 2026-03-14T00:14:26Z
+  - title: "feat: switch GitHub integration from OAuth App to GitHub App (User-to-Server OAuth)"
+    body: >-
+      - Replace broad OAuth App scopes (`repo`, `read:user`) with GitHub App's fine-grained, read-only permissions
+
+      - The authorize/token URLs remain the same — only `oauthScopes` changes to an empty array because GitHub App
+      permissions are managed in the App settings, not via OAuth scopes
+
+      - Existing token...
+    url: https://github.com/deariary/backend/pull/694
+    repository: deariary/backend
+    state: closed
+    labels: []
+    additions: 14
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-14T00:34:11Z
+    mergedAt: null
+  - title: "fix(seo): resolve hreflang mismatch, add noindex to error pages, fix heading hierarchy"
+    body: >-
+      - **Fix API page hreflang mismatch**: `buildLanguageAlternates()` was declaring all 42 locales despite non-English
+      locales redirecting to `/en/api`. Restricted to `en` + `x-default` only, eliminating conflicting signals for
+      search engines.
+
+      - **Add sitemap alternates for API page**: The API page entr...
+    url: https://github.com/deariary/lp/pull/106
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 27
+    deletions: 8
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-03-13T22:53:10Z
+    mergedAt: 2026-03-13T23:10:02Z
+  - title: "fix: add GCS_BUCKET and GCP_PROJECT_ID env vars to admin Cloud Run service"
+    body: |-
+      - `service.admin.yaml` に `GCS_BUCKET` と `GCP_PROJECT_ID` 環境変数を追加
+      - `deploy-admin.yml` に `gcs_bucket` input と sed 置換を追加
+      - `deploy-production.yml` / `deploy-staging.yml` の admin 呼び出しに `gcs_bucket` を渡す
+    url: https://github.com/deariary/backend/pull/692
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 296
+    deletions: 37
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-03-13T22:33:00Z
+    mergedAt: 2026-03-13T22:52:58Z
+  - title: "fix: upgrade storage role to objectAdmin for objects.list permission"
+    body: |-
+      - Cloud Run SA の GCS ロールを `roles/storage.objectUser` → `roles/storage.objectAdmin` に変更
+      - Admin からの deletion request 即実行時に `storage.objects.list` 権限不足で失敗していた問題を修正
+    url: https://github.com/deariary/infrastructure/pull/41
+    repository: deariary/infrastructure
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-13T22:18:01Z
+    mergedAt: 2026-03-13T22:22:35Z
+  - title: "feat(footer): add X and Bluesky social links"
+    body: |-
+      - フッターのブランドカラム（タグラインの下）に X と Bluesky のソーシャルリンクアイコンを追加
+      - `SocialIcon` コンポーネントを新規作成（SVG アイコン、Simple Icons 準拠）
+      - `TrackedLink` + `outbound_clicked` イベントでアナリティクス計測対応
+      - `aria-label`、`target="_blank"`、`rel="noopener noreferrer"` でアクセシビリティ・セキュリティ対応
+    url: https://github.com/deariary/lp/pull/104
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 387
+    deletions: 3
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-03-13T21:51:25Z
+    mergedAt: 2026-03-13T22:04:42Z
+  - title: "daily-log: 2026-03-13"
+    body: Auto-generated daily log for 2026-03-13
+    url: https://github.com/unhappychoice/hibinoki/pull/78
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 2278
+    deletions: 53
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-03-13T20:16:52Z
+    mergedAt: 2026-03-13T20:17:06Z
+  - title: "feat(seo): add hreflang alternates to sitemap"
+    body: >-
+      - Sitemap の各 `<url>` エントリに `<xhtml:link rel="alternate" hreflang="...">` を追加し、Google が HTML の `<link>` タグに加えて
+      sitemap XML からも hreflang シグナルを受け取れるようにした
+
+      - `buildAlternates()` で全42ロケール分のロケール→URL マップを生成
+
+      - `buildLegalAlternates()` で法的ページは `isSlugAvailable` でフィルタし、対象ロケールのみの alternates を生成（例: `tokusho` は `...
+    url: https://github.com/deariary/lp/pull/102
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 116
+    deletions: 68
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-03-13T21:33:07Z
+    mergedAt: 2026-03-13T21:43:32Z
+  - title: "refactor(prompt): remove voice continuity (previous entries injection)"
+    body: >-
+      - Remove the voice continuity feature that injected the last 3 diary entries into the LLM prompt for style
+      matching
+
+      - Eliminates token cost, DB+storage read latency, and content bleed risk with no noticeable quality loss
+
+      - Cleans up `supportsVoiceContinuity` model flag, `PreviousEntry` type, `findRe...
+    url: https://github.com/deariary/backend/pull/690
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 25
+    deletions: 301
+    changedFiles: 19
+    author: unhappychoice
+    createdAt: 2026-03-13T18:04:54Z
+    mergedAt: 2026-03-13T18:07:34Z
+  - title: "feat: add initialBackfillTriggeredAt field to GET /users/me"
+    body: >-
+      - Add `user_milestones` table with `(user_id, kind)` unique constraint to store lightweight user event timestamps
+
+      - Record `initial_backfill` milestone on first `POST /users/me/entries/backfill` call using `ON CONFLICT DO
+      NOTHING` (idempotent)
+
+      - Return `initialBackfillTriggeredAt: string | null` (IS...
+    url: https://github.com/deariary/backend/pull/691
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 143
+    deletions: 9
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-03-13T18:34:10Z
+    mergedAt: 2026-03-13T19:18:30Z
+  - title: "test: raise coverage across settings, billing, and share OG flows"
+    body: >-
+      - add and expand unit/feature specs to cover remaining low-function paths in settings, hooks, and sharing
+      components
+
+      - add mutate-focused tests for settings/billing/webhook pages and strengthen callback/update behavior assertions
+
+      - improve share OG route coverage by executing rendered tree paths so ...
+    url: https://github.com/deariary/frontend/pull/427
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 1493
+    deletions: 33
+    changedFiles: 23
+    author: unhappychoice
+    createdAt: 2026-03-13T15:56:49Z
+    mergedAt: 2026-03-13T16:12:21Z
+  - title: "feat: minimize onboarding to 2 steps and add next-action banner"
+    body: >-
+      Closes #428
+
+
+      - Reduce onboarding from 3 steps (Setup → Format → Connect) to 2 steps (Setup → Format) so users can complete it
+      faster and reach the app sooner
+
+      - Add a persistent `NextActionBanner` in the app layout that guides users through: connecting services →
+      generating first entries
+
+      - Show a com...
+    url: https://github.com/deariary/frontend/pull/429
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 780
+    deletions: 442
+    changedFiles: 61
+    author: unhappychoice
+    createdAt: 2026-03-13T17:29:06Z
+    mergedAt: 2026-03-13T19:29:34Z
+  - title: "feat(prompt): upgrade diary generation prompt to v6 for better curation"
+    body: >-
+      - Diary entries were reading like activity dumps (PR lists, Slack transcriptions, data-source headings). This
+      overhaul fixes all three through a two-layer prompt architecture.
+
+      - **RULES** now contain abstract curation principles (length control, topic-based organization, selectivity) and
+      defer integ...
+    url: https://github.com/deariary/backend/pull/688
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 88
+    deletions: 67
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-03-13T17:10:50Z
+    mergedAt: 2026-03-13T17:28:07Z
+  - title: "test: add targeted unit coverage for repositories and notifications"
+    body: >-
+      - add focused unit tests for repository layers (`auth`, `api-key`, `analytics`, `dispatch`, `feedback`, `export`)
+      and cover happy/empty/default branches
+
+      - add tests for pipeline error classification/error classes and core current-user decorators
+
+      - add notification tests for dormancy warning and entr...
+    url: https://github.com/deariary/backend/pull/687
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 1200
+    deletions: 0
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-03-13T15:52:56Z
+    mergedAt: 2026-03-13T16:03:05Z
+  - title: "style: rewrite integration pages to match frontend design"
+    body: >-
+      Rewrites integration list and detail pages to closely match `deariary/frontend`'s design:
+
+
+      - **List page**: Horizontal integration cards (icon box + name + tagline) with coming-soon section, replacing the
+      old vertical card grid
+
+      - **Detail page**: 2-column layout with sticky sidebar TOC + content, st...
+    url: https://github.com/deariary/lp/pull/101
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 9111
+    deletions: 460
+    changedFiles: 48
+    author: unhappychoice
+    createdAt: 2026-03-13T12:22:25Z
+    mergedAt: 2026-03-13T16:34:42Z
+  - title: "feat: downgrade reconciliation and admin trial display"
+    body: >-
+      Follow-up to #685 (cardless trial gating). Adds downgrade reconciliation and admin panel updates.
+
+
+      - **Downgrade reconciliation**: When a user's plan drops (Stripe downgrade or trial expiry), excess integrations
+      are disconnected and LLM model is reset to the new plan's default
+
+      - **Trial expiry persi...
+    url: https://github.com/deariary/backend/pull/686
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 475
+    deletions: 15
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-03-13T12:14:00Z
+    mergedAt: 2026-03-13T12:38:42Z
+  - title: "feat(lp): add integration-specific content pages"
+    body: >-
+      - Add dedicated integration list page (`/{locale}/integrations`) and per-integration detail pages
+      (`/{locale}/integrations/{slug}`) for all 8 active integrations
+
+      - Each detail page includes: description, use cases, data collected, sample diary excerpt, setup instructions,
+      permissions, plan availabil...
+    url: https://github.com/deariary/lp/pull/100
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 1347
+    deletions: 60
+    changedFiles: 15
+    author: unhappychoice
+    createdAt: 2026-03-13T12:02:01Z
+    mergedAt: 2026-03-13T12:04:17Z
+  - title: "feat(lp): add integration-specific LP content and detail pages"
+    body: >-
+      - add integration-specific content model for 8 major integrations (GitHub, Google Calendar, Slack, Steam, Todoist,
+      Toggl, Bluesky, Webhook) with EN/JA copy and locale fallback
+
+      - expand the landing page Integrations section with linked cards, inline detail previews, and clear CTA links to
+      `https://ap...
+    url: https://github.com/deariary/lp/pull/99
+    repository: deariary/lp
+    state: closed
+    labels: []
+    additions: 1120
+    deletions: 23
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-03-13T11:39:18Z
+    mergedAt: null
+  - title: "feat: display trial status and upgrade promotion UI"
+    body: "Implements #424 — adds trial status display, expiration warnings, and upgrade CTAs to support the cardless 7-day
+      trial introduced by backend PR deariary/backend#685."
+    url: https://github.com/deariary/frontend/pull/426
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 2813
+    deletions: 130
+    changedFiles: 57
+    author: unhappychoice
+    createdAt: 2026-03-13T11:38:55Z
+    mergedAt: 2026-03-13T13:12:08Z
+  - title: "feat: centralize API error code to i18n message mapping"
+    body: >-
+      - Add `resolveApiError()` utility in `src/lib/error-messages.ts` that maps backend error codes to specific i18n
+      keys with domain-aware fallback chain (domain code → shared code → HTTP status → fallback key)
+
+      - Replace generic "Something went wrong" / "Failed to save" messages with specific, actionabl...
+    url: https://github.com/deariary/frontend/pull/425
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 307
+    deletions: 47
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-03-13T07:08:16Z
+    mergedAt: 2026-03-13T11:22:51Z
+  - title: "fix(i18n): fix plural interpolation, add missing translations, and clean up ja"
+    body: >-
+      - Fix `interpolate()` regex bug that broke nested `{count}` inside ICU plural branches — 8 English keys and all
+      inheriting locales were rendering raw template strings
+
+      - Fix `integration.source.itemCount` double-count display bug (`"5 5 items"`) across all locales
+
+      - Add missing translations for 11 ke...
+    url: https://github.com/deariary/frontend/pull/423
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 840
+    deletions: 365
+    changedFiles: 43
+    author: unhappychoice
+    createdAt: 2026-03-13T06:27:34Z
+    mergedAt: 2026-03-13T06:32:04Z
+  - title: "feat(subscription): add cardless trial gating and entitlements API"
+    body: |-
+      - Add 7-day cardless basic plan trial for new users (#682)
+      - Expose trial info via existing `GET /users/me/subscription` response
+      - Onboarding progress (scope 1 of #682) is intentionally excluded
+    url: https://github.com/deariary/backend/pull/685
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 443
+    deletions: 90
+    changedFiles: 61
+    author: unhappychoice
+    createdAt: 2026-03-13T06:08:49Z
+    mergedAt: 2026-03-13T11:17:32Z
+  - title: "fix(lp): rewrite builder story narrative across locales"
+    body: |-
+      - Rewrites the `builderStory` section to a first-person founder narrative aligned with issue #96.
+      - Syncs the updated story structure across all locale dictionaries and removes obsolete `highlight` fields.
+      - Keeps private prototype references generic (no closed-service name) while preserving the emo...
+    url: https://github.com/deariary/lp/pull/97
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 261
+    deletions: 345
+    changedFiles: 43
+    author: unhappychoice
+    createdAt: 2026-03-13T06:07:29Z
+    mergedAt: 2026-03-13T06:24:59Z
+  - title: "fix(lp): improve tokusho disclosure page for stripe review"
+    body: |-
+      - 特商法ページをStripeヘルプの必須項目に合わせて見直し、`運営責任者` と `電話受付時間` を追加
+      - 開示保留項目の文言を `請求があった場合には速やかに開示いたします` に統一
+      - `商品代金以外の必要料金` と重大不具合時の返金/代替対応を追記して返金・料金説明を補強
+    url: https://github.com/deariary/lp/pull/95
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 11
+    deletions: 5
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-13T05:15:03Z
+    mergedAt: 2026-03-13T05:23:39Z
+  - title: Fix email branding image not loading in staging
+    body: |-
+      - use the public production site URL for email branding assets and footer links
+      - avoid referencing `staging.deariary.com/logo.png`, which returns 401 due to SSO protection in email clients
+      - fix issue where deariary logo could be missing in weekly summary and other notification emails
+    url: https://github.com/deariary/backend/pull/684
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 14
+    deletions: 2
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-12T23:36:14Z
+    mergedAt: 2026-03-12T23:41:12Z
+  - title: "Fix #418: handle OAuth callback errors and localized messaging"
+    body: >-
+      - detect the `error` query in `/auth/callback` and show error-specific UI before running the existing `code`
+      exchange flow
+
+      - map `X_EMAIL_REQUIRED` to a dedicated message and keep `OAUTH_CALLBACK_FAILED` plus unknown values on the
+      generic fallback
+
+      - add `auth.xEmailRequired` translations across all ...
+    url: https://github.com/deariary/frontend/pull/422
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 106
+    deletions: 2
+    changedFiles: 44
+    author: unhappychoice
+    createdAt: 2026-03-12T22:54:12Z
+    mergedAt: 2026-03-12T23:00:38Z
+  - title: "fix(llm): avoid raw me label in localized diary output"
+    body: >-
+      - clarify in the daily journal system rules that `me` is an internal identifier and must not be rendered as a
+      literal label like `me:`
+
+      - update log-format guidance to avoid raw source identifiers in conversation attribution examples
+
+      - add a unit test to lock this behavior and prevent regressions in ...
+    url: https://github.com/deariary/backend/pull/683
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 8
+    deletions: 2
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-12T22:40:54Z
+    mergedAt: 2026-03-12T22:49:58Z
+  - title: "Fix #416: apply global default scrollbar styles"
+    body: |-
+      - move scrollbar styling to a global default rule so scrollable UI uses consistent brand styling across the app
+      - remove duplicated scrollbar-specific styles from `notification-dropdown-list` and rely on the global default
+      - deduplicate GitHub/Slack selection list styles in `globals.css` to keep beh...
+    url: https://github.com/deariary/frontend/pull/421
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 39
+    deletions: 64
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-12T22:34:10Z
+    mergedAt: 2026-03-12T22:40:47Z
+  - title: "fix: sync Slack/GitHub selection checks with saved config"
+    body: |-
+      - Keep selected Slack channels and GitHub repositories in sync with the latest saved `source-config`.
+      - Add `useEffect` in both config sections so checkbox state updates when connection or fetched config changes.
+      - Fix intermittent missing checkmarks after switching connections or after async config...
+    url: https://github.com/deariary/frontend/pull/420
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 10
+    deletions: 2
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-12T22:14:54Z
+    mergedAt: 2026-03-12T22:22:47Z
+  - title: "fix: add cancellation button after account deletion request"
+    body: >-
+      - keep users on the Settings danger section after requesting account deletion and show a cancellation action
+      instead of redirecting to login
+
+      - add `cancelAccountDeletion` API call (`POST /users/me/cancel-deletion`) and wire it to a new cancel button with
+      loading-state guards
+
+      - add i18n keys (en/ja) ...
+    url: https://github.com/deariary/frontend/pull/419
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 172
+    deletions: 18
+    changedFiles: 46
+    author: unhappychoice
+    createdAt: 2026-03-12T21:52:29Z
+    mergedAt: 2026-03-12T22:02:57Z
+  - title: "daily-log: 2026-03-12"
+    body: >-
+      Auto-generated daily log for 2026-03-12
+
+
+      ## Summary by CodeRabbit
+
+
+      * **Chores**
+       * Updated GitHub repository metrics cache with adjusted star counts and project reorganizations across multiple repositories.
+       * Added daily data snapshots for March 12, 2026, capturing activity from GitHub, Linear proj...
+    url: https://github.com/unhappychoice/hibinoki/pull/77
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 2647
+    deletions: 59
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-03-12T20:18:26Z
+    mergedAt: 2026-03-12T20:18:39Z
+  - title: "fix(auth): redirect OAuth callback failures to frontend"
+    body: >-
+      - Catch OAuth callback errors in `AuthController` and always redirect to frontend callback URL instead of
+      returning immediate 4xx from backend callback endpoint.
+
+      - Include an `error` query param (for example `X_EMAIL_REQUIRED`, with fallback `OAUTH_CALLBACK_FAILED`) so
+      frontend can render user-facin...
+    url: https://github.com/deariary/backend/pull/681
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 75
+    deletions: 8
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-03-12T19:36:35Z
+    mergedAt: 2026-03-12T22:54:44Z
+  - title: "fix(auth): fetch X OAuth2 confirmed email during callback"
+    body: |-
+      - add `users.email` scope and request `confirmed_email` in X OAuth2 user profile lookup
+      - fetch `confirmed_email` using the callback access token and fall back to profile-derived email fields
+      - keep existing X registration guard behavior while improving email retrieval reliability
+    url: https://github.com/deariary/backend/pull/680
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 38
+    deletions: 13
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-12T19:09:06Z
+    mergedAt: 2026-03-12T19:11:44Z
+  - title: "refactor(deletion): unify hard deletion execution and user notifications"
+    body: >-
+      - Replace the duplicated admin Execute Now deletion implementation with a shared `HardDeletionExecutorService`
+      used by both cron and admin paths.
+
+      - Keep Slack notifications for admin Execute Now outcomes while removing the newly added admin-recipient email
+      notifications.
+
+      - Send deletion-completed em...
+    url: https://github.com/deariary/backend/pull/678
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 218
+    deletions: 241
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-03-12T16:24:05Z
+    mergedAt: 2026-03-12T16:30:31Z
+  - title: "fix(admin): avoid startup crash in immediate deletion flow"
+    body: >-
+      - Remove direct `StripeService` provider wiring from Admin module to avoid eager access to Stripe environment
+      variables at boot.
+
+      - Make Stripe cancellation in admin immediate deletion lazy and optional using `process.env.STRIPE_SECRET_KEY`.
+
+      - Skip cancellation with a warning when Stripe secret is no...
+    url: https://github.com/deariary/backend/pull/677
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 12
+    deletions: 5
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-12T15:35:13Z
+    mergedAt: 2026-03-12T15:38:50Z
+  - title: "feat(admin): enable immediate account deletion execution"
+    body: |-
+      - Add an admin-side immediate execution flow for pending account deletion requests.
+      - Introduce `POST /deletions/:id/execute-now` and wire it to a dedicated executor service.
+      - Add an "Execute Now" action on deletion detail and flash messaging on the deletion list page.
+    url: https://github.com/deariary/backend/pull/675
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 126
+    deletions: 3
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-03-12T15:07:10Z
+    mergedAt: 2026-03-12T15:28:30Z
+  - title: "fix: resolve onboarding and registration issues #407-#411"
+    body: >-
+      - fix the registration consent copy formatting and remove duplicate marketing opt-in input from onboarding setup
+
+      - avoid onboarding locale being overwritten by the authenticated preference sync and stop calling the missing
+      onboarding status endpoint
+
+      - require integration connection in onboarding flo...
+    url: https://github.com/deariary/frontend/pull/412
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 625
+    deletions: 326
+    changedFiles: 21
+    author: unhappychoice
+    createdAt: 2026-03-12T14:19:03Z
+    mergedAt: 2026-03-12T19:35:51Z
+  - title: Allow environment-specific Cloud Run server min instances
+    body: >-
+      - make `server/service.yaml` use a `PLACEHOLDER_MIN_INSTANCES` value instead of a fixed `minScale: \"0\"`
+
+      - add `min_instances` input to the reusable `deploy-server.yml` workflow and inject it when rendering
+      `service.yaml`
+
+      - set production server min instances to `1` and keep staging at `0`
+    url: https://github.com/deariary/backend/pull/673
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 8
+    deletions: 1
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-03-12T13:58:04Z
+    mergedAt: 2026-03-12T14:01:15Z
+  - title: "fix: show success toast after integration config updates"
+    body: |-
+      - add success toast (`common.saved`) after successful save in Slack/GitHub integration config sections
+      - keep existing error toast behavior unchanged on failed save
+      - update both feature specs to assert success toast is shown on successful submit
+    url: https://github.com/deariary/frontend/pull/406
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 14
+    deletions: 6
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-03-12T10:56:14Z
+    mergedAt: 2026-03-12T11:05:35Z
+  - title: "feat(lp): add public API overview page"
+    body: >-
+      - Add a new localized Public API overview page at `/[locale]/api` with plan eligibility, auth/scopes, key
+      endpoints, rate limits, and links to docs/backend implementation
+
+      - Add a footer link to the Public API page (`Public API` / `公開API`) to improve discovery
+
+      - Include localized API pages in `sitema...
+    url: https://github.com/deariary/lp/pull/93
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 859
+    deletions: 5
+    changedFiles: 51
+    author: unhappychoice
+    createdAt: 2026-03-12T10:51:28Z
+    mergedAt: 2026-03-12T12:50:12Z
+  - title: "feat: add selection guidance for Slack and GitHub integrations"
+    body: >-
+      - Add warning notices to Slack and GitHub integration settings pages to encourage selecting only necessary
+      channels/repositories.
+
+      - Add new i18n keys for the guidance text in both Japanese and English.
+
+      - Update related component snapshots for SlackConfigSection and GitHubConfigSection.
+    url: https://github.com/deariary/frontend/pull/405
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 30
+    deletions: 0
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-03-12T10:27:36Z
+    mergedAt: 2026-03-12T10:50:29Z
+  - title: シェアリンクの閲覧回数を analytics ベースに切り替える
+    body: |-
+      - シェアリンクの閲覧回数算出を `shared_links.access_count` 依存から `analytics_events` の `pageview` 集計に変更
+      - `/share/:token` の `path` とトークンを突き合わせて、共有リンク一覧・詳細・管理画面集計の表示値を統一
+      - 共有本文取得時の `access_count` インクリメントを削除し、CDN キャッシュ時でも計測値が反映されるように修正
+    url: https://github.com/deariary/backend/pull/672
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 66
+    deletions: 230
+    changedFiles: 13
+    author: unhappychoice
+    createdAt: 2026-03-12T09:21:31Z
+    mergedAt: 2026-03-12T10:20:33Z
+  - title: "fix(admin): normalize derived entry updatedAt timestamp"
+    body: >-
+      - normalize the derived `updatedAt` value in `AdminEntryRepository` to a real `Date` before passing it to Admin
+      views
+
+      - avoid runtime failures when rendering `toISOString()` on derived timestamp values
+    url: https://github.com/deariary/backend/pull/670
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 11
+    deletions: 2
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-12T00:22:39Z
+    mergedAt: 2026-03-12T00:24:47Z
+  - title: "feat(admin): add entry updated-at sorting and pipeline run artifacts"
+    body: >-
+      - add `Updated` visibility to Admin Entry list/detail and support sorting by `updated_at`
+
+      - make Entry list default sort `updated_at desc` and compute `updatedAt` from pipeline completion/failure
+      timestamps (fallback to entry created time)
+
+      - add artifacts section to Pipeline Run detail with artifact...
+    url: https://github.com/deariary/backend/pull/669
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 216
+    deletions: 7
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-03-12T00:09:20Z
+    mergedAt: 2026-03-12T00:12:17Z
+  - title: "refactor: normalize Slack user data in fetch payload"
+    body: >-
+      - normalize Slack conversation payload by storing `userId` on each message and moving names to top-level `users`
+      map
+
+      - include only users that actually appear in conversations, and omit `realName` when it equals `displayName`
+
+      - update Slack fetcher unit tests to validate the normalized schema and fa...
+    url: https://github.com/deariary/backend/pull/668
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 47
+    deletions: 96
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-11T23:29:04Z
+    mergedAt: 2026-03-11T23:40:15Z
+  - title: "feat: switch onboarding backfill to explicit API trigger"
+    body: >-
+      - remove automatic onboarding backfill triggers from connection creation/callback paths
+
+      - keep onboarding backfill on existing API `POST /users/me/entries/backfill` and make it explicit
+      (client-triggered)
+
+      - make onboarding backfill idempotent by skipping when an onboarding trigger already exists, an...
+    url: https://github.com/deariary/backend/pull/667
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 215
+    deletions: 195
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-03-11T21:30:00Z
+    mergedAt: 2026-03-11T21:57:21Z
+  - title: "daily-log: 2026-03-11"
+    body: |-
+      Auto-generated daily log for 2026-03-11
+
+      ## Summary by CodeRabbit
+
+      * **Chores**
+       * Updated cached GitHub repository statistics with latest star counts and reorganized entry classifications.
+       * Added new daily data snapshots (March 11, 2026) capturing GitHub activity, pull requests, issues, team upda...
+    url: https://github.com/unhappychoice/hibinoki/pull/76
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 2276
+    deletions: 49
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-03-11T20:18:32Z
+    mergedAt: 2026-03-11T20:18:46Z
+  - title: "fix: repair footer links and improve nested list markers"
+    body: >-
+      - Replace broken footer URLs with valid LP/app destinations and open external links in a new tab with `noopener
+      noreferrer`
+
+      - Keep LP links on root `deariary.com` paths so locale redirect remains server-driven
+
+      - Improve markdown entry readability by assigning distinct marker styles for nested `ul`/`...
+    url: https://github.com/deariary/frontend/pull/400
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 63
+    deletions: 49
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-03-11T20:03:25Z
+    mergedAt: 2026-03-11T20:30:28Z
+  - title: "feat: add public profile page for shared entries"
+    body: >-
+      - add a new public profile route at `/u/:username` that fetches `GET /@:username`, shows shared entries in reverse
+      chronological list, and supports load-more pagination
+
+      - add public profile visibility control to Settings > Profile by wiring a new `isPublicProfile` toggle into
+      `updateProfile`
+
+      - add i...
+    url: https://github.com/deariary/frontend/pull/402
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 1077
+    deletions: 38
+    changedFiles: 30
+    author: unhappychoice
+    createdAt: 2026-03-11T20:40:54Z
+    mergedAt: 2026-03-12T00:32:29Z
+  - title: "feat: complete global locale dictionaries and simplify invariant i18n keys"
+    body: >-
+      - complete and normalize locale dictionaries under `src/i18n` with full key parity to `en` and no
+      English-identical values left in locale files
+
+      - refactor invariant i18n values (integration docs URLs and fixed credential placeholders) out of locale
+      dictionaries into app-level constants
+
+      - update inte...
+    url: https://github.com/deariary/frontend/pull/399
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 35917
+    deletions: 278
+    changedFiles: 75
+    author: unhappychoice
+    createdAt: 2026-03-11T17:38:50Z
+    mergedAt: 2026-03-12T14:05:10Z
+  - title: "feat: send blog analytics events to backend"
+    body: >-
+      - add lightweight client-side analytics sender in `BaseHead` to post `page_view` and custom events to backend
+      `/analytics/events/bulk`
+
+      - mirror LP-style batching/flush behavior (batch size, interval, `keepalive` flush on `visibilitychange` and
+      `pagehide`) and include `sessionId`/`viewport`
+
+      - instrum...
+    url: https://github.com/deariary/blog/pull/3
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 135
+    deletions: 26
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-03-11T16:02:41Z
+    mergedAt: 2026-03-11T16:33:41Z
+  - title: "feat: split admin traffic KPIs by LP and frontend app"
+    body: >-
+      - segment Admin Traffic metrics into LP and Frontend App using URL/user-based classification logic in the traffic
+      repository
+
+      - add per-segment 30d trend + 7d pageview/top-page datasets and expose them to the view model
+
+      - update the Traffic admin page to show LP/App KPIs, compare trends in one chart,...
+    url: https://github.com/deariary/backend/pull/666
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 166
+    deletions: 17
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-11T15:22:31Z
+    mergedAt: 2026-03-11T15:25:01Z
+  - title: "fix: persist llm cost alert dedupe keys"
+    body: >-
+      - Persisted LLM cost alert dedupe keys in a new `llm_cost_alert_sends` table so hourly checks do not resend
+      notifications after worker restarts or across instances.
+
+      - Added `LlmCostAlertRepository` and switched `LlmCostAlertCronService` from in-memory dedupe to DB-backed
+      `markSentIfNew` checks.
+
+      - Up...
+    url: https://github.com/deariary/backend/pull/665
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 98
+    deletions: 58
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-03-11T15:11:39Z
+    mergedAt: 2026-03-11T15:16:22Z
+  - title: "fix: remove trailing commas from referrer SQL"
+    body: |-
+      - remove trailing commas in `regexp_replace` calls used by admin traffic referrer query
+      - fix PostgreSQL syntax error when loading top referrers KPI data
+      - keep query behavior unchanged while restoring deploy/runtime stability
+    url: https://github.com/deariary/backend/pull/664
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-11T14:46:06Z
+    mergedAt: 2026-03-11T14:49:38Z
+  - title: "fix: add admin token stats and correct user entry links"
+    body: |-
+      - LLM Cost KPIに token 統計を追加し、MTD Tokens と 30日平均 Daily Tokens を表示
+      - Top Models / Top Users のテーブルに token 列を追加し、Top Users のリンクを `/users/:id` に修正
+      - Pipeline Run 詳細に該当 Entry への導線を追加し、Churn KPI のユーザーリンクも `/users/:id` に統一
+    url: https://github.com/deariary/backend/pull/662
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 250
+    deletions: 15
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-03-11T14:14:34Z
+    mergedAt: 2026-03-11T14:25:24Z
+  - title: "fix: improve admin entry detail links and artifact visibility"
+    body: |-
+      - Admin User/Entry/Pipeline/Integration など詳細画面で未リンクだった関連リソースへの導線を追加
+      - Entry 詳細で user/date に紐づく Pipeline Run 全件と、その Run 配下の Artifacts 全件を表示するように改善
+      - Artifact 本文を確認できるプレビューページ（`/entries/:id/artifacts/:artifactId/content`）を追加し、JSON は整形表示・長文は先頭200,000文字まで表示
+    url: https://github.com/deariary/backend/pull/661
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 273
+    deletions: 96
+    changedFiles: 15
+    author: unhappychoice
+    createdAt: 2026-03-11T13:30:44Z
+    mergedAt: 2026-03-11T13:35:18Z
+  - title: "fix: show generated entry content in admin detail"
+    body: |-
+      - Admin Entry 詳細画面で本文取得時に `kind=entry` のみ参照していたため、現行アーティファクト `llm_entry_md` が表示されない不具合を修正
+      - `llm_entry_md` を優先し、旧 `entry` もフォールバックで読むようにして後方互換を維持
+      - これにより Admin の Entry 詳細で本文が正しく表示されるように改善
+    url: https://github.com/deariary/backend/pull/660
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 3
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-11T12:51:26Z
+    mergedAt: 2026-03-11T12:54:00Z
+  - title: "daily-log: 2026-03-10"
+    body: |-
+      Auto-generated daily log for 2026-03-10
+
+      ## Summary by CodeRabbit
+
+      * **Chores**
+       * Updated GitHub repository metrics with latest star and watcher counts
+       * Refreshed cached data snapshots including GitHub activity, issue tracking, weather, and gaming statistics
+       * Added daily summary and data record...
+    url: https://github.com/unhappychoice/hibinoki/pull/75
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 4214
+    deletions: 42
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-03-10T20:18:31Z
+    mergedAt: 2026-03-10T20:18:44Z
+  - title: "feat: add OG image, SEO meta tags, JSON-LD, and web manifest"
+    body: >-
+      - Use LP's `og.png` (1200×630) as the fixed OG image across all pages
+
+      - Add comprehensive SEO meta tags: `og:site_name`, `og:locale`, `og:image` dimensions, `twitter:site`
+      (`@deariaryapp`), `theme-color`, `color-scheme`, `robots`
+
+      - Add `robots.txt` (allow all + sitemap URL) and `site.webmanifest` (P...
+    url: https://github.com/deariary/blog/pull/2
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 98
+    deletions: 18
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-03-10T15:14:51Z
+    mergedAt: 2026-03-10T15:15:30Z
+  - title: "feat: polish blog launch experience"
+    body: >-
+      - replace the root redirect with a branded homepage that highlights deariary and links to `deariary/lp` and
+      `deariary/frontend`
+
+      - add a lightweight launch post covering supported integrations and pricing availability
+
+      - document Cloudflare Pages deployment in README and add `wrangler.toml` for static...
+    url: https://github.com/deariary/blog/pull/1
+    repository: deariary/blog
+    state: merged
+    labels: []
+    additions: 1441
+    deletions: 268
+    changedFiles: 17
+    author: unhappychoice
+    createdAt: 2026-03-10T11:48:45Z
+    mergedAt: 2026-03-10T14:59:36Z
+  - title: "test: expand landing page coverage and snapshot tests"
+    body: |-
+      - add snapshot and branch tests for legal page routing (`[locale]/[slug]`) including metadata and `notFound` paths
+      - add focused unit tests for `robots`, `sitemap`, `detectLocale`, `structuredData`, and `TrackedLink`
+      - add component coverage tests for `Integrations` and `MobileMenu` to validate rend...
+    url: https://github.com/deariary/lp/pull/89
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 8769
+    deletions: 420
+    changedFiles: 28
+    author: unhappychoice
+    createdAt: 2026-03-10T11:15:50Z
+    mergedAt: 2026-03-10T11:32:42Z
+  - title: "test: add snapshot tests for app routes"
+    body: >-
+      - add snapshot tests for all current App Router pages (`/`, locale root, legal slug pages, localized not-found,
+      and error boundaries)
+
+      - mock unstable runtime dependencies (Next navigation, fonts, MDX/JSON-LD helpers, shared components) to keep
+      snapshots deterministic
+
+      - commit generated Vitest snapsh...
+    url: https://github.com/deariary/lp/pull/86
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 804
+    deletions: 0
+    changedFiles: 14
+    author: unhappychoice
+    createdAt: 2026-03-10T09:08:13Z
+    mergedAt: 2026-03-10T09:12:31Z
+  - title: "fix: align admin pipeline run status and source filters"
+    body: >-
+      - align admin pipeline run status validation with actual persisted statuses (`pending`, `extracting`,
+      `transforming`, `completed`, `failed`)
+
+      - align source filtering and UI options with trigger sources (`schedule`, `user_manual`, `summary_schedule`, etc.)
+
+      - keep backward compatibility by mapping leg...
+    url: https://github.com/deariary/backend/pull/659
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 57
+    deletions: 11
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-10T06:26:42Z
+    mergedAt: 2026-03-10T06:29:23Z
+  - title: "feat: add public profile shared entries API"
+    body: >-
+      - add `public_profile_enabled` to `user_preferences` with migration and expose it through preferences read/update
+      APIs
+
+      - add `GET /profiles/:slug/entries` as a public endpoint that returns only active shared entries, sorted by newest
+      date, with offset pagination
+
+      - add unit/integration tests for publ...
+    url: https://github.com/deariary/backend/pull/658
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 601
+    deletions: 3
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-03-10T04:36:10Z
+    mergedAt: 2026-03-10T04:55:23Z
+  - title: "feat: add LLM cost tracking dashboard and Slack alerts"
+    body: >-
+      - add `llm_usages` persistence for every LLM call (success/failure), including token usage, estimated USD cost,
+      provider/model/purpose, and error context
+
+      - add admin KPI page `/kpi/llm-cost` with key metrics, 30-day trend, and top model/user breakdown for demo
+      visibility
+
+      - add worker cron-based Slac...
+    url: https://github.com/deariary/backend/pull/657
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 1399
+    deletions: 21
+    changedFiles: 29
+    author: unhappychoice
+    createdAt: 2026-03-10T03:17:16Z
+    mergedAt: 2026-03-10T04:12:08Z
+  - title: "daily-log: 2026-03-09"
+    body: >-
+      Auto-generated daily log for 2026-03-09
+
+
+      ## Summary by CodeRabbit
+
+
+      * **Chores**
+       * Updated cached repository metrics with latest GitHub statistics.
+       * Recorded daily activity snapshots for GitHub activity, gaming sessions, weather data, and workspace communications.
+       * Reorganized and consolidated r...
+    url: https://github.com/unhappychoice/hibinoki/pull/74
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 1072
+    deletions: 53
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-03-09T20:17:42Z
+    mergedAt: 2026-03-09T20:17:56Z
+  - title: "fix: treat summary skip (no content) as successful completion instead of failure"
+    body: >-
+      - When weekly/monthly summary generation has no content (no entries, no email, all GCS loads failed),
+      `processUser()` returns `false` — this was previously recorded as a pipeline **failure**, causing Slack alerts
+      ("Summary Pipeline Failed 💥") and marking the run as `failed`
+
+      - Changed `executeSummar...
+    url: https://github.com/deariary/backend/pull/649
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 51
+    deletions: 10
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-09T11:08:24Z
+    mergedAt: 2026-03-09T11:12:36Z
+  - title: "feat: restrict summary generation to paid plans (basic+)"
+    body: >-
+      - Add `EXISTS (subscription_changes ... status='active' AND plan_slug != 'free')` filter to
+      `WeeklySummaryRepository.findEligibleUsers()` and `MonthlySummaryRepository.findEligibleUsers()` — Free plan users
+      are no longer picked up by the cron
+
+      - Add `@UseGuards(PlanGuard)` + `@RequirePlan('basic')` t...
+    url: https://github.com/deariary/backend/pull/650
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 20
+    deletions: 0
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-03-09T11:12:04Z
+    mergedAt: 2026-03-09T11:13:55Z
+  - title: "fix: use correct column name occurred_at in dormancy warning query"
+    body: >-
+      - Fix dormancy warning cron query that referenced non-existent `ne.created_at` column on `notification_events`
+      table — the correct column is `ne.occurred_at`
+
+      - This caused the entire dormancy warning job to fail at runtime
+    url: https://github.com/deariary/backend/pull/648
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-09T11:02:50Z
+    mergedAt: 2026-03-09T11:12:26Z
+  - title: "feat: add i18n notification translations for all 42 locales"
+    body: >-
+      - Add notification translation files for all 42 locales supported by the LP (40 new languages added to existing
+      en/ja)
+
+      - Update `SUPPORTED_LOCALES`, `LOCALE_LANGUAGE_MAP`, and `LOCALE_PATTERN` to support the full set
+
+      - Fix fallback locale test that was using a now-supported locale code
+
+      - Polish noti...
+    url: https://github.com/deariary/backend/pull/647
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 7299
+    deletions: 13
+    changedFiles: 46
+    author: unhappychoice
+    createdAt: 2026-03-09T06:26:13Z
+    mergedAt: 2026-03-10T00:08:47Z
+  - title: "daily-log: 2026-03-08"
+    body: |-
+      Auto-generated daily log for 2026-03-08
+
+      ## Summary by CodeRabbit
+
+      * **Documentation**
+       * Created daily summary documenting production release activities and completed initiatives.
+
+      * **Chores**
+       * Collected daily data snapshots for 2026-03-08 from multiple services (GitHub, Steam, Linear, Slack, we...
+    url: https://github.com/unhappychoice/hibinoki/pull/73
+    repository: unhappychoice/hibinoki
+    state: merged
+    labels: []
+    additions: 1721
+    deletions: 28
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-03-08T20:12:28Z
+    mergedAt: 2026-03-08T20:12:41Z
+  - title: "feat: add waitlist UI for registration cap"
+    body: |-
+      - Add `WaitlistStatus` type and third `ExchangeResult` variant to handle waitlist responses from the backend
+      - Handle `waitlistStatus` in OAuth callback (checked before `needsRegistration`) to redirect users to `/waitlist`
+      - Create `/waitlist` page with status-aware messaging (`registered` / `alread...
+    url: https://github.com/deariary/frontend/pull/389
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 373
+    deletions: 1
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-03-08T12:32:50Z
+    mergedAt: 2026-03-08T13:20:20Z
+  - title: "feat: enrich all email notification templates"
+    body: >-
+      - Register all 19 email notification types (4 missing: monthly_summary, dormancy_warning, waitlist_confirmed,
+      waitlist_invitation) in the preview script
+
+      - Rewrite all en/ja locale strings with warmer, more descriptive copy that reflects the deariary brand voice
+
+      - Improve template structure: add miss...
+    url: https://github.com/deariary/backend/pull/646
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 349
+    deletions: 193
+    changedFiles: 20
+    author: unhappychoice
+    createdAt: 2026-03-08T13:40:33Z
+    mergedAt: 2026-03-08T14:17:54Z
+  - title: "test: add waitlist integration tests for repository coverage"
+    body: Adds integration tests for the waitlist flow to improve coverage on `WaitlistRepository` (was 24%) and
+      `WaitlistService`.
+    url: https://github.com/deariary/backend/pull/645
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 211
+    deletions: 21
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-03-08T12:13:38Z
+    mergedAt: 2026-03-08T12:23:33Z
+  - title: "ci: add version-check workflow for production deploy PRs"
+    body: >-
+      - Add `version-check.yml` workflow that runs on PRs targeting `production` branch
+
+      - Compares `package.json` version between PR branch and production branch, reports failure if not bumped
+
+      - Update `actions/checkout` from v4 to v6 in existing workflows for consistency with
+      [deariary/frontend](https://...
+    url: https://github.com/deariary/lp/pull/85
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 65
+    deletions: 2
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-03-08T11:48:07Z
+    mergedAt: 2026-03-08T11:49:06Z
+  - title: "feat(i18n): expand language support from 12 to 42 locales"
+    body: |-
+      - Add 30 new language translations, expanding from 12 to 42 supported locales
+      - Quality-reviewed all 30 new translations with 60+ fixes applied
+    url: https://github.com/deariary/lp/pull/83
+    repository: deariary/lp
+    state: merged
+    labels: []
+    additions: 13576
+    deletions: 20
+    changedFiles: 36
+    author: unhappychoice
+    createdAt: 2026-03-08T11:33:49Z
+    mergedAt: 2026-03-08T11:45:31Z
+  - title: "fix: resolve admin 500 errors in user detail and integrations pages"
+    body: "- Fix 500 error on admin user detail page (`/users/:id`) caused by ambiguous column reference in
+      `findConnections` subqueries — `${integrationConnections.id}` was expanded to unqualified `\"id\"` by Drizzle
+      ORM's sql template, failing when the subquery could not resolve the outer table's column. Chang..."
+    url: https://github.com/deariary/backend/pull/643
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 12
+    deletions: 12
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-03-08T10:05:56Z
+    mergedAt: 2026-03-08T10:10:47Z
+  - title: "feat: notify dev Slack when scheduled cron tasks fail"
+    body: |-
+      - Add Slack error notifications (severity: `critical`) for all 7 cron jobs when they throw unhandled errors
+      - Extend `withLogging` with optional `onError` callback (fully backward-compatible with existing callers)
+      - Add `buildCronErrorNotifier` helper for consistent Slack alert formatting (task name...
+    url: https://github.com/deariary/backend/pull/644
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 287
+    deletions: 56
+    changedFiles: 14
+    author: unhappychoice
+    createdAt: 2026-03-08T10:21:16Z
+    mergedAt: 2026-03-08T10:27:57Z
+  - title: 'Revert "fix: add missing migration journal entries for 0038 and 0039"'
+    body: Reverts deariary/backend#637
+    url: https://github.com/deariary/backend/pull/641
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 0
+    deletions: 7
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-08T08:50:49Z
+    mergedAt: 2026-03-08T08:50:55Z
+  - title: "feat: skip journal generation for dormant free plan users"
+    body: |-
+      Re-creation of #634 (reverted in #639 due to accidental merge).
+
+      Free プランの休眠ユーザー（30日間ログインなし）に対する日記生成を自動的に停止し、LLM・インフラコストを削減する。再ログイン時に自動で再開される。
+    url: https://github.com/deariary/backend/pull/640
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 503
+    deletions: 27
+    changedFiles: 26
+    author: unhappychoice
+    createdAt: 2026-03-08T08:47:41Z
+    mergedAt: 2026-03-08T09:52:49Z
+  - title: 'Revert "feat: skip journal generation for dormant free plan users"'
+    body: Reverts deariary/backend#634
+    url: https://github.com/deariary/backend/pull/639
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 29
+    deletions: 492
+    changedFiles: 25
+    author: unhappychoice
+    createdAt: 2026-03-08T08:44:13Z
+    mergedAt: 2026-03-08T08:45:47Z
+  - title: "feat: upgrade production Cloud SQL tier and remove unused Cloud Functions"
+    body: |-
+      - Production Cloud SQL のティアを `db-f1-micro` → `db-custom-1-3840`（1 vCPU, 3.75GB RAM）にアップグレード
+      - 未使用の Cloud Functions 関連リソースを全て削除（モジュール・SA・IAM・WIF・service agent 権限）
+      - 不要になった `project_number` 変数を IAM モジュールから削除
+      - `mise.toml` を追加して Terraform 1.9.8 のツールチェーン管理を導入
+    url: https://github.com/deariary/infrastructure/pull/40
+    repository: deariary/infrastructure
+    state: merged
+    labels: []
+    additions: 47
+    deletions: 186
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-03-08T07:43:53Z
+    mergedAt: 2026-03-08T07:47:39Z
+  - title: "fix: add missing migration journal entries for 0038 and 0039"
+    body: >-
+      - `0038_add-user-last-active-at.sql` and `0039_seed-dormancy-warning-notification-type.sql` existed as migration
+      files but were missing from `_journal.json`
+
+      - Added the two missing entries to `drizzle/meta/_journal.json` so Drizzle Kit recognizes them during migration
+      runs
+    url: https://github.com/deariary/backend/pull/637
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 7
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-08T08:41:40Z
+    mergedAt: 2026-03-08T08:45:31Z
+  - title: "fix: temporarily hide Facebook login button pending review approval"
+    body: |-
+      - Facebook Login の審査が未完了のため、ログインページから Facebook ボタンを一時的に非表示にする
+      - `providers` 配列のエントリをコメントアウト（`TODO` 付き）し、審査通過後にコメント解除で復活可能
+      - テスト・スナップショットを更新し、Facebook ボタンが表示されないことを検証
+    url: https://github.com/deariary/frontend/pull/388
+    repository: deariary/frontend
+    state: merged
+    labels: []
+    additions: 6
+    deletions: 8
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-03-08T07:14:44Z
+    mergedAt: 2026-03-08T07:27:03Z
+  - title: "ops: set production Stripe price IDs in deploy workflow"
+    body: "- Replace `TODO_PRODUCTION_PRICE_*` placeholders with actual Stripe live price IDs in `deploy-production.yml`"
+    url: https://github.com/deariary/backend/pull/636
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 8
+    deletions: 8
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-03-08T06:49:45Z
+    mergedAt: 2026-03-08T08:43:18Z
+  - title: "feat: implement automatic waitlist system for daily registration cap"
+    body: >-
+      Closes #627
+
+
+      Implements a waitlist system that caps daily new-user registrations at 500 and queues excess sign-ups, sending
+      invitation emails so they can come back and register.
+    url: https://github.com/deariary/backend/pull/635
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 1135
+    deletions: 8
+    changedFiles: 29
+    author: unhappychoice
+    createdAt: 2026-03-08T04:48:37Z
+    mergedAt: 2026-03-08T12:08:11Z
+  - title: "fix: show 'Sync pending' instead of 'Never synced' for new connections"
+    body: |-
+      - Changed status text for newly connected integrations from "Never synced" / "未同期" to "Sync pending" / "同期待ち"
+      - Added new i18n key `settings.integrations.syncPending` (EN/JA)
+
+      Closes #321
+    url: https://github.com/deariary/frontend/pull/330
+    repository: deariary/frontend
+    state: closed
+    labels: []
+    additions: 5
+    deletions: 3
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-03-03T02:01:54Z
+    mergedAt: null
+  - title: "feat: display pipeline progress indicator during journal generation"
+    body: |-
+      - Add a progress bar with task label and completion fraction (N/M) during journal generation polling
+      - Map backend `currentTask` kinds to user-friendly EN/JP labels (e.g. "Collecting Slack data" / "Slack のデータを収集中")
+      - Handle all pipeline statuses: `pending` (spinner), `running` (progress bar), `compl...
+    url: https://github.com/deariary/frontend/pull/223
+    repository: deariary/frontend
+    state: closed
+    labels: []
+    additions: 181
+    deletions: 8
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-02-26T02:06:54Z
+    mergedAt: null
+  - title: "fix: advance to generate step when onboarding API is unavailable"
+    body: "- Fix: after OAuth connection, onboarding page stays on Connect step instead of advancing to Generate step"
+    url: https://github.com/deariary/frontend/pull/232
+    repository: deariary/frontend
+    state: closed
+    labels: []
+    additions: 27
+    deletions: 11
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-02-26T08:42:58Z
+    mergedAt: null
+  - title: "feat: integrate Plausible Analytics for privacy-friendly usage tracking"
+    body: >-
+      - Add Plausible Analytics script to root layout (production environment only via `Environment.plausibleDomain`)
+
+      - Create `PlausibleScript` client component that conditionally renders the `<Script>` tag using `next/script` with
+      `afterInteractive` strategy
+
+      - Add typed `trackEvent` utility (`src/lib/an...
+    url: https://github.com/deariary/frontend/pull/196
+    repository: deariary/frontend
+    state: closed
+    labels: []
+    additions: 59
+    deletions: 0
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-02-23T21:56:33Z
+    mergedAt: null
   - title: "chore(deps): bump clap from 4.5.60 to 4.6.0"
     body: >-
       Bumps [clap](https://github.com/clap-rs/clap) from 4.5.60 to 4.6.0.
@@ -136,35 +2159,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-13T12:55:19Z
     mergedAt: 2026-03-13T13:24:56Z
-  - title: "chore(deps-dev): bump @types/node from 25.4.0 to 25.5.0"
-    body: >-
-      Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 25.4.0 to
-      25.5.0.
-
-      <details>
-
-      <summary>Commits</summary>
-
-      <ul>
-
-      <li>See full diff in <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node">compare
-      view</a></li>
-
-      </ul>
-
-      </detail...
-    url: https://github.com/unhappychoice/oss-issue-opener/pull/103
-    repository: unhappychoice/oss-issue-opener
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 5
-    deletions: 5
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-13T03:08:26Z
-    mergedAt: 2026-03-13T13:24:51Z
   - title: "chore(deps): bump clap from 4.5.60 to 4.6.0"
     body: >-
       Bumps [clap](https://github.com/clap-rs/clap) from 4.5.60 to 4.6.0.
@@ -197,6 +2191,102 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-13T03:08:26Z
     mergedAt: 2026-03-13T13:24:54Z
+  - title: "chore(deps-dev): bump @types/node from 25.4.0 to 25.5.0"
+    body: >-
+      Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 25.4.0 to
+      25.5.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li>See full diff in <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node">compare
+      view</a></li>
+
+      </ul>
+
+      </detail...
+    url: https://github.com/unhappychoice/oss-issue-opener/pull/103
+    repository: unhappychoice/oss-issue-opener
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-13T03:08:26Z
+    mergedAt: 2026-03-13T13:24:51Z
+  - title: "chore(deps-dev): bump esbuild from 0.27.3 to 0.27.4"
+    body: |-
+      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.3 to 0.27.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.27.4</h2>
+      <ul>
+      <li>
+      <p>Fix a regression with CSS media quer...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/851
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 109
+    deletions: 109
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-13T03:04:55Z
+    mergedAt: 2026-03-13T13:24:48Z
+  - title: "chore(deps-dev): bump electron from 41.0.0 to 41.0.1"
+    body: |-
+      Bumps [electron](https://github.com/electron/electron) from 41.0.0 to 41.0.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+      <blockquote>
+      <h2>electron v41.0.1</h2>
+      <h1>Release Notes for v41.0.1<...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/850
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-13T03:04:41Z
+    mergedAt: 2026-03-13T13:24:45Z
+  - title: "build(deps-dev): bump esbuild from 0.27.3 to 0.27.4 in /example"
+    body: |-
+      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.3 to 0.27.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.27.4</h2>
+      <ul>
+      <li>
+      <p>Fix a regression with CSS media quer...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/345
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 109
+    deletions: 109
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-13T03:04:20Z
+    mergedAt: 2026-03-13T13:24:24Z
   - title: "chore(deps): bump clap from 4.5.60 to 4.6.0"
     body: >-
       Bumps [clap](https://github.com/clap-rs/clap) from 4.5.60 to 4.6.0.
@@ -229,29 +2319,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-13T02:25:00Z
     mergedAt: 2026-03-13T13:24:43Z
-  - title: "build(deps-dev): bump esbuild from 0.27.3 to 0.27.4 in /example"
-    body: |-
-      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.3 to 0.27.4.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
-      <blockquote>
-      <h2>v0.27.4</h2>
-      <ul>
-      <li>
-      <p>Fix a regression with CSS media quer...
-    url: https://github.com/unhappychoice/cycle-pusher/pull/345
-    repository: unhappychoice/cycle-pusher
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 109
-    deletions: 109
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-13T03:04:20Z
-    mergedAt: 2026-03-13T13:24:24Z
   - title: "chore(deps): bump tree-sitter-scala from 0.24.0 to 0.25.0"
     body: >-
       Bumps [tree-sitter-scala](https://github.com/tree-sitter/tree-sitter-scala) from 0.24.0 to 0.25.0.
@@ -364,6 +2431,118 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T03:08:25Z
     mergedAt: 2026-03-12T12:23:23Z
+  - title: "build(deps-dev): bump rubocop-ast from 1.49.0 to 1.49.1"
+    body: >-
+      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.49.1 (2026-03-11)</h2>
+
+      <h3>...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/495
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-12T03:04:58Z
+    mergedAt: 2026-03-12T12:29:43Z
+  - title: "chore(deps): bump rubocop-ast from 1.49.0 to 1.49.1"
+    body: >-
+      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.49.1 (2026-03-11)</h2>
+
+      <h3>...
+    url: https://github.com/circleci-tools/circleci-cli/pull/969
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-12T03:06:40Z
+    mergedAt: 2026-03-12T12:26:10Z
+  - title: "chore(deps-dev): bump rubocop-ast from 1.49.0 to 1.49.1"
+    body: >-
+      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.49.1 (2026-03-11)</h2>
+
+      <h3>...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/663
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-12T03:04:16Z
+    mergedAt: 2026-03-12T12:26:33Z
+  - title: ⬆️ Bump rubocop-ast from 1.49.0 to 1.49.1
+    body: >-
+      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.49.1 (2026-03-11)</h2>
+
+      <h3>...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/157
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-12T03:04:13Z
+    mergedAt: 2026-03-12T12:26:37Z
   - title: "build(deps-dev): Bump rubocop-ast from 1.49.0 to 1.49.1"
     body: >-
       Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
@@ -392,6 +2571,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T03:04:05Z
     mergedAt: 2026-03-12T12:29:40Z
+  - title: "chore(deps): Bump mermaid from 11.12.3 to 11.13.0 in /packages/frontend"
+    body: |-
+      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.12.3 to 11.13.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
+      <blockquote>
+      <h2>mermaid@11.13.0</h2>
+      <h3>Minor Changes</h3>
+      <ul>
+      <...
+    url: https://github.com/unhappychoice/mdts/pull/590
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 105
+    deletions: 176
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-11T07:45:33Z
+    mergedAt: 2026-03-11T10:23:46Z
   - title: "chore(deps): bump tree-sitter-dart from 0.0.4 to 0.1.0"
     body: |-
       Bumps [tree-sitter-dart](https://github.com/nielsenko/tree-sitter-dart) from 0.0.4 to 0.1.0.
@@ -416,6 +2618,34 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T02:24:55Z
     mergedAt: null
+  - title: "chore(deps-dev): bump rubocop-ast from 1.49.0 to 1.49.1"
+    body: >-
+      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.49.1 (2026-03-11)</h2>
+
+      <h3>...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/618
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-12T03:03:07Z
+    mergedAt: 2026-03-12T12:24:58Z
   - title: "docs: Update installation instructions for Homebrew"
     body: >-
       GitType is now
@@ -461,29 +2691,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-11T07:45:21Z
     mergedAt: 2026-03-11T10:23:42Z
-  - title: "chore(deps): Bump mermaid from 11.12.3 to 11.13.0 in /packages/frontend"
-    body: |-
-      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.12.3 to 11.13.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
-      <blockquote>
-      <h2>mermaid@11.13.0</h2>
-      <h3>Minor Changes</h3>
-      <ul>
-      <...
-    url: https://github.com/unhappychoice/mdts/pull/590
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 105
-    deletions: 176
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-11T07:45:33Z
-    mergedAt: 2026-03-11T10:23:46Z
   - title: "chore(deps-dev): Bump typescript-eslint from 8.56.1 to 8.57.0 in /packages/frontend"
     body: >-
       Bumps
@@ -529,34 +2736,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-11T07:44:51Z
     mergedAt: 2026-03-11T10:22:53Z
-  - title: "chore(deps): Bump faraday-retry from 1.0.3 to 1.0.4"
-    body: >-
-      Bumps [faraday-retry](https://github.com/lostisland/faraday-retry) from 1.0.3 to 1.0.4.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a href="https://github.com/lostisland/faraday-retry/releases">faraday-retry's
-      releases</a>.</em></p>
-
-      <blockquote>
-
-      <h2>v1.0.4</h2>
-
-      <h2>What's Changed...
-    url: https://github.com/unhappychoice/blog/pull/680
-    repository: unhappychoice/blog
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-11T03:05:09Z
-    mergedAt: 2026-03-11T10:22:43Z
   - title: "build(deps): Bump fastimage from 2.4.0 to 2.4.1"
     body: >-
       Bumps [fastimage](https://github.com/sdsykes/fastimage) from 2.4.0 to 2.4.1.
@@ -589,6 +2768,34 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-11T03:04:51Z
     mergedAt: 2026-03-11T10:22:48Z
+  - title: "chore(deps): Bump faraday-retry from 1.0.3 to 1.0.4"
+    body: >-
+      Bumps [faraday-retry](https://github.com/lostisland/faraday-retry) from 1.0.3 to 1.0.4.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/lostisland/faraday-retry/releases">faraday-retry's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.0.4</h2>
+
+      <h2>What's Changed...
+    url: https://github.com/unhappychoice/blog/pull/680
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-11T03:05:09Z
+    mergedAt: 2026-03-11T10:22:43Z
   - title: "chore(deps): Bump fastimage from 2.4.0 to 2.4.1"
     body: >-
       Bumps [fastimage](https://github.com/sdsykes/fastimage) from 2.4.0 to 2.4.1.
@@ -621,6 +2828,59 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-11T03:04:33Z
     mergedAt: 2026-03-11T10:22:29Z
+  - title: "chore(deps-dev): bump electron from 40.8.0 to 41.0.0"
+    body: |-
+      Bumps [electron](https://github.com/electron/electron) from 40.8.0 to 41.0.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+      <blockquote>
+      <h2>electron v41.0.0</h2>
+      <h1>Release Notes for v41.0.0<...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/849
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-11T03:04:30Z
+    mergedAt: 2026-03-11T10:22:27Z
+  - title: "chore(deps): bump fastimage from 2.4.0 to 2.4.1"
+    body: >-
+      Bumps [fastimage](https://github.com/sdsykes/fastimage) from 2.4.0 to 2.4.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/sdsykes/fastimage/blob/master/CHANGELOG">fastimage's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <p>Version 2.4.1</p>
+
+      <p>07-Mar-2026</p>
+
+      <ul>
+
+      <...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/617
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-11T03:03:31Z
+    mergedAt: 2026-03-11T10:22:33Z
   - title: "chore(deps-dev): Bump typescript-eslint from 8.56.1 to 8.57.0"
     body: >-
       Bumps
@@ -645,45 +2905,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:58Z
     mergedAt: 2026-03-10T07:56:18Z
-  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.56.1 to 8.57.0"
-    body: |-
-      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.56.1 to 8.57.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
-    url: https://github.com/unhappychoice/mdts/pull/585
-    repository: unhappychoice/mdts
-    state: closed
-    labels:
-      - dependencies
-      - javascript
-    additions: 554
-    deletions: 14
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-10T07:45:10Z
-    mergedAt: null
-  - title: "chore(deps-dev): Bump babel-jest from 30.2.0 to 30.3.0 in /packages/frontend"
-    body: |-
-      Bumps [babel-jest](https://github.com/jestjs/jest/tree/HEAD/packages/babel-jest) from 30.2.0 to 30.3.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">babel-jest's releases</a>.</em></p>
-      <blockquote>
-      <h2>v30.3.0</h2>
-      <h3>Features</h3>...
-    url: https://github.com/unhappychoice/mdts/pull/581
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 200
-    deletions: 14
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-10T07:44:39Z
-    mergedAt: 2026-03-10T07:56:33Z
   - title: "chore(deps-dev): Bump jest-environment-jsdom from 30.2.0 to 30.3.0 in /packages/frontend"
     body: >-
       Bumps [jest-environment-jsdom](https://github.com/jestjs/jest/tree/HEAD/packages/jest-environment-jsdom) from
@@ -709,6 +2930,24 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:49Z
     mergedAt: 2026-03-10T07:52:29Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.56.1 to 8.57.0"
+    body: |-
+      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.56.1 to 8.57.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
+    url: https://github.com/unhappychoice/mdts/pull/585
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 554
+    deletions: 14
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-10T07:45:10Z
+    mergedAt: null
   - title: "chore(deps-dev): Bump jest from 30.2.0 to 30.3.0"
     body: |-
       Bumps [jest](https://github.com/jestjs/jest/tree/HEAD/packages/jest) from 30.2.0 to 30.3.0.
@@ -732,6 +2971,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:43Z
     mergedAt: 2026-03-10T07:56:10Z
+  - title: "chore(deps-dev): Bump babel-jest from 30.2.0 to 30.3.0 in /packages/frontend"
+    body: |-
+      Bumps [babel-jest](https://github.com/jestjs/jest/tree/HEAD/packages/babel-jest) from 30.2.0 to 30.3.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">babel-jest's releases</a>.</em></p>
+      <blockquote>
+      <h2>v30.3.0</h2>
+      <h3>Features</h3>...
+    url: https://github.com/unhappychoice/mdts/pull/581
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 200
+    deletions: 14
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-10T07:44:39Z
+    mergedAt: 2026-03-10T07:56:33Z
   - title: "chore(deps-dev): Bump babel-loader from 10.1.0 to 10.1.1 in /packages/frontend"
     body: |-
       Bumps [babel-loader](https://github.com/babel/babel-loader) from 10.1.0 to 10.1.1.
@@ -755,6 +3015,28 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:31Z
     mergedAt: 2026-03-10T07:51:51Z
+  - title: "chore(deps-dev): Bump jest-util from 30.2.0 to 30.3.0"
+    body: |-
+      Bumps [jest-util](https://github.com/jestjs/jest/tree/HEAD/packages/jest-util) from 30.2.0 to 30.3.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest-util's releases</a>.</em></p>
+      <blockquote>
+      <h2>v30.3.0</h2>
+      <h3>Features</h3>
+      <u...
+    url: https://github.com/unhappychoice/mdts/pull/579
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 835
+    deletions: 17
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-10T07:44:26Z
+    mergedAt: 2026-03-10T07:52:02Z
   - title: "chore(deps-dev): bump @types/node from 25.3.5 to 25.4.0"
     body: >-
       Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 25.3.5 to
@@ -784,28 +3066,135 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T03:08:52Z
     mergedAt: 2026-03-10T03:09:38Z
-  - title: "chore(deps-dev): Bump jest-util from 30.2.0 to 30.3.0"
+  - title: "chore(deps-dev): bump @types/node from 25.3.3 to 25.4.0"
+    body: >-
+      Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 25.3.3 to
+      25.4.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li>See full diff in <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node">compare
+      view</a></li>
+
+      </ul>
+
+      </detail...
+    url: https://github.com/deariary/frontend/pull/392
+    repository: deariary/frontend
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 88
+    deletions: 54
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-09T23:47:11Z
+    mergedAt: 2026-03-10T00:17:19Z
+  - title: "chore(deps): bump docker/setup-buildx-action from 3 to 4"
+    body: >-
+      Bumps [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action) from 3 to 4.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/docker/setup-buildx-action/releases">docker/setup-buildx-action's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v4.0.0</...
+    url: https://github.com/deariary/backend/pull/652
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T16:28:56Z
+    mergedAt: 2026-03-10T00:16:12Z
+  - title: "chore(deps): bump @sentry/nextjs from 10.41.0 to 10.42.0"
+    body: >-
+      Bumps [@sentry/nextjs](https://github.com/getsentry/sentry-javascript) from 10.41.0 to 10.42.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/getsentry/sentry-javascript/releases"><code>@​sentry/nextjs</code>'s
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>10.4...
+    url: https://github.com/deariary/frontend/pull/391
+    repository: deariary/frontend
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 165
+    deletions: 131
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-09T23:46:57Z
+    mergedAt: 2026-03-10T00:17:01Z
+  - title: "chore(deps): bump docker/build-push-action from 6 to 7"
+    body: >-
+      Bumps [docker/build-push-action](https://github.com/docker/build-push-action) from 6 to 7.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/docker/build-push-action/releases">docker/build-push-action's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v7.0.0</h2>
+
+      <ul>...
+    url: https://github.com/deariary/backend/pull/651
+    repository: deariary/backend
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T16:28:52Z
+    mergedAt: 2026-03-10T00:16:06Z
+  - title: "chore(deps-dev): Bump babel-loader from 10.0.0 to 10.1.0 in /packages/frontend"
     body: |-
-      Bumps [jest-util](https://github.com/jestjs/jest/tree/HEAD/packages/jest-util) from 30.2.0 to 30.3.0.
+      Bumps [babel-loader](https://github.com/babel/babel-loader) from 10.0.0 to 10.1.0.
       <details>
       <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest-util's releases</a>.</em></p>
+      <p><em>Sourced from <a href="https://github.com/babel/babel-loader/releases">babel-loader's releases</a>.</em></p>
       <blockquote>
-      <h2>v30.3.0</h2>
-      <h3>Features</h3>
-      <u...
-    url: https://github.com/unhappychoice/mdts/pull/579
+      <h2>v10.1.0</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      ...
+    url: https://github.com/unhappychoice/mdts/pull/578
     repository: unhappychoice/mdts
     state: merged
     labels:
       - dependencies
       - javascript
-    additions: 835
-    deletions: 17
-    changedFiles: 1
+    additions: 25
+    deletions: 81
+    changedFiles: 2
     author: dependabot[bot]
-    createdAt: 2026-03-10T07:44:26Z
-    mergedAt: 2026-03-10T07:52:02Z
+    createdAt: 2026-03-09T07:47:06Z
+    mergedAt: 2026-03-09T09:11:27Z
   - title: "chore(deps-dev): Bump @eslint/compat from 2.0.2 to 2.0.3 in /packages/frontend"
     body: >-
       Bumps [@eslint/compat](https://github.com/eslint/rewrite/tree/HEAD/packages/compat) from 2.0.2 to 2.0.3.
@@ -832,29 +3221,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T07:46:39Z
     mergedAt: 2026-03-09T09:11:39Z
-  - title: "chore(deps-dev): Bump babel-loader from 10.0.0 to 10.1.0 in /packages/frontend"
-    body: |-
-      Bumps [babel-loader](https://github.com/babel/babel-loader) from 10.0.0 to 10.1.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/babel/babel-loader/releases">babel-loader's releases</a>.</em></p>
-      <blockquote>
-      <h2>v10.1.0</h2>
-      <h2>What's Changed</h2>
-      <ul>
-      ...
-    url: https://github.com/unhappychoice/mdts/pull/578
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 25
-    deletions: 81
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-09T07:47:06Z
-    mergedAt: 2026-03-09T09:11:27Z
   - title: "chore(deps): bump json from 2.18.1 to 2.19.1"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
@@ -900,6 +3266,53 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:14:32Z
     mergedAt: 2026-03-09T09:13:47Z
+  - title: "chore(deps): bump json from 2.18.1 to 2.19.1"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/circleci-tools/circleci-cli/pull/968
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:07:20Z
+    mergedAt: 2026-03-09T09:13:44Z
+  - title: "chore(deps): bump bigdecimal from 3.3.1 to 4.0.1"
+    body: |-
+      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.0.1</h2>
+
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Exclude ...
+    url: https://github.com/circleci-tools/circleci-cli/pull/967
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:06:25Z
+    mergedAt: 2026-03-09T09:17:06Z
   - title: "chore(deps): Bump json from 2.18.1 to 2.19.1"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
@@ -923,6 +3336,32 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:05:28Z
     mergedAt: 2026-03-09T09:19:05Z
+  - title: "chore(deps): bump json-schema from 5.2.2 to 6.2.0"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [json-schema](http...
+    url: https://github.com/circleci-tools/circleci-cli/pull/966
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:05:34Z
+    mergedAt: 2026-03-09T09:17:19Z
   - title: "build(deps-dev): Bump bigdecimal from 3.3.1 to 4.0.1"
     body: |-
       Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
@@ -947,6 +3386,37 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:05:26Z
     mergedAt: 2026-03-09T09:17:11Z
+  - title: "build(deps-dev): bump json-schema from 5.1.0 to 6.2.0"
+    body: >-
+      Bumps [json-schema](https://github.com/voxpupuli/json-schema) from 5.1.0 to 6.2.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/voxpupuli/json-schema/releases">json-schema's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.2.0</h2>
+
+
+      <h2>What's Changed</h2>
+
+      <h3...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/494
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:05:05Z
+    mergedAt: 2026-03-09T09:19:11Z
   - title: "build(deps-dev): Bump json from 2.18.1 to 2.19.1"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
@@ -970,6 +3440,208 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:05:03Z
     mergedAt: 2026-03-09T09:19:35Z
+  - title: "chore(deps-dev): bump json-schema from 5.2.2 to 6.2.0"
+    body: >-
+      Bumps [json-schema](https://github.com/voxpupuli/json-schema) from 5.2.2 to 6.2.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/voxpupuli/json-schema/releases">json-schema's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.2.0</h2>
+
+
+      <h2>What's Changed</h2>
+
+      <h3...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/661
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:04:47Z
+    mergedAt: 2026-03-09T09:22:40Z
+  - title: ⬆️ Bump json from 2.18.1 to 2.19.1
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/156
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:04:56Z
+    mergedAt: 2026-03-09T09:19:20Z
+  - title: "chore(deps-dev): bump json from 2.18.1 to 2.19.1"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/662
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:04:59Z
+    mergedAt: 2026-03-09T09:19:16Z
+  - title: "build(deps-dev): bump json from 2.18.1 to 2.19.1"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/493
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:04:40Z
+    mergedAt: 2026-03-09T09:22:51Z
+  - title: "chore(deps-dev): bump bigdecimal from 3.3.1 to 4.0.1"
+    body: |-
+      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.0.1</h2>
+
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Exclude ...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/660
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:04:39Z
+    mergedAt: 2026-03-09T09:22:58Z
+  - title: ⬆️ Bump json-schema from 5.1.0 to 6.2.0
+    body: >-
+      Bumps [json-schema](https://github.com/voxpupuli/json-schema) from 5.1.0 to 6.2.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/voxpupuli/json-schema/releases">json-schema's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.2.0</h2>
+
+
+      <h2>What's Changed</h2>
+
+      <h3...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/155
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:04:37Z
+    mergedAt: 2026-03-09T09:23:00Z
+  - title: "chore(deps-dev): bump bigdecimal from 3.3.1 to 4.0.1"
+    body: |-
+      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.0.1</h2>
+
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Exclude ...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/614
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:03:09Z
+    mergedAt: 2026-03-09T09:14:45Z
+  - title: "chore(deps-dev): bump json from 2.18.1 to 2.19.1"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/615
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:03:27Z
+    mergedAt: 2026-03-09T09:16:29Z
   - title: "chore(deps): bump toml from 1.0.4+spec-1.1.0 to 1.0.6+spec-1.1.0"
     body: >-
       Bumps [toml](https://github.com/toml-rs/toml) from 1.0.4+spec-1.1.0 to 1.0.6+spec-1.1.0.
