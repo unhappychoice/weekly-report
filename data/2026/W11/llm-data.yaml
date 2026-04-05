@@ -1,0 +1,109 @@
+title: GitType Now Installable via Homebrew
+subtitle: Simplified installation process and synchronized dependency updates across eight repositories.
+overview: >
+  This week was a deep dive into maintenance, with a strong focus on dependency management across my Rust, JavaScript,
+  and Ruby projects. I reviewed and merged over 20 PRs that updated core libraries like clap, jest, and rubocop-ast,
+  ensuring security and compatibility. The volume of work—42 commits and 38 reviews—highlighted the ongoing effort
+  required to keep a diverse tech stack healthy.
+
+
+  The highlight was undoubtedly the Homebrew integration for GitType, which simplifies installation for macOS users.
+  This user-facing change, though small in code, significantly lowers the barrier to entry. Meanwhile, I coordinated
+  updates across eight repositories, from gittype to mdts, maintaining consistency in tooling versions.
+
+
+  An open PR for upgrading tree-sitter-dart in gitlogue points to future improvements in Dart language support. Looking
+  ahead, I'll address some accrued tech debt and plan for the next feature cycle.
+summaries:
+  - type: installation-improvement
+    heading: Homebrew Support Simplifies GitType Setup
+    body: "The documentation update for GitType removed the need for a custom Homebrew tap, allowing installation with a
+      simple 'brew install gittype'. This change, merged from PR #12, makes the tool more accessible to the macOS
+      community."
+    chips:
+      - label: repo
+        value: unhappychoice/gittype
+        color: default
+      - label: lines changed
+        value: +8 -3
+        color: default
+      - label: files updated
+        value: "2"
+        color: default
+      - label: undefined
+        value: undefined
+        color: default
+  - type: repo-summary
+    heading: Dependency Updates Span Eight Repositories
+    body: I focused on synchronizing dependencies across my portfolio, with mdts leading at 13 PRs, followed by gittype and
+      gitlogue with 4 each. The updates covered Rust crates, JavaScript packages, and Ruby gems, ensuring security and
+      compatibility.
+    chips:
+      - label: active repos
+        value: "8"
+        color: default
+      - label: total PRs
+        value: "35"
+        color: default
+      - label: languages
+        value: Rust, JS, Ruby
+        color: default
+      - label: undefined
+        value: undefined
+        color: default
+  - type: activity-pattern
+    heading: Commit Burst Early in the Week
+    body: Commit activity peaked on Monday and Tuesday with 34 and 31 commits respectively, then gradually decreased. This
+      pattern suggests I tackled the bulk of updates at the start, with lighter activity towards the weekend.
+    chips:
+      - label: peak day
+        value: Mon (34 commits)
+        color: default
+      - label: total weekly commits
+        value: "184"
+        color: default
+      - label: undefined
+        value: undefined
+        color: default
+  - type: review-summary
+    heading: Heavy Review Load on Dependency PRs
+    body: With 38 reviews completed, I ensured all dependency bumps were properly vetted. Reviews focused on compatibility
+      notes and changelog verification, especially for critical updates like clap and jest.
+    chips:
+      - label: reviews given
+        value: "38"
+        color: default
+      - label: PRs reviewed
+        value: ~20
+        color: default
+      - label: undefined
+        value: undefined
+        color: default
+  - type: dependency-management
+    heading: Synchronizing Dependencies Across the Board
+    body: The week's primary theme was updating dependencies to latest versions. From Rust's clap to JavaScript's jest and
+      Ruby's rubocop-ast, I applied consistent bump PRs across repos, patching vulnerabilities and leveraging upstream
+      fixes.
+    chips:
+      - label: dependency PRs
+        value: 20+
+        color: default
+      - label: languages affected
+        value: "3"
+        color: default
+      - label: undefined
+        value: undefined
+        color: default
+highlights:
+  - type: pr
+    title: "docs: Update installation instructions for Homebrew"
+    repo: unhappychoice/gittype
+    meta: merged Mar 12 · +8 -3 · 2 files
+    body: This PR removed the custom tap requirement, enabling standard Homebrew installation for macOS users.
+    url: https://github.com/unhappychoice/gittype/pull/391
+  - type: pr
+    title: "chore(deps-dev): Bump jest from 30.2.0 to 30.3.0 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Mar 13 · +485 -1092 · 2 files
+    body: The large diff reflects significant changes in Jest, requiring careful review to maintain test compatibility.
+    url: https://github.com/unhappychoice/mdts/pull/589
