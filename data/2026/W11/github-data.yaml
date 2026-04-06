@@ -9,8 +9,8 @@ profile:
     \r\n"
   company: null
   location: Tokyo, Japan
-  followers: 3503
-  following: 9585
+  followers: 3504
+  following: 9586
   publicRepos: 58
 dateRange:
   from: 2026-03-09
@@ -61,13 +61,6 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/gitlogue
-  - name: bitflyer-tools/bitflyer
-    commits: 0
-    prsOpened: 4
-    prsMerged: 4
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/bitflyer-tools/bitflyer
   - name: circleci-tools/circleci-cli
     commits: 0
     prsOpened: 4
@@ -75,6 +68,13 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/circleci-tools/circleci-cli
+  - name: bitflyer-tools/bitflyer
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/bitflyer
   - name: unhappychoice/terminal_image
     commits: 0
     prsOpened: 4
@@ -124,13 +124,6 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/blog
-  - name: unhappychoice/lintric
-    commits: 0
-    prsOpened: 2
-    prsMerged: 1
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/unhappychoice/lintric
   - name: unhappychoice/oss-issue-opener
     commits: 0
     prsOpened: 2
@@ -138,6 +131,13 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/unhappychoice/oss-issue-opener
+  - name: unhappychoice/lintric
+    commits: 0
+    prsOpened: 2
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/lintric
   - name: unhappychoice/cycle-pusher
     commits: 0
     prsOpened: 1
@@ -146,38 +146,6 @@ repositories:
     issuesClosed: 0
     url: https://github.com/unhappychoice/cycle-pusher
 pullRequests:
-  - title: "chore(deps): bump clap from 4.5.60 to 4.6.0"
-    body: >-
-      Bumps [clap](https://github.com/clap-rs/clap) from 4.5.60 to 4.6.0.
-
-      <details>
-
-      <summary>Changelog</summary>
-
-      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's
-      changelog</a>.</em></p>
-
-      <blockquote>
-
-      <h2>[4.6.0] - 2026-03-12</h2>
-
-      <h3>Compatibility</h3>
-
-      <ul>
-
-      <li>...
-    url: https://github.com/unhappychoice/lintric/pull/148
-    repository: unhappychoice/lintric
-    state: merged
-    labels:
-      - dependencies
-      - rust
-    additions: 19
-    deletions: 19
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-13T03:08:26Z
-    mergedAt: 2026-03-13T13:24:54Z
   - title: "chore(deps): bump clap from 4.5.60 to 4.6.0"
     body: >-
       Bumps [clap](https://github.com/clap-rs/clap) from 4.5.60 to 4.6.0.
@@ -239,6 +207,38 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-13T03:08:26Z
     mergedAt: 2026-03-13T13:24:51Z
+  - title: "chore(deps): bump clap from 4.5.60 to 4.6.0"
+    body: >-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.5.60 to 4.6.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/blob/master/CHANGELOG.md">clap's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[4.6.0] - 2026-03-12</h2>
+
+      <h3>Compatibility</h3>
+
+      <ul>
+
+      <li>...
+    url: https://github.com/unhappychoice/lintric/pull/148
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 19
+    deletions: 19
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-13T03:08:26Z
+    mergedAt: 2026-03-13T13:24:54Z
   - title: "chore(deps-dev): bump electron from 41.0.0 to 41.0.1"
     body: |-
       Bumps [electron](https://github.com/electron/electron) from 41.0.0 to 41.0.1.
@@ -283,29 +283,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-13T03:04:55Z
     mergedAt: 2026-03-13T13:24:48Z
-  - title: "build(deps-dev): bump esbuild from 0.27.3 to 0.27.4 in /example"
-    body: |-
-      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.3 to 0.27.4.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
-      <blockquote>
-      <h2>v0.27.4</h2>
-      <ul>
-      <li>
-      <p>Fix a regression with CSS media quer...
-    url: https://github.com/unhappychoice/cycle-pusher/pull/345
-    repository: unhappychoice/cycle-pusher
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 109
-    deletions: 109
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-13T03:04:20Z
-    mergedAt: 2026-03-13T13:24:24Z
   - title: "chore(deps): bump clap from 4.5.60 to 4.6.0"
     body: >-
       Bumps [clap](https://github.com/clap-rs/clap) from 4.5.60 to 4.6.0.
@@ -338,32 +315,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-13T02:25:00Z
     mergedAt: 2026-03-13T13:24:43Z
-  - title: "chore(deps): bump tree-sitter-scala from 0.24.0 to 0.25.0"
-    body: >-
-      Bumps [tree-sitter-scala](https://github.com/tree-sitter/tree-sitter-scala) from 0.24.0 to 0.25.0.
-
+  - title: "build(deps-dev): bump esbuild from 0.27.3 to 0.27.4 in /example"
+    body: |-
+      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.3 to 0.27.4.
       <details>
-
       <summary>Release notes</summary>
-
-      <p><em>Sourced from <a href="https://github.com/tree-sitter/tree-sitter-scala/releases">tree-sitter-scala's
-      releases</a>.</em></p>
-
+      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
       <blockquote>
-
-      <h2>v0.25.0</h...
-    url: https://github.com/unhappychoice/gitlogue/pull/174
-    repository: unhappychoice/gitlogue
+      <h2>v0.27.4</h2>
+      <ul>
+      <li>
+      <p>Fix a regression with CSS media quer...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/345
+    repository: unhappychoice/cycle-pusher
     state: merged
     labels:
       - dependencies
-      - rust
-    additions: 3
-    deletions: 3
+      - javascript
+    additions: 109
+    deletions: 109
     changedFiles: 2
     author: dependabot[bot]
-    createdAt: 2026-03-13T02:24:52Z
-    mergedAt: 2026-03-13T13:23:08Z
+    createdAt: 2026-03-13T03:04:20Z
+    mergedAt: 2026-03-13T13:24:24Z
   - title: "chore(deps): bump once_cell from 1.21.3 to 1.21.4"
     body: >-
       Bumps [once_cell](https://github.com/matklad/once_cell) from 1.21.3 to 1.21.4.
@@ -410,6 +384,32 @@ pullRequests:
       <blockquote>
 
       <h2>v0.25.0</h...
+    url: https://github.com/unhappychoice/gitlogue/pull/174
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 3
+    deletions: 3
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-13T02:24:52Z
+    mergedAt: 2026-03-13T13:23:08Z
+  - title: "chore(deps): bump tree-sitter-scala from 0.24.0 to 0.25.0"
+    body: >-
+      Bumps [tree-sitter-scala](https://github.com/tree-sitter/tree-sitter-scala) from 0.24.0 to 0.25.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/tree-sitter/tree-sitter-scala/releases">tree-sitter-scala's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.25.0</h...
     url: https://github.com/unhappychoice/gittype/pull/392
     repository: unhappychoice/gittype
     state: merged
@@ -422,6 +422,34 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T12:54:54Z
     mergedAt: 2026-03-12T14:00:42Z
+  - title: "chore(deps): bump rubocop-ast from 1.49.0 to 1.49.1"
+    body: >-
+      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.49.1 (2026-03-11)</h2>
+
+      <h3>...
+    url: https://github.com/circleci-tools/circleci-cli/pull/969
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-12T03:06:40Z
+    mergedAt: 2026-03-12T12:26:10Z
   - title: "chore(deps-dev): bump rubocop-ast from 1.49.0 to 1.49.1"
     body: >-
       Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
@@ -478,62 +506,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T03:04:58Z
     mergedAt: 2026-03-12T12:29:43Z
-  - title: "chore(deps-dev): bump rubocop-ast from 1.49.0 to 1.49.1"
-    body: >-
-      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
-
-      <details>
-
-      <summary>Changelog</summary>
-
-      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
-      changelog</a>.</em></p>
-
-      <blockquote>
-
-      <h2>1.49.1 (2026-03-11)</h2>
-
-      <h3>...
-    url: https://github.com/bitflyer-tools/bitflyer/pull/663
-    repository: bitflyer-tools/bitflyer
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-12T03:04:16Z
-    mergedAt: 2026-03-12T12:26:33Z
-  - title: "chore(deps): bump rubocop-ast from 1.49.0 to 1.49.1"
-    body: >-
-      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
-
-      <details>
-
-      <summary>Changelog</summary>
-
-      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
-      changelog</a>.</em></p>
-
-      <blockquote>
-
-      <h2>1.49.1 (2026-03-11)</h2>
-
-      <h3>...
-    url: https://github.com/circleci-tools/circleci-cli/pull/969
-    repository: circleci-tools/circleci-cli
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-12T03:06:40Z
-    mergedAt: 2026-03-12T12:26:10Z
   - title: ⬆️ Bump rubocop-ast from 1.49.0 to 1.49.1
     body: >-
       Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
@@ -562,6 +534,34 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T03:04:13Z
     mergedAt: 2026-03-12T12:26:37Z
+  - title: "chore(deps-dev): bump rubocop-ast from 1.49.0 to 1.49.1"
+    body: >-
+      Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop-ast/blob/master/CHANGELOG.md">rubocop-ast's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.49.1 (2026-03-11)</h2>
+
+      <h3>...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/663
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-12T03:04:16Z
+    mergedAt: 2026-03-12T12:26:33Z
   - title: "build(deps-dev): Bump rubocop-ast from 1.49.0 to 1.49.1"
     body: >-
       Bumps [rubocop-ast](https://github.com/rubocop/rubocop-ast) from 1.49.0 to 1.49.1.
@@ -618,28 +618,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T03:03:07Z
     mergedAt: 2026-03-12T12:24:58Z
-  - title: "docs: Update installation instructions for Homebrew"
-    body: >-
-      GitType is now
-      [available](https://github.com/Homebrew/homebrew-core/commit/130a8789267d0c760a6995e80cbc81e36a26bac8) directly
-      via [Homebrew](https://brew.sh).
-
-
-      ## Summary by CodeRabbit
-
-
-      * **Documentation**
-       * Simplified Homebrew installation by removing the custom tap requirement—now users can inst...
-    url: https://github.com/unhappychoice/gittype/pull/391
-    repository: unhappychoice/gittype
+  - title: "chore(deps): Bump mermaid from 11.12.3 to 11.13.0 in /packages/frontend"
+    body: |-
+      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.12.3 to 11.13.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
+      <blockquote>
+      <h2>mermaid@11.13.0</h2>
+      <h3>Minor Changes</h3>
+      <ul>
+      <...
+    url: https://github.com/unhappychoice/mdts/pull/590
+    repository: unhappychoice/mdts
     state: merged
-    labels: []
-    additions: 8
-    deletions: 3
+    labels:
+      - dependencies
+      - javascript
+    additions: 105
+    deletions: 176
     changedFiles: 2
-    author: chrisfinazzo
-    createdAt: 2026-03-12T02:18:09Z
-    mergedAt: 2026-03-12T10:20:00Z
+    author: dependabot[bot]
+    createdAt: 2026-03-11T07:45:33Z
+    mergedAt: 2026-03-11T10:23:46Z
   - title: "chore(deps): bump tree-sitter-dart from 0.0.4 to 0.1.0"
     body: |-
       Bumps [tree-sitter-dart](https://github.com/nielsenko/tree-sitter-dart) from 0.0.4 to 0.1.0.
@@ -664,29 +665,28 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-12T02:24:55Z
     mergedAt: null
-  - title: "chore(deps): Bump mermaid from 11.12.3 to 11.13.0 in /packages/frontend"
-    body: |-
-      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.12.3 to 11.13.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
-      <blockquote>
-      <h2>mermaid@11.13.0</h2>
-      <h3>Minor Changes</h3>
-      <ul>
-      <...
-    url: https://github.com/unhappychoice/mdts/pull/590
-    repository: unhappychoice/mdts
+  - title: "docs: Update installation instructions for Homebrew"
+    body: >-
+      GitType is now
+      [available](https://github.com/Homebrew/homebrew-core/commit/130a8789267d0c760a6995e80cbc81e36a26bac8) directly
+      via [Homebrew](https://brew.sh).
+
+
+      ## Summary by CodeRabbit
+
+
+      * **Documentation**
+       * Simplified Homebrew installation by removing the custom tap requirement—now users can inst...
+    url: https://github.com/unhappychoice/gittype/pull/391
+    repository: unhappychoice/gittype
     state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 105
-    deletions: 176
+    labels: []
+    additions: 8
+    deletions: 3
     changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-11T07:45:33Z
-    mergedAt: 2026-03-11T10:23:46Z
+    author: chrisfinazzo
+    createdAt: 2026-03-12T02:18:09Z
+    mergedAt: 2026-03-12T10:20:00Z
   - title: "chore(deps-dev): Bump jest from 30.2.0 to 30.3.0 in /packages/frontend"
     body: |-
       Bumps [jest](https://github.com/jestjs/jest/tree/HEAD/packages/jest) from 30.2.0 to 30.3.0.
@@ -710,27 +710,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-11T07:45:21Z
     mergedAt: 2026-03-11T10:23:42Z
-  - title: "chore(deps): Bump simple-git from 3.32.3 to 3.33.0"
-    body: |-
-      Bumps [simple-git](https://github.com/steveukx/git-js/tree/HEAD/simple-git) from 3.32.3 to 3.33.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/steveukx/git-js/releases">simple-git's releases</a>.</em></p>
-      <blockquote>
-      <h2>simple-git@3.33.0</h2>
-      <h3>Mino...
-    url: https://github.com/unhappychoice/mdts/pull/587
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 3
-    deletions: 3
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-11T07:44:51Z
-    mergedAt: 2026-03-11T10:22:53Z
   - title: "chore(deps-dev): Bump typescript-eslint from 8.56.1 to 8.57.0 in /packages/frontend"
     body: >-
       Bumps
@@ -755,6 +734,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-11T07:45:00Z
     mergedAt: 2026-03-11T10:23:38Z
+  - title: "chore(deps): Bump simple-git from 3.32.3 to 3.33.0"
+    body: |-
+      Bumps [simple-git](https://github.com/steveukx/git-js/tree/HEAD/simple-git) from 3.32.3 to 3.33.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/steveukx/git-js/releases">simple-git's releases</a>.</em></p>
+      <blockquote>
+      <h2>simple-git@3.33.0</h2>
+      <h3>Mino...
+    url: https://github.com/unhappychoice/mdts/pull/587
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-11T07:44:51Z
+    mergedAt: 2026-03-11T10:22:53Z
   - title: "build(deps): Bump fastimage from 2.4.0 to 2.4.1"
     body: >-
       Bumps [fastimage](https://github.com/sdsykes/fastimage) from 2.4.0 to 2.4.1.
@@ -847,6 +847,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-11T03:04:33Z
     mergedAt: 2026-03-11T10:22:29Z
+  - title: "chore(deps-dev): bump electron from 40.8.0 to 41.0.0"
+    body: |-
+      Bumps [electron](https://github.com/electron/electron) from 40.8.0 to 41.0.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+      <blockquote>
+      <h2>electron v41.0.0</h2>
+      <h1>Release Notes for v41.0.0<...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/849
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-11T03:04:30Z
+    mergedAt: 2026-03-11T10:22:27Z
   - title: "chore(deps): bump fastimage from 2.4.0 to 2.4.1"
     body: >-
       Bumps [fastimage](https://github.com/sdsykes/fastimage) from 2.4.0 to 2.4.1.
@@ -903,27 +924,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:58Z
     mergedAt: 2026-03-10T07:56:18Z
-  - title: "chore(deps-dev): bump electron from 40.8.0 to 41.0.0"
-    body: |-
-      Bumps [electron](https://github.com/electron/electron) from 40.8.0 to 41.0.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
-      <blockquote>
-      <h2>electron v41.0.0</h2>
-      <h1>Release Notes for v41.0.0<...
-    url: https://github.com/bitflyer-tools/cycle-flyer/pull/849
-    repository: bitflyer-tools/cycle-flyer
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 5
-    deletions: 5
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-11T03:04:30Z
-    mergedAt: 2026-03-11T10:22:27Z
   - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.56.1 to 8.57.0"
     body: |-
       Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.56.1 to 8.57.0.
@@ -967,6 +967,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:49Z
     mergedAt: 2026-03-10T07:52:29Z
+  - title: "chore(deps-dev): Bump babel-jest from 30.2.0 to 30.3.0 in /packages/frontend"
+    body: |-
+      Bumps [babel-jest](https://github.com/jestjs/jest/tree/HEAD/packages/babel-jest) from 30.2.0 to 30.3.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">babel-jest's releases</a>.</em></p>
+      <blockquote>
+      <h2>v30.3.0</h2>
+      <h3>Features</h3>...
+    url: https://github.com/unhappychoice/mdts/pull/581
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 200
+    deletions: 14
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-10T07:44:39Z
+    mergedAt: 2026-03-10T07:56:33Z
   - title: "chore(deps-dev): Bump jest from 30.2.0 to 30.3.0"
     body: |-
       Bumps [jest](https://github.com/jestjs/jest/tree/HEAD/packages/jest) from 30.2.0 to 30.3.0.
@@ -990,28 +1011,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:43Z
     mergedAt: 2026-03-10T07:56:10Z
-  - title: "chore(deps-dev): Bump jest-util from 30.2.0 to 30.3.0"
-    body: |-
-      Bumps [jest-util](https://github.com/jestjs/jest/tree/HEAD/packages/jest-util) from 30.2.0 to 30.3.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest-util's releases</a>.</em></p>
-      <blockquote>
-      <h2>v30.3.0</h2>
-      <h3>Features</h3>
-      <u...
-    url: https://github.com/unhappychoice/mdts/pull/579
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 835
-    deletions: 17
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-10T07:44:26Z
-    mergedAt: 2026-03-10T07:52:02Z
   - title: "chore(deps-dev): Bump babel-loader from 10.1.0 to 10.1.1 in /packages/frontend"
     body: |-
       Bumps [babel-loader](https://github.com/babel/babel-loader) from 10.1.0 to 10.1.1.
@@ -1035,27 +1034,28 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T07:44:31Z
     mergedAt: 2026-03-10T07:51:51Z
-  - title: "chore(deps-dev): Bump babel-jest from 30.2.0 to 30.3.0 in /packages/frontend"
+  - title: "chore(deps-dev): Bump jest-util from 30.2.0 to 30.3.0"
     body: |-
-      Bumps [babel-jest](https://github.com/jestjs/jest/tree/HEAD/packages/babel-jest) from 30.2.0 to 30.3.0.
+      Bumps [jest-util](https://github.com/jestjs/jest/tree/HEAD/packages/jest-util) from 30.2.0 to 30.3.0.
       <details>
       <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">babel-jest's releases</a>.</em></p>
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest-util's releases</a>.</em></p>
       <blockquote>
       <h2>v30.3.0</h2>
-      <h3>Features</h3>...
-    url: https://github.com/unhappychoice/mdts/pull/581
+      <h3>Features</h3>
+      <u...
+    url: https://github.com/unhappychoice/mdts/pull/579
     repository: unhappychoice/mdts
     state: merged
     labels:
       - dependencies
       - javascript
-    additions: 200
-    deletions: 14
-    changedFiles: 2
+    additions: 835
+    deletions: 17
+    changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-10T07:44:39Z
-    mergedAt: 2026-03-10T07:56:33Z
+    createdAt: 2026-03-10T07:44:26Z
+    mergedAt: 2026-03-10T07:52:02Z
   - title: "chore(deps-dev): bump @types/node from 25.3.5 to 25.4.0"
     body: >-
       Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 25.3.5 to
@@ -1085,29 +1085,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-10T03:08:52Z
     mergedAt: 2026-03-10T03:09:38Z
-  - title: "chore(deps-dev): Bump babel-loader from 10.0.0 to 10.1.0 in /packages/frontend"
+  - title: "chore(deps): bump json from 2.18.1 to 2.19.1"
     body: |-
-      Bumps [babel-loader](https://github.com/babel/babel-loader) from 10.0.0 to 10.1.0.
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
       <details>
       <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/babel/babel-loader/releases">babel-loader's releases</a>.</em></p>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
       <blockquote>
-      <h2>v10.1.0</h2>
+      <h2>v2.19.1</h2>
       <h2>What's Changed</h2>
       <ul>
-      ...
-    url: https://github.com/unhappychoice/mdts/pull/578
-    repository: unhappychoice/mdts
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/77
+    repository: unhappychoice/slack_channel_stats
     state: merged
     labels:
       - dependencies
-      - javascript
-    additions: 25
-    deletions: 81
-    changedFiles: 2
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-09T07:47:06Z
-    mergedAt: 2026-03-09T09:11:27Z
+    createdAt: 2026-03-09T03:15:51Z
+    mergedAt: 2026-03-09T09:13:39Z
   - title: "chore(deps-dev): Bump @eslint/compat from 2.0.2 to 2.0.3 in /packages/frontend"
     body: >-
       Bumps [@eslint/compat](https://github.com/eslint/rewrite/tree/HEAD/packages/compat) from 2.0.2 to 2.0.3.
@@ -1134,29 +1134,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T07:46:39Z
     mergedAt: 2026-03-09T09:11:39Z
-  - title: "chore(deps): bump json from 2.18.1 to 2.19.1"
+  - title: "chore(deps-dev): Bump babel-loader from 10.0.0 to 10.1.0 in /packages/frontend"
     body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      Bumps [babel-loader](https://github.com/babel/babel-loader) from 10.0.0 to 10.1.0.
       <details>
       <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <p><em>Sourced from <a href="https://github.com/babel/babel-loader/releases">babel-loader's releases</a>.</em></p>
       <blockquote>
-      <h2>v2.19.1</h2>
+      <h2>v10.1.0</h2>
       <h2>What's Changed</h2>
       <ul>
-      <li>Fix a compiler dependent GC bu...
-    url: https://github.com/unhappychoice/slack_channel_stats/pull/77
-    repository: unhappychoice/slack_channel_stats
+      ...
+    url: https://github.com/unhappychoice/mdts/pull/578
+    repository: unhappychoice/mdts
     state: merged
     labels:
       - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
+      - javascript
+    additions: 25
+    deletions: 81
+    changedFiles: 2
     author: dependabot[bot]
-    createdAt: 2026-03-09T03:15:51Z
-    mergedAt: 2026-03-09T09:13:39Z
+    createdAt: 2026-03-09T07:47:06Z
+    mergedAt: 2026-03-09T09:11:27Z
   - title: "chore(deps-dev): bump async from 2.36.0 to 2.37.0"
     body: |-
       Bumps [async](https://github.com/socketry/async) from 2.36.0 to 2.37.0.
@@ -1202,7 +1202,7 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:07:20Z
     mergedAt: 2026-03-09T09:13:44Z
-  - title: "chore(deps): bump bigdecimal from 3.3.1 to 4.0.1"
+  - title: "build(deps-dev): Bump bigdecimal from 3.3.1 to 4.0.1"
     body: |-
       Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
       <details>
@@ -1214,8 +1214,8 @@ pullRequests:
       <h2>What's Changed</h2>
       <ul>
       <li>Exclude ...
-    url: https://github.com/circleci-tools/circleci-cli/pull/967
-    repository: circleci-tools/circleci-cli
+    url: https://github.com/unhappychoice/terminal_image/pull/549
+    repository: unhappychoice/terminal_image
     state: merged
     labels:
       - dependencies
@@ -1224,8 +1224,31 @@ pullRequests:
     deletions: 3
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-09T03:06:25Z
-    mergedAt: 2026-03-09T09:17:06Z
+    createdAt: 2026-03-09T03:05:26Z
+    mergedAt: 2026-03-09T09:17:11Z
+  - title: "chore(deps): Bump json from 2.18.1 to 2.19.1"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/unhappychoice/blog/pull/678
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:05:28Z
+    mergedAt: 2026-03-09T09:19:05Z
   - title: "chore(deps): bump json-schema from 5.2.2 to 6.2.0"
     body: |-
       [//]: # (dependabot-start)
@@ -1252,30 +1275,7 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:05:34Z
     mergedAt: 2026-03-09T09:17:19Z
-  - title: "chore(deps): Bump json from 2.18.1 to 2.19.1"
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.1</h2>
-      <h2>What's Changed</h2>
-      <ul>
-      <li>Fix a compiler dependent GC bu...
-    url: https://github.com/unhappychoice/blog/pull/678
-    repository: unhappychoice/blog
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-09T03:05:28Z
-    mergedAt: 2026-03-09T09:19:05Z
-  - title: "build(deps-dev): Bump bigdecimal from 3.3.1 to 4.0.1"
+  - title: "chore(deps): bump bigdecimal from 3.3.1 to 4.0.1"
     body: |-
       Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
       <details>
@@ -1287,8 +1287,8 @@ pullRequests:
       <h2>What's Changed</h2>
       <ul>
       <li>Exclude ...
-    url: https://github.com/unhappychoice/terminal_image/pull/549
-    repository: unhappychoice/terminal_image
+    url: https://github.com/circleci-tools/circleci-cli/pull/967
+    repository: circleci-tools/circleci-cli
     state: merged
     labels:
       - dependencies
@@ -1297,9 +1297,9 @@ pullRequests:
     deletions: 3
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-09T03:05:26Z
-    mergedAt: 2026-03-09T09:17:11Z
-  - title: "build(deps-dev): Bump json from 2.18.1 to 2.19.1"
+    createdAt: 2026-03-09T03:06:25Z
+    mergedAt: 2026-03-09T09:17:06Z
+  - title: "chore(deps-dev): bump json from 2.18.1 to 2.19.1"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
       <details>
@@ -1310,8 +1310,8 @@ pullRequests:
       <h2>What's Changed</h2>
       <ul>
       <li>Fix a compiler dependent GC bu...
-    url: https://github.com/unhappychoice/terminal_image/pull/548
-    repository: unhappychoice/terminal_image
+    url: https://github.com/bitflyer-tools/bitflyer/pull/662
+    repository: bitflyer-tools/bitflyer
     state: merged
     labels:
       - dependencies
@@ -1320,8 +1320,8 @@ pullRequests:
     deletions: 1
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-09T03:05:03Z
-    mergedAt: 2026-03-09T09:19:35Z
+    createdAt: 2026-03-09T03:04:59Z
+    mergedAt: 2026-03-09T09:19:16Z
   - title: "build(deps-dev): bump json-schema from 5.1.0 to 6.2.0"
     body: >-
       Bumps [json-schema](https://github.com/voxpupuli/json-schema) from 5.1.0 to 6.2.0.
@@ -1353,29 +1353,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:05:05Z
     mergedAt: 2026-03-09T09:19:11Z
-  - title: "chore(deps-dev): bump json from 2.18.1 to 2.19.1"
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.1</h2>
-      <h2>What's Changed</h2>
-      <ul>
-      <li>Fix a compiler dependent GC bu...
-    url: https://github.com/bitflyer-tools/bitflyer/pull/662
-    repository: bitflyer-tools/bitflyer
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-09T03:04:59Z
-    mergedAt: 2026-03-09T09:19:16Z
   - title: ⬆️ Bump json from 2.18.1 to 2.19.1
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
@@ -1399,6 +1376,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:04:56Z
     mergedAt: 2026-03-09T09:19:20Z
+  - title: "build(deps-dev): Bump json from 2.18.1 to 2.19.1"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/unhappychoice/terminal_image/pull/548
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:05:03Z
+    mergedAt: 2026-03-09T09:19:35Z
   - title: "chore(deps-dev): bump json-schema from 5.2.2 to 6.2.0"
     body: >-
       Bumps [json-schema](https://github.com/voxpupuli/json-schema) from 5.2.2 to 6.2.0.
@@ -1430,6 +1430,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:04:47Z
     mergedAt: 2026-03-09T09:22:40Z
+  - title: "build(deps-dev): bump json from 2.18.1 to 2.19.1"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a compiler dependent GC bu...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/493
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-09T03:04:40Z
+    mergedAt: 2026-03-09T09:22:51Z
   - title: "chore(deps-dev): bump bigdecimal from 3.3.1 to 4.0.1"
     body: |-
       Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
@@ -1454,7 +1477,7 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:04:39Z
     mergedAt: 2026-03-09T09:22:58Z
-  - title: "build(deps-dev): bump json from 2.18.1 to 2.19.1"
+  - title: "chore(deps-dev): bump json from 2.18.1 to 2.19.1"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
       <details>
@@ -1465,8 +1488,8 @@ pullRequests:
       <h2>What's Changed</h2>
       <ul>
       <li>Fix a compiler dependent GC bu...
-    url: https://github.com/irasutoya-tools/irasutoya/pull/493
-    repository: irasutoya-tools/irasutoya
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/615
+    repository: irasutoya-tools/irasutoya-cli
     state: merged
     labels:
       - dependencies
@@ -1475,8 +1498,8 @@ pullRequests:
     deletions: 1
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-09T03:04:40Z
-    mergedAt: 2026-03-09T09:22:51Z
+    createdAt: 2026-03-09T03:03:27Z
+    mergedAt: 2026-03-09T09:16:29Z
   - title: ⬆️ Bump json-schema from 5.1.0 to 6.2.0
     body: >-
       Bumps [json-schema](https://github.com/voxpupuli/json-schema) from 5.1.0 to 6.2.0.
@@ -1508,29 +1531,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-09T03:04:37Z
     mergedAt: 2026-03-09T09:23:00Z
-  - title: "chore(deps-dev): bump json from 2.18.1 to 2.19.1"
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.18.1 to 2.19.1.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.1</h2>
-      <h2>What's Changed</h2>
-      <ul>
-      <li>Fix a compiler dependent GC bu...
-    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/615
-    repository: irasutoya-tools/irasutoya-cli
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-09T03:03:27Z
-    mergedAt: 2026-03-09T09:16:29Z
   - title: "chore(deps-dev): bump bigdecimal from 3.3.1 to 4.0.1"
     body: |-
       Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 3.3.1 to 4.0.1.
@@ -1612,4 +1612,85 @@ pullRequests:
     mergedAt: null
 issues: []
 events: []
+commitMessages:
+  - repo: unhappychoice/gitlogue
+    messages:
+      - "Merge pull request #175 from unhappychoice/dependabot/cargo/clap-4.6.0"
+      - "Merge pull request #174 from unhappychoice/dependabot/cargo/tree-sitter-scala-0.25.0"
+      - "Merge pull request #171 from unhappychoice/dependabot/cargo/toml-1.0.6spec-1.1.0"
+  - repo: unhappychoice/mdts
+    messages:
+      - "Merge pull request #590 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/mermaid-11.13.0"
+      - "Merge pull request #589 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/jest-30.3.0"
+      - "Merge pull request #588 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint-8.57.0"
+      - "Merge pull request #587 from unhappychoice/dependabot/npm_and_yarn/simple-git-3.33.0"
+      - "Merge pull request #581 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/babel-jest-30.3.0"
+      - "Merge pull request #584 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint-8.57.0"
+      - "Merge pull request #582 from unhappychoice/dependabot/npm_and_yarn/jest-30.3.0"
+      - "Merge pull request #583 from
+        unhappychoice/dependabot/npm_and_yarn/packages/frontend/jest-environment-jsdom-30.3.0"
+      - "Merge pull request #579 from unhappychoice/dependabot/npm_and_yarn/jest-util-30.3.0"
+      - "Merge pull request #580 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/babel-loader-10.1.1"
+      - "Merge pull request #575 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/eslint/compat-2.0.3"
+      - "Merge pull request #578 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/babel-loader-10.1.0"
+  - repo: unhappychoice/gittype
+    messages:
+      - "Merge pull request #395 from unhappychoice/dependabot/cargo/clap-4.6.0"
+      - "Merge pull request #392 from unhappychoice/dependabot/cargo/tree-sitter-scala-0.25.0"
+      - "Merge pull request #394 from unhappychoice/dependabot/cargo/once_cell-1.21.4"
+      - "Merge pull request #391 from chrisfinazzo/update-readme"
+  - repo: circleci-tools/circleci-cli
+    messages:
+      - "Merge pull request #969 from circleci-tools/dependabot/bundler/rubocop-ast-1.49.1"
+      - "Merge pull request #966 from circleci-tools/dependabot/bundler/json-schema-6.2.0"
+      - "Merge pull request #967 from circleci-tools/dependabot/bundler/bigdecimal-4.0.1"
+      - "Merge pull request #968 from circleci-tools/dependabot/bundler/json-2.19.1"
+  - repo: unhappychoice/terminal_image
+    messages:
+      - "Merge pull request #551 from unhappychoice/dependabot/bundler/rubocop-ast-1.49.1"
+      - "Merge pull request #550 from unhappychoice/dependabot/bundler/fastimage-2.4.1"
+      - "Merge pull request #548 from unhappychoice/dependabot/bundler/json-2.19.1"
+      - "Merge pull request #549 from unhappychoice/dependabot/bundler/bigdecimal-4.0.1"
+  - repo: irasutoya-tools/irasutoya-cli
+    messages:
+      - "Merge pull request #618 from irasutoya-tools/dependabot/bundler/rubocop-ast-1.49.1"
+      - "Merge pull request #617 from irasutoya-tools/dependabot/bundler/fastimage-2.4.1"
+      - "Merge pull request #615 from irasutoya-tools/dependabot/bundler/json-2.19.1"
+      - "Merge pull request #614 from irasutoya-tools/dependabot/bundler/bigdecimal-4.0.1"
+  - repo: bitflyer-tools/cycle-flyer
+    messages:
+      - "Merge pull request #851 from bitflyer-tools/dependabot/npm_and_yarn/esbuild-0.27.4"
+      - "Merge pull request #850 from bitflyer-tools/dependabot/npm_and_yarn/electron-41.0.1"
+      - "Merge pull request #849 from bitflyer-tools/dependabot/npm_and_yarn/electron-41.0.0"
+  - repo: unhappychoice/slack_channel_stats
+    messages:
+      - "Merge pull request #78 from unhappychoice/dependabot/bundler/rubocop-ast-1.49.1"
+      - "Merge pull request #76 from unhappychoice/dependabot/bundler/async-2.37.0"
+      - "Merge pull request #77 from unhappychoice/dependabot/bundler/json-2.19.1"
+  - repo: irasutoya-tools/irasutoya
+    messages:
+      - "Merge pull request #495 from irasutoya-tools/dependabot/bundler/rubocop-ast-1.49.1"
+      - "Merge pull request #493 from irasutoya-tools/dependabot/bundler/json-2.19.1"
+      - "Merge pull request #494 from irasutoya-tools/dependabot/bundler/json-schema-6.2.0"
+  - repo: bitflyer-tools/bitflyer-cli
+    messages:
+      - "Merge pull request #157 from bitflyer-tools/dependabot/bundler/rubocop-ast-1.49.1"
+      - "Merge pull request #155 from bitflyer-tools/dependabot/bundler/json-schema-6.2.0"
+      - "Merge pull request #156 from bitflyer-tools/dependabot/bundler/json-2.19.1"
+  - repo: unhappychoice/blog
+    messages:
+      - "Merge pull request #680 from unhappychoice/dependabot/bundler/faraday-retry-1.0.4"
+      - "Merge pull request #679 from unhappychoice/dependabot/bundler/fastimage-2.4.1"
+      - "Merge pull request #678 from unhappychoice/dependabot/bundler/json-2.19.1"
+  - repo: unhappychoice/cycle-pusher
+    messages:
+      - "Merge pull request #345 from unhappychoice/dependabot/npm_and_yarn/example/esbuild-0.27.4"
+  - repo: unhappychoice/lintric
+    messages:
+      - "Merge pull request #148 from unhappychoice/dependabot/cargo/clap-4.6.0"
+  - repo: unhappychoice/oss-issue-opener
+    messages:
+      - "Merge pull request #103 from unhappychoice/dependabot/npm_and_yarn/types/node-25.5.0"
+      - "Merge pull request #102 from unhappychoice/dependabot/npm_and_yarn/types/node-25.4.0"
+releases: []
 externalContributions: []

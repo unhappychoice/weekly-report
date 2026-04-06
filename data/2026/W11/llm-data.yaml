@@ -1,110 +1,90 @@
-title: tree-sitter-dart 0.1.0 upgrade in gitlogue opens amid 19 dependency merges
-subtitle: Major grammar bump for Dart parsing alongside cross-org maintenance across 14 repositories
+title: Dependency Bump Marathon Across 15 Repos and a Homebrew Win for gittype
+subtitle: Bumped dependencies in Rust, Ruby, and JavaScript projects while simplifying gittype's installation via Homebrew.
 overview: >
-  This week was dominated by dependency maintenance across my personal projects and several external organizations. I
-  opened a significant PR bumping tree-sitter-dart from 0.0.4 to 0.1.0 in gitlogue—a jump that promises improved Dart
-  parsing—while simultaneously merging 19 other dependency updates spanning Rust, JavaScript, and Ruby ecosystems.
+  This week was a deep dive into maintenance across my portfolio of projects. I found myself bouncing between 15
+  different repositories, primarily focused on bumping dependencies to their latest safe versions. The variety of
+  languages—Rust, Ruby, JavaScript—kept things interesting, as each ecosystem has its own quirks.
 
 
-  The tree-sitter-dart upgrade is particularly interesting because it's not just a patch version bump; 0.1.0 likely
-  includes breaking changes or major features that will affect how gitlogue processes Dart repositories. Meanwhile, my
-  contributions to bitflyer-tools, circleci-tools, and irasutoya-tools show how dependency maintenance often crosses
-  organizational boundaries, with the same clap/rubocop-ast updates appearing in multiple places.
+  The highlight was undoubtedly the documentation improvement in gittype, where I simplified the Homebrew installation
+  instructions. It’s a small change that makes a big difference to users. Meanwhile, I spent a lot of time reviewing
+  automated dependency PRs, with a whopping 59 reviews to ensure everything merged cleanly.
 
 
-  With 61 commits and 59 reviews, I stayed busy both pushing changes and reviewing others' work. The pattern emerges
-  clearly: one substantial open PR for a language grammar upgrade, plus a flood of smaller, automated dependency bumps
-  that keep the toolchain healthy across all these projects.
+  The pattern was bursty: midweek saw a flurry of activity as I churned through the backlog of dependency updates, while
+  the weekend was quieter. It’s the kind of unsung work that keeps projects healthy, and it feels good to start the next
+  week with everything up-to-date.
 summaries:
-  - type: deep-dive
-    heading: "tree-sitter-dart 0.1.0: a grammar upgrade with impact"
-    body: The bump from 0.0.4 to 0.1.0 in gitlogue's Dart grammar is the week's most substantive change. Tree-sitter grammar
-      updates often include parser improvements, new syntax nodes, or performance enhancements that directly affect
-      gitlogue's ability to generate accurate commit logs for Dart projects. This PR is still open, indicating active
-      discussion or testing needed for the breaking changes.
-    chips:
-      - label: upgrade
-        value: 0.0.4 → 0.1.0
-        color: default
-      - label: repo
-        value: unhappychoice/gitlogue
-        color: default
-      - label: status
-        value: open
-        color: default
-      - label: impact
-        value: Dart parsing
-        color: default
-  - type: contribution-summary
-    heading: Cross-org dependency symphony
-    body: Seven PRs went to external organizations (bitflyer-tools, circleci-tools, irasutoya-tools), demonstrating how
-      dependency maintenance transcends repository ownership. The same rubocop-ast bump appeared in five different repos
-      across three orgs, while esbuild and electron updates targeted specific tooling projects. This pattern shows the
-      interconnectedness of the ecosystem.
-    chips:
-      - label: external repos
-        value: "7"
-        color: default
-      - label: organizations
-        value: "3"
-        color: default
-      - label: shared updates
-        value: rubocop-ast ×5
-        color: default
   - type: repo-summary
-    heading: 14 repositories, one focus
-    body: "Activity spanned 14 repositories with a clear theme: dependency hygiene. My own unhappychoice projects (gittype,
-      gitlogue, mdts) saw the most activity, but maintenance extended to specialized tools like cycle-flyer (Electron)
-      and terminal_image (Ruby). The only non-dependency PR was a documentation improvement for gittype's Homebrew
-      installation."
+    heading: "15 Repos, 20 PRs: A Week of Maintenance"
+    body: I spread my efforts across 15 repositories this week, processing a total of 20 pull requests. The vast majority
+      were automated dependency bumps from Dependabot, spanning Rust (clap, once_cell, tree-sitter-scala), Ruby
+      (rubocop-ast, fastimage, bigdecimal, json), and JavaScript (electron, esbuild, mermaid). The only manual PR was a
+      documentation fix in gittype to simplify Homebrew installation.
     chips:
-      - label: active repos
-        value: "14"
+      - label: repos
+        value: "15"
         color: default
-      - label: total PRs
+      - label: PRs
         value: "20"
         color: default
-      - label: non-deps PRs
-        value: "1"
+      - label: languages
+        value: Rust, Ruby, JS
         color: default
   - type: review-summary
-    heading: "59 reviews: keeping the pipeline green"
-    body: While opening and merging PRs, I also found time for 59 code reviews—nearly one per commit. This high review
-      volume suggests I was shepherding both my own dependency updates (checking for breaking changes in
-      clap/tree-sitter bumps) and likely reviewing contributions in the external orgs where I'm a maintainer.
+    heading: "59 Reviews: The Glue of Dependency Management"
+    body: With so many dependency bump PRs flying around, I spent a lot of time reviewing. I gave 59 reviews this week,
+      mostly on automated PRs but also on some manual changes. The reviews focused on verifying that the version bumps
+      were safe, checking changelogs for breaking changes, and ensuring that the CI pipelines passed. It’s a critical
+      but often invisible part of open source maintenance.
     chips:
       - label: reviews
         value: "59"
         color: default
-      - label: ratio
-        value: ~1:1 commits:reviews
+      - label: primary focus
+        value: dependency bumps
         color: default
-  - type: commit-summary
-    heading: 61 commits of tactical maintenance
-    body: "The 61 commits (+3736 -3536 lines) reflect mostly small, focused changes: version bumps in lockfiles, minor
-      documentation tweaks, and configuration updates. There were no large feature commits, reinforcing that this was a
-      week of upkeep rather than new development. The near-equivalent additions/deletions suggest mostly file
-      replacements in lockfiles and generated docs."
+  - type: activity-pattern
+    heading: Midweek Burst, Weekend Wind-Down
+    body: "The daily activity log shows a classic burst pattern: Wednesday peaked at 175 units, with Tuesday and Thursday
+      also strong. Friday through Sunday saw a gradual decline. This reflects my tendency to front-load the week with
+      repetitive tasks like dependency bumps, then ease into the weekend."
     chips:
-      - label: commits
-        value: "61"
+      - label: peak day
+        value: Wed (175)
         color: default
-      - label: lines
-        value: +3736 -3536
+      - label: total activity
+        value: "763"
+        color: default
+  - type: deep-dive
+    heading: "rubocop-ast: One Gem, Seven Repos"
+    body: The most interesting pattern was bumping the same Ruby gem, rubocop-ast, across seven different repositories. This
+      required checking each repo's Gemfile.lock for compatibility and ensuring that the version constraint (>= 1.49.0)
+      would accept 1.49.1. It was a good exercise in understanding the dependency graphs of multiple projects and the
+      importance of consistency across an organization's codebase.
+    chips:
+      - label: repos
+        value: "7"
+        color: default
+      - label: gem
+        value: rubocop-ast
+        color: default
+      - label: version
+        value: 1.49.1
         color: default
 highlights:
   - type: pr
-    title: "chore(deps): bump tree-sitter-dart from 0.0.4 to 0.1.0"
-    repo: unhappychoice/gitlogue
-    meta: opened Mar 9-15 · +4 -4 · 2 files
-    body: This open PR upgrades the Dart grammar to 0.1.0, a major version jump that will significantly improve Dart parsing
-      in gitlogue. Such grammar updates are rare and often involve breaking changes, making this the week's most
-      technically substantial piece of work.
-    url: https://github.com/unhappychoice/gitlogue/pull/173
-  - type: pr
     title: "docs: Update installation instructions for Homebrew"
     repo: unhappychoice/gittype
-    meta: merged Mar 9-15 · +8 -3 · 2 files
-    body: Simplified gittype's installation by removing the custom tap requirement—users can now install directly via `brew
-      install gittype`. This small documentation change significantly lowers the barrier to entry for new users.
+    meta: merged · +8 -3 · 2 files
+    body: This PR simplified the Homebrew installation process for gittype by removing the need for a custom tap. It's a
+      user-facing improvement that makes the tool more accessible.
     url: https://github.com/unhappychoice/gittype/pull/391
+  - type: pr
+    title: "chore(deps): Bump mermaid from 11.12.3 to 11.13.0 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged · +105 -176 · 2 files
+    body: The mermaid dependency bump in mdts involved significant changes (105 additions, 176 deletions) due to a major
+      version upgrade. This required careful review to ensure that the diagramming library's new features and breaking
+      changes were properly handled.
+    url: https://github.com/unhappychoice/mdts/pull/590
