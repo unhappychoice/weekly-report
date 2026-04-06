@@ -50,16 +50,16 @@ Commits: 120, PRs: 5, Reviews: 68</description>
       <media:content url="https://unhappychoice.github.io/weekly-report/2026/W13/og.png" medium="image" type="image/png" width="1200" height="630" />
     </item>
     <item>
-      <title>Markdown Diff and History Tabs Merge into mdts</title>
+      <title>feat: add markdown diff view and previous commit history tabs lands in mdts</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W12/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W12/</guid>
-      <description>Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow.
+      <description>A week of focused development on the mdts diff feature, cross-repo dependency maintenance, and contributing fixes to external projects.
 
-This week was a balancing act between routine dependency maintenance and a significant feature launch in my core project, mdts. I spent considerable time ensuring various repositories stayed up-to-date with security patches, while also pushing through a long-planned enhancement to the markdown editing workflow.
+This week was dominated by the completion and merge of a major feature in my markdown tool mdts: the Diff and History tabs. After several iterations based on review feedback, I finally shipped a polished implementation that shows uncommitted changes and previous commit diffs directly in the UI. The feature required careful handling of git edge cases like initial commits and non-repository files.
 
-The centerpiece was merging the &apos;feat: add markdown diff view and previous commit history tabs&apos; pull request, which adds Diff and History tabs to the markdown content view. This required careful integration of git commands for diff output and building a responsive UI with color-coded rendering. Simultaneously, I processed a wave of dependency updates across Ruby, Java, and JavaScript projects, including bumps to nokogiri, gradle-wrapper, and json libraries.
+Simultaneously, I was in &quot;dependency update mode&quot; across a dozen repositories—Java, Ruby, JavaScript, and Rust projects all received bumps for Gradle, JSON, tree-sitter-rust, and more. I also opened a PR in ashkulz/committers.top to fix a subtle GraphQL sorting bug that was causing non-deterministic user rankings, and got my own tool gitlogue accepted into awesome-cli-apps.
 
-The week wrapped up with an open pull request in ashkulz/committers.top, where I&apos;m fixing a GraphQL API misuse that causes incorrect user sorting. This cross-repo collaboration underscores the interconnected nature of open source maintenance beyond my own repositories.
+The rhythm was burst-driven: heavy commit activity early in the week (peaking at 142 on Tuesday) as I pushed the mdts feature over the line, then tapering into review-heavy days managing the resulting dependency updates and cross-repo reviews. It was a satisfying mix of deep feature work and broad maintenance.
 
 
 Commits: 64, PRs: 3, Reviews: 42</description>
