@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Fixing daily-fetch&#x27;s week range bug and stabilizing the pipeline - 2026-03-30 - 2026-04-05</title>
+  <title>Daily-fetch date stabilization lands in github-weekly-reporter - 2026-03-30 - 2026-04-05</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data collection was targeting the wrong week." />
+  <meta name="description" content="Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="Fixing daily-fetch&#x27;s week range bug and stabilizing the pipeline" />
-  <meta property="og:description" content="A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data collection was targeting the wrong week." />
+  <meta property="og:title" content="Daily-fetch date stabilization lands in github-weekly-reporter" />
+  <meta property="og:description" content="Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection." />
   <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
   <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W14/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Fixing daily-fetch&#x27;s week range bug and stabilizing the pipeline" />
-  <meta name="twitter:description" content="A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data collection was targeting the wrong week." />
+  <meta name="twitter:title" content="Daily-fetch date stabilization lands in github-weekly-reporter" />
+  <meta name="twitter:description" content="Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection." />
   <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
@@ -31,8 +31,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Fixing daily-fetch's week range bug and stabilizing the pipeline",
-    "description": "A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data collection was targeting the wrong week.",
+    "headline": "Daily-fetch date stabilization lands in github-weekly-reporter",
+    "description": "Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
@@ -447,72 +447,196 @@
       <span class="header-sep">&middot;</span>
       <span class="header-date">2026-03-30 - 2026-04-05</span>
     </div>
-    <h1 class="header-title">Fixing daily-fetch&#x27;s week range bug and stabilizing the pipeline</h1>
-    <p class="header-sub">A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data collection was targeting the wrong week.</p>
+    <h1 class="header-title">Daily-fetch date stabilization lands in github-weekly-reporter</h1>
+    <p class="header-sub">Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was dominated by a critical discovery: the <code>daily-fetch</code> cron job, which runs at midnight, was incorrectly collecting data for the <em>previous</em> ISO week instead of the current one. This meant on Monday nights, Sunday's contributions were permanently lost because the week ID had already rolled over. The fix required a careful rethink of the date range logic and triggered a wave of related corrections.</p>
-  <p>With the core data pipeline stabilized, the focus shifted to hardening the entire system. This meant improving error handling for API rate limits and permissions, preventing private repo leaks in reports, and ensuring incomplete weekly reports didn't break the index page navigation. In parallel, a major push brought test coverage from 95% to 97%, and I finally got Dependabot configured to automate the endless dependency updates across my entire portfolio.</p>
-  <p>The week culminated in a massive, focused burst of 283 commits on Saturday (April 4th), where I merged a backlog of dependency updates (Vitest 4, ESLint 10, TypeScript 6) and polished documentation. The rhythm was intense: deep debugging early in the week, systematic quality improvements mid-week, and a final sprint to close the loop on maintenance tasks.</p>
+    <p>This week was dedicated to stabilizing the core data pipeline for my github-weekly-reporter project. After discovering that daily-fetch was losing event data due to incorrect date ranges, I made it the top priority to fix these bugs and strengthen the system against API errors.</p>
+  <p>The main narrative involved deep debugging of the cron's date logic. The daily-fetch was using a sliding week window and firing at midnight, which caused Sunday's events to be missed on Mondays and mid-week runs to fetch the previous week's data. I rewrote the date handling to use UTC ISO timestamps, added comprehensive boundary tests, and improved error handling for GitHub API rate limits and permission errors. Alongside, I set up Dependabot and Codecov to automate maintenance and track quality.</p>
+  <p>With the data collection now reliable, test coverage rose to 97%, and documentation was significantly improved. The project is in a much healthier state, ready for further features like enhanced LLM integration.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">5 sections</span>
+      <span class="section-group-count">4 sections</span>
     </div>
   
     <div class="section-summary">
-      <div class="section-type">critical-bug-fix</div>
-      <div class="section-heading">The Great Week Range Mix-up</div>
-      <div class="section-body">The <code>daily-fetch</code> cron, firing at midnight Monday, used a function that targeted the <em>previous</em> ISO week. This caused Sunday's events to be skipped entirely when the week rolled over. The fix involved creating new <code>buildCurrentWeekRange</code> and <code>getCurrentWeekId</code> functions to correctly target the ongoing week's data, ensuring no contributions are lost at week boundaries.</div>
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">Debugging the daily-fetch date disaster</div>
+      <div class="section-body">The daily-fetch cron was collecting the wrong date ranges: on Monday midnight, it flipped to the new week but never collected Sunday's events, and mid-week it fetched the previous week's data. I traced this to the use of <code>buildWeeklyRange</code> and <code>getWeekId</code> which target the previous ISO week. The fix involved creating <code>buildCurrentWeekRange</code> and <code>getCurrentWeekId</code> functions with UTC-aware logic, and adding extensive tests to cover timezone boundaries.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">affected PR</span> <span class="chip-value chip-red">#89</span></span>
-        <span class="chip"><span class="chip-label">impact</span> <span class="chip-value chip-default">data loss prevention</span></span>
-        <span class="chip"><span class="chip-label">files changed</span> <span class="chip-value chip-default">6</span></span>
+        <span class="chip"><span class="chip-label">root cause</span> <span class="chip-value chip-default">wrong week ID function</span></span>
+        <span class="chip"><span class="chip-label">solution</span> <span class="chip-value chip-default">UTC-aware range builders</span></span>
+        <span class="chip"><span class="chip-label">tests added</span> <span class="chip-value chip-default">15 new cases</span></span>
+        <span class="chip"><span class="chip-label">coverage impact</span> <span class="chip-value chip-default">core modules 97-100%</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">testing</div>
-      <div class="section-heading">Pushing Test Coverage to 97%</div>
-      <div class="section-body">After the initial stability fixes, I targeted the remaining coverage gaps. By adding 19 new test cases across 5 files, I increased statement coverage from 95.21% to 97.1% and branch coverage from 87.81% to 90.7%. Key modules like <code>render.ts</code> and <code>deploy.ts</code> now hit 99-100% coverage, giving me confidence in the refactoring and bug-fix changes.</div>
+      <div class="section-type">repo-summary</div>
+      <div class="section-heading">deariary/github-weekly-reporter: 60 PRs, intense focus</div>
+      <div class="section-body">The vast majority of work this week was in deariary/github-weekly-reporter, with 60 PRs merged. Focus areas included bug fixes (date handling, error handling), testing (coverage from 40% to 97% over weeks), documentation, and CI improvements. Other repos like unhappychoice/mdts saw minor dependency updates via Dependabot.</div>
   
   
   
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">coverage gain</span> <span class="chip-value chip-green">+1.89pt</span></span>
-        <span class="chip"><span class="chip-label">new tests</span> <span class="chip-value chip-default">19</span></span>
-        <span class="chip"><span class="chip-label">modules at 100%</span> <span class="chip-value chip-default">3</span></span>
+      <div class="repo-bars">
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
+            <span class="repo-bar-value">60 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/mdts</span>
+            <span class="repo-bar-value">10 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:17%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
+            <span class="repo-bar-value">7 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:12%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gitlogue</span>
+            <span class="repo-bar-value">5 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/blog</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/lintric</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gittype</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:3%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:3%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/terminal_image</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">devops</div>
-      <div class="section-heading">Automation and Hardening</div>
-      <div class="section-body">Two major automation wins: I added Dependabot to automatically open PRs for npm and GitHub Actions dependencies (with grouping to reduce noise), and integrated Codecov to track coverage trends. Separately, I hardened the GitHub Actions workflows by switching to OIDC for npm publishing (removing NPM_TOKEN) and improved error handling in the PR fetch logic to distinguish between rate limits (429) and permission errors (403).</div>
-  
-  
-  
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">Dependabot config</span> <span class="chip-value chip-default">added</span></span>
-        <span class="chip"><span class="chip-label">Codecov</span> <span class="chip-value chip-default">integrated</span></span>
-        <span class="chip"><span class="chip-label">security fix</span> <span class="chip-value chip-orange">PAT vs GITHUB_TOKEN</span></span>
+        <span class="chip"><span class="chip-label">primary repo</span> <span class="chip-value chip-default">deariary/github-weekly-reporter</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-default">52</span></span>
+        <span class="chip"><span class="chip-label">test coverage</span> <span class="chip-value chip-default">97%</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Saturday Dependency Blitz</div>
-      <div class="section-body">The commit pattern shows a clear peak on Saturday (283 commits), contrasting with more moderate daily activity earlier in the week. This was a dedicated 'maintenance blitz' day where I merged a cascade of Dependabot PRs bumping major dependencies: Vitest 3.x -&gt; 4.1.2, ESLint 9.x -&gt; 10.2.0, and TypeScript 5.9.3 -&gt; 6.0.2. The volume reflects the accumulated technical debt from pinning versions during active development.</div>
+      <div class="section-heading">Commit burst on Apr 4 drives 312 total</div>
+      <div class="section-body">Commit activity was highly concentrated, with a massive spike on Apr 4 (283 commits) likely due to wrapping up the date fixes and test expansions. Lower activity on Apr 3 (58 commits) might indicate a break or collaborative review day. The pattern shows focused sprints with burst coding days.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
@@ -548,22 +672,23 @@
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-green">Sat (283 commits)</span></span>
         <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">312</span></span>
-        <span class="chip"><span class="chip-label">major bumps</span> <span class="chip-value chip-default">Vitest, ESLint, TS</span></span>
+        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-default">Apr 4 (283)</span></span>
+        <span class="chip"><span class="chip-label">lines changed</span> <span class="chip-value chip-default">+30828 -10527</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">content-creation</div>
-      <div class="section-heading">Documentation Overhaul</div>
-      <div class="section-body">I significantly restructured the project documentation. The README was streamlined to focus on prerequisites and value proposition, with cost and customization details moved to new <code>docs/</code> pages (<code>how-it-works.md</code>, <code>customization.md</code>, <code>faq.md</code>, <code>troubleshooting.md</code>). This separation makes the project more approachable for new users while providing deep dives for operators.</div>
+      <div class="section-type">devops</div>
+      <div class="section-heading">Automation: Dependabot and Codecov integrated</div>
+      <div class="section-body">To reduce maintenance overhead, I added Dependabot for automated dependency updates across npm and GitHub Actions, with grouped minor/patch updates. Simultaneously, integrated Codecov for coverage reporting, setting project and patch thresholds to enforce quality. These tools will streamline future development.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">new docs pages</span> <span class="chip-value chip-default">4</span></span>
-        <span class="chip"><span class="chip-label">README sections</span> <span class="chip-value chip-default">restructured</span></span>
+        <span class="chip"><span class="chip-label">Dependabot</span> <span class="chip-value chip-default">configured</span></span>
+        <span class="chip"><span class="chip-label">Codecov</span> <span class="chip-value chip-default">integrated</span></span>
+        <span class="chip"><span class="chip-label">coverage threshold</span> <span class="chip-value chip-default">patch 80%</span></span>
       </div>
     </div>
   </div>
@@ -571,39 +696,33 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">5 items</span>
+      <span class="section-group-count">4 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
       <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/89" target="_blank" rel="noopener nofollow">fix: daily-fetch collects yesterday&#x27;s events, not current day&#x27;s</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 1 · +439 -102 · 9 files</div>
-      <div class="highlight-body">This was the pivotal bug. The <code>daily-fetch</code> cron was using the <em>previous</em> week's range, causing it to fetch 0 events mid-week and lose Sunday's data on Monday rollovers. The fix introduced <code>buildYesterdayRange</code> to correctly target the prior day's contributions.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/92" target="_blank" rel="noopener nofollow">fix: exclude incomplete weeks from index page and navigation</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 1 · +27 -9 · 2 files</div>
-      <div class="highlight-body">A direct consequence of the week-range bug: weeks with only <code>events.yaml</code> (from daily-fetch) but no completed <code>llm-data.yaml</code> would appear as broken links. This PR ensures only fully generated reports are listed, preventing user confusion.</div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged this week · +439 -102 · 9 files</div>
+      <div class="highlight-body">Critical fix preventing permanent loss of Sunday's events when cron runs on Monday midnight. Rewrote date range logic to use current week.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
       <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/87" target="_blank" rel="noopener nofollow">test: improve test coverage from 95% to 97%</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 2 · +309 -1 · 5 files</div>
-      <div class="highlight-body">A targeted testing push that solidified the recent bug-fix changes. The new tests, especially around date range logic and rendering, provide a safety net for future modifications to the core pipeline.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/76" target="_blank" rel="noopener nofollow">ci: add Dependabot for dependency updates</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 4 · +19 -0 · 2 files</div>
-      <div class="highlight-body">This automation PR will save countless hours going forward. By configuring Dependabot with grouped minor/patch updates, the repo will stay current with security patches and ecosystem improvements without manual tracking.</div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged this week · +309 -1 · 5 files</div>
+      <div class="highlight-body">Added 19 test cases, pushing statement coverage to 97.1% and branch coverage to 90.7%, with key modules reaching 97-100%.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-release">release</span>
       <div class="highlight-title">v0.3.4</div>
       <div class="highlight-meta">deariary/github-weekly-reporter · released Apr 3</div>
-      <div class="highlight-body">This patch release bundled the critical <code>daily-fetch</code> week-range fix and the private repo exclusion fix, delivering the stabilized data collection pipeline to users. It represents the moment the core bug was resolved and shipped.</div>
+      <div class="highlight-body">Includes feat: set homepage URL and topics during setup, plus several bug fixes from this week's work.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/76" target="_blank" rel="noopener nofollow">ci: add Dependabot for dependency updates</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged this week · +19 -0 · 2 files</div>
+      <div class="highlight-body">Automates dependency updates, reducing security risks and manual maintenance effort.</div>
     </div>
     </div>
   </div>
@@ -612,9 +731,9 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W14/&text=Fixing%20daily-fetch&#x27;s%20week%20range%20bug%20and%20stabilizing%20the%20pipeline&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W14/&text=Daily-fetch%20date%20stabilization%20lands%20in%20github-weekly-reporter&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W14/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=Fixing%20daily-fetch&#x27;s%20week%20range%20bug%20and%20stabilizing%20the%20pipeline%20https://unhappychoice.github.io/weekly-report/2026/W14/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://bsky.app/intent/compose?text=Daily-fetch%20date%20stabilization%20lands%20in%20github-weekly-reporter%20https://unhappychoice.github.io/weekly-report/2026/W14/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
 <nav class="week-nav" aria-label="Week navigation">

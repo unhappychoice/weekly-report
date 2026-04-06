@@ -14,16 +14,16 @@
       <height>630</height>
     </image>
     <item>
-      <title>Fixing daily-fetch&apos;s week range bug and stabilizing the pipeline</title>
+      <title>Daily-fetch date stabilization lands in github-weekly-reporter</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>
-      <description>A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data collection was targeting the wrong week.
+      <description>Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection.
 
-This week was dominated by a critical discovery: the `daily-fetch` cron job, which runs at midnight, was incorrectly collecting data for the *previous* ISO week instead of the current one. This meant on Monday nights, Sunday&apos;s contributions were permanently lost because the week ID had already rolled over. The fix required a careful rethink of the date range logic and triggered a wave of related corrections.
+This week was dedicated to stabilizing the core data pipeline for my github-weekly-reporter project. After discovering that daily-fetch was losing event data due to incorrect date ranges, I made it the top priority to fix these bugs and strengthen the system against API errors.
 
-With the core data pipeline stabilized, the focus shifted to hardening the entire system. This meant improving error handling for API rate limits and permissions, preventing private repo leaks in reports, and ensuring incomplete weekly reports didn&apos;t break the index page navigation. In parallel, a major push brought test coverage from 95% to 97%, and I finally got Dependabot configured to automate the endless dependency updates across my entire portfolio.
+The main narrative involved deep debugging of the cron&apos;s date logic. The daily-fetch was using a sliding week window and firing at midnight, which caused Sunday&apos;s events to be missed on Mondays and mid-week runs to fetch the previous week&apos;s data. I rewrote the date handling to use UTC ISO timestamps, added comprehensive boundary tests, and improved error handling for GitHub API rate limits and permission errors. Alongside, I set up Dependabot and Codecov to automate maintenance and track quality.
 
-The week culminated in a massive, focused burst of 283 commits on Saturday (April 4th), where I merged a backlog of dependency updates (Vitest 4, ESLint 10, TypeScript 6) and polished documentation. The rhythm was intense: deep debugging early in the week, systematic quality improvements mid-week, and a final sprint to close the loop on maintenance tasks.
+With the data collection now reliable, test coverage rose to 97%, and documentation was significantly improved. The project is in a much healthier state, ready for further features like enhanced LLM integration.
 
 
 Commits: 312, PRs: 53, Reviews: 53</description>
