@@ -164,20 +164,24 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-05T09:23:28Z
     mergedAt: 2026-04-05T09:24:40Z
-  - title: "fix: exclude private repositories from PR search"
-    body: |-
-      - Add `is:public` qualifier to the Search API query used during weekly-fetch
-      - Prevents private repository PRs from leaking into weekly reports published on GitHub Pages
-    url: https://github.com/deariary/github-weekly-reporter/pull/91
+  - title: "fix: improve PR fetch error handling and document fine-grained PAT 403 issue"
+    body: >-
+      - Retry PR fetches only on 429 (rate limit), not on 403 (permission/policy errors)
+
+      - Log the response body message on non-OK responses so users can see the actual cause (e.g. organization lifetime
+      policy)
+
+      - Add 200ms inter-request delay to follow [GitHub API best practices](https://docs.github.com/e...
+    url: https://github.com/deariary/github-weekly-reporter/pull/90
     repository: deariary/github-weekly-reporter
     state: merged
     labels: []
-    additions: 1
-    deletions: 1
-    changedFiles: 1
+    additions: 87
+    deletions: 19
+    changedFiles: 2
     author: unhappychoice
-    createdAt: 2026-04-05T04:41:27Z
-    mergedAt: 2026-04-05T04:42:31Z
+    createdAt: 2026-04-05T04:27:12Z
+    mergedAt: 2026-04-05T04:36:28Z
   - title: "fix: daily-fetch collects yesterday's events, not current day's"
     body: >-
       - **Bug**: `daily-fetch` cron fires at midnight, but `buildCurrentWeekRange` returned "Monday to today". On Monday
@@ -211,24 +215,20 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-05T04:47:42Z
     mergedAt: 2026-04-05T04:48:30Z
-  - title: "fix: improve PR fetch error handling and document fine-grained PAT 403 issue"
-    body: >-
-      - Retry PR fetches only on 429 (rate limit), not on 403 (permission/policy errors)
-
-      - Log the response body message on non-OK responses so users can see the actual cause (e.g. organization lifetime
-      policy)
-
-      - Add 200ms inter-request delay to follow [GitHub API best practices](https://docs.github.com/e...
-    url: https://github.com/deariary/github-weekly-reporter/pull/90
+  - title: "fix: exclude private repositories from PR search"
+    body: |-
+      - Add `is:public` qualifier to the Search API query used during weekly-fetch
+      - Prevents private repository PRs from leaking into weekly reports published on GitHub Pages
+    url: https://github.com/deariary/github-weekly-reporter/pull/91
     repository: deariary/github-weekly-reporter
     state: merged
     labels: []
-    additions: 87
-    deletions: 19
-    changedFiles: 2
+    additions: 1
+    deletions: 1
+    changedFiles: 1
     author: unhappychoice
-    createdAt: 2026-04-05T04:27:12Z
-    mergedAt: 2026-04-05T04:36:28Z
+    createdAt: 2026-04-05T04:41:27Z
+    mergedAt: 2026-04-05T04:42:31Z
   - title: "fix: daily-fetch now collects current week events instead of previous week"
     body: >-
       - **Bug**: `daily-fetch` was using `buildWeeklyRange` / `getWeekId` which target the **previous** ISO week. When
@@ -262,32 +262,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-05T02:04:18Z
     mergedAt: 2026-04-05T02:07:29Z
-  - title: "chore(deps-dev): bump @vitest/coverage-v8 from 3.2.4 to 4.1.2"
-    body: |-
-      [//]: # (dependabot-start)
-      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
-
-      Rebasing might not happen immediately, so don't worry if this takes some time.
-
-      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
-
-      ---
-
-      [//]: # (dependabot-end)
-
-      Bumps [@vitest/coverage-...
-    url: https://github.com/deariary/github-weekly-reporter/pull/82
-    repository: deariary/github-weekly-reporter
-    state: closed
-    labels:
-      - dependencies
-      - javascript
-    additions: 86
-    deletions: 514
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-04-04T23:50:37Z
-    mergedAt: null
   - title: "chore(deps-dev): bump vitest from 3.2.4 to 4.1.2"
     body: |-
       [//]: # (dependabot-start)
@@ -335,6 +309,32 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-05T01:40:07Z
     mergedAt: 2026-04-05T01:41:54Z
+  - title: "chore(deps-dev): bump @vitest/coverage-v8 from 3.2.4 to 4.1.2"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [@vitest/coverage-...
+    url: https://github.com/deariary/github-weekly-reporter/pull/82
+    repository: deariary/github-weekly-reporter
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 86
+    deletions: 514
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-04T23:50:37Z
+    mergedAt: null
   - title: "docs: improve README and add documentation pages"
     body: >-
       Closes #71
@@ -356,27 +356,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-05T01:15:28Z
     mergedAt: 2026-04-05T01:20:18Z
-  - title: "chore(deps-dev): bump typescript from 5.9.3 to 6.0.2"
-    body: |-
-      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
-      <blockquote>
-      <h2>TypeScript 6.0</h2>
-      <p>For release notes, ch...
-    url: https://github.com/deariary/github-weekly-reporter/pull/84
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 5
-    deletions: 5
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-04-05T00:13:49Z
-    mergedAt: 2026-04-05T00:29:11Z
   - title: "chore(deps): bump @octokit/graphql from 8.2.2 to 9.0.3"
     body: >-
       Bumps [@octokit/graphql](https://github.com/octokit/graphql.js) from 8.2.2 to 9.0.3.
@@ -405,6 +384,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-04T23:50:10Z
     mergedAt: 2026-04-05T00:13:12Z
+  - title: "chore(deps-dev): bump typescript from 5.9.3 to 6.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
+      <blockquote>
+      <h2>TypeScript 6.0</h2>
+      <p>For release notes, ch...
+    url: https://github.com/deariary/github-weekly-reporter/pull/84
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-05T00:13:49Z
+    mergedAt: 2026-04-05T00:29:11Z
   - title: "chore(deps): bump the minor-and-patch group across 1 directory with 2 updates"
     body: |-
       Bumps the minor-and-patch group with 2 updates in the / directory: [libsodium-wrappers](https://github.com/jedisct1/libsodium.js) and [@types/libsodium-wrappers](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/libsodium-wrappers).
@@ -471,6 +471,23 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-04T23:50:37Z
     mergedAt: 2026-04-05T00:12:41Z
+  - title: "ci: add Dependabot for dependency updates"
+    body: |-
+      - Add `.github/dependabot.yml` to keep npm and GitHub Actions dependencies up to date
+      - Weekly update schedule with open PR limit of 10 (npm) / 5 (actions)
+      - Minor and patch npm updates are grouped to reduce PR noise
+
+      Closes #73
+    url: https://github.com/deariary/github-weekly-reporter/pull/76
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 19
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-04T23:41:20Z
+    mergedAt: 2026-04-04T23:48:58Z
   - title: "test: improve test coverage from 40% to 63%"
     body: |-
       - Add 128 new tests (280 -> 408 total) across 8 new and 5 expanded test files
@@ -489,35 +506,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T23:16:09Z
     mergedAt: 2026-04-04T23:38:27Z
-  - title: "ci: add Dependabot for dependency updates"
-    body: |-
-      - Add `.github/dependabot.yml` to keep npm and GitHub Actions dependencies up to date
-      - Weekly update schedule with open PR limit of 10 (npm) / 5 (actions)
-      - Minor and patch npm updates are grouped to reduce PR noise
-
-      Closes #73
-    url: https://github.com/deariary/github-weekly-reporter/pull/76
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 19
-    deletions: 0
-    changedFiles: 2
-    author: unhappychoice
-    createdAt: 2026-04-04T23:41:20Z
-    mergedAt: 2026-04-04T23:48:58Z
-  - title: "refactor: improve code quality for public release"
-    body: "Pre-release quality improvements across all priority levels. Tests: 201 -> 280 (+79)."
-    url: https://github.com/deariary/github-weekly-reporter/pull/70
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 1791
-    deletions: 1021
-    changedFiles: 37
-    author: unhappychoice
-    createdAt: 2026-04-04T22:21:19Z
-    mergedAt: 2026-04-04T22:45:22Z
   - title: "ci: add Codecov for test coverage reporting"
     body: |-
       - Add Codecov integration to track and enforce test coverage
@@ -535,6 +523,18 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T22:55:41Z
     mergedAt: 2026-04-04T22:57:10Z
+  - title: "refactor: improve code quality for public release"
+    body: "Pre-release quality improvements across all priority levels. Tests: 201 -> 280 (+79)."
+    url: https://github.com/deariary/github-weekly-reporter/pull/70
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1791
+    deletions: 1021
+    changedFiles: 37
+    author: unhappychoice
+    createdAt: 2026-04-04T22:21:19Z
+    mergedAt: 2026-04-04T22:45:22Z
   - title: "feat: generate RSS feed with OG image URLs during render"
     body: >-
       Closes #96
@@ -568,23 +568,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-05T21:05:34Z
     mergedAt: 2026-04-05T21:09:13Z
-  - title: "feat: add OG image for repository social preview"
-    body: |-
-      - Add 1280x640 OG image (`video/og-image.png`) for GitHub social preview
-      - Add Motion Canvas scene (`video/src/scenes/og.tsx`) to regenerate it
-      - Dark background with tilted report screenshot and project title
-
-      Set via: Repository Settings > Social preview > Upload `video/og-image.png`
-    url: https://github.com/deariary/github-weekly-reporter/pull/68
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 66
-    deletions: 0
-    changedFiles: 3
-    author: unhappychoice
-    createdAt: 2026-04-04T07:59:58Z
-    mergedAt: 2026-04-04T08:00:31Z
   - title: "feat: add default OG image for index page"
     body: >-
       - Add `generateIndexOGImage()` to generate a 1200x630 OG image for the index (report listing) page
@@ -618,6 +601,35 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-05T17:40:59Z
     mergedAt: 2026-04-05T17:50:56Z
+  - title: "feat: add OG image for repository social preview"
+    body: |-
+      - Add 1280x640 OG image (`video/og-image.png`) for GitHub social preview
+      - Add Motion Canvas scene (`video/src/scenes/og.tsx`) to regenerate it
+      - Dark background with tilted report screenshot and project title
+
+      Set via: Repository Settings > Social preview > Upload `video/og-image.png`
+    url: https://github.com/deariary/github-weekly-reporter/pull/68
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 66
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-04T07:59:58Z
+    mergedAt: 2026-04-04T08:00:31Z
+  - title: "fix: sort fine-grained PAT permissions alphabetically"
+    body: Actions, Administration, Contents, Pages, Secrets, Workflows
+    url: https://github.com/deariary/github-weekly-reporter/pull/64
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 4
+    deletions: 4
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-04T05:47:07Z
+    mergedAt: 2026-04-04T05:48:03Z
   - title: "feat: add demo video for README"
     body: |-
       - Add Motion Canvas project (`video/`) to generate a promotional demo video
@@ -635,34 +647,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T07:43:42Z
     mergedAt: 2026-04-04T07:49:13Z
-  - title: "refactor: deploy to main branch output/ instead of gh-pages"
-    body: |-
-      - Deploy now commits `output/` to the current branch (main) instead of force-pushing an orphan `gh-pages` branch
-      - Past reports are preserved across deployments
-      - GitHub Pages source is set to `main` branch `/output` directory
-      - Removed gh-pages branch creation from setup
-    url: https://github.com/deariary/github-weekly-reporter/pull/62
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 22
-    deletions: 39
-    changedFiles: 4
-    author: unhappychoice
-    createdAt: 2026-04-04T05:28:55Z
-    mergedAt: 2026-04-04T05:32:39Z
-  - title: "fix: sort fine-grained PAT permissions alphabetically"
-    body: Actions, Administration, Contents, Pages, Secrets, Workflows
-    url: https://github.com/deariary/github-weekly-reporter/pull/64
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 4
-    deletions: 4
-    changedFiles: 1
-    author: unhappychoice
-    createdAt: 2026-04-04T05:47:07Z
-    mergedAt: 2026-04-04T05:48:03Z
   - title: "fix: revert to gh-pages deploy but preserve existing files"
     body: |-
       - Revert to gh-pages deployment (GitHub Pages only supports `/` or `/docs` from main)
@@ -691,6 +675,22 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T05:23:19Z
     mergedAt: 2026-04-04T05:32:37Z
+  - title: "refactor: deploy to main branch output/ instead of gh-pages"
+    body: |-
+      - Deploy now commits `output/` to the current branch (main) instead of force-pushing an orphan `gh-pages` branch
+      - Past reports are preserved across deployments
+      - GitHub Pages source is set to `main` branch `/output` directory
+      - Removed gh-pages branch creation from setup
+    url: https://github.com/deariary/github-weekly-reporter/pull/62
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 22
+    deletions: 39
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-04T05:28:55Z
+    mergedAt: 2026-04-04T05:32:39Z
   - title: "docs: rewrite README intro as clear value proposition"
     body: |-
       - Rewrite the README intro from technical description to user-focused value proposition
@@ -707,6 +707,18 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T05:20:11Z
     mergedAt: 2026-04-04T05:22:19Z
+  - title: "fix: change 'Built with' to 'Supported by' for deariary link"
+    body: "Follow-up to #58"
+    url: https://github.com/deariary/github-weekly-reporter/pull/59
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-04T05:11:37Z
+    mergedAt: 2026-04-04T05:11:47Z
   - title: "fix: add deariary link to generated user README"
     body: "- Add deariary.com link at the bottom of the README generated by the setup command"
     url: https://github.com/deariary/github-weekly-reporter/pull/58
@@ -739,18 +751,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T04:56:48Z
     mergedAt: 2026-04-04T04:57:55Z
-  - title: "fix: change 'Built with' to 'Supported by' for deariary link"
-    body: "Follow-up to #58"
-    url: https://github.com/deariary/github-weekly-reporter/pull/59
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: unhappychoice
-    createdAt: 2026-04-04T05:11:37Z
-    mergedAt: 2026-04-04T05:11:47Z
   - title: "feat: add date input to generated workflow files"
     body: >-
       - Add optional `date` input (YYYY-MM-DD) to both `daily-fetch.yml` and `weekly-report.yml` generated by the setup
@@ -803,6 +803,22 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T02:11:40Z
     mergedAt: 2026-04-04T03:42:39Z
+  - title: "fix: increase max_tokens from 4096 to 16384 for all LLM providers"
+    body: >-
+      - Increase `max_tokens` from 4096 to 16384 across all 5 LLM providers (openai, anthropic, gemini, groq, grok,
+      openrouter)
+
+      - 4096 was too low for rich structured YAML output, causing truncated reports
+    url: https://github.com/deariary/github-weekly-reporter/pull/53
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 5
+    deletions: 5
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-04T02:06:21Z
+    mergedAt: 2026-04-04T02:06:23Z
   - title: "feat: add OpenRouter and Groq LLM providers"
     body: >-
       - Add **OpenRouter**, **Groq**, and **Grok (xAI)** as new LLM providers, all using the existing `openai` SDK with
@@ -821,22 +837,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-04T01:23:55Z
     mergedAt: 2026-04-04T01:49:39Z
-  - title: "fix: increase max_tokens from 4096 to 16384 for all LLM providers"
-    body: >-
-      - Increase `max_tokens` from 4096 to 16384 across all 5 LLM providers (openai, anthropic, gemini, groq, grok,
-      openrouter)
-
-      - 4096 was too low for rich structured YAML output, causing truncated reports
-    url: https://github.com/deariary/github-weekly-reporter/pull/53
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 5
-    deletions: 5
-    changedFiles: 5
-    author: unhappychoice
-    createdAt: 2026-04-04T02:06:21Z
-    mergedAt: 2026-04-04T02:06:23Z
   - title: "fix: harden security across workflows, templates, and dependencies"
     body: >-
       Comprehensive security hardening for the project, addressing multiple vulnerability classes.
@@ -888,22 +888,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-03T23:29:55Z
     mergedAt: null
-  - title: "feat: SEO optimization with OG images, JSON-LD, sitemap, and internal linking"
-    body: |-
-      - Generate OG image (1200x630) for social sharing previews
-      - Add JSON-LD structured data (Article schema)
-      - Generate sitemap.xml
-      - Add prev/next week navigation between reports
-    url: https://github.com/deariary/github-weekly-reporter/pull/48
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 1166
-    deletions: 15
-    changedFiles: 17
-    author: unhappychoice
-    createdAt: 2026-04-03T22:54:02Z
-    mergedAt: 2026-04-03T23:21:42Z
   - title: "refactor: make LLM content required for report rendering"
     body: |-
       - Make `aiContent` required (no longer nullable) in `WeeklyReportData`
@@ -934,21 +918,22 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-03T22:30:52Z
     mergedAt: 2026-04-03T22:36:12Z
-  - title: "feat: persist data/ to repository in GitHub Action workflow"
+  - title: "feat: SEO optimization with OG images, JSON-LD, sitemap, and internal linking"
     body: |-
-      - Add git commit & push steps to action.yml so `data/` persists between workflow runs
-      - Daily events accumulate correctly across multiple cron runs
-      - Weekly pipeline can read previously accumulated events
-    url: https://github.com/deariary/github-weekly-reporter/pull/43
+      - Generate OG image (1200x630) for social sharing previews
+      - Add JSON-LD structured data (Article schema)
+      - Generate sitemap.xml
+      - Add prev/next week navigation between reports
+    url: https://github.com/deariary/github-weekly-reporter/pull/48
     repository: deariary/github-weekly-reporter
     state: merged
     labels: []
-    additions: 135
+    additions: 1166
     deletions: 15
-    changedFiles: 10
+    changedFiles: 17
     author: unhappychoice
-    createdAt: 2026-04-03T22:07:30Z
-    mergedAt: 2026-04-03T22:29:08Z
+    createdAt: 2026-04-03T22:54:02Z
+    mergedAt: 2026-04-03T23:21:42Z
   - title: "refactor: separate data and HTML output into different directories"
     body: |-
       - Split the single `--output` directory into `--data-dir` and `--output-dir`
@@ -964,6 +949,38 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-03T22:03:04Z
     mergedAt: 2026-04-03T22:04:48Z
+  - title: "feat: persist data/ to repository in GitHub Action workflow"
+    body: |-
+      - Add git commit & push steps to action.yml so `data/` persists between workflow runs
+      - Daily events accumulate correctly across multiple cron runs
+      - Weekly pipeline can read previously accumulated events
+    url: https://github.com/deariary/github-weekly-reporter/pull/43
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 135
+    deletions: 15
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-04-03T22:07:30Z
+    mergedAt: 2026-04-03T22:29:08Z
+  - title: "feat: add timezone-aware date ranges and i18n support (en/ja)"
+    body: >-
+      - Fix date range calculation (#36): `buildWeeklyRange` and `getWeekId` now accept a timezone parameter (IANA
+      format, e.g. `Asia/Tokyo`). Uses `Intl.DateTimeFormat` to compute correct local midnight, so a developer in JST at
+      8am April 4 gets a report for the week ending April 4, not April 3.
+
+      - Add in...
+    url: https://github.com/deariary/github-weekly-reporter/pull/39
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1734
+    deletions: 133
+    changedFiles: 35
+    author: unhappychoice
+    createdAt: 2026-04-03T20:26:54Z
+    mergedAt: 2026-04-03T21:40:47Z
   - title: "refactor: remove config file, use CLI flags and env vars only"
     body: |-
       - Remove `.github-weekly-reporter.toml` config file support entirely
@@ -998,23 +1015,21 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-03T21:50:04Z
     mergedAt: 2026-04-03T21:54:37Z
-  - title: "feat: add timezone-aware date ranges and i18n support (en/ja)"
-    body: >-
-      - Fix date range calculation (#36): `buildWeeklyRange` and `getWeekId` now accept a timezone parameter (IANA
-      format, e.g. `Asia/Tokyo`). Uses `Intl.DateTimeFormat` to compute correct local midnight, so a developer in JST at
-      8am April 4 gets a report for the week ending April 4, not April 3.
-
-      - Add in...
-    url: https://github.com/deariary/github-weekly-reporter/pull/39
+  - title: "ci: add GitHub Actions workflows for CI and npm publish"
+    body: |-
+      - **CI workflow** (`ci.yml`): runs lint, build, test on push/PR to main (Node 24)
+      - **Publish workflow** (`publish.yml`): automated npm publish with provenance on GitHub Release
+      - Add `prepublishOnly` script to ensure build + test before manual publish
+    url: https://github.com/deariary/github-weekly-reporter/pull/27
     repository: deariary/github-weekly-reporter
     state: merged
     labels: []
-    additions: 1734
-    deletions: 133
-    changedFiles: 35
+    additions: 103
+    deletions: 1
+    changedFiles: 3
     author: unhappychoice
-    createdAt: 2026-04-03T20:26:54Z
-    mergedAt: 2026-04-03T21:40:47Z
+    createdAt: 2026-04-03T15:58:58Z
+    mergedAt: 2026-04-03T16:08:49Z
   - title: "chore: set npm scope to @deariary"
     body: |-
       - Package name: `github-weekly-reporter` -> `@deariary/github-weekly-reporter`
@@ -1033,54 +1048,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-03T16:16:28Z
     mergedAt: 2026-04-03T16:23:44Z
-  - title: "feat: enrich data collection and save raw data as YAML"
-    body: |-
-      - Add Events API fetcher (REST) with summarized payloads
-      - Expand PR/Issue data with body, labels, additions/deletions, author
-      - Save raw data as `data.yaml` alongside HTML report
-      - Add events to WeeklyReportData
-    url: https://github.com/deariary/github-weekly-reporter/pull/29
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 2051
-    deletions: 893
-    changedFiles: 44
-    author: unhappychoice
-    createdAt: 2026-04-03T16:58:03Z
-    mergedAt: 2026-04-03T19:58:43Z
-  - title: "ci: add GitHub Actions workflows for CI and npm publish"
-    body: |-
-      - **CI workflow** (`ci.yml`): runs lint, build, test on push/PR to main (Node 24)
-      - **Publish workflow** (`publish.yml`): automated npm publish with provenance on GitHub Release
-      - Add `prepublishOnly` script to ensure build + test before manual publish
-    url: https://github.com/deariary/github-weekly-reporter/pull/27
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 103
-    deletions: 1
-    changedFiles: 3
-    author: unhappychoice
-    createdAt: 2026-04-03T15:58:58Z
-    mergedAt: 2026-04-03T16:08:49Z
-  - title: "feat: add GitHub Action scaffold"
-    body: |-
-      - Add `action.yml` with all inputs and branding for Marketplace
-      - Action entrypoint runs generate + deploy in one step
-      - Auto-detects username from `GITHUB_ACTOR` if not specified
-      - LLM auto-detection from whichever API key is provided
-      - Outputs `report-url` with the deployed week path
-    url: https://github.com/deariary/github-weekly-reporter/pull/17
-    repository: deariary/github-weekly-reporter
-    state: merged
-    labels: []
-    additions: 2314
-    deletions: 2210
-    changedFiles: 6
-    author: unhappychoice
-    createdAt: 2026-04-03T15:35:37Z
-    mergedAt: 2026-04-03T15:49:39Z
   - title: "docs: add README and custom license"
     body: >-
       - Add comprehensive README with quick start, command reference, config file docs, themes, AI narrative setup, and
@@ -1100,21 +1067,39 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-03T15:31:36Z
     mergedAt: 2026-04-03T15:34:03Z
-  - title: "feat: add CLI with generate and deploy commands"
+  - title: "feat: add GitHub Action scaffold"
     body: |-
-      - Add CLI entrypoint with `generate` and `deploy` commands via commander
-      - `generate`: collect GitHub data, optionally add AI narrative, render HTML, write files to output directory
-      - `deploy`: push output directory to gh-pages branch
-    url: https://github.com/deariary/github-weekly-reporter/pull/15
+      - Add `action.yml` with all inputs and branding for Marketplace
+      - Action entrypoint runs generate + deploy in one step
+      - Auto-detects username from `GITHUB_ACTOR` if not specified
+      - LLM auto-detection from whichever API key is provided
+      - Outputs `report-url` with the deployed week path
+    url: https://github.com/deariary/github-weekly-reporter/pull/17
     repository: deariary/github-weekly-reporter
     state: merged
     labels: []
-    additions: 280
-    deletions: 2
-    changedFiles: 7
+    additions: 2314
+    deletions: 2210
+    changedFiles: 6
     author: unhappychoice
-    createdAt: 2026-04-03T15:16:46Z
-    mergedAt: 2026-04-03T15:26:34Z
+    createdAt: 2026-04-03T15:35:37Z
+    mergedAt: 2026-04-03T15:49:39Z
+  - title: "feat: enrich data collection and save raw data as YAML"
+    body: |-
+      - Add Events API fetcher (REST) with summarized payloads
+      - Expand PR/Issue data with body, labels, additions/deletions, author
+      - Save raw data as `data.yaml` alongside HTML report
+      - Add events to WeeklyReportData
+    url: https://github.com/deariary/github-weekly-reporter/pull/29
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 2051
+    deletions: 893
+    changedFiles: 44
+    author: unhappychoice
+    createdAt: 2026-04-03T16:58:03Z
+    mergedAt: 2026-04-03T19:58:43Z
   - title: "feat: add GitHub Pages deployment module"
     body: |-
       - Deploy weekly reports to gh-pages branch with ISO week directories (`2026/W14/index.html`)
@@ -1164,6 +1149,21 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-04-03T14:59:05Z
     mergedAt: 2026-04-03T15:02:48Z
+  - title: "feat: add CLI with generate and deploy commands"
+    body: |-
+      - Add CLI entrypoint with `generate` and `deploy` commands via commander
+      - `generate`: collect GitHub data, optionally add AI narrative, render HTML, write files to output directory
+      - `deploy`: push output directory to gh-pages branch
+    url: https://github.com/deariary/github-weekly-reporter/pull/15
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 280
+    deletions: 2
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-04-03T15:16:46Z
+    mergedAt: 2026-04-03T15:26:34Z
   - title: "feat: add project scaffold and GitHub API data collection module"
     body: |-
       - Set up TypeScript + ESM project structure (package.json, tsconfig, eslint, vitest)
@@ -1204,29 +1204,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-03T07:44:39Z
     mergedAt: 2026-04-03T14:54:34Z
-  - title: "build(deps-dev): bump esbuild from 0.27.5 to 0.28.0 in /example"
-    body: |-
-      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.5 to 0.28.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
-      <blockquote>
-      <h2>v0.28.0</h2>
-      <ul>
-      <li>
-      <p>Add support for <code>with { type: '...
-    url: https://github.com/unhappychoice/cycle-pusher/pull/351
-    repository: unhappychoice/cycle-pusher
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 109
-    deletions: 109
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-04-03T03:04:11Z
-    mergedAt: 2026-04-03T14:54:42Z
   - title: "chore(deps): bump toml_edit from 0.25.9+spec-1.1.0 to 0.25.10+spec-1.1.0"
     body: >-
       Bumps [toml_edit](https://github.com/toml-rs/toml) from 0.25.9+spec-1.1.0 to 0.25.10+spec-1.1.0.
@@ -1254,49 +1231,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-03T02:24:38Z
     mergedAt: 2026-04-03T14:54:46Z
-  - title: "chore(deps): Bump mermaid from 11.13.0 to 11.14.0 in /packages/frontend"
-    body: |-
-      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.13.0 to 11.14.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
-      <blockquote>
-      <h2>mermaid@11.14.0</h2>
-      <p>Thanks to our awesome merm...
-    url: https://github.com/unhappychoice/mdts/pull/625
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 9
-    deletions: 9
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-04-02T08:13:01Z
-    mergedAt: 2026-04-02T10:39:31Z
-  - title: "chore(deps): bump lodash from 4.17.23 to 4.18.1"
-    body: |-
-      Bumps [lodash](https://github.com/lodash/lodash) from 4.17.23 to 4.18.1.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/lodash/lodash/releases">lodash's releases</a>.</em></p>
-      <blockquote>
-      <h2>4.18.1</h2>
-      <h2>Bugs</h2>
-      <p>Fixes a <code>ReferenceError</code...
-    url: https://github.com/bitflyer-tools/cycle-flyer/pull/863
-    repository: bitflyer-tools/cycle-flyer
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 3
-    deletions: 3
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-04-02T17:25:57Z
-    mergedAt: 2026-04-03T14:54:49Z
   - title: "chore(deps-dev): bump esbuild from 0.27.5 to 0.28.0"
     body: |-
       Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.5 to 0.28.0.
@@ -1320,6 +1254,92 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-03T03:04:21Z
     mergedAt: 2026-04-03T14:54:38Z
+  - title: "chore(deps): bump lodash from 4.17.23 to 4.18.1"
+    body: |-
+      Bumps [lodash](https://github.com/lodash/lodash) from 4.17.23 to 4.18.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/lodash/lodash/releases">lodash's releases</a>.</em></p>
+      <blockquote>
+      <h2>4.18.1</h2>
+      <h2>Bugs</h2>
+      <p>Fixes a <code>ReferenceError</code...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/863
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-02T17:25:57Z
+    mergedAt: 2026-04-03T14:54:49Z
+  - title: "build(deps-dev): bump esbuild from 0.27.5 to 0.28.0 in /example"
+    body: |-
+      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.5 to 0.28.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.28.0</h2>
+      <ul>
+      <li>
+      <p>Add support for <code>with { type: '...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/351
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 109
+    deletions: 109
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-03T03:04:11Z
+    mergedAt: 2026-04-03T14:54:42Z
+  - title: "chore(deps): Bump mermaid from 11.13.0 to 11.14.0 in /packages/frontend"
+    body: |-
+      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.13.0 to 11.14.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
+      <blockquote>
+      <h2>mermaid@11.14.0</h2>
+      <p>Thanks to our awesome merm...
+    url: https://github.com/unhappychoice/mdts/pull/625
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-02T08:13:01Z
+    mergedAt: 2026-04-02T10:39:31Z
+  - title: "chore(deps-dev): bump parallel from 1.27.0 to 1.28.0"
+    body: |-
+      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
+      <li><a href="https://github.com/grosser/paral...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/89
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-02T05:42:16Z
+    mergedAt: 2026-04-02T10:39:56Z
   - title: "chore(deps-dev): Bump ts-jest from 29.4.6 to 29.4.9"
     body: |-
       Bumps [ts-jest](https://github.com/kulshekhar/ts-jest) from 29.4.6 to 29.4.9.
@@ -1364,26 +1384,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:41:30Z
     mergedAt: 2026-04-02T10:40:05Z
-  - title: "chore(deps-dev): bump parallel from 1.27.0 to 1.28.0"
-    body: |-
-      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
-      <details>
-      <summary>Commits</summary>
-      <ul>
-      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
-      <li><a href="https://github.com/grosser/paral...
-    url: https://github.com/unhappychoice/slack_channel_stats/pull/89
-    repository: unhappychoice/slack_channel_stats
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-04-02T05:42:16Z
-    mergedAt: 2026-04-02T10:39:56Z
   - title: "chore(deps): bump parallel from 1.27.0 to 1.28.0"
     body: |-
       Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
@@ -1404,29 +1404,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:40:09Z
     mergedAt: 2026-04-02T10:40:01Z
-  - title: "chore(deps-dev): bump esbuild from 0.27.4 to 0.27.5"
-    body: |-
-      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.4 to 0.27.5.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
-      <blockquote>
-      <h2>v0.27.5</h2>
-      <ul>
-      <li>
-      <p>Fix for an async generator edge case...
-    url: https://github.com/bitflyer-tools/cycle-flyer/pull/861
-    repository: bitflyer-tools/cycle-flyer
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 109
-    deletions: 109
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-04-02T05:38:12Z
-    mergedAt: 2026-04-02T10:39:48Z
   - title: "chore(deps-dev): bump electron from 41.1.0 to 41.1.1"
     body: |-
       [//]: # (dependabot-start)
@@ -1453,46 +1430,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:38:37Z
     mergedAt: 2026-04-02T10:40:13Z
-  - title: "chore(deps): Bump parallel from 1.27.0 to 1.28.0"
+  - title: "chore(deps-dev): bump esbuild from 0.27.4 to 0.27.5"
     body: |-
-      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
+      Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.4 to 0.27.5.
       <details>
-      <summary>Commits</summary>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/evanw/esbuild/releases">esbuild's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.27.5</h2>
       <ul>
-      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
-      <li><a href="https://github.com/grosser/paral...
-    url: https://github.com/unhappychoice/blog/pull/692
-    repository: unhappychoice/blog
+      <li>
+      <p>Fix for an async generator edge case...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/861
+    repository: bitflyer-tools/cycle-flyer
     state: merged
     labels:
       - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-04-02T05:38:06Z
-    mergedAt: 2026-04-02T10:37:12Z
-  - title: "build(deps-dev): bump parallel from 1.27.0 to 1.28.0"
-    body: |-
-      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
-      <details>
-      <summary>Commits</summary>
-      <ul>
-      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
-      <li><a href="https://github.com/grosser/paral...
-    url: https://github.com/irasutoya-tools/irasutoya/pull/506
-    repository: irasutoya-tools/irasutoya
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
+      - javascript
+    additions: 109
+    deletions: 109
+    changedFiles: 2
     author: dependabot[bot]
     createdAt: 2026-04-02T05:38:12Z
-    mergedAt: 2026-04-02T10:37:23Z
+    mergedAt: 2026-04-02T10:39:48Z
   - title: "chore(deps-dev): bump parallel from 1.27.0 to 1.28.0"
     body: |-
       Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
@@ -1513,29 +1473,46 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:38:07Z
     mergedAt: 2026-04-02T10:37:18Z
-  - title: "build(deps): bump pusher-js from 8.4.3 to 8.5.0"
+  - title: "build(deps-dev): bump parallel from 1.27.0 to 1.28.0"
     body: |-
-      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.3 to 8.5.0.
+      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
       <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
-      <blockquote>
-      <h2>v8.5.0</h2>
-      <h2>8.5.0</h2>
+      <summary>Commits</summary>
       <ul>
-      <li>[ADDED] New <code>...
-    url: https://github.com/unhappychoice/cycle-pusher/pull/349
-    repository: unhappychoice/cycle-pusher
+      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
+      <li><a href="https://github.com/grosser/paral...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/506
+    repository: irasutoya-tools/irasutoya
     state: merged
     labels:
       - dependencies
-      - javascript
-    additions: 3
-    deletions: 3
+      - ruby
+    additions: 1
+    deletions: 1
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-04-02T05:38:03Z
-    mergedAt: 2026-04-02T10:37:07Z
+    createdAt: 2026-04-02T05:38:12Z
+    mergedAt: 2026-04-02T10:37:23Z
+  - title: "chore(deps): Bump parallel from 1.27.0 to 1.28.0"
+    body: |-
+      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
+      <li><a href="https://github.com/grosser/paral...
+    url: https://github.com/unhappychoice/blog/pull/692
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-02T05:38:06Z
+    mergedAt: 2026-04-02T10:37:12Z
   - title: "build(deps-dev): bump esbuild from 0.27.4 to 0.27.5 in /example"
     body: |-
       Bumps [esbuild](https://github.com/evanw/esbuild) from 0.27.4 to 0.27.5.
@@ -1559,26 +1536,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:38:04Z
     mergedAt: 2026-04-02T10:40:21Z
-  - title: ⬆️ Bump parallel from 1.27.0 to 1.28.0
+  - title: "build(deps): bump pusher-js from 8.4.3 to 8.5.0"
     body: |-
-      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
+      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.3 to 8.5.0.
       <details>
-      <summary>Commits</summary>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
+      <blockquote>
+      <h2>v8.5.0</h2>
+      <h2>8.5.0</h2>
       <ul>
-      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
-      <li><a href="https://github.com/grosser/paral...
-    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/165
-    repository: bitflyer-tools/bitflyer-cli
+      <li>[ADDED] New <code>...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/349
+    repository: unhappychoice/cycle-pusher
     state: merged
     labels:
       - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
+      - javascript
+    additions: 3
+    deletions: 3
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-04-02T05:37:56Z
-    mergedAt: 2026-04-02T10:36:59Z
+    createdAt: 2026-04-02T05:38:03Z
+    mergedAt: 2026-04-02T10:37:07Z
   - title: "build(deps-dev): Bump parallel from 1.27.0 to 1.28.0"
     body: |-
       Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
@@ -1599,6 +1579,26 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:37:54Z
     mergedAt: 2026-04-02T10:40:09Z
+  - title: ⬆️ Bump parallel from 1.27.0 to 1.28.0
+    body: |-
+      Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/grosser/parallel/commit/e141db91fe9e861ba533303c025b1a24cb2acccd"><code>e141db9</code></a> v1.28.0</li>
+      <li><a href="https://github.com/grosser/paral...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/165
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-02T05:37:56Z
+    mergedAt: 2026-04-02T10:36:59Z
   - title: "chore(deps-dev): bump parallel from 1.27.0 to 1.28.0"
     body: |-
       Bumps [parallel](https://github.com/grosser/parallel) from 1.27.0 to 1.28.0.
@@ -1619,33 +1619,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:36:19Z
     mergedAt: 2026-04-02T10:36:52Z
-  - title: "chore(deps): bump toml_edit from 0.25.6+spec-1.1.0 to 0.25.9+spec-1.1.0"
-    body: >-
-      Bumps [toml_edit](https://github.com/toml-rs/toml) from 0.25.6+spec-1.1.0 to 0.25.9+spec-1.1.0.
-
-      <details>
-
-      <summary>Commits</summary>
-
-      <ul>
-
-      <li><a
-      href="https://github.com/toml-rs/toml/commit/9db8aad6eafbc62f6b9d1950117649cc41eaf695"><code>9db8aad</code></a>
-      chore: Release</li>
-
-      <li><a href="https://gi...
-    url: https://github.com/unhappychoice/gitlogue/pull/185
-    repository: unhappychoice/gitlogue
-    state: merged
-    labels:
-      - dependencies
-      - rust
-    additions: 2
-    deletions: 2
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-04-02T05:24:53Z
-    mergedAt: 2026-04-02T10:36:46Z
   - title: "chore(deps): bump toml from 1.1.1+spec-1.1.0 to 1.1.2+spec-1.1.0"
     body: >-
       Bumps [toml](https://github.com/toml-rs/toml) from 1.1.1+spec-1.1.0 to 1.1.2+spec-1.1.0.
@@ -1673,6 +1646,33 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-02T05:24:38Z
     mergedAt: 2026-04-02T10:35:47Z
+  - title: "chore(deps): bump toml_edit from 0.25.6+spec-1.1.0 to 0.25.9+spec-1.1.0"
+    body: >-
+      Bumps [toml_edit](https://github.com/toml-rs/toml) from 0.25.6+spec-1.1.0 to 0.25.9+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/9db8aad6eafbc62f6b9d1950117649cc41eaf695"><code>9db8aad</code></a>
+      chore: Release</li>
+
+      <li><a href="https://gi...
+    url: https://github.com/unhappychoice/gitlogue/pull/185
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-02T05:24:53Z
+    mergedAt: 2026-04-02T10:36:46Z
   - title: "chore(deps): bump @xmldom/xmldom from 0.8.11 to 0.8.12"
     body: >-
       Bumps [@xmldom/xmldom](https://github.com/xmldom/xmldom) from 0.8.11 to 0.8.12.
@@ -1701,38 +1701,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-01T04:48:12Z
     mergedAt: 2026-04-01T06:29:20Z
-  - title: "chore(deps): Bump minitest from 6.0.2 to 6.0.3"
-    body: >-
-      Bumps [minitest](https://github.com/minitest/minitest) from 6.0.2 to 6.0.3.
-
-      <details>
-
-      <summary>Changelog</summary>
-
-      <p><em>Sourced from <a href="https://github.com/minitest/minitest/blob/master/History.rdoc">minitest's
-      changelog</a>.</em></p>
-
-      <blockquote>
-
-      <p>=== 6.0.3 / 2026-03-31</p>
-
-      <ul>
-
-      <li>
-
-      <p>1 ...
-    url: https://github.com/unhappychoice/blog/pull/691
-    repository: unhappychoice/blog
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-04-01T03:07:03Z
-    mergedAt: 2026-04-01T06:29:10Z
   - title: "chore(deps-dev): bump minitest from 6.0.2 to 6.0.3"
     body: >-
       Bumps [minitest](https://github.com/minitest/minitest) from 6.0.2 to 6.0.3.
@@ -1765,29 +1733,38 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-01T03:16:45Z
     mergedAt: 2026-04-01T06:29:16Z
-  - title: "chore(deps): bump insta from 1.47.1 to 1.47.2"
-    body: |-
-      Bumps [insta](https://github.com/mitsuhiko/insta) from 1.47.1 to 1.47.2.
+  - title: "chore(deps): Bump minitest from 6.0.2 to 6.0.3"
+    body: >-
+      Bumps [minitest](https://github.com/minitest/minitest) from 6.0.2 to 6.0.3.
+
       <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/mitsuhiko/insta/releases">insta's releases</a>.</em></p>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/minitest/minitest/blob/master/History.rdoc">minitest's
+      changelog</a>.</em></p>
+
       <blockquote>
-      <h2>1.47.2</h2>
-      <h2>Release Notes</h2>
+
+      <p>=== 6.0.3 / 2026-03-31</p>
+
       <ul>
-      <li>Restore <code>Send...
-    url: https://github.com/unhappychoice/gittype/pull/405
-    repository: unhappychoice/gittype
+
+      <li>
+
+      <p>1 ...
+    url: https://github.com/unhappychoice/blog/pull/691
+    repository: unhappychoice/blog
     state: merged
     labels:
       - dependencies
-      - rust
-    additions: 2
-    deletions: 2
+      - ruby
+    additions: 1
+    deletions: 1
     changedFiles: 1
     author: dependabot[bot]
-    createdAt: 2026-03-31T12:55:36Z
-    mergedAt: 2026-03-31T14:54:41Z
+    createdAt: 2026-04-01T03:07:03Z
+    mergedAt: 2026-04-01T06:29:10Z
   - title: "chore(deps): bump toml from 1.1.0+spec-1.1.0 to 1.1.1+spec-1.1.0"
     body: >-
       Bumps [toml](https://github.com/toml-rs/toml) from 1.1.0+spec-1.1.0 to 1.1.1+spec-1.1.0.
@@ -1815,6 +1792,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-04-01T02:29:56Z
     mergedAt: 2026-04-01T06:29:07Z
+  - title: "chore(deps): bump insta from 1.47.1 to 1.47.2"
+    body: |-
+      Bumps [insta](https://github.com/mitsuhiko/insta) from 1.47.1 to 1.47.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mitsuhiko/insta/releases">insta's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.47.2</h2>
+      <h2>Release Notes</h2>
+      <ul>
+      <li>Restore <code>Send...
+    url: https://github.com/unhappychoice/gittype/pull/405
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-31T12:55:36Z
+    mergedAt: 2026-03-31T14:54:41Z
   - title: "chore(deps-dev): Bump typescript-eslint from 8.57.2 to 8.58.0 in /packages/frontend"
     body: >-
       Bumps
@@ -1881,24 +1881,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-31T07:45:18Z
     mergedAt: null
-  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.57.2 to 8.58.0 in /packages/frontend"
-    body: |-
-      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.57.2 to 8.58.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
-    url: https://github.com/unhappychoice/mdts/pull/619
-    repository: unhappychoice/mdts
-    state: closed
-    labels:
-      - dependencies
-      - javascript
-    additions: 563
-    deletions: 23
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-31T07:45:00Z
-    mergedAt: null
   - title: "chore(deps-dev): Bump typescript-eslint from 8.57.2 to 8.58.0"
     body: >-
       Bumps
@@ -1923,6 +1905,24 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-31T07:45:03Z
     mergedAt: 2026-03-31T15:51:39Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.57.2 to 8.58.0 in /packages/frontend"
+    body: |-
+      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.57.2 to 8.58.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
+    url: https://github.com/unhappychoice/mdts/pull/619
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 563
+    deletions: 23
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-31T07:45:00Z
+    mergedAt: null
   - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.57.2 to 8.58.0"
     body: >-
       Bumps
@@ -2017,27 +2017,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-30T13:42:55Z
     mergedAt: 2026-03-30T14:25:17Z
-  - title: "chore(deps-dev): Bump axios from 1.13.6 to 1.14.0"
-    body: |-
-      Bumps [axios](https://github.com/axios/axios) from 1.13.6 to 1.14.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/axios/axios/releases">axios's releases</a>.</em></p>
-      <blockquote>
-      <h2>v1.14.0</h2>
-      <p>This release focuses on compatibility fixes, adapter s...
-    url: https://github.com/unhappychoice/mdts/pull/617
-    repository: unhappychoice/mdts
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 11
-    deletions: 231
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-30T07:48:41Z
-    mergedAt: 2026-03-30T09:31:31Z
   - title: "chore(deps): bump tree-sitter-rust from 0.24.1 to 0.24.2"
     body: >-
       Bumps [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) from 0.24.1 to 0.24.2.
@@ -2066,6 +2045,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-30T13:42:43Z
     mergedAt: 2026-03-30T14:25:24Z
+  - title: "chore(deps-dev): Bump axios from 1.13.6 to 1.14.0"
+    body: |-
+      Bumps [axios](https://github.com/axios/axios) from 1.13.6 to 1.14.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/axios/axios/releases">axios's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.14.0</h2>
+      <p>This release focuses on compatibility fixes, adapter s...
+    url: https://github.com/unhappychoice/mdts/pull/617
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 11
+    deletions: 231
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-30T07:48:41Z
+    mergedAt: 2026-03-30T09:31:31Z
   - title: "chore(deps-dev): bump bigdecimal from 4.0.1 to 4.1.0"
     body: |-
       Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 4.0.1 to 4.1.0.
@@ -2234,6 +2234,30 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-30T03:05:04Z
     mergedAt: 2026-03-30T09:31:06Z
+  - title: ⬆️ Bump bigdecimal from 4.0.1 to 4.1.0
+    body: |-
+      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 4.0.1 to 4.1.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.1.0</h2>
+
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Remove E...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/164
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-30T03:04:38Z
+    mergedAt: 2026-03-30T09:31:03Z
   - title: "chore(deps): bump tree-sitter-rust from 0.24.1 to 0.24.2"
     body: >-
       Bumps [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) from 0.24.1 to 0.24.2.
@@ -2288,30 +2312,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-29T18:10:06Z
     mergedAt: 2026-03-30T09:30:56Z
-  - title: ⬆️ Bump bigdecimal from 4.0.1 to 4.1.0
-    body: |-
-      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 4.0.1 to 4.1.0.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
-      <blockquote>
-      <h2>v4.1.0</h2>
-
-      <h2>What's Changed</h2>
-      <ul>
-      <li>Remove E...
-    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/164
-    repository: bitflyer-tools/bitflyer-cli
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-30T03:04:38Z
-    mergedAt: 2026-03-30T09:31:03Z
   - title: "chore(deps): bump tree-sitter-rust from 0.21.2 to 0.24.1"
     body: >-
       Bumps [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) from 0.21.2 to 0.24.1.
@@ -2342,617 +2342,6 @@ pullRequests:
     mergedAt: null
 issues: []
 events:
-  - id: "8083841967"
-    type: WatchEvent
-    repo: anuraghazra/github-readme-stats
-    createdAt: 2026-04-04T05:54:39Z
-    payload:
-      kind: generic
-      action: started
-  - id: "10207990043"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T09:24:44Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10207989425"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T09:24:41Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8098234450"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T09:24:40Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 93
-      title: ""
-  - id: "8098221631"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T09:23:28Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 93
-      title: ""
-  - id: "10207969827"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T09:23:23Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10204110896"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T05:04:46Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "10204067325"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T05:01:48Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "10203952880"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T04:53:52Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "10203886081"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:48:32Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10203885788"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:48:31Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8095942641"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:48:30Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 92
-      title: ""
-  - id: "10203875540"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:47:41Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "8095936668"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:47:42Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 92
-      title: ""
-  - id: "10203811579"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:42:35Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10203811240"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:42:33Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8095895370"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:42:31Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 91
-      title: ""
-  - id: "8095886779"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:41:27Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 91
-      title: ""
-  - id: "10203796446"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:41:20Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10203787380"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T04:40:37Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "10203736712"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:36:31Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10203736381"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:36:29Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8095849563"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:36:28Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 90
-      title: ""
-  - id: "10203711966"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T04:34:35Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "10203683019"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T04:32:21Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "8095778115"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:27:12Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 90
-      title: ""
-  - id: "10203611298"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T04:27:01Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10203230526"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T04:00:49Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "10203174648"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T03:57:14Z
-    payload:
-      kind: push
-      ref: refs/heads/gh-pages
-      commits: []
-  - id: "10203011112"
-    type: CreateEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T03:44:59Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "8095427337"
-    type: WatchEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T03:39:51Z
-    payload:
-      kind: generic
-      action: started
-  - id: "10202936139"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T03:39:16Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "10202936022"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T03:39:15Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "10202935870"
-    type: PushEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T03:39:14Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "10202934934"
-    type: CreateEvent
-    repo: unhappychoice/weekly-report
-    createdAt: 2026-04-05T03:39:10Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10202619293"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T03:16:32Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10202618555"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T03:16:30Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8095271718"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T03:16:29Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 89
-      title: ""
-  - id: "10202600829"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T03:15:21Z
-    payload:
-      kind: push
-      ref: refs/heads/fix/daily-fetch-yesterday
-      commits: []
-  - id: "10202567316"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T03:12:48Z
-    payload:
-      kind: push
-      ref: refs/heads/fix/daily-fetch-yesterday
-      commits: []
-  - id: "10202539444"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T03:10:44Z
-    payload:
-      kind: push
-      ref: refs/heads/fix/daily-fetch-yesterday
-      commits: []
-  - id: "10202422299"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T03:02:29Z
-    payload:
-      kind: push
-      ref: refs/heads/fix/daily-fetch-yesterday
-      commits: []
-  - id: "10202355115"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:59:08Z
-    payload:
-      kind: push
-      ref: refs/heads/fix/daily-fetch-yesterday
-      commits: []
-  - id: "10202331609"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:57:14Z
-    payload:
-      kind: push
-      ref: refs/heads/fix/daily-fetch-yesterday
-      commits: []
-  - id: "8095086725"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:51:15Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 89
-      title: ""
-  - id: "10202245334"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:51:02Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10201890619"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:25:47Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10201890497"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:25:46Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8094919786"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:25:44Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 88
-      title: ""
-  - id: "8094897944"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:22:44Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 88
-      title: ""
-  - id: "10201845460"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:22:33Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10201639743"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:07:32Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10201639449"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:07:31Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8094780037"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:07:29Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 87
-      title: ""
-  - id: "8094755447"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:04:18Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 87
-      title: ""
-  - id: "10201589426"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T02:04:08Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "8094588079"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:42:05Z
-    payload:
-      kind: pull_request
-      action: closed
-      number: 82
-      title: ""
-  - id: "8094587966"
-    type: IssueCommentEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:42:08Z
-    payload:
-      kind: generic
-      action: created
-  - id: "8094587962"
-    type: IssueCommentEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:42:09Z
-    payload:
-      kind: generic
-      action: created
-  - id: "8094587881"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:42:04Z
-    payload:
-      kind: pull_request
-      action: closed
-      number: 79
-      title: ""
-  - id: "10201267159"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:41:58Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10201267137"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:41:57Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10201266959"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:41:57Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8094586408"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:41:54Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 86
-      title: ""
-  - id: "10201266668"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:41:55Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "10201257364"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:41:11Z
-    payload:
-      kind: push
-      ref: refs/heads/dependabot/npm_and_yarn/eslint/js-10.0.1
-      commits: []
-  - id: "8094575051"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:40:07Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 86
-      title: ""
-  - id: "10201241771"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:40:00Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10200992019"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:21:22Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "10200977387"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:20:21Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10200977134"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:20:20Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8094440585"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:20:20Z
-    payload:
-      kind: issues
-      action: closed
-      number: 71
-      title: "docs: improve README and docs"
-  - id: "8094440470"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:20:18Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 85
-      title: ""
-  - id: "8094407946"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:15:28Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 85
-      title: ""
-  - id: "10200901970"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T01:15:16Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10200246241"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:29:15Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10200245814"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:29:14Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
   - id: "8094069945"
     type: PullRequestReviewEvent
     repo: deariary/github-weekly-reporter
@@ -2963,21 +2352,6 @@ events:
       prNumber: 84
       prTitle: ""
       state: approved
-  - id: "10200101202"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:18:45Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10200100835"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:18:44Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
   - id: "8093950954"
     type: PullRequestReviewEvent
     repo: deariary/github-weekly-reporter
@@ -2988,21 +2362,6 @@ events:
       prNumber: 77
       prTitle: ""
       state: approved
-  - id: "10200025301"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:13:15Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10200025166"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:13:14Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
   - id: "8093948767"
     type: PullRequestReviewEvent
     repo: deariary/github-weekly-reporter
@@ -3013,21 +2372,6 @@ events:
       prNumber: 78
       prTitle: ""
       state: approved
-  - id: "10200021642"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:13:00Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10200021208"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:12:59Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
   - id: "8093947030"
     type: PullRequestReviewEvent
     repo: deariary/github-weekly-reporter
@@ -3038,21 +2382,6 @@ events:
       prNumber: 80
       prTitle: ""
       state: approved
-  - id: "10200018007"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:12:43Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "10200018074"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-05T00:12:44Z
-    payload:
-      kind: generic
-      action: ""
   - id: "8093944973"
     type: PullRequestReviewEvent
     repo: deariary/github-weekly-reporter
@@ -3063,270 +2392,6 @@ events:
       prNumber: 83
       prTitle: ""
       state: approved
-  - id: "10199668159"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:49:00Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10199667811"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:48:59Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8093767926"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:49:00Z
-    payload:
-      kind: issues
-      action: closed
-      number: 73
-      title: "ci: add Dependabot for dependency updates"
-  - id: "8093767756"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:48:58Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 76
-      title: ""
-  - id: "10199624944"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:45:47Z
-    payload:
-      kind: push
-      ref: refs/heads/ci/dependabot
-      commits: []
-  - id: "8093718312"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:41:20Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 76
-      title: ""
-  - id: "10199563914"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:41:19Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10199525982"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:38:29Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "8093696649"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:38:27Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 75
-      title: ""
-  - id: "10199525497"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:38:27Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "10199400526"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:29:53Z
-    payload:
-      kind: push
-      ref: refs/heads/test/improve-coverage
-      commits: []
-  - id: "10199310525"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:23:20Z
-    payload:
-      kind: push
-      ref: refs/heads/test/improve-coverage
-      commits: []
-  - id: "8093544638"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:16:09Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 75
-      title: ""
-  - id: "10199204674"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T23:15:56Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10198924001"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:57:13Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10198923615"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:57:12Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8093406526"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:57:12Z
-    payload:
-      kind: issues
-      action: closed
-      number: 72
-      title: "ci: add Codecov for test coverage reporting"
-  - id: "8093406336"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:57:10Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 74
-      title: ""
-  - id: "8093395853"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:55:41Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 74
-      title: ""
-  - id: "10198901807"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:55:36Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "8093337171"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:47:47Z
-    payload:
-      kind: issues
-      action: labeled
-      number: 73
-      title: "ci: add Dependabot for dependency updates"
-  - id: "8093337140"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:47:46Z
-    payload:
-      kind: issues
-      action: opened
-      number: 73
-      title: "ci: add Dependabot for dependency updates"
-  - id: "8093336759"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:47:43Z
-    payload:
-      kind: issues
-      action: labeled
-      number: 72
-      title: "ci: add Codecov for test coverage reporting"
-  - id: "8093336724"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:47:43Z
-    payload:
-      kind: issues
-      action: opened
-      number: 72
-      title: "ci: add Codecov for test coverage reporting"
-  - id: "8093336591"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:47:42Z
-    payload:
-      kind: issues
-      action: labeled
-      number: 71
-      title: "docs: improve README and docs"
-  - id: "8093336567"
-    type: IssuesEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:47:41Z
-    payload:
-      kind: issues
-      action: opened
-      number: 71
-      title: "docs: improve README and docs"
-  - id: "10198751804"
-    type: DeleteEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:45:25Z
-    payload:
-      kind: generic
-      action: ""
-  - id: "10198751060"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:45:23Z
-    payload:
-      kind: push
-      ref: refs/heads/main
-      commits: []
-  - id: "8093319634"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:45:22Z
-    payload:
-      kind: pull_request
-      action: merged
-      number: 70
-      title: ""
-  - id: "10198665020"
-    type: PushEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:39:57Z
-    payload:
-      kind: push
-      ref: refs/heads/refactor/pre-release-quality
-      commits: []
-  - id: "8093135648"
-    type: PullRequestEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:21:19Z
-    payload:
-      kind: pull_request
-      action: opened
-      number: 70
-      title: ""
-  - id: "10198373367"
-    type: CreateEvent
-    repo: deariary/github-weekly-reporter
-    createdAt: 2026-04-04T22:21:06Z
-    payload:
-      kind: generic
-      action: ""
 commitMessages:
   - repo: unhappychoice/gitlogue
     messages:
@@ -3335,26 +2400,6 @@ commitMessages:
       - "Merge pull request #184 from unhappychoice/dependabot/cargo/toml-1.1.2spec-1.1.0"
       - "Merge pull request #183 from unhappychoice/dependabot/cargo/toml-1.1.1spec-1.1.0"
       - "Merge pull request #182 from unhappychoice/dependabot/cargo/tree-sitter-rust-0.24.2"
-  - repo: deariary/github-weekly-reporter
-    messages:
-      - "Merge pull request #93 from deariary/feat/setup-repo-homepage-topics"
-      - "feat: set homepage URL and topics on repository during setup"
-      - "Merge pull request #92 from deariary/fix/index-incomplete-report-links"
-      - "fix: exclude incomplete weeks from index page and navigation"
-      - "Merge pull request #91 from deariary/fix/exclude-private-repos-from-search"
-      - "fix: exclude private repositories from PR search"
-      - "Merge pull request #90 from deariary/fix/pr-fetch-403-handling"
-      - "fix: improve PR fetch error handling and document fine-grained PAT 403 issue"
-      - "Merge pull request #89 from deariary/fix/daily-fetch-yesterday"
-      - "fix: use UTC ISO timestamps in commit messages for unambiguous ranges"
-  - repo: unhappychoice/mdts
-    messages:
-      - "Merge pull request #626 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/react-router-dom-7.14.0"
-      - "Merge pull request #624 from unhappychoice/dependabot/npm_and_yarn/ts-jest-29.4.9"
-      - "Merge pull request #625 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/mermaid-11.14.0"
-      - "Merge pull request #620 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint-8.58.0"
-      - "Merge pull request #623 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint-8.58.0"
-      - "Merge pull request #617 from unhappychoice/dependabot/npm_and_yarn/axios-1.14.0"
   - repo: unhappychoice/blog
     messages:
       - "Merge pull request #693 from unhappychoice/dependabot/bundler/rack-3.1.21"
@@ -3370,36 +2415,343 @@ commitMessages:
       - "Merge pull request #860 from bitflyer-tools/dependabot/npm_and_yarn/xmldom/xmldom-0.8.12"
       - "Merge pull request #859 from bitflyer-tools/dependabot/npm_and_yarn/electron-41.1.0"
       - "Merge pull request #858 from bitflyer-tools/dependabot/npm_and_yarn/multi-57404e07ab"
+  - repo: unhappychoice/mdts
+    messages:
+      - "Merge pull request #626 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/react-router-dom-7.14.0"
+      - "Merge pull request #624 from unhappychoice/dependabot/npm_and_yarn/ts-jest-29.4.9"
+      - "Merge pull request #625 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/mermaid-11.14.0"
+      - "Merge pull request #620 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint-8.58.0"
+      - "Merge pull request #623 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint-8.58.0"
+      - "Merge pull request #617 from unhappychoice/dependabot/npm_and_yarn/axios-1.14.0"
+  - repo: unhappychoice/lintric
+    messages:
+      - "Merge pull request #153 from unhappychoice/dependabot/cargo/insta-1.47.2"
+      - "Merge pull request #151 from unhappychoice/dependabot/cargo/insta-1.47.1"
   - repo: unhappychoice/cycle-pusher
     messages:
       - "Merge pull request #351 from unhappychoice/dependabot/npm_and_yarn/example/esbuild-0.28.0"
       - "Merge pull request #350 from unhappychoice/dependabot/npm_and_yarn/example/esbuild-0.27.5"
       - "Merge pull request #349 from unhappychoice/dependabot/npm_and_yarn/pusher-js-8.5.0"
-  - repo: unhappychoice/lintric
-    messages:
-      - "Merge pull request #153 from unhappychoice/dependabot/cargo/insta-1.47.2"
-      - "Merge pull request #151 from unhappychoice/dependabot/cargo/insta-1.47.1"
   - repo: unhappychoice/slack_channel_stats
     messages:
       - "Merge pull request #89 from unhappychoice/dependabot/bundler/parallel-1.28.0"
       - "Merge pull request #88 from unhappychoice/dependabot/bundler/minitest-6.0.3"
       - "Merge pull request #87 from unhappychoice/dependabot/bundler/bigdecimal-4.1.0"
-  - repo: unhappychoice/gittype
-    messages:
-      - "Merge pull request #405 from unhappychoice/dependabot/cargo/insta-1.47.2"
-      - "Merge pull request #403 from unhappychoice/dependabot/cargo/tree-sitter-rust-0.24.2"
-      - "Merge pull request #404 from unhappychoice/dependabot/cargo/insta-1.47.1"
   - repo: irasutoya-tools/irasutoya
     messages:
       - "Merge pull request #506 from irasutoya-tools/dependabot/bundler/parallel-1.28.0"
       - "Merge pull request #505 from irasutoya-tools/dependabot/bundler/strscan-3.1.8"
       - "Merge pull request #504 from irasutoya-tools/dependabot/bundler/bigdecimal-4.1.0"
-  - repo: circleci-tools/circleci-cli
+  - repo: unhappychoice/gittype
     messages:
-      - "Merge pull request #981 from circleci-tools/dependabot/bundler/parallel-1.28.0"
-      - "Merge pull request #980 from circleci-tools/dependabot/bundler/bigdecimal-4.1.0"
+      - "Merge pull request #405 from unhappychoice/dependabot/cargo/insta-1.47.2"
+      - "Merge pull request #403 from unhappychoice/dependabot/cargo/tree-sitter-rust-0.24.2"
+      - "Merge pull request #404 from unhappychoice/dependabot/cargo/insta-1.47.1"
   - repo: bitflyer-tools/bitflyer-cli
     messages:
       - "Merge pull request #165 from bitflyer-tools/dependabot/bundler/parallel-1.28.0"
       - "Merge pull request #164 from bitflyer-tools/dependabot/bundler/bigdecimal-4.1.0"
+  - repo: circleci-tools/circleci-cli
+    messages:
+      - "Merge pull request #981 from circleci-tools/dependabot/bundler/parallel-1.28.0"
+      - "Merge pull request #980 from circleci-tools/dependabot/bundler/bigdecimal-4.1.0"
+  - repo: unhappychoice/terminal_image
+    messages:
+      - "Merge pull request #559 from unhappychoice/dependabot/bundler/parallel-1.28.0"
+  - repo: irasutoya-tools/irasutoya-cli
+    messages:
+      - "Merge pull request #626 from irasutoya-tools/dependabot/bundler/parallel-1.28.0"
+  - repo: deariary/github-weekly-reporter
+    messages:
+      - "Merge pull request #93 from deariary/feat/setup-repo-homepage-topics"
+      - "feat: set homepage URL and topics on repository during setup"
+      - "Merge pull request #92 from deariary/fix/index-incomplete-report-links"
+      - "fix: exclude incomplete weeks from index page and navigation"
+      - "Merge pull request #91 from deariary/fix/exclude-private-repos-from-search"
+      - "fix: exclude private repositories from PR search"
+      - "Merge pull request #90 from deariary/fix/pr-fetch-403-handling"
+      - "fix: improve PR fetch error handling and document fine-grained PAT 403 issue"
+      - "Merge pull request #89 from deariary/fix/daily-fetch-yesterday"
+      - "fix: use UTC ISO timestamps in commit messages for unambiguous ranges"
+      - "docs: update documentation for yesterday-based daily-fetch and commit-msg"
+      - "fix: generate commit messages via CLI commit-msg subcommand"
+      - "refactor: extract buildDailyPlan/buildWeeklyPlan with table-driven tests"
+      - "feat: log resolved parameters at start of daily-fetch and weekly-fetch"
+      - "fix: use timezone-aware date in action.yml commit messages"
+      - "fix: daily-fetch collects yesterday's events, not current day's"
+      - "Merge pull request #88 from deariary/fix/daily-fetch-current-week"
+      - "fix: daily-fetch now collects current week events instead of previous week"
+      - "Merge pull request #87 from deariary/test/improve-coverage"
+      - "test: improve test coverage from 95% to 97%"
+      - "Merge pull request #81 from deariary/dependabot/npm_and_yarn/eslint/js-10.0.1"
+      - "Merge pull request #86 from deariary/chore/bump-vitest-4"
+      - "fix: resolve no-useless-assignment and preserve-caught-error lint errors"
+      - "chore(deps-dev): bump vitest and @vitest/coverage-v8 from 3.x to 4.1.2"
+      - Reorder permissions for GitHub PAT in README
+      - "Merge pull request #85 from deariary/docs/improve-readme-and-docs"
+      - "docs: improve README and add how-it-works, customization, faq, troubleshooting"
+      - "Merge pull request #84 from deariary/dependabot/npm_and_yarn/typescript-6.0.2"
+      - "Merge pull request #77 from deariary/dependabot/npm_and_yarn/minor-and-patch-443f91976c"
+      - "Merge pull request #78 from deariary/dependabot/npm_and_yarn/octokit/graphql-9.0.3"
+      - "Merge pull request #80 from deariary/dependabot/npm_and_yarn/types/node-25.5.2"
+      - "Merge pull request #83 from deariary/dependabot/npm_and_yarn/eslint-10.2.0"
+      - "Merge pull request #76 from deariary/ci/dependabot"
+      - "ci: add CODEOWNERS file"
+      - "ci: add Dependabot for dependency updates"
+      - "Merge pull request #75 from deariary/test/improve-coverage"
+      - "test: add setup.ts integration tests, coverage 86% to 95%"
+      - "test: add CLI command and OG image tests, coverage 63% to 86%"
+      - "test: improve test coverage from 40% to 63%"
+      - "Merge pull request #74 from deariary/ci/codecov"
+      - "ci: add Codecov for test coverage reporting"
+      - "Merge pull request #70 from deariary/refactor/pre-release-quality"
+      - "refactor: medium/low priority quality improvements"
+      - "refactor: improve code quality for public release"
+      - "Merge pull request #69 from deariary/feat/index-og-image"
+      - "fix: increase font sizes in index OG image"
+      - "feat: add default OG image for index page"
+      - "Merge pull request #68 from deariary/feat/og-image"
+      - "feat: add OG image for repository social preview"
+      - "Merge pull request #67 from deariary/feat/demo-video"
+      - "fix: use GitHub-hosted video URL in README and exclude demo.mp4 from repo"
+      - "feat: add demo video for README"
+      - "Merge pull request #64 from deariary/fix/permission-alphabetical"
+      - "fix: sort fine-grained PAT permissions alphabetically"
+      - "Merge pull request #63 from deariary/fix/deploy-gh-pages-preserve"
+      - "fix: revert to gh-pages deploy but preserve existing files"
+      - "Merge pull request #62 from deariary/refactor/deploy-to-main"
+      - "Merge pull request #61 from deariary/fix/week-nav-bottom-margin"
+      - "refactor: deploy to main branch output/ instead of gh-pages"
+      - "fix: add bottom padding to week navigation buttons"
+      - "Merge pull request #60 from deariary/docs/readme-intro"
+      - "docs: rewrite README intro as clear value proposition"
+      - "Merge pull request #59 from deariary/fix/readme-deariary-link"
+      - "fix: change 'Built with' to 'Supported by' for deariary link"
+      - "Merge pull request #58 from deariary/fix/readme-deariary-link"
+      - "fix: add deariary link to generated user README"
+      - "Merge pull request #57 from deariary/fix/iso-week-range"
+      - "Merge pull request #56 from deariary/feat/workflow-date-input"
+      - "fix: use previous ISO week (Mon-Sun) instead of sliding 7-day window"
+      - "fix: remove date input from daily-fetch (only weekly needs it)"
+      - "feat: add date input to generated workflow files for manual date targeting"
+      - "Merge pull request #55 from deariary/feat/weekly-fetch-search-api"
+      - "fix: handle SITE_TITLE \\n correctly in nav (inline) and hero (multiline)"
+      - "feat: use GitHub Search API in weekly-fetch to find PRs missed by daily events"
+      - "fix: pull latest before fetch/generate to avoid push rejection"
+      - "fix: remove unnecessary git pull --rebase from commit steps"
+      - "fix: commit data before pull --rebase to avoid untracked file conflict"
+      - "fix: re-render previous week's report to add next-week link"
+      - "fix: include assets/ (fonts) in npm package"
+      - "fix: run git pull --rebase before git add to avoid uncommitted changes error"
+      - "chore: remove prepublishOnly (CI already runs build and test)"
+      - "fix: restore registry-url needed for OIDC auth in setup-node"
+      - "fix: remove registry-url and NPM_TOKEN for OIDC Trusted Publishing"
+      - "chore: add AGENTS.md and change publish workflow to bump type selection"
+      - "Merge pull request #54 from deariary/feat/cli-setup-command"
+      - "docs: add manual trigger instructions to README"
+      - "fix: address self-review findings (20 issues)"
+      - "docs: split manual-setup workflow into daily-fetch.yml and weekly-report.yml"
+      - "docs: remove GitHub Action Usage section from README"
+      - "docs: list OpenRouter first in LLM Providers section"
+      - "feat: schedule weekly report on Monday, 1 hour after daily fetch"
+      - "fix: list OpenRouter first in provider selection"
+      - "docs: list all 6 LLM providers in prerequisites"
+      - "docs: list OpenRouter first in prerequisites"
+      - "docs: add prerequisites section to README"
+      - "fix: rename 'Triggered workflow' to 'Triggered build'"
+      - "fix: label triggered workflow URL clearly"
+      - "fix: clarify that Pages URL is available after workflow completes"
+      - "refactor: split into daily-fetch.yml and weekly-report.yml workflows"
+      - "fix: trigger weekly report on setup instead of daily fetch"
+      - "fix: clarify completion message that daily fetch is already running"
+      - "fix: fail setup if secret creation fails instead of continuing"
+      - "fix: retry secret creation with backoff, fallback to manual instructions"
+      - "fix: correct tweetsodium import (seal is on default export)"
+      - "refactor: move CLI reference to docs/, keep README focused"
+      - "fix: LLM provider is required, not optional"
+      - "docs: note that fine-grained PAT requires All repositories access"
+      - "fix: use PAT (GH_PAT secret) instead of GITHUB_TOKEN for data collection"
+      - "docs: rewrite README and add manual setup guide"
+      - "feat: support both classic and fine-grained PATs"
+      - "feat: add confirmation summary before executing setup actions"
+      - "fix: remove model names from provider selection labels"
+      - "docs: add BASE_URL and custom domain instructions to generated README"
+      - "refactor: replace hardcoded model list with free input and API validation"
+      - "refactor: overhaul setup command with comprehensive improvements"
+      - "feat: add interactive CLI setup command"
+      - "Merge pull request #53 from deariary/fix/increase-max-tokens"
+      - "fix: increase max_tokens from 4096 to 16384 for all LLM providers"
+      - "Merge pull request #52 from deariary/feat/add-llm-providers"
+      - "fix: prioritize provider-specific API key over fallback chain"
+      - "feat: add Grok (xAI) LLM provider"
+      - "feat: add OpenRouter and Groq LLM providers"
+      - "Merge pull request #51 from deariary/fix/security-hardening"
+      - "fix: harden security across workflows, templates, and dependencies"
+      - "Merge pull request #50 from deariary/feat/design-polish"
+      - "feat: split 'Dev Pulse' into two lines for maximum visual impact"
+      - "feat: default site title 'Dev Pulse', hero uses siteTitle"
+      - "fix: inline-flex profile link, green glow on name hover"
+      - "feat: glowing hover effect on hero profile"
+      - "fix: remove summary card borders, increase minimum font sizes"
+      - "fix: massive section titles (5rem) and bolder card headings (2.75rem)"
+      - "fix: card headings break out leftward instead of upward"
+      - "fix: all highlights 2-col, bolder card title breakout, readable footer"
+      - "fix: centered overview, narrower cards with breakout titles, stronger hover"
+      - "fix: widen content to 960px, bold asymmetric card offsets"
+      - "feat: report page hero section, unified 960px nav, bold card layout"
+      - "fix: align nav/content width, add asymmetric card layout"
+      - "feat: unify report page with dark artistic design"
+      - "refactor: remove theme selection, unify to dark design"
+      - "feat: artistic index page with geometric decorations and bold typography"
+      - "feat: artistic index page with dark hero, GitHub profile data"
+      - "feat: bold index page redesign with hero section and card layout"
+      - "fix: unify nav height with min-height, redesign author profile"
+      - "feat: redesign index page and unify header layout"
+      - "feat: replace nav avatar with configurable site title"
+      - "feat: design polish and layout improvements"
+      - "Merge pull request #48 from deariary/feat/seo-optimization"
+      - "feat: improve a11y and performance"
+      - "feat: add meta author, theme-color, article timestamps, favicon"
+      - "feat: multi-language OG image fonts matching report body fonts"
+      - "fix: increase OG image subtitle font size to 30px"
+      - "fix: generate CNAME for custom domains, normalize nav links"
+      - "fix: normalize nav links to trailing slash (../../ instead of ../../index.html)"
+      - "feat: add BreadcrumbList JSON-LD structured data"
+      - "feat: add robots.txt, og:url, og:site_name for better SEO"
+      - "fix: add --base-url for absolute URLs, Twitter Card, improve OG image"
+      - "feat: SEO optimization with OG images, JSON-LD, sitemap, and internal linking"
+      - "Merge pull request #47 from deariary/refactor/require-llm-content"
+      - "refactor: make LLM content required for report rendering"
+      - "Merge pull request #46 from deariary/feat/author-profile-links"
+      - "fix: move GitHub profile link from nav to header hero section"
+      - "feat: link author avatar and name to GitHub profile"
+      - "Merge pull request #43 from deariary/feat/action-data-persistence"
+      - "fix: remove redundant credential setup from action.yml"
+      - "fix: use credential store instead of embedding token in remote URL"
+      - "fix: harden action.yml and fix timezone handling across codebase"
+      - "fix: parse --date in user's timezone instead of UTC"
+      - "feat: add date input for generating reports for arbitrary weeks"
+      - "feat: persist data/ to repository in GitHub Action workflow"
+      - "Merge pull request #42 from deariary/refactor/separate-data-output-dirs"
+      - "refactor: separate data and HTML output into different directories"
+      - "Merge pull request #41 from deariary/refactor/remove-config-file"
+      - "refactor: remove config file, use CLI flags and env vars only"
+      - "Merge pull request #40 from deariary/fix/release-highlight-links"
+      - "fix: add noopener nofollow to Markdown-generated links"
+      - "fix: add nofollow to external highlight links for SEO"
+      - "fix: resolve release highlight URLs and open external links in new tab"
+      - "Merge pull request #39 from deariary/feat/i18n-timezone"
+      - "fix: make LLM titles specific with concrete details"
+      - "style: add font smoothing and OpenType feature settings"
+      - "feat: add markdown rendering for LLM-generated content"
+      - "fix: make overview section more substantive"
+      - "fix: improve LLM language instructions with tone guidance"
+      - "fix: pass timezone to deploy command's getWeekId"
+      - "fix: pass timezone to fetchContributions dailyCommits filter"
+      - "test: add comprehensive timezone boundary tests"
+      - "feat: switch to distinctive fonts per language"
+      - "feat: add 8 more languages and per-language font configuration"
+      - "feat: add timezone-aware date ranges and i18n support (en/ja)"
+      - "Merge pull request #29 from deariary/feat/enrich-data-collection"
+      - "feat: add card entrance animations"
+      - "fix: simplify view transition to default cross-fade only"
+      - "feat: add View Transitions API for smooth page navigation"
+      - "fix: restore border-top on overview, keep border-bottom removed"
+      - "fix: remove hr borders from overview section"
+      - "fix: lint errors (unused var, useless escape)"
+      - "fix: Events API MAX_PAGES=3 (hard limit), parallelize PR fetch (5 concurrent)"
+      - "refactor: replace Search API with Events + individual PR fetch"
+      - "feat: add --date option to fetch/generate/render commands"
+      - "fix: unify summary and highlight as card style"
+      - "fix: correct nav back link path (../../index.html, not ../)"
+      - "feat: fix repo bars, add hover animations, year-grouped index"
+      - "feat: redesign index page to match V4 mockup"
+      - "feat: allow flexible section ordering and custom summary types"
+      - "feat: add data visuals to summary sections"
+      - "refactor: remove language breakdown (inaccurate data)"
+      - "fix: only collect public repository data"
+      - "refactor: split CLI into fetch/generate/render/deploy pipeline"
+      - "feat: add type-specific visuals and highlight links"
+      - "feat: prompt tuning and max_tokens fix"
+      - "feat: detect and fetch external contributions"
+      - "refactor: split output into github-data.yaml and llm-data.yaml"
+      - "refactor: clean up data collection and storage"
+      - "fix: handle unquoted YAML values from LLM output, add quoting instruction to prompt"
+      - "fix: rename GraphQL variable 'query' to 'searchQuery' to avoid reserved name conflict"
+      - "feat: rewrite index page with V5 design"
+      - "feat: restructure for LLM-driven content (V5 design)"
+      - "feat: add LLM preprocessing and rewrite prompt for meaningful narratives"
+      - "feat: enrich data collection and save raw data as YAML"
+      - "Merge pull request #28 from deariary/chore/npm-scope"
+      - "chore: exclude test files from npm package, improve README Action example"
+      - "Merge pull request #27 from deariary/ci/github-actions"
+      - "ci: use OIDC provenance for npm publish, remove NPM_TOKEN"
+      - "ci: split lint and test into separate jobs"
+      - "ci: make publish workflow manual with version input"
+      - "ci: add GitHub Actions workflows for CI and npm publish"
+      - "Merge pull request #17 from deariary/feat/github-action"
+      - "chore: remove esbuild bundle, use dist/ + templates for npm publish"
+      - "fix: pass github-token via env var in deploy, not in URL"
+      - "feat: add version input to Action for CLI version pinning"
+      - "chore: bump Node.js target to 24"
+      - "chore: bump Node.js target to 22"
+      - "refactor: make Action a composite that calls CLI via npx"
+      - "fix: prevent duplicate templates in bundle"
+      - "feat: add esbuild bundling for Action and CLI distribution"
+      - "feat: add GitHub Action scaffold"
+      - "Merge pull request #16 from deariary/docs/readme-and-license"
+      - "docs: add README and custom license"
+      - "Merge pull request #15 from deariary/feat/cli"
+      - "feat: add .github-weekly-reporter.toml config file support"
+      - "feat: support environment variables for secrets in generate command"
+      - "feat: add CLI with generate and deploy commands"
+      - "Merge pull request #14 from deariary/feat/github-pages-deployment"
+      - "refactor: deploy module handles git push only"
+      - "refactor: restore git operations in deploy module"
+      - "refactor: remove git operations from deployer, keep file I/O only"
+      - "feat: add GitHub Pages deployment module"
+      - "Merge pull request #13 from deariary/feat/llm-integration"
+      - "refactor: require explicit provider/model config, remove auto-detection"
+      - "feat: add LLM integration for AI narrative generation"
+      - "Merge pull request #12 from deariary/feat/html-report-generation"
+      - "refactor: rewrite renderer with Handlebars templates"
+      - "feat: add HTML report renderer with theming and SEO"
+      - "Merge pull request #11 from deariary/feat/github-api-data-collection"
+      - "feat: add project scaffold and GitHub API data collection module"
+      - "chore: initial commit"
+releases:
+  - repo: deariary/github-weekly-reporter
+    tag: v0.3.4
+    name: v0.3.4
+    body: >-
+      ## What's Changed
+
+      * feat: set homepage URL and topics on repository during setup by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/93
+
+
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.3.3...v0.3.4
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.3.4
+    publishedAt: 2026-04-05T09:26:53Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.3.3
+    name: v0.3.3
+    body: >-
+      ## What's Changed
+
+      * fix: improve PR fetch error handling and document fine-grained PAT 403 issue by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/90
+
+      * fix: exclude private repositories from PR search by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/91
+
+      * fix: exclude incomplete weeks from index page and navigation by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/92
+
+
+
+      **Full Changelog**: https://github.com/deariary...
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.3.3
+    publishedAt: 2026-04-05T04:49:50Z
 externalContributions: []

@@ -1,101 +1,136 @@
-title: Critical daily-fetch bug fixed in github-weekly-reporter
-subtitle: Resolved a data loss issue where daily-fetch collected the previous week's events, causing Sunday's data to be
-  permanently lost.
+title: Fixing daily-fetch's week range bug and stabilizing the pipeline
+subtitle: A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data
+  collection was targeting the wrong week.
 overview: >
-  This week was consumed by stabilizing the github-weekly-reporter tool, particularly fixing a critical bug in the
-  daily-fetch process that caused event data loss. The bug meant that on Mondays, the week ID would flip before Sunday's
-  events were collected, resulting in missing data for entire weeks. Multiple related fixes were implemented to ensure
-  reliable weekly reporting.
+  This week was dominated by a critical discovery: the `daily-fetch` cron job, which runs at midnight, was incorrectly
+  collecting data for the *previous* ISO week instead of the current one. This meant on Monday nights, Sunday's
+  contributions were permanently lost because the week ID had already rolled over. The fix required a careful rethink of
+  the date range logic and triggered a wave of related corrections.
 
 
-  Alongside the bug fixes, I managed a large-scale dependency update effort across 10+ repositories using Dependabot,
-  and significantly improved test coverage in the main repo from 40% to 63%. Commit activity was bursty, with two major
-  peaks on April 1st (161 commits) and April 4th (283 commits) corresponding to intensive debugging and merge sessions.
+  With the core data pipeline stabilized, the focus shifted to hardening the entire system. This meant improving error
+  handling for API rate limits and permissions, preventing private repo leaks in reports, and ensuring incomplete weekly
+  reports didn't break the index page navigation. In parallel, a major push brought test coverage from 95% to 97%, and I
+  finally got Dependabot configured to automate the endless dependency updates across my entire portfolio.
 
 
-  The focus shifted from feature development to robustness and maintenance, preparing the tool for public release. The
-  combination of bug fixes, automation, and testing has put the project in a much healthier state.
+  The week culminated in a massive, focused burst of 283 commits on Saturday (April 4th), where I merged a backlog of
+  dependency updates (Vitest 4, ESLint 10, TypeScript 6) and polished documentation. The rhythm was intense: deep
+  debugging early in the week, systematic quality improvements mid-week, and a final sprint to close the loop on
+  maintenance tasks.
 summaries:
-  - type: bugfix-summary
-    heading: daily-fetch week range bug caused data loss
-    body: Fixed a critical bug where daily-fetch collected the previous week's events instead of the current week, leading
-      to empty event files mid-week. This was particularly problematic on Mondays when the week ID flipped, causing
-      Sunday's events to be permanently lost. The fix introduces buildYesterdayRange and getCurrentWeekId to correctly
-      target yesterday's date within the current week, ensuring no data is missed.
+  - type: critical-bug-fix
+    heading: The Great Week Range Mix-up
+    body: The `daily-fetch` cron, firing at midnight Monday, used a function that targeted the *previous* ISO week. This
+      caused Sunday's events to be skipped entirely when the week rolled over. The fix involved creating new
+      `buildCurrentWeekRange` and `getCurrentWeekId` functions to correctly target the ongoing week's data, ensuring no
+      contributions are lost at week boundaries.
     chips:
-      - label: affected-repo
-        value: deariary/github-weekly-reporter
+      - label: affected PR
+        value: "#89"
+        color: red
+      - label: impact
+        value: data loss prevention
         color: default
-      - label: daily-fetch-prs
-        value: 2 PRs
+      - label: files changed
+        value: "6"
         color: default
-      - label: criticality
-        value: high
-        color: default
-  - type: dependency-summary
-    heading: Dependabot automation handles 30+ dependency updates
-    body: Dependabot opened and merged PRs across 12 repositories, updating npm, GitHub Actions, Rust, and Ruby
-      dependencies. This included major version bumps like vitest 4.x and TypeScript 6.0, requiring code adjustments.
-      The automation reduced manual maintenance overhead significantly and kept all projects secure and up-to-date.
+  - type: testing
+    heading: Pushing Test Coverage to 97%
+    body: After the initial stability fixes, I targeted the remaining coverage gaps. By adding 19 new test cases across 5
+      files, I increased statement coverage from 95.21% to 97.1% and branch coverage from 87.81% to 90.7%. Key modules
+      like `render.ts` and `deploy.ts` now hit 99-100% coverage, giving me confidence in the refactoring and bug-fix
+      changes.
     chips:
-      - label: repos-updated
-        value: 12 repositories
-        color: default
-      - label: dependabot-prs-merged
-        value: 30+ PRs
-        color: default
-      - label: ecosystems
-        value: npm, cargo, bundler
-        color: default
-  - type: testing-summary
-    heading: Test coverage jumps from 40% to 63% in main repo
-    body: Added 128 new tests (280 to 408 total) focusing on core modules like collector, llm, and deployer. Coverage
-      improvements ensure reliability for the upcoming public release. Excluded the video/ directory from reporting to
-      focus on production code.
-    chips:
-      - label: coverage-gain
-        value: +22.46% statement coverage
-        color: default
-      - label: new-tests
-        value: 128 tests
-        color: default
-      - label: modules-at-97%+
-        value: 4 modules
-        color: default
-  - type: activity-pattern
-    heading: Burst-driven development with two peak days
-    body: "Commit activity was uneven, with two major bursts: April 1st (161 commits) and April 4th (283 commits). These
-      align with focused debugging sessions for the daily-fetch bug and dependency update merges. The rest of the week
-      saw lighter, review-focused work."
-    chips:
-      - label: peak-day
-        value: Apr 4 (283 commits)
+      - label: coverage gain
+        value: +1.89pt
         color: green
-      - label: total-commits
-        value: 312 commits
+      - label: new tests
+        value: "19"
         color: default
-      - label: burst-days
-        value: 2 of 7
+      - label: modules at 100%
+        value: "3"
+        color: default
+  - type: devops
+    heading: Automation and Hardening
+    body: "Two major automation wins: I added Dependabot to automatically open PRs for npm and GitHub Actions dependencies
+      (with grouping to reduce noise), and integrated Codecov to track coverage trends. Separately, I hardened the
+      GitHub Actions workflows by switching to OIDC for npm publishing (removing NPM_TOKEN) and improved error handling
+      in the PR fetch logic to distinguish between rate limits (429) and permission errors (403)."
+    chips:
+      - label: Dependabot config
+        value: added
+        color: default
+      - label: Codecov
+        value: integrated
+        color: default
+      - label: security fix
+        value: PAT vs GITHUB_TOKEN
+        color: orange
+  - type: activity-pattern
+    heading: Saturday Dependency Blitz
+    body: "The commit pattern shows a clear peak on Saturday (283 commits), contrasting with more moderate daily activity
+      earlier in the week. This was a dedicated 'maintenance blitz' day where I merged a cascade of Dependabot PRs
+      bumping major dependencies: Vitest 3.x -> 4.1.2, ESLint 9.x -> 10.2.0, and TypeScript 5.9.3 -> 6.0.2. The volume
+      reflects the accumulated technical debt from pinning versions during active development."
+    chips:
+      - label: peak day
+        value: Sat (283 commits)
+        color: green
+      - label: total commits
+        value: "312"
+        color: default
+      - label: major bumps
+        value: Vitest, ESLint, TS
+        color: default
+  - type: content-creation
+    heading: Documentation Overhaul
+    body: I significantly restructured the project documentation. The README was streamlined to focus on prerequisites and
+      value proposition, with cost and customization details moved to new `docs/` pages (`how-it-works.md`,
+      `customization.md`, `faq.md`, `troubleshooting.md`). This separation makes the project more approachable for new
+      users while providing deep dives for operators.
+    chips:
+      - label: new docs pages
+        value: "4"
+        color: default
+      - label: README sections
+        value: restructured
         color: default
 highlights:
   - type: pr
-    title: "fix: daily-fetch now collects current week events instead of previous week"
+    title: "fix: daily-fetch collects yesterday's events, not current day's"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 2 · +168 -7 · 6 files
-    body: This fix prevented permanent loss of Sunday's event data by ensuring daily-fetch collects the correct week's
-      events, crucial for accurate weekly reports.
-    url: https://github.com/deariary/github-weekly-reporter/pull/88
+    meta: merged Apr 1 · +439 -102 · 9 files
+    body: This was the pivotal bug. The `daily-fetch` cron was using the *previous* week's range, causing it to fetch 0
+      events mid-week and lose Sunday's data on Monday rollovers. The fix introduced `buildYesterdayRange` to correctly
+      target the prior day's contributions.
+    url: https://github.com/deariary/github-weekly-reporter/pull/89
   - type: pr
-    title: "test: improve test coverage from 40% to 63%"
+    title: "fix: exclude incomplete weeks from index page and navigation"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 4 · +2522 -8 · 20 files
-    body: Boosting coverage from 40% to 63% significantly improved confidence in the codebase ahead of public release, with
-      core modules now at 97-100%.
-    url: https://github.com/deariary/github-weekly-reporter/pull/75
+    meta: merged Apr 1 · +27 -9 · 2 files
+    body: "A direct consequence of the week-range bug: weeks with only `events.yaml` (from daily-fetch) but no completed
+      `llm-data.yaml` would appear as broken links. This PR ensures only fully generated reports are listed, preventing
+      user confusion."
+    url: https://github.com/deariary/github-weekly-reporter/pull/92
+  - type: pr
+    title: "test: improve test coverage from 95% to 97%"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 2 · +309 -1 · 5 files
+    body: A targeted testing push that solidified the recent bug-fix changes. The new tests, especially around date range
+      logic and rendering, provide a safety net for future modifications to the core pipeline.
+    url: https://github.com/deariary/github-weekly-reporter/pull/87
   - type: pr
     title: "ci: add Dependabot for dependency updates"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 3 · +19 -0 · 2 files
-    body: Automating dependency updates across all repositories reduces security risks and maintenance burden, keeping
-      projects up-to-date with minimal manual effort.
+    meta: merged Apr 4 · +19 -0 · 2 files
+    body: This automation PR will save countless hours going forward. By configuring Dependabot with grouped minor/patch
+      updates, the repo will stay current with security patches and ecosystem improvements without manual tracking.
     url: https://github.com/deariary/github-weekly-reporter/pull/76
+  - type: release
+    title: v0.3.4
+    repo: deariary/github-weekly-reporter
+    meta: released Apr 3
+    body: This patch release bundled the critical `daily-fetch` week-range fix and the private repo exclusion fix,
+      delivering the stabilized data collection pipeline to users. It represents the moment the core bug was resolved
+      and shipped.
