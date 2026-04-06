@@ -68,16 +68,16 @@ Commits: 64, PRs: 3, Reviews: 42</description>
       <media:content url="https://unhappychoice.github.io/weekly-report/2026/W12/og.png" medium="image" type="image/png" width="1200" height="630" />
     </item>
     <item>
-      <title>tree-sitter-dart 0.1.0 upgrade in gitlogue opens amid 19 dependency merges</title>
+      <title>Dependency Bump Marathon Across 15 Repos and a Homebrew Win for gittype</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W11/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W11/</guid>
-      <description>Major grammar bump for Dart parsing alongside cross-org maintenance across 14 repositories
+      <description>Bumped dependencies in Rust, Ruby, and JavaScript projects while simplifying gittype&apos;s installation via Homebrew.
 
-This week was dominated by dependency maintenance across my personal projects and several external organizations. I opened a significant PR bumping tree-sitter-dart from 0.0.4 to 0.1.0 in gitlogue—a jump that promises improved Dart parsing—while simultaneously merging 19 other dependency updates spanning Rust, JavaScript, and Ruby ecosystems.
+This week was a deep dive into maintenance across my portfolio of projects. I found myself bouncing between 15 different repositories, primarily focused on bumping dependencies to their latest safe versions. The variety of languages—Rust, Ruby, JavaScript—kept things interesting, as each ecosystem has its own quirks.
 
-The tree-sitter-dart upgrade is particularly interesting because it&apos;s not just a patch version bump; 0.1.0 likely includes breaking changes or major features that will affect how gitlogue processes Dart repositories. Meanwhile, my contributions to bitflyer-tools, circleci-tools, and irasutoya-tools show how dependency maintenance often crosses organizational boundaries, with the same clap/rubocop-ast updates appearing in multiple places.
+The highlight was undoubtedly the documentation improvement in gittype, where I simplified the Homebrew installation instructions. It’s a small change that makes a big difference to users. Meanwhile, I spent a lot of time reviewing automated dependency PRs, with a whopping 59 reviews to ensure everything merged cleanly.
 
-With 61 commits and 59 reviews, I stayed busy both pushing changes and reviewing others&apos; work. The pattern emerges clearly: one substantial open PR for a language grammar upgrade, plus a flood of smaller, automated dependency bumps that keep the toolchain healthy across all these projects.
+The pattern was bursty: midweek saw a flurry of activity as I churned through the backlog of dependency updates, while the weekend was quieter. It’s the kind of unsung work that keeps projects healthy, and it feels good to start the next week with everything up-to-date.
 
 
 Commits: 61, PRs: 0, Reviews: 59</description>
