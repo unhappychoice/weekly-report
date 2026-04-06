@@ -14,16 +14,16 @@
       <height>630</height>
     </image>
     <item>
-      <title>daily-fetch week rollover bug fixed after Sunday event loss</title>
+      <title>Critical daily-fetch bug fixed in github-weekly-reporter</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>
-      <description>A critical bug in the daily-fetch cron caused Sunday events to be missed due to ISO week miscalculation, prompting a week of debugging, fixes, and collateral improvements.
+      <description>Resolved a data loss issue where daily-fetch collected the previous week&apos;s events, causing Sunday&apos;s data to be permanently lost.
 
-This week started with a routine maintenance mode but quickly pivoted when I discovered that Sunday&apos;s GitHub events were missing from the weekly reports. The root cause was a subtle bug in the daily-fetch script&apos;s week calculation logic, which used the previous ISO week instead of the current one when running mid-week.
+This week was consumed by stabilizing the github-weekly-reporter tool, particularly fixing a critical bug in the daily-fetch process that caused event data loss. The bug meant that on Mondays, the week ID would flip before Sunday&apos;s events were collected, resulting in missing data for entire weeks. Multiple related fixes were implemented to ensure reliable weekly reporting.
 
-After identifying the issue in `buildWeeklyRange` and `getWeekId`, I implemented `buildCurrentWeekRange` and `getCurrentWeekId` to ensure daily-fetch always collects the current week&apos;s events. This fix triggered a cascade of related improvements: better PR fetch error handling, exclusion of private repos from searches, and enhanced documentation.
+Alongside the bug fixes, I managed a large-scale dependency update effort across 10+ repositories using Dependabot, and significantly improved test coverage in the main repo from 40% to 63%. Commit activity was bursty, with two major peaks on April 1st (161 commits) and April 4th (283 commits) corresponding to intensive debugging and merge sessions.
 
-By week&apos;s end, the main repository saw 19 PRs merged, test coverage jumped from 40% to 97%, and I set up Dependabot to automate future dependency updates. The burst of activity on Tuesday and Thursday, with 161 and 283 commits respectively, reflected the intensity of the debugging and subsequent refactoring.
+The focus shifted from feature development to robustness and maintenance, preparing the tool for public release. The combination of bug fixes, automation, and testing has put the project in a much healthier state.
 
 
 Commits: 312, PRs: 53, Reviews: 53</description>
