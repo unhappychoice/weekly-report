@@ -14,16 +14,16 @@
       <height>630</height>
     </image>
     <item>
-      <title>Critical daily-fetch bug fixed in github-weekly-reporter</title>
+      <title>Fixing daily-fetch&apos;s week range bug and stabilizing the pipeline</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>
-      <description>Resolved a data loss issue where daily-fetch collected the previous week&apos;s events, causing Sunday&apos;s data to be permanently lost.
+      <description>A cascade of critical bug fixes, test coverage pushes, and dependency upgrades after discovering the core data collection was targeting the wrong week.
 
-This week was consumed by stabilizing the github-weekly-reporter tool, particularly fixing a critical bug in the daily-fetch process that caused event data loss. The bug meant that on Mondays, the week ID would flip before Sunday&apos;s events were collected, resulting in missing data for entire weeks. Multiple related fixes were implemented to ensure reliable weekly reporting.
+This week was dominated by a critical discovery: the `daily-fetch` cron job, which runs at midnight, was incorrectly collecting data for the *previous* ISO week instead of the current one. This meant on Monday nights, Sunday&apos;s contributions were permanently lost because the week ID had already rolled over. The fix required a careful rethink of the date range logic and triggered a wave of related corrections.
 
-Alongside the bug fixes, I managed a large-scale dependency update effort across 10+ repositories using Dependabot, and significantly improved test coverage in the main repo from 40% to 63%. Commit activity was bursty, with two major peaks on April 1st (161 commits) and April 4th (283 commits) corresponding to intensive debugging and merge sessions.
+With the core data pipeline stabilized, the focus shifted to hardening the entire system. This meant improving error handling for API rate limits and permissions, preventing private repo leaks in reports, and ensuring incomplete weekly reports didn&apos;t break the index page navigation. In parallel, a major push brought test coverage from 95% to 97%, and I finally got Dependabot configured to automate the endless dependency updates across my entire portfolio.
 
-The focus shifted from feature development to robustness and maintenance, preparing the tool for public release. The combination of bug fixes, automation, and testing has put the project in a much healthier state.
+The week culminated in a massive, focused burst of 283 commits on Saturday (April 4th), where I merged a backlog of dependency updates (Vitest 4, ESLint 10, TypeScript 6) and polished documentation. The rhythm was intense: deep debugging early in the week, systematic quality improvements mid-week, and a final sprint to close the loop on maintenance tasks.
 
 
 Commits: 312, PRs: 53, Reviews: 53</description>
