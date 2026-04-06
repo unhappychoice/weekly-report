@@ -9,8 +9,8 @@ profile:
     \r\n"
   company: null
   location: Tokyo, Japan
-  followers: 3503
-  following: 9585
+  followers: 3504
+  following: 9586
   publicRepos: 58
 dateRange:
   from: 2026-03-16
@@ -145,13 +145,6 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/ashkulz/committers.top
-  - name: irasutoya-tools/irasutoya
-    commits: 0
-    prsOpened: 1
-    prsMerged: 1
-    issuesOpened: 0
-    issuesClosed: 0
-    url: https://github.com/irasutoya-tools/irasutoya
   - name: bitflyer-tools/bitflyer-cli
     commits: 0
     prsOpened: 1
@@ -159,6 +152,13 @@ repositories:
     issuesOpened: 0
     issuesClosed: 0
     url: https://github.com/bitflyer-tools/bitflyer-cli
+  - name: irasutoya-tools/irasutoya
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/irasutoya-tools/irasutoya
   - name: unhappychoice/terminal_image
     commits: 0
     prsOpened: 1
@@ -229,6 +229,27 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-20T12:55:05Z
     mergedAt: 2026-03-20T22:56:16Z
+  - title: "chore(deps): Bump nokogiri from 1.19.1 to 1.19.2"
+    body: |-
+      Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.19.1 to 1.19.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/releases">nokogiri's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.19.2 / 2026-03-19</h2>
+      <h3>Dependencies...
+    url: https://github.com/unhappychoice/blog/pull/682
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-20T03:05:10Z
+    mergedAt: 2026-03-20T03:20:15Z
   - title: Add gitlogue
     body: >-
       #### New App Submission
@@ -252,27 +273,6 @@ pullRequests:
     author: unhappychoice
     createdAt: 2026-02-12T19:07:35Z
     mergedAt: 2026-03-16T09:20:11Z
-  - title: "chore(deps): Bump nokogiri from 1.19.1 to 1.19.2"
-    body: |-
-      Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.19.1 to 1.19.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/releases">nokogiri's releases</a>.</em></p>
-      <blockquote>
-      <h2>v1.19.2 / 2026-03-19</h2>
-      <h3>Dependencies...
-    url: https://github.com/unhappychoice/blog/pull/682
-    repository: unhappychoice/blog
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-20T03:05:10Z
-    mergedAt: 2026-03-20T03:20:15Z
   - title: "fix: use REST API for user search to fix incorrect sort order"
     body: The GraphQL user search uses `sort:followers-desc` in the query string, but GitHub does not support the
       `sort:followers` qualifier for user search. This causes non-deterministic results and missing users in the
@@ -304,29 +304,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-20T03:04:28Z
     mergedAt: 2026-03-20T03:20:37Z
-  - title: "build(deps): bump pusher-js from 8.4.2 to 8.4.3"
-    body: |-
-      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.2 to 8.4.3.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
-      <blockquote>
-      <h2>v8.4.3</h2>
-      <h2>8.4.3</h2>
-      <ul>
-      <li>[FIXED] Pin additi...
-    url: https://github.com/unhappychoice/cycle-pusher/pull/347
-    repository: unhappychoice/cycle-pusher
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 3
-    deletions: 3
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-20T03:04:00Z
-    mergedAt: 2026-03-20T03:20:32Z
   - title: "build(deps): bump gradle-wrapper from 9.4.0 to 9.4.1"
     body: |-
       Bumps gradle-wrapper from 9.4.0 to 9.4.1.
@@ -361,6 +338,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-20T03:03:59Z
     mergedAt: 2026-03-20T03:20:26Z
+  - title: "build(deps): bump pusher-js from 8.4.2 to 8.4.3"
+    body: |-
+      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.2 to 8.4.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
+      <blockquote>
+      <h2>v8.4.3</h2>
+      <h2>8.4.3</h2>
+      <ul>
+      <li>[FIXED] Pin additi...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/347
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-20T03:04:00Z
+    mergedAt: 2026-03-20T03:20:32Z
   - title: "build(deps): bump gradle-wrapper from 9.4.0 to 9.4.1"
     body: |-
       Bumps gradle-wrapper from 9.4.0 to 9.4.1.
@@ -378,6 +378,23 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-20T03:03:59Z
     mergedAt: 2026-03-20T03:20:21Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.0 to 9.4.1"
+    body: |-
+      Bumps gradle-wrapper from 9.4.0 to 9.4.1.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gradle-wrapper&package-manager=gradle&previous-version=9.4.0&new-version=9.4.1)](https://docs.github.com/en/github/managing-security-vulner...
+    url: https://github.com/unhappychoice/color-hash.kt/pull/242
+    repository: unhappychoice/color-hash.kt
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 2
+    deletions: 2
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-20T03:03:59Z
+    mergedAt: 2026-03-20T03:20:30Z
   - title: "chore(deps): bump tree-sitter-rust from 0.24.0 to 0.24.1"
     body: >-
       Bumps [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) from 0.24.0 to 0.24.1.
@@ -406,46 +423,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-20T02:24:44Z
     mergedAt: 2026-03-20T03:20:18Z
-  - title: "build(deps): bump gradle-wrapper from 9.4.0 to 9.4.1"
-    body: |-
-      Bumps gradle-wrapper from 9.4.0 to 9.4.1.
-
-      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=gradle-wrapper&package-manager=gradle&previous-version=9.4.0&new-version=9.4.1)](https://docs.github.com/en/github/managing-security-vulner...
-    url: https://github.com/unhappychoice/color-hash.kt/pull/242
-    repository: unhappychoice/color-hash.kt
-    state: merged
-    labels:
-      - dependencies
-      - java
-    additions: 2
-    deletions: 2
-    changedFiles: 2
-    author: dependabot[bot]
-    createdAt: 2026-03-20T03:03:59Z
-    mergedAt: 2026-03-20T03:20:30Z
-  - title: "chore(deps): bump json from 2.19.1 to 2.19.2"
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.2</h2>
-      <h2>What's Changed</h2>
-      <ul>
-      <li>Fix a format string injection ...
-    url: https://github.com/unhappychoice/slack_channel_stats/pull/81
-    repository: unhappychoice/slack_channel_stats
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-19T03:08:13Z
-    mergedAt: 2026-03-19T05:47:24Z
   - title: "chore(deps): Bump json from 2.19.1 to 2.19.2"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
@@ -480,6 +457,29 @@ pullRequests:
       <h2>What's Changed</h2>
       <ul>
       <li>Fix a format string injection ...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/81
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-19T03:08:13Z
+    mergedAt: 2026-03-19T05:47:24Z
+  - title: "chore(deps): bump json from 2.19.1 to 2.19.2"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.2</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a format string injection ...
     url: https://github.com/circleci-tools/circleci-cli/pull/972
     repository: circleci-tools/circleci-cli
     state: merged
@@ -492,29 +492,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-19T03:06:08Z
     mergedAt: 2026-03-19T05:47:20Z
-  - title: "build(deps-dev): bump json from 2.19.1 to 2.19.2"
-    body: |-
-      Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
-      <blockquote>
-      <h2>v2.19.2</h2>
-      <h2>What's Changed</h2>
-      <ul>
-      <li>Fix a format string injection ...
-    url: https://github.com/irasutoya-tools/irasutoya/pull/496
-    repository: irasutoya-tools/irasutoya
-    state: merged
-    labels:
-      - dependencies
-      - ruby
-    additions: 1
-    deletions: 1
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-19T03:04:14Z
-    mergedAt: 2026-03-19T05:47:42Z
   - title: ⬆️ Bump json from 2.19.1 to 2.19.2
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
@@ -538,6 +515,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-19T03:04:28Z
     mergedAt: 2026-03-19T05:47:39Z
+  - title: "build(deps-dev): bump json from 2.19.1 to 2.19.2"
+    body: |-
+      Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/json/releases">json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.19.2</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a format string injection ...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/496
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-19T03:04:14Z
+    mergedAt: 2026-03-19T05:47:42Z
   - title: "build(deps-dev): Bump json from 2.19.1 to 2.19.2"
     body: |-
       Bumps [json](https://github.com/ruby/json) from 2.19.1 to 2.19.2.
@@ -727,6 +727,29 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-18T03:04:26Z
     mergedAt: 2026-03-19T01:49:40Z
+  - title: "build(deps): bump pusher-js from 8.4.0 to 8.4.2"
+    body: |-
+      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.0 to 8.4.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
+      <blockquote>
+      <h2>v8.4.2</h2>
+      <h2>8.4.2</h2>
+      <ul>
+      <li>[CHANGED] Modernis...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/346
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-18T03:04:01Z
+    mergedAt: 2026-03-19T01:49:33Z
   - title: "chore(deps): bump github_changelog_generator from 1.17.0 to 1.18.0"
     body: >-
       Bumps [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator) from
@@ -777,29 +800,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-18T02:24:47Z
     mergedAt: 2026-03-18T02:48:10Z
-  - title: "build(deps): bump pusher-js from 8.4.0 to 8.4.2"
-    body: |-
-      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.4.0 to 8.4.2.
-      <details>
-      <summary>Release notes</summary>
-      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
-      <blockquote>
-      <h2>v8.4.2</h2>
-      <h2>8.4.2</h2>
-      <ul>
-      <li>[CHANGED] Modernis...
-    url: https://github.com/unhappychoice/cycle-pusher/pull/346
-    repository: unhappychoice/cycle-pusher
-    state: merged
-    labels:
-      - dependencies
-      - javascript
-    additions: 3
-    deletions: 3
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-18T03:04:01Z
-    mergedAt: 2026-03-19T01:49:33Z
   - title: "chore(deps): bump toml from 1.0.6+spec-1.1.0 to 1.0.7+spec-1.1.0"
     body: >-
       Bumps [toml](https://github.com/toml-rs/toml) from 1.0.6+spec-1.1.0 to 1.0.7+spec-1.1.0.
@@ -1023,32 +1023,6 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-17T03:05:45Z
     mergedAt: 2026-03-17T11:48:39Z
-  - title: "build(deps): bump org.jetbrains.kotlin:kotlin-stdlib from 2.3.10 to 2.3.20"
-    body: >-
-      Bumps [org.jetbrains.kotlin:kotlin-stdlib](https://github.com/JetBrains/kotlin) from 2.3.10 to 2.3.20.
-
-      <details>
-
-      <summary>Release notes</summary>
-
-      <p><em>Sourced from <a href="https://github.com/JetBrains/kotlin/releases">org.jetbrains.kotlin:kotlin-stdlib's
-      releases</a>.</em></p>
-
-      <blockquote>
-
-      <h2>Ko...
-    url: https://github.com/bitflyer-tools/DroidFlyer/pull/500
-    repository: bitflyer-tools/DroidFlyer
-    state: merged
-    labels:
-      - dependencies
-      - java
-    additions: 2
-    deletions: 2
-    changedFiles: 1
-    author: dependabot[bot]
-    createdAt: 2026-03-17T03:05:10Z
-    mergedAt: 2026-03-17T11:48:25Z
   - title: "build(deps): bump org.jetbrains.kotlin:kotlin-reflect from 2.3.10 to 2.3.20"
     body: >-
       Bumps [org.jetbrains.kotlin:kotlin-reflect](https://github.com/JetBrains/kotlin) from 2.3.10 to 2.3.20.
@@ -1101,6 +1075,32 @@ pullRequests:
     author: dependabot[bot]
     createdAt: 2026-03-17T03:04:56Z
     mergedAt: 2026-03-17T11:48:16Z
+  - title: "build(deps): bump org.jetbrains.kotlin:kotlin-stdlib from 2.3.10 to 2.3.20"
+    body: >-
+      Bumps [org.jetbrains.kotlin:kotlin-stdlib](https://github.com/JetBrains/kotlin) from 2.3.10 to 2.3.20.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/JetBrains/kotlin/releases">org.jetbrains.kotlin:kotlin-stdlib's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>Ko...
+    url: https://github.com/bitflyer-tools/DroidFlyer/pull/500
+    repository: bitflyer-tools/DroidFlyer
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-03-17T03:05:10Z
+    mergedAt: 2026-03-17T11:48:25Z
   - title: "chore(deps): bump rusqlite from 0.38.0 to 0.39.0"
     body: |-
       Bumps [rusqlite](https://github.com/rusqlite/rusqlite) from 0.38.0 to 0.39.0.
@@ -1228,4 +1228,97 @@ pullRequests:
     mergedAt: null
 issues: []
 events: []
+commitMessages:
+  - repo: circleci-tools/CircleCI
+    messages:
+      - "Merge pull request #196 from circleci-tools/dependabot/gradle/gradle-wrapper-9.4.1"
+      - "Merge pull request #195 from circleci-tools/dependabot/gradle/kotlin_version-2.3.20"
+  - repo: unhappychoice/gitlogue
+    messages:
+      - "Merge pull request #178 from unhappychoice/dependabot/cargo/tree-sitter-rust-0.24.1"
+      - "Merge pull request #176 from unhappychoice/dependabot/cargo/toml-1.0.7spec-1.1.0"
+      - "Merge pull request #177 from unhappychoice/dependabot/cargo/toml_edit-0.25.5spec-1.1.0"
+  - repo: unhappychoice/slack_channel_stats
+    messages:
+      - "Merge pull request #81 from unhappychoice/dependabot/bundler/json-2.19.2"
+      - "Merge pull request #80 from unhappychoice/dependabot/bundler/github_changelog_generator-1.18.0"
+      - "Merge pull request #79 from unhappychoice/dependabot/bundler/github_changelog_generator-1.17.0"
+  - repo: unhappychoice/mdts
+    messages:
+      - "Merge pull request #601 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/webpack-cli-7.0.2"
+      - "Merge pull request #600 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/babel/preset-env-7.29.2"
+      - "docs: update CHANGELOG.md for v0.17.0"
+      - 0.17.0
+      - "Merge pull request #598 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/webpack-cli-7.0.1"
+      - "Merge pull request #597 from
+        unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint/parser-8.57.1"
+      - "Merge pull request #596 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint-8.57.1"
+      - "Merge pull request #593 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint-8.57.1"
+      - "Merge pull request #592 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint/parser-8.57.1"
+      - "Merge pull request #599 from unhappychoice/feat/diff-view"
+      - "test: improve test coverage for diffSlice and MarkdownContentView"
+      - "fix: address coderabbit review feedback"
+      - "fix: handle initial commit in diff-prev and remove example doc change"
+      - "feat: show Diff tab only when uncommitted changes exist"
+      - "feat: hide diff tabs when not in a git repository"
+      - "fix: rename Prev Diff tab to Last Commit"
+      - "refactor: render diff views using MarkdownRenderer for consistent design"
+      - "fix: use last commit that changed the file for prev diff instead of HEAD~1"
+      - "fix: remove unused error variables in diff routes"
+      - "feat: add markdown diff view and previous commit history tabs"
+  - repo: bitflyer-tools/DroidFlyer
+    messages:
+      - "Merge pull request #502 from bitflyer-tools/dependabot/gradle/gradle-wrapper-9.4.1"
+      - "Merge pull request #500 from bitflyer-tools/dependabot/gradle/org.jetbrains.kotlin-kotlin-stdlib-2.3.20"
+      - "Merge pull request #501 from bitflyer-tools/dependabot/gradle/org.jetbrains.kotlin-kotlin-reflect-2.3.20"
+  - repo: circleci-tools/circleci-cli
+    messages:
+      - "Merge pull request #972 from circleci-tools/dependabot/bundler/json-2.19.2"
+      - "Merge pull request #971 from circleci-tools/dependabot/bundler/github_changelog_generator-1.18.0"
+      - "Merge pull request #970 from circleci-tools/dependabot/bundler/github_changelog_generator-1.17.0"
+  - repo: unhappychoice/gittype
+    messages:
+      - "Merge pull request #398 from unhappychoice/dependabot/cargo/tree-sitter-rust-0.24.1"
+      - "Merge pull request #396 from unhappychoice/dependabot/cargo/rusqlite-0.39.0"
+  - repo: circleci-tools/Norimaki
+    messages:
+      - "Merge pull request #421 from circleci-tools/dependabot/gradle/gradle-wrapper-9.4.1"
+      - "Merge pull request #420 from circleci-tools/dependabot/gradle/org.jetbrains.kotlin-kotlin-reflect-2.3.20"
+  - repo: unhappychoice/blog
+    messages:
+      - "Merge pull request #682 from unhappychoice/dependabot/bundler/nokogiri-1.19.2"
+      - "Merge pull request #681 from unhappychoice/dependabot/bundler/json-2.19.2"
+  - repo: bitflyer-tools/cycle-flyer
+    messages:
+      - "Merge pull request #854 from bitflyer-tools/dependabot/npm_and_yarn/socket.io-parser-4.2.6"
+      - "Merge pull request #853 from bitflyer-tools/dependabot/npm_and_yarn/electron-41.0.3"
+      - "Merge pull request #852 from bitflyer-tools/dependabot/npm_and_yarn/electron-41.0.2"
+  - repo: unhappychoice/cycle-pusher
+    messages:
+      - "Merge pull request #347 from unhappychoice/dependabot/npm_and_yarn/pusher-js-8.4.3"
+      - "Merge pull request #346 from unhappychoice/dependabot/npm_and_yarn/pusher-js-8.4.2"
+  - repo: agarrharr/awesome-cli-apps
+    messages:
+      - Add gitlogue (#787)
+  - repo: unhappychoice/RxSnackbar
+    messages:
+      - "Merge pull request #227 from unhappychoice/dependabot/gradle/gradle-wrapper-9.4.1"
+      - "Merge pull request #226 from unhappychoice/dependabot/gradle/org.jetbrains.kotlin.android-2.3.20"
+  - repo: unhappychoice/color-hash.kt
+    messages:
+      - "Merge pull request #242 from unhappychoice/dependabot/gradle/gradle-wrapper-9.4.1"
+      - "Merge pull request #241 from unhappychoice/dependabot/gradle/org.jetbrains.kotlin-kotlin-reflect-2.3.20"
+  - repo: bitflyer-tools/bitflyer-cli
+    messages:
+      - "Merge pull request #158 from bitflyer-tools/dependabot/bundler/json-2.19.2"
+  - repo: irasutoya-tools/irasutoya
+    messages:
+      - "Merge pull request #496 from irasutoya-tools/dependabot/bundler/json-2.19.2"
+  - repo: unhappychoice/terminal_image
+    messages:
+      - "Merge pull request #552 from unhappychoice/dependabot/bundler/json-2.19.2"
+  - repo: irasutoya-tools/irasutoya-cli
+    messages:
+      - "Merge pull request #619 from irasutoya-tools/dependabot/bundler/json-2.19.2"
+releases: []
 externalContributions: []

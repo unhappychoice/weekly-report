@@ -1,114 +1,94 @@
-title: Markdown Diff and History Tabs Merge into mdts
-subtitle: Implemented new tabs for real-time diff and commit history in the markdown tool, enhancing workflow.
+title: "feat: add markdown diff view and previous commit history tabs lands in mdts"
+subtitle: A week of focused development on the mdts diff feature, cross-repo dependency maintenance, and contributing
+  fixes to external projects.
 overview: >
-  This week was a balancing act between routine dependency maintenance and a significant feature launch in my core
-  project, mdts. I spent considerable time ensuring various repositories stayed up-to-date with security patches, while
-  also pushing through a long-planned enhancement to the markdown editing workflow.
+  This week was dominated by the completion and merge of a major feature in my markdown tool mdts: the Diff and History
+  tabs. After several iterations based on review feedback, I finally shipped a polished implementation that shows
+  uncommitted changes and previous commit diffs directly in the UI. The feature required careful handling of git edge
+  cases like initial commits and non-repository files.
 
 
-  The centerpiece was merging the 'feat: add markdown diff view and previous commit history tabs' pull request, which
-  adds Diff and History tabs to the markdown content view. This required careful integration of git commands for diff
-  output and building a responsive UI with color-coded rendering. Simultaneously, I processed a wave of dependency
-  updates across Ruby, Java, and JavaScript projects, including bumps to nokogiri, gradle-wrapper, and json libraries.
+  Simultaneously, I was in "dependency update mode" across a dozen repositories—Java, Ruby, JavaScript, and Rust
+  projects all received bumps for Gradle, JSON, tree-sitter-rust, and more. I also opened a PR in ashkulz/committers.top
+  to fix a subtle GraphQL sorting bug that was causing non-deterministic user rankings, and got my own tool gitlogue
+  accepted into awesome-cli-apps.
 
 
-  The week wrapped up with an open pull request in ashkulz/committers.top, where I'm fixing a GraphQL API misuse that
-  causes incorrect user sorting. This cross-repo collaboration underscores the interconnected nature of open source
-  maintenance beyond my own repositories.
+  The rhythm was burst-driven: heavy commit activity early in the week (peaking at 142 on Tuesday) as I pushed the mdts
+  feature over the line, then tapering into review-heavy days managing the resulting dependency updates and cross-repo
+  reviews. It was a satisfying mix of deep feature work and broad maintenance.
 summaries:
-  - type: feature-launch
-    heading: mdts Workflow Enhancement Lands
-    body: "The merged feature PR introduces two new tabs to the markdown content view: Diff, which shows uncommitted changes
-      via `git diff`, and History, which displays the previous commit's changes via `git diff HEAD~1 HEAD`. Both tabs
-      feature color-coded diff rendering, making it easier to track changes over time. This addition directly addresses
-      user feedback for better version comparison tools within the editor."
+  - type: repo-summary
+    heading: "mdts: diff feature dominates"
+    body: The mdts repository consumed most of my focus with the Diff and History tabs feature (+878 lines, 21 files). I
+      also merged several dependency bumps there, but the feature work was the clear narrative. The implementation
+      evolved significantly based on review feedback, especially around edge case handling.
     chips:
-      - label: repo
-        value: unhappychoice/mdts
+      - label: unhappychoice/mdts
+        value: 9 PRs
         color: default
-      - label: lines changed
-        value: +878 -42
-        color: default
-      - label: files modified
-        value: "21"
-        color: default
-      - label: user impact
-        value: high
-        color: green
-  - type: dependency-management
-    heading: Security and Compatibility Updates
-    body: A total of 17 dependency bump PRs were merged across 12 repositories, covering languages like Ruby, Java, Rust,
-      and JavaScript. Key updates include bumping tree-sitter-rust to 0.24.1, nokogiri to 1.19.2, gradle-wrapper to
-      9.4.1, and json to 2.19.2. These updates patch security vulnerabilities and ensure compatibility with latest
-      toolchains, reducing technical debt.
+      - label: feature lines
+        value: +878/-42
+        color: blue
+  - type: deep-dive
+    heading: Git edge cases in a diff viewer
+    body: "Building the diff tabs exposed tricky git scenarios: how to handle the initial commit (no HEAD~1), what to show
+      when not in a git repo, and ensuring the 'previous commit' actually reflects the last change to the file, not just
+      HEAD~1. I had to refactor to use `git log -1 -- <file>` for accurate history and add guards to hide tabs when
+      irrelevant."
     chips:
-      - label: dependency PRs
-        value: "17"
-        color: default
-      - label: repos affected
-        value: "12"
-        color: default
-      - label: security patches
-        value: multiple CVEs
-        color: yellow
-      - label: languages
-        value: Ruby, Java, JS, Rust
-        color: default
-  - type: cross-repo-collaboration
-    heading: Contributions Beyond Own Repos
-    body: "Active in external projects: submitted gitlogue to agarrharr/awesome-cli-apps for inclusion in the curated list,
-      and opened a PR in ashkulz/committers.top to fix incorrect user search sorting by switching from GraphQL to REST
-      API. This shows engagement with the broader community and sharing of my own tools."
-    chips:
-      - label: external repos
+      - label: edge cases handled
         value: "3"
-        color: default
-      - label: submission type
-        value: app listing
-        color: default
-      - label: open PRs
-        value: "1"
-        color: red
-      - label: collaboration
-        value: active
-        color: green
+        color: yellow
+      - label: refactors
+        value: 5 commits
+        color: orange
   - type: activity-pattern
-    heading: Front-Loaded Commit Burst
-    body: Daily commit activity peaked early in the week with 142 commits on Tuesday and 137 on Monday, then steadily
-      declined to 48 by Friday. This burst likely corresponds to the intensive feature development and dependency
-      updates at the week's start, followed by lighter review and coordination tasks later.
+    heading: Burst early, review later
+    body: "Commit volume peaked sharply on Tuesday (142) and Monday (137) as I pushed the mdts feature, then declined
+      steadily through the week. The latter half was review-heavy: 42 reviews total, mostly dependency bumps from
+      Dependabot across my various repos, plus feedback on the mdts PR itself from coderabbit."
     chips:
       - label: peak day
         value: Tue 142
         color: green
-      - label: commits Mon-Tue
-        value: "279"
-        color: default
-      - label: total daily commits
-        value: "602"
-        color: default
-      - label: pattern
-        value: burst then taper
-        color: default
+      - label: total reviews
+        value: "42"
+        color: purple
+  - type: collaboration-summary
+    heading: Cross-repo impact
+    body: I contributed to 19 distinct repositories this week, spanning my own orgs (unhappychoice, bitflyer-tools,
+      circleci-tools) and external projects like ashkulz/committers.top and agarrharr/awesome-cli-apps. The
+      committers.top fix improves their user ranking accuracy, and getting gitlogue listed in awesome-cli-apps was a
+      nice moment of sharing my own tool.
+    chips:
+      - label: repos touched
+        value: "19"
+        color: orange
+      - label: external PRs
+        value: "2"
+        color: pink
 highlights:
   - type: pr
     title: "feat: add markdown diff view and previous commit history tabs"
     repo: unhappychoice/mdts
-    meta: merged 2026-03-19 · +878 -42 · 21 files
-    body: This PR significantly enhances the markdown editing experience by providing built-in diff and history comparison
-      tools, reducing the need to switch to external git clients.
+    meta: merged Mar 22 · +878 -42 · 21 files
+    body: "The main event: shipped Diff and History tabs in mdts after iterating on review feedback. The Diff tab shows
+      uncommitted changes via `git diff`, and History shows the last commit's changes for the file. It required careful
+      git edge-case handling and a refactor to use MarkdownRenderer for consistency."
     url: https://github.com/unhappychoice/mdts/pull/599
-  - type: pr
-    title: Add gitlogue
-    repo: agarrharr/awesome-cli-apps
-    meta: merged 2026-03-19 · +1 -0 · 1 files
-    body: Getting my git commit replay tool, gitlogue, listed in a popular curated collection increases its visibility and
-      adoption among developers.
-    url: https://github.com/agarrharr/awesome-cli-apps/pull/787
   - type: pr
     title: "fix: use REST API for user search to fix incorrect sort order"
     repo: ashkulz/committers.top
-    meta: opened 2026-03-19 · +321 -161 · 4 files
-    body: Fixes a critical bug where GitHub's GraphQL API doesn't support the sort qualifier used, leading to
-      non-deterministic user rankings; switching to REST API ensures correct sorting by followers.
+    meta: opened Mar 18 · +321 -161 · 4 files
+    body: Discovered their GraphQL user search used an unsupported `sort:followers` qualifier, causing non-deterministic
+      rankings. Fixed by switching to GitHub's REST API with proper `?sort=followers` support, ensuring accurate
+      committer rankings.
     url: https://github.com/ashkulz/committers.top/pull/113
+  - type: pr
+    title: Add gitlogue
+    repo: agarrharr/awesome-cli-apps
+    meta: merged Mar 20 · +1 -0 · 1 file
+    body: Got my cinematic Git replay tool gitlogue accepted into the curated awesome-cli-apps list. A small but meaningful
+      validation of a tool I built to make Git history more engaging.
+    url: https://github.com/agarrharr/awesome-cli-apps/pull/787
