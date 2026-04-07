@@ -1,116 +1,125 @@
-title: "Sunday events saved: test coverage hits 97% in github-weekly-reporter"
-subtitle: A frantic week of bug fixes, coverage pushes, and CI enhancements in the github-weekly-reporter project.
+title: Two critical date bugs crushed in github-weekly-reporter
+subtitle: Fixed daily-fetch data loss, then refactored entire project for public release with 97% test coverage
 overview: >
-  This week was dominated by urgent bug fixes in the deariary/github-weekly-reporter project, where a flaw in the
-  daily-fetch cron was causing Sunday's events to be permanently lost. I had to drop everything to patch the date range
-  logic before more data vanished.
+  This week was all about the github-weekly-reporter project, where I discovered and fixed two critical bugs in the
+  daily-fetch workflow that were silently losing data. The first bug had the daily-fetch collecting yesterday's events
+  instead of today's, and the second had it targeting the previous ISO week instead of the current one. Both were
+  breaking the core data collection pipeline and needed urgent fixes.
 
 
-  With the immediate crisis averted, I embarked on a multi-pronged effort to stabilize the codebase: dramatically
-  improving test coverage from 40% to 97% across several PRs, adding Dependabot and Codecov for automation, and
-  overhauling the documentation. The pace was intense, culminating in a 283-commit burst on April 4th as everything came
-  together.
+  After stabilizing the data pipeline, I shifted into overdrive mode for a massive public release preparation. This
+  meant a huge refactor across 37 files, boosting test coverage from 40% to 97%, adding Dependabot and Codecov
+  integration, and completely rewriting the documentation. The goal was to make the project production-ready and
+  trustworthy for external users.
 
 
-  By week's end, the project is far more resilient—data collection is reliable, the test suite is comprehensive, and the
-  CI/CD pipeline is self-maintaining. The new interactive CLI setup and enhanced docs should make it much easier for new
-  users to get started.
+  While the reporter consumed most of my focus, I also maintained 7 other personal repositories (mdts, gitlogue, blog,
+  etc.) with dependency updates and small fixes. The week ended with the github-weekly-reporter in a dramatically better
+  state—more robust, better tested, and ready for its first public launch.
 summaries:
-  - type: bug-fix-sprint
-    heading: Plugging data leaks in daily-fetch
-    body: Fixed a severe bug where daily-fetch collected the wrong day's events, causing Sunday data loss. Also corrected
-      week navigation to exclude incomplete reports and fixed current week collection. These changes ensure no more
-      silent data loss.
+  - type: repo-summary
+    heading: "github-weekly-reporter: 20 PRs, one mission"
+    body: The reporter project dominated with 20 merged PRs out of my total 52. Work spanned critical bug fixes, massive
+      refactoring, test coverage tripling, CI/CD improvements, and documentation overhaul. Other repos (mdts, gitlogue,
+      blog, etc.) got mostly automated dependency updates via Dependabot.
     chips:
-      - label: PRs merged
-        value: "3"
+      - label: deariary/github-weekly-reporter
+        value: 20 PRs
         color: default
-      - label: lines changed
-        value: +634 -118
+      - label: Total merged
+        value: "52"
+        color: blue
+      - label: Test coverage
+        value: 40% → 97%
+        color: green
+  - type: deep-dive
+    heading: The two date bugs that broke everything
+    body: "Discovered that daily-fetch had two separate date-handling bugs: one causing it to collect yesterday's events
+      (permanently losing Sunday data on Monday), and another making it query the previous ISO week instead of the
+      current one. Fixed the first by switching to a yesterday-range function, and the second by adding current-week
+      helpers. Both were subtle timezone/ISO-week calculation errors that only showed up in edge cases."
+    chips:
+      - label: Bug 1 impact
+        value: Lost Sunday events
+        color: red
+      - label: Bug 2 impact
+        value: Empty week data
+        color: red
+      - label: PRs
+        value: 2 critical fixes
+        color: orange
+  - type: activity-pattern
+    heading: "Burst days: Apr 1 (161) and Apr 4 (283)"
+    body: Commit activity wasn't spread evenly—it exploded on Apr 1 (161 commits) and Apr 4 (283 commits), both days focused
+      on the reporter refactor and bug fixes. The other days were more balanced with lighter dependency updates across
+      other repos. The Apr 4 burst was particularly intense as I pushed to finish the refactor and tests before the week
+      ended.
+    chips:
+      - label: Peak day
+        value: Apr 4 (283)
+        color: red
+      - label: Second peak
+        value: Apr 1 (161)
+        color: orange
+      - label: Total commits
+        value: "312"
         color: default
   - type: testing
-    heading: Test coverage rockets to 97%
-    body: Started at 40% coverage and added 128+ tests across multiple modules. Key modules like render.ts, deploy.ts, and
-      llm/index.ts now at 99-100%. The final push from 95% to 97% with targeted cases closed the gap.
+    heading: From 40% to 97% coverage in two weeks
+    body: "Started the week at 40% coverage, ended at 97% after adding 128+ new tests across 8 new test files. Key modules
+      (collector, llm, deployer) now hit 97-100%. This was essential for public release confidence. The journey: 40% →
+      63% (early week) → 86% → 95% → 97% through successive test expansion PRs."
     chips:
-      - label: coverage gain
-        value: 57 points
-        color: default
-      - label: tests added
+      - label: Starting coverage
+        value: 40.71%
+        color: red
+      - label: Ending coverage
+        value: 97.1%
+        color: green
+      - label: Tests added
         value: 128+
-        color: default
-      - label: modules at 100%
-        value: "3"
-        color: default
-  - type: devops
-    heading: CI/CD automation unleashed
-    body: Integrated Dependabot to automatically bump dependencies and Codecov to track test coverage. These tools reduce
-      manual maintenance and enforce quality standards, making the project more sustainable long-term.
-    chips:
-      - label: automations added
-        value: "2"
-        color: default
-      - label: dependabot PRs
-        value: 15+
-        color: default
-  - type: docs
-    heading: Documentation gets a complete makeover
-    body: Rewrote the README with a clear value proposition and prerequisites. Added five new documentation pages covering
-      how it works, customization, FAQ, and troubleshooting. This makes the project far more accessible.
-    chips:
-      - label: new pages
-        value: "5"
-        color: default
-      - label: README lines
-        value: +590 -78
-        color: default
-  - type: maintenance
-    heading: Cross-repo dependency updates
-    body: Dependabot kept all related repositories up-to-date, merging 20+ PRs across projects like mdts, gitlogue, blog,
-      and others. This ensures security and compatibility across the ecosystem.
-    chips:
-      - label: repos updated
-        value: "8"
-        color: default
-      - label: PRs merged
-        value: 20+
-        color: default
+        color: blue
 highlights:
   - type: pr
-    title: "fix: daily-fetch collects yesterday's events, not current day's"
+    title: "refactor: improve code quality for public release"
     repo: deariary/github-weekly-reporter
-    meta: merged Mar 30 · +439 -102 · 9 files
-    body: This fix prevented Sunday's events from being lost by correcting the date range logic in the daily-fetch cron.
-    url: https://github.com/deariary/github-weekly-reporter/pull/89
+    meta: merged · +1791 -1021 · 37 files
+    body: Massive pre-release refactor across 37 files. Removed dead code, improved structure, and made the codebase
+      maintainable for external contributors. This was the foundation for everything else—without it, the project
+      wouldn't be ready for public eyes.
+    url: https://github.com/deariary/github-weekly-reporter/pull/70
   - type: pr
     title: "test: improve test coverage from 95% to 97%"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 4 · +309 -1 · 5 files
-    body: The final push to 97% coverage added 19 new test cases, ensuring critical modules are fully tested.
+    meta: merged · +309 -1 · 5 files
+    body: Final coverage push to 97%, ensuring critical paths are fully tested. The report rendering and deployment modules
+      now have 100% coverage, giving confidence for the upcoming public launch.
     url: https://github.com/deariary/github-weekly-reporter/pull/87
   - type: pr
-    title: "docs: improve README and add documentation pages"
+    title: "fix: daily-fetch collects yesterday's events, not current day's"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 2 · +590 -78 · 6 files
-    body: Completely rewrote the README and added five new docs pages, making the project much easier to understand and set
-      up.
-    url: https://github.com/deariary/github-weekly-reporter/pull/85
+    meta: merged · +439 -102 · 9 files
+    body: Critical fix for a bug that caused daily-fetch to collect yesterday's events instead of today's. On Mondays at
+      midnight, this meant Sunday's events were permanently lost. Fixed by introducing buildYesterdayRange() to
+      explicitly target yesterday.
+    url: https://github.com/deariary/github-weekly-reporter/pull/89
   - type: pr
-    title: "ci: add Codecov for test coverage reporting"
+    title: "fix: daily-fetch now collects current week events instead of previous week"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 3 · +733 -2 · 6 files
-    body: Integrated Codecov to automatically track and enforce test coverage, adding a key quality gate to the CI pipeline.
-    url: https://github.com/deariary/github-weekly-reporter/pull/74
+    meta: merged · +168 -7 · 6 files
+    body: "Second critical date bug: daily-fetch was using previous ISO week functions, causing mid-week runs to return zero
+      events. Added getCurrentWeekId() and buildCurrentWeekRange() to target the actual current week."
+    url: https://github.com/deariary/github-weekly-reporter/pull/88
 ticker:
-  - label: DATA CATASTROPHE AVERTED
-    text: "@unhappychoice fixes Sunday event loss bug, saves thousands of commits from oblivion."
-  - label: TEST COVERAGE NIRVANA
-    text: "@unhappychoice boosts test coverage from 40% to 97% in a single week. Impossible!"
-  - label: COMMIT MONSTER
-    text: "@unhappychoice unleashes 283 commits in one day. GitHub servers tremble."
-  - label: DEPENDABOT OVERLORD
-    text: "@unhappychoice invites Dependabot, merges 20+ PRs across 13 repos. Chaos ensues."
-  - label: CI/CD UPGRADE
-    text: "@unhappychoice adds Codecov and Dependabot, automating quality forever."
-  - label: DOCS INVASION
-    text: "@unhappychoice drops 590 lines of docs, README now crystal clear."
+  - label: ABSOLUTE CARNAGE
+    text: "@unhappychoice squashes two date bugs that were silently losing data"
+  - label: HISTORIC
+    text: "@unhappychoice's test coverage soars from 40% to 97% in one week"
+  - label: RECORD SETTING
+    text: "@unhappychoice merges 52 PRs, 312 commits in a single week"
+  - label: EXCLUSIVE
+    text: "@unhappychoice adds Dependabot and Codecov, hardening CI"
+  - label: COMING SOON
+    text: "@unhappychoice's github-weekly-reporter nears public launch"
+  - label: DEVELOPING
+    text: "@unhappychoice spotted refactoring at 2 AM. Maniacal laughter reported."
