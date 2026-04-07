@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Daily-fetch date stabilization lands in github-weekly-reporter - 2026-03-30 - 2026-04-05</title>
+  <title>Sunday events saved: test coverage hits 97% in github-weekly-reporter - 2026-03-30 - 2026-04-05</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection." />
+  <meta name="description" content="A frantic week of bug fixes, coverage pushes, and CI enhancements in the github-weekly-reporter project." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="Daily-fetch date stabilization lands in github-weekly-reporter" />
-  <meta property="og:description" content="Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection." />
+  <meta property="og:title" content="Sunday events saved: test coverage hits 97% in github-weekly-reporter" />
+  <meta property="og:description" content="A frantic week of bug fixes, coverage pushes, and CI enhancements in the github-weekly-reporter project." />
   <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
   <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W14/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Daily-fetch date stabilization lands in github-weekly-reporter" />
-  <meta name="twitter:description" content="Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection." />
+  <meta name="twitter:title" content="Sunday events saved: test coverage hits 97% in github-weekly-reporter" />
+  <meta name="twitter:description" content="A frantic week of bug fixes, coverage pushes, and CI enhancements in the github-weekly-reporter project." />
   <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
@@ -31,8 +31,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Daily-fetch date stabilization lands in github-weekly-reporter",
-    "description": "Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection.",
+    "headline": "Sunday events saved: test coverage hits 97% in github-weekly-reporter",
+    "description": "A frantic week of bug fixes, coverage pushes, and CI enhancements in the github-weekly-reporter project.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
@@ -53,6 +53,154 @@
   }
   </script>
   <style>
+    
+  :root { 
+    --b-bg: #050505;
+    --b-bg-hero: #0a0a0a;
+    --b-text: #e0e0e0;
+    --b-text-secondary: rgba(255,255,255,0.65);
+    --b-text-tertiary: rgba(255,255,255,0.3);
+    --b-heading: #ffffff;
+    --b-border: rgba(255,255,255,0.08);
+    --b-border-subtle: rgba(255,255,255,0.04);
+    --b-accent: #39d353;
+    --b-card-bg: rgba(255,255,255,0.02);
+    --b-chip-bg: rgba(255,255,255,0.04);
+    --b-chip-border: rgba(255,255,255,0.08);
+    --b-green: #3fb950;
+    --b-red: #f85149;
+    --b-badge-pr: #8957e5;
+    --b-badge-release: #238636;
+    --b-badge-issue: #d29922;
+    --b-badge-discussion: #58a6ff;
+    --b-heatmap-0: rgba(255,255,255,0.03);
+    --b-heatmap-1: #0e4429;
+    --b-heatmap-2: #006d32;
+    --b-heatmap-3: #26a641;
+    --b-heatmap-4: #39d353;
+    --b-heatmap-4-text: #000;
+    --b-nav-bg: rgba(5,5,5,0.8);
+    --b-nav-title: rgba(255,255,255,0.4);
+    --b-sep: rgba(255,255,255,0.15);
+    --b-hero-sub: rgba(255,255,255,0.5);
+    --b-footer-text: rgba(255,255,255,0.3);
+    --b-footer-link: rgba(255,255,255,0.5);
+    --b-grain-opacity: 0.03;
+ }
+  @media (prefers-color-scheme: light) { :root { 
+    --b-bg: #fafafa;
+    --b-bg-hero: #f0f0f0;
+    --b-text: #1a1a1a;
+    --b-text-secondary: rgba(0,0,0,0.6);
+    --b-text-tertiary: rgba(0,0,0,0.35);
+    --b-heading: #000000;
+    --b-border: rgba(0,0,0,0.1);
+    --b-border-subtle: rgba(0,0,0,0.05);
+    --b-accent: #1a7f37;
+    --b-card-bg: rgba(0,0,0,0.02);
+    --b-chip-bg: rgba(0,0,0,0.04);
+    --b-chip-border: rgba(0,0,0,0.1);
+    --b-green: #1a7f37;
+    --b-red: #cf222e;
+    --b-badge-pr: #8250df;
+    --b-badge-release: #1a7f37;
+    --b-badge-issue: #9a6700;
+    --b-badge-discussion: #0969da;
+    --b-heatmap-0: rgba(0,0,0,0.04);
+    --b-heatmap-1: #d0e8d0;
+    --b-heatmap-2: #a0d0a0;
+    --b-heatmap-3: #60b060;
+    --b-heatmap-4: #1a7f37;
+    --b-heatmap-4-text: #fff;
+    --b-nav-bg: rgba(250,250,250,0.85);
+    --b-nav-title: rgba(0,0,0,0.45);
+    --b-sep: rgba(0,0,0,0.15);
+    --b-hero-sub: rgba(0,0,0,0.45);
+    --b-footer-text: rgba(0,0,0,0.35);
+    --b-footer-link: rgba(0,0,0,0.5);
+    --b-grain-opacity: 0.02;
+ } }
+  html[data-theme="dark"] { 
+    --b-bg: #050505;
+    --b-bg-hero: #0a0a0a;
+    --b-text: #e0e0e0;
+    --b-text-secondary: rgba(255,255,255,0.65);
+    --b-text-tertiary: rgba(255,255,255,0.3);
+    --b-heading: #ffffff;
+    --b-border: rgba(255,255,255,0.08);
+    --b-border-subtle: rgba(255,255,255,0.04);
+    --b-accent: #39d353;
+    --b-card-bg: rgba(255,255,255,0.02);
+    --b-chip-bg: rgba(255,255,255,0.04);
+    --b-chip-border: rgba(255,255,255,0.08);
+    --b-green: #3fb950;
+    --b-red: #f85149;
+    --b-badge-pr: #8957e5;
+    --b-badge-release: #238636;
+    --b-badge-issue: #d29922;
+    --b-badge-discussion: #58a6ff;
+    --b-heatmap-0: rgba(255,255,255,0.03);
+    --b-heatmap-1: #0e4429;
+    --b-heatmap-2: #006d32;
+    --b-heatmap-3: #26a641;
+    --b-heatmap-4: #39d353;
+    --b-heatmap-4-text: #000;
+    --b-nav-bg: rgba(5,5,5,0.8);
+    --b-nav-title: rgba(255,255,255,0.4);
+    --b-sep: rgba(255,255,255,0.15);
+    --b-hero-sub: rgba(255,255,255,0.5);
+    --b-footer-text: rgba(255,255,255,0.3);
+    --b-footer-link: rgba(255,255,255,0.5);
+    --b-grain-opacity: 0.03;
+ }
+  html[data-theme="light"] { 
+    --b-bg: #fafafa;
+    --b-bg-hero: #f0f0f0;
+    --b-text: #1a1a1a;
+    --b-text-secondary: rgba(0,0,0,0.6);
+    --b-text-tertiary: rgba(0,0,0,0.35);
+    --b-heading: #000000;
+    --b-border: rgba(0,0,0,0.1);
+    --b-border-subtle: rgba(0,0,0,0.05);
+    --b-accent: #1a7f37;
+    --b-card-bg: rgba(0,0,0,0.02);
+    --b-chip-bg: rgba(0,0,0,0.04);
+    --b-chip-border: rgba(0,0,0,0.1);
+    --b-green: #1a7f37;
+    --b-red: #cf222e;
+    --b-badge-pr: #8250df;
+    --b-badge-release: #1a7f37;
+    --b-badge-issue: #9a6700;
+    --b-badge-discussion: #0969da;
+    --b-heatmap-0: rgba(0,0,0,0.04);
+    --b-heatmap-1: #d0e8d0;
+    --b-heatmap-2: #a0d0a0;
+    --b-heatmap-3: #60b060;
+    --b-heatmap-4: #1a7f37;
+    --b-heatmap-4-text: #fff;
+    --b-nav-bg: rgba(250,250,250,0.85);
+    --b-nav-title: rgba(0,0,0,0.45);
+    --b-sep: rgba(0,0,0,0.15);
+    --b-hero-sub: rgba(0,0,0,0.45);
+    --b-footer-text: rgba(0,0,0,0.35);
+    --b-footer-link: rgba(0,0,0,0.5);
+    --b-grain-opacity: 0.02;
+ }
+
+    
+  .theme-toggle-row {
+    margin-bottom: 1rem;
+  }
+  .theme-toggle {
+    background: none; border: none;
+    color: var(--b-text-tertiary); cursor: pointer;
+    font-size: 0.8125rem; line-height: 1;
+    padding: 0; opacity: 0.4;
+    transition: opacity 0.2s;
+  }
+  .theme-toggle:hover { opacity: 1; }
+
+
     @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -65,21 +213,22 @@
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
       pointer-events: none;
       z-index: 9999;
+      opacity: var(--b-grain-opacity);
     }
 
     .skip-link {
       position: absolute; top: -100%; left: 1rem;
-      padding: 0.5rem 1rem; background: #39d353; color: #050505;
+      padding: 0.5rem 1rem; background: var(--b-accent); color: var(--b-bg);
       border-radius: 0 0 6px 6px; z-index: 200; font-size: 0.875rem; text-decoration: none;
     }
     .skip-link:focus { top: 0; }
-    :focus-visible { outline: 2px solid #39d353; outline-offset: 2px; }
+    :focus-visible { outline: 2px solid var(--b-accent); outline-offset: 2px; }
 
     body {
       font-family: 'Schibsted Grotesk', sans-serif;
-      background: #050505;
-      color: #e0e0e0;
-      line-height: 1.7;
+      background: var(--b-bg);
+      color: var(--b-text);
+      line-height: 1.65;
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
       overflow-x: hidden;
@@ -90,16 +239,16 @@
       font-size: 0.875em;
       padding: 0.15em 0.4em;
       border-radius: 4px;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: var(--b-chip-bg);
+      border: 1px solid var(--b-chip-border);
     }
 
     /* ===== NAV (matches index 960px) ===== */
     nav[aria-label="Site navigation"] {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: rgba(5,5,5,0.8);
+      background: var(--b-nav-bg);
       backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid var(--b-border);
     }
     .nav-inner {
       max-width: 960px; margin: 0 auto;
@@ -107,25 +256,25 @@
       display: flex; justify-content: space-between; align-items: center;
       min-height: 56px;
     }
-    nav a { color: #e0e0e0; text-decoration: none; }
+    nav a { color: var(--b-text); text-decoration: none; }
     .nav-site-title {
       font-size: 0.75rem; font-weight: 600;
       letter-spacing: 0.2em; text-transform: uppercase;
-      color: rgba(255,255,255,0.4);
+      color: var(--b-nav-title);
       white-space: nowrap;
     }
     .nav-back {
       font-family: 'Space Mono', monospace; font-size: 0.6875rem;
-      color: rgba(255,255,255,0.3);
+      color: var(--b-text-tertiary);
       padding: 0.375rem 0.75rem; border-radius: 6px;
-      border: 1px solid rgba(255,255,255,0.08); transition: all 0.2s;
+      border: 1px solid var(--b-chip-border); transition: all 0.2s;
     }
-    .nav-back:hover { color: #e0e0e0; border-color: #39d353; }
+    .nav-back:hover { color: var(--b-text); border-color: var(--b-accent); }
 
     /* ===== REPORT HERO ===== */
     .report-hero {
       position: relative;
-      background: #0a0a0a;
+      background: var(--b-bg-hero);
       padding: 8rem 3rem 4rem;
       margin-bottom: 4rem;
       overflow: hidden;
@@ -136,7 +285,7 @@
       bottom: 0; left: 50%;
       width: 900px; height: 400px;
       transform: translateX(-50%);
-      background: radial-gradient(ellipse, #39d35310 0%, transparent 70%);
+      background: radial-gradient(ellipse, var(--b-accent) / 0.06, transparent 70%);
       pointer-events: none;
     }
     .report-hero-inner {
@@ -148,35 +297,35 @@
     .report-hero .header-meta {
       display: flex; align-items: center; gap: 0.75rem;
       margin-bottom: 2rem;
-      font-size: 0.8125rem; color: rgba(255,255,255,0.3);
+      font-size: 0.8125rem; color: var(--b-text-tertiary);
     }
-    .report-hero .header-sep { color: rgba(255,255,255,0.15); }
+    .report-hero .header-sep { color: var(--b-sep); }
     .report-hero .header-date {
       font-family: 'Space Mono', monospace; font-size: 0.6875rem;
       letter-spacing: 0.1em; text-transform: uppercase;
     }
     .report-hero .header-author {
       display: inline-flex; align-items: center; gap: 0.5rem;
-      text-decoration: none; color: rgba(255,255,255,0.65);
+      text-decoration: none; color: var(--b-text-secondary);
       font-weight: 500; transition: color 0.3s;
     }
-    .report-hero .header-author:hover { color: #39d353; }
+    .report-hero .header-author:hover { color: var(--b-accent); }
     .report-hero .header-author img {
       width: 32px; height: 32px; border-radius: 50%;
-      border: 2px solid #39d35340;
+      border: 2px solid color-mix(in srgb, var(--b-accent) 25%, transparent);
     }
     .report-hero .header-title {
       font-size: clamp(2.5rem, 6vw, 4rem);
       font-weight: 900;
       line-height: 1.05;
       letter-spacing: -0.05em;
-      color: #ffffff;
+      color: var(--b-heading);
       margin-bottom: 1.25rem;
       max-width: 80%;
     }
     .report-hero .header-sub {
       font-size: 1.25rem;
-      color: rgba(255,255,255,0.5);
+      color: var(--b-hero-sub);
       font-weight: 300;
       line-height: 1.6;
       max-width: 600px;
@@ -202,11 +351,11 @@
       animation: fade-up 0.5s ease both;
     }
     .overview p {
-      font-size: 1.0625rem; color: rgba(255,255,255,0.65);
+      font-size: 1.0625rem; color: var(--b-text-secondary);
       line-height: 1.9; margin-bottom: 1.25rem;
     }
     .overview p:last-child { margin-bottom: 0; }
-    .overview strong { color: #e0e0e0; font-weight: 500; }
+    .overview strong { color: var(--b-text); font-weight: 500; }
 
     /* SECTION GROUP */
     .section-group { margin-bottom: 5rem; }
@@ -218,10 +367,10 @@
       font-size: clamp(3rem, 8vw, 5rem); font-weight: 900;
       letter-spacing: -0.06em;
     }
-    .section-group-line { flex: 1; height: 1px; background: rgba(255,255,255,0.08); }
+    .section-group-line { flex: 1; height: 1px; background: var(--b-border); }
     .section-group-count {
       font-family: 'Space Mono', monospace; font-size: 0.75rem;
-      color: rgba(255,255,255,0.3); letter-spacing: 0.15em;
+      color: var(--b-text-tertiary); letter-spacing: 0.15em;
       text-transform: uppercase;
     }
 
@@ -239,7 +388,7 @@
       margin-bottom: 2.5rem;
       padding: 2rem 0 2rem 2.5rem;
       border: none;
-      border-left: 2px solid rgba(255,255,255,0.08);
+      border-left: 2px solid var(--b-chip-border);
       background: none;
       max-width: 600px;
       transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -247,16 +396,14 @@
       position: relative;
     }
     .section-summary:hover {
-      border-left-color: #39d353;
+      border-left-color: var(--b-accent);
     }
-    /* first card: featured, wider */
     .section-summary:first-child {
       max-width: 700px;
       padding: 2.5rem 0 2.5rem 3rem;
       border-left-width: 3px;
-      border-left-color: #39d35340;
+      border-left-color: color-mix(in srgb, var(--b-accent) 25%, transparent);
     }
-    /* alternating offset */
     .section-summary:nth-child(even):not(:first-child) {
       margin-left: auto;
     }
@@ -266,13 +413,12 @@
     .section-summary:hover {
       transform: translateX(4px);
     }
-    /* heading breaks out left of card */
     .section-summary .section-heading {
       font-size: 2rem; font-weight: 900;
       letter-spacing: -0.04em;
       margin-left: -5rem;
       margin-bottom: 1rem;
-      color: #ffffff;
+      color: var(--b-heading);
     }
     .section-summary:first-child .section-heading {
       margin-left: -6rem;
@@ -281,10 +427,10 @@
     .section-summary .section-type {
       font-family: 'Space Mono', monospace; font-size: 0.6875rem;
       text-transform: uppercase; letter-spacing: 0.2em;
-      color: #39d353; margin-bottom: 0.75rem;
+      color: var(--b-accent); margin-bottom: 0.75rem;
     }
     .section-summary .section-body {
-      font-size: 1rem; color: rgba(255,255,255,0.65); line-height: 1.85;
+      font-size: 1rem; color: var(--b-text-secondary); line-height: 1.85;
     }
 
     /* DATA CHIPS */
@@ -292,14 +438,14 @@
     .chip {
       font-family: 'Space Mono', monospace; font-size: 0.75rem;
       padding: 0.3rem 0.65rem; border-radius: 6px;
-      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
-      color: rgba(255,255,255,0.65);
+      background: var(--b-chip-bg); border: 1px solid var(--b-chip-border);
+      color: var(--b-text-secondary);
       display: inline-flex; align-items: center; gap: 0.375rem;
       transition: all 0.2s ease;
     }
-    .chip:hover { border-color: #39d35360; }
-    .chip-green { color: #3fb950; font-weight: 600; }
-    .chip-red { color: #f85149; font-weight: 600; }
+    .chip:hover { border-color: color-mix(in srgb, var(--b-accent) 40%, transparent); }
+    .chip-green { color: var(--b-green); font-weight: 600; }
+    .chip-red { color: var(--b-red); font-weight: 600; }
     .chip-default { font-weight: 600; }
 
     /* HIGHLIGHT GRID */
@@ -311,8 +457,8 @@
 
     /* HIGHLIGHT CARD */
     .highlight-card {
-      background: rgba(255,255,255,0.02);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: var(--b-card-bg);
+      border: 1px solid var(--b-chip-border);
       border-radius: 12px;
       padding: 2rem;
       animation: card-enter 0.4s ease both;
@@ -323,9 +469,9 @@
     .highlight-card:nth-child(4) { animation-delay: 0.15s; }
     .highlight-card:nth-child(5) { animation-delay: 0.2s; }
     .highlight-card:hover {
-      border-color: #8957e550;
+      border-color: color-mix(in srgb, var(--b-badge-pr) 30%, transparent);
       transform: translateY(-4px);
-      box-shadow: 0 12px 48px #8957e515, 0 4px 16px rgba(0,0,0,0.5);
+      box-shadow: 0 12px 48px color-mix(in srgb, var(--b-badge-pr) 8%, transparent), 0 4px 16px rgba(0,0,0,0.2);
     }
     .highlight-badge {
       font-family: 'Space Mono', monospace; font-size: 0.6875rem;
@@ -333,18 +479,18 @@
       display: inline-block; padding: 0.2rem 0.5rem;
       border-radius: 4px; margin-bottom: 0.75rem; color: #fff;
     }
-    .highlight-pr { background: #8957e5; }
-    .highlight-release { background: #238636; }
-    .highlight-issue { background: #d29922; color: #000; }
-    .highlight-discussion { background: #58a6ff; color: #000; }
+    .highlight-pr { background: var(--b-badge-pr); }
+    .highlight-release { background: var(--b-badge-release); }
+    .highlight-issue { background: var(--b-badge-issue); color: #000; }
+    .highlight-discussion { background: var(--b-badge-discussion); color: #000; }
     .highlight-title { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.375rem; letter-spacing: -0.01em; }
     .highlight-meta {
       font-family: 'Space Mono', monospace; font-size: 0.75rem;
-      color: rgba(255,255,255,0.3); margin-bottom: 0.75rem; letter-spacing: 0.02em;
+      color: var(--b-text-tertiary); margin-bottom: 0.75rem; letter-spacing: 0.02em;
     }
-    .highlight-title a { color: #e0e0e0; text-decoration: none; transition: color 0.2s; }
-    .highlight-title a:hover { color: #39d353; }
-    .highlight-body { font-size: 0.9375rem; color: rgba(255,255,255,0.65); line-height: 1.75; }
+    .highlight-title a { color: var(--b-text); text-decoration: none; transition: color 0.2s; }
+    .highlight-title a:hover { color: var(--b-accent); }
+    .highlight-body { font-size: 0.9375rem; color: var(--b-text-secondary); line-height: 1.75; }
 
     /* MINI HEATMAP */
     .mini-heatmap { display: flex; gap: 4px; margin-top: 1.25rem; }
@@ -355,61 +501,61 @@
       font-family: 'Space Mono', monospace; font-size: 0.8125rem; font-weight: 600;
       transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     }
-    .mh-block:hover { transform: scale(1.15); box-shadow: 0 0 16px #39d35344; }
-    .mh-label { font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(255,255,255,0.3); }
-    .mh-level-0 { background: rgba(255,255,255,0.03); color: rgba(255,255,255,0.3); }
-    .mh-level-1 { background: #0e4429; }
-    .mh-level-2 { background: #006d32; }
-    .mh-level-3 { background: #26a641; }
-    .mh-level-4 { background: #39d353; color: #000; }
+    .mh-block:hover { transform: scale(1.15); }
+    .mh-label { font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--b-text-tertiary); }
+    .mh-level-0 { background: var(--b-heatmap-0); color: var(--b-text-tertiary); }
+    .mh-level-1 { background: var(--b-heatmap-1); }
+    .mh-level-2 { background: var(--b-heatmap-2); }
+    .mh-level-3 { background: var(--b-heatmap-3); }
+    .mh-level-4 { background: var(--b-heatmap-4); color: var(--b-heatmap-4-text); }
 
     /* DIFF BAR */
     .diff-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-top: 1.25rem; margin-bottom: 0.5rem; }
-    .diff-add { background: #3fb950; height: 100%; }
-    .diff-del { background: #f85149; height: 100%; }
+    .diff-add { background: var(--b-green); height: 100%; }
+    .diff-del { background: var(--b-red); height: 100%; }
     .diff-labels { display: flex; justify-content: space-between; font-family: 'Space Mono', monospace; font-size: 0.6875rem; }
-    .diff-label-add { color: #3fb950; }
-    .diff-label-del { color: #f85149; }
+    .diff-label-add { color: var(--b-green); }
+    .diff-label-del { color: var(--b-red); }
 
     /* REPO BARS */
     .repo-bars { margin-top: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; }
     .repo-bar-item { font-size: 0.75rem; }
     .repo-bar-header { display: flex; justify-content: space-between; margin-bottom: 0.25rem; }
-    .repo-bar-label { font-family: 'Space Mono', monospace; color: rgba(255,255,255,0.65); font-size: 0.6875rem; }
-    .repo-bar-track { width: 100%; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.04); overflow: hidden; }
-    .repo-bar-fill { height: 100%; border-radius: 2px; background: #39d353; transition: width 0.5s ease; }
-    .repo-bar-value { font-family: 'Space Mono', monospace; color: rgba(255,255,255,0.3); font-size: 0.6875rem; }
+    .repo-bar-label { font-family: 'Space Mono', monospace; color: var(--b-text-secondary); font-size: 0.6875rem; }
+    .repo-bar-track { width: 100%; height: 4px; border-radius: 2px; background: var(--b-chip-bg); overflow: hidden; }
+    .repo-bar-fill { height: 100%; border-radius: 2px; background: var(--b-accent); transition: width 0.5s ease; }
+    .repo-bar-value { font-family: 'Space Mono', monospace; color: var(--b-text-tertiary); font-size: 0.6875rem; }
 
     /* SHARE BAR */
     .share-bar { max-width: 960px; margin: 3rem auto 0; padding: 2rem 3rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-    .share-label { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 0.2em; }
+    .share-label { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--b-text-tertiary); text-transform: uppercase; letter-spacing: 0.2em; }
     .share-btn {
       display: inline-flex; align-items: center; justify-content: center;
       width: 32px; height: 32px; border-radius: 6px;
-      border: 1px solid rgba(255,255,255,0.08); background: rgba(255,255,255,0.04);
-      color: rgba(255,255,255,0.65); text-decoration: none;
+      border: 1px solid var(--b-chip-border); background: var(--b-chip-bg);
+      color: var(--b-text-secondary); text-decoration: none;
       font-size: 0.75rem; font-weight: 600; transition: all 0.3s;
     }
-    .share-btn:hover { border-color: #39d353; color: #e0e0e0; }
+    .share-btn:hover { border-color: var(--b-accent); color: var(--b-text); }
 
     /* WEEK NAV */
     .week-nav { max-width: 960px; margin: 0 auto; padding: 2rem; display: flex; justify-content: space-between; }
     .week-nav-link {
-      font-family: 'Space Mono', monospace; font-size: 0.6875rem; color: rgba(255,255,255,0.3);
+      font-family: 'Space Mono', monospace; font-size: 0.6875rem; color: var(--b-text-tertiary);
       text-decoration: none; padding: 0.375rem 0.75rem; border-radius: 6px;
-      border: 1px solid rgba(255,255,255,0.08); transition: all 0.2s;
+      border: 1px solid var(--b-chip-border); transition: all 0.2s;
     }
-    .week-nav-link:hover { color: #e0e0e0; border-color: #39d353; }
+    .week-nav-link:hover { color: var(--b-text); border-color: var(--b-accent); }
 
     /* FOOTER */
     .footer {
       max-width: 960px; margin: 0 auto; text-align: center;
       padding: 4rem 3rem; font-size: 0.8125rem;
-      color: rgba(255,255,255,0.3);
-      border-top: 1px solid rgba(255,255,255,0.08);
+      color: var(--b-footer-text);
+      border-top: 1px solid var(--b-border);
     }
-    .footer a { color: rgba(255,255,255,0.5); text-decoration: none; transition: color 0.2s; }
-    .footer a:hover { color: #39d353; }
+    .footer a { color: var(--b-footer-link); text-decoration: none; transition: color 0.2s; }
+    .footer a:hover { color: var(--b-accent); }
 
     @view-transition { navigation: auto; }
 
@@ -425,6 +571,12 @@
       .highlight-grid { grid-template-columns: 1fr; }
     }
   </style>
+  <script>
+(function(){
+  var s=localStorage.getItem("theme");
+  if(s)document.documentElement.setAttribute("data-theme",s);
+})();
+</script>
 </head>
 <body>
 
@@ -447,248 +599,90 @@
       <span class="header-sep">&middot;</span>
       <span class="header-date">2026-03-30 - 2026-04-05</span>
     </div>
-    <h1 class="header-title">Daily-fetch date stabilization lands in github-weekly-reporter</h1>
-    <p class="header-sub">Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection.</p>
+    <h1 class="header-title">Sunday events saved: test coverage hits 97% in github-weekly-reporter</h1>
+    <p class="header-sub">A frantic week of bug fixes, coverage pushes, and CI enhancements in the github-weekly-reporter project.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was dedicated to stabilizing the core data pipeline for my github-weekly-reporter project. After discovering that daily-fetch was losing event data due to incorrect date ranges, I made it the top priority to fix these bugs and strengthen the system against API errors.</p>
-  <p>The main narrative involved deep debugging of the cron's date logic. The daily-fetch was using a sliding week window and firing at midnight, which caused Sunday's events to be missed on Mondays and mid-week runs to fetch the previous week's data. I rewrote the date handling to use UTC ISO timestamps, added comprehensive boundary tests, and improved error handling for GitHub API rate limits and permission errors. Alongside, I set up Dependabot and Codecov to automate maintenance and track quality.</p>
-  <p>With the data collection now reliable, test coverage rose to 97%, and documentation was significantly improved. The project is in a much healthier state, ready for further features like enhanced LLM integration.</p>
+    <p>This week was dominated by urgent bug fixes in the deariary/github-weekly-reporter project, where a flaw in the daily-fetch cron was causing Sunday's events to be permanently lost. I had to drop everything to patch the date range logic before more data vanished.</p>
+  <p>With the immediate crisis averted, I embarked on a multi-pronged effort to stabilize the codebase: dramatically improving test coverage from 40% to 97% across several PRs, adding Dependabot and Codecov for automation, and overhauling the documentation. The pace was intense, culminating in a 283-commit burst on April 4th as everything came together.</p>
+  <p>By week's end, the project is far more resilient—data collection is reliable, the test suite is comprehensive, and the CI/CD pipeline is self-maintaining. The new interactive CLI setup and enhanced docs should make it much easier for new users to get started.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">4 sections</span>
+      <span class="section-group-count">5 sections</span>
     </div>
   
     <div class="section-summary">
-      <div class="section-type">deep-dive</div>
-      <div class="section-heading">Debugging the daily-fetch date disaster</div>
-      <div class="section-body">The daily-fetch cron was collecting the wrong date ranges: on Monday midnight, it flipped to the new week but never collected Sunday's events, and mid-week it fetched the previous week's data. I traced this to the use of <code>buildWeeklyRange</code> and <code>getWeekId</code> which target the previous ISO week. The fix involved creating <code>buildCurrentWeekRange</code> and <code>getCurrentWeekId</code> functions with UTC-aware logic, and adding extensive tests to cover timezone boundaries.</div>
+      <div class="section-type">bug-fix-sprint</div>
+      <div class="section-heading">Plugging data leaks in daily-fetch</div>
+      <div class="section-body">Fixed a severe bug where daily-fetch collected the wrong day's events, causing Sunday data loss. Also corrected week navigation to exclude incomplete reports and fixed current week collection. These changes ensure no more silent data loss.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">root cause</span> <span class="chip-value chip-default">wrong week ID function</span></span>
-        <span class="chip"><span class="chip-label">solution</span> <span class="chip-value chip-default">UTC-aware range builders</span></span>
-        <span class="chip"><span class="chip-label">tests added</span> <span class="chip-value chip-default">15 new cases</span></span>
-        <span class="chip"><span class="chip-label">coverage impact</span> <span class="chip-value chip-default">core modules 97-100%</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-default">3</span></span>
+        <span class="chip"><span class="chip-label">lines changed</span> <span class="chip-value chip-default">+634 -118</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">repo-summary</div>
-      <div class="section-heading">deariary/github-weekly-reporter: 60 PRs, intense focus</div>
-      <div class="section-body">The vast majority of work this week was in deariary/github-weekly-reporter, with 60 PRs merged. Focus areas included bug fixes (date handling, error handling), testing (coverage from 40% to 97% over weeks), documentation, and CI improvements. Other repos like unhappychoice/mdts saw minor dependency updates via Dependabot.</div>
+      <div class="section-type">testing</div>
+      <div class="section-heading">Test coverage rockets to 97%</div>
+      <div class="section-body">Started at 40% coverage and added 128+ tests across multiple modules. Key modules like render.ts, deploy.ts, and llm/index.ts now at 99-100%. The final push from 95% to 97% with targeted cases closed the gap.</div>
   
-  
-  
-      <div class="repo-bars">
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
-            <span class="repo-bar-value">60 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:100%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/mdts</span>
-            <span class="repo-bar-value">10 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
-            <span class="repo-bar-value">7 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:12%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gitlogue</span>
-            <span class="repo-bar-value">5 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:8%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/blog</span>
-            <span class="repo-bar-value">4 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:7%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/lintric</span>
-            <span class="repo-bar-value">4 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:7%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gittype</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:2%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/terminal_image</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:2%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:2%"></div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">primary repo</span> <span class="chip-value chip-default">deariary/github-weekly-reporter</span></span>
-        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-default">52</span></span>
-        <span class="chip"><span class="chip-label">test coverage</span> <span class="chip-value chip-default">97%</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Commit burst on Apr 4 drives 312 total</div>
-      <div class="section-body">Commit activity was highly concentrated, with a massive spike on Apr 4 (283 commits) likely due to wrapping up the date fixes and test expansions. Lower activity on Apr 3 (58 commits) might indicate a break or collaborative review day. The pattern shows focused sprints with burst coding days.</div>
-  
-      <div class="mini-heatmap">
-        <div class="mh-day">
-          <div class="mh-block mh-level-2">102</div>
-          <div class="mh-label">Mon</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-1">29</div>
-          <div class="mh-label">Tue</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-3">161</div>
-          <div class="mh-label">Wed</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-2">88</div>
-          <div class="mh-label">Thu</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-1">58</div>
-          <div class="mh-label">Fri</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">283</div>
-          <div class="mh-label">Sat</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-2">102</div>
-          <div class="mh-label">Sun</div>
-        </div>
-      </div>
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">312</span></span>
-        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-default">Apr 4 (283)</span></span>
-        <span class="chip"><span class="chip-label">lines changed</span> <span class="chip-value chip-default">+30828 -10527</span></span>
+        <span class="chip"><span class="chip-label">coverage gain</span> <span class="chip-value chip-default">57 points</span></span>
+        <span class="chip"><span class="chip-label">tests added</span> <span class="chip-value chip-default">128+</span></span>
+        <span class="chip"><span class="chip-label">modules at 100%</span> <span class="chip-value chip-default">3</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">devops</div>
-      <div class="section-heading">Automation: Dependabot and Codecov integrated</div>
-      <div class="section-body">To reduce maintenance overhead, I added Dependabot for automated dependency updates across npm and GitHub Actions, with grouped minor/patch updates. Simultaneously, integrated Codecov for coverage reporting, setting project and patch thresholds to enforce quality. These tools will streamline future development.</div>
+      <div class="section-heading">CI/CD automation unleashed</div>
+      <div class="section-body">Integrated Dependabot to automatically bump dependencies and Codecov to track test coverage. These tools reduce manual maintenance and enforce quality standards, making the project more sustainable long-term.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">Dependabot</span> <span class="chip-value chip-default">configured</span></span>
-        <span class="chip"><span class="chip-label">Codecov</span> <span class="chip-value chip-default">integrated</span></span>
-        <span class="chip"><span class="chip-label">coverage threshold</span> <span class="chip-value chip-default">patch 80%</span></span>
+        <span class="chip"><span class="chip-label">automations added</span> <span class="chip-value chip-default">2</span></span>
+        <span class="chip"><span class="chip-label">dependabot PRs</span> <span class="chip-value chip-default">15+</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">docs</div>
+      <div class="section-heading">Documentation gets a complete makeover</div>
+      <div class="section-body">Rewrote the README with a clear value proposition and prerequisites. Added five new documentation pages covering how it works, customization, FAQ, and troubleshooting. This makes the project far more accessible.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">new pages</span> <span class="chip-value chip-default">5</span></span>
+        <span class="chip"><span class="chip-label">README lines</span> <span class="chip-value chip-default">+590 -78</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">maintenance</div>
+      <div class="section-heading">Cross-repo dependency updates</div>
+      <div class="section-body">Dependabot kept all related repositories up-to-date, merging 20+ PRs across projects like mdts, gitlogue, blog, and others. This ensures security and compatibility across the ecosystem.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">repos updated</span> <span class="chip-value chip-default">8</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-default">20+</span></span>
       </div>
     </div>
   </div>
@@ -703,26 +697,26 @@
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
       <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/89" target="_blank" rel="noopener nofollow">fix: daily-fetch collects yesterday&#x27;s events, not current day&#x27;s</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged this week · +439 -102 · 9 files</div>
-      <div class="highlight-body">Critical fix preventing permanent loss of Sunday's events when cron runs on Monday midnight. Rewrote date range logic to use current week.</div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Mar 30 · +439 -102 · 9 files</div>
+      <div class="highlight-body">This fix prevented Sunday's events from being lost by correcting the date range logic in the daily-fetch cron.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
       <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/87" target="_blank" rel="noopener nofollow">test: improve test coverage from 95% to 97%</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged this week · +309 -1 · 5 files</div>
-      <div class="highlight-body">Added 19 test cases, pushing statement coverage to 97.1% and branch coverage to 90.7%, with key modules reaching 97-100%.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-release">release</span>
-      <div class="highlight-title">v0.3.4</div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · released Apr 3</div>
-      <div class="highlight-body">Includes feat: set homepage URL and topics during setup, plus several bug fixes from this week's work.</div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 4 · +309 -1 · 5 files</div>
+      <div class="highlight-body">The final push to 97% coverage added 19 new test cases, ensuring critical modules are fully tested.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/76" target="_blank" rel="noopener nofollow">ci: add Dependabot for dependency updates</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged this week · +19 -0 · 2 files</div>
-      <div class="highlight-body">Automates dependency updates, reducing security risks and manual maintenance effort.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/85" target="_blank" rel="noopener nofollow">docs: improve README and add documentation pages</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 2 · +590 -78 · 6 files</div>
+      <div class="highlight-body">Completely rewrote the README and added five new docs pages, making the project much easier to understand and set up.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/74" target="_blank" rel="noopener nofollow">ci: add Codecov for test coverage reporting</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 3 · +733 -2 · 6 files</div>
+      <div class="highlight-body">Integrated Codecov to automatically track and enforce test coverage, adding a key quality gate to the CI pipeline.</div>
     </div>
     </div>
   </div>
@@ -731,9 +725,9 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W14/&text=Daily-fetch%20date%20stabilization%20lands%20in%20github-weekly-reporter&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W14/&text=Sunday%20events%20saved%3A%20test%20coverage%20hits%2097%25%20in%20github-weekly-reporter&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W14/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=Daily-fetch%20date%20stabilization%20lands%20in%20github-weekly-reporter%20https://unhappychoice.github.io/weekly-report/2026/W14/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://bsky.app/intent/compose?text=Sunday%20events%20saved%3A%20test%20coverage%20hits%2097%25%20in%20github-weekly-reporter%20https://unhappychoice.github.io/weekly-report/2026/W14/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
 <nav class="week-nav" aria-label="Week navigation">
@@ -743,10 +737,31 @@
 
 
 <footer class="footer">
+  <div class="theme-toggle-row">
+    <button class="theme-toggle" type="button" aria-label="Toggle theme">&#9790;&#65038; Dark</button>
+  </div>
   Powered by <a href="https://deariary.com?utm_source=github-weekly-reporter&utm_medium=footer" target="_blank" rel="noopener">deariary</a>
   &nbsp;&middot;&nbsp;
   Generated with <a href="https://github.com/deariary/github-weekly-reporter" target="_blank" rel="noopener">github-weekly-reporter</a>
 </footer>
 
+<script>
+(function(){
+  var btn=document.querySelector(".theme-toggle");
+  if(!btn)return;
+  function current(){
+    return document.documentElement.getAttribute("data-theme")
+      || (matchMedia("(prefers-color-scheme:light)").matches?"light":"dark");
+  }
+  function update(){btn.textContent=current()==="dark"?"\u2600\uFE0E Light":"\u263D\uFE0E Dark";}
+  update();
+  btn.addEventListener("click",function(){
+    var next=current()==="dark"?"light":"dark";
+    document.documentElement.setAttribute("data-theme",next);
+    localStorage.setItem("theme",next);
+    update();
+  });
+})();
+</script>
 </body>
 </html>

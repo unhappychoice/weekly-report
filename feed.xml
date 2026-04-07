@@ -14,16 +14,16 @@
       <height>630</height>
     </image>
     <item>
-      <title>Daily-fetch date stabilization lands in github-weekly-reporter</title>
+      <title>Sunday events saved: test coverage hits 97% in github-weekly-reporter</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>
-      <description>Resolved critical timing bugs and enhanced API error handling to ensure reliable data collection.
+      <description>A frantic week of bug fixes, coverage pushes, and CI enhancements in the github-weekly-reporter project.
 
-This week was dedicated to stabilizing the core data pipeline for my github-weekly-reporter project. After discovering that daily-fetch was losing event data due to incorrect date ranges, I made it the top priority to fix these bugs and strengthen the system against API errors.
+This week was dominated by urgent bug fixes in the deariary/github-weekly-reporter project, where a flaw in the daily-fetch cron was causing Sunday&apos;s events to be permanently lost. I had to drop everything to patch the date range logic before more data vanished.
 
-The main narrative involved deep debugging of the cron&apos;s date logic. The daily-fetch was using a sliding week window and firing at midnight, which caused Sunday&apos;s events to be missed on Mondays and mid-week runs to fetch the previous week&apos;s data. I rewrote the date handling to use UTC ISO timestamps, added comprehensive boundary tests, and improved error handling for GitHub API rate limits and permission errors. Alongside, I set up Dependabot and Codecov to automate maintenance and track quality.
+With the immediate crisis averted, I embarked on a multi-pronged effort to stabilize the codebase: dramatically improving test coverage from 40% to 97% across several PRs, adding Dependabot and Codecov for automation, and overhauling the documentation. The pace was intense, culminating in a 283-commit burst on April 4th as everything came together.
 
-With the data collection now reliable, test coverage rose to 97%, and documentation was significantly improved. The project is in a much healthier state, ready for further features like enhanced LLM integration.
+By week&apos;s end, the project is far more resilient—data collection is reliable, the test suite is comprehensive, and the CI/CD pipeline is self-maintaining. The new interactive CLI setup and enhanced docs should make it much easier for new users to get started.
 
 
 Commits: 312, PRs: 53, Reviews: 53</description>
