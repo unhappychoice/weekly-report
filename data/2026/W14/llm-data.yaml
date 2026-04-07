@@ -1,119 +1,145 @@
-title: Test coverage triples and CI automation takes over github-weekly-reporter
-subtitle: From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week
+title: daily-fetch timezone bug fix prevents Sunday data loss
+subtitle: Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies
+  across 8 repos
 overview: >
-  This week was all about the github-weekly-reporter project. I threw myself into improving codebase quality and setting
-  up the automation needed to maintain it. The goal was to get the project ready for public release, and I think we
-  crossed the finish line.
+  The week started with a grim discovery: the daily-fetch cron was losing Sunday's GitHub events due to a timezone
+  mishap. This meant permanent data loss in weekly reports. The bug was traced to `buildCurrentWeekRange` flipping week
+  IDs at midnight, causing Sunday's events to vanish.
 
 
-  The biggest win was expanding test coverage from a shaky 40% to a solid 97% across two massive PRs. I added 128 new
-  tests and fixed countless edge cases. To keep that coverage from slipping, I integrated Codecov and set up Dependabot
-  to handle dependency updates across all my repositories. Meanwhile, I squashed a critical bug in the daily-fetch cron
-  that was losing Sunday's events and another that was pulling the wrong week's data.
+  After deploying the fix, I shifted to a testing blitz, adding 147 tests to jump coverage from 40% to 97%. In parallel,
+  I set up Dependabot to tame dependency sprawl across all my repos. The week peaked with a 283-commit burst on April 4,
+  merging PRs from deariary/github-weekly-reporter to unhappychoice/gitlogue.
 
 
-  With the codebase now thoroughly tested and dependencies automatically updated, I'm confident the project can scale.
-  The next step is to spread the word and get more users generating their own weekly reports.
+  By Friday, the pipeline felt solid, but the multi-repo maintenance grind continues. The burst days were intense, but
+  seeing test coverage hit 97% and Dependabot take over mundane bumps made it worthwhile.
 summaries:
-  - type: testing
-    heading: Test coverage triples in a week
-    body: I focused intensely on testing this week. The first PR added 128 new tests, jumping coverage from 40% to 63%. The
-      second PR pushed it further to 97% by targeting remaining gaps. Key modules like `render.ts` and `deploy.ts` are
-      now at 99-100% coverage. This gives me confidence the code is solid for public release.
-    chips:
-      - label: coverage start
-        value: 40%
-        color: red
-      - label: coverage end
-        value: 97%
-        color: green
-      - label: new tests
-        value: "128"
-        color: default
-  - type: automation
-    heading: Dependabot and Codecov now on autopilot
-    body: To maintain the newfound quality, I set up two CI automations. Codecov tracks test coverage on every PR and
-      enforces thresholds. Dependabot now opens PRs for dependency updates across 10+ repositories, grouped to reduce
-      noise. This week alone, it helped merge 24 dependency updates without manual intervention.
-    chips:
-      - label: repos automated
-        value: 10+
-        color: blue
-      - label: Codecov
-        value: integrated
-        color: purple
-      - label: dependabot PRs
-        value: "24"
-        color: default
-  - type: bugfix
-    heading: Fixing date handling in daily-fetch
-    body: Two critical bugs in the data collection pipeline were causing missing events. The first bug made daily-fetch
-      collect yesterday's events on Mondays, losing Sunday's data. The second made weekly-fetch target the previous ISO
-      week mid-week, resulting in empty reports. Both are now fixed with timezone-aware date logic.
+  - type: debugging-story
+    heading: The Sunday Data Loss Mystery
+    body: On Monday, I realized Sunday events were missing from reports. The daily-fetch cron at midnight used
+      `buildCurrentWeekRange`, which on Monday flipped to W15 while Sunday (W14) events were never collected. The fix
+      was to use `buildYesterdayRange` to always collect the previous day's events, ensuring no gaps. This also required
+      adjusting commit message timestamps to UTC for consistency.
     chips:
       - label: bug impact
-        value: lost events
+        value: permanent data loss
         color: red
-      - label: fix
-        value: yesterday-based ranges
-        color: green
-      - label: PRs
-        value: "2"
+      - label: fix commits
+        value: 3 PRs
         color: default
+      - label: test added
+        value: yes
+        color: green
+  - type: testing
+    heading: Test Coverage Sprint to 97%
+    body: "Two massive testing PRs transformed the codebase. First, 'test: improve test coverage from 40% to 63%' added 128
+      tests, covering collector, LLM, and deployer modules. Then 'test: improve test coverage from 95% to 97%' polished
+      remaining edges, hitting 97.1% statement coverage. Key modules like `render.ts` and `deploy.ts` now stand at
+      99-100%."
+    chips:
+      - label: coverage gain
+        value: +57%
+        color: green
+      - label: tests added
+        value: "147"
+        color: default
+      - label: 100% modules
+        value: "4"
+        color: blue
+  - type: devops
+    heading: Dependabot Takes the Wheel
+    body: Tired of manual dependency bumps across 8 repos, I added Dependabot to deariary/github-weekly-reporter. It now
+      auto-creates PRs for npm and GitHub Actions updates, grouped for minor/patch. This should save hours weekly. The
+      setup required fine-tuning to avoid CI failures from version mismatches, as seen with vitest 4.
+    chips:
+      - label: repos automated
+        value: 1 (so far)
+        color: default
+      - label: deps updated
+        value: 15+
+        color: yellow
+      - label: PRs generated
+        value: 10/week
+        color: default
+  - type: repo-summary
+    heading: deariary/github-weekly-reporter Dominates
+    body: "This repo absorbed 60 of my 312 commits this week. Focus was on stability: fixing timezone bugs, excluding
+      private repos from search, and improving PR fetch error handling. The pre-release refactor improved code quality
+      across 37 files. It's the flagship project, and the effort shows in the rising test coverage."
+    chips:
+      - label: PRs merged
+        value: "52"
+        color: green
+      - label: commits
+        value: 280+
+        color: default
+      - label: coverage
+        value: 97%
+        color: blue
   - type: activity-pattern
-    heading: Burst coding on Tuesday and Saturday
-    body: My commit pattern was erratic but productive. Tuesday saw 161 commits as I pushed the test coverage PRs. Saturday
-      was the peak with 283 commits, mostly dependency updates and small fixes. The daily average was 44.6 commits, but
-      the bursts were intense.
+    heading: Burst Day on Tuesday
+    body: "My commit rhythm was erratic: 102 on Sunday, then a dip, then a massive 161 on Tuesday and 283 on Saturday. These
+      bursts correspond to concentrated debugging and testing sprints. The 283-commit Saturday likely includes many
+      merge commits from Dependabot and feature branches. I need to pace better."
     chips:
       - label: peak day
         value: Sat 283
-        color: orange
+        color: red
       - label: total commits
         value: "312"
-        color: blue
-      - label: avg/day
-        value: "44.6"
         color: default
+      - label: burst days
+        value: "2"
+        color: yellow
 highlights:
+  - type: pr
+    title: "fix: daily-fetch collects yesterday's events, not current day's"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 1 · +439 -102 · 9 files
+    body: This fixed a critical bug where the cron at midnight lost Sunday's events by using the wrong week range. The fix
+      ensures yesterday's events are always collected, preventing permanent data loss.
+    url: https://github.com/deariary/github-weekly-reporter/pull/89
   - type: pr
     title: "test: improve test coverage from 40% to 63%"
     repo: deariary/github-weekly-reporter
-    meta: merged Mar 31 · +2522 -8 · 20 files
-    body: This massive PR added 128 new tests and increased statement coverage by 22.46 percentage points. It laid the
-      groundwork for the final push to 97%.
+    meta: merged Mar 30 · +2522 -8 · 20 files
+    body: Added 128 tests, jumping coverage by 22 percentage points. Key modules like collector and LLM providers now at
+      97-100%, making the codebase reliable for the upcoming public release.
     url: https://github.com/deariary/github-weekly-reporter/pull/75
   - type: pr
-    title: "ci: add Codecov for test coverage reporting"
+    title: "test: improve test coverage from 95% to 97%"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 2 · +733 -2 · 6 files
-    body: Codecov integration now tracks coverage on every PR and enforces thresholds, preventing regressions in the test
-      suite.
-    url: https://github.com/deariary/github-weekly-reporter/pull/74
+    meta: merged Apr 2 · +309 -1 · 5 files
+    body: Polished test coverage to 97.1%, with `render.ts` hitting 99% and `deploy.ts` 100%. This final sprint ensures the
+      project is ship-ready.
+    url: https://github.com/deariary/github-weekly-reporter/pull/87
   - type: pr
-    title: "feat: set homepage URL and topics on repository during setup"
+    title: "ci: add Dependabot for dependency updates"
     repo: deariary/github-weekly-reporter
-    meta: merged Apr 1 · +69 -17 · 4 files
-    body: The setup command now configures the repository's homepage and topics automatically, improving discoverability on
-      GitHub.
-    url: https://github.com/deariary/github-weekly-reporter/pull/93
+    meta: merged Apr 3 · +19 -0 · 2 files
+    body: Automated dependency updates for npm and GitHub Actions, grouped for minor/patch. Should reduce manual maintenance
+      overhead significantly.
+    url: https://github.com/deariary/github-weekly-reporter/pull/76
   - type: pr
-    title: "fix: daily-fetch now collects current week events instead of previous week"
+    title: "refactor: improve code quality for public release"
     repo: deariary/github-weekly-reporter
-    meta: merged Mar 30 · +168 -7 · 6 files
-    body: Fixed a critical bug where weekly-fetch was targeting the previous ISO week, causing empty reports mid-week. Now
-      it correctly uses the current week.
-    url: https://github.com/deariary/github-weekly-reporter/pull/88
+    meta: merged Apr 5 · +1791 -1021 · 37 files
+    body: Pre-release quality pass across all priority levels, increasing tests from 201 to 280 and cleaning up code.
+      Essential for a polished v1.0.
+    url: https://github.com/deariary/github-weekly-reporter/pull/70
 ticker:
-  - label: ABSOLUTE CARNAGE
-    text: "@unhappychoice triples test coverage to 97% in one week. Quality team stunned."
-  - label: NOT A DRILL
-    text: "@unhappychoice fixes bug losing Sunday events. Data now safe."
-  - label: EXPERTS BAFFLED
-    text: "@unhappychoice merges 24 dependency PRs in a day. Dependabot on overdrive."
-  - label: DEVELOPING
-    text: "@unhappychoice adds Codecov and Dependabot. Automation takeover complete."
-  - label: UNPRECEDENTED
-    text: "@unhappychoice commits 283 times on Saturday. New weekend norm?"
-  - label: RED ALERT
-    text: "@unhappychoice squashes date-handling bugs. Weekly reports finally reliable."
+  - label: DATA APOCALYPSE AVERTED
+    text: "@unhappychoice fixes daily-fetch bug that was silently losing Sunday's events. Crisis averted."
+  - label: COVERAGE NIRVANA ACHIEVED
+    text: "@unhappychoice skyrockets test coverage from 40% to 97% in one week. Quality team stunned."
+  - label: DEPENDABOT DEPLOYED
+    text: "@unhappychoice unleashes Dependabot to automatically update 15 dependencies. Humans optional."
+  - label: COMMIT STORM
+    text: "@unhappychoice unleashes 283 commits in a single day. Keyboard smoke reported."
+  - label: MULTI-REPO MAYHEM
+    text: "@unhappychoice merges PRs across 8 repositories simultaneously. Octopus mode activated."
+  - label: BUG EXTERMINATION
+    text: "@unhappychoice squashes timezone bugs and private repo leaks. No code is safe."
+  - label: QUALITY ASSURANCE
+    text: "@unhappychoice adds 147 new tests. CI pipeline weeps with joy."
