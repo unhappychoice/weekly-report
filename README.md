@@ -1,8 +1,8 @@
 # Dev Pulse
 
-Weekly GitHub activity reports for [@unhappychoice](https://github.com/unhappychoice).
+This repository is generated and updated by [github-weekly-reporter](https://github.com/deariary/github-weekly-reporter).
 
-This repository is automatically generated and maintained by [github-weekly-reporter](https://github.com/deariary/github-weekly-reporter).
+Every week, GitHub Actions collects my activity (commits, PRs, reviews), an LLM writes a narrative summary, and the result is published as a blog-style report page and an animated profile card.
 
 ## Live Reports
 
