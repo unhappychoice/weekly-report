@@ -1,12 +1,22 @@
 # Dev Pulse
 
-Weekly GitHub activity reports for [@unhappychoice](https://github.com/unhappychoice), powered by [github-weekly-reporter](https://github.com/deariary/github-weekly-reporter).
+Weekly GitHub activity reports for [@unhappychoice](https://github.com/unhappychoice).
+
+This repository is automatically generated and maintained by [github-weekly-reporter](https://github.com/deariary/github-weekly-reporter).
 
 ## Live Reports
 
 https://unhappychoice.github.io/weekly-report
 
 ## Profile Card
+
+<a href="https://github.com/unhappychoice/weekly-report">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://unhappychoice.github.io/weekly-report/card-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://unhappychoice.github.io/weekly-report/card.svg" />
+    <img alt="Weekly Report" src="https://unhappychoice.github.io/weekly-report/card.svg" />
+  </picture>
+</a>
 
 Add this to your [GitHub Profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme):
 
