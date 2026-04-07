@@ -6,6 +6,20 @@ Weekly GitHub activity reports for [@unhappychoice](https://github.com/unhappych
 
 https://unhappychoice.github.io/weekly-report
 
+## Profile Card
+
+Add this to your [GitHub Profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme):
+
+```html
+<a href="https://github.com/unhappychoice/weekly-report">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://unhappychoice.github.io/weekly-report/card-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://unhappychoice.github.io/weekly-report/card.svg" />
+    <img alt="Weekly Report" src="https://unhappychoice.github.io/weekly-report/card.svg" />
+  </picture>
+</a>
+```
+
 ## How It Works
 
 1. **Daily** (automatic): A scheduled workflow collects your GitHub events at midnight (Asia/Tokyo).
@@ -21,7 +35,8 @@ Edit `.github/workflows/weekly-report.yml` to change:
 | `username` | `unhappychoice` | GitHub user to report on |
 | `language` | `en` | Report language (en, ja, zh-CN, zh-TW, ko, es, fr, de, pt, ru) |
 | `timezone` | `Asia/Tokyo` | IANA timezone for date calculations |
-| `SITE_TITLE` | `Dev\nPulse` | Site title in the header and hero |
+| `theme` | `brutalist` | Report theme (brutalist, minimal, editorial) |
+| `SITE_TITLE` | `Dev Pulse` | Site title in the header and hero |
 | `llm-provider` | `openrouter` | LLM provider for AI narrative |
 | `llm-model` | `stepfun/step-3.5-flash:free` | Model name |
 
