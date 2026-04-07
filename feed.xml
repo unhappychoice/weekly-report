@@ -14,16 +14,16 @@
       <height>630</height>
     </image>
     <item>
-      <title>Test coverage triples and CI automation takes over github-weekly-reporter</title>
+      <title>daily-fetch timezone bug fix prevents Sunday data loss</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>
-      <description>From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week
+      <description>Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos
 
-This week was all about the github-weekly-reporter project. I threw myself into improving codebase quality and setting up the automation needed to maintain it. The goal was to get the project ready for public release, and I think we crossed the finish line.
+The week started with a grim discovery: the daily-fetch cron was losing Sunday&apos;s GitHub events due to a timezone mishap. This meant permanent data loss in weekly reports. The bug was traced to `buildCurrentWeekRange` flipping week IDs at midnight, causing Sunday&apos;s events to vanish.
 
-The biggest win was expanding test coverage from a shaky 40% to a solid 97% across two massive PRs. I added 128 new tests and fixed countless edge cases. To keep that coverage from slipping, I integrated Codecov and set up Dependabot to handle dependency updates across all my repositories. Meanwhile, I squashed a critical bug in the daily-fetch cron that was losing Sunday&apos;s events and another that was pulling the wrong week&apos;s data.
+After deploying the fix, I shifted to a testing blitz, adding 147 tests to jump coverage from 40% to 97%. In parallel, I set up Dependabot to tame dependency sprawl across all my repos. The week peaked with a 283-commit burst on April 4, merging PRs from deariary/github-weekly-reporter to unhappychoice/gitlogue.
 
-With the codebase now thoroughly tested and dependencies automatically updated, I&apos;m confident the project can scale. The next step is to spread the word and get more users generating their own weekly reports.
+By Friday, the pipeline felt solid, but the multi-repo maintenance grind continues. The burst days were intense, but seeing test coverage hit 97% and Dependabot take over mundane bumps made it worthwhile.
 
 
 Commits: 312, PRs: 53, Reviews: 53</description>

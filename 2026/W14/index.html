@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Test coverage triples and CI automation takes over github-weekly-reporter - 2026-03-30 - 2026-04-05</title>
+  <title>daily-fetch timezone bug fix prevents Sunday data loss - 2026-03-30 - 2026-04-05</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week" />
+  <meta name="description" content="Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="Test coverage triples and CI automation takes over github-weekly-reporter" />
-  <meta property="og:description" content="From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week" />
+  <meta property="og:title" content="daily-fetch timezone bug fix prevents Sunday data loss" />
+  <meta property="og:description" content="Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos" />
   <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
   <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W14/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Test coverage triples and CI automation takes over github-weekly-reporter" />
-  <meta name="twitter:description" content="From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week" />
+  <meta name="twitter:title" content="daily-fetch timezone bug fix prevents Sunday data loss" />
+  <meta name="twitter:description" content="Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos" />
   <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
@@ -31,8 +31,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Test coverage triples and CI automation takes over github-weekly-reporter",
-    "description": "From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week",
+    "headline": "daily-fetch timezone bug fix prevents Sunday data loss",
+    "description": "Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
@@ -599,72 +599,223 @@
       <span class="header-sep">&middot;</span>
       <span class="header-date">2026-03-30 - 2026-04-05</span>
     </div>
-    <h1 class="header-title">Test coverage triples and CI automation takes over github-weekly-reporter</h1>
-    <p class="header-sub">From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week</p>
+    <h1 class="header-title">daily-fetch timezone bug fix prevents Sunday data loss</h1>
+    <p class="header-sub">Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was all about the github-weekly-reporter project. I threw myself into improving codebase quality and setting up the automation needed to maintain it. The goal was to get the project ready for public release, and I think we crossed the finish line.</p>
-  <p>The biggest win was expanding test coverage from a shaky 40% to a solid 97% across two massive PRs. I added 128 new tests and fixed countless edge cases. To keep that coverage from slipping, I integrated Codecov and set up Dependabot to handle dependency updates across all my repositories. Meanwhile, I squashed a critical bug in the daily-fetch cron that was losing Sunday's events and another that was pulling the wrong week's data.</p>
-  <p>With the codebase now thoroughly tested and dependencies automatically updated, I'm confident the project can scale. The next step is to spread the word and get more users generating their own weekly reports.</p>
+    <p>The week started with a grim discovery: the daily-fetch cron was losing Sunday's GitHub events due to a timezone mishap. This meant permanent data loss in weekly reports. The bug was traced to <code>buildCurrentWeekRange</code> flipping week IDs at midnight, causing Sunday's events to vanish.</p>
+  <p>After deploying the fix, I shifted to a testing blitz, adding 147 tests to jump coverage from 40% to 97%. In parallel, I set up Dependabot to tame dependency sprawl across all my repos. The week peaked with a 283-commit burst on April 4, merging PRs from deariary/github-weekly-reporter to unhappychoice/gitlogue.</p>
+  <p>By Friday, the pipeline felt solid, but the multi-repo maintenance grind continues. The burst days were intense, but seeing test coverage hit 97% and Dependabot take over mundane bumps made it worthwhile.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">4 sections</span>
+      <span class="section-group-count">5 sections</span>
     </div>
   
+    <div class="section-summary">
+      <div class="section-type">debugging-story</div>
+      <div class="section-heading">The Sunday Data Loss Mystery</div>
+      <div class="section-body">On Monday, I realized Sunday events were missing from reports. The daily-fetch cron at midnight used <code>buildCurrentWeekRange</code>, which on Monday flipped to W15 while Sunday (W14) events were never collected. The fix was to use <code>buildYesterdayRange</code> to always collect the previous day's events, ensuring no gaps. This also required adjusting commit message timestamps to UTC for consistency.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">bug impact</span> <span class="chip-value chip-red">permanent data loss</span></span>
+        <span class="chip"><span class="chip-label">fix commits</span> <span class="chip-value chip-default">3 PRs</span></span>
+        <span class="chip"><span class="chip-label">test added</span> <span class="chip-value chip-green">yes</span></span>
+      </div>
+    </div>
     <div class="section-summary">
       <div class="section-type">testing</div>
-      <div class="section-heading">Test coverage triples in a week</div>
-      <div class="section-body">I focused intensely on testing this week. The first PR added 128 new tests, jumping coverage from 40% to 63%. The second PR pushed it further to 97% by targeting remaining gaps. Key modules like <code>render.ts</code> and <code>deploy.ts</code> are now at 99-100% coverage. This gives me confidence the code is solid for public release.</div>
+      <div class="section-heading">Test Coverage Sprint to 97%</div>
+      <div class="section-body">Two massive testing PRs transformed the codebase. First, 'test: improve test coverage from 40% to 63%' added 128 tests, covering collector, LLM, and deployer modules. Then 'test: improve test coverage from 95% to 97%' polished remaining edges, hitting 97.1% statement coverage. Key modules like <code>render.ts</code> and <code>deploy.ts</code> now stand at 99-100%.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">coverage start</span> <span class="chip-value chip-red">40%</span></span>
-        <span class="chip"><span class="chip-label">coverage end</span> <span class="chip-value chip-green">97%</span></span>
-        <span class="chip"><span class="chip-label">new tests</span> <span class="chip-value chip-default">128</span></span>
+        <span class="chip"><span class="chip-label">coverage gain</span> <span class="chip-value chip-green">+57%</span></span>
+        <span class="chip"><span class="chip-label">tests added</span> <span class="chip-value chip-default">147</span></span>
+        <span class="chip"><span class="chip-label">100% modules</span> <span class="chip-value chip-blue">4</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">automation</div>
-      <div class="section-heading">Dependabot and Codecov now on autopilot</div>
-      <div class="section-body">To maintain the newfound quality, I set up two CI automations. Codecov tracks test coverage on every PR and enforces thresholds. Dependabot now opens PRs for dependency updates across 10+ repositories, grouped to reduce noise. This week alone, it helped merge 24 dependency updates without manual intervention.</div>
+      <div class="section-type">devops</div>
+      <div class="section-heading">Dependabot Takes the Wheel</div>
+      <div class="section-body">Tired of manual dependency bumps across 8 repos, I added Dependabot to deariary/github-weekly-reporter. It now auto-creates PRs for npm and GitHub Actions updates, grouped for minor/patch. This should save hours weekly. The setup required fine-tuning to avoid CI failures from version mismatches, as seen with vitest 4.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">repos automated</span> <span class="chip-value chip-blue">10+</span></span>
-        <span class="chip"><span class="chip-label">Codecov</span> <span class="chip-value chip-purple">integrated</span></span>
-        <span class="chip"><span class="chip-label">dependabot PRs</span> <span class="chip-value chip-default">24</span></span>
+        <span class="chip"><span class="chip-label">repos automated</span> <span class="chip-value chip-default">1 (so far)</span></span>
+        <span class="chip"><span class="chip-label">deps updated</span> <span class="chip-value chip-yellow">15+</span></span>
+        <span class="chip"><span class="chip-label">PRs generated</span> <span class="chip-value chip-default">10/week</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">bugfix</div>
-      <div class="section-heading">Fixing date handling in daily-fetch</div>
-      <div class="section-body">Two critical bugs in the data collection pipeline were causing missing events. The first bug made daily-fetch collect yesterday's events on Mondays, losing Sunday's data. The second made weekly-fetch target the previous ISO week mid-week, resulting in empty reports. Both are now fixed with timezone-aware date logic.</div>
+      <div class="section-type">repo-summary</div>
+      <div class="section-heading">deariary/github-weekly-reporter Dominates</div>
+      <div class="section-body">This repo absorbed 60 of my 312 commits this week. Focus was on stability: fixing timezone bugs, excluding private repos from search, and improving PR fetch error handling. The pre-release refactor improved code quality across 37 files. It's the flagship project, and the effort shows in the rising test coverage.</div>
   
   
   
+      <div class="repo-bars">
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
+            <span class="repo-bar-value">60 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/mdts</span>
+            <span class="repo-bar-value">10 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:17%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
+            <span class="repo-bar-value">7 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:12%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gitlogue</span>
+            <span class="repo-bar-value">5 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/blog</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/lintric</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gittype</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:3%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:3%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/terminal_image</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+      </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">bug impact</span> <span class="chip-value chip-red">lost events</span></span>
-        <span class="chip"><span class="chip-label">fix</span> <span class="chip-value chip-green">yesterday-based ranges</span></span>
-        <span class="chip"><span class="chip-label">PRs</span> <span class="chip-value chip-default">2</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-green">52</span></span>
+        <span class="chip"><span class="chip-label">commits</span> <span class="chip-value chip-default">280+</span></span>
+        <span class="chip"><span class="chip-label">coverage</span> <span class="chip-value chip-blue">97%</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Burst coding on Tuesday and Saturday</div>
-      <div class="section-body">My commit pattern was erratic but productive. Tuesday saw 161 commits as I pushed the test coverage PRs. Saturday was the peak with 283 commits, mostly dependency updates and small fixes. The daily average was 44.6 commits, but the bursts were intense.</div>
+      <div class="section-heading">Burst Day on Tuesday</div>
+      <div class="section-body">My commit rhythm was erratic: 102 on Sunday, then a dip, then a massive 161 on Tuesday and 283 on Saturday. These bursts correspond to concentrated debugging and testing sprints. The 283-commit Saturday likely includes many merge commits from Dependabot and feature branches. I need to pace better.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
@@ -700,9 +851,9 @@
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-orange">Sat 283</span></span>
-        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-blue">312</span></span>
-        <span class="chip"><span class="chip-label">avg/day</span> <span class="chip-value chip-default">44.6</span></span>
+        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-red">Sat 283</span></span>
+        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">312</span></span>
+        <span class="chip"><span class="chip-label">burst days</span> <span class="chip-value chip-yellow">2</span></span>
       </div>
     </div>
   </div>
@@ -710,33 +861,39 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">4 items</span>
+      <span class="section-group-count">5 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/89" target="_blank" rel="noopener nofollow">fix: daily-fetch collects yesterday&#x27;s events, not current day&#x27;s</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 1 · +439 -102 · 9 files</div>
+      <div class="highlight-body">This fixed a critical bug where the cron at midnight lost Sunday's events by using the wrong week range. The fix ensures yesterday's events are always collected, preventing permanent data loss.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
       <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/75" target="_blank" rel="noopener nofollow">test: improve test coverage from 40% to 63%</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Mar 31 · +2522 -8 · 20 files</div>
-      <div class="highlight-body">This massive PR added 128 new tests and increased statement coverage by 22.46 percentage points. It laid the groundwork for the final push to 97%.</div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Mar 30 · +2522 -8 · 20 files</div>
+      <div class="highlight-body">Added 128 tests, jumping coverage by 22 percentage points. Key modules like collector and LLM providers now at 97-100%, making the codebase reliable for the upcoming public release.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/74" target="_blank" rel="noopener nofollow">ci: add Codecov for test coverage reporting</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 2 · +733 -2 · 6 files</div>
-      <div class="highlight-body">Codecov integration now tracks coverage on every PR and enforces thresholds, preventing regressions in the test suite.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/87" target="_blank" rel="noopener nofollow">test: improve test coverage from 95% to 97%</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 2 · +309 -1 · 5 files</div>
+      <div class="highlight-body">Polished test coverage to 97.1%, with <code>render.ts</code> hitting 99% and <code>deploy.ts</code> 100%. This final sprint ensures the project is ship-ready.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/93" target="_blank" rel="noopener nofollow">feat: set homepage URL and topics on repository during setup</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 1 · +69 -17 · 4 files</div>
-      <div class="highlight-body">The setup command now configures the repository's homepage and topics automatically, improving discoverability on GitHub.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/76" target="_blank" rel="noopener nofollow">ci: add Dependabot for dependency updates</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 3 · +19 -0 · 2 files</div>
+      <div class="highlight-body">Automated dependency updates for npm and GitHub Actions, grouped for minor/patch. Should reduce manual maintenance overhead significantly.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/88" target="_blank" rel="noopener nofollow">fix: daily-fetch now collects current week events instead of previous week</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Mar 30 · +168 -7 · 6 files</div>
-      <div class="highlight-body">Fixed a critical bug where weekly-fetch was targeting the previous ISO week, causing empty reports mid-week. Now it correctly uses the current week.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/70" target="_blank" rel="noopener nofollow">refactor: improve code quality for public release</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 5 · +1791 -1021 · 37 files</div>
+      <div class="highlight-body">Pre-release quality pass across all priority levels, increasing tests from 201 to 280 and cleaning up code. Essential for a polished v1.0.</div>
     </div>
     </div>
   </div>
@@ -745,9 +902,9 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W14/&text=Test%20coverage%20triples%20and%20CI%20automation%20takes%20over%20github-weekly-reporter&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W14/&text=daily-fetch%20timezone%20bug%20fix%20prevents%20Sunday%20data%20loss&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W14/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=Test%20coverage%20triples%20and%20CI%20automation%20takes%20over%20github-weekly-reporter%20https://unhappychoice.github.io/weekly-report/2026/W14/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://bsky.app/intent/compose?text=daily-fetch%20timezone%20bug%20fix%20prevents%20Sunday%20data%20loss%20https://unhappychoice.github.io/weekly-report/2026/W14/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
 <nav class="week-nav" aria-label="Week navigation">
