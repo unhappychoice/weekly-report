@@ -14,16 +14,16 @@
       <height>630</height>
     </image>
     <item>
-      <title>Two critical date bugs crushed in github-weekly-reporter</title>
+      <title>Test coverage triples and CI automation takes over github-weekly-reporter</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>
-      <description>Fixed daily-fetch data loss, then refactored entire project for public release with 97% test coverage
+      <description>From 40% to 97% coverage, Dependabot integration, and critical date-handling bug fixes in one week
 
-This week was all about the github-weekly-reporter project, where I discovered and fixed two critical bugs in the daily-fetch workflow that were silently losing data. The first bug had the daily-fetch collecting yesterday&apos;s events instead of today&apos;s, and the second had it targeting the previous ISO week instead of the current one. Both were breaking the core data collection pipeline and needed urgent fixes.
+This week was all about the github-weekly-reporter project. I threw myself into improving codebase quality and setting up the automation needed to maintain it. The goal was to get the project ready for public release, and I think we crossed the finish line.
 
-After stabilizing the data pipeline, I shifted into overdrive mode for a massive public release preparation. This meant a huge refactor across 37 files, boosting test coverage from 40% to 97%, adding Dependabot and Codecov integration, and completely rewriting the documentation. The goal was to make the project production-ready and trustworthy for external users.
+The biggest win was expanding test coverage from a shaky 40% to a solid 97% across two massive PRs. I added 128 new tests and fixed countless edge cases. To keep that coverage from slipping, I integrated Codecov and set up Dependabot to handle dependency updates across all my repositories. Meanwhile, I squashed a critical bug in the daily-fetch cron that was losing Sunday&apos;s events and another that was pulling the wrong week&apos;s data.
 
-While the reporter consumed most of my focus, I also maintained 7 other personal repositories (mdts, gitlogue, blog, etc.) with dependency updates and small fixes. The week ended with the github-weekly-reporter in a dramatically better state—more robust, better tested, and ready for its first public launch.
+With the codebase now thoroughly tested and dependencies automatically updated, I&apos;m confident the project can scale. The next step is to spread the word and get more users generating their own weekly reports.
 
 
 Commits: 312, PRs: 53, Reviews: 53</description>
