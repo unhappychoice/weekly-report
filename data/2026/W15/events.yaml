@@ -2849,3 +2849,138 @@
   payload:
     kind: generic
     action: started
+- id: "8304719899"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:42:17Z
+  payload:
+    kind: issues
+    action: closed
+    number: 130
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "8304718667"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:42:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 131
+    title: "[CI Failure] unhappychoice/cycle-cropper"
+- id: "8304717906"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:42:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 132
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "8304716352"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:42:01Z
+  payload:
+    kind: issues
+    action: closed
+    number: 133
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "8304714718"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:41:54Z
+  payload:
+    kind: issues
+    action: closed
+    number: 134
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "8304266648"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 134
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "8304266601"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 133
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "8304266574"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:54Z
+  payload:
+    kind: issues
+    action: opened
+    number: 134
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "8304266529"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:54Z
+  payload:
+    kind: issues
+    action: opened
+    number: 133
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "8304266357"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 130
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "8304266356"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 132
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "8304266316"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 130
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "8304266315"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 131
+    title: "[CI Failure] unhappychoice/cycle-cropper"
+- id: "8304266312"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 132
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "8304266261"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-11T00:06:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 131
+    title: "[CI Failure] unhappychoice/cycle-cropper"
