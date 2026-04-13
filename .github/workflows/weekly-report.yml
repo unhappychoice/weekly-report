@@ -35,5 +35,5 @@ jobs:
           timezone: 'Asia/Tokyo'
           date: ${{ inputs.date }}
           llm-provider: 'openrouter'
-          llm-model: 'google/gemma-4-31b-it:free'
+          llm-model: 'openai/gpt-oss-20b:free'
           openrouter-api-key: ${{ secrets.OPENROUTER_API_KEY }}
