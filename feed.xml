@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Animated SVG news ticker card lands in the profile README</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W15/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W15/</guid>
+      <description>The new ticker not only scrolls headlines but also delivers punchy badge labels like “SHIPPED!” and “CODE PURGE” to every GitHub profile.
+
+This week I pushed the final iteration of the animated news ticker card into the GitHub Profile README of the weekly reporter project.  It’s a full‑stack change: from SVG animation tweaks to LLM‑generated headlines, from CI preview pages to a new “theme” infrastructure that lets users pick a visual style.  The result is a self‑contained, animated card that rolls out real‑time news in a style that feels like a live TV feed.
+
+The narrative arc began with a pain point: the static card in the README was a relic, and the LLM headlines were too bland.  I re‑engineered the card to use GitHub Pages URLs so CSS animation works, wrapped the SVG in a link to the report repo, and added a “theme” selector that supports brutalist, minimal, editorial, and the newly added Swiss theme.  The LLM was re‑trained to generate dramatic, TV‑style headlines, turning each tick into a micro‑broadcast.
+
+Looking forward, the ticker will feed into the new RSS feed and the preview landing page, giving users a single source of truth for both the visual and data aspects of the weekly report.  The next sprint will focus on fine‑tuning the headline generation and adding support for custom badge colors.
+
+
+Commits: 218, PRs: 35, Reviews: 52</description>
+      <pubDate>Sun, 12 Apr 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W15/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W15/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>daily-fetch timezone bug fix prevents Sunday data loss</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W14/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W14/</guid>

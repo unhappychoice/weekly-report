@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>daily-fetch timezone bug fix prevents Sunday data loss - 2026-03-30 - 2026-04-05</title>
+  <title>Animated SVG news ticker card lands in the profile README - 2026-04-06 - 2026-04-12</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos" />
+  <meta name="description" content="The new ticker not only scrolls headlines but also delivers punchy badge labels like “SHIPPED!” and “CODE PURGE” to every GitHub profile." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="daily-fetch timezone bug fix prevents Sunday data loss" />
-  <meta property="og:description" content="Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos" />
-  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
+  <meta property="og:title" content="Animated SVG news ticker card lands in the profile README" />
+  <meta property="og:description" content="The new ticker not only scrolls headlines but also delivers punchy badge labels like “SHIPPED!” and “CODE PURGE” to every GitHub profile." />
+  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W15/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W14/" />
+  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W15/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="daily-fetch timezone bug fix prevents Sunday data loss" />
-  <meta name="twitter:description" content="Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos" />
-  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W14/og.png" />
+  <meta name="twitter:title" content="Animated SVG news ticker card lands in the profile README" />
+  <meta name="twitter:description" content="The new ticker not only scrolls headlines but also delivers punchy badge labels like “SHIPPED!” and “CODE PURGE” to every GitHub profile." />
+  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W15/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
-  <meta property="article:published_time" content="2026-04-05" />
+  <meta property="article:published_time" content="2026-04-12" />
   <meta property="article:author" content="https://github.com/unhappychoice" />
   <link rel="icon" href="https://avatars.githubusercontent.com/u/5608948?u&#x3D;6ca2fca8320cb6be5b802f6c5a6359933754ab2e&amp;v&#x3D;4" />
-  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W14/" />
+  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W15/" />
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://unhappychoice.github.io/weekly-report/feed.xml" />
   <meta name="view-transition" content="same-origin" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "daily-fetch timezone bug fix prevents Sunday data loss",
-    "description": "Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos",
+    "headline": "Animated SVG news ticker card lands in the profile README",
+    "description": "The new ticker not only scrolls headlines but also delivers punchy badge labels like “SHIPPED!” and “CODE PURGE” to every GitHub profile.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
       "url": "https://github.com/unhappychoice"
     },
-    "image": "https://unhappychoice.github.io/weekly-report/2026/W14/og.png",
-    "datePublished": "2026-04-05"
+    "image": "https://unhappychoice.github.io/weekly-report/2026/W15/og.png",
+    "datePublished": "2026-04-12"
   }
   </script>
   <script type="application/ld+json">
@@ -48,7 +48,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://unhappychoice.github.io/weekly-report/" },
-      { "@type": "ListItem", "position": 2, "name": "2026-03-30 - 2026-04-05", "item": "https://unhappychoice.github.io/weekly-report/2026/W14/" }
+      { "@type": "ListItem", "position": 2, "name": "2026-04-06 - 2026-04-12", "item": "https://unhappychoice.github.io/weekly-report/2026/W15/" }
     ]
   }
   </script>
@@ -597,74 +597,32 @@
         <span>unhappychoice</span>
       </a>
       <span class="header-sep">&middot;</span>
-      <span class="header-date">2026-03-30 - 2026-04-05</span>
+      <span class="header-date">2026-04-06 - 2026-04-12</span>
     </div>
-    <h1 class="header-title">daily-fetch timezone bug fix prevents Sunday data loss</h1>
-    <p class="header-sub">Fixed critical bugs in event collection, then sprinted to 97% test coverage while automating dependencies across 8 repos</p>
+    <h1 class="header-title">Animated SVG news ticker card lands in the profile README</h1>
+    <p class="header-sub">The new ticker not only scrolls headlines but also delivers punchy badge labels like “SHIPPED!” and “CODE PURGE” to every GitHub profile.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>The week started with a grim discovery: the daily-fetch cron was losing Sunday's GitHub events due to a timezone mishap. This meant permanent data loss in weekly reports. The bug was traced to <code>buildCurrentWeekRange</code> flipping week IDs at midnight, causing Sunday's events to vanish.</p>
-  <p>After deploying the fix, I shifted to a testing blitz, adding 147 tests to jump coverage from 40% to 97%. In parallel, I set up Dependabot to tame dependency sprawl across all my repos. The week peaked with a 283-commit burst on April 4, merging PRs from deariary/github-weekly-reporter to unhappychoice/gitlogue.</p>
-  <p>By Friday, the pipeline felt solid, but the multi-repo maintenance grind continues. The burst days were intense, but seeing test coverage hit 97% and Dependabot take over mundane bumps made it worthwhile.</p>
+    <p>This week I pushed the final iteration of the animated news ticker card into the GitHub Profile README of the weekly reporter project.  It’s a full‑stack change: from SVG animation tweaks to LLM‑generated headlines, from CI preview pages to a new “theme” infrastructure that lets users pick a visual style.  The result is a self‑contained, animated card that rolls out real‑time news in a style that feels like a live TV feed.</p>
+  <p>The narrative arc began with a pain point: the static card in the README was a relic, and the LLM headlines were too bland.  I re‑engineered the card to use GitHub Pages URLs so CSS animation works, wrapped the SVG in a link to the report repo, and added a “theme” selector that supports brutalist, minimal, editorial, and the newly added Swiss theme.  The LLM was re‑trained to generate dramatic, TV‑style headlines, turning each tick into a micro‑broadcast.</p>
+  <p>Looking forward, the ticker will feed into the new RSS feed and the preview landing page, giving users a single source of truth for both the visual and data aspects of the weekly report.  The next sprint will focus on fine‑tuning the headline generation and adding support for custom badge colors.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">5 sections</span>
+      <span class="section-group-count">4 sections</span>
     </div>
   
-    <div class="section-summary">
-      <div class="section-type">debugging-story</div>
-      <div class="section-heading">The Sunday Data Loss Mystery</div>
-      <div class="section-body">On Monday, I realized Sunday events were missing from reports. The daily-fetch cron at midnight used <code>buildCurrentWeekRange</code>, which on Monday flipped to W15 while Sunday (W14) events were never collected. The fix was to use <code>buildYesterdayRange</code> to always collect the previous day's events, ensuring no gaps. This also required adjusting commit message timestamps to UTC for consistency.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">bug impact</span> <span class="chip-value chip-red">permanent data loss</span></span>
-        <span class="chip"><span class="chip-label">fix commits</span> <span class="chip-value chip-default">3 PRs</span></span>
-        <span class="chip"><span class="chip-label">test added</span> <span class="chip-value chip-green">yes</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">testing</div>
-      <div class="section-heading">Test Coverage Sprint to 97%</div>
-      <div class="section-body">Two massive testing PRs transformed the codebase. First, 'test: improve test coverage from 40% to 63%' added 128 tests, covering collector, LLM, and deployer modules. Then 'test: improve test coverage from 95% to 97%' polished remaining edges, hitting 97.1% statement coverage. Key modules like <code>render.ts</code> and <code>deploy.ts</code> now stand at 99-100%.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">coverage gain</span> <span class="chip-value chip-green">+57%</span></span>
-        <span class="chip"><span class="chip-label">tests added</span> <span class="chip-value chip-default">147</span></span>
-        <span class="chip"><span class="chip-label">100% modules</span> <span class="chip-value chip-blue">4</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">devops</div>
-      <div class="section-heading">Dependabot Takes the Wheel</div>
-      <div class="section-body">Tired of manual dependency bumps across 8 repos, I added Dependabot to deariary/github-weekly-reporter. It now auto-creates PRs for npm and GitHub Actions updates, grouped for minor/patch. This should save hours weekly. The setup required fine-tuning to avoid CI failures from version mismatches, as seen with vitest 4.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">repos automated</span> <span class="chip-value chip-default">1 (so far)</span></span>
-        <span class="chip"><span class="chip-label">deps updated</span> <span class="chip-value chip-yellow">15+</span></span>
-        <span class="chip"><span class="chip-label">PRs generated</span> <span class="chip-value chip-default">10/week</span></span>
-      </div>
-    </div>
     <div class="section-summary">
       <div class="section-type">repo-summary</div>
-      <div class="section-heading">deariary/github-weekly-reporter Dominates</div>
-      <div class="section-body">This repo absorbed 60 of my 312 commits this week. Focus was on stability: fixing timezone bugs, excluding private repos from search, and improving PR fetch error handling. The pre-release refactor improved code quality across 37 files. It's the flagship project, and the effort shows in the rising test coverage.</div>
+      <div class="section-heading">GitHub‑Weekly‑Reporter dominates the sprint</div>
+      <div class="section-body">The bulk of my work was on deariary/github-weekly-reporter, where I submitted 15 merged PRs that added a new animated ticker, improved the card header, and expanded the theme ecosystem.  I also bumped a dependency in cycle‑cropper and added a few minor PRs to other repos.  The repo saw 46 total PRs in the period, cementing its status as the most active project.</div>
   
   
   
@@ -672,7 +630,7 @@
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">deariary/github-weekly-reporter</span>
-            <span class="repo-bar-value">60 PRs</span>
+            <span class="repo-bar-value">46 PRs</span>
           </div>
           <div class="repo-bar-track">
             <div class="repo-bar-fill" style="width:100%"></div>
@@ -681,55 +639,28 @@
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/mdts</span>
-            <span class="repo-bar-value">10 PRs</span>
+            <span class="repo-bar-value">13 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
-            <span class="repo-bar-value">7 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:12%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gitlogue</span>
-            <span class="repo-bar-value">5 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:8%"></div>
+            <div class="repo-bar-fill" style="width:28%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/blog</span>
-            <span class="repo-bar-value">4 PRs</span>
+            <span class="repo-bar-value">5 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:7%"></div>
+            <div class="repo-bar-fill" style="width:11%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/lintric</span>
+            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
             <span class="repo-bar-value">4 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:7%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
+            <div class="repo-bar-fill" style="width:9%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -738,7 +669,16 @@
             <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -747,48 +687,39 @@
             <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gittype</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:5%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:2%"></div>
+            <div class="repo-bar-fill" style="width:7%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/terminal_image</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:4%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:4%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:4%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/cycle-cropper</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
@@ -797,7 +728,25 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gitlogue</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
@@ -807,43 +756,57 @@
       </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-green">52</span></span>
-        <span class="chip"><span class="chip-label">commits</span> <span class="chip-value chip-default">280+</span></span>
-        <span class="chip"><span class="chip-label">coverage</span> <span class="chip-value chip-blue">97%</span></span>
+        <span class="chip"><span class="chip-label">deariary/github-weekly-reporter</span> <span class="chip-value chip-default">15 PRs</span></span>
+        <span class="chip"><span class="chip-label">PR merge rate</span> <span class="chip-value chip-green">100%</span></span>
+        <span class="chip"><span class="chip-label">commits</span> <span class="chip-value chip-blue">218</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">The animated news ticker: a live TV broadcast in SVG</div>
+      <div class="section-body">I re‑engineered the card to use GitHub Pages URLs so CSS animation works, wrapped the SVG in a link to the report repo, and added a “theme” selector that supports brutalist, minimal, editorial, and Swiss theme.  The LLM now generates dramatic, TV‑style headlines, turning each tick into a micro‑broadcast.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">SVG animation</span> <span class="chip-value chip-green">enabled</span></span>
+        <span class="chip"><span class="chip-label">themes</span> <span class="chip-value chip-default">4</span></span>
+        <span class="chip"><span class="chip-label">LLM headlines</span> <span class="chip-value chip-default">dramatic</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Burst Day on Tuesday</div>
-      <div class="section-body">My commit rhythm was erratic: 102 on Sunday, then a dip, then a massive 161 on Tuesday and 283 on Saturday. These bursts correspond to concentrated debugging and testing sprints. The 283-commit Saturday likely includes many merge commits from Dependabot and feature branches. I need to pace better.</div>
+      <div class="section-heading">Commit cadence peaks on Tuesdays and Thursdays</div>
+      <div class="section-body">I started the week with a burst of 85 commits on Monday, hit a high of 152 on Tuesday, and maintained a steady flow through Thursday.  Friday and Saturday were quieter, with 90 and 35 commits respectively, hinting at a planned wind‑down before the weekend.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
-          <div class="mh-block mh-level-2">102</div>
+          <div class="mh-block mh-level-3">85</div>
           <div class="mh-label">Mon</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-1">29</div>
+          <div class="mh-block mh-level-4">152</div>
           <div class="mh-label">Tue</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-3">161</div>
+          <div class="mh-block mh-level-3">97</div>
           <div class="mh-label">Wed</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">88</div>
+          <div class="mh-block mh-level-2">62</div>
           <div class="mh-label">Thu</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-1">58</div>
+          <div class="mh-block mh-level-4">127</div>
           <div class="mh-label">Fri</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-4">283</div>
+          <div class="mh-block mh-level-3">90</div>
           <div class="mh-label">Sat</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">102</div>
+          <div class="mh-block mh-level-1">35</div>
           <div class="mh-label">Sun</div>
         </div>
       </div>
@@ -851,9 +814,22 @@
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-red">Sat 283</span></span>
-        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">312</span></span>
-        <span class="chip"><span class="chip-label">burst days</span> <span class="chip-value chip-yellow">2</span></span>
+        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-green">Tue 152</span></span>
+        <span class="chip"><span class="chip-label">average daily</span> <span class="chip-value chip-default">31</span></span>
+        <span class="chip"><span class="chip-label">lowest day</span> <span class="chip-value chip-red">Sun 35</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">collaboration-summary</div>
+      <div class="section-heading">Review approvals across the ecosystem</div>
+      <div class="section-body">I gave and received 52 review approvals across 10 repos, with a strong focus on approving PRs in unhappychoice/cycle‑cropper, unhappychoice/terminal_image, and circleci-tools/circleci‑cli.  The approvals helped keep the codebase clean and maintainable across multiple open‑source projects.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">repos reviewed</span> <span class="chip-value chip-default">10</span></span>
+        <span class="chip"><span class="chip-label">approvals</span> <span class="chip-value chip-green">52</span></span>
       </div>
     </div>
   </div>
@@ -861,39 +837,27 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">5 items</span>
+      <span class="section-group-count">3 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/89" target="_blank" rel="noopener nofollow">fix: daily-fetch collects yesterday&#x27;s events, not current day&#x27;s</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 1 · +439 -102 · 9 files</div>
-      <div class="highlight-body">This fixed a critical bug where the cron at midnight lost Sunday's events by using the wrong week range. The fix ensures yesterday's events are always collected, preventing permanent data loss.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/111" target="_blank" rel="noopener nofollow">feat: add animated SVG news ticker card for GitHub Profile README</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 12 · +371 -0 · 9 files</div>
+      <div class="highlight-body">This PR introduced the live‑TV style ticker that scrolls headlines, wraps the card in a link, and uses GitHub Pages URLs for animation.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/75" target="_blank" rel="noopener nofollow">test: improve test coverage from 40% to 63%</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Mar 30 · +2522 -8 · 20 files</div>
-      <div class="highlight-body">Added 128 tests, jumping coverage by 22 percentage points. Key modules like collector and LLM providers now at 97-100%, making the codebase reliable for the upcoming public release.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/97" target="_blank" rel="noopener nofollow">feat: generate RSS feed with OG image URLs during render</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 12 · +347 -2 · 7 files</div>
+      <div class="highlight-body">Added an RSS feed so readers can subscribe to weekly reports, enriching the audience reach.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/87" target="_blank" rel="noopener nofollow">test: improve test coverage from 95% to 97%</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 2 · +309 -1 · 5 files</div>
-      <div class="highlight-body">Polished test coverage to 97.1%, with <code>render.ts</code> hitting 99% and <code>deploy.ts</code> 100%. This final sprint ensures the project is ship-ready.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/76" target="_blank" rel="noopener nofollow">ci: add Dependabot for dependency updates</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 3 · +19 -0 · 2 files</div>
-      <div class="highlight-body">Automated dependency updates for npm and GitHub Actions, grouped for minor/patch. Should reduce manual maintenance overhead significantly.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/70" target="_blank" rel="noopener nofollow">refactor: improve code quality for public release</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 5 · +1791 -1021 · 37 files</div>
-      <div class="highlight-body">Pre-release quality pass across all priority levels, increasing tests from 201 to 280 and cleaning up code. Essential for a polished v1.0.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/115" target="_blank" rel="noopener nofollow">feat: wrap card embed in link to report repository</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Apr 12 · +47 -20 · 7 files</div>
+      <div class="highlight-body">Made the card clickable, boosting discoverability and providing a direct link to the report repo.</div>
     </div>
     </div>
   </div>
@@ -902,15 +866,14 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W14/&text=daily-fetch%20timezone%20bug%20fix%20prevents%20Sunday%20data%20loss&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W14/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=daily-fetch%20timezone%20bug%20fix%20prevents%20Sunday%20data%20loss%20https://unhappychoice.github.io/weekly-report/2026/W14/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W15/&text=Animated%20SVG%20news%20ticker%20card%20lands%20in%20the%20profile%20README&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W15/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
+  <a href="https://bsky.app/intent/compose?text=Animated%20SVG%20news%20ticker%20card%20lands%20in%20the%20profile%20README%20https://unhappychoice.github.io/weekly-report/2026/W15/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
-
 <nav class="week-nav" aria-label="Week navigation">
-  <a href="../../2026/W13/" class="week-nav-link">&larr; Previous week</a>
-  <a href="../../2026/W15/" class="week-nav-link">Next week &rarr;</a>
+  <a href="../../2026/W14/" class="week-nav-link">&larr; Previous week</a>
+  <span></span>
 </nav>
 
 
