@@ -1,0 +1,2779 @@
+username: unhappychoice
+avatarUrl: https://avatars.githubusercontent.com/u/5608948?u=6ca2fca8320cb6be5b802f6c5a6359933754ab2e&v=4
+profile:
+  name: Yuji Ueki
+  bio: "\r
+
+    \    ＼ Full Stack Software Engineer ／\r
+
+    \r\n"
+  company: null
+  location: Tokyo, Japan
+  followers: 3508
+  following: 9666
+  publicRepos: 58
+dateRange:
+  from: 2026-04-06
+  to: 2026-04-12
+stats:
+  totalCommits: 218
+  totalAdditions: 27624
+  totalDeletions: 5840
+  prsOpened: 35
+  prsMerged: 34
+  prsReviewed: 52
+  issuesOpened: 0
+  issuesClosed: 0
+dailyCommits:
+  - date: 2026-04-06
+    count: 85
+  - date: 2026-04-07
+    count: 152
+  - date: 2026-04-08
+    count: 97
+  - date: 2026-04-09
+    count: 62
+  - date: 2026-04-10
+    count: 127
+  - date: 2026-04-11
+    count: 90
+  - date: 2026-04-12
+    count: 35
+repositories:
+  - name: deariary/github-weekly-reporter
+    commits: 0
+    prsOpened: 46
+    prsMerged: 44
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/github-weekly-reporter
+  - name: unhappychoice/mdts
+    commits: 0
+    prsOpened: 13
+    prsMerged: 11
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/mdts
+  - name: unhappychoice/blog
+    commits: 0
+    prsOpened: 5
+    prsMerged: 5
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/blog
+  - name: circleci-tools/circleci-cli
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/circleci-cli
+  - name: unhappychoice/slack_channel_stats
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/slack_channel_stats
+  - name: bitflyer-tools/bitflyer-cli
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/bitflyer-cli
+  - name: irasutoya-tools/irasutoya
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/irasutoya-tools/irasutoya
+  - name: unhappychoice/terminal_image
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/terminal_image
+  - name: bitflyer-tools/bitflyer
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/bitflyer
+  - name: irasutoya-tools/irasutoya-cli
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/irasutoya-tools/irasutoya-cli
+  - name: unhappychoice/cycle-cropper
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/cycle-cropper
+  - name: unhappychoice/oss-issue-opener
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/oss-issue-opener
+  - name: unhappychoice/gitlogue
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gitlogue
+  - name: bitflyer-tools/cycle-flyer
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/cycle-flyer
+pullRequests:
+  - title: "feat: paginate commit fetching and remove per-repo/total caps"
+    body: |-
+      - Paginate `GET /repos/{owner}/{repo}/commits` using Link header instead of fetching only 1 page of 10
+      - Remove `MAX_MESSAGES_PER_REPO` (10) and `MAX_TOTAL_MESSAGES` (50) caps
+      - Remove corresponding cap logic in `preprocess.ts`
+      - Weekly commits are well within token budget: 100 commits x 200 chars =...
+    url: https://github.com/deariary/github-weekly-reporter/pull/100
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 417
+    deletions: 208
+    changedFiles: 14
+    author: unhappychoice
+    createdAt: 2026-04-06T01:30:13Z
+    mergedAt: 2026-04-06T01:49:20Z
+  - title: "fix: compute correct UTC day-of-week for weekly cron in east-of-UTC timezones"
+    body: >-
+      - Fix weekly cron day-of-week calculation that was hard-coded to `1` (Monday UTC), causing reports to fire on
+      **Tuesday local time** for east-of-UTC timezones (e.g. Asia/Tokyo `0 16 * * 1` = JST Tuesday 01:00, not Monday).
+
+      - Extract `weeklyCronUTC()` function that derives the correct UTC day-of-week...
+    url: https://github.com/deariary/github-weekly-reporter/pull/95
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 71
+    deletions: 8
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-05T21:05:34Z
+    mergedAt: 2026-04-05T21:09:13Z
+  - title: "fix: improve error handling, UX, and i18n across CLI and collectors"
+    body: |-
+      - Comprehensive UX audit and fixes for first-time user experience
+      - Error handling improvements to prevent silent failures
+      - i18n corrections and LLM provider consistency fixes
+    url: https://github.com/deariary/github-weekly-reporter/pull/94
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 190
+    deletions: 47
+    changedFiles: 18
+    author: unhappychoice
+    createdAt: 2026-04-05T17:40:59Z
+    mergedAt: 2026-04-05T17:50:56Z
+  - title: "feat: collect commit messages via Commits API per repository"
+    body: >-
+      Closes #98
+
+
+      The GitHub Events API no longer returns `commits` in PushEvent payloads (spec changed). Commit messages were never
+      reaching the LLM, despite `totalCommits` showing hundreds of commits.
+    url: https://github.com/deariary/github-weekly-reporter/pull/99
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 342
+    deletions: 3
+    changedFiles: 14
+    author: unhappychoice
+    createdAt: 2026-04-06T00:59:17Z
+    mergedAt: 2026-04-06T01:09:12Z
+  - title: "feat: generate RSS feed with OG image URLs during render"
+    body: >-
+      Closes #96
+
+
+      Generate an RSS 2.0 feed (`feed.xml`) during the `render` command so readers can subscribe to weekly reports via
+      feed readers.
+    url: https://github.com/deariary/github-weekly-reporter/pull/97
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 347
+    deletions: 2
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-04-05T23:38:37Z
+    mergedAt: 2026-04-05T23:50:45Z
+  - title: "chore(deps): bump cropperjs from 2.1.0 to 2.1.1"
+    body: >-
+      Bumps [cropperjs](https://github.com/fengyuanchen/cropperjs/tree/HEAD/packages/cropperjs) from 2.1.0 to 2.1.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/fengyuanchen/cropperjs/releases">cropperjs's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v2.1.1</h2>
+
+      <...
+    url: https://github.com/unhappychoice/cycle-cropper/pull/129
+    repository: unhappychoice/cycle-cropper
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 103
+    deletions: 103
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-07T03:04:33Z
+    mergedAt: 2026-04-07T03:48:20Z
+  - title: "feat: improve setup-generated README with card display and description"
+    body: |-
+      - Show actual card SVG in README (not just code snippet)
+      - Add copy-paste snippet below the card
+      - Clearer top description: what it does, how it works
+      - Remove username link (unnecessary)
+    url: https://github.com/deariary/github-weekly-reporter/pull/117
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 13
+    deletions: 3
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-07T02:37:36Z
+    mergedAt: 2026-04-07T02:38:54Z
+  - title: "fix: replace username with date range in card header"
+    body: |-
+      - Remove @username from card header (redundant, already in ticker text)
+      - Add date range (e.g. "Mar 30 - Apr 5, 2026") computed from ISO week number
+      - Add `height="48"` to `<img>` in setup README to prevent shrinking on narrow viewports
+      - Export `CARD_HEIGHT` constant
+      - Regenerate example SVGs
+    url: https://github.com/deariary/github-weekly-reporter/pull/118
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 117
+    deletions: 22
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-04-07T03:11:56Z
+    mergedAt: 2026-04-07T03:31:12Z
+  - title: "fix: remove embed snippet from generated index page"
+    body: Remove the card embed code snippet from all 3 theme index-page.hbs templates. The embed code belongs in the report
+      repo README (added by setup command), not in the generated HTML page.
+    url: https://github.com/deariary/github-weekly-reporter/pull/116
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 0
+    deletions: 36
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-07T02:29:17Z
+    mergedAt: 2026-04-07T02:30:17Z
+  - title: "feat: wrap card embed in link to report repository"
+    body: |-
+      - Card SVG is now wrapped in `<a>` linking to the report repository
+      - Clicking the ticker card takes users to the repo (for starring, etc.)
+      - Updated: setup-generated README, main README embed snippet, all 3 theme index-page embed snippets
+    url: https://github.com/deariary/github-weekly-reporter/pull/115
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 47
+    deletions: 20
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-04-07T02:11:51Z
+    mergedAt: 2026-04-07T02:18:53Z
+  - title: "docs: move profile card section after themes on landing page"
+    body: |-
+      - Move Profile Card section from above Features to after Themes on the landing page
+      - Card is a supplementary feature, not the primary pitch
+    url: https://github.com/deariary/github-weekly-reporter/pull/113
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 11
+    deletions: 11
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-07T01:50:55Z
+    mergedAt: 2026-04-07T01:54:47Z
+  - title: "fix: remove horizontal padding from card header"
+    body: Remove left/right padding from WEEKLY NEWS badge and @username in SVG card header.
+    url: https://github.com/deariary/github-weekly-reporter/pull/114
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 11
+    deletions: 11
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-07T02:06:39Z
+    mergedAt: 2026-04-07T02:06:41Z
+  - title: "fix: use GitHub Pages URL for card SVG animation in README"
+    body: |-
+      - GitHub sanitizes CSS animations in SVGs served via `raw.githubusercontent.com`
+      - Switch card SVG references to GitHub Pages URLs where CSS animation works
+      - Same approach as [snk](https://github.com/Platane/snk) (5.7K stars)
+
+      Before: `examples/card.svg` (static, no animation)
+      After: `https://deari...
+    url: https://github.com/deariary/github-weekly-reporter/pull/112
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 15
+    deletions: 16
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-07T01:40:35Z
+    mergedAt: 2026-04-07T01:47:36Z
+  - title: "feat: add animated SVG news ticker card for GitHub Profile README"
+    body: >-
+      - Add animated SVG news ticker card that scrolls AI-generated headlines, embeddable in GitHub Profile README
+
+      - LLM generates both punchy badge labels (e.g. "SHIPPED!", "CODE PURGE", "TREMENDOUS COMMITS") and headline text
+      for each ticker item
+
+      - Responsive design: viewBox 900px with `preserveAspectRa...
+    url: https://github.com/deariary/github-weekly-reporter/pull/111
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 371
+    deletions: 0
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-04-07T00:44:15Z
+    mergedAt: 2026-04-07T01:31:28Z
+  - title: "docs: use table layout for theme screenshots in README"
+    body: "Fix oversized theme screenshots from #109. Put them in a table with width=400."
+    url: https://github.com/deariary/github-weekly-reporter/pull/110
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 5
+    deletions: 17
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-06T22:04:59Z
+    mergedAt: 2026-04-06T22:06:29Z
+  - title: "docs: add theme screenshots to README"
+    body: |-
+      - Remove old screenshots section from README top
+      - Add per-theme screenshots (from LP assets) in the Themes section
+      - Each theme: heading, description, Example link, full-width screenshot
+      - brutalist shows dark, minimal and editorial show light
+
+      Uses existing `scripts/screenshots/` images (same as L...
+    url: https://github.com/deariary/github-weekly-reporter/pull/109
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 17
+    deletions: 18
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-06T22:00:33Z
+    mergedAt: 2026-04-06T22:03:13Z
+  - title: "feat: add theme selection to setup command"
+    body: |-
+      - Add theme selection prompt to the `setup` command (brutalist / minimal / editorial)
+      - Update all related docs and configs to reflect theme support
+    url: https://github.com/deariary/github-weekly-reporter/pull/108
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 83
+    deletions: 10
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-04-06T21:44:17Z
+    mergedAt: 2026-04-06T21:58:19Z
+  - title: "ci: add preview site with theme x lang combinations"
+    body: Add a product landing page deployed to GitHub Pages with theme previews for all theme x language combinations.
+    url: https://github.com/deariary/github-weekly-reporter/pull/107
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 10248
+    deletions: 0
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-04-06T20:28:59Z
+    mergedAt: 2026-04-06T21:32:12Z
+  - title: "feat: add editorial theme with serif typography and warm palette"
+    body: "Add the new `editorial` theme: a horizontal-scroll magazine layout with serif typography, warm paper palette, and
+      column-based content flow."
+    url: https://github.com/deariary/github-weekly-reporter/pull/106
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1123
+    deletions: 19
+    changedFiles: 20
+    author: unhappychoice
+    createdAt: 2026-04-06T17:57:29Z
+    mergedAt: 2026-04-06T20:14:40Z
+  - title: "feat: add minimal theme with light/dark toggle"
+    body: |-
+      - Add `minimal` theme: zero decoration, system fonts only, no external resources, print-friendly
+      - Add light/dark mode to both `brutalist` and `minimal` themes
+      - Footer toggle icon + label (☀︎ Light / ☽︎ Dark) above copyright, persists to `localStorage`
+    url: https://github.com/deariary/github-weekly-reporter/pull/105
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1034
+    deletions: 430
+    changedFiles: 28
+    author: unhappychoice
+    createdAt: 2026-04-06T16:44:43Z
+    mergedAt: 2026-04-06T17:46:06Z
+  - title: "chore(deps-dev): bump addressable from 2.8.9 to 2.9.0"
+    body: >-
+      Bumps [addressable](https://github.com/sporkmonger/addressable) from 2.8.9 to 2.9.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/sporkmonger/addressable/blob/main/CHANGELOG.md">addressable's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>Addressable 2.9.0 </h2>
+
+      <...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/92
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:16:39Z
+    mergedAt: 2026-04-06T16:41:55Z
+  - title: "chore(deps-dev): Bump @eslint/compat from 2.0.3 to 2.0.4 in /packages/frontend"
+    body: >-
+      Bumps [@eslint/compat](https://github.com/eslint/rewrite/tree/HEAD/packages/compat) from 2.0.3 to 2.0.4.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/eslint/rewrite/releases"><code>@​eslint/compat</code>'s
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>migrate-...
+    url: https://github.com/unhappychoice/mdts/pull/628
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-06T07:46:07Z
+    mergedAt: 2026-04-06T16:42:41Z
+  - title: "chore(deps-dev): bump bigdecimal from 4.1.0 to 4.1.1"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [bigdecimal](https...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/91
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:16:13Z
+    mergedAt: 2026-04-06T16:42:05Z
+  - title: "chore(deps-dev): bump @types/node from 25.5.0 to 25.5.2"
+    body: >-
+      Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 25.5.0 to
+      25.5.2.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li>See full diff in <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node">compare
+      view</a></li>
+
+      </ul>
+
+      </detail...
+    url: https://github.com/unhappychoice/oss-issue-opener/pull/129
+    repository: unhappychoice/oss-issue-opener
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:13:00Z
+    mergedAt: 2026-04-06T16:41:39Z
+  - title: "chore(deps-dev): bump regexp_parser from 2.11.3 to 2.12.0"
+    body: >-
+      Bumps [regexp_parser](https://github.com/ammar/regexp_parser) from 2.11.3 to 2.12.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ammar/regexp_parser/blob/master/CHANGELOG.md">regexp_parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[2.12.0] - 2026-04-04 - J...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/90
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:13:20Z
+    mergedAt: 2026-04-06T16:41:43Z
+  - title: "chore(deps): bump regexp_parser from 2.11.3 to 2.12.0"
+    body: >-
+      Bumps [regexp_parser](https://github.com/ammar/regexp_parser) from 2.11.3 to 2.12.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ammar/regexp_parser/blob/master/CHANGELOG.md">regexp_parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[2.12.0] - 2026-04-04 - J...
+    url: https://github.com/circleci-tools/circleci-cli/pull/984
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:06:40Z
+    mergedAt: 2026-04-06T16:41:36Z
+  - title: "chore(deps): Bump rmagick from 6.2.0 to 6.3.0"
+    body: >-
+      Bumps [rmagick](https://github.com/rmagick/rmagick) from 6.2.0 to 6.3.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rmagick/rmagick/blob/main/CHANGELOG.md">rmagick's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>RMagick 6.3.0</h2>
+
+      <blockquote>
+
+      <p>[!IMPORTANT]
+
+      T...
+    url: https://github.com/unhappychoice/blog/pull/697
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:07:45Z
+    mergedAt: 2026-04-06T16:41:28Z
+  - title: "chore(deps): Bump execjs from 2.10.0 to 2.10.1"
+    body: |-
+      Bumps [execjs](https://github.com/rails/execjs) from 2.10.0 to 2.10.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rails/execjs/releases">execjs's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.10.1</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Fix a redefined meth...
+    url: https://github.com/unhappychoice/blog/pull/695
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:07:06Z
+    mergedAt: 2026-04-06T16:39:02Z
+  - title: "chore(deps): Bump bigdecimal from 4.1.0 to 4.1.1"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [bigdecimal](https...
+    url: https://github.com/unhappychoice/blog/pull/696
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:07:27Z
+    mergedAt: 2026-04-06T16:39:14Z
+  - title: "chore(deps): bump bigdecimal from 4.1.0 to 4.1.1"
+    body: |-
+      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 4.1.0 to 4.1.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.1.1</h2>
+
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Define <...
+    url: https://github.com/circleci-tools/circleci-cli/pull/983
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:06:01Z
+    mergedAt: 2026-04-06T16:39:16Z
+  - title: "build(deps-dev): Bump regexp_parser from 2.11.3 to 2.12.0"
+    body: >-
+      Bumps [regexp_parser](https://github.com/ammar/regexp_parser) from 2.11.3 to 2.12.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ammar/regexp_parser/blob/master/CHANGELOG.md">regexp_parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[2.12.0] - 2026-04-04 - J...
+    url: https://github.com/unhappychoice/terminal_image/pull/560
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:04:57Z
+    mergedAt: 2026-04-06T16:38:46Z
+  - title: "chore(deps): bump addressable from 2.8.9 to 2.9.0"
+    body: >-
+      Bumps [addressable](https://github.com/sporkmonger/addressable) from 2.8.9 to 2.9.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/sporkmonger/addressable/blob/main/CHANGELOG.md">addressable's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>Addressable 2.9.0 </h2>
+
+      <...
+    url: https://github.com/circleci-tools/circleci-cli/pull/982
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:05:07Z
+    mergedAt: 2026-04-06T16:38:50Z
+  - title: "chore(deps): Bump addressable from 2.8.9 to 2.9.0"
+    body: >-
+      Bumps [addressable](https://github.com/sporkmonger/addressable) from 2.8.9 to 2.9.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/sporkmonger/addressable/blob/main/CHANGELOG.md">addressable's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>Addressable 2.9.0 </h2>
+
+      <...
+    url: https://github.com/unhappychoice/blog/pull/694
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:05:59Z
+    mergedAt: 2026-04-06T16:38:40Z
+  - title: ⬆️ Bump regexp_parser from 2.11.3 to 2.12.0
+    body: >-
+      Bumps [regexp_parser](https://github.com/ammar/regexp_parser) from 2.11.3 to 2.12.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ammar/regexp_parser/blob/master/CHANGELOG.md">regexp_parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[2.12.0] - 2026-04-04 - J...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/167
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:04:58Z
+    mergedAt: 2026-04-06T16:38:36Z
+  - title: "feat: add theme infrastructure with per-theme templates and CSS"
+    body: >-
+      - Implement theme system from #101 (Phase 1): each theme is a self-contained directory with its own Handlebars
+      templates, CSS builder, and color tokens
+
+      - Extract the current design into `themes/brutalist/` as the default theme
+
+      - Add `--theme` CLI option, `THEME` env var, and `theme` input in `action...
+    url: https://github.com/deariary/github-weekly-reporter/pull/104
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 474
+    deletions: 42
+    changedFiles: 18
+    author: unhappychoice
+    createdAt: 2026-04-06T16:09:14Z
+    mergedAt: 2026-04-06T16:20:51Z
+  - title: "chore(deps-dev): bump regexp_parser from 2.11.3 to 2.12.0"
+    body: >-
+      Bumps [regexp_parser](https://github.com/ammar/regexp_parser) from 2.11.3 to 2.12.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ammar/regexp_parser/blob/master/CHANGELOG.md">regexp_parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[2.12.0] - 2026-04-04 - J...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/671
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:04:45Z
+    mergedAt: 2026-04-06T15:17:59Z
+  - title: "build(deps-dev): bump regexp_parser from 2.11.3 to 2.12.0"
+    body: >-
+      Bumps [regexp_parser](https://github.com/ammar/regexp_parser) from 2.11.3 to 2.12.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ammar/regexp_parser/blob/master/CHANGELOG.md">regexp_parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[2.12.0] - 2026-04-04 - J...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/508
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:04:50Z
+    mergedAt: 2026-04-06T15:18:07Z
+  - title: "chore(deps-dev): bump regexp_parser from 2.11.3 to 2.12.0"
+    body: >-
+      Bumps [regexp_parser](https://github.com/ammar/regexp_parser) from 2.11.3 to 2.12.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ammar/regexp_parser/blob/master/CHANGELOG.md">regexp_parser's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[2.12.0] - 2026-04-04 - J...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/627
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:02:52Z
+    mergedAt: 2026-04-06T15:17:50Z
+  - title: ⬆️ Bump bigdecimal from 4.1.0 to 4.1.1
+    body: |-
+      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 4.1.0 to 4.1.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.1.1</h2>
+
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Define <...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/166
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:04:38Z
+    mergedAt: 2026-04-06T15:17:57Z
+  - title: "build(deps-dev): bump bigdecimal from 4.1.0 to 4.1.1"
+    body: |-
+      Bumps [bigdecimal](https://github.com/ruby/bigdecimal) from 4.1.0 to 4.1.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/ruby/bigdecimal/releases">bigdecimal's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.1.1</h2>
+
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Define <...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/507
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-06T03:04:27Z
+    mergedAt: 2026-04-06T15:17:53Z
+  - title: "feat: add swiss theme (International Typographic Style)"
+    body: |-
+      - Add **swiss** theme: International Typographic Style inspired by Muller-Brockmann and Max Bill
+      - Space Grotesk neo-grotesque typography (Google Fonts, Neo Grotesque category)
+      - Asymmetric `80px + 1fr` grid with numbered sections (00, 01, 02)
+      - Geometric motifs: 45-degree diagonal line pattern (hea...
+    url: https://github.com/deariary/github-weekly-reporter/pull/119
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1112
+    deletions: 7
+    changedFiles: 20
+    author: unhappychoice
+    createdAt: 2026-04-08T13:10:30Z
+    mergedAt: 2026-04-08T13:28:01Z
+  - title: "chore(deps): bump toml_edit from 0.25.10+spec-1.1.0 to 0.25.11+spec-1.1.0"
+    body: >-
+      Bumps [toml_edit](https://github.com/toml-rs/toml) from 0.25.10+spec-1.1.0 to 0.25.11+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/45456abc190bcf7b81dfc96914b726d7b3053e41"><code>45456ab</code></a>
+      chore: Release</li>
+
+      <li><a href="https://...
+    url: https://github.com/unhappychoice/gitlogue/pull/187
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-08T02:24:52Z
+    mergedAt: 2026-04-08T04:23:17Z
+  - title: "chore(deps): Bump simple-git from 3.33.0 to 3.35.2"
+    body: |-
+      Bumps [simple-git](https://github.com/steveukx/git-js/tree/HEAD/simple-git) from 3.33.0 to 3.35.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/steveukx/git-js/releases">simple-git's releases</a>.</em></p>
+      <blockquote>
+      <h2>simple-git@3.35.2</h2>
+      <h3>Patc...
+    url: https://github.com/unhappychoice/mdts/pull/630
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 20
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-07T07:45:04Z
+    mergedAt: 2026-04-07T19:17:50Z
+  - title: "chore(deps-dev): Bump axios from 1.14.0 to 1.15.0"
+    body: |-
+      Bumps [axios](https://github.com/axios/axios) from 1.14.0 to 1.15.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/axios/axios/releases">axios's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.15.0</h2>
+      <p>This release delivers two critical security patches, a...
+    url: https://github.com/unhappychoice/mdts/pull/639
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 228
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-09T07:45:06Z
+    mergedAt: 2026-04-09T09:04:15Z
+  - title: "chore(deps): Bump react-dom from 19.2.4 to 19.2.5 in /packages/frontend"
+    body: |-
+      Bumps [react-dom](https://github.com/facebook/react/tree/HEAD/packages/react-dom) from 19.2.4 to 19.2.5.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/facebook/react/releases">react-dom's releases</a>.</em></p>
+      <blockquote>
+      <h2>19.2.5 (April 8th, 2026)</h...
+    url: https://github.com/unhappychoice/mdts/pull/641
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 234
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-09T07:45:21Z
+    mergedAt: 2026-04-09T09:04:03Z
+  - title: "chore(deps-dev): Bump @eslint/compat from 2.0.4 to 2.0.5 in /packages/frontend"
+    body: >-
+      Bumps [@eslint/compat](https://github.com/eslint/rewrite/tree/HEAD/packages/compat) from 2.0.4 to 2.0.5.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/eslint/rewrite/releases"><code>@​eslint/compat</code>'s
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>migrate-...
+    url: https://github.com/unhappychoice/mdts/pull/640
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 234
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-09T07:45:11Z
+    mergedAt: 2026-04-09T09:03:53Z
+  - title: "chore(deps-dev): bump electron from 41.1.1 to 41.2.0"
+    body: |-
+      Bumps [electron](https://github.com/electron/electron) from 41.1.1 to 41.2.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+      <blockquote>
+      <h2>electron v41.2.0</h2>
+      <h1>Release Notes for v41.2.0<...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/865
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-09T03:04:21Z
+    mergedAt: 2026-04-09T03:57:18Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.58.0 to 8.58.1"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [@typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/631
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 232
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-08T07:45:12Z
+    mergedAt: 2026-04-09T02:48:54Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.58.0 to 8.58.1 in /packages/frontend"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.58.0 to 8.58.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/632
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 234
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-08T07:45:15Z
+    mergedAt: 2026-04-09T02:48:46Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.58.0 to 8.58.1"
+    body: |-
+      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.58.0 to 8.58.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
+    url: https://github.com/unhappychoice/mdts/pull/633
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 554
+    deletions: 14
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-08T07:45:26Z
+    mergedAt: null
+  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.58.0 to 8.58.1 in /packages/frontend"
+    body: |-
+      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.58.0 to 8.58.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
+    url: https://github.com/unhappychoice/mdts/pull/634
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 556
+    deletions: 16
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-08T07:45:30Z
+    mergedAt: null
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.58.0 to 8.58.1 in /packages/frontend"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [typescript-eslint...
+    url: https://github.com/unhappychoice/mdts/pull/636
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 63
+    deletions: 63
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-08T07:45:42Z
+    mergedAt: 2026-04-09T02:49:01Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.58.0 to 8.58.1"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.58.0 to 8.58.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/635
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 65
+    deletions: 65
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-08T07:45:40Z
+    mergedAt: 2026-04-09T02:48:40Z
+  - title: "chore(deps-dev): Bump webpack from 5.105.4 to 5.106.0 in /packages/frontend"
+    body: |-
+      Bumps [webpack](https://github.com/webpack/webpack) from 5.105.4 to 5.106.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+      <blockquote>
+      <h2>v5.106.0</h2>
+      <h3>Minor Changes</h3>
+      <ul>
+      <li>
+      <p>Add <c...
+    url: https://github.com/unhappychoice/mdts/pull/643
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-10T07:45:17Z
+    mergedAt: 2026-04-10T10:21:01Z
+  - title: "chore(deps-dev): Bump eslint-plugin-jest from 29.15.1 to 29.15.2 in /packages/frontend"
+    body: >-
+      Bumps [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) from 29.15.1 to 29.15.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/jest-community/eslint-plugin-jest/releases">eslint-plugin-jest's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h...
+    url: https://github.com/unhappychoice/mdts/pull/642
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-10T07:45:07Z
+    mergedAt: 2026-04-10T10:20:44Z
+  - title: "chore(deps): bump rubocop from 1.86.0 to 1.86.1"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.86.0 to 1.86.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.1</h2>
+      <h3>Bug fixes</h3>
+      <ul>
+      <li><a href="...
+    url: https://github.com/circleci-tools/circleci-cli/pull/986
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-10T03:06:40Z
+    mergedAt: 2026-04-10T10:20:41Z
+  - title: "build(deps-dev): Bump rubocop from 1.86.0 to 1.86.1"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.86.0 to 1.86.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.1</h2>
+      <h3>Bug fixes</h3>
+      <ul>
+      <li><a href="...
+    url: https://github.com/unhappychoice/terminal_image/pull/561
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-10T03:04:19Z
+    mergedAt: 2026-04-10T10:20:38Z
+  - title: "chore(deps): Bump multi_json from 1.19.1 to 1.20.0"
+    body: >-
+      Bumps [multi_json](https://github.com/sferik/multi_json) from 1.19.1 to 1.20.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/sferik/multi_json/blob/main/CHANGELOG.md">multi_json's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>1.20.0</h2>
+
+      <ul>
+
+      <li>Drop the <code>U...
+    url: https://github.com/unhappychoice/blog/pull/698
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-10T03:04:59Z
+    mergedAt: 2026-04-10T10:20:35Z
+  - title: ⬆️ Bump rubocop from 1.86.0 to 1.86.1
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.86.0 to 1.86.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.1</h2>
+      <h3>Bug fixes</h3>
+      <ul>
+      <li><a href="...
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/168
+    repository: bitflyer-tools/bitflyer-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-10T03:04:07Z
+    mergedAt: 2026-04-10T10:20:30Z
+  - title: "build(deps-dev): bump rubocop from 1.86.0 to 1.86.1"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.86.0 to 1.86.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.1</h2>
+      <h3>Bug fixes</h3>
+      <ul>
+      <li><a href="...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/509
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-10T03:04:07Z
+    mergedAt: 2026-04-10T10:20:26Z
+  - title: "chore(deps-dev): bump rubocop from 1.86.0 to 1.86.1"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.86.0 to 1.86.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.1</h2>
+      <h3>Bug fixes</h3>
+      <ul>
+      <li><a href="...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/628
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-10T03:02:51Z
+    mergedAt: 2026-04-10T10:20:22Z
+  - title: "chore(deps-dev): bump rubocop from 1.86.0 to 1.86.1"
+    body: |-
+      Bumps [rubocop](https://github.com/rubocop/rubocop) from 1.86.0 to 1.86.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rubocop/rubocop/releases">rubocop's releases</a>.</em></p>
+      <blockquote>
+      <h2>RuboCop v1.86.1</h2>
+      <h3>Bug fixes</h3>
+      <ul>
+      <li><a href="...
+    url: https://github.com/bitflyer-tools/bitflyer/pull/672
+    repository: bitflyer-tools/bitflyer
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-10T03:03:58Z
+    mergedAt: 2026-04-10T10:20:16Z
+  - title: "chore(deps): bump marked from 17.0.5 to 18.0.0"
+    body: |-
+      Bumps [marked](https://github.com/markedjs/marked) from 17.0.5 to 18.0.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/markedjs/marked/releases">marked's releases</a>.</em></p>
+      <blockquote>
+      <h2>v18.0.0</h2>
+      <h1><a href="https://github.com/markedjs/marked...
+    url: https://github.com/deariary/github-weekly-reporter/pull/125
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 35
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-11T21:53:48Z
+    mergedAt: 2026-04-12T09:52:02Z
+  - title: "chore(deps): bump actions/deploy-pages from 4 to 5"
+    body: >-
+      Bumps [actions/deploy-pages](https://github.com/actions/deploy-pages) from 4 to 5.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/actions/deploy-pages/releases">actions/deploy-pages's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v5.0.0</h2>
+
+      <h1>Changelog</h1>
+
+      <...
+    url: https://github.com/deariary/github-weekly-reporter/pull/121
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-11T21:52:35Z
+    mergedAt: 2026-04-12T09:51:56Z
+  - title: "chore(deps): bump actions/checkout from 4 to 6"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [actions/checkout]...
+    url: https://github.com/deariary/github-weekly-reporter/pull/123
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-11T21:52:40Z
+    mergedAt: 2026-04-12T09:51:42Z
+  - title: "chore(deps): bump actions/setup-node from 4 to 6"
+    body: >-
+      Bumps [actions/setup-node](https://github.com/actions/setup-node) from 4 to 6.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.0.0</h2>
+
+      <h2>What's Changed</h2>
+
+      <p><...
+    url: https://github.com/deariary/github-weekly-reporter/pull/120
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-11T21:52:32Z
+    mergedAt: 2026-04-12T09:51:34Z
+  - title: "chore(deps): bump the minor-and-patch group across 1 directory with 8 updates"
+    body: >-
+      Bumps the minor-and-patch group with 7 updates in the / directory:
+
+
+      Updates `@anthropic-ai/sdk` from 0.82.0 to 0.88.0
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/anthropics/anthropic-sdk-typescript/releases"><code>@​anthropic-ai/sdk</code>'s
+      releases</a...
+    url: https://github.com/deariary/github-weekly-reporter/pull/124
+    repository: deariary/github-weekly-reporter
+    state: open
+    labels:
+      - dependencies
+      - javascript
+    additions: 305
+    deletions: 297
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-11T21:53:38Z
+    mergedAt: null
+  - title: "chore(deps): bump actions/upload-pages-artifact from 3 to 4"
+    body: >-
+      Bumps [actions/upload-pages-artifact](https://github.com/actions/upload-pages-artifact) from 3 to 4.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/actions/upload-pages-artifact/releases">actions/upload-pages-artifact's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      ...
+    url: https://github.com/deariary/github-weekly-reporter/pull/122
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-11T21:52:37Z
+    mergedAt: 2026-04-12T09:51:32Z
+  - title: "feat: set homepage URL and topics on repository during setup"
+    body: >-
+      - `ensureRepo()` now sets the `homepage` field (GitHub Pages URL) when creating a repository via the GitHub API
+
+      - Added `setRepoTopics()` to configure discoverable topics (`github-weekly-reporter`, `weekly-report`,
+      `github-activity`, `github-pages`) on both new and existing repositories
+
+      - Topics are...
+    url: https://github.com/deariary/github-weekly-reporter/pull/93
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 69
+    deletions: 17
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-05T09:23:28Z
+    mergedAt: 2026-04-05T09:24:40Z
+  - title: "fix: exclude incomplete weeks from index page and navigation"
+    body: >-
+      - Only include weeks with `llm-data.yaml` (completed reports) in the index page, prev/next navigation links, and
+      sitemap
+
+      - Prevents broken links on the index page for weeks that only have `events.yaml` from daily-fetch
+    url: https://github.com/deariary/github-weekly-reporter/pull/92
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 27
+    deletions: 9
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-05T04:47:42Z
+    mergedAt: 2026-04-05T04:48:30Z
+  - title: "fix: exclude private repositories from PR search"
+    body: |-
+      - Add `is:public` qualifier to the Search API query used during weekly-fetch
+      - Prevents private repository PRs from leaking into weekly reports published on GitHub Pages
+    url: https://github.com/deariary/github-weekly-reporter/pull/91
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-05T04:41:27Z
+    mergedAt: 2026-04-05T04:42:31Z
+  - title: "fix: improve PR fetch error handling and document fine-grained PAT 403 issue"
+    body: >-
+      - Retry PR fetches only on 429 (rate limit), not on 403 (permission/policy errors)
+
+      - Log the response body message on non-OK responses so users can see the actual cause (e.g. organization lifetime
+      policy)
+
+      - Add 200ms inter-request delay to follow [GitHub API best practices](https://docs.github.com/e...
+    url: https://github.com/deariary/github-weekly-reporter/pull/90
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 87
+    deletions: 19
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-05T04:27:12Z
+    mergedAt: 2026-04-05T04:36:28Z
+  - title: "fix: daily-fetch collects yesterday's events, not current day's"
+    body: >-
+      - **Bug**: `daily-fetch` cron fires at midnight, but `buildCurrentWeekRange` returned "Monday to today". On Monday
+      midnight, this meant the week ID flipped to W15 while Sunday (W14) events were never collected. Sunday's events
+      were permanently lost.
+
+      - **Fix**: Replace with `buildYesterdayRange` whic...
+    url: https://github.com/deariary/github-weekly-reporter/pull/89
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 439
+    deletions: 102
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-04-05T02:51:15Z
+    mergedAt: 2026-04-05T03:16:29Z
+  - title: "fix: daily-fetch now collects current week events instead of previous week"
+    body: >-
+      - **Bug**: `daily-fetch` was using `buildWeeklyRange` / `getWeekId` which target the **previous** ISO week. When
+      the cron ran mid-week, the GitHub Events API returned 0 events for last week, resulting in an empty `events.yaml`
+      (`[]`).
+
+      - **Fix**: Add `buildCurrentWeekRange` and `getCurrentWeekId` for...
+    url: https://github.com/deariary/github-weekly-reporter/pull/88
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 168
+    deletions: 7
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-05T02:22:44Z
+    mergedAt: 2026-04-05T02:25:44Z
+  - title: "test: improve test coverage from 95% to 97%"
+    body: >-
+      - Add 19 new test cases across 5 test files to increase overall statement coverage from 95.21% to 97.1% and branch
+      coverage from 87.81% to 90.7%
+
+      - Largest improvements: `render.ts` (87% to 99%), `deploy.ts` (95% to 100%), `llm/index.ts` (95% to 100%)
+    url: https://github.com/deariary/github-weekly-reporter/pull/87
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 309
+    deletions: 1
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-05T02:04:18Z
+    mergedAt: 2026-04-05T02:07:29Z
+  - title: "chore(deps-dev): bump vitest and @vitest/coverage-v8 from 3.x to 4.1.2"
+    body: >-
+      - Bump `vitest` from 3.2.4 to 4.1.2
+
+      - Bump `@vitest/coverage-v8` from 3.2.4 to 4.1.2
+
+      - Update `vi.fn()` mocks in `providers.test.ts` to use `function` syntax instead of arrow functions (required by
+      vitest 4)
+
+
+      Supersedes #79 and #82 (dependabot PRs that failed CI due to version mismatch between vites...
+    url: https://github.com/deariary/github-weekly-reporter/pull/86
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 844
+    deletions: 1641
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-05T01:40:07Z
+    mergedAt: 2026-04-05T01:41:54Z
+  - title: "docs: improve README and add documentation pages"
+    body: >-
+      Closes #71
+
+
+      - Restructure README: add Cost section, remove redundant sections (LLM Providers, URL Structure), streamline
+      Prerequisites into "What You Need"
+
+      - Add `docs/how-it-works.md`: pipeline overview, data flow, why daily fetch exists, what gets collected
+
+      - Add `docs/customization.md`: post-setu...
+    url: https://github.com/deariary/github-weekly-reporter/pull/85
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 590
+    deletions: 78
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-05T01:15:28Z
+    mergedAt: 2026-04-05T01:20:18Z
+  - title: "refactor: improve code quality for public release"
+    body: "Pre-release quality improvements across all priority levels. Tests: 201 -> 280 (+79)."
+    url: https://github.com/deariary/github-weekly-reporter/pull/70
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 1791
+    deletions: 1021
+    changedFiles: 37
+    author: unhappychoice
+    createdAt: 2026-04-04T22:21:19Z
+    mergedAt: 2026-04-04T22:45:22Z
+  - title: "feat: add share buttons for X, LinkedIn, and Bluesky"
+    body: |-
+      - Add CSS-only share bar with X, LinkedIn, and Bluesky share buttons
+      - Uses intent URLs (no JavaScript required)
+      - Only displayed when `--base-url` is set (canonical URL available)
+      - i18n "Share" label for all 10 languages
+    url: https://github.com/deariary/github-weekly-reporter/pull/49
+    repository: deariary/github-weekly-reporter
+    state: closed
+    labels: []
+    additions: 56
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-03T23:29:55Z
+    mergedAt: null
+  - title: "feat: add project scaffold and GitHub API data collection module"
+    body: |-
+      - Set up TypeScript + ESM project structure (package.json, tsconfig, eslint, vitest)
+      - Implement GitHub API data collection module using `@octokit/graphql`
+      - Collect weekly activity: commits, PRs, issues, reviews, language breakdown, daily heatmap
+      - Support pagination for users with high activity
+      - ...
+    url: https://github.com/deariary/github-weekly-reporter/pull/11
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 3903
+    deletions: 0
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-04-03T14:52:33Z
+    mergedAt: 2026-04-03T14:56:56Z
+  - title: "feat: add LLM integration for AI narrative generation"
+    body: |-
+      - Add LLM provider abstraction supporting OpenAI, Anthropic, and Google Gemini
+      - Auto-detect provider from available API keys (priority: OpenAI > Anthropic > Gemini)
+      - Optional model override (defaults: gpt-4o-mini, claude-sonnet-4-20250514, gemini-2.0-flash)
+      - Graceful degradation: LLM errors are c...
+    url: https://github.com/deariary/github-weekly-reporter/pull/13
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 313
+    deletions: 2
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-04-03T15:04:25Z
+    mergedAt: 2026-04-03T15:07:39Z
+  - title: "feat: add HTML report renderer with theming and SEO"
+    body: |-
+      - Implement self-contained HTML report generation (single file, all CSS inlined, no JS)
+      - Support default (light) and dark themes with GitHub-inspired aesthetics
+      - CSS-only contribution heatmap and language breakdown chart
+      - Responsive layout (mobile + desktop)
+      - Dofollow footer link to deariary.com...
+    url: https://github.com/deariary/github-weekly-reporter/pull/12
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels: []
+    additions: 591
+    deletions: 2
+    changedFiles: 15
+    author: unhappychoice
+    createdAt: 2026-04-03T14:59:05Z
+    mergedAt: 2026-04-03T15:02:48Z
+  - title: "chore(deps-dev): bump eslint from 9.39.4 to 10.2.0"
+    body: |-
+      Bumps [eslint](https://github.com/eslint/eslint) from 9.39.4 to 10.2.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/eslint/eslint/releases">eslint's releases</a>.</em></p>
+      <blockquote>
+      <h2>v10.2.0</h2>
+      <h2>Features</h2>
+      <ul>
+      <li><a href="https://github....
+    url: https://github.com/deariary/github-weekly-reporter/pull/83
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 89
+    deletions: 398
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-04T23:50:37Z
+    mergedAt: 2026-04-05T00:12:41Z
+  - title: "chore(deps-dev): bump typescript from 5.9.3 to 6.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 5.9.3 to 6.0.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/microsoft/TypeScript/releases">typescript's releases</a>.</em></p>
+      <blockquote>
+      <h2>TypeScript 6.0</h2>
+      <p>For release notes, ch...
+    url: https://github.com/deariary/github-weekly-reporter/pull/84
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-05T00:13:49Z
+    mergedAt: 2026-04-05T00:29:11Z
+  - title: "chore(deps-dev): bump @types/node from 22.19.17 to 25.5.2"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [@types/node](http...
+    url: https://github.com/deariary/github-weekly-reporter/pull/80
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 96
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-04T23:50:24Z
+    mergedAt: 2026-04-05T00:12:57Z
+  - title: "chore(deps): bump @octokit/graphql from 8.2.2 to 9.0.3"
+    body: >-
+      Bumps [@octokit/graphql](https://github.com/octokit/graphql.js) from 8.2.2 to 9.0.3.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/octokit/graphql.js/releases"><code>@​octokit/graphql</code>'s
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v9.0.3</h2>
+
+      <h2><a hre...
+    url: https://github.com/deariary/github-weekly-reporter/pull/78
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 43
+    deletions: 123
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-04T23:50:10Z
+    mergedAt: 2026-04-05T00:13:12Z
+  - title: "chore(deps): bump the minor-and-patch group across 1 directory with 2 updates"
+    body: |-
+      Bumps the minor-and-patch group with 2 updates in the / directory: [libsodium-wrappers](https://github.com/jedisct1/libsodium.js) and [@types/libsodium-wrappers](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/libsodium-wrappers).
+
+      Updates `libsodium-wrappers` from 0.7.16 to 0.8.2...
+    url: https://github.com/deariary/github-weekly-reporter/pull/77
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 19
+    deletions: 15
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-04T23:50:04Z
+    mergedAt: 2026-04-05T00:18:43Z
+issues: []
+events:
+  - id: "8143081783"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/cycle-cropper
+    createdAt: 2026-04-07T03:48:16Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 129
+      prTitle: ""
+      state: approved
+  - id: "8127810462"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-06T16:42:38Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 628
+      prTitle: ""
+      state: approved
+  - id: "8127776959"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-04-06T16:41:27Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 92
+      prTitle: ""
+      state: approved
+  - id: "8127774811"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-04-06T16:41:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 91
+      prTitle: ""
+      state: approved
+  - id: "8127773933"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-04-06T16:41:20Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 90
+      prTitle: ""
+      state: approved
+  - id: "8127771765"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/oss-issue-opener
+    createdAt: 2026-04-06T16:41:15Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 129
+      prTitle: ""
+      state: approved
+  - id: "8127768339"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-04-06T16:41:08Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 984
+      prTitle: ""
+      state: approved
+  - id: "8127766964"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-04-06T16:41:05Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 697
+      prTitle: ""
+      state: approved
+  - id: "8127697062"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-04-06T16:38:34Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 983
+      prTitle: ""
+      state: approved
+  - id: "8127694803"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-04-06T16:38:29Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 696
+      prTitle: ""
+      state: approved
+  - id: "8127693050"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-04-06T16:38:25Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 695
+      prTitle: ""
+      state: approved
+  - id: "8127691724"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-04-06T16:38:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 982
+      prTitle: ""
+      state: approved
+  - id: "8127689901"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/terminal_image
+    createdAt: 2026-04-06T16:38:18Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 560
+      prTitle: ""
+      state: approved
+  - id: "8127687795"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-04-06T16:38:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 694
+      prTitle: ""
+      state: approved
+  - id: "8127686791"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/bitflyer-cli
+    createdAt: 2026-04-06T16:38:12Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 167
+      prTitle: ""
+      state: approved
+  - id: "8125366333"
+    type: PullRequestReviewEvent
+    repo: irasutoya-tools/irasutoya
+    createdAt: 2026-04-06T15:17:49Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 508
+      prTitle: ""
+      state: approved
+  - id: "8125363902"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/bitflyer
+    createdAt: 2026-04-06T15:17:44Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 671
+      prTitle: ""
+      state: approved
+  - id: "8125361505"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/bitflyer-cli
+    createdAt: 2026-04-06T15:17:40Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 166
+      prTitle: ""
+      state: approved
+  - id: "8125359733"
+    type: PullRequestReviewEvent
+    repo: irasutoya-tools/irasutoya
+    createdAt: 2026-04-06T15:17:37Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 507
+      prTitle: ""
+      state: approved
+  - id: "8125357532"
+    type: PullRequestReviewEvent
+    repo: irasutoya-tools/irasutoya-cli
+    createdAt: 2026-04-06T15:17:33Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 627
+      prTitle: ""
+      state: approved
+  - id: "8184451313"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gitlogue
+    createdAt: 2026-04-08T04:23:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 187
+      prTitle: ""
+      state: approved
+  - id: "8172387779"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-07T19:17:33Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 630
+      prTitle: ""
+      state: approved
+  - id: "8234940356"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T09:03:48Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 639
+      prTitle: ""
+      state: approved
+  - id: "8234938213"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T09:03:44Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 641
+      prTitle: ""
+      state: approved
+  - id: "8234935253"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T09:03:40Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 640
+      prTitle: ""
+      state: approved
+  - id: "8226189450"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-04-09T03:57:15Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 865
+      prTitle: ""
+      state: approved
+  - id: "8224842989"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T02:48:38Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 631
+      prTitle: ""
+      state: approved
+  - id: "8224842256"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T02:48:35Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 632
+      prTitle: ""
+      state: approved
+  - id: "8224841232"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T02:48:32Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 633
+      prTitle: ""
+      state: approved
+  - id: "8224840507"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T02:48:29Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 634
+      prTitle: ""
+      state: approved
+  - id: "8224839941"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T02:48:28Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 636
+      prTitle: ""
+      state: approved
+  - id: "8224838679"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-09T02:48:23Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 635
+      prTitle: ""
+      state: approved
+  - id: "8280780997"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-10T10:20:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 643
+      prTitle: ""
+      state: approved
+  - id: "8280779293"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-10T10:20:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 642
+      prTitle: ""
+      state: approved
+  - id: "8280777822"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-04-10T10:20:08Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 986
+      prTitle: ""
+      state: approved
+  - id: "8280775822"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/terminal_image
+    createdAt: 2026-04-10T10:20:04Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 561
+      prTitle: ""
+      state: approved
+  - id: "8280774388"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-04-10T10:20:01Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 698
+      prTitle: ""
+      state: approved
+  - id: "8280772489"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/bitflyer-cli
+    createdAt: 2026-04-10T10:19:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 168
+      prTitle: ""
+      state: approved
+  - id: "8280770501"
+    type: PullRequestReviewEvent
+    repo: irasutoya-tools/irasutoya
+    createdAt: 2026-04-10T10:19:54Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 509
+      prTitle: ""
+      state: approved
+  - id: "8280769275"
+    type: PullRequestReviewEvent
+    repo: irasutoya-tools/irasutoya-cli
+    createdAt: 2026-04-10T10:19:51Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 628
+      prTitle: ""
+      state: approved
+  - id: "8280767960"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/bitflyer
+    createdAt: 2026-04-10T10:19:49Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 672
+      prTitle: ""
+      state: approved
+  - id: "8325616327"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-04-12T09:51:29Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 125
+      prTitle: ""
+      state: approved
+  - id: "8325615843"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-04-12T09:51:27Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 121
+      prTitle: ""
+      state: approved
+  - id: "8325615264"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-04-12T09:51:24Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 124
+      prTitle: ""
+      state: approved
+  - id: "8325614529"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-04-12T09:51:20Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 123
+      prTitle: ""
+      state: approved
+  - id: "8325613879"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-04-12T09:51:16Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 120
+      prTitle: ""
+      state: approved
+  - id: "8325613440"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-04-12T09:51:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 122
+      prTitle: ""
+      state: approved
+commitMessages:
+  - repo: unhappychoice/slack_channel_stats
+    messages:
+      - "Merge pull request #91 from unhappychoice/dependabot/bundler/bigdecimal-4.1.1"
+      - "Merge pull request #92 from unhappychoice/dependabot/bundler/addressable-2.9.0"
+      - "Merge pull request #90 from unhappychoice/dependabot/bundler/regexp_parser-2.12.0"
+  - repo: circleci-tools/circleci-cli
+    messages:
+      - "Merge pull request #986 from circleci-tools/dependabot/bundler/rubocop-1.86.1"
+      - "Merge pull request #984 from circleci-tools/dependabot/bundler/regexp_parser-2.12.0"
+      - "Merge pull request #983 from circleci-tools/dependabot/bundler/bigdecimal-4.1.1"
+      - "Merge pull request #982 from circleci-tools/dependabot/bundler/addressable-2.9.0"
+  - repo: unhappychoice/blog
+    messages:
+      - "Merge pull request #698 from unhappychoice/dependabot/bundler/multi_json-1.20.0"
+      - "Merge pull request #697 from unhappychoice/dependabot/bundler/rmagick-6.3.0"
+      - "Merge pull request #696 from unhappychoice/dependabot/bundler/bigdecimal-4.1.1"
+      - "Merge pull request #695 from unhappychoice/dependabot/bundler/execjs-2.10.1"
+      - "Merge pull request #694 from unhappychoice/dependabot/bundler/addressable-2.9.0"
+  - repo: unhappychoice/mdts
+    messages:
+      - "Merge pull request #643 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/webpack-5.106.0"
+      - "Merge pull request #642 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/eslint-plugin-jest-29.15.2"
+      - "Merge pull request #639 from unhappychoice/dependabot/npm_and_yarn/axios-1.15.0"
+      - "Merge pull request #641 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/react-dom-19.2.5"
+      - "Merge pull request #640 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/eslint/compat-2.0.5"
+      - "Merge pull request #636 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint-8.58.1"
+      - "Merge pull request #631 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint/parser-8.58.1"
+      - "Merge pull request #632 from
+        unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint/parser-8.58.1"
+      - "Merge pull request #635 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint-8.58.1"
+      - "Merge pull request #630 from unhappychoice/dependabot/npm_and_yarn/simple-git-3.35.2"
+      - "Merge pull request #628 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/eslint/compat-2.0.4"
+  - repo: unhappychoice/terminal_image
+    messages:
+      - "Merge pull request #561 from unhappychoice/dependabot/bundler/rubocop-1.86.1"
+      - "Merge pull request #560 from unhappychoice/dependabot/bundler/regexp_parser-2.12.0"
+  - repo: irasutoya-tools/irasutoya
+    messages:
+      - "Merge pull request #509 from irasutoya-tools/dependabot/bundler/rubocop-1.86.1"
+      - "Merge pull request #508 from irasutoya-tools/dependabot/bundler/regexp_parser-2.12.0"
+      - "Merge pull request #507 from irasutoya-tools/dependabot/bundler/bigdecimal-4.1.1"
+  - repo: bitflyer-tools/bitflyer-cli
+    messages:
+      - "Merge pull request #168 from bitflyer-tools/dependabot/bundler/rubocop-1.86.1"
+      - "Merge pull request #167 from bitflyer-tools/dependabot/bundler/regexp_parser-2.12.0"
+      - "Merge pull request #166 from bitflyer-tools/dependabot/bundler/bigdecimal-4.1.1"
+  - repo: deariary/github-weekly-reporter
+    messages:
+      - "Merge pull request #125 from deariary/dependabot/npm_and_yarn/marked-18.0.0"
+      - "Merge pull request #121 from deariary/dependabot/github_actions/actions/deploy-pages-5"
+      - "Merge pull request #123 from deariary/dependabot/github_actions/actions/checkout-6"
+      - "Merge pull request #120 from deariary/dependabot/github_actions/actions/setup-node-6"
+      - "Merge pull request #122 from deariary/dependabot/github_actions/actions/upload-pages-artifact-4"
+      - "fix: update swiss screenshots to 1920x1080, centered, no scrollbar"
+      - "Merge pull request #119 from deariary/feat/swiss-theme"
+      - "feat: add swiss theme (International Typographic Style)"
+      - "docs: consolidate PAT permissions and version pinning into docs/security.md"
+      - "docs: narrow runtime PAT to report repository only (fine-grained PATs include public read by default)"
+      - "docs: restore full PAT permissions in What You Need for setup compatibility"
+      - "docs: recommend pinning Action version to a commit SHA for security"
+      - "docs: distinguish PAT permissions for setup command vs Action runtime"
+      - "fix: add height=48 to ticker image in LP"
+      - "Merge pull request #118 from deariary/fix/card-header-date-range"
+      - "test: add isoWeekToMonday boundary tests and fix render test mock"
+      - "test: verify card dateRange is computed correctly from weekId"
+      - "fix: add height=48 to card img in README"
+      - "fix: replace username with date range in card header, add height=48 to img"
+      - "Merge pull request #117 from deariary/fix/setup-readme-card-display"
+      - "feat: improve setup README with card display, snippet, and clearer description"
+      - "Merge pull request #116 from deariary/fix/remove-embed-snippet"
+      - "fix: remove embed snippet from generated index page HTML"
+      - "Merge pull request #115 from deariary/fix/card-link"
+      - "fix: use actual repo URL in card embed snippet instead of placeholder"
+      - "feat: wrap card embed in link to report repository"
+      - "Merge pull request #114 from deariary/fix/card-header-padding"
+      - "fix: remove horizontal padding from card header"
+      - "Merge pull request #113 from deariary/docs/lp-card-position"
+      - "docs: move profile card section after themes on landing page"
+      - "Merge pull request #112 from deariary/docs/card-readme-fix"
+      - "fix: escape double quotes in font-family SVG attribute to fix XML parse error"
+      - "fix: move card SVGs to scripts/screenshots/ and reference via Pages URL"
+      - "fix: use GitHub Pages URL for card SVG to enable CSS animation in README"
+      - "docs: add profile card section to README and landing page with example SVGs"
+      - "Merge pull request #111 from deariary/feat/svg-news-ticker-card"
+      - "fix: use actual username instead of @user in ticker prompt examples"
+      - "feat: make ticker headlines dramatic and humorous like TV news broadcasts"
+      - "fix: show humorous idle messages when ticker data is empty"
+      - "feat: add animated SVG news ticker card for GitHub Profile README"
+      - "fix: add executable permission to CLI entrypoint after build"
+      - "Merge pull request #110 from deariary/docs/readme-theme-table"
+      - "docs: put theme screenshots in table with width=400"
+      - "Merge pull request #109 from deariary/docs/readme-theme-screenshots"
+      - "docs: replace old screenshots with per-theme images in README"
+      - "Merge pull request #108 from deariary/feat/setup-theme"
+      - "docs: simplify theme demo links in README"
+      - "docs: add Themes section to README with demo links"
+      - "feat: add theme selection to setup command and update docs"
+      - "Merge pull request #107 from deariary/feat/preview-site"
+      - "feat: redesign preview index as dark LP with animations and theme screenshots"
+      - "feat: redesign preview index as product landing page"
+      - "fix: add Japanese LLM data for preview and use lang-specific data dirs"
+      - "ci: add preview site workflow for theme x lang combinations"
+      - "Merge pull request #106 from deariary/feat/theme-editorial"
+      - "docs: fix editorial report screenshots with precise scroll stitching"
+      - "docs: retake editorial screenshots with full horizontal scroll width"
+      - "docs: retake all editorial screenshots (full-width report + index)"
+      - "feat: redesign editorial as horizontal scroll magazine with column layout"
+      - "feat: polish editorial narrative accents and badges"
+      - "docs: retake editorial screenshots with unified line-height"
+      - "feat: add per-language lineHeight to FontConfig"
+      - "docs: retake editorial screenshots with Playfair Display + Newsreader"
+      - "feat: add serifFamily to FontConfig for CJK serif fallback"
+      - "refactor: switch editorial fonts to Playfair Display + Newsreader"
+      - "feat: add editorial theme with serif typography and warm palette"
+      - "Merge pull request #105 from deariary/feat/theme-minimal"
+      - "docs: retake screenshots with fixed toggle font size"
+      - "fix: match theme toggle font size with footer text (0.8125rem)"
+      - "refactor: move theme toggle above credits with icon + label"
+      - "refactor: redesign theme toggle as icon on separate line"
+      - "chore: add output-* to gitignore"
+      - "chore: remove accidentally committed output directory"
+      - "feat: add light/dark toggle to brutalist theme"
+      - "docs: retake screenshots with English LLM content and animation wait"
+      - "docs: retake brutalist screenshots with animation wait"
+      - "docs: add theme screenshots for brutalist and minimal"
+      - "feat: add minimal theme with light/dark toggle"
+      - "Merge pull request #104 from deariary/feat/theme-infrastructure"
+      - "refactor: remove duplicate templates and unused re-export"
+      - "feat: add theme infrastructure with per-theme templates and CSS"
+      - "Merge pull request #100 from deariary/fix/paginate-commits-and-jsdom"
+      - "feat: fetch releases via Releases API with full body"
+      - "fix: keep review and release events in github-data.yaml and LLM context"
+      - "refactor: exclude events from github-data.yaml and LLM context"
+      - "feat: paginate commit fetching and remove per-repo/total caps"
+      - "fix: replace isomorphic-dompurify with sanitize-html to remove jsdom dependency"
+      - "fix: pin jsdom to 28.x to avoid top-level await error on Node 24"
+      - "Merge pull request #99 from deariary/feat/collect-commit-messages"
+      - "chore: normalize request delay to 100ms for both PR and commit fetchers"
+      - "perf: fetch commit messages with concurrency 5"
+      - "chore: increase commit message truncation limit to 200 chars"
+      - "fix: truncate commit messages to 120 characters"
+      - "perf: remove unnecessary 200ms delay between sequential commit fetches"
+      - "feat: collect commit messages via Commits API per repository"
+      - "Merge pull request #97 from deariary/feat/rss-feed"
+      - "feat: add media:content with OG image dimensions and channel image"
+      - "feat: include overview, subtitle, and stats in RSS item description"
+      - "fix: compute RSS pubDate as Monday 01:00 local time with timezone support"
+      - "feat: generate RSS feed with OG image URLs during render"
+      - "feat: add #GHWeeklyReporter hashtag to share links on X and Bluesky"
+      - "docs: add screenshots section to README"
+      - "Merge pull request #95 from deariary/fix/weekly-cron-day-of-week"
+      - "fix: compute correct UTC day-of-week for weekly cron in east-of-UTC timezones"
+      - "chore: move media assets to docs/assets and add demo screenshots"
+      - "Merge pull request #94 from deariary/fix/ux-improvements"
+      - "fix: improve error handling, UX, and i18n across CLI and collectors"
+  - repo: irasutoya-tools/irasutoya-cli
+    messages:
+      - "Merge pull request #628 from irasutoya-tools/dependabot/bundler/rubocop-1.86.1"
+      - "Merge pull request #627 from irasutoya-tools/dependabot/bundler/regexp_parser-2.12.0"
+  - repo: unhappychoice/gitlogue
+    messages:
+      - "Merge pull request #187 from unhappychoice/dependabot/cargo/toml_edit-0.25.11spec-1.1.0"
+  - repo: unhappychoice/cycle-cropper
+    messages:
+      - "Merge pull request #129 from unhappychoice/dependabot/npm_and_yarn/cropperjs-2.1.1"
+  - repo: unhappychoice/oss-issue-opener
+    messages:
+      - "fix: add explicit node types to tsconfig for TypeScript 6 compatibility"
+      - "Merge pull request #129 from unhappychoice/dependabot/npm_and_yarn/types/node-25.5.2"
+  - repo: bitflyer-tools/cycle-flyer
+    messages:
+      - "Merge pull request #865 from bitflyer-tools/dependabot/npm_and_yarn/electron-41.2.0"
+releases:
+  - repo: deariary/github-weekly-reporter
+    tag: v0.8.5
+    name: v0.8.5
+    body: "## What's Changed\r
+
+      * fix: replace username with date range in card header by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/118\r
+
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.8.4...v0.8.5"
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.8.5
+    publishedAt: 2026-04-07T03:33:53Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.8.4
+    name: v0.8.4
+    body: "## What's Changed\r
+
+      * feat: improve setup-generated README with card display and description by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/117\r
+
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.8.3...v0.8.4"
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.8.4
+    publishedAt: 2026-04-07T02:40:42Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.8.3
+    name: v0.8.3
+    body: "## What's Changed\r
+
+      * fix: remove embed snippet from generated index page by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/116\r
+
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.8.2...v0.8.3"
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.8.3
+    publishedAt: 2026-04-07T02:31:36Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.8.2
+    name: v0.8.2
+    body: "## What's Changed\r
+
+      * docs: move profile card section after themes on landing page by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/113\r
+
+      * fix: remove horizontal padding from card header by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/114\r
+
+      * feat: wrap card embed in link to report repository by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/115\r
+
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-rep..."
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.8.2
+    publishedAt: 2026-04-07T02:21:08Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.8.1
+    name: v0.8.1
+    body: "## What's Changed\r
+
+      * fix: use GitHub Pages URL for card SVG animation in README by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/112\r
+
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.8.0...v0.8.1"
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.8.1
+    publishedAt: 2026-04-07T01:51:47Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.8.0
+    name: v0.8.0
+    body: "## What's Changed\r
+
+      * feat: add animated SVG news ticker card for GitHub Profile README by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/111\r
+
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.7.0...v0.8.0"
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.8.0
+    publishedAt: 2026-04-07T01:33:51Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.7.0
+    name: v0.7.0
+    body: >-
+      ## What's Changed
+
+      * feat: add theme infrastructure with per-theme templates and CSS by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/104
+
+      * feat: add minimal theme with light/dark toggle by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/105
+
+      * feat: add editorial theme with serif typography and warm palette by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/106
+
+      * ci: add preview site with theme x lang combinations by ...
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.7.0
+    publishedAt: 2026-04-06T22:08:21Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.6.0
+    name: v0.6.0
+    body: >-
+      ## What's Changed
+
+      * feat: paginate commit fetching and remove per-repo/total caps by @unhappychoice in
+      https://github.com/deariary/github-weekly-reporter/pull/100
+
+
+
+      **Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.5.2...v0.6.0
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.6.0
+    publishedAt: 2026-04-06T01:51:19Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.5.2
+    name: v0.5.2
+    body: "**Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.5.1...v0.5.2"
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.5.2
+    publishedAt: 2026-04-06T01:24:59Z
+  - repo: deariary/github-weekly-reporter
+    tag: v0.5.1
+    name: v0.5.1
+    body: "**Full Changelog**: https://github.com/deariary/github-weekly-reporter/compare/v0.5.0...v0.5.1"
+    url: https://github.com/deariary/github-weekly-reporter/releases/tag/v0.5.1
+    publishedAt: 2026-04-06T01:17:31Z
+externalContributions: []

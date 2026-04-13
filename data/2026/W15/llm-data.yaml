@@ -1,0 +1,109 @@
+title: Animated SVG news ticker card lands in the profile README
+subtitle: The new ticker not only scrolls headlines but also delivers punchy badge labels like “SHIPPED!” and “CODE
+  PURGE” to every GitHub profile.
+overview: >
+  This week I pushed the final iteration of the animated news ticker card into the GitHub Profile README of the weekly
+  reporter project.  It’s a full‑stack change: from SVG animation tweaks to LLM‑generated headlines, from CI preview
+  pages to a new “theme” infrastructure that lets users pick a visual style.  The result is a self‑contained, animated
+  card that rolls out real‑time news in a style that feels like a live TV feed.
+
+
+  The narrative arc began with a pain point: the static card in the README was a relic, and the LLM headlines were too
+  bland.  I re‑engineered the card to use GitHub Pages URLs so CSS animation works, wrapped the SVG in a link to the
+  report repo, and added a “theme” selector that supports brutalist, minimal, editorial, and the newly added Swiss
+  theme.  The LLM was re‑trained to generate dramatic, TV‑style headlines, turning each tick into a micro‑broadcast.
+
+
+  Looking forward, the ticker will feed into the new RSS feed and the preview landing page, giving users a single source
+  of truth for both the visual and data aspects of the weekly report.  The next sprint will focus on fine‑tuning the
+  headline generation and adding support for custom badge colors.
+summaries:
+  - type: repo-summary
+    heading: GitHub‑Weekly‑Reporter dominates the sprint
+    body: The bulk of my work was on deariary/github-weekly-reporter, where I submitted 15 merged PRs that added a new
+      animated ticker, improved the card header, and expanded the theme ecosystem.  I also bumped a dependency in
+      cycle‑cropper and added a few minor PRs to other repos.  The repo saw 46 total PRs in the period, cementing its
+      status as the most active project.
+    chips:
+      - label: deariary/github-weekly-reporter
+        value: 15 PRs
+        color: default
+      - label: PR merge rate
+        value: 100%
+        color: green
+      - label: commits
+        value: "218"
+        color: blue
+  - type: deep-dive
+    heading: "The animated news ticker: a live TV broadcast in SVG"
+    body: I re‑engineered the card to use GitHub Pages URLs so CSS animation works, wrapped the SVG in a link to the report
+      repo, and added a “theme” selector that supports brutalist, minimal, editorial, and Swiss theme.  The LLM now
+      generates dramatic, TV‑style headlines, turning each tick into a micro‑broadcast.
+    chips:
+      - label: SVG animation
+        value: enabled
+        color: green
+      - label: themes
+        value: "4"
+        color: default
+      - label: LLM headlines
+        value: dramatic
+        color: default
+  - type: activity-pattern
+    heading: Commit cadence peaks on Tuesdays and Thursdays
+    body: I started the week with a burst of 85 commits on Monday, hit a high of 152 on Tuesday, and maintained a steady
+      flow through Thursday.  Friday and Saturday were quieter, with 90 and 35 commits respectively, hinting at a
+      planned wind‑down before the weekend.
+    chips:
+      - label: peak day
+        value: Tue 152
+        color: green
+      - label: average daily
+        value: "31"
+        color: default
+      - label: lowest day
+        value: Sun 35
+        color: red
+  - type: collaboration-summary
+    heading: Review approvals across the ecosystem
+    body: I gave and received 52 review approvals across 10 repos, with a strong focus on approving PRs in
+      unhappychoice/cycle‑cropper, unhappychoice/terminal_image, and circleci-tools/circleci‑cli.  The approvals helped
+      keep the codebase clean and maintainable across multiple open‑source projects.
+    chips:
+      - label: repos reviewed
+        value: "10"
+        color: default
+      - label: approvals
+        value: "52"
+        color: green
+highlights:
+  - type: pr
+    title: "feat: add animated SVG news ticker card for GitHub Profile README"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 12 · +371 -0 · 9 files
+    body: This PR introduced the live‑TV style ticker that scrolls headlines, wraps the card in a link, and uses GitHub
+      Pages URLs for animation.
+    url: https://github.com/deariary/github-weekly-reporter/pull/111
+  - type: pr
+    title: "feat: generate RSS feed with OG image URLs during render"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 12 · +347 -2 · 7 files
+    body: Added an RSS feed so readers can subscribe to weekly reports, enriching the audience reach.
+    url: https://github.com/deariary/github-weekly-reporter/pull/97
+  - type: pr
+    title: "feat: wrap card embed in link to report repository"
+    repo: deariary/github-weekly-reporter
+    meta: merged Apr 12 · +47 -20 · 7 files
+    body: Made the card clickable, boosting discoverability and providing a direct link to the report repo.
+    url: https://github.com/deariary/github-weekly-reporter/pull/115
+ticker:
+  - label: HISTORIC MERGE
+    text: "@unhappychoice merges 15 PRs into github‑weekly‑reporter, turning the README into a live news channel"
+  - label: JUST IN
+    text: "@unhappychoice deploys animated ticker to GitHub Pages; viewers now get real‑time headlines"
+  - label: KEYBOARD ON FIRE
+    text: "@unhappychoice pushes 218 commits this week, averaging 31 per day – the DevOps torch is blazing"
+  - label: DEVELOPING
+    text: "@unhappychoice adds four new themes, including a Swiss minimal design, proving style versatility"
+  - label: NO SURVIVORS
+    text: "@unhappychoice approves 52 PRs across 10 repos, keeping the open‑source ecosystem healthy and lean"
