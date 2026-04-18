@@ -971,3 +971,210 @@
     prNumber: 511
     prTitle: ""
     state: approved
+- id: "8551186213"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T04:53:27Z
+  payload:
+    kind: issues
+    action: closed
+    number: 137
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "8551185427"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T04:53:23Z
+  payload:
+    kind: issues
+    action: closed
+    number: 139
+    title: "[CI Failure] unhappychoice/cycle-cropper"
+- id: "8551184206"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T04:53:17Z
+  payload:
+    kind: issues
+    action: closed
+    number: 138
+    title: "[CI Failure] unhappychoice/blog"
+- id: "8551183554"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T04:53:14Z
+  payload:
+    kind: issues
+    action: closed
+    number: 142
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "8551182621"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T04:53:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 141
+    title: "[CI Failure] unhappychoice/gittype"
+- id: "8551181503"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T04:53:03Z
+  payload:
+    kind: issues
+    action: closed
+    number: 140
+    title: "[CI Failure] unhappychoice/gitlogue"
+- id: "8551179592"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T04:52:51Z
+  payload:
+    kind: issues
+    action: closed
+    number: 144
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "8547880870"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:45Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 144
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "8547880810"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:44Z
+  payload:
+    kind: issues
+    action: opened
+    number: 144
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "8547880597"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 143
+    title: "[CI Failure] unhappychoice/RxSnackbar"
+- id: "8547880560"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 142
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "8547880552"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 141
+    title: "[CI Failure] unhappychoice/gittype"
+- id: "8547880547"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 143
+    title: "[CI Failure] unhappychoice/RxSnackbar"
+- id: "8547880532"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 140
+    title: "[CI Failure] unhappychoice/gitlogue"
+- id: "8547880501"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 141
+    title: "[CI Failure] unhappychoice/gittype"
+- id: "8547880500"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 139
+    title: "[CI Failure] unhappychoice/cycle-cropper"
+- id: "8547880496"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 142
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "8547880461"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 140
+    title: "[CI Failure] unhappychoice/gitlogue"
+- id: "8547880426"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 139
+    title: "[CI Failure] unhappychoice/cycle-cropper"
+- id: "8547880333"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:42Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 138
+    title: "[CI Failure] unhappychoice/blog"
+- id: "8547880268"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:42Z
+  payload:
+    kind: issues
+    action: opened
+    number: 138
+    title: "[CI Failure] unhappychoice/blog"
+- id: "8547880132"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:42Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 137
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "8547880066"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-04-18T00:09:42Z
+  payload:
+    kind: issues
+    action: opened
+    number: 137
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
