@@ -14,6 +14,23 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency‑Bump Blitz: 19 PRs, 56 Commits, 49 Reviews in One Sprint</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W16/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W16/</guid>
+      <description>I dove into a chaotic week of dependency updates across 10 repos, pushing 56 commits and authoring 19 PRs while keeping review traffic smooth.
+
+This week was a whirlwind of dependency maintenance across my own repos and a handful of collaborators’ projects.  
+I pushed 56 commits—mostly automated merge requests from Dependabot—merging 19 PRs that bumped everything from webpack to Gradle, and I shuffled through 49 reviews, all of which were approved.  
+The rhythm was irregular: a massive commit burst on Thursday and Friday, a lull on Monday, and a final sprint of reviews on Sunday.  
+Despite the noise, the focus remained on keeping the ecosystem healthy, preventing version drift, and ensuring CI stability for all projects.
+
+
+Commits: 56, PRs: 0, Reviews: 49</description>
+      <pubDate>Sun, 19 Apr 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W16/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W16/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Animated SVG news ticker card lands in the profile README</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W15/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W15/</guid>
