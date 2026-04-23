@@ -3668,3 +3668,1283 @@
   payload:
     kind: generic
     action: ""
+- id: "10953881809"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T14:11:07Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8716813640"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T14:11:06Z
+  payload:
+    kind: issues
+    action: closed
+    number: 90
+    title: "fix(runtime): respect animation window under wait + show skeleton for loading widgets"
+- id: "8716813630"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T14:11:03Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 91
+    title: ""
+- id: "10953880640"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T14:11:05Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10953718846"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T14:07:23Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10953454049"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T14:01:37Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/loading-state
+    commits: []
+- id: "10953013032"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T13:52:04Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10952469509"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T13:40:02Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "8715491193"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T13:36:41Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 91
+    title: ""
+- id: "10952311713"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T13:36:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10951453739"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T13:17:30Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10950793281"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T13:02:09Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "8713973999"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:59:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 90
+    title: "fix(runtime): respect animation window under wait + show skeleton for loading widgets"
+- id: "8713973973"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:59:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 90
+    title: "fix(runtime): respect animation window under wait + show skeleton for loading widgets"
+- id: "8713973957"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:59:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 90
+    title: "fix(runtime): respect animation window under wait + show skeleton for loading widgets"
+- id: "8713973405"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:59:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 90
+    title: "fix(runtime): respect animation window under wait + show skeleton for loading widgets"
+- id: "10950562705"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:56:59Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10950141395"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:46:52Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8713481815"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:46:50Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 88
+    title: ""
+- id: "10950140689"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:46:51Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10949964667"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:42:37Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/fetchers-for-0x-presets
+    commits: []
+- id: "8713303404"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:42:05Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 89
+    title: ""
+- id: "10949933382"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:41:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10949855273"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:39:59Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/fetchers-for-0x-presets
+    commits: []
+- id: "8712991065"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:33:35Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 88
+    title: ""
+- id: "10949568770"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T12:33:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948894709"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:16:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948893927"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:16:25Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10948892849"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-23T12:16:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948892075"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-23T12:16:22Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10948877662"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-04-23T12:15:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948877011"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-04-23T12:15:58Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10948876208"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-04-23T12:15:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948875538"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-04-23T12:15:56Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10948873254"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-23T12:15:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948872142"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-23T12:15:51Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10948871202"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-04-23T12:15:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948870518"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-04-23T12:15:49Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10948869281"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-04-23T12:15:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948868685"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-04-23T12:15:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10948867384"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:15:44Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948866593"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:15:43Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10948860803"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:15:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948860014"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:15:32Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10948858382"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-04-23T12:15:30Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10948857759"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-04-23T12:15:29Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10948855888"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-04-23T12:15:26Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10948853700"
+  type: PushEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-04-23T12:15:23Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "8712321563"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-04-23T12:15:18Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 871
+    prTitle: ""
+    state: approved
+- id: "8712319924"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-04-23T12:15:15Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 870
+    prTitle: ""
+    state: approved
+- id: "8712317666"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-23T12:15:12Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 198
+    prTitle: ""
+    state: approved
+- id: "8712315361"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-23T12:15:08Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 197
+    prTitle: ""
+    state: approved
+- id: "8712312662"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-04-23T12:15:03Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 415
+    prTitle: ""
+    state: approved
+- id: "8712309018"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-04-23T12:14:57Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 414
+    prTitle: ""
+    state: approved
+- id: "8712307751"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:14:55Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 669
+    prTitle: ""
+    state: approved
+- id: "8712305676"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:14:51Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 668
+    prTitle: ""
+    state: approved
+- id: "8712303921"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-04-23T12:14:49Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 667
+    prTitle: ""
+    state: approved
+- id: "8712302461"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-04-23T12:14:46Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 424
+    prTitle: ""
+    state: approved
+- id: "8712299917"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-04-23T12:14:42Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 505
+    prTitle: ""
+    state: approved
+- id: "10948823550"
+  type: PushEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-04-23T12:14:37Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "8712276915"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-04-23T12:14:02Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 229
+    prTitle: ""
+    state: approved
+- id: "8712275838"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-04-23T12:14:00Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 244
+    prTitle: ""
+    state: approved
+- id: "10929152849"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:57:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10929152379"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:57:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8694917839"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:57:22Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 86
+    title: ""
+- id: "8694917515"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:57:23Z
+  payload:
+    kind: issues
+    action: closed
+    number: 79
+    title: "feat(render): layout border-sides + renderer option polish for 0.x presets"
+- id: "10929016571"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:51:36Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10928098599"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:12:40Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10928050393"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:10:38Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10927861863"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T01:02:53Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10926532723"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T00:06:18Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10926181530"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:51:32Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10926084280"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:47:03Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925977090"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:42:11Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925942102"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:40:35Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925910505"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:39:12Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925893742"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:38:28Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925868810"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:37:25Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925856386"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:36:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8692029111"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:36:53Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 87
+    title: ""
+- id: "10925856194"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:36:54Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10925747382"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:32:42Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/codecov
+    commits: []
+- id: "10925711981"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:31:30Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/codecov
+    commits: []
+- id: "10925534997"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:24:25Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "8691764782"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:22:53Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 87
+    title: ""
+- id: "10925495639"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:22:43Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10925430518"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:19:57Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925279873"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:13:24Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10925189863"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:09:42Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10924951698"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T23:00:48Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10924899212"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T22:59:02Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10924836415"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T22:56:29Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10924797658"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T22:54:59Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10923803366"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T22:17:05Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10921890143"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T21:12:47Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/render-options-polish
+    commits: []
+- id: "10921608746"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T21:04:31Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8688878132"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T21:04:29Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 85
+    title: ""
+- id: "10921607941"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T21:04:30Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8688877696"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T21:04:30Z
+  payload:
+    kind: issues
+    action: closed
+    number: 82
+    title: "refactor(config): split settings.toml + dashboard.toml, rename from config.toml"
+- id: "8688512359"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T20:49:22Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 86
+    title: ""
+- id: "10921073429"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T20:49:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10921065177"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T20:48:51Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/split-settings-dashboard
+    commits: []
+- id: "8686064406"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:14:05Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 85
+    title: ""
+- id: "10917672290"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:13:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10917561443"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:10:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8685974323"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:10:43Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 84
+    title: ""
+- id: "8685974307"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:10:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 83
+    title: "bug(render): chart_sparkline + git_commits_activity produces sparse/uninformative output"
+- id: "10917560445"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:10:44Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10917396661"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:06:23Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/sparkline-tail-window
+    commits: []
+- id: "10917129013"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T19:00:05Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/sparkline-tail-window
+    commits: []
+- id: "10917000602"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:57:11Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/sparkline-tail-window
+    commits: []
+- id: "8684889788"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:31:39Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 84
+    title: ""
+- id: "10916066338"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:31:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8684652961"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:22:57Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 83
+    title: "bug(render): chart_sparkline + git_commits_activity produces sparse/uninformative output"
+- id: "8684652872"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:22:57Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 83
+    title: "bug(render): chart_sparkline + git_commits_activity produces sparse/uninformative output"
+- id: "8684652467"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:22:56Z
+  payload:
+    kind: issues
+    action: opened
+    number: 83
+    title: "bug(render): chart_sparkline + git_commits_activity produces sparse/uninformative output"
+- id: "8684047725"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:00:37Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 82
+    title: "refactor(config): split settings.toml + dashboard.toml, rename from config.toml"
+- id: "8684047531"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:00:37Z
+  payload:
+    kind: issues
+    action: opened
+    number: 82
+    title: "refactor(config): split settings.toml + dashboard.toml, rename from config.toml"
+- id: "8684036847"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:00:14Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 81
+    title: "feat(fetcher): add fetchers needed by 0.x presets (weather / project_name / project / github_avatar / system
+      Text / clock format)"
+- id: "8684036840"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:00:14Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 81
+    title: "feat(fetcher): add fetchers needed by 0.x presets (weather / project_name / project / github_avatar / system
+      Text / clock format)"
+- id: "8684036470"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T18:00:13Z
+  payload:
+    kind: issues
+    action: opened
+    number: 81
+    title: "feat(fetcher): add fetchers needed by 0.x presets (weather / project_name / project / github_avatar / system
+      Text / clock format)"
+- id: "8684022335"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:59:41Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 80
+    title: "ops: add coverage + security audit + docs-site build check to CI"
+- id: "8684022189"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:59:41Z
+  payload:
+    kind: issues
+    action: opened
+    number: 80
+    title: "ops: add coverage + security audit + docs-site build check to CI"
+- id: "8684015107"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:59:25Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 79
+    title: "feat(render): layout border-sides + renderer option polish for 0.x presets"
+- id: "8684015105"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:59:25Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 79
+    title: "feat(render): layout border-sides + renderer option polish for 0.x presets"
+- id: "8684014909"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:59:24Z
+  payload:
+    kind: issues
+    action: opened
+    number: 79
+    title: "feat(render): layout border-sides + renderer option polish for 0.x presets"
+- id: "8682973211"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:21:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 78
+    title: "docs: expand docs-site with guide section (Getting Started / Configuration / Presets / Themes / Trust / Cookbook)"
+- id: "8682973057"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:21:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 78
+    title: "docs: expand docs-site with guide section (Getting Started / Configuration / Presets / Themes / Trust / Cookbook)"
+- id: "8682961975"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:21:18Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 77
+    title: "feat: ship dashboard presets (home_splash / home_daily / home_github / project_github_activity)"
+- id: "8682961970"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:21:18Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 77
+    title: "feat: ship dashboard presets (home_splash / home_daily / home_github / project_github_activity)"
+- id: "8682961774"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:21:17Z
+  payload:
+    kind: issues
+    action: opened
+    number: 77
+    title: "feat: ship dashboard presets (home_splash / home_daily / home_github / project_github_activity)"
+- id: "8682949758"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:20:51Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 76
+    title: "meta: 0.x release scope"
+- id: "8682949672"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:20:50Z
+  payload:
+    kind: issues
+    action: opened
+    number: 76
+    title: "meta: 0.x release scope"
+- id: "8682563132"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T17:06:30Z
+  payload:
+    kind: issues
+    action: closed
+    number: 17
+    title: "feat: Theme / color scheme system"
+- id: "10912368979"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T16:54:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8682228005"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T16:54:45Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 74
+    title: ""
+- id: "10912368363"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T16:54:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10910709560"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T16:12:59Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/animated-postfx-renderer
+    commits: []
+- id: "10909302466"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:40:27Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10909233492"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:38:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10909232391"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:38:50Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8680021366"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:38:48Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 72
+    title: ""
+- id: "10909111852"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:36:01Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10909110567"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:35:58Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/animated-postfx-renderer
+    commits: []
+- id: "10909109722"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:35:57Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/theme-color-keys-17
+    commits: []
+- id: "8679928360"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:35:36Z
+  payload:
+    kind: pull_request
+    action: closed
+    number: 75
+    title: ""
+- id: "8679921459"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:35:36Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 75
+    title: ""
+- id: "10909090834"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:35:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10909059568"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:34:45Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/animated-postfx-renderer
+    commits: []
+- id: "10908984059"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:32:54Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/theme-color-keys-17
+    commits: []
+- id: "8679512704"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:22:42Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 74
+    title: ""
+- id: "10908534125"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:22:30Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10908423586"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:20:04Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/theme-color-keys-17
+    commits: []
+- id: "10907677150"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-22T15:03:26Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/theme-color-keys-17
+    commits: []
