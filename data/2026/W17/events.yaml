@@ -4948,3 +4948,826 @@
     kind: push
     ref: refs/heads/feat/theme-color-keys-17
     commits: []
+- id: "10977978826"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T02:37:02Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10977978464"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T02:37:01Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8739601205"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T02:37:01Z
+  payload:
+    kind: issues
+    action: closed
+    number: 58
+    title: 'feat: "splashboard install" — one-shot setup (rc wiring + starter config from template)'
+- id: "8739601113"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T02:37:00Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 98
+    title: ""
+- id: "10976263607"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T01:26:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10976263266"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T01:26:27Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8738025621"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T01:26:26Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 99
+    title: ""
+- id: "10976141943"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T01:21:20Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/install-subcommand
+    commits: []
+- id: "8737834678"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T01:16:54Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 99
+    title: ""
+- id: "10976029925"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T01:16:43Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10976024084"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T01:16:28Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/install-subcommand
+    commits: []
+- id: "10975555467"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:58:48Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/install-subcommand
+    commits: []
+- id: "8737431858"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:55:16Z
+  payload:
+    kind: issues
+    action: closed
+    number: 81
+    title: "feat(fetcher): add fetchers needed by 0.x presets (weather / git_repo_name / github_repo / github_avatar /
+      system Text / clock format)"
+- id: "10975459036"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:54:32Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/install-subcommand
+    commits: []
+- id: "10975440734"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:53:40Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10975440144"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:53:39Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8737402919"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:53:38Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 94
+    title: ""
+- id: "10974912226"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:30:14Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/install-subcommand
+    commits: []
+- id: "10974851328"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:27:30Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10974670012"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:19:14Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/install-subcommand
+    commits: []
+- id: "10974213304"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-24T00:00:34Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10974036637"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:53:54Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/install-subcommand
+    commits: []
+- id: "10973906634"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:48:02Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "8735727905"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:40:28Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 98
+    title: ""
+- id: "10973734788"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:40:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10973721033"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:39:35Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10973670086"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:37:20Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10973404613"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:25:57Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10973202456"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:17:04Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10973115177"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:13:21Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10973032341"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:09:49Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10972956825"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:06:38Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10972773214"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T23:00:42Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "8734581619"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:49:37Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 97
+    title: "feat(render): signature opening animation for home_splash hero"
+- id: "8734581615"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:49:37Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 97
+    title: "feat(render): signature opening animation for home_splash hero"
+- id: "8734581495"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:49:37Z
+  payload:
+    kind: issues
+    action: opened
+    number: 97
+    title: "feat(render): signature opening animation for home_splash hero"
+- id: "8734581310"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:49:36Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 96
+    title: "feat(templates): add a second project-side preset (self/project axis)"
+- id: "8734581309"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:49:36Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 96
+    title: "feat(templates): add a second project-side preset (self/project axis)"
+- id: "8734581147"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:49:36Z
+  payload:
+    kind: issues
+    action: opened
+    number: 96
+    title: "feat(templates): add a second project-side preset (self/project axis)"
+- id: "10972444820"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:48:26Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10972311603"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:43:00Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10972252814"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:40:39Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10972194355"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:38:23Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "8734195936"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:34:03Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 95
+    title: "ops: surface fetch errors in UI + log file (no more silent failures)"
+- id: "8734195931"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:34:03Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 95
+    title: "ops: surface fetch errors in UI + log file (no more silent failures)"
+- id: "8734195743"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:34:02Z
+  payload:
+    kind: issues
+    action: opened
+    number: 95
+    title: "ops: surface fetch errors in UI + log file (no more silent failures)"
+- id: "10972034836"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:32:14Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/presets-match-templates
+    commits: []
+- id: "10971955975"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:29:21Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10971956191"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:29:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8734087010"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:29:20Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 93
+    title: ""
+- id: "10971795543"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:23:12Z
+  payload:
+    kind: push
+    ref: refs/heads/refactor/rename-project-fetchers
+    commits: []
+- id: "8733905315"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:21:26Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 94
+    title: ""
+- id: "10971745806"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:21:16Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10971628263"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:16:52Z
+  payload:
+    kind: push
+    ref: refs/heads/refactor/rename-project-fetchers
+    commits: []
+- id: "8733751461"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:15:10Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 93
+    title: ""
+- id: "10971577074"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T22:15:00Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8731638426"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T21:06:02Z
+  payload:
+    kind: issues
+    action: closed
+    number: 77
+    title: "feat: ship dashboard presets (home_splash / home_daily / home_github / project_github_activity)"
+- id: "10969501604"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T21:05:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8731624639"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T21:05:37Z
+  payload:
+    kind: issues
+    action: closed
+    number: 78
+    title: "docs: expand docs-site with guide section (Getting Started / Configuration / Presets / Themes / Trust / Cookbook)"
+- id: "8731557319"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T21:03:37Z
+  payload:
+    kind: issues
+    action: closed
+    number: 80
+    title: "ops: add coverage + security audit + docs-site build check to CI"
+- id: "10969215827"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T20:57:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10969099548"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T20:53:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8731224864"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T20:53:44Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 89
+    title: ""
+- id: "10969097159"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T20:53:45Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10969092651"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T20:53:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8731219219"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T20:53:35Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 92
+    title: ""
+- id: "10969091983"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T20:53:36Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10965511859"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T19:11:30Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10964948519"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:56:19Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10964915154"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:55:31Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10964842443"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:53:42Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10964606676"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:47:32Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10964460548"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:43:27Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10964312241"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:39:11Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10963883269"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:27:09Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10963839584"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:25:54Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10963678792"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:21:17Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10963601203"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:19:08Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10963049411"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T18:04:25Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10962786696"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T17:57:35Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10962573251"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T17:51:39Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10962492795"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T17:49:26Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10962295238"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T17:44:27Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10961850431"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T17:32:16Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10961440175"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T17:20:50Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10960890022"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T17:05:42Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10959598362"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:29:34Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10959286742"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:20:44Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10959246695"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:19:39Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "10959207841"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:18:31Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10959073277"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:14:50Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10958784768"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:07:15Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10958598242"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:02:21Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10958530185"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T16:00:45Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/0x-preset-templates
+    commits: []
+- id: "8720374338"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T15:44:00Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 92
+    title: ""
+- id: "10957836423"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T15:43:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10957610699"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T15:38:05Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10956901457"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T15:20:32Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10956818861"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T15:18:36Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10956736994"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T15:16:39Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
+- id: "10956154791"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-04-23T15:03:11Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/expand-guides
+    commits: []
