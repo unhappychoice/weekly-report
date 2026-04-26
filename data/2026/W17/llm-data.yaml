@@ -1,0 +1,112 @@
+title: "Splashboard sprint: RealtimeFetcher, Chromeless Widgets, and a Dependency Avalanche"
+subtitle: A week of architectural rewrites, UI polish, and a cascade of dependency updates across my repos
+overview: >
+  This week was dominated by the Splashboard project, where I pushed a new `RealtimeFetcher` trait and overhauled the
+  renderer registry to a clean three‑axis model.  The changes unlocked a host of new widgets like the realtime clock and
+  a chromeless layout that feels less “boxed” than before.  Meanwhile, the rest of my labs—mdts, slack_channel_stats,
+  and a handful of third‑party repos—saw a flurry of dependency bumps that kept everything up to date.
+
+
+  The most striking rhythm was the burst of commits on Tuesday (175) and Friday (199), with a quieter Sunday (130) that
+  still produced several PR merges.  I spent the middle of the week reviewing dozens of small dependency updates, many
+  of which were auto‑generated.  The volume of commits (510) and the net line change (+86 k) highlight both the
+  aggressive refactor and the steady maintenance across the ecosystem.
+
+
+  Looking ahead, the new architecture in Splashboard will allow me to add more real‑time widgets faster, and the fresh
+  dependency landscape reduces security risk and keeps CI happy.
+summaries:
+  - type: repo-summary
+    heading: Repo Activity Heatmap
+    body: Splashboard leads with 96 PRs and zero issues; mdts, gitlogue, and gittype each had a handful of PRs.  Dependency
+      bumps were the most common activity in the other repos, keeping them aligned with the latest security patches.
+    chips:
+      - label: unhappychoice/splashboard
+        value: 96 PRs
+        color: default
+      - label: unhappychoice/mdts
+        value: 15 PRs
+        color: default
+      - label: unhappychoice/gitlogue
+        value: 8 PRs
+        color: default
+      - label: unhappychoice/gittype
+        value: 8 PRs
+        color: default
+  - type: deep-dive
+    heading: Three‑Axis Renderer Registry
+    body: "The refactor in #32 split fetcher, data‑shape, and renderer into three independent axes, eliminating the previous
+      coupling that blocked theming and new renderer additions.  It also made the `config.render` option functional, a
+      long‑awaited feature for theme authors."
+    chips:
+      - label: new architecture
+        value: 3‑axis
+        color: default
+      - label: "unblocked #17"
+        value: theming
+        color: green
+      - label: 0 PRs closed
+        value: "0"
+        color: red
+  - type: activity-pattern
+    heading: Commit Burst & Quiet Sunday
+    body: After a quiet Monday, I hit a 175‑commit Tuesday, followed by a 199‑commit Friday.  Sunday was a lighter 130
+      commits but still included the final merge of the RealtimeFetcher PR.
+    chips:
+      - label: peak
+        value: Fri 199
+        color: green
+      - label: lowest
+        value: Mon 100
+        color: red
+  - type: tech-debt
+    heading: Dependency Avalanche
+    body: Across six repos I closed 18 dependency PRs, bumping @mui/x-tree-view, axios, json, bigdecimal, and more.  Keeping
+      these up‑to‑date reduces build failures and security gaps.
+    chips:
+      - label: deps merged
+        value: "18"
+        color: green
+      - label: repos touched
+        value: "6"
+        color: default
+highlights:
+  - type: pr
+    title: "feat(fetcher): introduce RealtimeFetcher trait for clock‑like widgets"
+    repo: unhappychoice/splashboard
+    meta: merged Apr 26 · +272 -65 · 5 files
+    body: This PR added a new trait that lets widgets skip disk caching and compute every frame, enabling smooth realtime
+      displays like the new clock widget.
+  - type: pr
+    title: "feat(layout,render): chromeless widgets + content alignment"
+    repo: unhappychoice/splashboard
+    meta: merged Apr 26 · +308 -56 · 10 files
+    body: Chromeless mode removes panel borders and titles, giving dashboards a cleaner look; the new `align` knob also lets
+      me center or left‑justify content.
+    url: https://github.com/unhappychoice/splashboard/pull/35
+  - type: pr
+    title: "refactor(render): data‑shape Body + Renderer registry (3‑axis) (#32)"
+    repo: unhappychoice/splashboard
+    meta: merged Apr 26 · +1658 -301 · 30 files
+    body: Decoupled fetcher, data‑shape, and renderer into three axes, unlocking future renderer additions without touching
+      the core.
+  - type: pr
+    title: "chore(deps): bump @mui/x-tree-view from 8.27.2 to 9.0.1 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Apr 26 · +124 -30 · 2 files
+    body: Updated the MUI tree view to the latest major release, fixing a deprecation warning that had been creeping in.
+ticker:
+  - label: JUST IN
+    text: "@unhappychoice releases splashboard v0.4.0, adding 3 new renderers in a single commit!"
+  - label: SOURCES SAY
+    text: "@unhappychoice pushes 510 commits in 7 days, most of them dependency bumps that keep the ecosystem alive."
+  - label: UNPRECEDENTED
+    text: "@unhappychoice merges 4 PRs in one day, including a full architecture rewrite that unlocks future features."
+  - label: KEYBOARD ON FIRE
+    text: "@unhappychoice goes on a dependency spree, bumping 18 packages across six repos in a single sprint."
+  - label: DEVELOPING
+    text: "@unhappychoice introduces RealtimeFetcher, letting widgets update every frame without disk I/O."
+  - label: ABOVE AND BEYOND
+    text: "@unhappychoice releases a new chromeless layout, making dashboards look less boxed and more fluid."
+  - label: HISTORIC MERGE
+    text: "@unhappychoice merges a 1658‑line refactor that splits the renderer registry into three axes."
