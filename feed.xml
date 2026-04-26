@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Splashboard sprint: RealtimeFetcher, Chromeless Widgets, and a Dependency Avalanche</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W17/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W17/</guid>
+      <description>A week of architectural rewrites, UI polish, and a cascade of dependency updates across my repos
+
+This week was dominated by the Splashboard project, where I pushed a new `RealtimeFetcher` trait and overhauled the renderer registry to a clean three‑axis model.  The changes unlocked a host of new widgets like the realtime clock and a chromeless layout that feels less “boxed” than before.  Meanwhile, the rest of my labs—mdts, slack_channel_stats, and a handful of third‑party repos—saw a flurry of dependency bumps that kept everything up to date.
+
+The most striking rhythm was the burst of commits on Tuesday (175) and Friday (199), with a quieter Sunday (130) that still produced several PR merges.  I spent the middle of the week reviewing dozens of small dependency updates, many of which were auto‑generated.  The volume of commits (510) and the net line change (+86 k) highlight both the aggressive refactor and the steady maintenance across the ecosystem.
+
+Looking ahead, the new architecture in Splashboard will allow me to add more real‑time widgets faster, and the fresh dependency landscape reduces security risk and keeps CI happy.
+
+
+Commits: 510, PRs: 114, Reviews: 59</description>
+      <pubDate>Sun, 26 Apr 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W17/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W17/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency‑Bump Blitz: 19 PRs, 56 Commits, 49 Reviews in One Sprint</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W16/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W16/</guid>
