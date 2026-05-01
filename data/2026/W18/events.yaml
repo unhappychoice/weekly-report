@@ -2878,3 +2878,2046 @@
   payload:
     kind: generic
     action: ""
+- id: "11296656770"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:58:01Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11296414276"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:50:56Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11296222359"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:45:21Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11296040305"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T14:39:59Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11295649912"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:28:37Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11295405487"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:20:57Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11295098862"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:11:40Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11294921652"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:06:39Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11294754231"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T14:01:40Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11294486211"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T13:53:38Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11294315440"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T13:48:21Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11293820996"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T13:32:57Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11293601655"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T13:25:54Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11293475408"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T13:21:55Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11293341592"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T13:17:42Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11293308652"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T13:16:38Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11293119531"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T13:10:24Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11293090873"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T13:09:26Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292985878"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T13:05:56Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292906907"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T13:03:20Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11292886377"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T13:02:40Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292739777"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:58:05Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292731374"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:57:48Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11292567237"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:52:07Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292408427"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:46:45Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292405373"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:46:38Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11292232518"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:40:39Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292212436"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:39:58Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11292098611"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:35:59Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11292013049"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:32:53Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11291943273"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:30:26Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11291852865"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:27:08Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11291767335"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:23:56Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11291727363"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:22:23Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11291645011"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:19:20Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11291642507"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:19:14Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11291488615"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:13:28Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11291448597"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:11:58Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11291317027"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:07:02Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11291295905"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T12:06:17Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11291184341"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T12:02:17Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11291075044"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:58:39Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11291032038"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:57:02Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11290883750"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:51:23Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11290866506"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:50:44Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11290717206"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:45:04Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11290622212"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:41:28Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11290559152"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:39:08Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11290488265"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:36:20Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11290384813"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:32:11Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11290363093"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:31:19Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11290241345"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:26:36Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11290126917"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:21:53Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11290113595"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:21:21Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11290001214"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:17:16Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11289991441"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:16:54Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "11289877234"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:12:34Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-test-coverage-20260501-110036
+    commits: []
+- id: "11289854139"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:11:40Z
+  payload:
+    kind: push
+    ref: refs/heads/increase-coverage-20260501-110026
+    commits: []
+- id: "8992546517"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:06:48Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 197
+    title: ""
+- id: "11289724233"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-01T11:06:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8992529160"
+  type: PullRequestEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:05:53Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 679
+    title: ""
+- id: "11289699468"
+  type: CreateEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T11:05:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11289142364"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T10:44:16Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8992136468"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T10:44:16Z
+  payload:
+    kind: issues
+    action: closed
+    number: 32
+    title: "cont mode: turn first Ctrl+C into an agent-driven finalize → mark PR ready"
+- id: "8992136417"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T10:44:16Z
+  payload:
+    kind: issues
+    action: closed
+    number: 30
+    title: "cont mode: open a draft PR upfront and push each iteration"
+- id: "11289141977"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T10:44:15Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8992136386"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T10:44:14Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 33
+    title: ""
+- id: "11289005729"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T10:38:41Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/cont-draft-pr-and-finalize
+    commits: []
+- id: "11288596931"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-05-01T10:22:06Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11288538871"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T10:19:53Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11288539129"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T10:19:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11288537768"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-01T10:19:50Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11288537505"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-01T10:19:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11288536817"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-01T10:19:48Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11288536384"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-01T10:19:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11288535916"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-01T10:19:46Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "8991620747"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-01T10:15:38Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 678
+    prTitle: ""
+    state: approved
+- id: "8991619467"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-01T10:15:34Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 101
+    prTitle: ""
+    state: approved
+- id: "8991618940"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-01T10:15:32Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 706
+    prTitle: ""
+    state: approved
+- id: "8991617959"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-01T10:15:28Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 875
+    prTitle: ""
+    state: approved
+- id: "11276653946"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:33:32Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/cont-draft-pr-and-finalize
+    commits: []
+- id: "11276550306"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:28:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8982834034"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:26:57Z
+  payload:
+    kind: pull_request
+    action: closed
+    number: 37
+    title: ""
+- id: "11276483468"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:25:31Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260501-012200
+    commits: []
+- id: "8982753748"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:23:51Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 37
+    title: ""
+- id: "11276448924"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:23:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11276360542"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:19:43Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/cont-draft-pr-and-finalize
+    commits: []
+- id: "8982628752"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:15:30Z
+  payload:
+    kind: pull_request
+    action: closed
+    number: 36
+    title: ""
+- id: "11276248869"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:14:29Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260501-010945
+    commits: []
+- id: "8982553698"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:12:23Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 36
+    title: ""
+- id: "11276205438"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:12:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11276119201"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:08:26Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/cont-draft-pr-and-finalize
+    commits: []
+- id: "11276004598"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:03:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8982394008"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T01:00:27Z
+  payload:
+    kind: pull_request
+    action: closed
+    number: 35
+    title: ""
+- id: "8982312919"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:58:55Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 35
+    title: ""
+- id: "11275893180"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:58:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11275845512"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:56:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8982271115"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:56:35Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 418
+    title: ""
+- id: "11275844929"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:56:36Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11275725231"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:51:00Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/cont-draft-pr-and-finalize
+    commits: []
+- id: "11275698403"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:49:47Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260501-004233
+    commits: []
+- id: "8982142538"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:46:24Z
+  payload:
+    kind: pull_request
+    action: closed
+    number: 34
+    title: ""
+- id: "11275635515"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:46:52Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/improve-test-coverage-20260430-215653
+    commits: []
+- id: "11275623408"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:46:19Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260501-004233
+    commits: []
+- id: "8982043816"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:44:08Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 34
+    title: ""
+- id: "11275573903"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:44:07Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11275472001"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:39:26Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/cont-draft-pr-and-finalize
+    commits: []
+- id: "11275442547"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:38:05Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-bump-20260501-003319
+    commits: []
+- id: "11275385923"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:35:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11275343947"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:33:49Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/improve-test-coverage-20260430-215653
+    commits: []
+- id: "11275219826"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:29:10Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/cont-draft-pr-and-finalize
+    commits: []
+- id: "11275073105"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:23:14Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/improve-test-coverage-20260430-215653
+    commits: []
+- id: "8981617507"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:21:58Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 33
+    title: ""
+- id: "11275023438"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:21:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11274969385"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:18:51Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/improve-test-coverage-20260430-215653
+    commits: []
+- id: "8981480545"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:16:08Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 418
+    title: ""
+- id: "11274900488"
+  type: CreateEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-01T00:15:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8981273944"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:07:00Z
+  payload:
+    kind: issues
+    action: opened
+    number: 32
+    title: "cont mode: turn first Ctrl+C into an agent-driven finalize → mark PR ready"
+- id: "11274490037"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:00:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8981125583"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:00:03Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 31
+    title: ""
+- id: "8981125575"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:00:05Z
+  payload:
+    kind: issues
+    action: closed
+    number: 28
+    title: replace text-sentinel loop termination with structured JSON in the agent's final response
+- id: "11274488995"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-01T00:00:04Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8981084128"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:57:47Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 31
+    title: ""
+- id: "11274429026"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:57:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11274387181"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:55:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8980977013"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:52:26Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 29
+    title: ""
+- id: "11274309275"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:52:27Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8980955299"
+  type: IssueCommentEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:51:18Z
+  payload:
+    kind: generic
+    action: created
+- id: "11274248912"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:50:02Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260430-215525
+    commits: []
+- id: "8980907735"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:48:48Z
+  payload:
+    kind: issues
+    action: opened
+    number: 30
+    title: "cont mode: open a draft PR upfront and push each iteration"
+- id: "8980744184"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:40:17Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 29
+    title: ""
+- id: "11274000702"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:40:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8980731961"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T23:39:39Z
+  payload:
+    kind: issues
+    action: opened
+    number: 28
+    title: replace text-sentinel loop termination with structured JSON in the agent's final response
+- id: "8978188908"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:48:53Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 27
+    title: ""
+- id: "11271007577"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:48:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11271007219"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:48:54Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11270911548"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:45:47Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-display
+    commits: []
+- id: "11270810783"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:42:38Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-display
+    commits: []
+- id: "11270426557"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:30:40Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-display
+    commits: []
+- id: "11270364241"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:28:48Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-display
+    commits: []
+- id: "11270208915"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:23:56Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-display
+    commits: []
+- id: "8977382343"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:20:09Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 27
+    title: ""
+- id: "11270086539"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:20:08Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11269956290"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:16:07Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11269857336"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:13:08Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11269626628"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:06:16Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11269546419"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:03:57Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11269488739"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:02:20Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11269423501"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T21:00:40Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11269285459"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:56:51Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11269143959"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:52:53Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11268976284"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:48:05Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "11268588529"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:37:12Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/streaming-events
+    commits: []
+- id: "8975913533"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:32:20Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 26
+    title: ""
+- id: "11268412191"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:32:21Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8975871083"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:31:00Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 26
+    title: ""
+- id: "11268363267"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:30:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8975451952"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:45Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 19
+    title: ""
+- id: "11267894230"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11267893925"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11267887153"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8975445387"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:33Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 20
+    title: ""
+- id: "11267886882"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:34Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8975440057"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:22Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 18
+    title: ""
+- id: "11267880857"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11267880640"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:17:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8975381020"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:15:35Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 20
+    title: ""
+- id: "11267817087"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:15:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8975106466"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:07:35Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 19
+    title: ""
+- id: "11267533721"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:07:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8974928058"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:02:19Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 18
+    title: ""
+- id: "11267340528"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T20:02:18Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11266916110"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:50:44Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8974542241"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:50:42Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 17
+    title: ""
+- id: "11266915646"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:50:43Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8974429873"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:47:07Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 17
+    title: ""
+- id: "11266785913"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:47:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11266701977"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:44:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11266702194"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:44:53Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8974361185"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:44:51Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 16
+    title: ""
+- id: "11266683937"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:44:22Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/agents-md
+    commits: []
+- id: "11266511973"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:39:41Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/agents-md
+    commits: []
+- id: "8974164495"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:38:29Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 16
+    title: ""
+- id: "11266469245"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:38:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8974074161"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:35:36Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 15
+    title: ""
+- id: "11266368999"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:35:38Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11266369194"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:35:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11266202943"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:30:58Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/notes-auto-maintain
+    commits: []
+- id: "11266033071"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:26:11Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/notes-auto-maintain
+    commits: []
+- id: "8973550474"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:19:16Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 15
+    title: ""
+- id: "11265785145"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:19:15Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8973263800"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:30Z
+  payload:
+    kind: issues
+    action: closed
+    number: 1
+    title: "[meta] Project bootstrap & MVP roadmap"
+- id: "8973263487"
+  type: IssueCommentEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:28Z
+  payload:
+    kind: generic
+    action: created
+- id: "8973251744"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 5
+    title: Real-time log passthrough + status bar overlay
+- id: "8973251709"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 4
+    title: LLM-generated Conventional Commit messages
+- id: "8973251692"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 6
+    title: State directory layout under ~/.local/state/kobito (XDG)
+- id: "8973251646"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 9
+    title: "Agent abstraction: support Codex alongside Claude Code"
+- id: "8973251415"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:05Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 14
+    title: ""
+- id: "11265451417"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:07Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11265451006"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T19:10:06Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11265038146"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:59:25Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/agent-abstraction
+    commits: []
+- id: "11264867246"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:54:50Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/agent-abstraction
+    commits: []
+- id: "8972609009"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:50:44Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 14
+    title: ""
+- id: "11264703615"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:50:19Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/agent-abstraction
+    commits: []
+- id: "11264585238"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:47:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11264335115"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:40:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8972239426"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:40:23Z
+  payload:
+    kind: issues
+    action: closed
+    number: 7
+    title: "Preset system: global presets + project override"
+- id: "8972239296"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:40:21Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 13
+    title: ""
+- id: "11264334507"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:40:22Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11264294183"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:39:17Z
+  payload:
+    kind: push
+    ref: refs/heads/feature/preset-system
+    commits: []
+- id: "8971577180"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:22:52Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 13
+    title: ""
+- id: "11263672522"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:22:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11263423461"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:16:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8971335389"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:16:25Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 12
+    title: ""
+- id: "11263422861"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:16:27Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8971334794"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:16:27Z
+  payload:
+    kind: issues
+    action: closed
+    number: 8
+    title: Auto-inject AGENTS.md / CLAUDE.md and pin output language
+- id: "8971316717"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:15:58Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 12
+    title: ""
+- id: "11263390504"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:15:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11263237062"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:11:33Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11263236634"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:11:33Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8971142583"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:11:33Z
+  payload:
+    kind: issues
+    action: closed
+    number: 3
+    title: "iteration mode: per-task branching with tasks.md backlog"
+- id: "8971142307"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T18:11:31Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 11
+    title: ""
+- id: "8970243591"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:48:43Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 11
+    title: ""
+- id: "11262337852"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:48:20Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11261994549"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:39:10Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8969880133"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:39:08Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 10
+    title: ""
+- id: "11261994534"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:39:09Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8969879781"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:39:09Z
+  payload:
+    kind: issues
+    action: closed
+    number: 2
+    title: "continuous mode: minimal implementation with Claude Code agent"
+- id: "8969734010"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:34:49Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 10
+    title: ""
+- id: "11261816185"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:34:20Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11261790795"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:33:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "8969352272"
+  type: WatchEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:24:06Z
+  payload:
+    kind: generic
+    action: started
+- id: "11261314181"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:21:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11261313145"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:21:22Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8969256438"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:21:21Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 201
+    title: ""
+- id: "8969186159"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:19:22Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 201
+    title: ""
+- id: "11261225323"
+  type: CreateEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:19:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11261136712"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:17:01Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11261135704"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:16:59Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "8969100541"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:16:58Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 200
+    title: ""
+- id: "8968984019"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:13:44Z
+  payload:
+    kind: issues
+    action: opened
+    number: 9
+    title: "Agent abstraction: support Codex alongside Claude Code"
+- id: "8968978784"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:13:36Z
+  payload:
+    kind: issues
+    action: opened
+    number: 8
+    title: Auto-inject AGENTS.md / CLAUDE.md and pin output language
+- id: "8968974431"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:13:28Z
+  payload:
+    kind: issues
+    action: opened
+    number: 7
+    title: "Preset system: global presets + project override"
+- id: "8968969415"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:13:20Z
+  payload:
+    kind: issues
+    action: opened
+    number: 6
+    title: State directory layout under ~/.local/state/kobito (XDG)
+- id: "8968965722"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:13:13Z
+  payload:
+    kind: issues
+    action: opened
+    number: 5
+    title: Real-time log passthrough + status bar overlay
+- id: "8968955462"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:12:56Z
+  payload:
+    kind: issues
+    action: opened
+    number: 4
+    title: LLM-generated Conventional Commit messages
+- id: "8968951304"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:12:49Z
+  payload:
+    kind: issues
+    action: opened
+    number: 3
+    title: "iteration mode: per-task branching with tasks.md backlog"
+- id: "8968946041"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:12:40Z
+  payload:
+    kind: issues
+    action: opened
+    number: 2
+    title: "continuous mode: minimal implementation with Claude Code agent"
+- id: "8968940978"
+  type: IssuesEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-04-30T17:12:32Z
+  payload:
+    kind: issues
+    action: opened
+    number: 1
+    title: "[meta] Project bootstrap & MVP roadmap"
+- id: "11260886989"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:10:58Z
+  payload:
+    kind: push
+    ref: refs/heads/gnhf/test-coverage-ed02c4
+    commits: []
+- id: "11260499394"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T17:01:38Z
+  payload:
+    kind: push
+    ref: refs/heads/gnhf/test-coverage-ed02c4
+    commits: []
+- id: "11258856522"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-04-30T16:21:40Z
+  payload:
+    kind: push
+    ref: refs/heads/gnhf/test-coverage-ed02c4
+    commits: []
