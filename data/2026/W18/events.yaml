@@ -5325,3 +5325,1543 @@
     kind: push
     ref: refs/heads/increase-coverage-20260501-110026
     commits: []
+- id: "11350870577"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T11:24:01Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11350807395"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T11:20:41Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11350768101"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T11:18:40Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11350760817"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T11:18:17Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11350637725"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T11:11:51Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11350374210"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T10:59:35Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11350211554"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T10:50:58Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11350167805"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T10:48:40Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11349795050"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T10:28:56Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11349358934"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T10:05:37Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11349256860"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T10:00:51Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11349178072"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T09:56:59Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11349047963"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T09:49:45Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11348867389"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T09:39:51Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11348748883"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T09:33:19Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11348722827"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T09:31:55Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11348538524"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T09:22:01Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11348529127"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T09:21:30Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11348455843"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T09:17:41Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11348386374"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T09:14:04Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11348210205"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T09:04:45Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11348116769"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T09:00:23Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347988938"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:53:28Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347947231"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:51:09Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347885819"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:47:45Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347869453"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:46:50Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347811136"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:43:36Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347779926"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:41:51Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347653928"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:35:00Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347611760"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:32:35Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347579520"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:30:49Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347546182"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:29:02Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347472871"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:24:49Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347464566"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:24:21Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347413947"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:21:31Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347337802"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:17:29Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347249181"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:12:44Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347202794"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:10:09Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347140349"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T08:06:50Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11347137080"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T08:06:40Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11347118184"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T08:05:46Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11347073912"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T08:03:36Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11347012471"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T08:00:48Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346985945"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:59:44Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346976182"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:59:12Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346953206"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:58:01Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346920842"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:56:18Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346909728"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:55:43Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346899314"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:55:09Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346849852"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:52:25Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346834394"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:51:34Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346805794"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:50:05Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346782414"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:48:52Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346780435"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:48:45Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346761800"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:47:46Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346706279"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:44:48Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346703270"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:44:38Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346683735"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:43:35Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346659057"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:42:10Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346615492"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:39:40Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346608277"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:39:13Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346570249"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:36:54Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346548525"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:35:37Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346526344"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:34:17Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346494417"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:32:23Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346474250"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:31:16Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346433873"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:29:05Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346429714"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:28:50Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346421404"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:28:20Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346362955"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:25:00Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346335382"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:23:37Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346277090"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:20:35Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346271099"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:20:16Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346264221"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:19:56Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346205578"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:16:25Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346198864"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:16:02Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346179424"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:14:58Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346139406"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:12:36Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346119181"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:11:25Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346099278"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:10:16Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346093940"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:10:00Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346057794"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:07:53Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11346041725"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:07:01Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11346032911"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:06:33Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11346014351"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:05:37Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345973171"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:03:35Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345932845"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T07:01:58Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345932603"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T07:01:58Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345913878"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T07:01:17Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345863772"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:59:20Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345844854"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:58:18Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345819459"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:56:58Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345804516"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:56:15Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345796367"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:55:52Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345765092"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:54:31Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345740084"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:53:12Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345727155"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:52:26Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345701086"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:50:50Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345683377"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:49:45Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345682165"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:49:40Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345667082"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:48:42Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345650048"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:47:36Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345640298"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:46:59Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345639267"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:46:56Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345611111"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:45:12Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345596282"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:44:19Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345594673"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:44:12Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345577208"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:43:08Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345557253"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:41:55Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345554519"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:41:45Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345542748"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:41:02Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345524164"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:39:56Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345519035"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:39:38Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345503410"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:38:40Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345482327"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:37:21Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345475783"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:36:57Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345470564"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:36:36Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345440987"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:34:46Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345440500"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:34:45Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345437779"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:34:34Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345410698"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:32:55Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260503-062717
+    commits: []
+- id: "11345406823"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:32:41Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345395920"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:32:03Z
+  payload:
+    kind: push
+    ref: refs/heads/coverage-up-20260503-062728
+    commits: []
+- id: "11345377036"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:30:58Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "9028968550"
+  type: PullRequestEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:30:32Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 32
+    title: ""
+- id: "11345369095"
+  type: CreateEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-03T06:30:31Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9028964914"
+  type: PullRequestEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:30:09Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 129
+    title: ""
+- id: "11345361833"
+  type: CreateEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T06:30:08Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11345342409"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:28:59Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345294145"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:25:59Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345252632"
+  type: PushEvent
+  repo: unhappychoice/unhappychoice.com
+  createdAt: 2026-05-03T06:23:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9028906768"
+  type: PullRequestEvent
+  repo: unhappychoice/unhappychoice.com
+  createdAt: 2026-05-03T06:23:22Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 7
+    title: ""
+- id: "11345224877"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:21:40Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "9028880314"
+  type: WatchEvent
+  repo: Th0rgal/open-ralph-wiggum
+  createdAt: 2026-05-03T06:20:40Z
+  payload:
+    kind: generic
+    action: started
+- id: "11345179437"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:18:56Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "9028859286"
+  type: PullRequestEvent
+  repo: unhappychoice/unhappychoice.com
+  createdAt: 2026-05-03T06:18:18Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 7
+    title: ""
+- id: "11345167104"
+  type: CreateEvent
+  repo: unhappychoice/unhappychoice.com
+  createdAt: 2026-05-03T06:18:09Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11345145186"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:16:47Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345115393"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:15:02Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345079205"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:12:45Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345052270"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:11:05Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11345011950"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:08:43Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11344963752"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:05:56Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11344914849"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:03:11Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11344846677"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T06:00:05Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "11344796987"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:56:53Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/increase-test-coverage-20260503-054959
+    commits: []
+- id: "9028629657"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:53:42Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 40
+    title: ""
+- id: "11344747709"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:53:41Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11344368722"
+  type: PushEvent
+  repo: unhappychoice/unhappychoice.com
+  createdAt: 2026-05-03T05:29:15Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11344226994"
+  type: PushEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-05-03T05:19:53Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11344105087"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:11:47Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11344105192"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:11:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11344084661"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:10:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11344084420"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:10:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11344070406"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:09:33Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11344070210"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:09:32Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9028256893"
+  type: IssueCommentEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:09:17Z
+  payload:
+    kind: generic
+    action: created
+- id: "9028256466"
+  type: IssueCommentEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:09:14Z
+  payload:
+    kind: generic
+    action: created
+- id: "9028243450"
+  type: IssueCommentEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:07:39Z
+  payload:
+    kind: generic
+    action: created
+- id: "11344027309"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11344027183"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:41Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11344025019"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:34Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11344025171"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9028232570"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:22Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 21
+    prTitle: ""
+    state: approved
+- id: "9028232153"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:19Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 22
+    prTitle: ""
+    state: approved
+- id: "9028231783"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:17Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 23
+    prTitle: ""
+    state: approved
+- id: "9028231250"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:13Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 24
+    prTitle: ""
+    state: approved
+- id: "9028230865"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:06:11Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 25
+    prTitle: ""
+    state: approved
+- id: "11343942847"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:01:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9028193447"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:01:37Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 39
+    title: ""
+- id: "11343942560"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:01:38Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11343909142"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T05:00:06Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/install-options
+    commits: []
+- id: "11343884786"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:58:24Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/install-options
+    commits: []
+- id: "11343864836"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:57:03Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/install-options
+    commits: []
+- id: "11343600249"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:40:36Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/install-options
+    commits: []
+- id: "9028005213"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:37:40Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 39
+    title: ""
+- id: "11343556113"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:37:39Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/install-options
+    commits: []
+- id: "11343540371"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:36:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11343512922"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:34:52Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11343512867"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:34:52Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9027982487"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:34:51Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 38
+    title: ""
+- id: "11343506529"
+  type: PushEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-05-03T04:34:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9027978729"
+  type: PullRequestEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-05-03T04:34:25Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 3
+    title: ""
+- id: "9027957051"
+  type: PullRequestEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-05-03T04:31:59Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 3
+    title: ""
+- id: "11343469313"
+  type: CreateEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-05-03T04:31:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11343457014"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:31:10Z
+  payload:
+    kind: push
+    ref: refs/heads/ci/release-workflow
+    commits: []
+- id: "11343345535"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:23:52Z
+  payload:
+    kind: push
+    ref: refs/heads/ci/release-workflow
+    commits: []
+- id: "9027875146"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:22:28Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 38
+    title: ""
+- id: "11343325116"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-03T04:22:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11342161990"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T03:10:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11342161893"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T03:10:22Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9027266701"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-03T03:10:16Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 128
+    prTitle: ""
+    state: approved
