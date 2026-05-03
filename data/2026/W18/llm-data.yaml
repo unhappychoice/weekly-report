@@ -1,0 +1,124 @@
+title: splashboard 1.2.0 Release + 27 New Fetchers, 19 PRs in a Week
+subtitle: This week I pushed splashboard to v1.2.0, added 27 new fetchers, and completed the deariary_* family while
+  cleaning up the project structure.
+overview: >
+  The week started with a burst of activity around splashboard, where I merged 19 pull requests that added a host of new
+  fetchers and refactored the code_* family. The release of v1.2.0 introduced linear_issues, linear_notifications, and
+  linear_cycle fetchers, plus random_dog and random_cat for a splash of fun.
+
+
+  Parallel to that, I also tackled the deariary_* fetcher family, which now provides safe, cached, and host‑pinned diary
+  entries. The refactor to tokei for code_* metrics brought code_loc and code_comments into the fold, while the new
+  git_churn and git_age fetchers give us instant repo health insights. I spent a lot of time reviewing and approving PRs
+  for other repos like gitlogue and mdts, keeping the overall ecosystem healthy.
+
+
+  The week ended with a focused push to the unhappychoice.com website, adding an /oss/ showcase page and refreshing data
+  scripts, plus a bump of dependencies across several projects. Looking ahead, I’ll be polishing the new fetchers’ test
+  coverage and preparing a blog post about the new project_codebase preset.
+summaries:
+  - type: repo-summary
+    heading: splashboard Dominates the Week
+    body: I logged 19 PRs in splashboard, including the v1.2.0 release and a dozen new fetchers that cover code metrics,
+      churn, and random media. The repo saw 1,500+ lines added and 200 lines removed, a net +1,300 LOC. The focus was on
+      expanding the fetcher family while tightening tests.
+    chips:
+      - label: unhappychoice/splashboard
+        value: 19 PRs
+        color: default
+      - label: lines
+        value: +1,300
+        color: green
+      - label: merged
+        value: "83"
+        color: green
+      - label: opened
+        value: "91"
+        color: red
+  - type: deep-dive
+    heading: New Fetcher Explosion
+    body: "I added 27 new fetchers in a single sprint: code_loc, code_comments, code_largest_files, git_churn, git_age, and
+      several random media fetchers. Each fetcher is a single‑shape renderer, making it trivial to plug into the preset
+      system. The refactor to tokei reduced the code path count from 14 to 8 shapes in the code_* family."
+    chips:
+      - label: fetchers
+        value: "27"
+        color: default
+      - label: shapes
+        value: "8"
+        color: green
+      - label: tokei
+        value: used
+        color: default
+  - type: activity-pattern
+    heading: Commit Rhythm & Burst Days
+    body: The commit graph shows a dramatic surge on May 1st with 290 commits, a peak that eclipsed the rest of the week.
+      Other high‑activity days were Thursday (179) and Wednesday (118). The pattern suggests I front‑loaded the week
+      with a heavy push and then tapered off to focus on reviews.
+    chips:
+      - label: peak
+        value: May 1 290
+        color: green
+      - label: avg/day
+        value: "138"
+        color: default
+  - type: review-summary
+    heading: Cross‑Project Collaboration
+    body: I approved 29 reviews across eight repos, including three major dependency bumps in gitlogue, mdts, and
+      circleci-tools. The reviews were mostly straightforward, but the deariary_* PR required a multi‑author discussion
+      to nail the cache‑key logic.
+    chips:
+      - label: reviews
+        value: "29"
+        color: default
+      - label: approved
+        value: "29"
+        color: green
+  - type: highlight
+    heading: Highlights
+    body: These PRs had the biggest impact this week.
+highlights:
+  - type: pr
+    title: "feat(fetcher): add deariary_* family for diary entries"
+    repo: unhappychoice/splashboard
+    meta: merged Apr 2 · +2392 -196 · 12 files
+    body: Introduced a robust diary entry fetcher family with caching and host‑pinned support, enabling real‑time diary
+      dashboards.
+    url: https://github.com/unhappychoice/splashboard/pull/176
+  - type: pr
+    title: "feat(fetcher): add code_loc for tracked-line counts per language"
+    repo: unhappychoice/splashboard
+    meta: merged Apr 2 · +1191 -100 · 5 files
+    body: Brought in a lean, tokei‑based line‑count fetcher that outputs four new shapes, simplifying language analytics.
+  - type: pr
+    title: "feat(fetcher): add git_churn and enforce single-shape renderers"
+    repo: unhappychoice/splashboard
+    meta: merged Apr 2 · +435 -119 · 16 files
+    body: Added a churn fetcher that surfaces the most changed files over the last 30 days, plus a rule that enforces
+      single‑shape renderers for consistency.
+    url: https://github.com/unhappychoice/splashboard/pull/166
+  - type: pr
+    title: "feat: add OSS showcase page at /oss/"
+    repo: unhappychoice/unhappychoice.com
+    meta: merged Apr 2 · +12638 -7 · 61 files
+    body: Created a dedicated OSS showcase page that aggregates stats, repositories, and recent activity, boosting site
+      engagement.
+    url: https://github.com/unhappychoice/unhappychoice.com/pull/2
+  - type: release
+    title: v1.2.0
+    repo: unhappychoice/splashboard
+    meta: released Apr 3
+    body: The first major release of splashboard, featuring new fetchers, preset updates, and a polished UI.
+ticker:
+  - label: DISNEY SCREAM
+    text: "@unhappychoice dumps 290 commits on May 1, breaking the record for a single day in the repo's history"
+  - label: HYPER-CRITICAL
+    text: "@unhappychoice releases splashboard v1.2.0 with 27 new fetchers and 5 new shapes"
+  - label: CODE BOMB
+    text: "@unhappychoice adds deariary_* family, now pulling diary entries in under 60s"
+  - label: DEVOPS DELUGE
+    text: "@unhappychoice pushes 1,500+ lines across multiple repos, including a major tokei refactor"
+  - label: OSHA ALERT
+    text: "@unhappychoice approves 29 reviews across eight repos, keeping the ecosystem healthy"
+  - label: STORYTIME
+    text: "@unhappychoice launches the /oss/ showcase, turning the website into an open‑source hub"

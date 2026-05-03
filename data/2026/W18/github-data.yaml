@@ -1,0 +1,3598 @@
+username: unhappychoice
+avatarUrl: https://avatars.githubusercontent.com/u/5608948?u=6ca2fca8320cb6be5b802f6c5a6359933754ab2e&v=4
+profile:
+  name: Yuji Ueki
+  bio: "\r
+
+    \    ＼ Full Stack Software Engineer ／\r
+
+    \r\n"
+  company: null
+  location: Tokyo, Japan
+  followers: 3539
+  following: 10132
+  publicRepos: 60
+dateRange:
+  from: 2026-04-27
+  to: 2026-05-03
+stats:
+  totalCommits: 822
+  totalAdditions: 94577
+  totalDeletions: 7077
+  prsOpened: 91
+  prsMerged: 83
+  prsReviewed: 29
+  issuesOpened: 0
+  issuesClosed: 0
+dailyCommits:
+  - date: 2026-04-27
+    count: 69
+  - date: 2026-04-28
+    count: 156
+  - date: 2026-04-29
+    count: 118
+  - date: 2026-04-30
+    count: 179
+  - date: 2026-05-01
+    count: 290
+  - date: 2026-05-02
+    count: 79
+  - date: 2026-05-03
+    count: 104
+repositories:
+  - name: unhappychoice/splashboard
+    commits: 0
+    prsOpened: 57
+    prsMerged: 55
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/splashboard
+  - name: unhappychoice/kobito
+    commits: 0
+    prsOpened: 28
+    prsMerged: 24
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/kobito
+  - name: unhappychoice/mdts
+    commits: 0
+    prsOpened: 9
+    prsMerged: 7
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/mdts
+  - name: unhappychoice/unhappychoice.com
+    commits: 0
+    prsOpened: 6
+    prsMerged: 6
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/unhappychoice.com
+  - name: unhappychoice/gitlogue
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gitlogue
+  - name: circleci-tools/CircleCI
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/CircleCI
+  - name: unhappychoice/blog
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/blog
+  - name: unhappychoice/gittype
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gittype
+  - name: circleci-tools/Norimaki
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/Norimaki
+  - name: deariary/github-weekly-reporter
+    commits: 0
+    prsOpened: 2
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/github-weekly-reporter
+  - name: unhappychoice/color-hash.kt
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/color-hash.kt
+  - name: unhappychoice/RxSnackbar
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/RxSnackbar
+  - name: bitflyer-tools/DroidFlyer
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/DroidFlyer
+  - name: unhappychoice/slack_channel_stats
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/slack_channel_stats
+  - name: bitflyer-tools/cycle-flyer
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/cycle-flyer
+  - name: unhappychoice/steamfetch
+    commits: 0
+    prsOpened: 1
+    prsMerged: 0
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/steamfetch
+  - name: unhappychoice/homebrew-tap
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/homebrew-tap
+pullRequests:
+  - title: "feat(fetcher): add deariary_* family for diary entries"
+    body: >-
+      - Adds three `deariary_*` fetchers (Safe, cached, host-pinned to `api.deariary.com`) backed by a shared HTTP
+      client that dedups concurrent calls, caches responses for 60s, caps in-flight requests at 4, and honors
+      `Retry-After` once on 429.
+
+      - `deariary_today` — most recent entry (today's, falling bac...
+    url: https://github.com/unhappychoice/splashboard/pull/176
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 2392
+    deletions: 196
+    changedFiles: 12
+    author: unhappychoice
+    createdAt: 2026-04-27T12:41:41Z
+    mergedAt: 2026-04-28T02:28:50Z
+  - title: "fix(docs): render LinkedTextBlock previews as real anchors"
+    body: '- `xtask/html_snapshot` was embedding the `list_links` OSC 8 hyperlink escape sequence verbatim into a single
+      cell, so the docs site rendered `]8;;https://…\Apr 26 …]8;;\` instead of clickable rows. Now detects the OSC 8
+      wrapper and emits a real `<a href="…" class="splash-link">` with one `<span cla...'
+    url: https://github.com/unhappychoice/splashboard/pull/174
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 185
+    deletions: 13
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-04-27T08:08:19Z
+    mergedAt: 2026-04-27T08:12:16Z
+  - title: "feat(templates): add project_codebase preset (#164)"
+    body: "- Adds the `project_codebase` preset — a code-analytics dashboard for the per-project slot, framing the project
+      title figlet with surrounding tiles (LOC by language, project age, comment density on top; files by dir / largest
+      files flanking the title; most-churned, TODO comments list, TODO hotspots ..."
+    url: https://github.com/unhappychoice/splashboard/pull/175
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 333
+    deletions: 24
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-04-27T10:53:48Z
+    mergedAt: 2026-04-27T12:16:07Z
+  - title: "feat(fetcher): fill missing shape coverage across 14 fetchers"
+    body: "Reviewed every fetcher's `shapes()` against the `Shape` enum and closed the gaps surfaced by three patterns:
+      ranking fetchers missing one of `TextBlock` / `MarkdownTextBlock` / `Text` (per the
+      *multi-row-shapes-carry-the-ranking* rule), status-y fetchers without `Badge`, and structurally rich fetche..."
+    url: https://github.com/unhappychoice/splashboard/pull/173
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 1222
+    deletions: 102
+    changedFiles: 14
+    author: unhappychoice
+    createdAt: 2026-04-27T07:01:31Z
+    mergedAt: 2026-04-27T07:37:11Z
+  - title: "refactor(fetcher): adopt tokei for code_*; add code_comments + code_tests"
+    body: >-
+      - Adopt `tokei = "14"` (default-features off) as the per-file LOC parser for the `code_*` family. Walker
+      (gix-index, lockfile / vendored exclusions, 5k-file budget) unchanged — tokei is fed bytes we already read, no
+      second filesystem traversal.
+
+      - `code_loc` keeps `code + comments + blanks` ≈ physica...
+    url: https://github.com/unhappychoice/splashboard/pull/172
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 1177
+    deletions: 189
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-04-27T06:34:15Z
+    mergedAt: 2026-04-27T07:48:45Z
+  - title: "chore(deps): bump tree-sitter-dart from 0.1.0 to 0.2.0"
+    body: >-
+      Bumps [tree-sitter-dart](https://github.com/nielsenko/tree-sitter-dart) from 0.1.0 to 0.2.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/nielsenko/tree-sitter-dart/blob/main/CHANGELOG.md">tree-sitter-dart's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[0.2.0] -...
+    url: https://github.com/unhappychoice/gitlogue/pull/199
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 3
+    deletions: 3
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-27T02:30:30Z
+    mergedAt: 2026-04-27T06:06:26Z
+  - title: "feat(fetcher): add code_largest_files for refactor-candidate hunting"
+    body: >-
+      - Adds `code_largest_files` — ranks the largest tracked source files in the discovered git repo. Walks the `gix`
+      index via the shared `for_each_tracked_file` helper, so untracked / `.gitignore`-d files plus committed-vendored
+      trees, lockfiles, and binaries are skipped automatically.
+
+      - Seven shapes f...
+    url: https://github.com/unhappychoice/splashboard/pull/171
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 573
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-27T05:57:12Z
+    mergedAt: 2026-04-27T05:59:42Z
+  - title: "feat(fetcher): add code_files — top-level-dir ranking + headline file count"
+    body: |-
+      Adds `code_files`, a per-repo fetcher that walks the discovered git index,
+      filters vendored / generated trees, and emits a ranking of top-level
+      directories by tracked-file count. Files at the repo root are grouped
+      under `(root)`. Land towards the `project_codebase` preset (#164) as the
+      "structure" b...
+    url: https://github.com/unhappychoice/splashboard/pull/170
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 354
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-27T04:22:22Z
+    mergedAt: 2026-04-27T05:17:17Z
+  - title: "build(deps): bump commons-codec:commons-codec from 1.21.0 to 1.22.0"
+    body: >-
+      Bumps [commons-codec:commons-codec](https://github.com/apache/commons-codec) from 1.21.0 to 1.22.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/apache/commons-codec/blob/master/RELEASE-NOTES.txt">commons-codec:commons-codec's
+      changelog</a>.</em></p>
+
+      <blockq...
+    url: https://github.com/circleci-tools/CircleCI/pull/199
+    repository: circleci-tools/CircleCI
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-27T03:04:20Z
+    mergedAt: 2026-04-27T06:06:29Z
+  - title: "feat(fetcher): add code_language_logo for repo-language Devicon hero"
+    body: >-
+      Adds `code_language_logo`, a new `code_*` family fetcher that detects the dominant programming language from the
+      discovered git repo's tracked files and renders the matching Devicon PNG via the `Image` shape. Designed as the
+      hero widget for the upcoming `project_codebase` preset (#164).
+
+
+      - File-coun...
+    url: https://github.com/unhappychoice/splashboard/pull/169
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 509
+    deletions: 1
+    changedFiles: 77
+    author: unhappychoice
+    createdAt: 2026-04-27T04:16:23Z
+    mergedAt: 2026-04-27T04:23:02Z
+  - title: "feat(fetcher): add git_churn and enforce single-shape renderers"
+    body: '- Adds `git_churn` fetcher — top files by change count over the last N days (default 30, override via `format =
+      \"N\"`), capped at top 10. Shapes: Entries (default) / Bars / TextBlock / Text. Walks the gix rev-walk diff with
+      the same MAX_COMMITS = 500 safety cap as `git_blame_heatmap`. Ticks the peo...'
+    url: https://github.com/unhappychoice/splashboard/pull/166
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 435
+    deletions: 119
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-04-27T01:31:10Z
+    mergedAt: 2026-04-27T01:41:53Z
+  - title: "feat(fetcher): add `code_loc` for tracked-line counts per language"
+    body: >-
+      New `code_loc` fetcher counts tracked source lines per language across the discovered git repo. Snapshot at HEAD,
+      **8 shapes from one read**.
+
+
+      Tracks #164 (project_codebase preset). Ticks the `code_loc` checkbox on #62.
+
+
+      ### Shapes
+
+
+      ### Options
+
+
+      ### Compatible renderers
+
+
+      Lights up `text_plain` / `te...
+    url: https://github.com/unhappychoice/splashboard/pull/167
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 1191
+    deletions: 100
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-27T03:04:50Z
+    mergedAt: 2026-04-27T03:35:27Z
+  - title: "feat(fetcher): add `git_age` for repository age from first commit"
+    body: >-
+      - New `git_age` fetcher: walks every commit reachable from `HEAD` and reports the calendar age from the oldest.
+      All local, `Safety::Safe`.
+
+      - Supports **10 shapes** so the same fetcher can power text subtitles, structural breakdowns, charts, calendars,
+      and timelines.
+
+      - Picks up the open box for `git_...
+    url: https://github.com/unhappychoice/splashboard/pull/165
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 738
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-27T01:13:22Z
+    mergedAt: 2026-04-27T01:17:44Z
+  - title: "feat(fetcher): add code_languages"
+    body: Adds `code_languages` to the `code_*` family — groups tracked source files in the discovered git repo by language
+      and ranks them by `lines` (default) or `files`. Reuses the existing `EXCLUDED_DIRS` / `looks_binary` /
+      `MAX_FILES_SCANNED` / `FILE_SIZE_CAP` filters from `code_todos` so vendored / gener...
+    url: https://github.com/unhappychoice/splashboard/pull/168
+    repository: unhappychoice/splashboard
+    state: closed
+    labels: []
+    additions: 826
+    deletions: 5
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-27T03:07:21Z
+    mergedAt: null
+  - title: "feat: add OSS showcase page at /oss/"
+    body: >-
+      - Add a dedicated `/oss/` page with three sections: **Stats**, **Repositories** (card grid + language filter),
+      **Recent Activity** (timeline of PRs / releases / issues / pushes)
+
+      - Snapshot data into `data/{repos,events,stats}.json` via `scripts/refresh-data.sh` and refresh hourly with
+      `.github/workf...
+    url: https://github.com/unhappychoice/unhappychoice.com/pull/2
+    repository: unhappychoice/unhappychoice.com
+    state: merged
+    labels: []
+    additions: 12638
+    deletions: 7
+    changedFiles: 61
+    author: unhappychoice
+    createdAt: 2026-04-28T10:52:42Z
+    mergedAt: 2026-04-28T13:53:34Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.59.0 to 8.59.1 in /packages/frontend"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.59.0 to 8.59.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/675
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 234
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-28T07:46:20Z
+    mergedAt: 2026-04-28T10:12:03Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.59.0 to 8.59.1"
+    body: |-
+      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.59.0 to 8.59.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
+    url: https://github.com/unhappychoice/mdts/pull/671
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 554
+    deletions: 14
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-28T07:45:41Z
+    mergedAt: null
+  - title: "chore(deps-dev): Bump @typescript-eslint/eslint-plugin from 8.59.0 to 8.59.1 in /packages/frontend"
+    body: |-
+      Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 8.59.0 to 8.59.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases"><code>@​ty...
+    url: https://github.com/unhappychoice/mdts/pull/673
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 556
+    deletions: 16
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-28T07:46:02Z
+    mergedAt: null
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.59.0 to 8.59.1 in /packages/frontend"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.59.0 to 8.59.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/670
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 63
+    deletions: 63
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-28T07:45:39Z
+    mergedAt: 2026-04-28T10:11:48Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.59.0 to 8.59.1"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.59.0 to 8.59.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/672
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 61
+    deletions: 61
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-28T07:45:57Z
+    mergedAt: 2026-04-28T10:11:53Z
+  - title: "test(github): cover repo_issues and repo_prs fetchers offline"
+    body: >-
+      - Adds offline unit tests for `src/fetcher/github/repo_issues.rs`, raising that file's line coverage from 23.73% →
+      95.89%.
+
+      - Adds offline unit tests for `src/fetcher/github/repo_prs.rs`.
+
+      - Net workspace line coverage: 81.80% → 82.21%.
+
+
+      Continues the GitHub-fetcher coverage push tracked alongside #18...
+    url: https://github.com/unhappychoice/splashboard/pull/187
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 389
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-28T09:57:39Z
+    mergedAt: 2026-04-28T10:06:35Z
+  - title: "test: improve coverage for github + hackernews fetchers"
+    body: |-
+      - Add focused tests for the shared GitHub issue/PR item renderer helper (`src/fetcher/github/items.rs`)
+      - Cover `src/fetcher/github/recent_releases.rs` with offline tests
+      - Add offline tests for `github_good_first_issues`
+      - Fully cover the shared Hacker News HTTP client with offline tests
+
+      Workspace...
+    url: https://github.com/unhappychoice/splashboard/pull/186
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 516
+    deletions: 0
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-28T09:35:03Z
+    mergedAt: 2026-04-28T09:38:11Z
+  - title: "perf: gnhf overnight wins (cold-start latency, English commit prompts)"
+    body: >-
+      - `perf(cli)`: switch to sync dispatch and lazy Tokio init — cold `render --once` median **5.396ms → 1.351ms**.
+
+      - `perf(build)`: tighten release profile (`codegen-units = 1`, thin LTO, strip symbols) — cold median **1.503ms →
+      1.341ms** (-10.8%).
+
+      - `chore(gnhf)`: require the loop prompts to write `su...
+    url: https://github.com/unhappychoice/splashboard/pull/185
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 31
+    deletions: 9
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-28T08:14:09Z
+    mergedAt: 2026-04-28T08:20:02Z
+  - title: "test: raise workspace coverage and tweak gnhf launcher"
+    body: >-
+      - Add tests for `xtask/src/dashboard_snapshot.rs`, lifting workspace line coverage from 78.10% → 78.90%.
+
+      - Cover untested branches in `github_action_status` (and minor adjustments in `github::avatar` /
+      `github::client`), lifting coverage from 78.42% → 78.62%.
+
+      - Pass `--prevent-sleep off` from `.gnhf...
+    url: https://github.com/unhappychoice/splashboard/pull/184
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 334
+    deletions: 3
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-28T08:06:26Z
+    mergedAt: 2026-04-28T08:10:39Z
+  - title: "chore(gnhf): save overnight loop prompts and launcher"
+    body: >-
+      Persist two continuous-improvement objectives for [gnhf](https://github.com/kunchenguid/gnhf) overnight loops,
+      plus a launcher that runs them in parallel worktrees.
+
+
+      - `.gnhf/prompts/coverage-loop.md` — tests-only iterations; line coverage only goes up.
+
+      - `.gnhf/prompts/perf-loop.md` — perf-only ite...
+    url: https://github.com/unhappychoice/splashboard/pull/183
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 214
+    deletions: 0
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-28T07:02:26Z
+    mergedAt: 2026-04-28T07:07:02Z
+  - title: Improve render test coverage for text and animated renderers
+    body: |-
+      - add missing branch and metadata validation coverage for `render/text_plain.rs`
+      - add regression coverage for `render/animated_boot.rs`
+      - add focused regression tests for `render/animated_typewriter.rs` and `render/animated_wave.rs`
+    url: https://github.com/unhappychoice/splashboard/pull/182
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 348
+    deletions: 11
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-28T05:54:15Z
+    mergedAt: 2026-04-28T05:58:26Z
+  - title: "docs(site): preset gallery in showcases + renderer-page previews"
+    body: >-
+      - Convert `showcases.md` → `.mdx` and replace the "_screenshots pending_" placeholders with the rendered HTML
+      snapshots `xtask` already produces for all nine presets. Per-widget breakdowns stay on the
+      [Presets](/guides/presets/) guide; the showcase page is now a pure gallery.
+
+      - Mirror the fetcher-pa...
+    url: https://github.com/unhappychoice/splashboard/pull/181
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 218
+    deletions: 39
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-28T04:39:27Z
+    mergedAt: 2026-04-28T04:47:14Z
+  - title: "chore(deps): Bump nokogiri from 1.19.2 to 1.19.3"
+    body: |-
+      Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.19.2 to 1.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/sparklemotion/nokogiri/releases">nokogiri's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.19.3 / 2026-04-27</h2>
+      <h3>Fixed / Secu...
+    url: https://github.com/unhappychoice/blog/pull/705
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-28T04:04:10Z
+    mergedAt: 2026-04-28T04:52:45Z
+  - title: "fix(xtask): step past OSC 8 link cells in HTML snapshot"
+    body: >-
+      - `list_links` packs the OSC 8 sequence into the first cell and flags the trailing cells with `skip = true`. The
+      `TestBackend` used by `cargo xtask`'s dashboard snapshot doesn't carry `skip` across diff/flush, so those cells
+      landed back in the buffer as plain spaces.
+
+      - `emit_row` then emitted the li...
+    url: https://github.com/unhappychoice/splashboard/pull/180
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 29
+    deletions: 1
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-28T04:16:31Z
+    mergedAt: 2026-04-28T04:21:51Z
+  - title: "feat(time): project-wide locale + timezone consistency"
+    body: "Closes #154. Pulls every fetcher / renderer that emits a human-readable timestamp through a shared `crate::time`
+      helper module so the same `[general].timezone` / `[general].locale` defaults flow through every clock-shaped
+      output instead of each call site reaching for `Local::now()` or `Utc::now()` i..."
+    url: https://github.com/unhappychoice/splashboard/pull/179
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 635
+    deletions: 171
+    changedFiles: 25
+    author: unhappychoice
+    createdAt: 2026-04-28T03:05:48Z
+    mergedAt: 2026-04-28T03:12:02Z
+  - title: "feat(secrets): load tokens from $HOME/.splashboard/secrets.toml"
+    body: >-
+      - Adds a `SecretsConfig` loader for `$HOME/.splashboard/secrets.toml` — a flat top-level TOML map (`GH_TOKEN =
+      "ghp_..."`) whose entries get exported as process env at startup. Shell env wins, so existing `GH_TOKEN=...
+      splashboard ...` overrides keep working.
+
+      - A small denylist filters `SPLASHBOARD_...
+    url: https://github.com/unhappychoice/splashboard/pull/177
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 238
+    deletions: 0
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-28T02:18:38Z
+    mergedAt: 2026-04-28T02:29:04Z
+  - title: "docs(secrets): document $HOME/.splashboard/secrets.toml in user guides"
+    body: |-
+      The secrets loader shipped in #177 had no user-facing docs. This PR fills
+      that gap in the three hand-authored guides:
+
+      - **`configuration.md`** — adds `secrets.toml` to the `$HOME/.splashboard/`
+       file tree and a dedicated section covering: flat TOML format, shell-env
+       precedence, the filtered keys (...
+    url: https://github.com/unhappychoice/splashboard/pull/178
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 68
+    deletions: 8
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-28T02:39:54Z
+    mergedAt: 2026-04-28T02:45:25Z
+  - title: "chore(deps): bump reqwest from 0.13.2 to 0.13.3"
+    body: |-
+      Bumps [reqwest](https://github.com/seanmonstar/reqwest) from 0.13.2 to 0.13.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/seanmonstar/reqwest/releases">reqwest's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.13.3</h2>
+      <h2>tl;dr</h2>
+      <ul>
+      <li>Fix Certifica...
+    url: https://github.com/unhappychoice/gittype/pull/416
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-27T15:44:43Z
+    mergedAt: 2026-04-27T23:48:16Z
+  - title: "feat(linear): add linear_issues, linear_notifications, linear_cycle fetchers"
+    body: >-
+      Three Linear fetchers covering the daily-driver surfaces, sharing a single GraphQL client and token-scoped cache
+      key. Ticks `linear_issues` and adds two new boxes (`linear_notifications`, `linear_cycle`) under Linear in #66.
+
+
+      - **`linear_issues`** — filter-first issue list (status / assignee / team ...
+    url: https://github.com/unhappychoice/splashboard/pull/195
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 3051
+    deletions: 0
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-29T14:10:43Z
+    mergedAt: 2026-04-30T04:37:15Z
+  - title: "fix(grid_calendar): preserve layout-painted bg through offscreen blit"
+    body: >-
+      - `grid_calendar` renders `Monthly` into an offscreen `TestBackend` and blits whole cells into the frame.
+      `TestBackend` cells default to `bg = Color::Reset`, so the wholesale `*dst_cell = src_cell.clone()` clobbered
+      whatever bg the layout had painted (`theme.bg` or per-row `bg = \"subtle\"`).
+
+      - Keep...
+    url: https://github.com/unhappychoice/splashboard/pull/194
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 49
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-29T13:36:31Z
+    mergedAt: 2026-04-29T13:42:35Z
+  - title: "fix(xtask): point reference cross-links at routes, not mirrored .md sources"
+    body: >-
+      - Compatible renderers / Compatible fetchers tables (and matrix.md's overview tables) generated `.md`-suffixed
+      hrefs. `copy-markdown.mjs` mirrors every source `.md` into `dist/` at the same URL, so those clicks were landing
+      on the raw markdown view instead of the Starlight-rendered page.
+
+      - Switch li...
+    url: https://github.com/unhappychoice/splashboard/pull/193
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 13
+    deletions: 5
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-29T13:19:08Z
+    mergedAt: 2026-04-29T13:26:18Z
+  - title: "chore(deps): Bump @mui/x-tree-view from 9.0.2 to 9.0.4 in /packages/frontend"
+    body: >-
+      Bumps [@mui/x-tree-view](https://github.com/mui/mui-x/tree/HEAD/packages/x-tree-view) from 9.0.2 to 9.0.4.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/mui/mui-x/releases"><code>@​mui/x-tree-view</code>'s
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v9.0.4</h...
+    url: https://github.com/unhappychoice/mdts/pull/676
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 12
+    deletions: 237
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-29T07:45:37Z
+    mergedAt: 2026-04-29T13:27:42Z
+  - title: "feat(fetcher): add `random_cat` — random cat picture from cataas.com"
+    body: >-
+      - Image-only fetcher that downloads a random cat from `cataas.com` each refresh cycle and exposes it as
+      `Body::Image`. Caches to `$SPLASHBOARD_HOME/cache/cats/<key>.<ext>`.
+
+      - `Safety::Safe`: host hardcoded to `cataas.com` (config can't redirect traffic), no auth (no token to leak).
+      Mirrors the `gith...
+    url: https://github.com/unhappychoice/splashboard/pull/191
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 339
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-29T12:20:48Z
+    mergedAt: 2026-04-29T12:21:48Z
+  - title: "feat(fetcher): add `random_dog` — random dog photo from dog.ceo"
+    body: >-
+      - Image-only fetcher that downloads a random dog photo from `dog.ceo` each refresh cycle and exposes it as
+      `Body::Image`. Caches to `$SPLASHBOARD_HOME/cache/dogs/<key>.<ext>`.
+
+      - `Safety::Safe`: both the API host (`dog.ceo`) and the CDN host (`images.dog.ceo`) are hardcoded; no auth, no
+      token to leak...
+    url: https://github.com/unhappychoice/splashboard/pull/192
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 466
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-29T12:41:51Z
+    mergedAt: 2026-04-29T12:44:50Z
+  - title: "fix(og): use opengraph short URL to avoid Octocat fallback"
+    body: "- circleci-tools/Norimaki's cached og:image was the generic GitHub Octocat default (506KB) instead of the
+      rendered repo card. The hash-prefixed `opengraph.githubassets.com/<hash>/<owner>/<repo>` URL scraped from the page
+      meta tag returns that fallback for some repos under load, while the short form ..."
+    url: https://github.com/unhappychoice/unhappychoice.com/pull/6
+    repository: unhappychoice/unhappychoice.com
+    state: merged
+    labels: []
+    additions: 90
+    deletions: 89
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-04-29T09:35:52Z
+    mergedAt: 2026-04-29T09:40:47Z
+  - title: "feat: pre-cache repo og:image and add sitemap"
+    body: "- Cache every repo's `og:image` into `data/og/` during the hourly refresh and serve those locally from the repo
+      cards / modal, falling back to the live URL only when the cache is missing. This avoids the `429 Retry-After: 900`
+      storms from `opengraph.githubassets.com` that were flashing broken previe..."
+    url: https://github.com/unhappychoice/unhappychoice.com/pull/5
+    repository: unhappychoice/unhappychoice.com
+    state: merged
+    labels: []
+    additions: 350
+    deletions: 86
+    changedFiles: 60
+    author: unhappychoice
+    createdAt: 2026-04-29T09:26:25Z
+    mergedAt: 2026-04-29T09:27:46Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.1 to 9.5.0"
+    body: |-
+      Bumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.4.1 to 9.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/gradle/gradle/releases">gradle-wrapper's releases</a>.</em></p>
+      <blockquote>
+      <h2>9.5.0</h2>
+      <p>The Gradle team is excited to announ...
+    url: https://github.com/unhappychoice/color-hash.kt/pull/246
+    repository: unhappychoice/color-hash.kt
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 14
+    deletions: 23
+    changedFiles: 4
+    author: dependabot[bot]
+    createdAt: 2026-04-29T03:04:49Z
+    mergedAt: 2026-04-29T06:53:02Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.1 to 9.5.0"
+    body: |-
+      Bumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.4.1 to 9.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/gradle/gradle/releases">gradle-wrapper's releases</a>.</em></p>
+      <blockquote>
+      <h2>9.5.0</h2>
+      <p>The Gradle team is excited to announ...
+    url: https://github.com/circleci-tools/Norimaki/pull/429
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 14
+    deletions: 23
+    changedFiles: 4
+    author: dependabot[bot]
+    createdAt: 2026-04-29T03:05:38Z
+    mergedAt: 2026-04-29T06:53:04Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.1 to 9.5.0"
+    body: |-
+      Bumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.4.1 to 9.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/gradle/gradle/releases">gradle-wrapper's releases</a>.</em></p>
+      <blockquote>
+      <h2>9.5.0</h2>
+      <p>The Gradle team is excited to announ...
+    url: https://github.com/unhappychoice/RxSnackbar/pull/232
+    repository: unhappychoice/RxSnackbar
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 14
+    deletions: 23
+    changedFiles: 4
+    author: dependabot[bot]
+    createdAt: 2026-04-29T03:04:44Z
+    mergedAt: 2026-04-29T06:52:59Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.1 to 9.5.0"
+    body: |-
+      Bumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.4.1 to 9.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/gradle/gradle/releases">gradle-wrapper's releases</a>.</em></p>
+      <blockquote>
+      <h2>9.5.0</h2>
+      <p>The Gradle team is excited to announ...
+    url: https://github.com/bitflyer-tools/DroidFlyer/pull/511
+    repository: bitflyer-tools/DroidFlyer
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 14
+    deletions: 23
+    changedFiles: 4
+    author: dependabot[bot]
+    createdAt: 2026-04-29T03:04:43Z
+    mergedAt: 2026-04-29T06:52:56Z
+  - title: "test(github): add focused tests for contributors_monthly fetcher"
+    body: |-
+      - Add focused unit tests for `github_contributors_monthly` fetcher
+      - Workspace line coverage: 79.90% → 80.25%
+    url: https://github.com/unhappychoice/splashboard/pull/190
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 262
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-29T03:53:44Z
+    mergedAt: 2026-04-29T03:57:28Z
+  - title: "build(deps): bump gradle-wrapper from 9.4.1 to 9.5.0"
+    body: |-
+      Bumps [gradle-wrapper](https://github.com/gradle/gradle) from 9.4.1 to 9.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/gradle/gradle/releases">gradle-wrapper's releases</a>.</em></p>
+      <blockquote>
+      <h2>9.5.0</h2>
+      <p>The Gradle team is excited to announ...
+    url: https://github.com/circleci-tools/CircleCI/pull/200
+    repository: circleci-tools/CircleCI
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 14
+    deletions: 23
+    changedFiles: 4
+    author: dependabot[bot]
+    createdAt: 2026-04-29T03:04:42Z
+    mergedAt: 2026-04-29T06:52:54Z
+  - title: "docs: use @unhappychoice handle and drop em/en dashes"
+    body: |-
+      - Use the GitHub handle `@unhappychoice` instead of the real name in README/AGENTS.md prose.
+      - Replace em-dashes and en-dashes with hyphens, colons, or natural English (e.g. "10 to 15").
+    url: https://github.com/unhappychoice/unhappychoice.com/pull/4
+    repository: unhappychoice/unhappychoice.com
+    state: merged
+    labels: []
+    additions: 12
+    deletions: 12
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-29T00:54:29Z
+    mergedAt: 2026-04-29T00:54:53Z
+  - title: "fix(render): let animated wrappers pass inner-renderer fields through"
+    body: >-
+      Fixes the `home_splash` / `project_splash` hero figlet rendering as a single line of plain text instead of an
+      ANSI-shadow figlet (looked essentially blank).
+
+
+      Root cause: the wrapper Options for `animated_postfx`, `animated_boot`, `animated_scanlines`,
+      `animated_splitflap`, and `animated_wave` had `#...
+    url: https://github.com/unhappychoice/splashboard/pull/189
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 26
+    deletions: 5
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-29T00:46:40Z
+    mergedAt: 2026-04-29T00:50:23Z
+  - title: "docs: add README, AGENTS.md, and CLAUDE.md"
+    body: >-
+      - Add `README.md` describing the site, directory layout, local preview, and how to edit the OSS showcase
+      (`featured.json` / `excluded.json`).
+
+      - Add `AGENTS.md` with repo-specific rules for AI agents: no build step / framework / npm deps, generated `data/`
+      files are off-limits, Conventional Commits, ...
+    url: https://github.com/unhappychoice/unhappychoice.com/pull/3
+    repository: unhappychoice/unhappychoice.com
+    state: merged
+    labels: []
+    additions: 154
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-28T23:40:19Z
+    mergedAt: 2026-04-28T23:44:12Z
+  - title: "feat(config): add auto_home / auto_on_cd toggles to opt out of auto-display"
+    body: "- Adds `[general] auto_home` and `[general] auto_on_cd` booleans to `settings.toml`, both defaulting to `true`.
+      `auto_home = false` keeps the shell-startup splash quiet when CWD doesn't resolve to a project; `auto_on_cd =
+      false` skips every `--on-cd` repaint. Set both to `false` and `splashboard` on..."
+    url: https://github.com/unhappychoice/splashboard/pull/188
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 110
+    deletions: 2
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-28T23:33:26Z
+    mergedAt: 2026-04-28T23:43:49Z
+  - title: "test: raise overall line coverage from ~73% to 99.60%"
+    body: >-
+      - Adds 45 incremental commits of unit and integration tests across `animation`, `config`, `git`, `syntax`, `ui`,
+      `panes`, `theme`, and `widgets`, raising overall line coverage from the initial ~73% to **99.60%**.
+
+      - Refactors `main.rs` and `ui.rs` (CLI/runtime, event loop, signal handling, terminal r...
+    url: https://github.com/unhappychoice/gitlogue/pull/200
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels: []
+    additions: 5724
+    deletions: 443
+    changedFiles: 14
+    author: unhappychoice
+    createdAt: 2026-04-30T12:31:52Z
+    mergedAt: 2026-04-30T17:16:58Z
+  - title: "test: raise workspace line coverage from 80.24% to 93.05%"
+    body: >-
+      - Added focused offline tests across fetchers, renderers, runtime, install, layout, trust, samples, logging, and
+      xtask snapshots over 93 commits (gnhf #1–#112).
+
+      - Workspace line coverage improved from **80.24%** to **93.05%**, with several files lifted to ~100%
+      (`src/layout.rs` 99.84%, `src/render/g...
+    url: https://github.com/unhappychoice/splashboard/pull/196
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 11910
+    deletions: 552
+    changedFiles: 93
+    author: unhappychoice
+    createdAt: 2026-04-30T04:36:56Z
+    mergedAt: 2026-04-30T05:15:05Z
+  - title: "build(deps): bump org.kodein.di:kodein-di from 7.31.0 to 7.32.0"
+    body: >-
+      Bumps [org.kodein.di:kodein-di](https://github.com/kosi-libs/Kodein) from 7.31.0 to 7.32.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/kosi-libs/Kodein/releases">org.kodein.di:kodein-di's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>7.32.0</h2>
+
+      <h2>What's C...
+    url: https://github.com/circleci-tools/Norimaki/pull/430
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-30T03:04:58Z
+    mergedAt: 2026-04-30T04:47:28Z
+  - title: "test(coverage): raise line coverage with one targeted test pass"
+    body: |-
+      - Measure current line coverage and record the baseline.
+      - Add tests for one uncovered logic path or public API without changing production behavior.
+      - Re-run coverage, tests, fmt, and clippy; keep the iteration only if overall line coverage increases.
+    url: https://github.com/unhappychoice/splashboard/pull/197
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 4962
+    deletions: 821
+    changedFiles: 47
+    author: unhappychoice
+    createdAt: 2026-05-01T11:06:48Z
+    mergedAt: 2026-05-02T13:59:47Z
+  - title: "feat(cont): draft PR by default + Ctrl+C → agent-driven finalize"
+    body: >-
+      Closes #30
+
+      Closes #32
+
+
+      Adds two coupled features for `cont` mode that together turn it into a "kick off, walk away, come back, mark
+      ready" workflow:
+
+
+      - **Draft PR by default** (#30): when the repo has a remote, kobito opens a draft PR after the first commit,
+      persists the URL on `RunMeta`, and pushes...
+    url: https://github.com/unhappychoice/kobito/pull/33
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 1228
+    deletions: 135
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-05-01T00:21:58Z
+    mergedAt: 2026-05-01T10:44:14Z
+  - title: "test: improve test coverage across CLI, server, and frontend"
+    body: >-
+      - Significantly improve test coverage across CLI, server, and frontend (backend 99%+, key frontend modules at
+      100%)
+
+      - Rework `Layout` tests with a child-component mocking approach to shrink the bloated snapshot
+
+      - Add: `App.behavior` / `api` / `index` (both frontend and backend) / `store` / `useTheme...
+    url: https://github.com/unhappychoice/mdts/pull/679
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 1625
+    deletions: 678
+    changedFiles: 31
+    author: unhappychoice
+    createdAt: 2026-05-01T11:05:53Z
+    mergedAt: 2026-05-02T13:32:28Z
+  - title: "chore(deps-dev): Bump @babel/preset-env from 7.29.2 to 7.29.3 in /packages/frontend"
+    body: >-
+      Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.29.2 to
+      7.29.3.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/babel/babel/releases"><code>@​babel/preset-env</code>'s
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      ...
+    url: https://github.com/unhappychoice/mdts/pull/678
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 27
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-05-01T08:44:01Z
+    mergedAt: 2026-05-01T10:19:51Z
+  - title: "chore(deps-dev): bump minitest from 6.0.5 to 6.0.6"
+    body: >-
+      Bumps [minitest](https://github.com/minitest/minitest) from 6.0.5 to 6.0.6.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/minitest/minitest/blob/master/History.rdoc">minitest's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <p>=== 6.0.6 / 2026-04-30</p>
+
+      <ul>
+
+      <li>
+
+      <p>2 ...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/101
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-05-01T03:23:39Z
+    mergedAt: 2026-05-01T10:19:49Z
+  - title: "chore(deps): Bump minitest from 6.0.5 to 6.0.6"
+    body: >-
+      Bumps [minitest](https://github.com/minitest/minitest) from 6.0.5 to 6.0.6.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/minitest/minitest/blob/master/History.rdoc">minitest's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <p>=== 6.0.6 / 2026-04-30</p>
+
+      <ul>
+
+      <li>
+
+      <p>2 ...
+    url: https://github.com/unhappychoice/blog/pull/706
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-05-01T03:10:17Z
+    mergedAt: 2026-05-01T10:19:47Z
+  - title: "chore(deps-dev): bump electron from 41.3.0 to 41.4.0"
+    body: |-
+      Bumps [electron](https://github.com/electron/electron) from 41.3.0 to 41.4.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+      <blockquote>
+      <h2>electron v41.4.0</h2>
+      <h1>Release Notes for v41.4.0<...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/875
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-05-01T03:08:57Z
+    mergedAt: 2026-05-01T10:19:45Z
+  - title: "test: lift coverage on tasks, git, and logger paths"
+    body: This branch is a series of tests-only iterations from the autonomous coverage loop. Each commit picks one
+      under-covered file and adds focused unit tests against observable behaviour, without touching production logic
+      beyond a single visibility tweak (`strip_code_fence` made `pub`) needed to land an ...
+    url: https://github.com/unhappychoice/kobito/pull/37
+    repository: unhappychoice/kobito
+    state: closed
+    labels: []
+    additions: 1108
+    deletions: 135
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-05-01T01:23:51Z
+    mergedAt: null
+  - title: "test: cover branch suggest, finalize truncation, and pr edit paths"
+    body: "This branch is a tests-only coverage push targeting recently-added orchestration code that had no direct
+      exercise: `branch::suggest` (agent-driven branch naming), `runner::truncate_for_finalize` (diff-size guard for the
+      finalize prompt), and `pr::edit` / push fallbacks. Production code is untouched ..."
+    url: https://github.com/unhappychoice/kobito/pull/36
+    repository: unhappychoice/kobito
+    state: closed
+    labels: []
+    additions: 1074
+    deletions: 132
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-05-01T01:12:23Z
+    mergedAt: null
+  - title: "test(pr,runner): cover finalize truncation and PR helpers"
+    body: This branch lifts test coverage on the recently added PR-finalize and `pr` helper modules. `truncate_for_finalize`
+      now has unit tests covering the short-input passthrough, head/tail preservation with the truncation marker for
+      long input, and correct multibyte (`char`-based) slicing. The `pr` module ...
+    url: https://github.com/unhappychoice/kobito/pull/35
+    repository: unhappychoice/kobito
+    state: closed
+    labels: []
+    additions: 816
+    deletions: 61
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-05-01T00:58:55Z
+    mergedAt: null
+  - title: "chore: improve test coverage across loading steps, CLI, and repositories"
+    body: >-
+      - Add unit tests for each loading pipeline step (cache check, scanning, extracting, generating, cloning, database
+      init, finalizing) and the step manager orchestration paths.
+
+      - Cover CLI `cache` subcommand dispatch (clear / list / stats including all size buckets and error wrapping) plus
+      trending lan...
+    url: https://github.com/unhappychoice/gittype/pull/418
+    repository: unhappychoice/gittype
+    state: merged
+    labels: []
+    additions: 1834
+    deletions: 7
+    changedFiles: 19
+    author: unhappychoice
+    createdAt: 2026-05-01T00:16:08Z
+    mergedAt: 2026-05-01T00:56:35Z
+  - title: "fix: terminate loop on JSON in agent's final message, not text sentinels"
+    body: Replace the substring-based loop termination heuristic with a structured-JSON protocol that the LLM emits only as
+      its final message. Source code, diffs, fixture data, or commentary containing the field names earlier in the
+      response can no longer accidentally end the loop.
+    url: https://github.com/unhappychoice/kobito/pull/31
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 180
+    deletions: 15
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-30T23:57:47Z
+    mergedAt: 2026-05-01T00:00:03Z
+  - title: You are running a continuous coverage-improvement loop. Each iteration
+    body: |-
+      Automated draft PR opened by kobito.
+
+      ## Goal
+
+      You are running a continuous coverage-improvement loop. Each iteration
+      adds tests and pushes overall line coverage upward. The number only
+      goes up.
+
+      ## This iteration
+
+      1. **Measure baseline.** Use the project's coverage tool — for Rust
+       workspaces that'...
+    url: https://github.com/unhappychoice/kobito/pull/34
+    repository: unhappychoice/kobito
+    state: closed
+    labels: []
+    additions: 170
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-05-01T00:44:08Z
+    mergedAt: null
+  - title: "test: raise unit-test coverage across core modules"
+    body: >-
+      - 11 commits adding unit tests to modules that were previously uncovered or undercovered, produced by an
+      autonomous coverage-up loop running against this branch.
+
+      - Net effect: overall line coverage reaches **~75.77%** (`cargo llvm-cov --workspace --summary-only`).
+
+      - Tests-only — no production behavi...
+    url: https://github.com/unhappychoice/kobito/pull/29
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 1715
+    deletions: 10
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-04-30T23:40:17Z
+    mergedAt: 2026-04-30T23:52:26Z
+  - title: "feat(agent): structured streaming with AgentEvent + JSON parsers + token usage"
+    body: >-
+      Both agent backends now stream **structured JSON events** instead of plain text. A normalised `AgentEvent` enum
+      sits between the agent and the rest of kobito so we can render and persist activity uniformly:
+
+
+      - `Message(String)` — agent text (streamed text_delta for Claude, agent_message for Codex)
+
+      -...
+    url: https://github.com/unhappychoice/kobito/pull/26
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 328
+    deletions: 32
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-04-30T20:31:00Z
+    mergedAt: 2026-04-30T20:32:20Z
+  - title: "fix(agent): make the streaming feed actually readable"
+    body: "Follow-ups to PR #26 — that PR landed the structured-streaming pipeline but the live feed in the terminal was
+      still mostly broken. This PR makes it actually useful."
+    url: https://github.com/unhappychoice/kobito/pull/27
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 484
+    deletions: 125
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-04-30T21:20:09Z
+    mergedAt: 2026-04-30T21:48:53Z
+  - title: "chore: add Dependabot config"
+    body: |-
+      Enable Dependabot for two ecosystems:
+
+      - `cargo` — keeps `Cargo.toml` / `Cargo.lock` deps current
+      - `github-actions` — keeps `actions/checkout`, `dtolnay/rust-toolchain`, `Swatinem/rust-cache` etc. current
+
+      Both run **weekly** with up to 5 open PRs each. PRs land with `chore(deps): ...` titles to ma...
+    url: https://github.com/unhappychoice/kobito/pull/20
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 23
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-30T20:15:35Z
+    mergedAt: 2026-04-30T20:17:33Z
+  - title: "feat(cli): rename continuous/iteration to cont/iter"
+    body: >-
+      Shorter subcommand names. Old names remain accepted as clap aliases — `kobito continuous --prompt ...` still works
+      alongside the new `kobito cont --prompt ...`.
+
+
+      Internal type names (`ContinuousArgs`, `IterationArgs`) and module names (`runner`, `iteration`) are kept — the
+      rename is purely on the us...
+    url: https://github.com/unhappychoice/kobito/pull/19
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 79
+    deletions: 33
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-04-30T20:07:35Z
+    mergedAt: 2026-04-30T20:17:45Z
+  - title: "feat(prompt): meta instructions + iteration-mode notes leak fix"
+    body: The agent was being invoked once per iteration with no context about *what* an iteration is, why the repo is on a
+      feature branch, what the sentinel tokens (`NATURAL_STOP` / `TASK_COMPLETE`) actually do, or how to recover what
+      previous iterations did. \"Iteration 3\" alone is meaningless to a fresh p...
+    url: https://github.com/unhappychoice/kobito/pull/18
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 53
+    deletions: 9
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-30T20:02:19Z
+    mergedAt: 2026-04-30T20:17:22Z
+  - title: "ci: GitHub Actions for fmt / clippy / test / build"
+    body: >-
+      Bring the project up to a CI-able state and add a GitHub Actions workflow.
+
+
+      ### Workflow
+
+
+      `.github/workflows/ci.yml` runs four jobs on push to main and on every PR:
+
+
+      Uses `dtolnay/rust-toolchain@stable` for toolchain setup and `Swatinem/rust-cache@v2` for cargo registry / target
+      caching. Single-OS (...
+    url: https://github.com/unhappychoice/kobito/pull/17
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 103
+    deletions: 57
+    changedFiles: 12
+    author: unhappychoice
+    createdAt: 2026-04-30T19:47:07Z
+    mergedAt: 2026-04-30T19:50:42Z
+  - title: "docs: add AGENTS.md / CLAUDE.md and tidy README"
+    body: >-
+      Set up the project's own conventions file so the agent picks them up automatically — same mechanism kobito relies
+      on for downstream repos.
+
+
+      - **`AGENTS.md`** describes stack, source layout, coding style, commit format (Conventional Commits with body),
+      branch naming (`feature/<slug>` etc.), PR workfl...
+    url: https://github.com/unhappychoice/kobito/pull/16
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 116
+    deletions: 24
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-30T19:38:29Z
+    mergedAt: 2026-04-30T19:44:51Z
+  - title: "feat: per-run notes auto-maintenance and resume"
+    body: >-
+      Three connected changes to cross-iteration memory:
+
+
+      ### 1. Auto-maintain notes.md
+
+
+      After every commit, kobito asks the agent in a one-shot call for 1-5 bullets distilling what is useful for the
+      next iteration — surprising findings, dead-ends, paths/commands worth remembering. The output is appended ...
+    url: https://github.com/unhappychoice/kobito/pull/15
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 447
+    deletions: 65
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-04-30T19:19:16Z
+    mergedAt: 2026-04-30T19:35:36Z
+  - title: "feat: Phase 4 — agent abstraction with Codex backend (#9)"
+    body: >-
+      Phase 4 of the kobito MVP. Two themes:
+
+
+      ### 1. Agent abstraction (#9)
+
+
+      Introduce a clean `Agent` trait so additional CLIs can plug in. Adding a third agent now means one new module
+      under `src/agent/<name>.rs` plus one factory branch.
+
+
+      The shared `stream` module handles spawning, stdout/stderr pass-t...
+    url: https://github.com/unhappychoice/kobito/pull/14
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 227
+    deletions: 85
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-04-30T18:50:44Z
+    mergedAt: 2026-04-30T19:10:05Z
+  - title: "feat: Phase 3 — preset system (#7)"
+    body: >-
+      Phase 3: reusable Markdown templates for the iteration prompt, resolved per project then global, with `{{var}}`
+      substitution.
+
+
+      The substituted body is prepended to the iteration prompt, above the goal / task block. Both `continuous` and
+      `iteration` modes accept `--preset` and `--var`.
+    url: https://github.com/unhappychoice/kobito/pull/13
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 241
+    deletions: 11
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-04-30T18:22:52Z
+    mergedAt: 2026-04-30T18:40:21Z
+  - title: "refactor: drop language pin and AGENTS.md/CLAUDE.md injection (#8)"
+    body: >-
+      Removes the issue #8 implementation. Project conventions and output language belong in the agent's own memory
+      files (`CLAUDE.md` for Claude Code, `AGENTS.md` for Codex), which both agents auto-read at every invocation. The
+      orchestrator should not duplicate or work around this.
+
+
+      The original #8 desig...
+    url: https://github.com/unhappychoice/kobito/pull/12
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 18
+    deletions: 206
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-04-30T18:15:58Z
+    mergedAt: 2026-04-30T18:16:25Z
+  - title: "feat: Phase 2 — iteration mode (#3)"
+    body: |-
+      Implements Phase 2 of the kobito MVP roadmap: backlog-driven iteration mode (#3).
+
+      For each unchecked item in `tasks.md`:
+
+      1. Branch off the starting branch as `kobito/task-<n>-<slug>`.
+      2. Loop the agent on a per-task prompt until it emits `TASK_COMPLETE` (or the per-task iteration cap is hit).
+      3. S...
+    url: https://github.com/unhappychoice/kobito/pull/11
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 477
+    deletions: 9
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-04-30T17:48:43Z
+    mergedAt: 2026-04-30T18:11:31Z
+  - title: "fix(tests): serialize cache_key stability tests on TEST_ENV_LOCK"
+    body: >-
+      - `fetcher::code::loc::tests::cache_key_is_stable_for_equivalent_options` flaked on `main` after the #197 merge
+      ([failing run](https://github.com/unhappychoice/splashboard/actions/runs/25253561957)).
+
+      - Root cause: the test calls `CodeLoc::cache_key`, which routes through `repo_cache_key` → `discover...
+    url: https://github.com/unhappychoice/splashboard/pull/198
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 9
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-05-02T14:19:37Z
+    mergedAt: 2026-05-02T14:22:42Z
+  - title: "docs(readme): add splashboard-style hero section with badges"
+    body: >-
+      - Restructures the top of `README.md` to follow the layout used in
+      [splashboard](https://github.com/unhappychoice/splashboard): a centered hero image, a centered badge row, and a
+      centered tagline + sub-line.
+
+      - Badges added: crates.io version, latest GitHub release, CI status, license, and the existi...
+    url: https://github.com/unhappychoice/gitlogue/pull/201
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels: []
+    additions: 12
+    deletions: 5
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-30T17:19:22Z
+    mergedAt: 2026-04-30T17:21:21Z
+  - title: "feat: Phase 1 MVP — continuous mode with Claude Code"
+    body: |-
+      Implements Phase 1 of the kobito MVP roadmap end-to-end:
+
+      - `continuous` mode that drives the Claude Code agent in a loop on a single working branch (#2)
+      - LLM-generated Conventional Commits messages, validated with regex + fallback (#4)
+      - Real-time stdout/stderr passthrough into terminal and `log.n...
+    url: https://github.com/unhappychoice/kobito/pull/10
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 2197
+    deletions: 0
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-04-30T17:34:49Z
+    mergedAt: 2026-04-30T17:39:08Z
+  - title: "test: incremental coverage improvement iteration"
+    body: >-
+      - Bump line/branch coverage across `cache.rs`, `config.rs`, `display.rs`, `image_display.rs`, `main.rs`,
+      `steam/{client,error,models,native}.rs` via 50+ incremental commits (≈+4,250 / −22 LoC, almost entirely test
+      code).
+
+      - Sole production-code change: `demo_stats` in `src/main.rs` is now `pub(crate)...
+    url: https://github.com/unhappychoice/steamfetch/pull/32
+    repository: unhappychoice/steamfetch
+    state: open
+    labels: []
+    additions: 4252
+    deletions: 22
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-05-03T06:30:32Z
+    mergedAt: null
+  - title: "test: incremental coverage bump for github-weekly-reporter"
+    body: >-
+      Autonomous kobito run to nudge overall line coverage upward by adding tests against an under-covered file, branch,
+      or public API.
+
+
+      - Tests-only changes; no production-code edits beyond minimal visibility tweaks.
+
+      - Body will be rewritten by the agent on finalize once the target and delta are known.
+    url: https://github.com/deariary/github-weekly-reporter/pull/129
+    repository: deariary/github-weekly-reporter
+    state: open
+    labels: []
+    additions: 2258
+    deletions: 3
+    changedFiles: 28
+    author: unhappychoice
+    createdAt: 2026-05-03T06:30:09Z
+    mergedAt: null
+  - title: "chore(data): refresh kobito og:image cache"
+    body: >-
+      - Replaced cached kobito OG image with the new custom uploaded image (1280×640)
+
+      - Updated `data/og/.urls.json` to track the new source URL (`repository-images.githubusercontent.com`) so the next
+      scheduled refresh no-ops
+    url: https://github.com/unhappychoice/unhappychoice.com/pull/7
+    repository: unhappychoice/unhappychoice.com
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-05-03T06:18:18Z
+    mergedAt: 2026-05-03T06:23:22Z
+  - title: "test: raise unit-test coverage across runner, iteration, and core modules"
+    body: >-
+      - 50 commits adding unit tests across previously under-covered code paths in `runner.rs`, `iteration.rs`, and most
+      other core modules. Produced by an autonomous coverage-up loop on this branch.
+
+      - Test count: **164 → 299** (+135 tests, all passing).
+
+      - Tests-only — no production behavior changes. The ...
+    url: https://github.com/unhappychoice/kobito/pull/40
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 3160
+    deletions: 36
+    changedFiles: 14
+    author: unhappychoice
+    createdAt: 2026-05-03T05:53:42Z
+    mergedAt: 2026-05-03T15:09:43Z
+  - title: "chore(deps): bump actions/checkout from 4 to 6"
+    body: >-
+      Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 6.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/actions/checkout/releases">actions/checkout's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.0.0</h2>
+
+      <h2>What's Changed</h2>
+
+      <ul>
+
+      <li>Upd...
+    url: https://github.com/unhappychoice/kobito/pull/21
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 4
+    deletions: 4
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-30T20:18:12Z
+    mergedAt: 2026-05-03T05:06:33Z
+  - title: "chore(deps): bump indicatif from 0.17.11 to 0.18.4"
+    body: |-
+      Bumps [indicatif](https://github.com/console-rs/indicatif) from 0.17.11 to 0.18.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/console-rs/indicatif/releases">indicatif's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.18.4</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <l...
+    url: https://github.com/unhappychoice/kobito/pull/22
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 24
+    deletions: 12
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-30T20:18:19Z
+    mergedAt: 2026-05-03T05:06:40Z
+  - title: "chore(deps): bump dialoguer from 0.11.0 to 0.12.0"
+    body: |-
+      Bumps [dialoguer](https://github.com/console-rs/dialoguer) from 0.11.0 to 0.12.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/console-rs/dialoguer/releases">dialoguer's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.12.0</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li...
+    url: https://github.com/unhappychoice/kobito/pull/23
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 5
+    deletions: 6
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-30T20:18:22Z
+    mergedAt: 2026-05-03T05:09:31Z
+  - title: "chore(deps): bump sha1 from 0.10.6 to 0.11.0"
+    body: |-
+      Bumps [sha1](https://github.com/RustCrypto/hashes) from 0.10.6 to 0.11.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/RustCrypto/hashes/commit/2f00175af936de46b3ddefe65c4de93cb4e876e4"><code>2f00175</code></a> Release sha1 v0.11.0 (<a href="https://redirect.github.com/R...
+    url: https://github.com/unhappychoice/kobito/pull/24
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 30
+    deletions: 31
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-30T20:18:29Z
+    mergedAt: 2026-05-03T05:10:25Z
+  - title: "chore(deps): bump dirs from 5.0.1 to 6.0.0"
+    body: |-
+      Bumps [dirs](https://github.com/soc/dirs-rs) from 5.0.1 to 6.0.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li>See full diff in <a href="https://github.com/soc/dirs-rs/commits">compare view</a></li>
+      </ul>
+      </details>
+      <br />
+    url: https://github.com/unhappychoice/kobito/pull/25
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 20
+    deletions: 86
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-04-30T20:18:33Z
+    mergedAt: 2026-05-03T05:11:45Z
+  - title: "docs(readme): rework Install + align structure with gitlogue layout"
+    body: >-
+      - Replace the single `cargo install --path .` snippet with a fuller Install section now that #38 has shipped:
+      Homebrew tap, `install.sh` (curl-pipe), `cargo install kobito`, and from-source.
+
+      - Restructure the README to mirror the gitlogue / gittype layout used across the unhappychoice CLI tools: Ins...
+    url: https://github.com/unhappychoice/kobito/pull/39
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 109
+    deletions: 51
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-05-03T04:37:40Z
+    mergedAt: 2026-05-03T05:01:37Z
+  - title: "chore: add kobito formula template"
+    body: >-
+      - Bootstrap `Formula/kobito.rb` so the kobito release workflow can `sed -i` real URLs/SHAs into it on every
+      release.
+
+      - All URLs point at `v0.0.1` and SHAs are zeroed — they will be overwritten the first time kobito's
+      `update-homebrew` job runs.
+    url: https://github.com/unhappychoice/homebrew-tap/pull/3
+    repository: unhappychoice/homebrew-tap
+    state: merged
+    labels: []
+    additions: 37
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-05-03T04:31:59Z
+    mergedAt: 2026-05-03T04:34:25Z
+  - title: "ci(release): add manual release workflow and changelog generator"
+    body: >-
+      - Add `.github/workflows/release.yml` with `workflow_dispatch` trigger (`patch` / `minor` / `major` bump) covering
+      version bump, tagging, changelog regeneration, multi-platform builds (linux x86/arm, macOS x86/arm, windows x86),
+      GitHub release creation, and `cargo publish` to crates.io.
+
+      - Add `gener...
+    url: https://github.com/unhappychoice/kobito/pull/38
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 551
+    deletions: 0
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-05-03T04:22:28Z
+    mergedAt: 2026-05-03T04:34:51Z
+  - title: "refactor(reference): render fetcher/renderer meta as a table"
+    body: "- The bullet list under each per-entry page's description (Kind / Safety / Shapes for fetchers, Accepts /
+      Animates for renderers) repeats the same columns the matrix.md overview uses. Switching to a one-row table makes
+      the two surfaces match and lets the meta block read as a quick-glance scan instea..."
+    url: https://github.com/unhappychoice/splashboard/pull/162
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 14
+    deletions: 6
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-26T13:06:03Z
+    mergedAt: 2026-04-26T13:08:28Z
+  - title: "chore(deps): bump the minor-and-patch group with 6 updates"
+    body: >-
+      Bumps the minor-and-patch group with 6 updates:
+
+
+      Updates `@anthropic-ai/sdk` from 0.91.1 to 0.92.0
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/anthropics/anthropic-sdk-typescript/releases">@​anthropic-ai/sdk's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>sdk...
+    url: https://github.com/deariary/github-weekly-reporter/pull/128
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 78
+    deletions: 78
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-05-02T21:53:25Z
+    mergedAt: 2026-05-03T03:10:20Z
+  - title: "feat(reference): add description() to Fetcher and Renderer traits"
+    body: "- Generated reference pages (`/reference/fetchers/*`, `/reference/renderers/*`) previously only restated the
+      metadata that was already visible in the matrix — name, shape, safety. A reader couldn't tell what `clock_almanac`
+      actually shows, or how `gauge_circle` and `gauge_segment` differ, without op..."
+    url: https://github.com/unhappychoice/splashboard/pull/161
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 324
+    deletions: 20
+    changedFiles: 89
+    author: unhappychoice
+    createdAt: 2026-04-26T12:57:21Z
+    mergedAt: 2026-04-26T13:00:45Z
+  - title: "feat(templates): add home_feed preset — morning briefing"
+    body: >-
+      - Adds `home_feed` to the home preset gallery — fills the "outside content / 朝刊" axis (sibling of #77's
+      home_splash / home_daily / home_github and #96's home_minimal).
+
+      - Hero band on `bg = "subtle"`: figlet date masthead, `good morning` greeting, live `Day · HH:MM`, and an almanac
+      strip (moon · zodi...
+    url: https://github.com/unhappychoice/splashboard/pull/159
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 390
+    deletions: 7
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-04-26T11:29:32Z
+    mergedAt: 2026-04-26T11:39:39Z
+  - title: "refactor(fetcher): rename fortune / quote_of_day to random_* family"
+    body: Group bundled-rotating-text fetchers under a `random_*` family prefix. Names the actual mechanic — *deterministic
+      random pick from a bundled set, refreshed daily* — rather than the source brand or rotation cadence, and unifies
+      with `random_cat` / `random_word` / `random_haiku` / `random_zen` candida...
+    url: https://github.com/unhappychoice/splashboard/pull/158
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 21
+    deletions: 21
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-04-26T09:53:37Z
+    mergedAt: 2026-04-26T09:56:49Z
+  - title: "fix(render): honour TextBlock line count in text_plain natural_height"
+    body: >-
+      ## Problem
+
+      `text_plain` inherits the default `natural_height` of `1` from the `Renderer` trait, so any row using `length =
+      "auto"` for a text_plain widget collapses to a single row regardless of body content. Multi-line `TextBlock` (e.g.
+      `random_fortune`, `random_quote` with `shape = "text_block"`) ...
+    url: https://github.com/unhappychoice/splashboard/pull/160
+    repository: unhappychoice/splashboard
+    state: closed
+    labels: []
+    additions: 66
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-04-26T11:33:38Z
+    mergedAt: null
+  - title: "feat(fetcher): add fortune cookie fetcher + expand quote_of_day to 567 entries"
+    body: >-
+      - New `fortune` fetcher — 445 classic Unix-style fortune cookies (one-liners, programmer humor, fortune-cookie
+      wisdom, a few short verses). Realtime / Safe / zero-config; `TextBlock` default + `Text` shape.
+
+      - `quote_of_day` refactored to `mod.rs + data.txt`, expanded from **50 → 567** entries.
+
+      - Dai...
+    url: https://github.com/unhappychoice/splashboard/pull/157
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 3037
+    deletions: 313
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-26T09:27:24Z
+    mergedAt: 2026-04-26T09:44:46Z
+  - title: "feat(fetcher): add reddit public listing fetchers"
+    body: >-
+      - add a new `reddit_*` fetcher family under `src/fetcher/reddit/`, mirroring the `hackernews/` module layout
+      (client / common / one fetcher per file)
+
+      - ship `reddit_subreddit_posts` (`type = top- ship `reddit_user_posts` and `reddit_user_comments`, all
+      `Safety::Safe` (host fixed, names normalized to...
+    url: https://github.com/unhappychoice/splashboard/pull/156
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 1411
+    deletions: 0
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-04-26T08:11:41Z
+    mergedAt: 2026-04-26T09:59:11Z
+  - title: "feat(fetcher): add calendar_holidays — Nager.Date-backed public holidays"
+    body: >-
+      Adds `calendar_holidays`, a single fetcher under the new `calendar_*` family that emits Calendar / Text /
+      TextBlock from one Nager.Date API call. Collapses the planned `holiday_today` + `holiday_upcoming` checkboxes
+      (#68) into one widget — same underlying read, three shapes:
+
+
+      - **Calendar** (default...
+    url: https://github.com/unhappychoice/splashboard/pull/155
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 507
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-26T08:09:07Z
+    mergedAt: 2026-04-26T08:13:27Z
+  - title: "feat(fetcher): add rss feed reader"
+    body: "Implements `rss` fetcher (RSS 2.0 / RSS 1.0 / Atom / JSON Feed via `feed-rs`) — the canonical *read more main
+      slot* candidate from #150 (`home_feed` morning briefing preset). First built-in `Network`-class fetcher, so this
+      PR also fixes a latent UX issue surfaced by it: trust / error / timeout / unk..."
+    url: https://github.com/unhappychoice/splashboard/pull/153
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 715
+    deletions: 37
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-26T07:38:20Z
+    mergedAt: 2026-04-26T07:59:55Z
+  - title: "feat(fetcher): wikipedia_* family — on_this_day / featured / random"
+    body: |-
+      Adds the `wikipedia_*` fetcher family on top of the public Wikipedia REST
+      API. Three fetchers, one shared HTTP client, all Safety::Safe.
+
+      - **`wikipedia_on_this_day`** — historical events for today's MM/DD via
+       `feed/onthisday/{kind}/{MM}/{DD}`.
+      - **`wikipedia_featured`** — today's Featured Article ...
+    url: https://github.com/unhappychoice/splashboard/pull/152
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 1083
+    deletions: 0
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-26T07:03:31Z
+    mergedAt: 2026-04-26T07:13:33Z
+  - title: "feat(render): add text_markdown renderer + MarkdownTextBlock shape"
+    body: >-
+      - New renderer `text_markdown` (wraps [`tui-markdown`](https://crates.io/crates/tui-markdown)) — ticks the
+      `text_markdown` `wrap` checkbox in #61.
+
+      - New shape `MarkdownTextBlock` so "this string is Markdown source" is a typed contract, not a flavour of `Text` —
+      keeps `text_plain` from being asked to...
+    url: https://github.com/unhappychoice/splashboard/pull/151
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 662
+    deletions: 7
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-04-26T06:34:10Z
+    mergedAt: 2026-04-26T06:48:44Z
+  - title: "feat(fetcher): add todoist_tasks with structured filters"
+    body: >-
+      - add a new cached `todoist_tasks` fetcher that targets Todoist API v1 (`/tasks` and `/tasks/filter`) and supports
+      `Text` / `TextBlock` / `Entries` / `Timeline` / `Badge` output shapes
+
+      - introduce structured filter options (`filter_due`, `filter_include_overdue`, `filter_projects`, `filter_labels`,
+      ...
+    url: https://github.com/unhappychoice/splashboard/pull/149
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 677
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-26T05:34:54Z
+    mergedAt: 2026-04-26T06:06:21Z
+  - title: "feat: LinkedTextBlock shape with clickable rows (OSC 8) + hn_top fetcher"
+    body: >-
+      - Adds `LinkedTextBlock` shape — a `TextBlock` sibling whose rows carry an optional URL — and a new `list_links`
+      renderer that wraps linked rows in OSC 8 escape sequences so modern terminals surface them as clickable
+      hyperlinks. Rows without a URL fall through to plain text.
+
+      - Adds `hn_top` fetcher ...
+    url: https://github.com/unhappychoice/splashboard/pull/148
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 2099
+    deletions: 34
+    changedFiles: 23
+    author: unhappychoice
+    createdAt: 2026-04-26T05:17:02Z
+    mergedAt: 2026-04-26T05:48:46Z
+  - title: "refactor(render): split RenderOptions into common + per-renderer specific structs"
+    body: "- `RenderOptions` keeps only the 12 fields used by ≥2 renderers across families (`align`, `style`, `color`,
+      `label`, `padding`, `bullet`, `max_items`, `tone`, `value_format`, `duration_ms`, `axes`); the previous 40+
+      flat-bag fields collapse into a flatten'd `raw: toml::Table`. Each renderer now owns..."
+    url: https://github.com/unhappychoice/splashboard/pull/147
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 496
+    deletions: 297
+    changedFiles: 22
+    author: unhappychoice
+    createdAt: 2026-04-26T04:38:00Z
+    mergedAt: 2026-04-26T05:05:27Z
+  - title: "chore(ci): add dependabot config and CODEOWNERS"
+    body: |-
+      - Add `.github/dependabot.yml` で weekly に cargo / github-actions の依存を更新
+      - Add `.github/CODEOWNERS` で `@unhappychoice` をデフォルトレビュアーに設定
+    url: https://github.com/unhappychoice/splashboard/pull/127
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 20
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-26T03:42:10Z
+    mergedAt: 2026-04-26T03:44:02Z
+  - title: "chore(deps): bump ratatui ecosystem to 0.30"
+    body: |-
+      Bundle of the dependabot bumps that all depend on ratatui 0.30:
+      - ratatui 0.29 → 0.30 (#143)
+      - ratatui-image 4 → 10 (#145) — default-features disabled to drop libchafa system dep
+      - tui-big-text 0.7 → 0.8 (#137)
+      - tui-piechart 0.2.8 → 0.3 (#141)
+      - tachyonfx 0.21 → 0.25 (#138)
+
+      Code changes for ratatu...
+    url: https://github.com/unhappychoice/splashboard/pull/146
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 1092
+    deletions: 606
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-04-26T04:04:22Z
+    mergedAt: 2026-04-26T04:11:32Z
+  - title: "feat(render): add gauge_thermometer vertical mercury-tube renderer"
+    body: >-
+      - Adds `gauge_thermometer`, the vertical sibling of `gauge_line` for `Ratio` payloads. Mercury rises from a bulb
+      at the bottom of a glass tube.
+
+      - Tone follows the `gauge_battery` / `gauge_segment` convention: theme-neutral by default; opt into `fill` (low →
+      red, for quota / progress) or `drain` (hig...
+    url: https://github.com/unhappychoice/splashboard/pull/126
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 432
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-26T03:28:38Z
+    mergedAt: 2026-04-26T03:34:14Z
+  - title: "fix(runtime): surface unknown fetcher names as in-band placeholders"
+    body: >-
+      - Surfaces unknown fetcher names as a `⚠ unknown fetcher: <name>` / `upgrade splashboard?` placeholder instead of
+      silently dropping the widget from the layout.
+
+      - Mirrors the renderer side of the contract (`render_payload` already does the equivalent for unknown renderer
+      names).
+
+      - Partitioning happen...
+    url: https://github.com/unhappychoice/splashboard/pull/124
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 116
+    deletions: 2
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-26T00:42:44Z
+    mergedAt: 2026-04-26T01:18:55Z
+  - title: "feat(render): list_ranking renderer for Bars shape"
+    body: >-
+      - New `list_ranking` renderer (family `list_*`) consuming the existing `Bars` shape.
+
+      - Sorts descending and prints `<rank> <label> <value>` rows with rank-prefix and value columns aligned across
+      rows. Sibling to `chart_bar` — same shape, text-first treatment.
+
+      - Reuses `style` / `max_items` / `align`...
+    url: https://github.com/unhappychoice/splashboard/pull/125
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 399
+    deletions: 0
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-04-26T02:00:06Z
+    mergedAt: 2026-04-26T03:16:42Z
+  - title: "feat(render): add chart_histogram"
+    body: >-
+      Adds `chart_histogram`, a new renderer for the existing `NumberSeries` shape. Where `chart_sparkline` plots values
+      along a time axis (position → value), `chart_histogram` plots their **distribution** (bucket → count). Same data,
+      complementary lens.
+
+
+      Ticks the `chart_histogram` checkbox under the `ch...
+    url: https://github.com/unhappychoice/splashboard/pull/122
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 501
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-26T00:24:32Z
+    mergedAt: 2026-04-26T01:14:14Z
+  - title: "feat(fetcher): add system_battery realtime fetcher"
+    body: >-
+      - Adds `system_battery` realtime fetcher backed by `starship-battery`. Pairs with the existing `gauge_battery`
+      renderer family.
+
+      - Three shapes: `Ratio` (charge 0..=1, default), `Text` (formatted via `kind` option), `Entries` (charge / state /
+      time_left / cycles / health).
+
+      - Hosts without a battery (...
+    url: https://github.com/unhappychoice/splashboard/pull/123
+    repository: unhappychoice/splashboard
+    state: merged
+    labels: []
+    additions: 484
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-04-26T00:27:16Z
+    mergedAt: 2026-04-26T00:33:49Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.59.0 to 8.59.1"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [@typescript-eslin...
+    url: https://github.com/unhappychoice/mdts/pull/674
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 232
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-28T07:46:11Z
+    mergedAt: 2026-04-28T10:12:00Z
+  - title: "chore(ci)(deps): bump actions/configure-pages from 5 to 6"
+    body: >-
+      Bumps [actions/configure-pages](https://github.com/actions/configure-pages) from 5 to 6.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/actions/configure-pages/releases">actions/configure-pages's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.0.0</h2>
+
+      <h1>Chan...
+    url: https://github.com/unhappychoice/splashboard/pull/129
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-26T03:44:44Z
+    mergedAt: 2026-04-26T03:55:30Z
+  - title: "chore(deps)(deps): bump tui-piechart from 0.3.2 to 0.3.3"
+    body: >-
+      Bumps [tui-piechart](https://github.com/sorinirimies/tui-piechart) from 0.3.2 to 0.3.3.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/sorinirimies/tui-piechart/blob/main/CHANGELOG.md">tui-piechart's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h1>Changelog</h1>
+
+      <p>A...
+    url: https://github.com/unhappychoice/splashboard/pull/163
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-04-26T14:03:17Z
+    mergedAt: 2026-04-26T14:13:48Z
+issues: []
+events:
+  - id: "8813825901"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/CircleCI
+    createdAt: 2026-04-27T06:06:23Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 199
+      prTitle: ""
+      state: approved
+  - id: "8813825238"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gitlogue
+    createdAt: 2026-04-27T06:06:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 199
+      prTitle: ""
+      state: approved
+  - id: "8866134530"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-28T10:29:37Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 671
+      prTitle: ""
+      state: approved
+  - id: "8865512811"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-28T10:12:01Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 675
+      prTitle: ""
+      state: approved
+  - id: "8865501171"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-28T10:11:40Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 673
+      prTitle: ""
+      state: approved
+  - id: "8865500224"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-28T10:11:38Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 672
+      prTitle: ""
+      state: approved
+  - id: "8865495949"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-28T10:11:31Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 670
+      prTitle: ""
+      state: approved
+  - id: "8855695965"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-04-28T04:52:41Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 705
+      prTitle: ""
+      state: approved
+  - id: "8849736723"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-04-27T23:48:13Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 416
+      prTitle: ""
+      state: approved
+  - id: "8915512261"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-04-29T13:27:37Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 676
+      prTitle: ""
+      state: approved
+  - id: "8901593893"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-04-29T06:52:51Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 429
+      prTitle: ""
+      state: approved
+  - id: "8901591984"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/color-hash.kt
+    createdAt: 2026-04-29T06:52:47Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 246
+      prTitle: ""
+      state: approved
+  - id: "8901590176"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/RxSnackbar
+    createdAt: 2026-04-29T06:52:44Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 232
+      prTitle: ""
+      state: approved
+  - id: "8901587992"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/DroidFlyer
+    createdAt: 2026-04-29T06:52:39Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 511
+      prTitle: ""
+      state: approved
+  - id: "8901586324"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/CircleCI
+    createdAt: 2026-04-29T06:52:36Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 200
+      prTitle: ""
+      state: approved
+  - id: "8942519833"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-04-30T04:47:25Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 430
+      prTitle: ""
+      state: approved
+  - id: "8991620747"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-05-01T10:15:38Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 678
+      prTitle: ""
+      state: approved
+  - id: "8991619467"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-05-01T10:15:34Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 101
+      prTitle: ""
+      state: approved
+  - id: "8991618940"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-05-01T10:15:32Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 706
+      prTitle: ""
+      state: approved
+  - id: "8991617959"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-05-01T10:15:28Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 875
+      prTitle: ""
+      state: approved
+  - id: "9028232570"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-05-03T05:06:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 21
+      prTitle: ""
+      state: approved
+  - id: "9028232153"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-05-03T05:06:19Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 22
+      prTitle: ""
+      state: approved
+  - id: "9028231783"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-05-03T05:06:17Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 23
+      prTitle: ""
+      state: approved
+  - id: "9028231250"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-05-03T05:06:13Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 24
+      prTitle: ""
+      state: approved
+  - id: "9028230865"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-05-03T05:06:11Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 25
+      prTitle: ""
+      state: approved
+  - id: "9027266701"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-05-03T03:10:16Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 128
+      prTitle: ""
+      state: approved
+commitMessages:
+  - repo: unhappychoice/mdts
+    messages:
+      - "Merge pull request #679 from unhappychoice/improve-test-coverage-20260501-110036"
+      - "test: use --no-open flag in CLI e2e instead of dummy open shim"
+      - "chore: remove accidentally committed .codex file"
+      - "test: improve test coverage for index"
+      - "test: improve test coverage for server"
+      - "test: improve test coverage for CLI"
+      - "test: improve test coverage for outlineRouter"
+      - "test: improve test coverage for watcher"
+      - "test: improve test coverage for CLI and logger"
+      - "test: improve test coverage for plantumlRouter"
+      - "test: improve test coverage for logger"
+      - "test: improve test coverage for FileTree"
+      - "test: improve test coverage for fileTreeSlice"
+      - "test: improve test coverage for MarkdownCode"
+      - "test: improve test coverage for MarkdownContent"
+      - "test: improve test coverage for plantUMLSlice"
+      - "test: improve test coverage for useWebSocket"
+      - "test: improve test coverage for App"
+      - "test: improve test coverage for configSlice"
+      - "test: improve test coverage for useSettingsForm"
+      - "test: improve test coverage for ColorSchemeSettingsTab"
+      - "test: improve test coverage for useTheme"
+      - "test: improve test coverage for Layout"
+      - "test: improve test coverage for MarkdownRenderer"
+      - "test: improve test coverage for useSyntaxHighlighterTheme"
+      - "test: improve test coverage for Outline"
+      - "test: improve test coverage for FileTreeContent"
+      - "test: improve test coverage for layout settings tab"
+      - "test: improve test coverage for frontend index"
+      - "test: improve test coverage for store app settings"
+      - "test: improve test coverage for fetchData"
+  - repo: unhappychoice/gitlogue
+    messages:
+      - "Merge pull request #201 from unhappychoice/chore/readme-hero-section"
+      - "docs(readme): add hero section with centered demo, badge row, and tagline"
+      - "Merge pull request #200 from unhappychoice/gnhf/test-coverage-ed02c4"
+      - "chore: remove accidentally committed llvm-cov report file"
+      - "refactor(config): replace HOME env mutation in TempHome with injected override"
+      - "fix: address CodeRabbit review findings on rename detection and ignore handling"
+      - "test: address Clippy lint and version drift in About overlay assertion"
+      - "refactor(syntax): treat unreachable defensive branches in bundled tree-sitter setup as internal invariants"
+      - "refactor(ui): restructure event loop for direct unit testing and add branch tests"
+      - "refactor(ui): extract external signal handling into testable helpers and add regression tests"
+      - "test(syntax): cover two failure branches in syntax/mod.rs"
+      - "refactor(ui): extract terminal restore and external signal shutdown into testable helpers"
+      - "test(cli): add integration test for invalid theme CLI error case"
+      - "test(git): cover date filter miss and empty effective commit range error branches"
+      - "test(syntax): cover non-UTF-8 extension guard in get_language"
+      - "refactor(ui): extract run loop helpers for redraw, signal flag, and event dispatch with unit tests"
+      - "test(cli): add PTY-based integration tests for normal and staged-diff playback shutdown"
+      - "feat(git): detect renames in diff extraction and preserve old_path"
+      - "test(animation): fill AnimationEngine boundary branches and clean up unreachable ones"
+      - "test(git): add regression tests for add/delete commits and excluded lockfile diffs"
+      - "test(git): add regression tests for large-diff commit and working-tree boundary cases"
+      - "refactor(syntax): tidy unreachable language registry fallback into enum and cover SelectableParagraph zero-size
+        render"
+      - "test(panes,widgets): cover unreached render branches"
+      - "test(git): cover defensive branches and open-ended commit range"
+      - "test(ui): add tests for pure state transition helpers"
+      - "test(syntax): cover token mapping and injection guard paths in highlighter"
+      - "test(cli): cover normal and staged-diff playback startup paths via non-interactive integration tests"
+      - "test(syntax): cover highlighter fallback and caching branches"
+      - "test(animation): directly test uncovered AnimationEngine helpers"
+      - "test(config): add regression tests for filesystem error paths"
+      - "test(main): extract normal playback prep into helpers and cover uncovered branches"
+      - "test(cli): cover non-interactive CLI branches with integration tests"
+      - "test(ui): extract playback state transitions into helpers and add regression tests"
+      - "test(config): cover compatibility, error paths, and empty array serialization"
+      - "test(ui): extract keyboard input branches into helpers and add regression tests"
+      - "test(main): extract diff subcommand prep into helper and cover staged/unstaged/empty diff"
+      - "refactor(main): make CLI/runtime helpers and theme path testable"
+      - "test(widgets): cover SelectableParagraph boundary branches and clean up unreachable guards"
+      - "test(ui): add unit tests for uncovered UI branches"
+      - "test(animation): cover special branches and manual checkpoint in AnimationEngine"
+      - "refactor(main): extract CLI resolution into testable helpers and add unit tests"
+      - "test(git): add unit tests for commit history selection logic"
+      - "test(ui): add unit tests for state transitions and overlay rendering"
+      - "test(syntax): add unit tests for syntax highlighter core"
+      - "test(panes): add unit tests for EditorPane render and highlight"
+      - "test(panes): add render tests for StatusBarPane and TerminalPane"
+      - "test(panes): cover FileTreePane tree build, cache update, and selected-row render"
+      - "test(syntax): add unit tests for language resolution logic"
+      - "test(theme): add unit tests for theme resolution and transparent background"
+      - "test(widgets): cover SelectableParagraph wrap, dim, and render branches"
+      - "test(config): add save/load tests and fix loop setting round-trip"
+      - "test(animation): add unit tests for core logic in animation.rs"
+      - "Merge pull request #199 from unhappychoice/dependabot/cargo/tree-sitter-dart-0.2.0"
+  - repo: circleci-tools/CircleCI
+    messages:
+      - "Merge pull request #200 from circleci-tools/dependabot/gradle/gradle-wrapper-9.5.0"
+      - "Merge pull request #199 from circleci-tools/dependabot/gradle/commons-codec-commons-codec-1.22.0"
+  - repo: unhappychoice/unhappychoice.com
+    messages:
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "Merge pull request #7 from unhappychoice/chore/refresh-kobito-og"
+      - "chore(data): refresh kobito og:image cache"
+      - "chore(data): refresh kobito og:image cache"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "Merge pull request #6 from unhappychoice/fix/og-cache-short-url"
+      - "fix(og): use opengraph short URL to avoid stale Octocat fallback"
+      - "Merge pull request #5 from unhappychoice/feat/og-cache-and-sitemap"
+      - "chore(data): cache og:image snapshots and refresh OSS data"
+      - "feat: pre-cache repo og:image locally and add sitemap"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "Merge pull request #4 from unhappychoice/docs/fix-handle-and-dashes"
+      - "docs: use @unhappychoice handle and drop em/en dashes"
+      - "chore(data): refresh OSS snapshots"
+      - "Merge pull request #3 from unhappychoice/docs/add-readme-and-agents-md"
+      - "docs: add README, AGENTS.md, and CLAUDE.md"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "chore(data): refresh OSS snapshots"
+      - "Merge pull request #2 from unhappychoice/feature/issue-1-oss-showcase"
+      - "chore: address coderabbit feedback"
+      - "style(oss): order language chips TS / Rust / Ruby / Kotlin / Swift, drop Shell"
+      - "style: stop abbreviating numbers with k, use thousands separators"
+      - "feat(refresh): merge new events with existing snapshot, cap at 30"
+      - "fix(modal): render content outside view transition to avoid loading lock"
+      - "feat(modal): split Releases into its own section above Recent activity"
+      - "fix(modal): bump activity display from 15 to 25 so releases fit"
+      - "fix(refresh): include /releases endpoint, raise activity cap to 30"
+      - "style: drop org link list from top page OSS section"
+      - "docs(featured): reorder by curation, not stars"
+      - "docs(featured): add github-weekly-reporter description"
+      - "feat(data): include deariary org in OSS showcase"
+      - "fix(oss): tighten card line-height so 3rd description line fits"
+      - "fix: reserve scrollbar gutter so page width does not shift"
+      - "feat(modal): fade open/close with View Transitions API"
+      - "style(modal): widen sheet max-width to 880px"
+      - "feat: enable cross-document view transitions"
+      - "style(oss): bump card dimensions back up, align horizontal padding"
+      - "style(oss): tighten repo card dimensions"
+      - "docs(featured): add weekly-report description"
+      - "docs(featured): add DroidFlyer description"
+      - "docs(featured): add irasutoya-cli description"
+      - "docs(featured): write splashboard description"
+      - "docs(featured): write cycle-flyer description"
+      - "docs(featured): write Norimaki description"
+      - "docs(featured): write bitflyer description"
+      - "docs(featured): write terminal_image description"
+      - "docs(featured): write kotlinz description"
+      - "docs(featured): write circleci-cli description"
+      - "docs(featured): write steamfetch description, scaffold remaining featured"
+      - "docs(featured): write mdts description"
+      - "docs(featured): write gittype description"
+      - "docs(featured): write gitlogue description"
+      - "style(stats): add 1px border to tiles"
+      - "style(stats): drop tile background, use black for the big numbers"
+      - "chore(oss): hide HTML from language filter chips"
+      - "feat(stats): collapse Languages list past the top 5"
+      - "feat(oss): add Featured / Stars / Updated / Created sort selector"
+      - "feat(oss): add repo detail modal with hash routing"
+      - "style: remove rounded corners across the site"
+      - "style(oss): use object-fit: cover on hero so there is no letterbox gap"
+      - "fix(oss): match card aspect ratio to GitHub's 1200x630 OG dimensions"
+      - "fix(oss): show OG image at native 2:1 with no clipping, fix card height"
+      - "fix(oss): hero image fills card height, remove Recent Activity section"
+      - "style(oss): single text field for featured, fix hero image aspect ratio"
+      - "style(oss): horizontal cards, prefer custom text over GitHub description"
+      - "style(oss): compact 2-column card layout, drop topic chips"
+      - "refactor(oss): unify all repos into one card format with custom OG images"
+      - "feat(oss): add featured projects, exclusions, OG hero images and per-repo activity"
+      - "fix(oss): resolve TDZ error by moving fetch after function declarations"
+      - "fix(workflow): commit data snapshots as Yuji Ueki"
+      - "feat: add OSS showcase page at /oss/"
+  - repo: unhappychoice/kobito
+    messages:
+      - "test(iteration): cover agent failure cleanup path"
+      - "test(iteration): cover branch creation failure path"
+      - "test(iteration): cover completed task PR failure path"
+      - "test(runner): cover PR metadata persist failure"
+      - "test(runner): cover PR metadata edit paths"
+      - "test(runner): cover finalize helper paths"
+      - "test(state): cover populated project listing path"
+      - "test(runner): cover resume existing PR path"
+      - "test(iteration): cover preset task prompt path"
+      - "test(runner): cover remote draft PR path"
+      - "test(iteration): cover preset var guard paths"
+      - "test(runner): cover continuous guard paths"
+      - "test(runner): cover continuous preset goal"
+      - "test(runner): cover resume natural stop path"
+      - "test(runner): cover natural stop path"
+      - "test(runner): cover draft PR create success path"
+      - "test(runner): cover notes update failure path"
+      - "test(iteration): cover completed task path"
+      - "test(runner): cover finalize skip paths"
+      - "test(runner): cover finalize round failure paths"
+      - "test(runner): cover draft PR create failure path"
+      - "test(runner): cover resume run selection paths"
+      - "test(runner): cover pr create push failure"
+      - "test(runner): cover pr metadata paths"
+      - "test(iteration): cover fallback branch path"
+      - "test(iteration): cover pending task run path"
+      - "test(cli): cover tasks edit dispatch failure"
+      - "test(cli): cover log dispatch path"
+      - "test(state): cover state root paths"
+      - "test(runner): cover transient agent failure retry paths"
+      - "test(runner): cover finalize fix commit prefix"
+      - "test(runner): cover finalize round paths"
+      - "test(runner): cover pre-prompt cancellation path"
+      - "test(runner): cover cancelled agent failure path"
+      - "test(runner): cover no-diff iteration path"
+      - "test(runner): cover agent failure reset path"
+      - "test(runner): cover iteration commit paths"
+      - "test(runner): cover iteration stop paths"
+      - "test(notes): cover learning append paths"
+      - "test(runner): cover PR metadata suggestion paths"
+      - "test(agent): cover streamed event parsing"
+      - "test(git): cover remote branch and diff helpers"
+      - "test(tasks): cover backlog parsing and persistence paths"
+      - "test(commit): cover message generation paths"
+      - "test(pr): cover push and gh failure paths"
+      - "test(branch): cover branch suggestion paths"
+      - "test(iteration): cover task branch and PR helpers"
+      - "test(runner): cover finalize reply parsing"
+      - "test(pr): cover edit argument construction"
+      - "test(cli): cover command parsing paths"
+      - "Merge pull request #25 from unhappychoice/dependabot/cargo/dirs-6.0.0"
+      - "Merge pull request #24 from unhappychoice/dependabot/cargo/sha1-0.11.0"
+      - "Merge pull request #23 from unhappychoice/dependabot/cargo/dialoguer-0.12.0"
+      - "Merge pull request #22 from unhappychoice/dependabot/cargo/indicatif-0.18.4"
+      - "Merge pull request #21 from unhappychoice/dependabot/github_actions/actions/checkout-6"
+      - "Merge pull request #39 from unhappychoice/docs/install-options"
+      - "docs(readme): center badges in the hero block"
+      - "docs(readme): add CI/crates.io/license/release badges"
+      - "docs(readme): add hero image"
+      - "docs(readme): align structure with gitlogue layout"
+      - "docs(readme): document homebrew, install.sh, and crates.io install paths"
+      - "Merge pull request #38 from unhappychoice/ci/release-workflow"
+      - "ci(release): add homebrew tap update job and Formula template"
+      - "ci(release): add install.sh for one-line binary install"
+      - "ci(release): add manual release workflow and changelog generator"
+      - "Merge pull request #33 from unhappychoice/feature/cont-draft-pr-and-finalize"
+      - "fix(cont): self-review polish for the finalize phase"
+      - "feat(cont): finalize is a review-fix-check loop until ready"
+      - "fix(logger): cover finalize JSON in summary filter and fix BG after bar.finish"
+      - "fix(logger,runner): polish kobito-channel rendering"
+      - "feat(cont): generate draft PR title + body via the agent"
+      - "fix(cont): target the default remote branch as PR base"
+      - "refactor(cont): make draft PR the default, drop --draft-pr flag"
+      - "feat(cont): turn first Ctrl+C into agent-driven finalize → mark PR ready"
+      - "feat(cont): open draft PR upfront and push every commit"
+      - "feat(pr): extract shared push and gh-create helpers into src/pr.rs"
+      - "feat(state): persist optional pr_url and base_branch on RunMeta"
+      - "Merge pull request #31 from unhappychoice/fix/structured-stop-signal"
+      - "fix: terminate loop on JSON in agent's final message, not text sentinels"
+      - "Merge pull request #29 from unhappychoice/test/coverage-up-20260430-215525"
+      - "test(preset): accept fallback config_root path"
+      - "test(stream,git): clean up temp dirs/repos via RAII drop guards"
+      - "fix(notes,commit): use char-safe truncation for diff excerpts"
+      - "fix(commit): skip blank lines when picking fallback subject"
+      - "test(agent/stream): cover run_oneshot and run_streamed paths"
+      - "test(logger): cover formatters, section routing, and LogSink writes"
+      - "test(agent): cover from_name dispatch and unknown agent errors"
+      - "test(notes): cover clean edge cases, excerpt boundaries, and append_section"
+      - "test(commit): cover truncate, clean, and fallback helpers"
+      - "test(agent/claude_code): cover command builders, event parsing, and input summary"
+      - "test(agent/codex): cover command builders and event parsing"
+      - "test(preset): cover config_root, resolve, and load helpers"
+      - "test(git): cover ensure_clean, branch ops, staging, commit, and remote helpers"
+      - "test(state): cover project_id, run lifecycle, and tasks seeding"
+      - "test(prompt): cover iteration/task prompt builders and save_prompt"
+      - "Merge pull request #27 from unhappychoice/feature/streaming-display"
+      - "fix: address CodeRabbit review on PR #27"
+      - "feat(ui): show running token usage in the status bar"
+      - "feat(ui): bookend the status row with a rule on both sides"
+      - "feat(ui): paint the rule on the kobito BG and fill the row to EOL"
+      - "feat(ui): hide cursor, give the status bar a BG and live elapsed counter"
+      - "feat(ui): muted slate palette with section accents"
+      - "feat(ui): silence successful tool ends"
+      - "feat(ui): colorise output, mark iteration boundaries, and forward Ctrl-C to the agent"
+      - "fix(agent): show tool names + summaries, capture final token usage"
+      - "fix(agent): unwrap stream_event envelope and write event lines to log.ndjson"
+      - "Merge pull request #26 from unhappychoice/feature/streaming-events"
+      - "docs: describe structured streaming + events.ndjson"
+      - "feat(runner): print per-iteration token usage"
+      - "feat(agent): structured streaming with AgentEvent and JSON parsers"
+      - "Merge pull request #19 from unhappychoice/refactor/cli-shorter-subcommands"
+      - "Merge pull request #20 from unhappychoice/chore/dependabot"
+      - "Merge pull request #18 from unhappychoice/feature/prompt-meta-instructions"
+      - "chore: add Dependabot config for cargo + github-actions"
+      - "docs: finish renaming continuous/iteration in README"
+      - "feat(cli): rename continuous/iteration subcommands to cont/iter"
+      - "fix(iteration): read per-task notes.md back into the prompt"
+      - "feat(prompt): explain the iteration loop to the agent"
+      - "Merge pull request #17 from unhappychoice/chore/ci"
+      - "ci: add GitHub Actions workflow"
+      - "style: cargo fmt + clippy fixes"
+      - "Merge pull request #16 from unhappychoice/docs/agents-md"
+      - "docs(readme): drop the Contributing section"
+      - "docs(readme): drop development framing from user-facing docs"
+      - "docs(readme): link AGENTS.md and tidy the Status block"
+      - "docs(claude): add CLAUDE.md as @AGENTS.md alias"
+      - "docs(agents): add AGENTS.md with project conventions"
+      - "Merge pull request #15 from unhappychoice/feature/notes-auto-maintain"
+      - "feat(resume): interactive picker for recent runs"
+      - "docs: document per-run notes scoping and the resume command"
+      - "feat(resume): kobito resume continues a previous continuous run"
+      - "refactor(state): persist run meta inside the run dir for resume"
+      - "refactor(state): scope notes.md per run rather than per project"
+      - "docs: explain notes.md auto-maintenance"
+      - "feat(runner): append iteration learnings to notes.md after each commit"
+      - "feat(notes): generate per-iteration learnings via the agent"
+      - "Merge pull request #14 from unhappychoice/feature/agent-abstraction"
+      - "fix(agent): switch Claude permission mode to bypassPermissions (#9)"
+      - "fix(agent): use --permission-mode auto for Claude Code (#9)"
+      - "feat(branch): let the agent name working branches per project (#9)"
+      - "refactor(commit): defer commit-message conventions to AGENTS.md (#9)"
+      - "docs: announce Codex backend and Phase 4 completion (#9)"
+      - "feat(cli): document --agent codex in help text (#9)"
+      - "feat(agent): add Codex backend (#9)"
+      - "refactor(agent): introduce Agent trait and dispatch (#9)"
+      - "Merge pull request #13 from unhappychoice/feature/preset-system"
+      - "refactor(preset): treat preset as goal alternative in continuous mode (#7)"
+      - "docs: document preset system (#7)"
+      - "feat(runner): resolve preset once before the loop (#7)"
+      - "feat(prompt): inject preset content above task input (#7)"
+      - "feat(cli): add --preset and --var flags (#7)"
+      - "feat(preset): resolve and load preset templates with var substitution (#7)"
+      - "Merge pull request #12 from unhappychoice/refactor/drop-issue-8-features"
+      - "docs: drop language and AGENTS.md sections from README (#8)"
+      - "refactor(config): remove kobito.toml language config (#8)"
+      - "refactor(cli): remove --language flag and language wiring (#8)"
+      - "refactor(commit): drop language parameter from message generator (#8)"
+      - "refactor(prompt): drop AGENTS.md/CLAUDE.md injection and language pin (#8)"
+      - "Merge pull request #11 from unhappychoice/feature/phase2-iteration"
+      - "docs: document iteration mode usage and gh dependency (#3)"
+      - "feat(iteration): per-task branching with PR creation (#3)"
+      - "feat(prompt): per-task iteration prompt with TASK_COMPLETE sentinel (#3)"
+      - "feat(cli): tasks edit opens state copy in $EDITOR (#3)"
+      - "feat(state): seed tasks.md from .kobito on first run (#3)"
+      - "feat(tasks): parse and update Markdown checkbox backlog"
+      - "Merge pull request #10 from unhappychoice/feature/phase1-mvp"
+      - "feat(runner): wire continuous mode loop (#2)"
+      - "feat(commit): generate Conventional Commits via LLM (#4)"
+      - "feat(agent): invoke claude code in non-interactive mode (#2)"
+      - "feat(logger): stream agent output with ndjson + status bar (#5)"
+      - "feat(prompt): inject AGENTS.md and pin output language (#8)"
+      - "feat(config): load kobito.toml and resolve output language"
+      - "feat(git): add repo helpers for clean check, branch, commit"
+      - "feat(state): persist run state under XDG_STATE_HOME (#6)"
+      - "feat(cli): add clap-based CLI skeleton"
+      - "chore: declare full dependency set"
+      - "docs: add project README"
+      - "docs: add ISC license"
+      - "chore: scaffold cargo project"
+      - "chore: initial empty commit"
+  - repo: unhappychoice/gittype
+    messages:
+      - "Merge pull request #418 from unhappychoice/chore/improve-test-coverage-20260430-215653"
+      - "test: address coderabbit review feedback"
+      - "test: drop tests that mutate the user environment"
+      - "test: scan fallback log path when logs directory is unavailable"
+      - "chore: remove inline test modules from src to honor test layout convention"
+      - "test: cover cli runner cache command paths"
+      - "test: cover cli runner command dispatch paths"
+      - "test: cover cli trending language validation paths"
+      - "test: cover version repository fetch and cache paths"
+      - "test: cover remote git repository client cleanup paths"
+      - "test: cover version check screen execution paths"
+      - "test: cover loading screen repository processing paths"
+      - "test: cover error logging file output path"
+      - "test: cover remote git repository client cache paths"
+      - "test: cover additional step manager execution paths"
+      - "test: cover additional screen manager execution paths"
+      - "test: cover database init step execution path"
+      - "test: cover cloning step execution paths"
+      - "test: cover generating step execution paths"
+      - "test: cover extracting step execution paths"
+      - "test: cover scanning step execution paths"
+      - "test: cover cache check step execution paths"
+      - "test: cover finalizing step execution paths"
+      - "test: cover typing countdown view rendering"
+      - "test: cover additional GitTypeError conversions"
+  - repo: deariary/github-weekly-reporter
+    messages:
+      - "Merge pull request #128 from deariary/dependabot/npm_and_yarn/minor-and-patch-da52d0d11f"
+  - repo: circleci-tools/Norimaki
+    messages:
+      - "Merge pull request #430 from circleci-tools/dependabot/gradle/org.kodein.di-kodein-di-7.32.0"
+      - "Merge pull request #429 from circleci-tools/dependabot/gradle/gradle-wrapper-9.5.0"
+  - repo: unhappychoice/splashboard
+    messages:
+      - "Merge pull request #198 from unhappychoice/fix/cache-key-test-cwd-race"
+      - "fix(tests): serialize cache_key stability tests on TEST_ENV_LOCK"
+      - "Merge pull request #197 from unhappychoice/increase-coverage-20260501-110026"
+      - "fix(tests): skip rc/trust assertions on Windows path-resolution mismatches"
+      - "fix(tests): make new coverage tests pass on all CI platforms"
+      - "test(linear): cover blank env tokens, nested cache tokens, and request failure paths"
+      - "test(code_files): cover empty text block and render body variants"
+      - "test(wikipedia): cover invalid lang request errors and sample body variants"
+      - "test(xtask): cover cli defaults, cwd guards, and render error paths"
+      - "test(fetchers): cover sample bodies and cache key variant paths"
+      - "test(hackernews_top): cover empty entries and unsupported shape fallback paths"
+      - "test(github_contributors_monthly): cover body variants and env guard restore paths"
+      - "test(system): cover payload body variants and live text kind paths"
+      - "test(system): cover sample bodies and empty snapshot fallback paths"
+      - "test(linear): cover client non-table strip and guard restore paths"
+      - "test(random_fortune): cover unsupported shape and cookie list paths"
+      - "test(install): cover preview shape fallback, format override, and deanimate paths"
+      - "test(main): cover tty home render and cache paths"
+      - "test(logging): cover log file polling and preexisting env restore paths"
+      - "test(github_items): cover repo parsing and linked text block paths"
+      - "test(weather): cover freezing drizzle and wrong-variant extractor paths"
+      - "test(animated_figlet_morph): cover phase fade in and fade out paths"
+      - "test(deariary_on_this_day): cover oldest badge and anchor underflow paths"
+      - "test(todoist): cover due helper and payload default paths"
+      - "test(main): cover tty on-cd render and cache paths"
+      - "test(github_common): cover text block body, cwd, and no-repo paths"
+      - "test(rc): cover append, replace, and close-marker newline paths"
+      - "test(list_plain): cover non-text natural height fallback path"
+      - "test(templates): cover template lookup and context filter paths"
+      - "test(code_scan): cover classifier helpers, tracked walker skips, and tokei stats"
+      - "test(wikipedia): cover get success, status, and json parse paths"
+      - "test(main): cover tty install picker confirm and cancel paths"
+      - "test(system): cover terminal alias priority, formatter helpers, and payload builders"
+      - "test(dashboard_snapshot): cover renderer fallback and deanimate option paths"
+      - "test(linear): cover notifications contract, helpers, rendering, and fallback paths"
+      - "test(paths): cover env restoration and home fallback paths"
+      - "test(main): cover install, tty auto flags, and trust prompt paths"
+      - "test(html_snapshot): cover styled spans, link escaping, and osc8 fallback paths"
+      - "test: cover deariary helper branches and dashboard snapshot fallback paths"
+      - "test(shell): cover cli names and powershell profile path"
+      - "test(random_cat): cover fetch bytes success, status, and size limit paths"
+      - "test(linear): cover fetcher contract, filter, formatter, and grouping paths"
+      - "test(theme): cover heatmap fallback and config override paths"
+      - "test(main): cover init, license, catalog, trust, and non-tty paths"
+      - "test(linear): cover cycle contract, helper, and fallback paths"
+      - "test(install): cover shell resolution, home fallback, and gitignore paths"
+      - "test(install): cover picker helper and fallback rendering paths"
+      - "test: cover wikipedia featured fetcher and xtask cli paths"
+      - "test(main): cover config loading, secrets, catalog, and trust paths"
+      - "test(linear): cover client token fallback and retry paths"
+      - "test(github): cover repo stars metadata and failure paths"
+      - "test(reddit): cover client retry and response validation paths"
+      - "test(xtask): cover gen_matrix module"
+      - "Merge pull request #196 from unhappychoice/gnhf/you-are-working-on-s-b0d131"
+      - "test: isolate workspace-dependent fetcher tests"
+      - "fix: address CodeRabbit review feedback"
+      - "test(git): make workspace-dependent tests CI-portable"
+      - "Merge pull request #195 from unhappychoice/feat/linear-fetchers"
+      - "test: add focused layout helper tests that raised workspace line coverage from 92.9587% to 93.0482% and lifted
+        `src/layout.rs` from 94.77% to 99.84%."
+      - "test: expand `src/runtime.rs` tests around cacheless fetches, join-error handling, drawing helpers, and
+        placeholder assertions, raising workspace line coverage from 92.9259% to 93.0856%."
+      - "test: add focused `grid_heatmap` renderer tests that raised workspace line coverage from 92.7472% to 92.9284%."
+      - "test: add focused renderer tests for animated_postfx, raising workspace line coverage from 92.7016% to
+        92.8748%."
+      - "test: add focused tests for `deariary_recent`, raising workspace line coverage from 92.6176% to 92.8294%."
+      - "test: add targeted `gauge_battery` renderer tests that raised workspace line coverage from 92.57897334649556%
+        to 92.74829864878194%."
+      - "test: add daemon coverage tests for `spawn_fetch_daemon` and the successful local `run_fetch_only` path,
+        raising workspace line coverage from 92.6503% to 92.7048%."
+      - "test: add offline RSS fallback tests that raised workspace line coverage from 92.63% to 92.65%."
+      - "test: add focused `clock_sunrise` tests that raised workspace line coverage from 92.4549% to 92.5101%."
+      - "test: add focused core-renderer tests in `src/render/mod.rs`, increasing workspace line coverage from 92.3475%
+        to 92.5787%."
+      - "test: add focused chart_pie renderer tests for metadata, donut mode, and named legend positions, raising
+        workspace line coverage from 92.3102% to 92.4718%."
+      - "test: add focused `gauge_line` renderer tests that lifted workspace line coverage from 92.2764% to 92.3152% and
+        brought `src/render/gauge_line.rs` to 100.0% line coverage."
+      - "test: add focused `status_badge` renderer tests that raised workspace line coverage from 92.3584% to 92.4011%."
+      - "test: add compact list_timeline renderer tests that raised workspace line coverage from 92.2760% to 92.3634%."
+      - "test: add targeted `text_ascii` renderer tests that raised workspace line coverage from 92.2181% to 92.2760%."
+      - "test: add focused tests for `clock_state`, increasing workspace line coverage from 92.0713% to 92.0879%."
+      - "test: add runtime tests for daemon-side cache persistence and refresh placeholder reapplication, raising
+        workspace line coverage from 92.1672% to 92.1941%."
+      - "test: add focused tests for `git_commits_activity`, raising workspace line coverage from 92.8138% to 92.9857%."
+      - "test: cover text_markdown renderer metadata, fallback, and stylesheet branches, raising workspace line coverage
+        from 91.9073% to 91.9962%."
+      - "test: add explicit `gauge_circle` renderer tests, raising workspace line coverage from 92.00% to 92.03%."
+      - "test: add compact contract and shape-specific fetch tests for `static_text`, raising workspace line coverage
+        from 91.9659% to 92.0019%."
+      - "test: add focused `clock_almanac` tests for catalog, sample, placeholder, and `TextBlock` paths, raising
+        workspace line coverage from 91.9014% to 91.9659%."
+      - "test: add focused tests for the chart_sparkline renderer, raising workspace line coverage from 91.85% to
+        91.90%."
+      - "test: add focused clock_timezones tests that raised workspace line coverage from 91.8186% to 91.8529%."
+      - "test: add focused `media_image` renderer tests, raising workspace line coverage from 91.62% to 91.82%."
+      - "test: raise workspace line coverage from 91.6832% to 91.7408% by adding focused renderer tests for
+        `chart_scatter`."
+      - "test: add focused `chart_line` renderer tests that raised workspace line coverage from 91.6342% to 91.6800%."
+      - "test: raise workspace line coverage from 91.5251% to 91.6342% by adding focused tests for
+        `src/render/grid_calendar.rs` and lifting that file from 87.39% to 99.75%."
+      - "test: add focused render-path tests for the install picker, raising workspace line coverage from 90.4058% to
+        91.3946%."
+      - "test: raise workspace line coverage from 90.3495% to 90.5341% by adding focused tests for `code_language_logo`."
+      - "test: add compact `animated_boot` renderer tests for metadata exposure and live boot-log rendering, raising
+        workspace line coverage from 90.3873% to 90.4780%."
+      - "test: add offline catalog and pre-network tests for `reddit_user_comments`, raising workspace line coverage
+        from 90.34% to 90.39%."
+      - "test: add focused contract tests for `src/fetcher/mod.rs`, raising workspace line coverage from 90.0883% to
+        90.2130%."
+      - "test: add offline tests for `reddit_subreddit_posts`, raising workspace line coverage from 90.1778% to 90.2164%
+        and `src/fetcher/reddit/subreddit_posts.rs` line coverage to 93.68%."
+      - "test: raise workspace line coverage from 90.0550% to 90.1778% by adding focused tests for
+        `src/fetcher/code/loc.rs`."
+      - "test: add focused `install::rc` tests that raised workspace line coverage from 89.99% to 90.06%."
+      - "test: add contract and workspace-backed fetch tests for `git_recent_commits`, raising workspace line coverage
+        from 89.7980% to 89.9867% and passing the full quality gate."
+      - "test: add contract and workspace-backed fetch tests for `git_blame_heatmap`, raising workspace line coverage
+        from 89.7229% to 89.9282%."
+      - "test: add focused config helper tests that raised workspace line coverage from 89.6913% to 89.7229% and lifted
+        `src/config.rs` from 87.37% to 95.92%."
+      - "test: add focused tests for `animated_figlet_morph`, raising workspace line coverage from 89.6185% to 89.6865%."
+      - "test: add focused runtime helper tests that raised workspace line coverage from 89.5061% to 89.6185%."
+      - "test: add focused tests for the non-interactive installer flow and helper branches, raising workspace line
+        coverage from 89.3218% to 89.5061%."
+      - "test: add offline and fallback coverage tests for `deariary_today`, raising workspace line coverage from 89.20%
+        to 89.32%."
+      - "test: add focused tests for `src/render/animated_splitflap.rs`, raising workspace line coverage from 89.1658%
+        to 89.3353%."
+      - "test: raise workspace line coverage from 89.0778% to 89.2161% by adding comprehensive tests for `clock_derived`
+        branch and dispatch logic."
+      - "test: expand `code_largest_files` tests and raised workspace line coverage from 88.9259% to 89.1096%."
+      - "test: raise workspace line coverage from 88.6290% to 88.8738% by adding offline coverage tests for
+        github_languages."
+      - "test: add contract and real-fetch tests for `git_churn`, raising workspace line coverage from 88.6534% to
+        88.7655%."
+      - "test: add offline contract and pre-request tests for calendar_holidays, raising workspace line coverage from
+        88.4253% to 88.5166%."
+      - "test: expand `code_todos` tests to cover contract metadata, parser edge cases, and real fetch paths, raising
+        workspace line coverage from 88.4355% to 88.4844%."
+      - "test: add focused realtime tests for `clock_countdown`, raising workspace line coverage from 88.1652% to
+        88.3898%."
+      - "test: add offline tests for `github_user`, raising workspace line coverage from 87.92% to 88.30% and that
+        file's line coverage from 60.11% to 98.02%."
+      - "test: add contract, fallback, and real fetch-path tests for `code_files`, raising workspace line coverage from
+        87.8354% to 88.1328%."
+      - "test: add contract and fetch-path tests for `git_stash_count`, increasing workspace line coverage from 87.97%
+        to 88.04%."
+      - "test: add focused tests for `src/render/animated_scanlines.rs`, raising workspace line coverage from 87.8432%
+        to 87.9710%."
+      - "test: raise workspace line coverage from 87.48% to 87.84% by adding offline contract and fetch-path tests for
+        `wikipedia_on_this_day`."
+      - "test: add canonical sample contract tests for `src/samples.rs`, raising workspace line coverage from 87.5185%
+        to 87.5400%."
+      - "test: expand `git_latest_tag` test coverage across contract, selection, timezone, and fetch paths, raising
+        workspace line coverage from 87.5021% to 87.5897%."
+      - "test: raise workspace line coverage from 87.3161% to 87.5021% by expanding tests for
+        `src/fetcher/git/contributors.rs`."
+      - "test: add trust-store persistence and env-override tests in `src/trust.rs`, raising workspace line coverage
+        from 87.23% to 87.37%."
+      - "test: add offline contract and pre-network validation tests for `hackernews_top`, raising workspace line
+        coverage from 86.9138% to 87.0221%."
+      - "test: add offline contract and pre-auth tests for github_contributions, raising workspace line coverage from
+        86.7645% to 87.1353%."
+      - "test: raise workspace line coverage from 86.8550% to 87.0562% by adding offline contract and fetch-path tests
+        for `code_comments`."
+      - "test: add focused `git_worktrees` tests for fetcher contract and linked/detached worktree branches, increasing
+        workspace line coverage from 86.6380% to 86.8327%."
+      - "test: raise workspace line coverage from 86.5669% to 86.6380% by covering offline contract and fallback paths
+        in `deariary_on_this_day`."
+      - "test: add offline RSS fetcher tests that raised workspace line coverage from 86.4481% to 86.6538%."
+      - "test: add offline contract and error-path tests for `hackernews_user`, lifting workspace line coverage from
+        86.3648% to 86.5606%."
+      - "test: add daemon fallback-path tests for dashboard/source loading and raised workspace line coverage from
+        86.27% to 86.36%."
+      - "test: add offline contract tests for `github_repo`, raising workspace line coverage from 86.0426% to 86.2513%."
+      - "test: add focused install preview helper tests, raising workspace line coverage from 85.7712% to 86.1418%."
+      - "test: expand `git_status` tests to cover catalog, detached-head, and upstream-divergence branches, raising
+        workspace line coverage from 85.6343% to 85.9135%."
+      - "test: add focused offline tests for `github_avatar`, raising workspace line coverage from 85.2561% to 85.6086%."
+      - "test: add comprehensive ReadStore tests that raised workspace line coverage from 85.3451% to 85.6211%."
+      - "test: add offline coverage tests for `hackernews_user_comments`, raising workspace line coverage from 85.24% to
+        85.35%."
+      - "test: add deterministic tests for the system fetcher family, raising workspace line coverage from 84.5802% to
+        85.1284%."
+      - "test: expand `hackernews_user_submissions` test coverage around fetcher metadata, cache/sample outputs, and
+        failure branches, raising workspace line coverage from 84.3945% to 84.4869%."
+      - "test: add deterministic tests for `clock_ratio`, raising workspace line coverage from 84.2212% to 84.3911%."
+      - "test: add offline branch coverage for `random_dog`, raising workspace line coverage from 83.78% to 84.13%."
+      - "test: add focused tests for xtask snapshot preview generation, raising workspace line coverage from 83.26% to
+        83.78%."
+      - "test: add offline tests for `github_notifications`, increasing workspace line coverage from 82.7084% to
+        83.2412%."
+      - "test: add offline coverage tests for the shared GitHub client, raising workspace line coverage from 82.6482% to
+        83.1828%."
+      - "test: add offline coverage tests for `random_cat`, raising workspace line coverage from 82.9108% to 82.9580%."
+      - "test: add targeted logging tests that raised workspace line coverage from 82.40% to 82.49%."
+      - "test: add offline wrapper tests for `reddit_user_posts`, raising workspace line coverage from 82.68% to 82.87%."
+      - "test: add focused offline tests for the weather fetcher, raising workspace line coverage from 82.4885% to
+        82.7868%."
+      - "test: add offline tests for the deariary client cache and helper branches, raising workspace line coverage from
+        82.2704% to 82.4885%."
+      - "test: add offline tests for `wikipedia_random`, raising workspace line coverage from 82.0857% to 82.1378%."
+      - "test: add offline coverage tests for `github_action_history`, raising workspace line coverage from 81.5950% to
+        81.9123%."
+      - "test: add offline tests for the Todoist fetcher helpers and pre-network failure paths, raising workspace line
+        coverage from 81.11% to 81.75%."
+      - "test: add offline coverage tests for `github_assigned_issues`, raising workspace line coverage from 80.58% to
+        81.13%."
+      - "test: add focused tests for `git_repo_name`, covering remote selection and fetch output, and raised workspace
+        line coverage from 80.8442% to 80.9253%."
+      - "test: add offline coverage tests for `github_review_requests`, raising workspace line coverage from 80.69% to
+        80.82%."
+      - "test: add deterministic tests for `src/fetcher/github/my_prs.rs`, increasing workspace line coverage from
+        80.2391% to 80.6566%."
+      - "test(linear): cover remaining shape × branch gaps"
+      - "chore(gnhf): drop --max-tokens cap from run.sh"
+      - "chore(linear): use sort_by_key/Reverse to satisfy clippy 1.95"
+      - "feat(linear): add linear_issues, linear_notifications, linear_cycle fetchers"
+      - "Merge pull request #194 from unhappychoice/fix/grid-calendar-bg"
+      - "fix(grid_calendar): preserve layout-painted bg through offscreen blit"
+      - "Merge pull request #193 from unhappychoice/fix/reference-cross-links"
+      - "fix(xtask): point reference cross-links at routes, not mirrored .md sources"
+      - "Merge pull request #192 from unhappychoice/feat/random-dog-fetcher"
+      - "feat(fetcher): add `random_dog` — random dog photo from dog.ceo"
+      - "Merge pull request #191 from unhappychoice/feat/random-cat-fetcher"
+      - "feat(fetcher): add `random_cat` — random cat picture from cataas.com"
+      - "chore(catalog): drop wakatime_* from roadmap"
+      - "docs(screenshots): add demo.gif"
+      - "Merge pull request #190 from unhappychoice/gnhf/you-are-working-on-s-b0d131"
+      - "test(github): add focused tests for contributors_monthly fetcher"
+      - "Merge pull request #189 from unhappychoice/fix/animated-wrappers-pass-inner-fields"
+      - "fix(render): let animated wrappers pass inner-renderer fields through"
+      - "Merge pull request #188 from unhappychoice/feat/auto-display-toggles"
+      - "feat(config): add auto_home / auto_on_cd toggles to opt out of auto-display"
+      - "Merge pull request #187 from unhappychoice/gnhf/you-are-working-on-s-b0d131"
+      - "test(github): add offline tests for repo_prs fetcher"
+      - "test(github): add offline tests for repo_issues fetcher"
+      - "Merge pull request #186 from unhappychoice/gnhf/coverage-github-hn-rewrite"
+      - "test(hackernews): cover shared HTTP client with offline tests"
+      - "test(github): add offline tests for good_first_issues"
+      - "test(github): cover recent_releases fetcher"
+      - "test(github): cover shared issue/PR item renderer helper"
+      - "Merge pull request #185 from unhappychoice/gnhf/you-are-working-on-s-55d1f3"
+      - "chore(gnhf): require English summary/body in loop prompts"
+      - "perf(build): tighten release profile"
+      - "perf(cli): use sync dispatch and lazy Tokio init"
+      - "Merge pull request #184 from unhappychoice/gnhf/you-are-working-on-s-dd812e"
+      - "chore(gnhf): pass --prevent-sleep off to gnhf"
+      - "test(fetcher): cover github_action_status untested branches"
+      - "test(xtask): cover dashboard_snapshot module"
+      - "Merge pull request #183 from unhappychoice/chore/gnhf-overnight-prompts"
+      - "chore(gnhf): pick a loop via run.sh argument, drop worktree mode"
+      - "chore(gnhf): add launcher for parallel overnight loops"
+      - "chore(gnhf): save overnight loop prompts"
+      - "Merge pull request #182 from unhappychoice/gnhf/improve-test-coverag-c86657"
+      - "test(render): add animated_wave regression tests"
+      - "test(render): add animated_typewriter regression tests"
+      - "test(render): add animated_boot regression tests"
+      - "test(render): improve text_plain coverage"
+      - "Merge pull request #181 from unhappychoice/docs/showcases-and-renderer-previews"
+      - "docs(site): preset gallery in showcases + renderer-page previews"
+      - "Merge pull request #180 from unhappychoice/fix/html-snapshot-osc8-overflow"
+      - "fix(xtask): step past OSC 8 link cells in HTML snapshot"
+      - "Merge pull request #179 from unhappychoice/feat/locale-timezone-consistency"
+      - "feat(time): project-wide locale + timezone consistency"
+      - "Merge pull request #178 from unhappychoice/docs/secrets-toml"
+      - "docs(secrets): document $HOME/.splashboard/secrets.toml in user guides"
+      - "Merge pull request #177 from unhappychoice/feat/secrets-config-env"
+      - "Merge pull request #176 from unhappychoice/feat/deariary-fetcher-family"
+      - "feat(secrets): load tokens from $HOME/.splashboard/secrets.toml"
+      - "fix(fetcher): address coderabbit review on cache key + recent count + today freshness"
+      - "fix(fetcher,payload): scope deariary disk cache per token + lock Body::Error wire format"
+      - "refactor(payload,render): model placeholder errors as Body::Error"
+      - "fix(render,fetcher): restore explicit shape-mismatch error per AGENTS contract"
+      - "fix(fetcher,render): address coderabbit review on deariary PR"
+      - "fix(fetcher): self-review nits on deariary_* family"
+      - "feat(fetcher): add deariary_* family for diary entries"
+      - "Merge pull request #175 from unhappychoice/feat/template-project-codebase"
+      - "docs(templates): correct project_codebase TEMPLATES description"
+      - "docs(presets): correct project_codebase widget table"
+      - "docs(presets): list project_codebase in guides + xtask snapshots"
+      - "feat(templates): add project_codebase preset"
+      - "fix(render): grid_table sizes key column to content and right-aligns values"
+      - "fix(render): list_ranking stretches label and truncates to keep value visible"
+      - "feat(render): expose bar_gap option for chart_bar"
+      - "Merge pull request #174 from unhappychoice/fix/docs-osc8-hyperlinks"
+      - "fix(docs): render LinkedTextBlock previews as real anchors"
+      - "Merge pull request #172 from unhappychoice/refactor/code-tokei-integration"
+      - "refactor(fetcher): adopt tokei for code_* metrics; add code_comments"
+      - "Merge pull request #173 from unhappychoice/feat/fetcher-shape-coverage"
+      - "fix(fetcher): address coderabbit review on shape-coverage PR"
+      - "feat(fetcher): fill missing shape coverage across 14 fetchers"
+      - "Merge pull request #171 from unhappychoice/feat/code-largest-files"
+      - "feat(fetcher): add `code_largest_files` for refactor-candidate hunting"
+      - "Merge pull request #170 from unhappychoice/feat/code-files"
+      - "feat(fetcher): add code_files — top-level-dir ranking + headline file count"
+      - "Merge pull request #169 from unhappychoice/feat/code-language-logo"
+      - "feat(fetcher): add `code_language_logo` for repo-language Devicon hero"
+      - "Merge pull request #167 from unhappychoice/feat/code-loc"
+      - "feat(fetcher): expand `code_loc` with 4 more shapes and `unit` option"
+      - "feat(fetcher): add `code_loc` for tracked-line counts per language"
+      - "Merge pull request #166 from unhappychoice/feat/git-churn"
+      - "docs(agents,skill): codify single-shape renderer rule"
+      - "refactor(render): narrow text_plain to Text shape only"
+      - "refactor(templates): use list_plain for TextBlock-emitting widgets"
+      - "refactor(render): switch list_plain to Paragraph-backed rendering"
+      - "fix(fetcher): collapse newlines in Text shape to honour single-string contract"
+      - "feat(fetcher): add `git_churn` for top-changed files in last N days"
+      - "Merge pull request #165 from unhappychoice/feat/git-age-fetcher"
+      - "feat(fetcher): add `git_age` for repository age from first commit"
+  - repo: unhappychoice/color-hash.kt
+    messages:
+      - "Merge pull request #246 from unhappychoice/dependabot/gradle/gradle-wrapper-9.5.0"
+  - repo: bitflyer-tools/DroidFlyer
+    messages:
+      - "Merge pull request #511 from bitflyer-tools/dependabot/gradle/gradle-wrapper-9.5.0"
+  - repo: unhappychoice/slack_channel_stats
+    messages:
+      - "Merge pull request #101 from unhappychoice/dependabot/bundler/minitest-6.0.6"
+  - repo: bitflyer-tools/cycle-flyer
+    messages:
+      - "Merge pull request #875 from bitflyer-tools/dependabot/npm_and_yarn/electron-41.4.0"
+  - repo: unhappychoice/homebrew-tap
+    messages:
+      - "Merge pull request #3 from unhappychoice/feature/add-kobito"
+      - "chore: add kobito formula template"
+releases:
+  - repo: unhappychoice/kobito
+    tag: v0.2.0
+    name: Release v0.2.0
+    body: >-
+      
+      ### ✨ Features
+
+
+      - feat(cont): finalize is a review-fix-check loop until ready
+      ([f905261](https://github.com/unhappychoice/kobito/commit/f905261))
+
+      - feat(cont): generate draft PR title + body via the agent
+      ([26daf88](https://github.com/unhappychoice/kobito/commit/26daf88))
+
+      - feat(cont): turn first Ctrl+C into agent-driven finalize → mark PR ready
+      ([278c9e3](https://github.com/unhappychoice/kobito/commit/278c9e3))
+
+      - feat(cont): open draft PR upfront and push every commit ([7420d09](https://github...
+    url: https://github.com/unhappychoice/kobito/releases/tag/v0.2.0
+    publishedAt: 2026-05-03T05:17:32Z
+  - repo: unhappychoice/splashboard
+    tag: v1.2.0
+    name: Release v1.2.0
+    body: >-
+      
+      ### ✨ Features
+
+
+      - feat(linear): add linear_issues, linear_notifications, linear_cycle fetchers
+      ([daae9cb](https://github.com/unhappychoice/splashboard/commit/daae9cb))
+
+      - feat(fetcher): add `random_dog` — random dog photo from dog.ceo
+      ([d61e2c4](https://github.com/unhappychoice/splashboard/commit/d61e2c4))
+
+      - feat(fetcher): add `random_cat` — random cat picture from cataas.com
+      ([567fcad](https://github.com/unhappychoice/splashboard/commit/567fcad))
+
+
+      ### 🐛 Bug Fixes
+
+
+      - fix: address CodeRabbit rev...
+    url: https://github.com/unhappychoice/splashboard/releases/tag/v1.2.0
+    publishedAt: 2026-04-30T05:28:44Z
+  - repo: unhappychoice/splashboard
+    tag: v1.1.1
+    name: Release v1.1.1
+    body: >+
+      
+      ### 🐛 Bug Fixes
+
+
+      - fix(render): let animated wrappers pass inner-renderer fields through
+      ([80cf479](https://github.com/unhappychoice/splashboard/commit/80cf479))
+
+
+      ### 📝 Other Changes
+
+
+      - chore: bump version to v1.1.1 ([d1d8163](https://github.com/unhappychoice/splashboard/commit/d1d8163))
+
+      - chore: update flake.nix hashes for v1.1.0
+      ([bac3e65](https://github.com/unhappychoice/splashboard/commit/bac3e65))
+
+    url: https://github.com/unhappychoice/splashboard/releases/tag/v1.1.1
+    publishedAt: 2026-04-29T00:59:45Z
+  - repo: unhappychoice/splashboard
+    tag: v1.1.0
+    name: Release v1.1.0
+    body: >-
+      
+      ### ✨ Features
+
+
+      - feat(config): add auto_home / auto_on_cd toggles to opt out of auto-display
+      ([83f7d42](https://github.com/unhappychoice/splashboard/commit/83f7d42))
+
+
+      ### 🐛 Bug Fixes
+
+
+      - fix(xtask): step past OSC 8 link cells in HTML snapshot
+      ([ef8d1f8](https://github.com/unhappychoice/splashboard/commit/ef8d1f8))
+
+
+      ### 📝 Other Changes
+
+
+      - chore: bump version to v1.1.0 ([a4d2f46](https://github.com/unhappychoice/splashboard/commit/a4d2f46))
+
+      - test(github): add offline tests for repo_prs fetcher...
+    url: https://github.com/unhappychoice/splashboard/releases/tag/v1.1.0
+    publishedAt: 2026-04-29T00:11:25Z
+  - repo: unhappychoice/splashboard
+    tag: v1.0.0
+    name: Release v1.0.0
+    body: >-
+      
+      ### ✨ Features
+
+
+      - feat(time): project-wide locale + timezone consistency
+      ([01a3a1e](https://github.com/unhappychoice/splashboard/commit/01a3a1e))
+
+      - feat(secrets): load tokens from $HOME/.splashboard/secrets.toml
+      ([ae10678](https://github.com/unhappychoice/splashboard/commit/ae10678))
+
+      - feat(fetcher): add deariary_* family for diary entries
+      ([a473344](https://github.com/unhappychoice/splashboard/commit/a473344))
+
+      - feat(templates): add project_codebase preset ([dea9a21](https://github.com/unhappy...
+    url: https://github.com/unhappychoice/splashboard/releases/tag/v1.0.0
+    publishedAt: 2026-04-28T03:48:38Z
+externalContributions: []
