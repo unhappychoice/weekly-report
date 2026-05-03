@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>splashboard 1.2.0 Release + 27 New Fetchers, 19 PRs in a Week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W18/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W18/</guid>
+      <description>This week I pushed splashboard to v1.2.0, added 27 new fetchers, and completed the deariary_* family while cleaning up the project structure.
+
+The week started with a burst of activity around splashboard, where I merged 19 pull requests that added a host of new fetchers and refactored the code_* family. The release of v1.2.0 introduced linear_issues, linear_notifications, and linear_cycle fetchers, plus random_dog and random_cat for a splash of fun.
+
+Parallel to that, I also tackled the deariary_* fetcher family, which now provides safe, cached, and host‑pinned diary entries. The refactor to tokei for code_* metrics brought code_loc and code_comments into the fold, while the new git_churn and git_age fetchers give us instant repo health insights. I spent a lot of time reviewing and approving PRs for other repos like gitlogue and mdts, keeping the overall ecosystem healthy.
+
+The week ended with a focused push to the unhappychoice.com website, adding an /oss/ showcase page and refreshing data scripts, plus a bump of dependencies across several projects. Looking ahead, I’ll be polishing the new fetchers’ test coverage and preparing a blog post about the new project_codebase preset.
+
+
+Commits: 822, PRs: 91, Reviews: 29</description>
+      <pubDate>Sun, 03 May 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W18/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W18/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Splashboard sprint: RealtimeFetcher, Chromeless Widgets, and a Dependency Avalanche</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W17/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W17/</guid>
