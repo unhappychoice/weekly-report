@@ -3565,3 +3565,237 @@
   payload:
     kind: generic
     action: ""
+- id: "9257681915"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 177
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9257681876"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:51Z
+  payload:
+    kind: issues
+    action: opened
+    number: 177
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9257681658"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:51Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 175
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9257681615"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 176
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "9257681586"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: opened
+    number: 175
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9257681563"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: opened
+    number: 176
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "9257681535"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 174
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9257681480"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 173
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9257681473"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: opened
+    number: 174
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9257681454"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 172
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9257681412"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:50Z
+  payload:
+    kind: issues
+    action: opened
+    number: 173
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9257681383"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:49Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 171
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9257681366"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:49Z
+  payload:
+    kind: issues
+    action: opened
+    number: 172
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9257681298"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:49Z
+  payload:
+    kind: issues
+    action: opened
+    number: 171
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9257681242"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:49Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 169
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9257681214"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:49Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 170
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9257681167"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:49Z
+  payload:
+    kind: issues
+    action: opened
+    number: 169
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9257681149"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:49Z
+  payload:
+    kind: issues
+    action: opened
+    number: 170
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9257681055"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:48Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 167
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "9257680980"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:48Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 168
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9257680976"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:48Z
+  payload:
+    kind: issues
+    action: opened
+    number: 167
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "9257680951"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:48Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 166
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "9257680912"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:48Z
+  payload:
+    kind: issues
+    action: opened
+    number: 168
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9257680877"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:48Z
+  payload:
+    kind: issues
+    action: opened
+    number: 166
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "9257680746"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:47Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 165
+    title: "[CI Failure] circleci-tools/circleci-cli"
+- id: "9257680686"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-09T00:16:47Z
+  payload:
+    kind: issues
+    action: opened
+    number: 165
+    title: "[CI Failure] circleci-tools/circleci-cli"
