@@ -3799,3 +3799,1301 @@
     action: opened
     number: 165
     title: "[CI Failure] circleci-tools/circleci-cli"
+- id: "11658131738"
+  type: DeleteEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-10T14:58:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11658131116"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-10T14:58:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9285121091"
+  type: PullRequestEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-10T14:58:25Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 35
+    title: ""
+- id: "11658126506"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-10T14:58:14Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11658126787"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-10T14:58:15Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9285118335"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-10T14:58:13Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 48
+    title: ""
+- id: "11658122947"
+  type: PushEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-10T14:58:04Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9285116450"
+  type: PullRequestEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-10T14:58:03Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 353
+    title: ""
+- id: "11658118295"
+  type: PushEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-05-10T14:57:54Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9285114192"
+  type: PullRequestEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-05-10T14:57:53Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 234
+    title: ""
+- id: "9285109649"
+  type: PullRequestEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-10T14:57:32Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 35
+    title: ""
+- id: "9285109240"
+  type: PullRequestEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-10T14:57:30Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 48
+    title: ""
+- id: "9285108890"
+  type: PullRequestEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-10T14:57:29Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 353
+    title: ""
+- id: "9285108593"
+  type: PullRequestEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-05-10T14:57:27Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 234
+    title: ""
+- id: "11658014108"
+  type: CreateEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-10T14:53:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11658011620"
+  type: CreateEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-05-10T14:53:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11657997598"
+  type: CreateEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-10T14:52:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11657996383"
+  type: CreateEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-05-10T14:52:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11657367533"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:25:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11657366571"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:25:02Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11657362506"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:24:52Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11657361823"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:24:50Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9284702356"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:24:47Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 214
+    prTitle: ""
+    state: approved
+- id: "9284702122"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:24:46Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 213
+    prTitle: ""
+    state: approved
+- id: "11657209982"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:18:08Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/cargo/ratatui-image-11.0.1
+    commits: []
+- id: "11657132579"
+  type: DeleteEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T14:14:52Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9284580569"
+  type: PullRequestEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T14:14:49Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 2
+    title: ""
+- id: "11657131533"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T14:14:50Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11656987227"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:08:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11656986827"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:08:56Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9284496636"
+  type: PullRequestEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T14:07:48Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 2
+    title: ""
+- id: "11656954659"
+  type: CreateEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T14:07:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11656884196"
+  type: PushEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-05-10T14:04:45Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9284445891"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T14:03:47Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 212
+    prTitle: ""
+    state: approved
+- id: "11656698012"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-05-10T13:57:22Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11656110045"
+  type: DeleteEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:31:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11656109228"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:31:22Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9284035127"
+  type: PullRequestEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:31:21Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1
+    title: ""
+- id: "11656041787"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:28:24Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/reorganize-brewfile-os-split
+    commits: []
+- id: "11656023870"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T13:27:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11656023567"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T13:27:35Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9283989237"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T13:27:33Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 211
+    title: ""
+- id: "9283935152"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T13:23:04Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 211
+    title: ""
+- id: "11655908131"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T13:22:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11655807265"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:18:11Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/reorganize-brewfile-os-split
+    commits: []
+- id: "11655793199"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:17:34Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/reorganize-brewfile-os-split
+    commits: []
+- id: "11655561137"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:07:22Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/reorganize-brewfile-os-split
+    commits: []
+- id: "11655497173"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T13:04:35Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/reorganize-brewfile-os-split
+    commits: []
+- id: "11655345429"
+  type: PushEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T12:58:22Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/reorganize-brewfile-os-split
+    commits: []
+- id: "9283556821"
+  type: PullRequestEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T12:50:44Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 1
+    title: ""
+- id: "11655174349"
+  type: CreateEvent
+  repo: unhappychoice/Brewfile
+  createdAt: 2026-05-10T12:50:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654824571"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:34:49Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11654824827"
+  type: DeleteEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:34:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9283374447"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:34:48Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 6
+    title: ""
+- id: "11654805930"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:33:56Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/track-splashboard-pet-glow
+    commits: []
+- id: "11654793946"
+  type: DeleteEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:33:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654793369"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:33:20Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9283356745"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:33:18Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 5
+    title: ""
+- id: "11654785855"
+  type: DeleteEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:32:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654785583"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:32:57Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9283352490"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:32:56Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 4
+    title: ""
+- id: "9283351890"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:32:54Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 6
+    title: ""
+- id: "11654778676"
+  type: CreateEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:32:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654714652"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T12:29:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9283313748"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T12:29:40Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 210
+    title: ""
+- id: "11654713951"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T12:29:41Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9283257311"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:24:46Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 5
+    title: ""
+- id: "11654609958"
+  type: CreateEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:24:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654523424"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:20:21Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/zshrc-prune-dead-sources
+    commits: []
+- id: "11654465321"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:17:34Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/zshrc-prune-dead-sources
+    commits: []
+- id: "9283154665"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:16:03Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 4
+    title: ""
+- id: "11654431156"
+  type: CreateEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:15:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654349147"
+  type: DeleteEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:11:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654348605"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:11:54Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9283107481"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:11:53Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 3
+    title: ""
+- id: "11654341964"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:11:34Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/og-image
+    commits: []
+- id: "11654300333"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:09:35Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/og-image
+    commits: []
+- id: "9283050207"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:06:39Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 3
+    title: ""
+- id: "11654234673"
+  type: CreateEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T12:06:31Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11654199806"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T12:04:54Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/crypto-watchlist
+    commits: []
+- id: "9282930825"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T11:56:00Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 210
+    title: ""
+- id: "11653993353"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-10T11:55:25Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11653710550"
+  type: DeleteEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:41:17Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11653710001"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:41:14Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9282766696"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:41:13Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 2
+    title: ""
+- id: "9282759596"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:40:33Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 2
+    title: ""
+- id: "11653692456"
+  type: CreateEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:40:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11653659716"
+  type: DeleteEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:38:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9282740088"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:38:45Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1
+    title: ""
+- id: "11653658754"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:38:46Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11653647357"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:38:12Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/dotfiles-update-2026-05
+    commits: []
+- id: "11653636748"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:37:39Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/dotfiles-update-2026-05
+    commits: []
+- id: "11653535847"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:32:32Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/dotfiles-update-2026-05
+    commits: []
+- id: "11653499991"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:30:45Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/dotfiles-update-2026-05
+    commits: []
+- id: "11653481958"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:29:58Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/dotfiles-update-2026-05
+    commits: []
+- id: "11653440836"
+  type: PushEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:27:51Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/dotfiles-update-2026-05
+    commits: []
+- id: "9282548638"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:21:47Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 1
+    title: ""
+- id: "11653321074"
+  type: CreateEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-05-10T11:21:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11651406152"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-05-10T09:43:58Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11651363877"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-10T09:41:44Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11651363350"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-10T09:41:43Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9281299674"
+  type: WatchEvent
+  repo: Kohei-Wada/taskdog
+  createdAt: 2026-05-10T09:27:26Z
+  payload:
+    kind: generic
+    action: started
+- id: "9281020990"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:02:46Z
+  payload:
+    kind: issues
+    action: closed
+    number: 169
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9281019717"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:02:40Z
+  payload:
+    kind: issues
+    action: closed
+    number: 171
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9281016205"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:02:21Z
+  payload:
+    kind: issues
+    action: closed
+    number: 172
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9281015047"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:02:15Z
+  payload:
+    kind: issues
+    action: closed
+    number: 175
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9281014256"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:02:10Z
+  payload:
+    kind: issues
+    action: closed
+    number: 174
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9281013555"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:02:06Z
+  payload:
+    kind: issues
+    action: closed
+    number: 176
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "9281011557"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:01:56Z
+  payload:
+    kind: issues
+    action: closed
+    number: 177
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9281009643"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:01:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 170
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9281008591"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:01:39Z
+  payload:
+    kind: issues
+    action: closed
+    number: 168
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9281007608"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T09:01:34Z
+  payload:
+    kind: issues
+    action: closed
+    number: 173
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9280977016"
+  type: WatchEvent
+  repo: Kohei-Wada/ttymap
+  createdAt: 2026-05-10T08:58:40Z
+  payload:
+    kind: generic
+    action: started
+- id: "11650491161"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-05-10T08:57:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650490923"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-05-10T08:57:10Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9280960455"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T08:57:10Z
+  payload:
+    kind: issues
+    action: closed
+    number: 165
+    title: "[CI Failure] circleci-tools/circleci-cli"
+- id: "9280960364"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-05-10T08:57:09Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 995
+    title: ""
+- id: "11650476846"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-10T08:56:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9280952514"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-10T08:56:24Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 517
+    title: ""
+- id: "9280952508"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T08:56:26Z
+  payload:
+    kind: issues
+    action: closed
+    number: 166
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "11650476480"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-10T08:56:25Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11650465027"
+  type: DeleteEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-10T08:55:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650464844"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-10T08:55:48Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9280946216"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T08:55:48Z
+  payload:
+    kind: issues
+    action: closed
+    number: 167
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "9280946181"
+  type: PullRequestEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-10T08:55:47Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 103
+    title: ""
+- id: "11650455757"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-10T08:55:18Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/bump-ruby-floor-3.2
+    commits: []
+- id: "11650453785"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-05-10T08:55:13Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/bump-ruby-floor-3.3
+    commits: []
+- id: "11650427465"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-10T08:53:49Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/bump-ruby-floor-3.3
+    commits: []
+- id: "11650407249"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-10T08:52:46Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/bump-ruby-floor-3.3
+    commits: []
+- id: "9280904516"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-10T08:52:03Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 517
+    title: ""
+- id: "11650388472"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-10T08:51:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9280890433"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-05-10T08:50:47Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 995
+    title: ""
+- id: "11650364756"
+  type: CreateEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-05-10T08:50:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9280855790"
+  type: PullRequestEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-10T08:47:49Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 103
+    title: ""
+- id: "11650308347"
+  type: CreateEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-05-10T08:47:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650194776"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:41:33Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650194414"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:41:32Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11650190589"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:41:20Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650190366"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:41:18Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11650122708"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:37:41Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650121872"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:37:39Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11650116777"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:37:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650116398"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:37:22Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11650114222"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:37:14Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650113780"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:37:13Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9280736317"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:36:53Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 699
+    prTitle: ""
+    state: approved
+- id: "9280735670"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:36:49Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 700
+    prTitle: ""
+    state: approved
+- id: "9280735081"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:36:46Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 701
+    prTitle: ""
+    state: approved
+- id: "9280734718"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:36:44Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 702
+    prTitle: ""
+    state: approved
+- id: "9280733809"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:36:38Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 703
+    prTitle: ""
+    state: approved
+- id: "9280733377"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-10T08:36:36Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 704
+    prTitle: ""
+    state: approved
+- id: "11650080205"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-10T08:35:25Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650079825"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-10T08:35:24Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9280718328"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-10T08:35:18Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 881
+    prTitle: ""
+    state: approved
+- id: "11650075501"
+  type: PushEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T08:35:10Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9280715943"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-10T08:35:05Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 164
+    prTitle: ""
+    state: approved
+- id: "11650065333"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-10T08:34:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11650064684"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-10T08:34:34Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9280709492"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-10T08:34:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 130
+    prTitle: ""
+    state: approved
