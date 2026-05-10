@@ -14,10 +14,19 @@
       <height>630</height>
     </image>
     <item>
-      <title></title>
+      <title>Splashboard Showcase Gallery and Lobsters Top Fetcher Sprint</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W19/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W19/</guid>
-      <description>Commits: 629, PRs: 47, Reviews: 55</description>
+      <description>Merged a five‑page nested gallery and added a new Lobsters story fetcher in the same week.
+
+This week was all about expanding Splashboard&apos;s content surface. The main event was the merge of the “showcase gallery” PR, which split the monolithic Showcases page into a clean, nested structure with dedicated theme, preset, use‑case, and community pages. The PR also introduced three new xtask pipelines that generate gallery content at build time, and eight maintainer‑curated dashboards that now land side by side with community submissions.
+
+While the gallery was the headline, the Lobsters fetcher family also got a fresh entry: `lobsters_top`. It pulls the front‑page listings—hottest, newest, active—mirroring the existing HackerNews family. The change also tightens up the fetcher architecture and adds a new checkbox in the UI to enable the feature.
+
+The week also saw a flurry of dependency bumps and minor bug fixes across several repos, but the real architectural shift was the gallery’s modularity and the new Lobsters integration, which together make the dashboard far more extensible and easier to maintain.
+
+
+Commits: 635, PRs: 47, Reviews: 55</description>
       <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
       <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W19/og.png" type="image/png" length="0" />
       <media:content url="https://unhappychoice.github.io/weekly-report/2026/W19/og.png" medium="image" type="image/png" width="1200" height="630" />
