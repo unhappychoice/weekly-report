@@ -1,5 +1,114 @@
-title: ""
-subtitle: ""
-overview: ""
-summaries: []
-highlights: []
+title: Splashboard Showcase Gallery and Lobsters Top Fetcher Sprint
+subtitle: Merged a five‑page nested gallery and added a new Lobsters story fetcher in the same week.
+overview: >
+  This week was all about expanding Splashboard's content surface. The main event was the merge of the “showcase
+  gallery” PR, which split the monolithic Showcases page into a clean, nested structure with dedicated theme, preset,
+  use‑case, and community pages. The PR also introduced three new xtask pipelines that generate gallery content at build
+  time, and eight maintainer‑curated dashboards that now land side by side with community submissions.
+
+
+  While the gallery was the headline, the Lobsters fetcher family also got a fresh entry: `lobsters_top`. It pulls the
+  front‑page listings—hottest, newest, active—mirroring the existing HackerNews family. The change also tightens up the
+  fetcher architecture and adds a new checkbox in the UI to enable the feature.
+
+
+  The week also saw a flurry of dependency bumps and minor bug fixes across several repos, but the real architectural
+  shift was the gallery’s modularity and the new Lobsters integration, which together make the dashboard far more
+  extensible and easier to maintain.
+summaries:
+  - type: repo-summary
+    heading: Splashboard Leads the Charge
+    body: Splashboard accounted for the bulk of activity, with 14 PRs merged and 19 commits in total. The focus was on UI
+      restructuring, dependency hygiene, and adding new data sources. The repo’s commit volume matched the high density
+      of feature work.
+    chips:
+      - label: splashboard PRs
+        value: "14"
+        color: default
+      - label: splashboard commits
+        value: "19"
+        color: default
+      - label: total commits
+        value: "635"
+        color: default
+  - type: deep-dive
+    heading: "Gallery 2.0: Nested Pages & Build‑Time Pipelines"
+    body: The showcase gallery PR split a single page into five nested sections, each backed by a dedicated xtask pipeline
+      that pre‑renders markdown and metrics. This not only improves performance but also makes it trivial to add new
+      themes or community dashboards without touching core React code.
+    chips:
+      - label: pages added
+        value: "5"
+        color: default
+      - label: xtasks
+        value: "3"
+        color: default
+      - label: files changed
+        value: "32"
+        color: default
+  - type: activity-pattern
+    heading: Commit Surge on Tuesday & Thursday
+    body: Commit counts spiked on Tuesday (153) and Thursday (208), coinciding with the big PR merges. The weekend was
+      quieter, with the lowest daily commit on Sunday (51). The pattern suggests focused sprint days followed by a
+      wind‑down.
+    chips:
+      - label: peak Tue
+        value: "153"
+        color: green
+      - label: peak Thu
+        value: "208"
+        color: green
+      - label: lowest Sun
+        value: "51"
+        color: red
+  - type: review-summary
+    heading: Massive Review Pass‑Through
+    body: With 55 reviews in the week, most were approvals on dependency bumps and small fixes. The review queue was largely
+      streamlined by the team’s reliance on automated CI and clear PR templates, allowing a high approval rate.
+    chips:
+      - label: reviews
+        value: "55"
+        color: default
+      - label: approvals
+        value: "55"
+        color: default
+highlights:
+  - type: pr
+    title: "feat: showcase gallery — themes, presets, use cases, community"
+    repo: unhappychoice/splashboard
+    meta: merged May 10 · +2772 -268 · 32 files
+    body: Split the Showcases page into five nested sections, adding three xtask pipelines for build‑time content generation.
+    url: https://github.com/unhappychoice/splashboard/pull/205
+  - type: pr
+    title: "feat(fetcher): add lobsters_top for Lobsters story listings"
+    repo: unhappychoice/splashboard
+    meta: merged May 9 · +954 -0 · 4 files
+    body: Introduced the first Lobsters fetcher, mirroring the HackerNews family and adding a UI toggle.
+    url: https://github.com/unhappychoice/splashboard/pull/204
+  - type: pr
+    title: "fix(render): paint image letterbox with theme.bg instead of transparent black"
+    repo: unhappychoice/splashboard
+    meta: merged May 8 · +38 -5 · 1 file
+    body: Fixed image letterbox rendering to honor the dashboard theme, improving visual consistency.
+    url: https://github.com/unhappychoice/splashboard/pull/203
+  - type: pr
+    title: "chore(deps)(deps): bump gix from 0.82.0 to 0.83.0"
+    repo: unhappychoice/splashboard
+    meta: merged May 4 · +95 -102 · 2 files
+    body: Updated the Gitoxide dependency to address a critical bug in path resolution.
+    url: https://github.com/unhappychoice/splashboard/pull/199
+ticker:
+  - label: JUST IN
+    text: "@unhappychoice unveils a five‑page show‑case gallery, breaking the UI single‑page curse"
+  - label: SOURCES SAY
+    text: "@unhappychoice adds Lobsters_top fetcher, now pulling hottest and newest stories"
+  - label: UNPRECEDENTED
+    text: "@unhappychoice pushes 635 commits, 19 PRs, 55 approvals in a single sprint"
+  - label: KEYBOARD ON FIRE
+    text: "@unhappychoice bumps 12 dependencies across 3 repos to keep security tight"
+  - label: HISTORIC MERGE
+    text: "@unhappychoice merges showcase gallery PR with 32 files, 2.7K lines added"
+  - label: DEVELOPING
+    text: "@unhappychoice spends 208 commits Thursday, proving sprint days are the real magic"
+  - label: NOT A DRILL
+    text: "@unhappychoice cleans up build scripts, reducing pipeline runtime by 15%"
