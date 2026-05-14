@@ -2595,3 +2595,1332 @@
     action: merged
     number: 220
     title: ""
+- id: "11851133178"
+  type: PushEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-05-14T11:51:24Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11850531455"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:35:13Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11850530531"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:35:12Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9458071923"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:35:11Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 236
+    title: ""
+- id: "9458026389"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:33:51Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 236
+    title: ""
+- id: "11850378253"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:30:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11850158827"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:25:09Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9457756473"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:25:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 233
+    title: "core: per-fetcher refresh interval (required trait method), drop the global 60s default"
+- id: "11850157573"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:25:07Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9457756298"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:25:06Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 235
+    title: ""
+- id: "11849934214"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T11:19:05Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/per-fetcher-refresh-interval
+    commits: []
+- id: "11847058065"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T10:03:30Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/per-fetcher-refresh-interval
+    commits: []
+- id: "11846891249"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:59:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9454869355"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:59:33Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 234
+    title: ""
+- id: "11846890652"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:59:35Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9454786315"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:57:10Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 235
+    title: ""
+- id: "11846791329"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:56:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11846682390"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:54:07Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/net-fetchers
+    commits: []
+- id: "11846310566"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:44:19Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/net-fetchers
+    commits: []
+- id: "9454187289"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:40:10Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 234
+    title: ""
+- id: "11846149673"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:40:09Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9454137828"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:38:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 233
+    title: "core: per-fetcher refresh interval (required trait method), drop the global 60s default"
+- id: "9454137663"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:38:42Z
+  payload:
+    kind: issues
+    action: opened
+    number: 233
+    title: "core: per-fetcher refresh interval (required trait method), drop the global 60s default"
+- id: "9453856284"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:30:34Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 232
+    title: "feat: persistent dashboard mode (splashboard --watch)"
+- id: "9453856283"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:30:34Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 232
+    title: "feat: persistent dashboard mode (splashboard --watch)"
+- id: "9453855874"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:30:33Z
+  payload:
+    kind: issues
+    action: opened
+    number: 232
+    title: "feat: persistent dashboard mode (splashboard --watch)"
+- id: "9453751750"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:27:39Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 231
+    title: "feat: bare LLM fetcher (text-to-text, no tools) for splash widgets"
+- id: "9453751714"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:27:39Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 231
+    title: "feat: bare LLM fetcher (text-to-text, no tools) for splash widgets"
+- id: "9453751501"
+  type: IssuesEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T09:27:39Z
+  payload:
+    kind: issues
+    action: opened
+    number: 231
+    title: "feat: bare LLM fetcher (text-to-text, no tools) for splash widgets"
+- id: "11842123433"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T07:52:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11842122947"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T07:52:49Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9450456862"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T07:52:36Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 718
+    prTitle: ""
+    state: approved
+- id: "11842085644"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T07:51:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9450432213"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T07:51:47Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 230
+    title: ""
+- id: "11842084976"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T07:51:48Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11840529767"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T07:07:05Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/nasa-apod-fetcher
+    commits: []
+- id: "11840359883"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T07:02:09Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11840358882"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T07:02:07Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9448823683"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T07:02:06Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 426
+    title: ""
+- id: "9448801519"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T07:01:25Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 230
+    title: ""
+- id: "11840320318"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T07:01:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11839691185"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T06:41:53Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11839494596"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T06:35:42Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11839000205"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T06:20:06Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11838647387"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T06:08:41Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "9447165373"
+  type: WatchEvent
+  repo: uhyo/funstack-static
+  createdAt: 2026-05-14T06:06:45Z
+  payload:
+    kind: generic
+    action: started
+- id: "9447162368"
+  type: WatchEvent
+  repo: uhyo/funstack-router
+  createdAt: 2026-05-14T06:06:40Z
+  payload:
+    kind: generic
+    action: started
+- id: "9447136965"
+  type: WatchEvent
+  repo: uhyo/eslint-plugin-import-access
+  createdAt: 2026-05-14T06:05:49Z
+  payload:
+    kind: generic
+    action: started
+- id: "9447131765"
+  type: WatchEvent
+  repo: uhyo/nitrogql
+  createdAt: 2026-05-14T06:05:39Z
+  payload:
+    kind: generic
+    action: started
+- id: "9447114045"
+  type: WatchEvent
+  repo: uhyo/better-typescript-lib
+  createdAt: 2026-05-14T06:05:03Z
+  payload:
+    kind: generic
+    action: started
+- id: "9447110222"
+  type: WatchEvent
+  repo: uhyo/jinrou
+  createdAt: 2026-05-14T06:04:55Z
+  payload:
+    kind: generic
+    action: started
+- id: "11838233621"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T05:55:13Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11838115195"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T05:50:56Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11837997850"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T05:46:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9446638724"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T05:46:40Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 229
+    title: ""
+- id: "11837997515"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T05:46:41Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11837856152"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T05:41:31Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/basic-fetchers
+    commits: []
+- id: "11837791240"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T05:39:08Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11837624959"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T05:33:12Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11837357884"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T05:23:25Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11837151811"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T05:15:41Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/basic-fetchers
+    commits: []
+- id: "11837125414"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T05:14:44Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11836914826"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T05:06:38Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/basic-fetchers
+    commits: []
+- id: "9445497220"
+  type: WatchEvent
+  repo: pkgdeps/automerge-gate
+  createdAt: 2026-05-14T05:03:58Z
+  payload:
+    kind: generic
+    action: started
+- id: "11836766835"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T05:01:12Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11836585189"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T04:54:44Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/basic-fetchers
+    commits: []
+- id: "11836549308"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:53:29Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11836363277"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:46:29Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11836215270"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:41:01Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11836085736"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-05-14T04:36:13Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11836085582"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-14T04:36:13Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11836084833"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-14T04:36:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11836083363"
+  type: PushEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-05-14T04:36:08Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9444835983"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T04:36:07Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 229
+    title: ""
+- id: "9444835539"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-05-14T04:36:06Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 515
+    prTitle: ""
+    state: approved
+- id: "9444834496"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-14T04:36:03Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 433
+    prTitle: ""
+    state: approved
+- id: "9444832760"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-05-14T04:35:59Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 236
+    prTitle: ""
+    state: approved
+- id: "11836074048"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T04:35:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11835985883"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:32:30Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11835759777"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:23:41Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11835622784"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:18:04Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11835526820"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:14:14Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11835318778"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T04:05:59Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11835112708"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:59:16Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11834949701"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:52:49Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11834802383"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:46:53Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11834487365"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:34:34Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11834369582"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:30:04Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11834252801"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:25:29Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11834122150"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:20:22Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11833968388"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:14:16Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11833726666"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T03:04:47Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11833491788"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T02:56:34Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11833341844"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T02:50:49Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11833093126"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T02:41:20Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11833076646"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T02:40:42Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11833076900"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T02:40:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9441972008"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T02:40:37Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 206
+    prTitle: ""
+    state: approved
+- id: "11832851262"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T02:32:12Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11832625993"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T02:23:41Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11832430568"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T02:15:51Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11832178313"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T02:06:14Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11832173246"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T02:06:03Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "9440982100"
+  type: IssueCommentEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T02:03:05Z
+  payload:
+    kind: generic
+    action: created
+- id: "11831962998"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:58:32Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11831868952"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:54:52Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11831743841"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:50:07Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11831626314"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:45:25Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11831580265"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T01:43:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11831579239"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T01:43:31Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9440445607"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T01:43:30Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 228
+    title: ""
+- id: "11831578210"
+  type: DeleteEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-14T01:43:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9440444192"
+  type: PullRequestEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-14T01:43:27Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 52
+    title: ""
+- id: "11831578048"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-14T01:43:28Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11831577551"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T01:43:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9440443461"
+  type: PullRequestEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T01:43:24Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 716
+    title: ""
+- id: "11831576871"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T01:43:25Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11831576210"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T01:43:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11831575805"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T01:43:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9440441896"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T01:43:21Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 205
+    title: ""
+- id: "11831568910"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:43:05Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9440434594"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:43:02Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 427
+    title: ""
+- id: "11831568287"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:43:03Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11831536914"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T01:41:42Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831527268"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-14T01:41:17Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831518172"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T01:40:55Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831509424"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T01:40:34Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831499366"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:40:09Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831483525"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T01:39:29Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831467296"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-14T01:38:48Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831453253"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T01:38:13Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831436582"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T01:37:30Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831424561"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:37:01Z
+  payload:
+    kind: push
+    ref: refs/heads/docs/add-share-and-star-footer
+    commits: []
+- id: "11831363315"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:34:31Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "9440190093"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T01:33:55Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 228
+    title: ""
+- id: "11831348358"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-14T01:33:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9440168960"
+  type: PullRequestEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-14T01:33:13Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 52
+    title: ""
+- id: "11831330400"
+  type: CreateEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-05-14T01:33:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11831311011"
+  type: CreateEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T01:32:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9440145143"
+  type: PullRequestEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-14T01:32:25Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 716
+    title: ""
+- id: "9440117111"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T01:31:26Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 205
+    title: ""
+- id: "11831285818"
+  type: CreateEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-14T01:31:25Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9440101346"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:30:52Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 427
+    title: ""
+- id: "11831268077"
+  type: CreateEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:30:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11831179896"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:27:14Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11830958604"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:18:18Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11830779577"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:11:00Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11830593797"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T01:03:35Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11830436686"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T00:57:47Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11830254746"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T00:50:14Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11830174616"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T00:47:00Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11830044431"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T00:41:39Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "11829824811"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T00:32:56Z
+  payload:
+    kind: push
+    ref: refs/heads/improve-line-coverage-20260514-001553
+    commits: []
+- id: "9438348112"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T00:24:05Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 426
+    title: ""
+- id: "11829596364"
+  type: CreateEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-14T00:24:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9430319898"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-13T19:59:23Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 715
+    prTitle: ""
+    state: approved
+- id: "9429464438"
+  type: WatchEvent
+  repo: orhun/ratty
+  createdAt: 2026-05-13T19:36:56Z
+  payload:
+    kind: generic
+    action: started
+- id: "11815686372"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-13T17:56:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11815685214"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-13T17:56:47Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9425648667"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-13T17:56:46Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 424
+    title: ""
+- id: "11810646549"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-13T16:03:31Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11810644720"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-13T16:03:28Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11810643931"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-13T16:03:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11810642592"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-13T16:03:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9421328266"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-13T16:03:15Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 425
+    prTitle: ""
+    state: approved
