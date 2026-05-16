@@ -5069,3 +5069,543 @@
     prNumber: 49
     prTitle: ""
     state: approved
+- id: "9535410202"
+  type: PullRequestEvent
+  repo: ratatui/awesome-ratatui
+  createdAt: 2026-05-16T09:54:49Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 319
+    title: ""
+- id: "9533598907"
+  type: WatchEvent
+  repo: ubugeeei/vize
+  createdAt: 2026-05-16T07:30:19Z
+  payload:
+    kind: generic
+    action: started
+- id: "9530681475"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:13Z
+  payload:
+    kind: issues
+    action: closed
+    number: 192
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9530681473"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:13Z
+  payload:
+    kind: issues
+    action: closed
+    number: 190
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9530681470"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:13Z
+  payload:
+    kind: issues
+    action: closed
+    number: 189
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9530681245"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 188
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9530681243"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 187
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9530681239"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 185
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9530681233"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 184
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9530681227"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 186
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9530681225"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:05:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 183
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9530628809"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:01:48Z
+  payload:
+    kind: issues
+    action: closed
+    number: 182
+    title: "[CI Failure] unhappychoice/blog"
+- id: "9530628444"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:01:46Z
+  payload:
+    kind: generic
+    action: created
+- id: "9530628264"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:01:44Z
+  payload:
+    kind: generic
+    action: created
+- id: "9530628236"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:01:46Z
+  payload:
+    kind: issues
+    action: closed
+    number: 181
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "9530628211"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:01:46Z
+  payload:
+    kind: issues
+    action: closed
+    number: 180
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "9530627623"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T04:01:42Z
+  payload:
+    kind: generic
+    action: created
+- id: "11931489819"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-05-16T03:59:45Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11931468363"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-16T03:58:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9530580845"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-16T03:58:25Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 434
+    title: ""
+- id: "11931467933"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-16T03:58:26Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9530579929"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-05-16T03:58:21Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 517
+    title: ""
+- id: "11931466919"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-05-16T03:58:22Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11931456290"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-16T03:57:44Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11931455839"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-16T03:57:43Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9530570959"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-16T03:57:42Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 713
+    title: ""
+- id: "9530534749"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-16T03:55:05Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 713
+    title: ""
+- id: "11931405318"
+  type: CreateEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-16T03:54:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9530502885"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-16T03:52:21Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 434
+    title: ""
+- id: "11931357466"
+  type: CreateEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-05-16T03:52:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9530489906"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-05-16T03:51:06Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 517
+    title: ""
+- id: "11931335344"
+  type: CreateEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-05-16T03:50:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11931094774"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-16T03:37:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9530336127"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-16T03:37:16Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 239
+    title: ""
+- id: "11931094307"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-16T03:37:17Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9527447926"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:07Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 192
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9527447886"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:06Z
+  payload:
+    kind: issues
+    action: opened
+    number: 192
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9527447826"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:06Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 191
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "9527447728"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:06Z
+  payload:
+    kind: issues
+    action: opened
+    number: 191
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "9527447701"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:06Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 190
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9527447614"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:05Z
+  payload:
+    kind: issues
+    action: opened
+    number: 190
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9527447486"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:05Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 189
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9527447410"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:05Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 188
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9527447407"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:05Z
+  payload:
+    kind: issues
+    action: opened
+    number: 189
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9527447331"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:04Z
+  payload:
+    kind: issues
+    action: opened
+    number: 188
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9527447193"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:04Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 187
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9527447134"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:04Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 186
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9527447103"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:04Z
+  payload:
+    kind: issues
+    action: opened
+    number: 187
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9527447031"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:04Z
+  payload:
+    kind: issues
+    action: opened
+    number: 186
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9527446834"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:03Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 185
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9527446821"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:03Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 184
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9527446715"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:03Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 183
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9527446712"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:03Z
+  payload:
+    kind: issues
+    action: opened
+    number: 185
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9527446688"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:03Z
+  payload:
+    kind: issues
+    action: opened
+    number: 184
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9527446604"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:02Z
+  payload:
+    kind: issues
+    action: opened
+    number: 183
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9527446573"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:02Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 182
+    title: "[CI Failure] unhappychoice/blog"
+- id: "9527446476"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:02Z
+  payload:
+    kind: issues
+    action: opened
+    number: 182
+    title: "[CI Failure] unhappychoice/blog"
+- id: "9527446458"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:02Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 181
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "9527446373"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:02Z
+  payload:
+    kind: issues
+    action: opened
+    number: 181
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "9527446338"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:02Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 180
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "9527446281"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-16T00:16:01Z
+  payload:
+    kind: issues
+    action: opened
+    number: 180
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "11910207393"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-15T15:34:42Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260515-043632
+    commits: []
+- id: "11909341401"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-15T15:13:43Z
+  payload:
+    kind: push
+    ref: refs/heads/test/coverage-up-20260515-043632
+    commits: []
