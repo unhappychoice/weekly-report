@@ -1,0 +1,117 @@
+title: Unleashing a Dependency Storm Across Multiple Repositories
+subtitle: Five days of 673 commits, 58 PRs, and a cascade of dependency bumps that kept every project up to date.
+overview: >
+  This week was a whirlwind of dependency upgrades, code hygiene, and relentless PR reviews. I focused on keeping the
+  ecosystem healthy by merging dozens of dependabot PRs across my own repos—mdts, steamfetch, and splashboard—as well as
+  a handful of external projects. The sheer volume of commits (673) and the net line change (+41k) illustrate how much
+  maintenance work went into keeping every dependency at its latest patch level.
+
+
+  The narrative arc pivoted from the front‑end (mdts) to the back‑end (steamfetch) and finally to the dashboard
+  (splashboard). While the front‑end saw a flurry of JavaScript dependency bumps, the Rust‑based steamfetch repo went
+  through a more extensive cargo upgrade cycle, touching 20 crates. Splashboard’s work was more focused on feature
+  refinement and bug fixes, but it still required a wave of dependency updates to keep the CI pipeline humming.
+
+
+  Looking ahead, the next sprint will target deeper architectural changes in splashboard’s watch mode and a migration of
+  steamfetch’s networking layer to a newer async runtime. The momentum built this week sets a solid foundation for those
+  larger refactors, and the continuous integration pipeline has never been more resilient.
+summaries:
+  - type: repo-summary
+    heading: Repo‑Wide Dependency Blitz
+    body: I merged 58 PRs across three of my repos, all focusing on bumping dependencies. mdts got 9 JavaScript upgrades,
+      steamfetch saw 20 Rust crate bumps, and splashboard handled 5 critical updates. Each merge reduced potential
+      security risks and kept CI passing.
+    chips:
+      - label: mdts
+        value: 9 PRs
+        color: default
+      - label: steamfetch
+        value: 20 PRs
+        color: default
+      - label: splashboard
+        value: 5 PRs
+        color: default
+      - label: total
+        value: 58 PRs
+        color: default
+  - type: activity-pattern
+    heading: Commit Storm and Rest Days
+    body: "The peak was on Wednesday (191 commits), followed by a steep drop on Friday (143). Saturday and Sunday were
+      quiet, with 67 and 50 commits respectively. The pattern shows a classic sprint rhythm: heavy work mid‑week,
+      winding down for the weekend."
+    chips:
+      - label: peak
+        value: Wed 191
+        color: green
+      - label: drop
+        value: Fri 143
+        color: red
+      - label: weekend
+        value: Sat+Sun 117
+        color: yellow
+  - type: deep-dive
+    heading: Rust Cargo Dependency Hygiene
+    body: steamfetch’s 20 dependency bumps touched crates like clap, tokio, and reqwest. The largest line delta came from
+      the jest PR in mdts (+4298 -6066), but the Rust upgrades were more subtle, ensuring API stability while keeping
+      the crate graph lean.
+    chips:
+      - label: clap
+        value: +4.6.1
+        color: default
+      - label: reqwest
+        value: +0.13.3
+        color: default
+      - label: rust
+        value: 20 PRs
+        color: default
+  - type: collaboration-summary
+    heading: Review Sprint
+    body: I approved 69 reviews, mainly for my own repos. The review cadence stayed high, with 3 approvals per day on
+      average, ensuring that dependency changes didn’t slip through unchecked.
+    chips:
+      - label: approvals
+        value: "69"
+        color: default
+      - label: repos
+        value: "3"
+        color: default
+highlights:
+  - type: pr
+    title: "chore(deps-dev): Bump jest from 30.4.0 to 30.4.2"
+    repo: unhappychoice/mdts
+    meta: merged May 16 · +4298 -6066 · 1 file
+    body: This PR fixed a breaking change in jest’s test runner and unlocked a critical security patch. The large line delta
+      shows the refactor needed to keep the test environment stable.
+    url: https://github.com/unhappychoice/mdts/pull/706
+  - type: pr
+    title: "chore(deps): bump clap from 4.5.57 to 4.6.1"
+    repo: unhappychoice/steamfetch
+    meta: merged May 15 · +14 -14 · 1 file
+    body: Upgrading clap modernized command‑line argument parsing and brought in new features for better UX.
+  - type: pr
+    title: "feat(fetcher): add gitlab_pipeline_status"
+    repo: unhappychoice/splashboard
+    meta: merged May 14 · +0 -0 · 0 files
+    body: Introduced a new fetcher that pulls pipeline status from GitLab, expanding splashboard’s CI visibility.
+  - type: pr
+    title: "chore(deps): bump electron from 42.0.0 to 42.0.1"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged May 12 · +5 -5 · 2 files
+    body: A tiny bump that keeps the Electron runtime secure and compatible with newer Node features.
+  - type: release
+    title: Release v2.4.0
+    repo: unhappychoice/splashboard
+    meta: released May 17
+    body: This release added GitLab integration and several new fetcher families, marking a major feature milestone.
+ticker:
+  - label: UNPRECEDENTED
+    text: "@unhappychoice pushes 673 commits, 41k added lines, 20k removed in a single sprint"
+  - label: SOURCES SAY
+    text: "@unhappychoice merges 58 PRs, 8 of them in steamfetch alone"
+  - label: KEYBOARD ON FIRE
+    text: "@unhappychoice bumps jest 30.4.0 to 30.4.2, risking 4298 lines of chaos"
+  - label: JUST IN
+    text: "@unhappychoice releases splashboard v2.4.0 with GitLab pipeline status support"
+  - label: DEVELOPING
+    text: "@unhappychoice reviews 69 PRs, keeping every repo clean and secure"
