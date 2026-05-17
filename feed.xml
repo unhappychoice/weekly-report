@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Unleashing a Dependency Storm Across Multiple Repositories</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W20/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W20/</guid>
+      <description>Five days of 673 commits, 58 PRs, and a cascade of dependency bumps that kept every project up to date.
+
+This week was a whirlwind of dependency upgrades, code hygiene, and relentless PR reviews. I focused on keeping the ecosystem healthy by merging dozens of dependabot PRs across my own repos—mdts, steamfetch, and splashboard—as well as a handful of external projects. The sheer volume of commits (673) and the net line change (+41k) illustrate how much maintenance work went into keeping every dependency at its latest patch level.
+
+The narrative arc pivoted from the front‑end (mdts) to the back‑end (steamfetch) and finally to the dashboard (splashboard). While the front‑end saw a flurry of JavaScript dependency bumps, the Rust‑based steamfetch repo went through a more extensive cargo upgrade cycle, touching 20 crates. Splashboard’s work was more focused on feature refinement and bug fixes, but it still required a wave of dependency updates to keep the CI pipeline humming.
+
+Looking ahead, the next sprint will target deeper architectural changes in splashboard’s watch mode and a migration of steamfetch’s networking layer to a newer async runtime. The momentum built this week sets a solid foundation for those larger refactors, and the continuous integration pipeline has never been more resilient.
+
+
+Commits: 673, PRs: 58, Reviews: 69</description>
+      <pubDate>Sun, 17 May 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W20/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W20/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Splashboard Showcase Gallery and Lobsters Top Fetcher Sprint</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W19/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W19/</guid>
