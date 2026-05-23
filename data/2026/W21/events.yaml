@@ -2154,3 +2154,746 @@
     prNumber: 54
     prTitle: ""
     state: approved
+- id: "12264676659"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T09:29:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9815969007"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T09:29:25Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 251
+    title: ""
+- id: "12264676375"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T09:29:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12264345691"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T09:12:18Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/claude-fetchers
+    commits: []
+- id: "9815630846"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T08:59:26Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 251
+    title: ""
+- id: "12264066603"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T08:58:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9815409233"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-23T08:39:58Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 717
+    prTitle: ""
+    state: commented
+- id: "12260732214"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-05-23T06:05:52Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "12260683825"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T06:03:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12260683484"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T06:03:22Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9813266327"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T06:03:17Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 720
+    prTitle: ""
+    state: approved
+- id: "9813263591"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T06:03:07Z
+  payload:
+    kind: issues
+    action: closed
+    number: 191
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "12260619416"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-05-23T06:00:41Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "12260574128"
+  type: DeleteEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-05-23T05:58:31Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813209023"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:58:31Z
+  payload:
+    kind: issues
+    action: closed
+    number: 199
+    title: "[CI Failure] unhappychoice/terminal_image"
+- id: "12260573774"
+  type: PushEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-05-23T05:58:30Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9813208971"
+  type: PullRequestEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-05-23T05:58:29Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 568
+    title: ""
+- id: "12260569804"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T05:58:17Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813206387"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T05:58:14Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 719
+    title: ""
+- id: "9813206265"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:58:16Z
+  payload:
+    kind: issues
+    action: closed
+    number: 198
+    title: "[CI Failure] unhappychoice/blog"
+- id: "12260569320"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T05:58:15Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "12260561764"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-05-23T05:57:52Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813201630"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-05-23T05:57:50Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 636
+    title: ""
+- id: "12260561552"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-05-23T05:57:51Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9813201450"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:51Z
+  payload:
+    kind: issues
+    action: closed
+    number: 197
+    title: "[CI Failure] irasutoya-tools/irasutoya-cli"
+- id: "12260560115"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-23T05:57:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813200629"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-23T05:57:45Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 519
+    title: ""
+- id: "12260559910"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-23T05:57:46Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9813200294"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:46Z
+  payload:
+    kind: issues
+    action: closed
+    number: 196
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "9813200212"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:46Z
+  payload:
+    kind: issues
+    action: closed
+    number: 200
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "12260558601"
+  type: DeleteEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-05-23T05:57:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813199445"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-05-23T05:57:40Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 679
+    title: ""
+- id: "12260558353"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-05-23T05:57:41Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "9813199388"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:41Z
+  payload:
+    kind: issues
+    action: closed
+    number: 202
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9813199375"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:41Z
+  payload:
+    kind: issues
+    action: closed
+    number: 195
+    title: "[CI Failure] bitflyer-tools/bitflyer"
+- id: "9813198127"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:35Z
+  payload:
+    kind: issues
+    action: closed
+    number: 201
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9813197329"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:31Z
+  payload:
+    kind: issues
+    action: closed
+    number: 205
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9813196593"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:27Z
+  payload:
+    kind: issues
+    action: closed
+    number: 204
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9813195117"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:21Z
+  payload:
+    kind: issues
+    action: closed
+    number: 203
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9813193815"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:15Z
+  payload:
+    kind: issues
+    action: closed
+    number: 206
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9813192756"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:10Z
+  payload:
+    kind: issues
+    action: closed
+    number: 208
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9813192249"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T05:57:07Z
+  payload:
+    kind: issues
+    action: closed
+    number: 207
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "12260544362"
+  type: PushEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-05-23T05:56:56Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/refresh-parallel-rubocop-lock
+    commits: []
+- id: "9813116434"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T05:51:27Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 719
+    title: ""
+- id: "12260445057"
+  type: CreateEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-05-23T05:51:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813108955"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-05-23T05:50:50Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 636
+    title: ""
+- id: "9813108282"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-23T05:50:47Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 519
+    title: ""
+- id: "9813107496"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-05-23T05:50:43Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 679
+    title: ""
+- id: "12260432270"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-05-23T05:50:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12260431469"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-05-23T05:50:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12260430664"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-05-23T05:50:30Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813097825"
+  type: PullRequestEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-05-23T05:49:55Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 568
+    title: ""
+- id: "12260417346"
+  type: CreateEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-05-23T05:49:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "9813008961"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T05:42:25Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 250
+    title: ""
+- id: "12260291130"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T05:42:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12260290834"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-23T05:42:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12260273555"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-23T05:41:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12260273112"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-23T05:41:25Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "9812990739"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-23T05:41:10Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 430
+    prTitle: ""
+    state: approved
+- id: "9809081001"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 206
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9809080992"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 208
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9809080982"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 205
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9809080948"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:55Z
+  payload:
+    kind: issues
+    action: opened
+    number: 208
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "9809080945"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:55Z
+  payload:
+    kind: issues
+    action: opened
+    number: 206
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "9809080911"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:55Z
+  payload:
+    kind: issues
+    action: opened
+    number: 205
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "9809080874"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 207
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9809080801"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:54Z
+  payload:
+    kind: issues
+    action: opened
+    number: 207
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "9809080669"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 204
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9809080520"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:54Z
+  payload:
+    kind: issues
+    action: opened
+    number: 204
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "9809080501"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 203
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9809080457"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 203
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "9809080447"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 202
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9809080367"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 202
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "9809080354"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 201
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9809080342"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 199
+    title: "[CI Failure] unhappychoice/terminal_image"
+- id: "9809080327"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 200
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9809080274"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 199
+    title: "[CI Failure] unhappychoice/terminal_image"
+- id: "9809080263"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 201
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "9809080244"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:53Z
+  payload:
+    kind: issues
+    action: opened
+    number: 200
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "9809080142"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 198
+    title: "[CI Failure] unhappychoice/blog"
+- id: "9809080091"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:52Z
+  payload:
+    kind: issues
+    action: opened
+    number: 198
+    title: "[CI Failure] unhappychoice/blog"
+- id: "9809080016"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 197
+    title: "[CI Failure] irasutoya-tools/irasutoya-cli"
+- id: "9809079988"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 195
+    title: "[CI Failure] bitflyer-tools/bitflyer"
+- id: "9809079959"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:52Z
+  payload:
+    kind: issues
+    action: opened
+    number: 197
+    title: "[CI Failure] irasutoya-tools/irasutoya-cli"
+- id: "9809079917"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:51Z
+  payload:
+    kind: issues
+    action: opened
+    number: 195
+    title: "[CI Failure] bitflyer-tools/bitflyer"
+- id: "9809079864"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:51Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 196
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "9809079803"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-23T00:18:51Z
+  payload:
+    kind: issues
+    action: opened
+    number: 196
+    title: "[CI Failure] irasutoya-tools/irasutoya"
