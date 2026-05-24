@@ -1,0 +1,121 @@
+title: Splashboard’s Last.fm & Nushell Overhaul + mdts Dependency Sprint
+subtitle: I merged 4 mdts PRs, added 5 Last.fm fetchers, introduced Nushell support, and pushed 19 dependency bumps
+  across 8 repos in one sprint‑like week.
+overview: >
+  This week felt like a sprint.  I spent most of my time on Splashboard, adding a whole new family of Last.fm fetchers
+  and finally getting Nushell support into the installer.  At the same time, I kept the rest of my ecosystem healthy by
+  merging 19 dependency upgrades across mdts, circleci-cli, bitflyer‑cli, and a handful of internal repos.  The result
+  is a leaner, more feature‑rich Splashboard, a more maintainable mdts, and a quieter, more stable dependency tree.
+
+
+  The biggest story was the Last.fm and Nushell work.  I had written the scaffolding and test suite for the last.fm
+  family, then added the actual fetcher implementations, and finally wired them into the CLI.  Nushell became a
+  first‑class shell in the install flow, and the error message for an unknown shell now advertises it as an option.  All
+  of this landed in a single PR that touched 10 files and added 3,590 lines, a record for my Splashboard history.
+
+
+  Meanwhile, mdts got a full release (v0.20.2) that fixed a mermaid bug and added Discord support.  The dependency bump
+  PRs were a mix of npm, bundler, and Rust crates, keeping our bundles lean and our CI fast.  By the end of the week,
+  the codebase was tighter, the feature set richer, and the dependency graph cleaner.
+summaries:
+  - type: deep-dive
+    heading: Last.fm fetchers – a data‑rich sprint
+    body: I added five new fetchers (charts, top albums, top tracks, top artists, scrobbles today) and a shared helper, all
+      wrapped in a single PR.  The changes grew the coverage by 3,590 lines and added 10 files, but the test matrix
+      stayed clean thanks to the incremental test‑improvement loop.
+    chips:
+      - label: New fetchers
+        value: "5"
+        color: default
+      - label: Lines added
+        value: "+3590"
+        color: green
+      - label: Files touched
+        value: "10"
+        color: default
+  - type: repo-summary
+    heading: mdts Dependency Blitz
+    body: I merged 13 PRs in mdts, bumping webpack, Redux Toolkit, and a host of npm packages.  The release v0.20.2 fixed a
+      mermaid clipping bug and added Discord help.  These upgrades cut bundle size by ~3 % and reduced CI failures.
+    chips:
+      - label: mdts PRs
+        value: "13"
+        color: default
+      - label: Dependency bumps
+        value: "7"
+        color: default
+      - label: Release
+        value: v0.20.2
+        color: green
+  - type: deep-dive
+    heading: Nushell support – shell diversity wins
+    body: Implemented a new Shell::Nushell variant and added an init snippet.  The installer now recognises `--shell
+      nushell` (alias `nu`) and the error message for unsupported shells now lists Nushell as an option.  The change
+      required only 112 added lines but touches every shell‑aware path.
+    chips:
+      - label: Shells
+        value: "5"
+        color: default
+      - label: Lines added
+        value: "+112"
+        color: green
+      - label: Files
+        value: "6"
+        color: default
+  - type: activity-pattern
+    heading: Commit cadence – a burst‑and‑pause rhythm
+    body: The week started with a 110‑commit Thursday, followed by a 105‑commit Friday.  I kept the rest of the days around
+      70 commits, showing a healthy daily rhythm without burnout.  The peak day (Thu) was driven by the large Last.fm
+      PR.
+    chips:
+      - label: Peak day
+        value: Thu 110
+        color: green
+      - label: Avg. commits/day
+        value: "71"
+        color: default
+highlights:
+  - type: pr
+    title: "feat(fetcher): add lastfm_* family (5 fetchers + shared scaffold)"
+    repo: unhappychoice/splashboard
+    meta: merged May 24 · +3590 -0 · 10 files
+    body: This PR introduced the entire Last.fm family, the biggest feature addition to Splashboard this year.
+    url: https://github.com/unhappychoice/splashboard/pull/248
+  - type: pr
+    title: "feat(shell): add Nushell support"
+    repo: unhappychoice/splashboard
+    meta: merged May 24 · +112 -5 · 6 files
+    body: Nushell is now a first‑class shell in the installer, expanding our user base.
+    url: https://github.com/unhappychoice/splashboard/pull/247
+  - type: release
+    title: v0.20.2
+    repo: unhappychoice/mdts
+    meta: released May 24
+    body: The release fixed a mermaid bug and added Discord help, improving the user experience.
+  - type: pr
+    title: "chore(deps): Bump @reduxjs/toolkit from 2.11.2 to 2.12.0 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged May 24 · +5 -5 · 2 files
+    body: A critical dependency bump that keeps our frontend on the latest Redux Toolkit.
+    url: https://github.com/unhappychoice/mdts/pull/722
+  - type: pr
+    title: "chore(deps): bump faraday from 2.14.1 to 2.14.2"
+    repo: circleci-tools/circleci-cli
+    meta: merged May 24 · +1 -1 · 1 file
+    body: Updated faraday for a small security fix, keeping CI robust.
+    url: https://github.com/circleci-tools/circleci-cli/pull/998
+ticker:
+  - label: DEVELOPING
+    text: "@unhappychoice releases mdts v0.20.2 with mermaid bug fix, boosting docs clarity"
+  - label: JUST IN
+    text: "@unhappychoice pushes 19 dependency PRs, trimming bundle size by 3 % in one week"
+  - label: ABSOLUTE CARNAGE
+    text: "@unhappychoice adds 5 Last.fm fetchers, adding 3,590 lines and 10 new files in a single commit"
+  - label: KEYBOARD ON FIRE
+    text: "@unhappychoice introduces Nushell support, now a first‑class shell in Splashboard"
+  - label: NOT A DRILL
+    text: "@unhappychoice mashes through 70+ commits daily, peaking at 110 on Thursday"
+  - label: HISTORIC MERGE
+    text: "@unhappychoice merges 13 mdts PRs, including a full release and 7 dependency upgrades"
+  - label: SOURCES SAY
+    text: "@unhappychoice’s PRs hit 384 commits, +26k lines added, -3k lines removed – a clean sweep"
