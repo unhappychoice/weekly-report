@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Splashboard’s Last.fm &amp; Nushell Overhaul + mdts Dependency Sprint</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W21/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W21/</guid>
+      <description>I merged 4 mdts PRs, added 5 Last.fm fetchers, introduced Nushell support, and pushed 19 dependency bumps across 8 repos in one sprint‑like week.
+
+This week felt like a sprint.  I spent most of my time on Splashboard, adding a whole new family of Last.fm fetchers and finally getting Nushell support into the installer.  At the same time, I kept the rest of my ecosystem healthy by merging 19 dependency upgrades across mdts, circleci-cli, bitflyer‑cli, and a handful of internal repos.  The result is a leaner, more feature‑rich Splashboard, a more maintainable mdts, and a quieter, more stable dependency tree.
+
+The biggest story was the Last.fm and Nushell work.  I had written the scaffolding and test suite for the last.fm family, then added the actual fetcher implementations, and finally wired them into the CLI.  Nushell became a first‑class shell in the install flow, and the error message for an unknown shell now advertises it as an option.  All of this landed in a single PR that touched 10 files and added 3,590 lines, a record for my Splashboard history.
+
+Meanwhile, mdts got a full release (v0.20.2) that fixed a mermaid bug and added Discord support.  The dependency bump PRs were a mix of npm, bundler, and Rust crates, keeping our bundles lean and our CI fast.  By the end of the week, the codebase was tighter, the feature set richer, and the dependency graph cleaner.
+
+
+Commits: 384, PRs: 16, Reviews: 48</description>
+      <pubDate>Sun, 24 May 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W21/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W21/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Unleashing a Dependency Storm Across Multiple Repositories</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W20/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W20/</guid>

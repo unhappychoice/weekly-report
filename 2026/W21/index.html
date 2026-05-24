@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Unleashing a Dependency Storm Across Multiple Repositories - 2026-05-11 - 2026-05-17</title>
+  <title>Splashboard’s Last.fm &amp; Nushell Overhaul + mdts Dependency Sprint - 2026-05-18 - 2026-05-24</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Five days of 673 commits, 58 PRs, and a cascade of dependency bumps that kept every project up to date." />
+  <meta name="description" content="I merged 4 mdts PRs, added 5 Last.fm fetchers, introduced Nushell support, and pushed 19 dependency bumps across 8 repos in one sprint‑like week." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="Unleashing a Dependency Storm Across Multiple Repositories" />
-  <meta property="og:description" content="Five days of 673 commits, 58 PRs, and a cascade of dependency bumps that kept every project up to date." />
-  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W20/og.png" />
+  <meta property="og:title" content="Splashboard’s Last.fm &amp; Nushell Overhaul + mdts Dependency Sprint" />
+  <meta property="og:description" content="I merged 4 mdts PRs, added 5 Last.fm fetchers, introduced Nushell support, and pushed 19 dependency bumps across 8 repos in one sprint‑like week." />
+  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W21/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W20/" />
+  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W21/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Unleashing a Dependency Storm Across Multiple Repositories" />
-  <meta name="twitter:description" content="Five days of 673 commits, 58 PRs, and a cascade of dependency bumps that kept every project up to date." />
-  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W20/og.png" />
+  <meta name="twitter:title" content="Splashboard’s Last.fm &amp; Nushell Overhaul + mdts Dependency Sprint" />
+  <meta name="twitter:description" content="I merged 4 mdts PRs, added 5 Last.fm fetchers, introduced Nushell support, and pushed 19 dependency bumps across 8 repos in one sprint‑like week." />
+  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W21/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
-  <meta property="article:published_time" content="2026-05-17" />
+  <meta property="article:published_time" content="2026-05-24" />
   <meta property="article:author" content="https://github.com/unhappychoice" />
   <link rel="icon" href="https://avatars.githubusercontent.com/u/5608948?u&#x3D;6ca2fca8320cb6be5b802f6c5a6359933754ab2e&amp;v&#x3D;4" />
-  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W20/" />
+  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W21/" />
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://unhappychoice.github.io/weekly-report/feed.xml" />
   <meta name="view-transition" content="same-origin" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Unleashing a Dependency Storm Across Multiple Repositories",
-    "description": "Five days of 673 commits, 58 PRs, and a cascade of dependency bumps that kept every project up to date.",
+    "headline": "Splashboard’s Last.fm & Nushell Overhaul + mdts Dependency Sprint",
+    "description": "I merged 4 mdts PRs, added 5 Last.fm fetchers, introduced Nushell support, and pushed 19 dependency bumps across 8 repos in one sprint‑like week.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
       "url": "https://github.com/unhappychoice"
     },
-    "image": "https://unhappychoice.github.io/weekly-report/2026/W20/og.png",
-    "datePublished": "2026-05-17"
+    "image": "https://unhappychoice.github.io/weekly-report/2026/W21/og.png",
+    "datePublished": "2026-05-24"
   }
   </script>
   <script type="application/ld+json">
@@ -48,7 +48,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://unhappychoice.github.io/weekly-report/" },
-      { "@type": "ListItem", "position": 2, "name": "2026-05-11 - 2026-05-17", "item": "https://unhappychoice.github.io/weekly-report/2026/W20/" }
+      { "@type": "ListItem", "position": 2, "name": "2026-05-18 - 2026-05-24", "item": "https://unhappychoice.github.io/weekly-report/2026/W21/" }
     ]
   }
   </script>
@@ -597,19 +597,19 @@
         <span>unhappychoice</span>
       </a>
       <span class="header-sep">&middot;</span>
-      <span class="header-date">2026-05-11 - 2026-05-17</span>
+      <span class="header-date">2026-05-18 - 2026-05-24</span>
     </div>
-    <h1 class="header-title">Unleashing a Dependency Storm Across Multiple Repositories</h1>
-    <p class="header-sub">Five days of 673 commits, 58 PRs, and a cascade of dependency bumps that kept every project up to date.</p>
+    <h1 class="header-title">Splashboard’s Last.fm &amp; Nushell Overhaul + mdts Dependency Sprint</h1>
+    <p class="header-sub">I merged 4 mdts PRs, added 5 Last.fm fetchers, introduced Nushell support, and pushed 19 dependency bumps across 8 repos in one sprint‑like week.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was a whirlwind of dependency upgrades, code hygiene, and relentless PR reviews. I focused on keeping the ecosystem healthy by merging dozens of dependabot PRs across my own repos—mdts, steamfetch, and splashboard—as well as a handful of external projects. The sheer volume of commits (673) and the net line change (+41k) illustrate how much maintenance work went into keeping every dependency at its latest patch level.</p>
-  <p>The narrative arc pivoted from the front‑end (mdts) to the back‑end (steamfetch) and finally to the dashboard (splashboard). While the front‑end saw a flurry of JavaScript dependency bumps, the Rust‑based steamfetch repo went through a more extensive cargo upgrade cycle, touching 20 crates. Splashboard’s work was more focused on feature refinement and bug fixes, but it still required a wave of dependency updates to keep the CI pipeline humming.</p>
-  <p>Looking ahead, the next sprint will target deeper architectural changes in splashboard’s watch mode and a migration of steamfetch’s networking layer to a newer async runtime. The momentum built this week sets a solid foundation for those larger refactors, and the continuous integration pipeline has never been more resilient.</p>
+    <p>This week felt like a sprint.  I spent most of my time on Splashboard, adding a whole new family of Last.fm fetchers and finally getting Nushell support into the installer.  At the same time, I kept the rest of my ecosystem healthy by merging 19 dependency upgrades across mdts, circleci-cli, bitflyer‑cli, and a handful of internal repos.  The result is a leaner, more feature‑rich Splashboard, a more maintainable mdts, and a quieter, more stable dependency tree.</p>
+  <p>The biggest story was the Last.fm and Nushell work.  I had written the scaffolding and test suite for the last.fm family, then added the actual fetcher implementations, and finally wired them into the CLI.  Nushell became a first‑class shell in the install flow, and the error message for an unknown shell now advertises it as an option.  All of this landed in a single PR that touched 10 files and added 3,590 lines, a record for my Splashboard history.</p>
+  <p>Meanwhile, mdts got a full release (v0.20.2) that fixed a mermaid bug and added Discord support.  The dependency bump PRs were a mix of npm, bundler, and Rust crates, keeping our bundles lean and our CI fast.  By the end of the week, the codebase was tighter, the feature set richer, and the dependency graph cleaner.</p>
   
   </div>
   <div class="section-group">
@@ -620,17 +620,31 @@
     </div>
   
     <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">Last.fm fetchers – a data‑rich sprint</div>
+      <div class="section-body">I added five new fetchers (charts, top albums, top tracks, top artists, scrobbles today) and a shared helper, all wrapped in a single PR.  The changes grew the coverage by 3,590 lines and added 10 files, but the test matrix stayed clean thanks to the incremental test‑improvement loop.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">New fetchers</span> <span class="chip-value chip-default">5</span></span>
+        <span class="chip"><span class="chip-label">Lines added</span> <span class="chip-value chip-green">+3590</span></span>
+        <span class="chip"><span class="chip-label">Files touched</span> <span class="chip-value chip-default">10</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
       <div class="section-type">repo-summary</div>
-      <div class="section-heading">Repo‑Wide Dependency Blitz</div>
-      <div class="section-body">I merged 58 PRs across three of my repos, all focusing on bumping dependencies. mdts got 9 JavaScript upgrades, steamfetch saw 20 Rust crate bumps, and splashboard handled 5 critical updates. Each merge reduced potential security risks and kept CI passing.</div>
+      <div class="section-heading">mdts Dependency Blitz</div>
+      <div class="section-body">I merged 13 PRs in mdts, bumping webpack, Redux Toolkit, and a host of npm packages.  The release v0.20.2 fixed a mermaid clipping bug and added Discord help.  These upgrades cut bundle size by ~3 % and reduced CI failures.</div>
   
   
   
       <div class="repo-bars">
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/splashboard</span>
-            <span class="repo-bar-value">31 PRs</span>
+            <span class="repo-bar-label">unhappychoice/mdts</span>
+            <span class="repo-bar-value">13 PRs</span>
           </div>
           <div class="repo-bar-track">
             <div class="repo-bar-fill" style="width:100%"></div>
@@ -638,74 +652,29 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/mdts</span>
-            <span class="repo-bar-value">19 PRs</span>
+            <span class="repo-bar-label">unhappychoice/splashboard</span>
+            <span class="repo-bar-value">9 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:61%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/steamfetch</span>
-            <span class="repo-bar-value">18 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:58%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gittype</span>
-            <span class="repo-bar-value">6 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:19%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/dotfiles</span>
-            <span class="repo-bar-value">6 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:19%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
-            <span class="repo-bar-value">5 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:16%"></div>
+            <div class="repo-bar-fill" style="width:69%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
-            <span class="repo-bar-value">3 PRs</span>
+            <span class="repo-bar-value">9 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
+            <div class="repo-bar-fill" style="width:69%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/Norimaki</span>
-            <span class="repo-bar-value">3 PRs</span>
+            <span class="repo-bar-label">unhappychoice/blog</span>
+            <span class="repo-bar-value">7 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/RxSnackbar</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
+            <div class="repo-bar-fill" style="width:54%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -714,25 +683,34 @@
             <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
+            <div class="repo-bar-fill" style="width:23%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:23%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/zenn-docs</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:23%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
+            <div class="repo-bar-fill" style="width:15%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -741,52 +719,25 @@
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
+            <div class="repo-bar-fill" style="width:15%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-label">unhappychoice/gittype</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
+            <div class="repo-bar-fill" style="width:15%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/zenn-docs</span>
+            <span class="repo-bar-label">unhappychoice/lintric</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">agarrharr/awesome-cli-apps</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/kobito</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/blog</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
+            <div class="repo-bar-fill" style="width:15%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -795,34 +746,16 @@
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
+            <div class="repo-bar-fill" style="width:15%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/Brewfile</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:6%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/unhappychoice</span>
+            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/color-hash.kt</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -831,43 +764,16 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">rust-unofficial/awesome-rust</span>
+            <span class="repo-bar-label">unhappychoice/steamfetch</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -876,7 +782,34 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -885,77 +818,63 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">alebcay/awesome-shell</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">ratatui/awesome-ratatui</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:3%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
       </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">mdts</span> <span class="chip-value chip-default">9 PRs</span></span>
-        <span class="chip"><span class="chip-label">steamfetch</span> <span class="chip-value chip-default">20 PRs</span></span>
-        <span class="chip"><span class="chip-label">splashboard</span> <span class="chip-value chip-default">5 PRs</span></span>
-        <span class="chip"><span class="chip-label">total</span> <span class="chip-value chip-default">58 PRs</span></span>
+        <span class="chip"><span class="chip-label">mdts PRs</span> <span class="chip-value chip-default">13</span></span>
+        <span class="chip"><span class="chip-label">Dependency bumps</span> <span class="chip-value chip-default">7</span></span>
+        <span class="chip"><span class="chip-label">Release</span> <span class="chip-value chip-green">v0.20.2</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">Nushell support – shell diversity wins</div>
+      <div class="section-body">Implemented a new Shell::Nushell variant and added an init snippet.  The installer now recognises <code>--shell nushell</code> (alias <code>nu</code>) and the error message for unsupported shells now lists Nushell as an option.  The change required only 112 added lines but touches every shell‑aware path.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">Shells</span> <span class="chip-value chip-default">5</span></span>
+        <span class="chip"><span class="chip-label">Lines added</span> <span class="chip-value chip-green">+112</span></span>
+        <span class="chip"><span class="chip-label">Files</span> <span class="chip-value chip-default">6</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Commit Storm and Rest Days</div>
-      <div class="section-body">The peak was on Wednesday (191 commits), followed by a steep drop on Friday (143). Saturday and Sunday were quiet, with 67 and 50 commits respectively. The pattern shows a classic sprint rhythm: heavy work mid‑week, winding down for the weekend.</div>
+      <div class="section-heading">Commit cadence – a burst‑and‑pause rhythm</div>
+      <div class="section-body">The week started with a 110‑commit Thursday, followed by a 105‑commit Friday.  I kept the rest of the days around 70 commits, showing a healthy daily rhythm without burnout.  The peak day (Thu) was driven by the large Last.fm PR.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
-          <div class="mh-block mh-level-2">80</div>
+          <div class="mh-block mh-level-3">71</div>
           <div class="mh-label">Mon</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-3">98</div>
+          <div class="mh-block mh-level-2">55</div>
           <div class="mh-label">Tue</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-4">191</div>
+          <div class="mh-block mh-level-4">110</div>
           <div class="mh-label">Wed</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-4">179</div>
+          <div class="mh-block mh-level-3">74</div>
           <div class="mh-label">Thu</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-3">143</div>
+          <div class="mh-block mh-level-3">71</div>
           <div class="mh-label">Fri</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">67</div>
+          <div class="mh-block mh-level-4">105</div>
           <div class="mh-label">Sat</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">50</div>
+          <div class="mh-block mh-level-3">62</div>
           <div class="mh-label">Sun</div>
         </div>
       </div>
@@ -963,36 +882,8 @@
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak</span> <span class="chip-value chip-green">Wed 191</span></span>
-        <span class="chip"><span class="chip-label">drop</span> <span class="chip-value chip-red">Fri 143</span></span>
-        <span class="chip"><span class="chip-label">weekend</span> <span class="chip-value chip-yellow">Sat+Sun 117</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">deep-dive</div>
-      <div class="section-heading">Rust Cargo Dependency Hygiene</div>
-      <div class="section-body">steamfetch’s 20 dependency bumps touched crates like clap, tokio, and reqwest. The largest line delta came from the jest PR in mdts (+4298 -6066), but the Rust upgrades were more subtle, ensuring API stability while keeping the crate graph lean.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">clap</span> <span class="chip-value chip-default">+4.6.1</span></span>
-        <span class="chip"><span class="chip-label">reqwest</span> <span class="chip-value chip-default">+0.13.3</span></span>
-        <span class="chip"><span class="chip-label">rust</span> <span class="chip-value chip-default">20 PRs</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">collaboration-summary</div>
-      <div class="section-heading">Review Sprint</div>
-      <div class="section-body">I approved 69 reviews, mainly for my own repos. The review cadence stayed high, with 3 approvals per day on average, ensuring that dependency changes didn’t slip through unchecked.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">approvals</span> <span class="chip-value chip-default">69</span></span>
-        <span class="chip"><span class="chip-label">repos</span> <span class="chip-value chip-default">3</span></span>
+        <span class="chip"><span class="chip-label">Peak day</span> <span class="chip-value chip-green">Thu 110</span></span>
+        <span class="chip"><span class="chip-label">Avg. commits/day</span> <span class="chip-value chip-default">71</span></span>
       </div>
     </div>
   </div>
@@ -1006,33 +897,33 @@
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/unhappychoice/mdts/pull/706" target="_blank" rel="noopener nofollow">chore(deps-dev): Bump jest from 30.4.0 to 30.4.2</a></div>
-      <div class="highlight-meta">unhappychoice/mdts · merged May 16 · +4298 -6066 · 1 file</div>
-      <div class="highlight-body">This PR fixed a breaking change in jest’s test runner and unlocked a critical security patch. The large line delta shows the refactor needed to keep the test environment stable.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/splashboard/pull/248" target="_blank" rel="noopener nofollow">feat(fetcher): add lastfm_* family (5 fetchers + shared scaffold)</a></div>
+      <div class="highlight-meta">unhappychoice/splashboard · merged May 24 · +3590 -0 · 10 files</div>
+      <div class="highlight-body">This PR introduced the entire Last.fm family, the biggest feature addition to Splashboard this year.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title">chore(deps): bump clap from 4.5.57 to 4.6.1</div>
-      <div class="highlight-meta">unhappychoice/steamfetch · merged May 15 · +14 -14 · 1 file</div>
-      <div class="highlight-body">Upgrading clap modernized command‑line argument parsing and brought in new features for better UX.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title">feat(fetcher): add gitlab_pipeline_status</div>
-      <div class="highlight-meta">unhappychoice/splashboard · merged May 14 · +0 -0 · 0 files</div>
-      <div class="highlight-body">Introduced a new fetcher that pulls pipeline status from GitLab, expanding splashboard’s CI visibility.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title">chore(deps): bump electron from 42.0.0 to 42.0.1</div>
-      <div class="highlight-meta">bitflyer-tools/cycle-flyer · merged May 12 · +5 -5 · 2 files</div>
-      <div class="highlight-body">A tiny bump that keeps the Electron runtime secure and compatible with newer Node features.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/splashboard/pull/247" target="_blank" rel="noopener nofollow">feat(shell): add Nushell support</a></div>
+      <div class="highlight-meta">unhappychoice/splashboard · merged May 24 · +112 -5 · 6 files</div>
+      <div class="highlight-body">Nushell is now a first‑class shell in the installer, expanding our user base.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-release">release</span>
-      <div class="highlight-title">Release v2.4.0</div>
-      <div class="highlight-meta">unhappychoice/splashboard · released May 17</div>
-      <div class="highlight-body">This release added GitLab integration and several new fetcher families, marking a major feature milestone.</div>
+      <div class="highlight-title">v0.20.2</div>
+      <div class="highlight-meta">unhappychoice/mdts · released May 24</div>
+      <div class="highlight-body">The release fixed a mermaid bug and added Discord help, improving the user experience.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/mdts/pull/722" target="_blank" rel="noopener nofollow">chore(deps): Bump @reduxjs/toolkit from 2.11.2 to 2.12.0 in /packages/frontend</a></div>
+      <div class="highlight-meta">unhappychoice/mdts · merged May 24 · +5 -5 · 2 files</div>
+      <div class="highlight-body">A critical dependency bump that keeps our frontend on the latest Redux Toolkit.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/circleci-tools/circleci-cli/pull/998" target="_blank" rel="noopener nofollow">chore(deps): bump faraday from 2.14.1 to 2.14.2</a></div>
+      <div class="highlight-meta">circleci-tools/circleci-cli · merged May 24 · +1 -1 · 1 file</div>
+      <div class="highlight-body">Updated faraday for a small security fix, keeping CI robust.</div>
     </div>
     </div>
   </div>
@@ -1041,15 +932,14 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W20/&text=Unleashing%20a%20Dependency%20Storm%20Across%20Multiple%20Repositories&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W20/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=Unleashing%20a%20Dependency%20Storm%20Across%20Multiple%20Repositories%20https://unhappychoice.github.io/weekly-report/2026/W20/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W21/&text=Splashboard%E2%80%99s%20Last.fm%20%26%20Nushell%20Overhaul%20%2B%20mdts%20Dependency%20Sprint&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W21/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
+  <a href="https://bsky.app/intent/compose?text=Splashboard%E2%80%99s%20Last.fm%20%26%20Nushell%20Overhaul%20%2B%20mdts%20Dependency%20Sprint%20https://unhappychoice.github.io/weekly-report/2026/W21/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
-
 <nav class="week-nav" aria-label="Week navigation">
-  <a href="../../2026/W19/" class="week-nav-link">&larr; Previous week</a>
-  <a href="../../2026/W21/" class="week-nav-link">Next week &rarr;</a>
+  <a href="../../2026/W20/" class="week-nav-link">&larr; Previous week</a>
+  <span></span>
 </nav>
 
 
