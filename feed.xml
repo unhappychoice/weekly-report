@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Chore‑Heavy Sprint: 19 Dependency Bumps Across 9 Repos</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W22/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W22/</guid>
+      <description>I pushed 227 commits, 8,560 lines added, and 4,246 lines removed while keeping every dependency up‑to‑date.
+
+This week felt like a marathon of dependency maintenance. I opened ten PRs, all of which were focused on bumping libraries across nine repositories—from the frontend tooling in mdts to the Rust crates in splashboard, steamfetch, and gittype. The volume of changes was high: 227 commits and a net addition of 8,560 lines, even as I trimmed 4,246 lines by removing deprecated code paths.
+
+The narrative arc was clear: first, I dove into mdts, performing a sweeping upgrade of Babel, TypeScript, and webpack packages, which pushed almost 5,000 lines of new code and removed more than 2,500 lines of old boilerplate. Next, I tackled the Rust ecosystem, bumping serde_json, reqwest, and ws in splashboard and steamfetch, followed by a round of dependency updates in the Ruby‑based slack_channel_stats and blog. The final push was a lightweight update to the Electron runtime in cycle‑flyer.
+
+Looking ahead, the pattern is set: maintainability will remain the core driver. I’ll shift focus to testing coverage and security audits, but the momentum from this sprint should keep the dependency graph healthy for the next couple of weeks.
+
+
+Commits: 227, PRs: 10, Reviews: 41</description>
+      <pubDate>Sun, 31 May 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W22/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W22/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Splashboard’s Last.fm &amp; Nushell Overhaul + mdts Dependency Sprint</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W21/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W21/</guid>
