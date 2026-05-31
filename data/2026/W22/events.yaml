@@ -1082,3 +1082,614 @@
     action: opened
     number: 209
     title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "12615247732"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:44:11Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12615247997"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:44:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12615109038"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:38:45Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12615109300"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:38:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10100910720"
+  type: IssueCommentEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:36:19Z
+  payload:
+    kind: generic
+    action: created
+- id: "12615047005"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:36:14Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10100849074"
+  type: IssueCommentEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:31:54Z
+  payload:
+    kind: generic
+    action: created
+- id: "12614909880"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:30:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12614909294"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:30:49Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10100833933"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:30:48Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 210
+    title: ""
+- id: "12614865247"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T14:29:13Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12614864885"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T14:29:12Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10100747094"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:24:15Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 438
+    title: ""
+- id: "12614738494"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:24:16Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12614738791"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:24:16Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10100680368"
+  type: IssueCommentEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:19:29Z
+  payload:
+    kind: generic
+    action: created
+- id: "12614614612"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:19:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10100678227"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:19:19Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 437
+    title: ""
+- id: "12614614321"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:19:20Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12614506721"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:15:07Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/ci-nix-build-update-action
+    commits: []
+- id: "10100609011"
+  type: IssueCommentEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:14:14Z
+  payload:
+    kind: generic
+    action: created
+- id: "10100607604"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:14:09Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 438
+    title: ""
+- id: "12614478317"
+  type: CreateEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:13:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10100556536"
+  type: PullRequestEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:10:58Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 437
+    title: ""
+- id: "12614399163"
+  type: CreateEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T14:10:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12614367628"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T14:09:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12614367239"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T14:09:38Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10100520255"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T14:09:24Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 257
+    prTitle: ""
+    state: approved
+- id: "10100519033"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T14:09:21Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 258
+    prTitle: ""
+    state: approved
+- id: "10100506601"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:08:54Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 210
+    title: ""
+- id: "12614345088"
+  type: CreateEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-05-31T14:08:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10100451031"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T14:05:39Z
+  payload:
+    kind: generic
+    action: created
+- id: "10100450669"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T14:05:38Z
+  payload:
+    kind: generic
+    action: created
+- id: "12612276614"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:45:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12612276118"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:45:35Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10099330303"
+  type: IssuesEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:45:36Z
+  payload:
+    kind: issues
+    action: closed
+    number: 749
+    title: mdts default theme/configuration is unreadable
+- id: "10099330176"
+  type: PullRequestEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:45:34Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 752
+    title: ""
+- id: "12612083180"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:37:07Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/inline-code-unreadable-on-auto-theme
+    commits: []
+- id: "12612003373"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:33:40Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/inline-code-unreadable-on-auto-theme
+    commits: []
+- id: "10099151276"
+  type: PullRequestEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:31:36Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 752
+    title: ""
+- id: "12611950919"
+  type: CreateEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-05-31T12:31:25Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10094605911"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 220
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "10094605910"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 219
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "10094605904"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 217
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "10094605900"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 216
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "10094605883"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 218
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "10094605654"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 215
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "10094605650"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 213
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "10094605648"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 212
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "10094605621"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 211
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "10094605616"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:54:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 214
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "10094471678"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:41:05Z
+  payload:
+    kind: issues
+    action: closed
+    number: 210
+    title: "[CI Failure] unhappychoice/cycle-pusher"
+- id: "10094470768"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-05-31T05:41:01Z
+  payload:
+    kind: issues
+    action: closed
+    number: 209
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "12603385152"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-31T05:39:03Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12603384936"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-31T05:39:03Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10094452151"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-31T05:39:01Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 894
+    title: ""
+- id: "10094451649"
+  type: PullRequestEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-31T05:38:58Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 354
+    title: ""
+- id: "12603383744"
+  type: PushEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-31T05:38:59Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "12603383994"
+  type: DeleteEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-31T05:38:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10094393603"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-31T05:33:18Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 894
+    title: ""
+- id: "12603288628"
+  type: CreateEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-05-31T05:33:16Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10094372286"
+  type: PullRequestEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-31T05:31:05Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 354
+    title: ""
+- id: "12603246419"
+  type: CreateEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-05-31T05:30:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12602627945"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T04:56:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12602627539"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T04:56:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10094034390"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-05-31T04:56:42Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 256
+    prTitle: ""
+    state: approved
+- id: "12602342348"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-31T04:39:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12602342008"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-31T04:39:54Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12602339954"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-31T04:39:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12602339661"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-31T04:39:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12602339227"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T04:39:44Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12602338742"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T04:39:43Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10093879640"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-31T04:39:38Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 134
+    prTitle: ""
+    state: approved
+- id: "10093878939"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-05-31T04:39:33Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 135
+    prTitle: ""
+    state: approved
+- id: "10093877791"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-05-31T04:39:25Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 435
+    prTitle: ""
+    state: approved
