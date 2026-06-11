@@ -1,0 +1,102 @@
+title: Dependency Bump Bonanza Shakes 5 Repos in One Week
+subtitle: I pushed 263 commits, 17 PRs merged, and upgraded 18 packages across mdts, gittype, and several Go‑and‑Ruby tools.
+overview: >
+  The week started with a quiet Friday, but by mid‑week I was in a rhythm of dependency updates that had me sprinting
+  across five different repos.  
+
+  My focus shifted from keeping the tooling up‑to‑date to actually releasing a new winget package for GitType, which
+  landed on Microsoft’s registry by Thursday.  
+
+  The real highlight was the sheer volume of bump PRs—over 30 lines of change per merge—underscoring how much
+  maintenance work still lives in my stack.
+summaries:
+  - type: repo-summary
+    heading: mdts Dominates the Action
+    body: mdts led the charge with 16 PRs, 17 merged, and a hot new release v0.20.3 that fixed several syntax bugs.  The
+      repo also absorbed 20 dependency bumps, keeping the frontend lean and mean.
+    chips:
+      - label: unhappychoice/mdts
+        value: 16 PRs
+        color: default
+      - label: merged
+        value: "17"
+        color: green
+      - label: release
+        value: v0.20.3
+        color: blue
+  - type: deep-dive
+    heading: All‑Out Dependency Bump Marathon
+    body: I pushed 18 dependency PRs in a single week, covering rubocop, typescript‑eslint, react‑dom, and more.  Each bump
+      added just a handful of lines, but the cumulative effect was a cleaner, more secure codebase.
+    chips:
+      - label: bump count
+        value: "18"
+        color: default
+      - label: lines added
+        value: "+5654"
+        color: green
+      - label: lines removed
+        value: "-2225"
+        color: red
+  - type: activity-pattern
+    heading: "Peak Commit Day: June 6th"
+    body: After a slow start, I hit a personal high of 93 commits on Wednesday, followed by a steady stream of pushes and
+      merges that kept the momentum going into the weekend.
+    chips:
+      - label: peak
+        value: Wed 93
+        color: green
+      - label: avg per day
+        value: "+37"
+        color: default
+  - type: collaboration-summary
+    heading: Smooth Peer Reviews Across the Board
+    body: All 56 reviews were approved in a single day, demonstrating efficient communication and a tight-knit community of
+      maintainers across the CircleCI and bitflyer ecosystems.
+    chips:
+      - label: reviews
+        value: "56"
+        color: default
+      - label: approved
+        value: 100%
+        color: green
+highlights:
+  - type: pr
+    title: "build(deps): bump io.mockk:mockk from 1.14.9 to 1.14.11"
+    repo: circleci-tools/Norimaki
+    meta: merged Jun 6 · +1 -1 · 1 file
+    body: This tiny PR fixed a critical mockk version that was causing test flakiness in Norimaki’s CI pipeline.
+    url: https://github.com/circleci-tools/Norimaki/pull/435
+  - type: pr
+    title: "New package: unhappychoice.gittype version 0.10.0"
+    repo: microsoft/winget-pkgs
+    meta: merged Jun 5 · +59 -0 · 3 files
+    body: Publishing GitType to winget made it instantaneously installable for Windows users, expanding our user base.
+    url: https://github.com/microsoft/winget-pkgs/pull/382074
+  - type: pr
+    title: "chore(deps-dev): bump rubocop from 1.86.2 to 1.87.0"
+    repo: unhappychoice/terminal_image
+    meta: merged Jun 4 · +2 -2 · 1 file
+    body: Upgrading RuboCop tightened our linting standards and caught a subtle Ruby style issue.
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/638
+  - type: release
+    title: v0.20.3
+    repo: unhappychoice/mdts
+    meta: released Jun 5
+    body: This release rolled out a suite of bug fixes and performance tweaks that improved the Markdown renderer’s
+      stability.
+ticker:
+  - label: UNPRECEDENTED
+    text: "@unhappychoice unleashes a storm of 18 dependency bumps, sweeping clean through 5 repos in one week!"
+  - label: DEVELOPING
+    text: "@unhappychoice pushes 263 commits, a new winget package lands, and the dev community applauds."
+  - label: SOURCES SAY
+    text: "@unhappychoice resolves 17 PRs, proving that maintenance can be heroic."
+  - label: KEYBOARD ON FIRE
+    text: "@unhappychoice’s 93 commits on June 6th could power a small city—if only we had a power plant!"
+  - label: JUST IN
+    text: "@unhappychoice releases mdts v0.20.3, fixing syntax bugs that had haunted developers for months."
+  - label: ABSOLUTE CARNAGE
+    text: "@unhappychoice deletes 2225 lines of legacy code while adding 5654 new lines—cleaning up more than cleaning!"
+  - label: NO SURVIVORS
+    text: "@unhappychoice bounces between repos, leaving a trail of upgraded packages and satisfied maintainers."
