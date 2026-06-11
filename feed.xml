@@ -14,6 +14,22 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency Bump Bonanza Shakes 5 Repos in One Week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W23/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W23/</guid>
+      <description>I pushed 263 commits, 17 PRs merged, and upgraded 18 packages across mdts, gittype, and several Go‑and‑Ruby tools.
+
+The week started with a quiet Friday, but by mid‑week I was in a rhythm of dependency updates that had me sprinting across five different repos.  
+My focus shifted from keeping the tooling up‑to‑date to actually releasing a new winget package for GitType, which landed on Microsoft’s registry by Thursday.  
+The real highlight was the sheer volume of bump PRs—over 30 lines of change per merge—underscoring how much maintenance work still lives in my stack.
+
+
+Commits: 263, PRs: 18, Reviews: 56</description>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W23/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W23/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Chore‑Heavy Sprint: 19 Dependency Bumps Across 9 Repos</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W22/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W22/</guid>
