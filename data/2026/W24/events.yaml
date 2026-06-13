@@ -837,3 +837,183 @@
     prNumber: 52
     prTitle: ""
     state: approved
+- id: "10641098952"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:32Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 250
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "10641098880"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:32Z
+  payload:
+    kind: issues
+    action: opened
+    number: 250
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "10641098729"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 248
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "10641098722"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 249
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "10641098714"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 247
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "10641098662"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: opened
+    number: 248
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "10641098653"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: opened
+    number: 247
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "10641098637"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: opened
+    number: 249
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "10641098561"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 245
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "10641098540"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 244
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "10641098506"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: opened
+    number: 245
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "10641098463"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:31Z
+  payload:
+    kind: issues
+    action: opened
+    number: 244
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "10641098392"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:30Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 246
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "10641098371"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:30Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 243
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "10641098352"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:30Z
+  payload:
+    kind: issues
+    action: opened
+    number: 246
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "10641098308"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:30Z
+  payload:
+    kind: issues
+    action: opened
+    number: 243
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "10641098120"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 242
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "10641098026"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:29Z
+  payload:
+    kind: issues
+    action: opened
+    number: 242
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "10641098015"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 241
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "10641097961"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-13T00:26:29Z
+  payload:
+    kind: issues
+    action: opened
+    number: 241
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
