@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W24/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W24/</guid>
+      <description>I spent the week slashing outdated crates, pushing a massive PR across the org, and shipping Splashboard’s newest release with VPN and listening‑port introspection.
+
+The week started with a flood of dependency updates that rattled my repos like a shaken jar of marbles.  I opened and merged 12 PRs that bumped everything from @typescript-eslint to rusqlite, netting a net gain of +2800 lines while trimming 1266 lines of legacy code.
+
+The highlight was Splashboard’s v2.9.0 release, which added two new fetcher features—`net_listening_ports` and `net_vpn`—and a cross‑platform `netstat2` helper.  These changes give our users real‑time network visibility without sacrificing portability, and the release was followed by a celebratory commit that updated the version tag and updated the changelog.
+
+Throughout the sprint I maintained a steady rhythm: 49 commits on Monday, peaking at 76 on Friday, with a consistent flow of reviews that kept the merge queue moving.  The week’s cadence proved that disciplined dependency hygiene can coexist with feature delivery.
+
+
+Commits: 195, PRs: 2, Reviews: 35</description>
+      <pubDate>Sun, 14 Jun 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W24/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W24/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency Bump Bonanza Shakes 5 Repos in One Week</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W23/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W23/</guid>
