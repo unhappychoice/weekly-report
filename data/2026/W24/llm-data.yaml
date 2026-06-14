@@ -1,0 +1,100 @@
+title: Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features
+subtitle: I spent the week slashing outdated crates, pushing a massive PR across the org, and shipping Splashboard’s
+  newest release with VPN and listening‑port introspection.
+overview: >
+  The week started with a flood of dependency updates that rattled my repos like a shaken jar of marbles.  I opened and
+  merged 12 PRs that bumped everything from @typescript-eslint to rusqlite, netting a net gain of +2800 lines while
+  trimming 1266 lines of legacy code.
+
+
+  The highlight was Splashboard’s v2.9.0 release, which added two new fetcher features—`net_listening_ports` and
+  `net_vpn`—and a cross‑platform `netstat2` helper.  These changes give our users real‑time network visibility without
+  sacrificing portability, and the release was followed by a celebratory commit that updated the version tag and updated
+  the changelog.
+
+
+  Throughout the sprint I maintained a steady rhythm: 49 commits on Monday, peaking at 76 on Friday, with a consistent
+  flow of reviews that kept the merge queue moving.  The week’s cadence proved that disciplined dependency hygiene can
+  coexist with feature delivery.
+summaries:
+  - type: repo-summary
+    heading: Repo Activity Snapshot
+    body: Across the org I pushed 12 PRs, 6 of which landed in Splashboard, 3 in mdts, and the rest in ancillary repos.  The
+      focus was on keeping every dependency at the latest patch level, ensuring security and stability.
+    chips:
+      - label: unhappychoice/splashboard
+        value: 6 PRs
+        color: default
+      - label: unhappychoice/mdts
+        value: 3 PRs
+        color: default
+      - label: unhappychoice/gittype
+        value: 3 PRs
+        color: default
+      - label: unhappychoice/oss-issue-opener
+        value: 2 PRs
+        color: default
+  - type: deep-dive
+    heading: "Splashboard v2.9.0: Network Feature Pack"
+    body: The new release adds `net_listening_ports` and `net_vpn`, exposing active sockets and VPN status in a single API
+      call.  Coupled with the netstat2 helper, it gives users a unified view of process networking without external
+      tooling.
+    chips:
+      - label: new features
+        value: "2"
+        color: default
+      - label: netstat2 helper
+        value: "1"
+        color: default
+      - label: commit delta
+        value: +2k lines
+        color: default
+  - type: activity-pattern
+    heading: Commit Rhythm
+    body: I maintained a high‑velocity cadence with 49 commits on Monday, peaking at 76 on Friday, and a steady 35 reviews
+      that kept the merge queue moving.  The daily commit spike on Friday reflects a focused push to finish the week’s
+      backlog.
+    chips:
+      - label: peak
+        value: Fri 76
+        color: green
+      - label: avg per day
+        value: "28"
+        color: default
+      - label: reviews
+        value: "35"
+        color: default
+highlights:
+  - type: pr
+    title: "chore(deps-dev): bump @typescript-eslint/eslint-plugin from 8.60.1 to 8.61.0"
+    repo: unhappychoice/mdts
+    meta: merged Jun 12 · +536 -14 · 1 file
+    body: This PR is a bulk bump of the ESLint plugin, closing a lingering security advisory and improving lint performance
+      across the repo.
+  - type: pr
+    title: "chore(deps-dev): bump @typescript-eslint/parser from 8.60.1 to 8.61.0 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Jun 12 · +234 -9 · 2 files
+    body: Updated the parser for the frontend, ensuring type‑checking consistency and fixing a parse error that had been
+      silently creeping in.
+  - type: release
+    title: v2.9.0
+    repo: unhappychoice/splashboard
+    meta: released Jun 14
+    body: The release introduces two powerful network introspection features and cleans up the fetcher module, making
+      Splashboard a more complete monitoring tool.
+ticker:
+  - label: SOURCES SAY
+    text: "@unhappychoice pushes 12 dependency PRs in one week, trimming 1266 lines of bloat"
+  - label: UNPRECEDENTED
+    text: "@unhappychoice releases Splashboard v2.9.0 with VPN and listening‑port support"
+  - label: EXPERTS BAFFLED
+    text: "@unhappychoice bumps @typescript-eslint to 8.61.0, leaving stale linting in the dust"
+  - label: KEYBOARD ON FIRE
+    text: "@unhappychoice logs 76 commits on Friday, proving bandwidth can be a feature"
+  - label: JUST IN
+    text: "@unhappychoice finishes 35 reviews before lunch, keeping the merge queue humming"
+  - label: DEVELOPING
+    text: "@unhappychoice keeps 195 commits rolling while the repo count stays clean"
+  - label: TREMENDOUS MERGES
+    text: "@unhappychoice merges 6 PRs into Splashboard, adding 2 new network features"
