@@ -1017,3 +1017,191 @@
     action: opened
     number: 241
     title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "13307003568"
+  type: PushEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-06-14T14:45:09Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "13304285583"
+  type: DeleteEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-06-14T13:07:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13304285213"
+  type: PushEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-06-14T13:07:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10668951402"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-06-14T13:07:22Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 269
+    title: ""
+- id: "10667417855"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-06-14T11:16:43Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 269
+    title: ""
+- id: "13301468851"
+  type: CreateEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-06-14T11:16:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13294273883"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-06-14T06:01:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13294273350"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-06-14T06:01:41Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "13294272255"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-06-14T06:01:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13294271839"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-06-14T06:01:38Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10663445659"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-06-14T06:01:35Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 451
+    prTitle: ""
+    state: approved
+- id: "10663444783"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-06-14T06:01:30Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 137
+    prTitle: ""
+    state: approved
+- id: "10663439041"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:01:00Z
+  payload:
+    kind: issues
+    action: closed
+    number: 250
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "10663439008"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:01:00Z
+  payload:
+    kind: issues
+    action: closed
+    number: 247
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "10663439004"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:01:00Z
+  payload:
+    kind: issues
+    action: closed
+    number: 246
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "10663439002"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:01:00Z
+  payload:
+    kind: issues
+    action: closed
+    number: 244
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "10663438982"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:00:59Z
+  payload:
+    kind: issues
+    action: closed
+    number: 245
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "10663438970"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:00:59Z
+  payload:
+    kind: issues
+    action: closed
+    number: 249
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "10663438951"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:00:59Z
+  payload:
+    kind: issues
+    action: closed
+    number: 248
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "10663438615"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:00:57Z
+  payload:
+    kind: issues
+    action: closed
+    number: 243
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "10663438604"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-14T06:00:57Z
+  payload:
+    kind: issues
+    action: closed
+    number: 242
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "10663323046"
+  type: IssuesEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-06-14T05:49:25Z
+  payload:
+    kind: issues
+    action: opened
+    number: 215
+    title: "feat: commit watch mode"
