@@ -984,3 +984,674 @@
     action: reopened
     number: 563
     title: what_i_know の残りの記事
+- id: "13625422737"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T14:51:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13625422411"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T14:51:22Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10873858607"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T14:49:49Z
+  payload:
+    kind: issues
+    action: closed
+    number: 241
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "13625380906"
+  type: DeleteEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-06-20T14:49:44Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13625380007"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-06-20T14:49:41Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13625367664"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T14:49:12Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/security-overrides-tar-jsyaml
+    commits: []
+- id: "10873838124"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-06-20T14:43:42Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 524
+    title: ""
+- id: "13625227442"
+  type: CreateEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-06-20T14:43:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13625160794"
+  type: CreateEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T14:40:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10873815646"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T14:37:07Z
+  payload:
+    kind: issues
+    action: closed
+    number: 252
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "13625039014"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-06-20T14:36:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13625038460"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-06-20T14:36:04Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10873809202"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-06-20T14:35:14Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 643
+    title: ""
+- id: "13625014714"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-06-20T14:35:07Z
+  payload:
+    kind: generic
+    action: ""
+- id: "10873788953"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T14:29:44Z
+  payload:
+    kind: issues
+    action: closed
+    number: 259
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "13616020719"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T08:15:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13616020304"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T08:15:10Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10872567481"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T08:15:05Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 904
+    prTitle: ""
+    state: approved
+- id: "13615986858"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13615986682"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:36Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13615985778"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13615985609"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:33Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13615980461"
+  type: DeleteEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-06-20T08:13:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13615980397"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13615980279"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-06-20T08:13:18Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13615980241"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:18Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10872561638"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:17Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 442
+    prTitle: ""
+    state: approved
+- id: "10872561611"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:16Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 441
+    prTitle: ""
+    state: approved
+- id: "10872561607"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-06-20T08:13:16Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 443
+    prTitle: ""
+    state: approved
+- id: "13615925162"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T08:10:46Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/eslint-10.5.0
+    commits: []
+- id: "13615815394"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T08:05:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13615815197"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T08:05:48Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "13615812340"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T08:05:41Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13615812024"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T08:05:40Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10872537586"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T08:05:38Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 783
+    prTitle: ""
+    state: approved
+- id: "13611086453"
+  type: CreateEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:23:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13611022919"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:20:43Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13611022695"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:20:42Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "13611017292"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:20:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13611016966"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:20:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "10871902137"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:20:25Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 782
+    prTitle: ""
+    state: approved
+- id: "10871902126"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:20:25Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 792
+    prTitle: ""
+    state: approved
+- id: "13611011267"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:20:10Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/eslint-10.5.0
+    commits: []
+- id: "13610999522"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:19:36Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/eslint-10.5.0
+    commits: []
+- id: "13610808363"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:10:19Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/babel/preset-typescript-8.0.1
+    commits: []
+- id: "13610792532"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:09:35Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/babel/core-8.0.1
+    commits: []
+- id: "13610781867"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:09:04Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/eslint-10.5.0
+    commits: []
+- id: "13610719274"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:06:05Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/eslint-10.5.0
+    commits: []
+- id: "13610699936"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:05:12Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/mui/icons-material-9.1.1
+    commits: []
+- id: "13610687165"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-06-20T04:04:38Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/mui/material-9.1.1
+    commits: []
+- id: "13610509609"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-06-20T03:57:34Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610470022"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-06-20T03:55:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610469797"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-06-20T03:55:35Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610462255"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-06-20T03:55:13Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610462184"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610462214"
+  type: DeleteEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610462213"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610461927"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "13610461941"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610462010"
+  type: DeleteEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610462077"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610461888"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610461784"
+  type: DeleteEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610461896"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610461878"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610461875"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-06-20T03:55:12Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610461634"
+  type: PushEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610461666"
+  type: PushEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610461718"
+  type: PushEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610461855"
+  type: DeleteEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13610461838"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13610461597"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "13610461720"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-06-20T03:55:11Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "10871822706"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-06-20T03:55:09Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 118
+    prTitle: ""
+    state: approved
+- id: "10871822704"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-06-20T03:55:09Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 903
+    prTitle: ""
+    state: approved
+- id: "10871822702"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-06-20T03:55:09Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 252
+    prTitle: ""
+    state: approved
+- id: "10871822697"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-06-20T03:55:09Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 452
+    prTitle: ""
+    state: approved
+- id: "10871822676"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-06-20T03:55:09Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 237
+    prTitle: ""
+    state: approved
+- id: "10871209441"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T00:21:58Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 263
+    title: "[Pending Release] unhappychoice/steamfetch"
+- id: "10871209374"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T00:21:57Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 262
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "10871209373"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T00:21:57Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 261
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "10871209258"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T00:21:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 254
+    title: "[CI Failure] unhappychoice/kobito"
+- id: "10871209225"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-06-20T00:21:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 251
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
