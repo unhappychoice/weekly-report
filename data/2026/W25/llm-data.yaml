@@ -1,0 +1,120 @@
+title: "Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20"
+subtitle: A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits.
+overview: >
+  This week started off with a quiet Friday, but by Saturday the committer count exploded to 106 commits, a record for
+  the week.  
+
+  The bulk of the work was a coordinated dependency bump marathon, touching 25 packages in 8 different repositories, all
+  aimed at keeping our stacks current and secure.  
+
+  While the numbers were high, the changes were small and safe—each PR touched only a handful of lines, yet the
+  cumulative effect was a cleaner, more reliable codebase.
+summaries:
+  - type: repo-summary
+    heading: Repo Activity Snapshot
+    body: Eight repositories saw a burst of dependency updates, each PR carefully curated to avoid breaking changes. The
+      focus spanned from frontend libraries to Rust crates, reflecting the breadth of our ecosystem.
+    chips:
+      - label: unhappychoice/mdts
+        value: 5 PRs
+        color: default
+      - label: circleci-tools/circleci-cli
+        value: 6 PRs
+        color: default
+      - label: bitflyer-tools/cycle-flyer
+        value: 6 PRs
+        color: default
+      - label: unhappychoice/slack_channel_stats
+        value: 5 PRs
+        color: default
+      - label: unhappychoice/splashboard
+        value: 4 PRs
+        color: default
+      - label: unhappychoice/zenn-docs
+        value: 1 PR
+        color: default
+      - label: circleci-tools/Norimaki
+        value: 5 PRs
+        color: default
+  - type: activity-pattern
+    heading: Commit Surge on Saturday
+    body: Saturday was the peak of activity, with 106 commits logged in a single day. The burst was driven by a late‑night
+      sprint that pushed all dependency updates to the main branches.
+    chips:
+      - label: peak
+        value: Sat 106
+        color: green
+  - type: deep-dive
+    heading: Dependency Bump Mania
+    body: The week’s most significant technical work was a systematic upgrade of libraries—ranging from Ruby gems to
+      JavaScript packages—ensuring our stack remains modern and secure.
+    chips:
+      - label: io-event
+        value: 1.16.1 → 1.16.2
+        color: default
+      - label: axios
+        value: 1.17.0 → 1.18.0
+        color: default
+      - label: zenn-cli
+        value: 0.4.8 → 0.5.1
+        color: default
+      - label: time
+        value: 0.3.47 → 0.3.49
+        color: default
+  - type: collaboration-summary
+    heading: Review Cadence
+    body: With 54 approvals across multiple repos, the review process stayed steady, keeping the code quality high while
+      still allowing the sprint to progress rapidly.
+    chips:
+      - label: reviews
+        value: "54"
+        color: default
+      - label: repos
+        value: "8"
+        color: default
+highlights:
+  - type: pr
+    title: "chore(deps-dev): bump http-proxy-middleware from 4.1.0 to 4.1.1"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged Jun 20 · +5 -5 · 2 files
+    body: This PR tightened the proxy middleware, improving security headers and adding a small performance tweak.
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/900
+  - type: pr
+    title: "chore(deps-dev): bump time from 0.3.47 to 0.3.49"
+    repo: unhappychoice/splashboard
+    meta: merged Jun 20 · +8 -12 · 1 files
+    body: Upgraded the Rust time crate to fix a daylight‑saving bug that was causing timestamp drift in the dashboard.
+  - type: pr
+    title: "chore(deps-dev): bump axios from 1.17.0 to 1.18.0"
+    repo: unhappychoice/mdts
+    meta: merged Jun 20 · +3 -3 · 1 files
+    body: Axios’ new release hardened redirect handling, reducing potential injection vectors in our API client.
+  - type: pr
+    title: "chore(deps-dev): bump zenn-cli from 0.4.8 to 0.5.1"
+    repo: unhappychoice/zenn-docs
+    meta: merged Jun 20 · +5 -5 · 2 files
+    body: Updated the docs generator to support the latest syntax, enabling smoother authoring for community contributors.
+    url: https://github.com/unhappychoice/zenn-docs/pull/8
+  - type: pr
+    title: "chore(deps-dev): bump io-event from 1.16.1 to 1.16.2"
+    repo: circleci-tools/circleci-cli
+    meta: merged Jun 20 · +1 -1 · 1 files
+    body: This tiny bump improved timer heap performance, a subtle but impactful tweak for CI job scheduling.
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/114
+ticker:
+  - label: ABSOLUTE CARNAGE
+    text: "@unhappychoice unleashes a tidal wave of 214 commits, slashing +7127 lines."
+  - label: JUST IN
+    text: "@unhappychoice hits 106 commits on Saturday, a record for the week."
+  - label: SEVEN DAY SPRINT
+    text: "@unhappychoice pushes 5 dependency PRs, each bumping critical libraries."
+  - label: REVIEW HERO
+    text: "@unhappychoice approves 54 PRs, keeping the codebase squeaky clean."
+  - label: DEPENDENCY OVERLOAD
+    text: "@unhappychoice bumps 25 packages across 8 repos in 7 days."
+  - label: NIGHTMARE SUNDAY
+    text: "@unhappychoice stays up for a midnight commit marathon, 106 commits logged."
+  - label: CODE CLEANUP
+    text: "@unhappychoice removes legacy code, decreasing lines by 2222."
+  - label: DEVOPS STORM
+    text: "@unhappychoice triggers CI for 8 repos, all passing with flying colors."
