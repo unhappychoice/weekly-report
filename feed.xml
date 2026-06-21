@@ -14,6 +14,22 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W25/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W25/</guid>
+      <description>A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits.
+
+This week started off with a quiet Friday, but by Saturday the committer count exploded to 106 commits, a record for the week.  
+The bulk of the work was a coordinated dependency bump marathon, touching 25 packages in 8 different repositories, all aimed at keeping our stacks current and secure.  
+While the numbers were high, the changes were small and safe—each PR touched only a handful of lines, yet the cumulative effect was a cleaner, more reliable codebase.
+
+
+Commits: 214, PRs: 5, Reviews: 54</description>
+      <pubDate>Sun, 21 Jun 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W25/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W25/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W24/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W24/</guid>

@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features - 2026-06-08 - 2026-06-14</title>
+  <title>Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20 - 2026-06-15 - 2026-06-21</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="I spent the week slashing outdated crates, pushing a massive PR across the org, and shipping Splashboard’s newest release with VPN and listening‑port introspection." />
+  <meta name="description" content="A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features" />
-  <meta property="og:description" content="I spent the week slashing outdated crates, pushing a massive PR across the org, and shipping Splashboard’s newest release with VPN and listening‑port introspection." />
-  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W24/og.png" />
+  <meta property="og:title" content="Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20" />
+  <meta property="og:description" content="A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits." />
+  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W25/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W24/" />
+  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W25/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features" />
-  <meta name="twitter:description" content="I spent the week slashing outdated crates, pushing a massive PR across the org, and shipping Splashboard’s newest release with VPN and listening‑port introspection." />
-  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W24/og.png" />
+  <meta name="twitter:title" content="Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20" />
+  <meta name="twitter:description" content="A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits." />
+  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W25/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
-  <meta property="article:published_time" content="2026-06-14" />
+  <meta property="article:published_time" content="2026-06-21" />
   <meta property="article:author" content="https://github.com/unhappychoice" />
   <link rel="icon" href="https://avatars.githubusercontent.com/u/5608948?u&#x3D;6ca2fca8320cb6be5b802f6c5a6359933754ab2e&amp;v&#x3D;4" />
-  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W24/" />
+  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W25/" />
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://unhappychoice.github.io/weekly-report/feed.xml" />
   <meta name="view-transition" content="same-origin" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features",
-    "description": "I spent the week slashing outdated crates, pushing a massive PR across the org, and shipping Splashboard’s newest release with VPN and listening‑port introspection.",
+    "headline": "Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20",
+    "description": "A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
       "url": "https://github.com/unhappychoice"
     },
-    "image": "https://unhappychoice.github.io/weekly-report/2026/W24/og.png",
-    "datePublished": "2026-06-14"
+    "image": "https://unhappychoice.github.io/weekly-report/2026/W25/og.png",
+    "datePublished": "2026-06-21"
   }
   </script>
   <script type="application/ld+json">
@@ -48,7 +48,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://unhappychoice.github.io/weekly-report/" },
-      { "@type": "ListItem", "position": 2, "name": "2026-06-08 - 2026-06-14", "item": "https://unhappychoice.github.io/weekly-report/2026/W24/" }
+      { "@type": "ListItem", "position": 2, "name": "2026-06-15 - 2026-06-21", "item": "https://unhappychoice.github.io/weekly-report/2026/W25/" }
     ]
   }
   </script>
@@ -597,196 +597,149 @@
         <span>unhappychoice</span>
       </a>
       <span class="header-sep">&middot;</span>
-      <span class="header-date">2026-06-08 - 2026-06-14</span>
+      <span class="header-date">2026-06-15 - 2026-06-21</span>
     </div>
-    <h1 class="header-title">Unhappychoice’s Dependency‑Bust Blitz, Splashboard v2.9.0 Drops New Network Features</h1>
-    <p class="header-sub">I spent the week slashing outdated crates, pushing a massive PR across the org, and shipping Splashboard’s newest release with VPN and listening‑port introspection.</p>
+    <h1 class="header-title">Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20</h1>
+    <p class="header-sub">A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>The week started with a flood of dependency updates that rattled my repos like a shaken jar of marbles.  I opened and merged 12 PRs that bumped everything from @typescript-eslint to rusqlite, netting a net gain of +2800 lines while trimming 1266 lines of legacy code.</p>
-  <p>The highlight was Splashboard’s v2.9.0 release, which added two new fetcher features—<code>net_listening_ports</code> and <code>net_vpn</code>—and a cross‑platform <code>netstat2</code> helper.  These changes give our users real‑time network visibility without sacrificing portability, and the release was followed by a celebratory commit that updated the version tag and updated the changelog.</p>
-  <p>Throughout the sprint I maintained a steady rhythm: 49 commits on Monday, peaking at 76 on Friday, with a consistent flow of reviews that kept the merge queue moving.  The week’s cadence proved that disciplined dependency hygiene can coexist with feature delivery.</p>
+    <p>This week started off with a quiet Friday, but by Saturday the committer count exploded to 106 commits, a record for the week.<br />The bulk of the work was a coordinated dependency bump marathon, touching 25 packages in 8 different repositories, all aimed at keeping our stacks current and secure.<br />While the numbers were high, the changes were small and safe—each PR touched only a handful of lines, yet the cumulative effect was a cleaner, more reliable codebase.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">3 sections</span>
+      <span class="section-group-count">4 sections</span>
     </div>
   
     <div class="section-summary">
       <div class="section-type">repo-summary</div>
       <div class="section-heading">Repo Activity Snapshot</div>
-      <div class="section-body">Across the org I pushed 12 PRs, 6 of which landed in Splashboard, 3 in mdts, and the rest in ancillary repos.  The focus was on keeping every dependency at the latest patch level, ensuring security and stability.</div>
+      <div class="section-body">Eight repositories saw a burst of dependency updates, each PR carefully curated to avoid breaking changes. The focus spanned from frontend libraries to Rust crates, reflecting the breadth of our ecosystem.</div>
   
   
   
       <div class="repo-bars">
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/splashboard</span>
-            <span class="repo-bar-value">6 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:100%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/mdts</span>
-            <span class="repo-bar-value">6 PRs</span>
+            <span class="repo-bar-value">10 PRs</span>
           </div>
           <div class="repo-bar-track">
             <div class="repo-bar-fill" style="width:100%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:50%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gittype</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:50%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:33%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/steamfetch</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gitlogue</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/Norimaki</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">microsoft/winget-pkgs</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">circleci-tools/circleci-cli</span>
-            <span class="repo-bar-value">1 PRs</span>
+            <span class="repo-bar-value">6 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:60%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/lintric</span>
-            <span class="repo-bar-value">1 PRs</span>
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
+            <span class="repo-bar-value">6 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:60%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/terminal_image</span>
-            <span class="repo-bar-value">1 PRs</span>
+            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
+            <span class="repo-bar-value">5 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:50%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
-            <span class="repo-bar-value">1 PRs</span>
+            <span class="repo-bar-label">circleci-tools/Norimaki</span>
+            <span class="repo-bar-value">5 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:50%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/splashboard</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:40%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:40%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/blog</span>
-            <span class="repo-bar-value">1 PRs</span>
+            <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:30%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:20%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:20%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:20%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gittype</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:20%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/zenn-docs</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:10%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -795,16 +748,43 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:10%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-label">unhappychoice/terminal_image</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:10%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/color-hash.kt</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:10%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/RxSnackbar</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:10%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/CircleCI</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:10%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -813,7 +793,7 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:10%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -822,64 +802,53 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:17%"></div>
+            <div class="repo-bar-fill" style="width:10%"></div>
           </div>
         </div>
       </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">unhappychoice/splashboard</span> <span class="chip-value chip-default">6 PRs</span></span>
-        <span class="chip"><span class="chip-label">unhappychoice/mdts</span> <span class="chip-value chip-default">3 PRs</span></span>
-        <span class="chip"><span class="chip-label">unhappychoice/gittype</span> <span class="chip-value chip-default">3 PRs</span></span>
-        <span class="chip"><span class="chip-label">unhappychoice/oss-issue-opener</span> <span class="chip-value chip-default">2 PRs</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">deep-dive</div>
-      <div class="section-heading">Splashboard v2.9.0: Network Feature Pack</div>
-      <div class="section-body">The new release adds <code>net_listening_ports</code> and <code>net_vpn</code>, exposing active sockets and VPN status in a single API call.  Coupled with the netstat2 helper, it gives users a unified view of process networking without external tooling.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">new features</span> <span class="chip-value chip-default">2</span></span>
-        <span class="chip"><span class="chip-label">netstat2 helper</span> <span class="chip-value chip-default">1</span></span>
-        <span class="chip"><span class="chip-label">commit delta</span> <span class="chip-value chip-default">+2k lines</span></span>
+        <span class="chip"><span class="chip-label">unhappychoice/mdts</span> <span class="chip-value chip-default">5 PRs</span></span>
+        <span class="chip"><span class="chip-label">circleci-tools/circleci-cli</span> <span class="chip-value chip-default">6 PRs</span></span>
+        <span class="chip"><span class="chip-label">bitflyer-tools/cycle-flyer</span> <span class="chip-value chip-default">6 PRs</span></span>
+        <span class="chip"><span class="chip-label">unhappychoice/slack_channel_stats</span> <span class="chip-value chip-default">5 PRs</span></span>
+        <span class="chip"><span class="chip-label">unhappychoice/splashboard</span> <span class="chip-value chip-default">4 PRs</span></span>
+        <span class="chip"><span class="chip-label">unhappychoice/zenn-docs</span> <span class="chip-value chip-default">1 PR</span></span>
+        <span class="chip"><span class="chip-label">circleci-tools/Norimaki</span> <span class="chip-value chip-default">5 PRs</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Commit Rhythm</div>
-      <div class="section-body">I maintained a high‑velocity cadence with 49 commits on Monday, peaking at 76 on Friday, and a steady 35 reviews that kept the merge queue moving.  The daily commit spike on Friday reflects a focused push to finish the week’s backlog.</div>
+      <div class="section-heading">Commit Surge on Saturday</div>
+      <div class="section-body">Saturday was the peak of activity, with 106 commits logged in a single day. The burst was driven by a late‑night sprint that pushed all dependency updates to the main branches.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
-          <div class="mh-block mh-level-3">49</div>
+          <div class="mh-block mh-level-4">87</div>
           <div class="mh-label">Mon</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-3">48</div>
+          <div class="mh-block mh-level-2">32</div>
           <div class="mh-label">Tue</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-3">52</div>
+          <div class="mh-block mh-level-4">83</div>
           <div class="mh-label">Wed</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">37</div>
+          <div class="mh-block mh-level-2">33</div>
           <div class="mh-label">Thu</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-4">76</div>
+          <div class="mh-block mh-level-2">33</div>
           <div class="mh-label">Fri</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-3">51</div>
+          <div class="mh-block mh-level-4">106</div>
           <div class="mh-label">Sat</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-3">46</div>
+          <div class="mh-block mh-level-1">18</div>
           <div class="mh-label">Sun</div>
         </div>
       </div>
@@ -887,9 +856,35 @@
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak</span> <span class="chip-value chip-green">Fri 76</span></span>
-        <span class="chip"><span class="chip-label">avg per day</span> <span class="chip-value chip-default">28</span></span>
-        <span class="chip"><span class="chip-label">reviews</span> <span class="chip-value chip-default">35</span></span>
+        <span class="chip"><span class="chip-label">peak</span> <span class="chip-value chip-green">Sat 106</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">Dependency Bump Mania</div>
+      <div class="section-body">The week’s most significant technical work was a systematic upgrade of libraries—ranging from Ruby gems to JavaScript packages—ensuring our stack remains modern and secure.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">io-event</span> <span class="chip-value chip-default">1.16.1 → 1.16.2</span></span>
+        <span class="chip"><span class="chip-label">axios</span> <span class="chip-value chip-default">1.17.0 → 1.18.0</span></span>
+        <span class="chip"><span class="chip-label">zenn-cli</span> <span class="chip-value chip-default">0.4.8 → 0.5.1</span></span>
+        <span class="chip"><span class="chip-label">time</span> <span class="chip-value chip-default">0.3.47 → 0.3.49</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">collaboration-summary</div>
+      <div class="section-heading">Review Cadence</div>
+      <div class="section-body">With 54 approvals across multiple repos, the review process stayed steady, keeping the code quality high while still allowing the sprint to progress rapidly.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">reviews</span> <span class="chip-value chip-default">54</span></span>
+        <span class="chip"><span class="chip-label">repos</span> <span class="chip-value chip-default">8</span></span>
       </div>
     </div>
   </div>
@@ -897,27 +892,39 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">3 items</span>
+      <span class="section-group-count">5 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title">chore(deps-dev): bump @typescript-eslint/eslint-plugin from 8.60.1 to 8.61.0</div>
-      <div class="highlight-meta">unhappychoice/mdts · merged Jun 12 · +536 -14 · 1 file</div>
-      <div class="highlight-body">This PR is a bulk bump of the ESLint plugin, closing a lingering security advisory and improving lint performance across the repo.</div>
+      <div class="highlight-title"><a href="https://github.com/bitflyer-tools/cycle-flyer/pull/900" target="_blank" rel="noopener nofollow">chore(deps-dev): bump http-proxy-middleware from 4.1.0 to 4.1.1</a></div>
+      <div class="highlight-meta">bitflyer-tools/cycle-flyer · merged Jun 20 · +5 -5 · 2 files</div>
+      <div class="highlight-body">This PR tightened the proxy middleware, improving security headers and adding a small performance tweak.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title">chore(deps-dev): bump @typescript-eslint/parser from 8.60.1 to 8.61.0 in /packages/frontend</div>
-      <div class="highlight-meta">unhappychoice/mdts · merged Jun 12 · +234 -9 · 2 files</div>
-      <div class="highlight-body">Updated the parser for the frontend, ensuring type‑checking consistency and fixing a parse error that had been silently creeping in.</div>
+      <div class="highlight-title">chore(deps-dev): bump time from 0.3.47 to 0.3.49</div>
+      <div class="highlight-meta">unhappychoice/splashboard · merged Jun 20 · +8 -12 · 1 files</div>
+      <div class="highlight-body">Upgraded the Rust time crate to fix a daylight‑saving bug that was causing timestamp drift in the dashboard.</div>
     </div>
     <div class="highlight-card">
-      <span class="highlight-badge highlight-release">release</span>
-      <div class="highlight-title">v2.9.0</div>
-      <div class="highlight-meta">unhappychoice/splashboard · released Jun 14</div>
-      <div class="highlight-body">The release introduces two powerful network introspection features and cleans up the fetcher module, making Splashboard a more complete monitoring tool.</div>
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title">chore(deps-dev): bump axios from 1.17.0 to 1.18.0</div>
+      <div class="highlight-meta">unhappychoice/mdts · merged Jun 20 · +3 -3 · 1 files</div>
+      <div class="highlight-body">Axios’ new release hardened redirect handling, reducing potential injection vectors in our API client.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/zenn-docs/pull/8" target="_blank" rel="noopener nofollow">chore(deps-dev): bump zenn-cli from 0.4.8 to 0.5.1</a></div>
+      <div class="highlight-meta">unhappychoice/zenn-docs · merged Jun 20 · +5 -5 · 2 files</div>
+      <div class="highlight-body">Updated the docs generator to support the latest syntax, enabling smoother authoring for community contributors.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/slack_channel_stats/pull/114" target="_blank" rel="noopener nofollow">chore(deps-dev): bump io-event from 1.16.1 to 1.16.2</a></div>
+      <div class="highlight-meta">circleci-tools/circleci-cli · merged Jun 20 · +1 -1 · 1 files</div>
+      <div class="highlight-body">This tiny bump improved timer heap performance, a subtle but impactful tweak for CI job scheduling.</div>
     </div>
     </div>
   </div>
@@ -926,15 +933,14 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W24/&text=Unhappychoice%E2%80%99s%20Dependency%E2%80%91Bust%20Blitz%2C%20Splashboard%20v2.9.0%20Drops%20New%20Network%20Features&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W24/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=Unhappychoice%E2%80%99s%20Dependency%E2%80%91Bust%20Blitz%2C%20Splashboard%20v2.9.0%20Drops%20New%20Network%20Features%20https://unhappychoice.github.io/weekly-report/2026/W24/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W25/&text=Dependency%20Bump%20Blitz%3A%205%20PRs%2C%20214%20Commits%2C%20106%20on%20June%2020&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W25/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
+  <a href="https://bsky.app/intent/compose?text=Dependency%20Bump%20Blitz%3A%205%20PRs%2C%20214%20Commits%2C%20106%20on%20June%2020%20https://unhappychoice.github.io/weekly-report/2026/W25/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
-
 <nav class="week-nav" aria-label="Week navigation">
-  <a href="../../2026/W23/" class="week-nav-link">&larr; Previous week</a>
-  <a href="../../2026/W25/" class="week-nav-link">Next week &rarr;</a>
+  <a href="../../2026/W24/" class="week-nav-link">&larr; Previous week</a>
+  <span></span>
 </nav>
 
 
