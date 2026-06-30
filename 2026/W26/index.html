@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20 - 2026-06-15 - 2026-06-21</title>
+  <title>splashboard v2.10.0 ships project_manifest fetcher with multi-language support - 2026-06-22 - 2026-06-28</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits." />
+  <meta name="description" content="A week dominated by dependency triage across 20+ repos, anchored by a genuine feature: splashboard learning to read Cargo.toml, package.json, pyproject.toml, go.mod, and composer.json." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20" />
-  <meta property="og:description" content="A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits." />
-  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W25/og.png" />
+  <meta property="og:title" content="splashboard v2.10.0 ships project_manifest fetcher with multi-language support" />
+  <meta property="og:description" content="A week dominated by dependency triage across 20+ repos, anchored by a genuine feature: splashboard learning to read Cargo.toml, package.json, pyproject.toml, go.mod, and composer.json." />
+  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W26/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W25/" />
+  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W26/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20" />
-  <meta name="twitter:description" content="A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits." />
-  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W25/og.png" />
+  <meta name="twitter:title" content="splashboard v2.10.0 ships project_manifest fetcher with multi-language support" />
+  <meta name="twitter:description" content="A week dominated by dependency triage across 20+ repos, anchored by a genuine feature: splashboard learning to read Cargo.toml, package.json, pyproject.toml, go.mod, and composer.json." />
+  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W26/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
-  <meta property="article:published_time" content="2026-06-21" />
+  <meta property="article:published_time" content="2026-06-28" />
   <meta property="article:author" content="https://github.com/unhappychoice" />
   <link rel="icon" href="https://avatars.githubusercontent.com/u/5608948?u&#x3D;6ca2fca8320cb6be5b802f6c5a6359933754ab2e&amp;v&#x3D;4" />
-  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W25/" />
+  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W26/" />
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://unhappychoice.github.io/weekly-report/feed.xml" />
   <meta name="view-transition" content="same-origin" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20",
-    "description": "A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits.",
+    "headline": "splashboard v2.10.0 ships project_manifest fetcher with multi-language support",
+    "description": "A week dominated by dependency triage across 20+ repos, anchored by a genuine feature: splashboard learning to read Cargo.toml, package.json, pyproject.toml, go.mod, and composer.json.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
       "url": "https://github.com/unhappychoice"
     },
-    "image": "https://unhappychoice.github.io/weekly-report/2026/W25/og.png",
-    "datePublished": "2026-06-21"
+    "image": "https://unhappychoice.github.io/weekly-report/2026/W26/og.png",
+    "datePublished": "2026-06-28"
   }
   </script>
   <script type="application/ld+json">
@@ -48,7 +48,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://unhappychoice.github.io/weekly-report/" },
-      { "@type": "ListItem", "position": 2, "name": "2026-06-15 - 2026-06-21", "item": "https://unhappychoice.github.io/weekly-report/2026/W25/" }
+      { "@type": "ListItem", "position": 2, "name": "2026-06-22 - 2026-06-28", "item": "https://unhappychoice.github.io/weekly-report/2026/W26/" }
     ]
   }
   </script>
@@ -597,30 +597,47 @@
         <span>unhappychoice</span>
       </a>
       <span class="header-sep">&middot;</span>
-      <span class="header-date">2026-06-15 - 2026-06-21</span>
+      <span class="header-date">2026-06-22 - 2026-06-28</span>
     </div>
-    <h1 class="header-title">Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20</h1>
-    <p class="header-sub">A whirlwind of dependency upgrades across 8 repos, with a midnight sprint that pushed 106 commits.</p>
+    <h1 class="header-title">splashboard v2.10.0 ships project_manifest fetcher with multi-language support</h1>
+    <p class="header-sub">A week dominated by dependency triage across 20+ repos, anchored by a genuine feature: splashboard learning to read Cargo.toml, package.json, pyproject.toml, go.mod, and composer.json.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week started off with a quiet Friday, but by Saturday the committer count exploded to 106 commits, a record for the week.<br />The bulk of the work was a coordinated dependency bump marathon, touching 25 packages in 8 different repositories, all aimed at keeping our stacks current and secure.<br />While the numbers were high, the changes were small and safe—each PR touched only a handful of lines, yet the cumulative effect was a cleaner, more reliable codebase.</p>
+    <p>This week was a tale of two modes: one real feature landing in splashboard, and an absolute avalanche of dependency maintenance across what feels like half the Rust/Ruby/TypeScript ecosystem. The headline is <code>feat(fetcher): add project_manifest for nearest manifest metadata</code> — a 823-line addition that teaches splashboard to walk up from CWD and extract name, version, description, and license from whichever manifest it finds first. That shipped as part of the v2.10.0 release, which also bundled GitHub Enterprise Server support via GH_HOST/GITHUB_HOST.</p>
+  <p>The rest of the week was a masterclass in dependency hygiene at scale. Across 20+ repositories spanning Rust, Ruby, JavaScript, and GitHub Actions, I reviewed and merged a staggering 50 PRs — mostly Dependabot bumps, but the sheer breadth tells a story about how many active projects are in rotation. mdts alone saw 12 PRs land, cycling through typescript-eslint, MUI x-tree-view, react-router-dom, and webpack updates. The commit volume peaked hard on Tuesday (75) and Wednesday (70), suggesting a focused two-day push to clear the backlog.</p>
+  <p>The cross-org reach this week was notable too — circleci-tools, irasutoya-tools, bitflyer-tools, and deariary all got attention, with reviews and merges scattered across Ruby gems, Gradle dependencies, and npm packages. It's the kind of week where the real work is keeping the lights on across a sprawling portfolio while still finding time to ship something new.</p>
   
   </div>
   <div class="section-group">
     <div class="section-group-header">
       <h2 class="section-group-title">Summary</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">4 sections</span>
+      <span class="section-group-count">5 sections</span>
     </div>
   
     <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">project_manifest: five ecosystems, one fetcher</div>
+      <div class="section-body">The <code>project_manifest</code> fetcher is the most interesting technical work this week — 823 lines added to splashboard that implement a priority-ordered manifest search walking up from CWD. It handles Cargo.toml, package.json, pyproject.toml (both PEP 621 and Poetry), go.mod, and composer.json, exposing name/version/description/license in Text, markdown, and badge output shapes. This shipped alongside GitHub Enterprise Server support (GH_HOST/GITHUB_HOST env vars) and a fix for OSC 8 cell width rendering in the same v2.10.0 release. It's a genuinely useful addition for anyone running splashboard in a multi-language monorepo.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">lines added</span> <span class="chip-value chip-green">+823</span></span>
+        <span class="chip"><span class="chip-label">manifest formats</span> <span class="chip-value chip-default">5</span></span>
+        <span class="chip"><span class="chip-label">release</span> <span class="chip-value chip-default">v2.10.0</span></span>
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">splashboard</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
       <div class="section-type">repo-summary</div>
-      <div class="section-heading">Repo Activity Snapshot</div>
-      <div class="section-body">Eight repositories saw a burst of dependency updates, each PR carefully curated to avoid breaking changes. The focus spanned from frontend libraries to Rust crates, reflecting the breadth of our ecosystem.</div>
+      <div class="section-heading">20+ repos touched, mdts leads the pack</div>
+      <div class="section-body">mdts was the busiest repo this week with 12 PRs — a sustained typescript-eslint upgrade cycle (8.61.0 → 8.61.1 → 8.62.0) plus MUI x-tree-view jumping from 9.4.0 to 9.6.0 and then 9.7.0, react-router-dom 7.17→7.18, and webpack bumps. splashboard followed with 7 PRs including the feature work. gittype, circleci-cli, and slack_channel_stats each saw 4-5 PRs of Ruby and Rust dependency churn. The cross-org spread — bitflyer-tools, irasutoya-tools, circleci-tools, deariary — shows just how wide the maintenance surface is.</div>
   
   
   
@@ -628,7 +645,7 @@
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/mdts</span>
-            <span class="repo-bar-value">10 PRs</span>
+            <span class="repo-bar-value">12 PRs</span>
           </div>
           <div class="repo-bar-track">
             <div class="repo-bar-fill" style="width:100%"></div>
@@ -636,56 +653,47 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
-            <span class="repo-bar-value">6 PRs</span>
+            <span class="repo-bar-label">unhappychoice/splashboard</span>
+            <span class="repo-bar-value">7 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:60%"></div>
+            <div class="repo-bar-fill" style="width:58%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
-            <span class="repo-bar-value">6 PRs</span>
+            <span class="repo-bar-label">unhappychoice/gittype</span>
+            <span class="repo-bar-value">5 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:60%"></div>
+            <div class="repo-bar-fill" style="width:42%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
+            <span class="repo-bar-value">4 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:33%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
-            <span class="repo-bar-value">5 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:50%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/Norimaki</span>
-            <span class="repo-bar-value">5 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:50%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/splashboard</span>
             <span class="repo-bar-value">4 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:40%"></div>
+            <div class="repo-bar-fill" style="width:33%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
-            <span class="repo-bar-value">4 PRs</span>
+            <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:40%"></div>
+            <div class="repo-bar-fill" style="width:25%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -694,97 +702,52 @@
             <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:30%"></div>
+            <div class="repo-bar-fill" style="width:25%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:20%"></div>
+            <div class="repo-bar-fill" style="width:17%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-label">unhappychoice/steamfetch</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:20%"></div>
+            <div class="repo-bar-fill" style="width:17%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
+            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:20%"></div>
+            <div class="repo-bar-fill" style="width:17%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/gittype</span>
+            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:20%"></div>
+            <div class="repo-bar-fill" style="width:17%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/zenn-docs</span>
-            <span class="repo-bar-value">1 PRs</span>
+            <span class="repo-bar-label">unhappychoice/gitlogue</span>
+            <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/terminal_image</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/color-hash.kt</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/RxSnackbar</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">circleci-tools/CircleCI</span>
-            <span class="repo-bar-value">1 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
+            <div class="repo-bar-fill" style="width:17%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -793,62 +756,131 @@
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:10%"></div>
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/zenn-docs</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/steam.unhappychoice.com</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/terminal_image</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/qiita-docs</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
           </div>
         </div>
       </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">unhappychoice/mdts</span> <span class="chip-value chip-default">5 PRs</span></span>
-        <span class="chip"><span class="chip-label">circleci-tools/circleci-cli</span> <span class="chip-value chip-default">6 PRs</span></span>
-        <span class="chip"><span class="chip-label">bitflyer-tools/cycle-flyer</span> <span class="chip-value chip-default">6 PRs</span></span>
-        <span class="chip"><span class="chip-label">unhappychoice/slack_channel_stats</span> <span class="chip-value chip-default">5 PRs</span></span>
-        <span class="chip"><span class="chip-label">unhappychoice/splashboard</span> <span class="chip-value chip-default">4 PRs</span></span>
-        <span class="chip"><span class="chip-label">unhappychoice/zenn-docs</span> <span class="chip-value chip-default">1 PR</span></span>
-        <span class="chip"><span class="chip-label">circleci-tools/Norimaki</span> <span class="chip-value chip-default">5 PRs</span></span>
+        <span class="chip"><span class="chip-label">repos touched</span> <span class="chip-value chip-default">20+</span></span>
+        <span class="chip"><span class="chip-label">mdts PRs</span> <span class="chip-value chip-default">12</span></span>
+        <span class="chip"><span class="chip-label">splashboard PRs</span> <span class="chip-value chip-default">7</span></span>
+        <span class="chip"><span class="chip-label">total PRs reviewed</span> <span class="chip-value chip-default">50</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Commit Surge on Saturday</div>
-      <div class="section-body">Saturday was the peak of activity, with 106 commits logged in a single day. The burst was driven by a late‑night sprint that pushed all dependency updates to the main branches.</div>
+      <div class="section-heading">Tuesday/Wednesday surge, then a steady burn</div>
+      <div class="section-body">The week opened at a reasonable 33 commits on Monday before exploding to 75 on Tuesday and 70 on Wednesday — clearly a focused two-day push to clear the dependency backlog. Thursday dipped to 36 before Friday rebounded to 65, suggesting a second wind. The weekend bookends (Saturday 55, Sunday 37) show this wasn't a strict 9-to-5 week. Total of 225 commits across 7 consecutive days with no zeros is a solid sustained pace.</div>
   
       <div class="mini-heatmap">
         <div class="mh-day">
-          <div class="mh-block mh-level-4">87</div>
+          <div class="mh-block mh-level-2">33</div>
           <div class="mh-label">Mon</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">32</div>
+          <div class="mh-block mh-level-4">75</div>
           <div class="mh-label">Tue</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-4">83</div>
+          <div class="mh-block mh-level-4">70</div>
           <div class="mh-label">Wed</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">33</div>
+          <div class="mh-block mh-level-2">36</div>
           <div class="mh-label">Thu</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-2">33</div>
+          <div class="mh-block mh-level-4">65</div>
           <div class="mh-label">Fri</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-4">106</div>
+          <div class="mh-block mh-level-3">55</div>
           <div class="mh-label">Sat</div>
         </div>
         <div class="mh-day">
-          <div class="mh-block mh-level-1">18</div>
+          <div class="mh-block mh-level-2">37</div>
           <div class="mh-label">Sun</div>
         </div>
       </div>
@@ -856,35 +888,38 @@
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak</span> <span class="chip-value chip-green">Sat 106</span></span>
+        <span class="chip"><span class="chip-label">peak</span> <span class="chip-value chip-green">Tue 75</span></span>
+        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">225</span></span>
+        <span class="chip"><span class="chip-label">zero days</span> <span class="chip-value chip-green">0</span></span>
+        <span class="chip"><span class="chip-label">avg/day</span> <span class="chip-value chip-default">32.1</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">deep-dive</div>
-      <div class="section-heading">Dependency Bump Mania</div>
-      <div class="section-body">The week’s most significant technical work was a systematic upgrade of libraries—ranging from Ruby gems to JavaScript packages—ensuring our stack remains modern and secure.</div>
+      <div class="section-type">review-summary</div>
+      <div class="section-heading">50 approvals, all green, no drama</div>
+      <div class="section-body">Every single one of the 50 reviews this week came back as approved — a reflection of the fact that the vast majority were Dependabot PRs where the review is really just a sanity check on the diff. Still, that's 50 individual repo contexts to context-switch through, spanning Rust crates, Ruby gems, npm packages, Gradle dependencies, and GitHub Actions versions. The breadth across circleci-tools, irasutoya-tools, bitflyer-tools, and personal repos makes this feel more like portfolio management than traditional code review.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">io-event</span> <span class="chip-value chip-default">1.16.1 → 1.16.2</span></span>
-        <span class="chip"><span class="chip-label">axios</span> <span class="chip-value chip-default">1.17.0 → 1.18.0</span></span>
-        <span class="chip"><span class="chip-label">zenn-cli</span> <span class="chip-value chip-default">0.4.8 → 0.5.1</span></span>
-        <span class="chip"><span class="chip-label">time</span> <span class="chip-value chip-default">0.3.47 → 0.3.49</span></span>
+        <span class="chip"><span class="chip-label">reviews</span> <span class="chip-value chip-default">50</span></span>
+        <span class="chip"><span class="chip-label">approval rate</span> <span class="chip-value chip-green">100%</span></span>
+        <span class="chip"><span class="chip-label">orgs covered</span> <span class="chip-value chip-default">5</span></span>
       </div>
     </div>
     <div class="section-summary">
-      <div class="section-type">collaboration-summary</div>
-      <div class="section-heading">Review Cadence</div>
-      <div class="section-body">With 54 approvals across multiple repos, the review process stayed steady, keeping the code quality high while still allowing the sprint to progress rapidly.</div>
+      <div class="section-type">contribution-summary</div>
+      <div class="section-heading">Cross-org dependency patrol</div>
+      <div class="section-body">Beyond personal repos, this week included merges and reviews in circleci-tools/circleci-cli (json, i18n, async, io-event Ruby gem bumps), irasutoya-tools/irasutoya and irasutoya-cli (rbs, nokogiri, json), bitflyer-tools/DroidFlyer (PubNub Gson), bitflyer-tools/cycle-flyer (Electron 42.5.0), and deariary/github-weekly-reporter (actions/checkout v7, Anthropic SDK 0.105.0). The Electron 42.5.0 bump in cycle-flyer and the Anthropic SDK jump from 0.100.1 to 0.105.0 in github-weekly-reporter were the most substantive cross-org changes.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">reviews</span> <span class="chip-value chip-default">54</span></span>
-        <span class="chip"><span class="chip-label">repos</span> <span class="chip-value chip-default">8</span></span>
+        <span class="chip"><span class="chip-label">external orgs</span> <span class="chip-value chip-default">4</span></span>
+        <span class="chip"><span class="chip-label">circleci-cli PRs</span> <span class="chip-value chip-default">4</span></span>
+        <span class="chip"><span class="chip-label">Anthropic SDK</span> <span class="chip-value chip-default">0.100→0.105</span></span>
       </div>
     </div>
   </div>
@@ -892,39 +927,33 @@
     <div class="section-group-header">
       <h2 class="section-group-title">Highlights</h2>
       <div class="section-group-line"></div>
-      <span class="section-group-count">5 items</span>
+      <span class="section-group-count">4 items</span>
     </div>
   
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/bitflyer-tools/cycle-flyer/pull/900" target="_blank" rel="noopener nofollow">chore(deps-dev): bump http-proxy-middleware from 4.1.0 to 4.1.1</a></div>
-      <div class="highlight-meta">bitflyer-tools/cycle-flyer · merged Jun 20 · +5 -5 · 2 files</div>
-      <div class="highlight-body">This PR tightened the proxy middleware, improving security headers and adding a small performance tweak.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/splashboard/pull/277" target="_blank" rel="noopener nofollow">feat(fetcher): add &#x60;project_manifest&#x60; for nearest manifest metadata</a></div>
+      <div class="highlight-meta">unhappychoice/splashboard · merged Jun 2026 · +823 -0 · 4 files</div>
+      <div class="highlight-body">The week's standout addition — splashboard can now autodiscover and surface project metadata from five different manifest formats by walking up the directory tree. A genuinely useful quality-of-life feature for multi-language environments.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-release">release</span>
+      <div class="highlight-title">Release v2.10.0</div>
+      <div class="highlight-meta">unhappychoice/splashboard · released Jun 2026</div>
+      <div class="highlight-body">Bundles the project_manifest fetcher, GitHub Enterprise Server support via GH_HOST/GITHUB_HOST, and an OSC 8 cell width rendering fix. A meaty minor release for a TUI dashboard tool.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title">chore(deps-dev): bump time from 0.3.47 to 0.3.49</div>
-      <div class="highlight-meta">unhappychoice/splashboard · merged Jun 20 · +8 -12 · 1 files</div>
-      <div class="highlight-body">Upgraded the Rust time crate to fix a daylight‑saving bug that was causing timestamp drift in the dashboard.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/140" target="_blank" rel="noopener nofollow">chore(deps): bump the minor-and-patch group across 1 directory with 10 updates</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged Jun 2026 · +486 -362 · 2 files</div>
+      <div class="highlight-body">The single biggest lockfile churn of the week, including the Anthropic SDK jumping from 0.100.1 to 0.105.0 — five minor versions in one shot for the tool that generates these very reports.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title">chore(deps-dev): bump axios from 1.17.0 to 1.18.0</div>
-      <div class="highlight-meta">unhappychoice/mdts · merged Jun 20 · +3 -3 · 1 files</div>
-      <div class="highlight-body">Axios’ new release hardened redirect handling, reducing potential injection vectors in our API client.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/unhappychoice/zenn-docs/pull/8" target="_blank" rel="noopener nofollow">chore(deps-dev): bump zenn-cli from 0.4.8 to 0.5.1</a></div>
-      <div class="highlight-meta">unhappychoice/zenn-docs · merged Jun 20 · +5 -5 · 2 files</div>
-      <div class="highlight-body">Updated the docs generator to support the latest syntax, enabling smoother authoring for community contributors.</div>
-    </div>
-    <div class="highlight-card">
-      <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/unhappychoice/slack_channel_stats/pull/114" target="_blank" rel="noopener nofollow">chore(deps-dev): bump io-event from 1.16.1 to 1.16.2</a></div>
-      <div class="highlight-meta">circleci-tools/circleci-cli · merged Jun 20 · +1 -1 · 1 files</div>
-      <div class="highlight-body">This tiny bump improved timer heap performance, a subtle but impactful tweak for CI job scheduling.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/mdts/pull/794" target="_blank" rel="noopener nofollow">chore(deps-dev): Bump typescript-eslint from 8.61.0 to 8.61.1 in /packages/frontend</a></div>
+      <div class="highlight-meta">unhappychoice/mdts · merged Jun 2026 · +85 -832 · 2 files</div>
+      <div class="highlight-body">A dependency bump that deleted 832 lines is worth noticing — the net -747 lines suggests a significant lockfile or generated file cleanup came along for the ride.</div>
     </div>
     </div>
   </div>
@@ -933,15 +962,14 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W25/&text=Dependency%20Bump%20Blitz%3A%205%20PRs%2C%20214%20Commits%2C%20106%20on%20June%2020&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W25/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=Dependency%20Bump%20Blitz%3A%205%20PRs%2C%20214%20Commits%2C%20106%20on%20June%2020%20https://unhappychoice.github.io/weekly-report/2026/W25/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W26/&text=splashboard%20v2.10.0%20ships%20project_manifest%20fetcher%20with%20multi-language%20support&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W26/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
+  <a href="https://bsky.app/intent/compose?text=splashboard%20v2.10.0%20ships%20project_manifest%20fetcher%20with%20multi-language%20support%20https://unhappychoice.github.io/weekly-report/2026/W26/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
-
 <nav class="week-nav" aria-label="Week navigation">
-  <a href="../../2026/W24/" class="week-nav-link">&larr; Previous week</a>
-  <a href="../../2026/W26/" class="week-nav-link">Next week &rarr;</a>
+  <a href="../../2026/W25/" class="week-nav-link">&larr; Previous week</a>
+  <span></span>
 </nav>
 
 

@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>splashboard v2.10.0 ships project_manifest fetcher with multi-language support</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W26/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W26/</guid>
+      <description>A week dominated by dependency triage across 20+ repos, anchored by a genuine feature: splashboard learning to read Cargo.toml, package.json, pyproject.toml, go.mod, and composer.json.
+
+This week was a tale of two modes: one real feature landing in splashboard, and an absolute avalanche of dependency maintenance across what feels like half the Rust/Ruby/TypeScript ecosystem. The headline is `feat(fetcher): add project_manifest for nearest manifest metadata` — a 823-line addition that teaches splashboard to walk up from CWD and extract name, version, description, and license from whichever manifest it finds first. That shipped as part of the v2.10.0 release, which also bundled GitHub Enterprise Server support via GH_HOST/GITHUB_HOST.
+
+The rest of the week was a masterclass in dependency hygiene at scale. Across 20+ repositories spanning Rust, Ruby, JavaScript, and GitHub Actions, I reviewed and merged a staggering 50 PRs — mostly Dependabot bumps, but the sheer breadth tells a story about how many active projects are in rotation. mdts alone saw 12 PRs land, cycling through typescript-eslint, MUI x-tree-view, react-router-dom, and webpack updates. The commit volume peaked hard on Tuesday (75) and Wednesday (70), suggesting a focused two-day push to clear the backlog.
+
+The cross-org reach this week was notable too — circleci-tools, irasutoya-tools, bitflyer-tools, and deariary all got attention, with reviews and merges scattered across Ruby gems, Gradle dependencies, and npm packages. It&apos;s the kind of week where the real work is keeping the lights on across a sprawling portfolio while still finding time to ship something new.
+
+
+Commits: 225, PRs: 5, Reviews: 50</description>
+      <pubDate>Sun, 28 Jun 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W26/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W26/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency Bump Blitz: 5 PRs, 214 Commits, 106 on June 20</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W25/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W25/</guid>
