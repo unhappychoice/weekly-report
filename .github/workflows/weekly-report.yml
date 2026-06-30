@@ -35,5 +35,5 @@ jobs:
           timezone: 'Asia/Tokyo'
           date: ${{ inputs.date }}
           llm-provider: 'anthropic'
-          llm-model: 'claude-haiku-4-5-20251001'
+          llm-model: 'claude-sonnet-4-6'
           anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
