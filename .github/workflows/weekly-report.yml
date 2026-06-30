@@ -34,6 +34,6 @@ jobs:
           language: 'en'
           timezone: 'Asia/Tokyo'
           date: ${{ inputs.date }}
-          llm-provider: 'openrouter'
-          llm-model: 'qwen/qwen3-next-80b-a3b-instruct:free'
-          openrouter-api-key: ${{ secrets.OPENROUTER_API_KEY }}
+          llm-provider: 'anthropic'
+          llm-model: 'claude-haiku-4-5-20251001'
+          anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
