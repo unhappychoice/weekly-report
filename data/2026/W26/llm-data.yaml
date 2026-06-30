@@ -1,0 +1,164 @@
+title: splashboard v2.10.0 ships project_manifest fetcher with multi-language support
+subtitle: "A week dominated by dependency triage across 20+ repos, anchored by a genuine feature: splashboard learning
+  to read Cargo.toml, package.json, pyproject.toml, go.mod, and composer.json."
+overview: >
+  This week was a tale of two modes: one real feature landing in splashboard, and an absolute avalanche of dependency
+  maintenance across what feels like half the Rust/Ruby/TypeScript ecosystem. The headline is `feat(fetcher): add
+  project_manifest for nearest manifest metadata` — a 823-line addition that teaches splashboard to walk up from CWD and
+  extract name, version, description, and license from whichever manifest it finds first. That shipped as part of the
+  v2.10.0 release, which also bundled GitHub Enterprise Server support via GH_HOST/GITHUB_HOST.
+
+
+  The rest of the week was a masterclass in dependency hygiene at scale. Across 20+ repositories spanning Rust, Ruby,
+  JavaScript, and GitHub Actions, I reviewed and merged a staggering 50 PRs — mostly Dependabot bumps, but the sheer
+  breadth tells a story about how many active projects are in rotation. mdts alone saw 12 PRs land, cycling through
+  typescript-eslint, MUI x-tree-view, react-router-dom, and webpack updates. The commit volume peaked hard on Tuesday
+  (75) and Wednesday (70), suggesting a focused two-day push to clear the backlog.
+
+
+  The cross-org reach this week was notable too — circleci-tools, irasutoya-tools, bitflyer-tools, and deariary all got
+  attention, with reviews and merges scattered across Ruby gems, Gradle dependencies, and npm packages. It's the kind of
+  week where the real work is keeping the lights on across a sprawling portfolio while still finding time to ship
+  something new.
+summaries:
+  - type: deep-dive
+    heading: "project_manifest: five ecosystems, one fetcher"
+    body: The `project_manifest` fetcher is the most interesting technical work this week — 823 lines added to splashboard
+      that implement a priority-ordered manifest search walking up from CWD. It handles Cargo.toml, package.json,
+      pyproject.toml (both PEP 621 and Poetry), go.mod, and composer.json, exposing name/version/description/license in
+      Text, markdown, and badge output shapes. This shipped alongside GitHub Enterprise Server support
+      (GH_HOST/GITHUB_HOST env vars) and a fix for OSC 8 cell width rendering in the same v2.10.0 release. It's a
+      genuinely useful addition for anyone running splashboard in a multi-language monorepo.
+    chips:
+      - label: lines added
+        value: "+823"
+        color: green
+      - label: manifest formats
+        value: "5"
+        color: default
+      - label: release
+        value: v2.10.0
+        color: default
+      - label: repo
+        value: splashboard
+        color: default
+  - type: repo-summary
+    heading: 20+ repos touched, mdts leads the pack
+    body: mdts was the busiest repo this week with 12 PRs — a sustained typescript-eslint upgrade cycle (8.61.0 → 8.61.1 →
+      8.62.0) plus MUI x-tree-view jumping from 9.4.0 to 9.6.0 and then 9.7.0, react-router-dom 7.17→7.18, and webpack
+      bumps. splashboard followed with 7 PRs including the feature work. gittype, circleci-cli, and slack_channel_stats
+      each saw 4-5 PRs of Ruby and Rust dependency churn. The cross-org spread — bitflyer-tools, irasutoya-tools,
+      circleci-tools, deariary — shows just how wide the maintenance surface is.
+    chips:
+      - label: repos touched
+        value: 20+
+        color: default
+      - label: mdts PRs
+        value: "12"
+        color: default
+      - label: splashboard PRs
+        value: "7"
+        color: default
+      - label: total PRs reviewed
+        value: "50"
+        color: default
+  - type: activity-pattern
+    heading: Tuesday/Wednesday surge, then a steady burn
+    body: The week opened at a reasonable 33 commits on Monday before exploding to 75 on Tuesday and 70 on Wednesday —
+      clearly a focused two-day push to clear the dependency backlog. Thursday dipped to 36 before Friday rebounded to
+      65, suggesting a second wind. The weekend bookends (Saturday 55, Sunday 37) show this wasn't a strict 9-to-5 week.
+      Total of 225 commits across 7 consecutive days with no zeros is a solid sustained pace.
+    chips:
+      - label: peak
+        value: Tue 75
+        color: green
+      - label: total commits
+        value: "225"
+        color: default
+      - label: zero days
+        value: "0"
+        color: green
+      - label: avg/day
+        value: "32.1"
+        color: default
+  - type: review-summary
+    heading: 50 approvals, all green, no drama
+    body: Every single one of the 50 reviews this week came back as approved — a reflection of the fact that the vast
+      majority were Dependabot PRs where the review is really just a sanity check on the diff. Still, that's 50
+      individual repo contexts to context-switch through, spanning Rust crates, Ruby gems, npm packages, Gradle
+      dependencies, and GitHub Actions versions. The breadth across circleci-tools, irasutoya-tools, bitflyer-tools, and
+      personal repos makes this feel more like portfolio management than traditional code review.
+    chips:
+      - label: reviews
+        value: "50"
+        color: default
+      - label: approval rate
+        value: 100%
+        color: green
+      - label: orgs covered
+        value: "5"
+        color: default
+  - type: contribution-summary
+    heading: Cross-org dependency patrol
+    body: Beyond personal repos, this week included merges and reviews in circleci-tools/circleci-cli (json, i18n, async,
+      io-event Ruby gem bumps), irasutoya-tools/irasutoya and irasutoya-cli (rbs, nokogiri, json),
+      bitflyer-tools/DroidFlyer (PubNub Gson), bitflyer-tools/cycle-flyer (Electron 42.5.0), and
+      deariary/github-weekly-reporter (actions/checkout v7, Anthropic SDK 0.105.0). The Electron 42.5.0 bump in
+      cycle-flyer and the Anthropic SDK jump from 0.100.1 to 0.105.0 in github-weekly-reporter were the most substantive
+      cross-org changes.
+    chips:
+      - label: external orgs
+        value: "4"
+        color: default
+      - label: circleci-cli PRs
+        value: "4"
+        color: default
+      - label: Anthropic SDK
+        value: 0.100→0.105
+        color: default
+highlights:
+  - type: pr
+    title: "feat(fetcher): add `project_manifest` for nearest manifest metadata"
+    repo: unhappychoice/splashboard
+    meta: merged Jun 2026 · +823 -0 · 4 files
+    body: The week's standout addition — splashboard can now autodiscover and surface project metadata from five different
+      manifest formats by walking up the directory tree. A genuinely useful quality-of-life feature for multi-language
+      environments.
+    url: https://github.com/unhappychoice/splashboard/pull/277
+  - type: release
+    title: Release v2.10.0
+    repo: unhappychoice/splashboard
+    meta: released Jun 2026
+    body: Bundles the project_manifest fetcher, GitHub Enterprise Server support via GH_HOST/GITHUB_HOST, and an OSC 8 cell
+      width rendering fix. A meaty minor release for a TUI dashboard tool.
+  - type: pr
+    title: "chore(deps): bump the minor-and-patch group across 1 directory with 10 updates"
+    repo: deariary/github-weekly-reporter
+    meta: merged Jun 2026 · +486 -362 · 2 files
+    body: The single biggest lockfile churn of the week, including the Anthropic SDK jumping from 0.100.1 to 0.105.0 — five
+      minor versions in one shot for the tool that generates these very reports.
+    url: https://github.com/deariary/github-weekly-reporter/pull/140
+  - type: pr
+    title: "chore(deps-dev): Bump typescript-eslint from 8.61.0 to 8.61.1 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Jun 2026 · +85 -832 · 2 files
+    body: A dependency bump that deleted 832 lines is worth noticing — the net -747 lines suggests a significant lockfile or
+      generated file cleanup came along for the ride.
+    url: https://github.com/unhappychoice/mdts/pull/794
+ticker:
+  - label: BREAKING NEWS
+    text: "@unhappychoice teaches splashboard to read 5 manifest formats. Cargo.toml trembles."
+  - label: ABSOLUTE CARNAGE
+    text: "@unhappychoice merges 50 PRs in 7 days. Dependabot reportedly exhausted."
+  - label: JUST IN
+    text: "@unhappychoice drops 823 lines of new Rust on a Wednesday. No survivors."
+  - label: UNPRECEDENTED
+    text: "@unhappychoice reviews PRs across 5 orgs simultaneously. Witnesses baffled."
+  - label: DEVELOPING
+    text: "@unhappychoice hits 75 commits on Tuesday alone. Keyboard requests hazard pay."
+  - label: SOURCES SAY
+    text: "@unhappychoice bumps Anthropic SDK 5 minor versions at once. Bold strategy."
+  - label: NOT A DRILL
+    text: "@unhappychoice ships GitHub Enterprise support to splashboard mid-dep-sprint."
+  - label: EXPERTS BAFFLED
+    text: "@unhappychoice posts 225 commits with zero rest days. Sleep status: unknown."
