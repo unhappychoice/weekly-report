@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>227 commits across 20+ repos in a Dependabot marathon week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W27/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W27/</guid>
+      <description>A sweeping dependency maintenance sprint hit mdts, splashboard, circleci-cli, and a dozen more repos with 56 approvals to match.
+
+This week was a full-on dependency maintenance blitz spanning an impressive breadth of the portfolio. With 227 commits across more than 20 repositories — covering JavaScript, Rust, Ruby, Java, and Kotlin projects — the week read less like feature development and more like a disciplined gardening session: keep everything green, keep everything current. The one standout non-dependency commit was a fix in mdts for ESM compatibility with commander 15, which jumped to ESM-only and required loading via dynamic import.
+
+The volume was striking even by maintenance standards. Monday kicked off at 34 commits, then Tuesday erupted with 108 — a clear burst day where the bulk of the mdts and splashboard dependency wave landed. The rest of the week held steady between 37 and 58 commits per day, suggesting a deliberate, paced review-and-merge rhythm rather than a single frantic session. The 56 approvals logged across repos from unhappychoice/mdts to deariary/github-weekly-reporter tell the same story: this was systematic, wide-coverage upkeep.
+
+The breadth of repos touched is what makes this week notable — from TUI Rust apps like splashboard and kobito, to the Electron trading tool cycle-flyer, to Android libraries like RxSnackbar and DroidFlyer. Nothing was left behind. It&apos;s the kind of week that doesn&apos;t ship headlines but keeps the entire ecosystem healthy and unblocked.
+
+
+Commits: 227, PRs: 0, Reviews: 56</description>
+      <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W27/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W27/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>splashboard v2.10.0 ships project_manifest fetcher with multi-language support</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W26/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W26/</guid>
