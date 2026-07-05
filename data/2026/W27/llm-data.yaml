@@ -1,0 +1,157 @@
+title: 227 commits across 20+ repos in a Dependabot marathon week
+subtitle: A sweeping dependency maintenance sprint hit mdts, splashboard, circleci-cli, and a dozen more repos with 56
+  approvals to match.
+overview: >
+  This week was a full-on dependency maintenance blitz spanning an impressive breadth of the portfolio. With 227 commits
+  across more than 20 repositories — covering JavaScript, Rust, Ruby, Java, and Kotlin projects — the week read less
+  like feature development and more like a disciplined gardening session: keep everything green, keep everything
+  current. The one standout non-dependency commit was a fix in mdts for ESM compatibility with commander 15, which
+  jumped to ESM-only and required loading via dynamic import.
+
+
+  The volume was striking even by maintenance standards. Monday kicked off at 34 commits, then Tuesday erupted with 108
+  — a clear burst day where the bulk of the mdts and splashboard dependency wave landed. The rest of the week held
+  steady between 37 and 58 commits per day, suggesting a deliberate, paced review-and-merge rhythm rather than a single
+  frantic session. The 56 approvals logged across repos from unhappychoice/mdts to deariary/github-weekly-reporter tell
+  the same story: this was systematic, wide-coverage upkeep.
+
+
+  The breadth of repos touched is what makes this week notable — from TUI Rust apps like splashboard and kobito, to the
+  Electron trading tool cycle-flyer, to Android libraries like RxSnackbar and DroidFlyer. Nothing was left behind. It's
+  the kind of week that doesn't ship headlines but keeps the entire ecosystem healthy and unblocked.
+summaries:
+  - type: deep-dive
+    heading: "The one real code change: ESM compatibility in mdts"
+    body: "Buried in the dependency avalanche was a genuine fix: commander jumped to v15.0.0, which is now ESM-only, and
+      mdts needed a 'fix: load commander via dynamic import for ESM compatibility' commit to keep the CLI working. This
+      is exactly the kind of breaking change that slips through unnoticed in a patch bump — catching it and shipping the
+      fix in the same week as the dependency bump was clean execution. It's a small change in lines but meaningful for
+      anyone actually running the mdts CLI."
+    chips:
+      - label: repo
+        value: unhappychoice/mdts
+        color: default
+      - label: trigger
+        value: commander 15.0.0 ESM-only
+        color: default
+      - label: fix
+        value: dynamic import
+        color: green
+  - type: repo-summary
+    heading: 20+ repos touched, mdts leading the charge
+    body: unhappychoice/mdts was the busiest repo at 14 PRs, covering typescript-eslint, webpack, webpack-cli, mermaid, and
+      more across both root and /packages/frontend workspaces — a monorepo that generates double the dependency surface.
+      unhappychoice/splashboard followed with 7 Rust crate bumps including a notable gix 0.84→0.85 jump (a breaking
+      bug-fix release) and a sync-llm-pricing chore. circleci-cli rounded out the top three with 6 Ruby gem updates
+      including rugged and async.
+    chips:
+      - label: most active
+        value: mdts · 14 PRs
+        color: default
+      - label: repos touched
+        value: 20+
+        color: default
+      - label: languages
+        value: JS / Rust / Ruby / Java / Kotlin
+        color: default
+  - type: activity-pattern
+    heading: Tuesday's 108-commit explosion dominated the week
+    body: "The daily commit breakdown tells a clear story: a warm-up Monday (34), then a Tuesday surge of 108 that likely
+      represents a batched merge session across mdts and splashboard. Wednesday through Saturday held a remarkably
+      consistent 37–58 commit range, suggesting a deliberate daily review cadence rather than sporadic bursts. No true
+      rest day appeared — even Sunday closed at 38 commits, keeping the streak alive all seven days."
+    chips:
+      - label: peak
+        value: Tue · 108
+        color: green
+      - label: low
+        value: Mon · 34
+        color: default
+      - label: total
+        value: 227 commits
+        color: default
+      - label: streak
+        value: 7 days
+        color: green
+  - type: review-summary
+    heading: 56 approvals across the entire portfolio
+    body: "Every single review this week was an approval — 56 of them — spanning repos from unhappychoice/mdts (the most
+      reviewed) to one-off approvals on deariary/github-weekly-reporter, irasutoya-tools/irasutoya, and
+      unhappychoice/terminal_image. This is the review pattern of someone maintaining a large personal and org
+      portfolio: Dependabot opens, owner reviews and approves, CI passes, merge. The two deariary/github-weekly-reporter
+      approvals are a fun meta-touch — reviewing the tool that generates this very report."
+    chips:
+      - label: reviews
+        value: 56 approvals
+        color: green
+      - label: repos reviewed
+        value: 25+
+        color: default
+      - label: rejections
+        value: "0"
+        color: default
+  - type: contribution-summary
+    heading: "Cross-org maintenance: circleci-tools, bitflyer-tools, irasutoya-tools, deariary"
+    body: Beyond the personal unhappychoice/* repos, the week touched four external orgs. circleci-tools saw the most
+      activity with circleci-cli (6 PRs) and CircleCI (2 PRs including a JUnit Platform and Gradle wrapper bump).
+      bitflyer-tools got electron bumps in cycle-flyer, a rubocop update in bitflyer, and a Gradle wrapper in
+      DroidFlyer. irasutoya-tools and deariary each got rubocop and npm dependency updates respectively. It's a wide
+      maintenance footprint for a single developer.
+    chips:
+      - label: orgs
+        value: 4 external
+        color: default
+      - label: circleci-tools PRs
+        value: "8"
+        color: default
+      - label: bitflyer-tools PRs
+        value: "4"
+        color: default
+highlights:
+  - type: pr
+    title: "chore(deps): Bump commander from 14.0.3 to 15.0.0"
+    repo: unhappychoice/mdts
+    meta: merged this week · +13 -8 · 3 files
+    body: "Commander 15 dropped ESM-only support, which is a breaking change for any CommonJS-style loader. This PR was
+      paired with a manual 'fix: load commander via dynamic import for ESM compatibility' commit — the only
+      non-automated code change of the week, and an important one for the mdts CLI to keep functioning."
+    url: https://github.com/unhappychoice/mdts/pull/758
+  - type: pr
+    title: "chore(deps)(deps): bump gix from 0.84.0 to 0.85.0"
+    repo: unhappychoice/splashboard
+    meta: merged this week · +67 -86 · 2 files
+    body: The gix 0.85.0 bump was categorized as a bug-fix breaking release, and at +67/-86 lines it was the largest single
+      lockfile change in the Rust repos this week. Keeping splashboard on the latest gitoxide is important for
+      correctness in git operations.
+    url: https://github.com/unhappychoice/splashboard/pull/281
+  - type: pr
+    title: "chore(deps): Bump mermaid from 11.15.0 to 11.16.0 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged this week · +30 -33 · 2 files
+    body: mdts renders Mermaid diagrams as part of its Markdown-to-TypeScript pipeline, so keeping mermaid current is
+      directly user-facing. The 11.16.0 minor bump brought new diagram features that mdts users get for free.
+    url: https://github.com/unhappychoice/mdts/pull/808
+  - type: pr
+    title: "Merge pull request #286 from unhappychoice/chore/sync-llm-pricing"
+    repo: unhappychoice/splashboard
+    meta: merged this week
+    body: "The one non-dependency PR in the splashboard batch: syncing LLM pricing data, which suggests splashboard tracks
+      or displays AI model costs as part of its dashboard functionality. A small but genuinely functional update in an
+      otherwise dependency-heavy week."
+ticker:
+  - label: BREAKING NEWS
+    text: "@unhappychoice merges 227 commits in 7 days. Keyboards reportedly exhausted."
+  - label: TUESDAY SURGE
+    text: "@unhappychoice drops 108 commits in a single day. Markets in freefall."
+  - label: MASS APPROVAL
+    text: "@unhappychoice approves 56 PRs in one week. Zero rejections. Zero mercy."
+  - label: ESM CRISIS
+    text: "@unhappychoice battles commander 15's ESM-only mandate. Dynamic import saves the day."
+  - label: PORTFOLIO SWEEP
+    text: "@unhappychoice updates 20+ repos spanning Rust, JS, Ruby, Java and Kotlin. Unstoppable."
+  - label: META MOMENT
+    text: "@unhappychoice reviews the tool generating this very report. The ouroboros is complete."
+  - label: LLM PRICING WATCH
+    text: "@unhappychoice syncs AI model costs in splashboard. Sources say it's not cheap."
+  - label: NO SURVIVORS
+    text: "@unhappychoice leaves no dependency un-bumped. rubocop 1.88.1 hits six repos simultaneously."
