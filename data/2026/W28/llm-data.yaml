@@ -1,0 +1,169 @@
+title: "292 commits across 17 repos: the great dependency harvest of July 2026"
+subtitle: A week-long sweep of rubocop-ast, language_server-protocol, and MUI upgrades across the entire portfolio, plus
+  a Clippy fix in gittype and automated LLM pricing sync in splashboard.
+overview: >
+  This week was defined by breadth rather than depth: 292 commits spread across at least 17 repositories, almost
+  entirely driven by dependency maintenance. rubocop-ast 1.50.0 and language_server-protocol 3.17.0.6 landed in
+  basically every Ruby project in the portfolio simultaneously — irasutoya, irasutoya-cli, circleci-cli, bitflyer,
+  bitflyer-cli, slack_channel_stats, terminal_image — like a coordinated dependency blitz. The sheer coordination of
+  merging the same bumps across so many repos in one week is its own kind of discipline.
+
+
+  The most technically interesting moment came from gittype, where a Clippy lint for useless borrows in println!
+  arguments got fixed manually — a small but satisfying code-quality win amid all the automated churn. splashboard also
+  got a genuinely useful automated commit: the daily LLM pricing sync from LiteLLM, keeping token cost data fresh
+  without manual intervention. mdts was the busiest single repo with 11 PRs, sweeping through MUI 9.2.0, webpack
+  5.108.4, webpack-cli 7.2.1, and multiple typescript-eslint 8.63.0 bumps across both root and frontend packages.
+
+
+  52 reviews this week — all approvals — spread across the full portfolio, which tells the real story: this was a week
+  of being the responsible maintainer, keeping the dependency graph green and the CI passing across a large personal
+  project surface area.
+summaries:
+  - type: deep-dive
+    heading: The rubocop-ast 1.50.0 sweep
+    body: rubocop-ast 1.50.0 (released 2026-07-04, right before the week started) triggered a cascade of Dependabot PRs
+      across every Ruby project in the portfolio. irasutoya, irasutoya-cli, circleci-cli, bitflyer, bitflyer-cli,
+      slack_channel_stats, and terminal_image all got the bump — seven repos, same one-liner change, all merged and
+      approved this week. language_server-protocol 3.17.0.6 followed the exact same pattern across the same repos. It's
+      dependency dominoes at scale.
+    chips:
+      - label: repos updated
+        value: "7"
+        color: default
+      - label: gem
+        value: rubocop-ast 1.50.0
+        color: default
+      - label: also swept
+        value: LSP 3.17.0.6
+        color: default
+  - type: repo-summary
+    heading: 17 repos, one week, zero issues opened
+    body: mdts led the pack with 11 PRs — the MUI 9.2.0 upgrade alone touched mui/material, mui/icons-material, and the
+      webpack toolchain. circleci-tools/Norimaki got Kotest 6.2.2 bumps via Gradle. cycle-flyer jumped to Electron
+      43.1.0. The portfolio spans Rust, Ruby, TypeScript, Kotlin, and JavaScript, and this week every ecosystem got
+      touched.
+    chips:
+      - label: repos active
+        value: "17"
+        color: default
+      - label: busiest repo
+        value: mdts (11 PRs)
+        color: green
+      - label: ecosystems
+        value: "5"
+        color: default
+      - label: issues opened
+        value: "0"
+        color: default
+  - type: deep-dive
+    heading: splashboard's automated LLM pricing sync
+    body: "The 'chore: sync llm pricing from LiteLLM' PR is the most interesting automation story of the week. splashboard
+      has a daily job that refreshes data/llm_pricing.json from LiteLLM's price table, and the PR checklist explicitly
+      guards against order-of-magnitude jumps and silently disappeared models. This is careful, production-grade
+      automation — not just a cron job, but one with built-in sanity checks baked into the review process."
+    chips:
+      - label: repo
+        value: unhappychoice/splashboard
+        color: default
+      - label: type
+        value: automated pricing sync
+        color: default
+      - label: cadence
+        value: daily
+        color: green
+  - type: commit-summary
+    heading: 292 commits, two monster Mondays
+    body: "Monday (79 commits) and Thursday (78 commits) were the twin peaks of the week — likely the days when the
+      Dependabot queue got processed in bulk. The week never really went quiet, with even Sunday landing 30 commits. The
+      commit messages are almost entirely merge commits for dependency PRs, with the standout exception being
+      'fix(clippy): remove useless borrow in println! argument' in gittype — a human wrote that one."
+    chips:
+      - label: total commits
+        value: "292"
+        color: default
+      - label: peak day
+        value: Mon · 79
+        color: green
+      - label: second peak
+        value: Thu · 78
+        color: green
+      - label: quietest
+        value: Sun · 30
+        color: default
+  - type: review-summary
+    heading: 52 approvals, zero rejections
+    body: "Every single one of the 52 reviews this week was an approval — which makes sense given the nature of the work:
+      Dependabot PRs with predictable, mechanical diffs. mdts alone accounted for at least 9 of those reviews. The
+      review cadence across irasutoya-tools, bitflyer-tools, and circleci-tools repos shows that even cross-org
+      maintenance gets proper review treatment rather than just auto-merging."
+    chips:
+      - label: reviews
+        value: "52"
+        color: default
+      - label: approved
+        value: "52"
+        color: green
+      - label: rejected
+        value: "0"
+        color: default
+  - type: activity-pattern
+    heading: Consistent throughput all seven days
+    body: No rest days this week — commits landed every single day from Monday through Sunday. The pattern suggests a
+      deliberate daily habit of processing the Dependabot queue rather than letting it pile up. Lines added (+2543)
+      outpaced lines removed (-1244) by roughly 2:1, though most of that is lockfile churn from the dependency updates.
+    chips:
+      - label: active days
+        value: 7 / 7
+        color: green
+      - label: lines added
+        value: "+2543"
+        color: green
+      - label: lines removed
+        value: "-1244"
+        color: default
+highlights:
+  - type: pr
+    title: "chore: sync llm pricing from LiteLLM"
+    repo: unhappychoice/splashboard
+    meta: merged Jul 2026 · +5 -5 · 1 file
+    body: The most thoughtfully designed PR of the week — an automated daily sync of LLM token pricing data with an explicit
+      review checklist guarding against silent model disappearances and price anomalies. This is automation done right.
+    url: https://github.com/unhappychoice/splashboard/pull/287
+  - type: pr
+    title: "chore(deps)(deps): bump time from 0.3.51 to 0.3.53"
+    repo: unhappychoice/splashboard
+    meta: merged Jul 2026 · +5 -5 · 1 file
+    body: A Rust crate bump in splashboard — one of the few non-Ruby, non-JS dependency updates this week, keeping the Cargo
+      dependency graph current.
+    url: https://github.com/unhappychoice/splashboard/pull/288
+  - type: pr
+    title: "chore(deps-dev): Bump @mui/material from 9.1.2 to 9.2.0 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Jul 2026 · +24 -24 · 2 files
+    body: The biggest single diff of the week at +24/-24 lines, landing MUI 9.2.0 in mdts's frontend — part of a coordinated
+      MUI ecosystem upgrade that also swept in mui/icons-material 9.2.0.
+  - type: pr
+    title: "chore(deps-dev): bump http-proxy-middleware from 4.1.1 to 4.2.0"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged Jul 2026 · +9 -9 · 2 files
+    body: cycle-flyer's http-proxy-middleware bump — notable because it's a JavaScript dep in an Electron app that also
+      jumped to Electron 43.1.0 this week, keeping the whole frontend toolchain current.
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/909
+ticker:
+  - label: MASS EVENT
+    text: "@unhappychoice merges same rubocop-ast bump into 7 repos. Witnesses speechless."
+  - label: BREAKING
+    text: "@unhappychoice logs 292 commits in 7 days. Keyboard reportedly filing for workers' comp."
+  - label: AUTOMATION NATION
+    text: "@unhappychoice deploys daily LLM pricing bot to splashboard. Markets rattled."
+  - label: NO DAYS OFF
+    text: "@unhappychoice commits every single day this week. Rest is a myth, sources confirm."
+  - label: CLIPPY STRIKES
+    text: "@unhappychoice manually fixes a useless borrow in gittype. One human commit among hundreds."
+  - label: MUI MANIA
+    text: "@unhappychoice upgrades MUI to 9.2.0 across mdts frontend. Icons also affected."
+  - label: RUBBER STAMP
+    text: "@unhappychoice approves 52 PRs in 7 days. Zero rejections. Zero mercy for stale deps."
+  - label: ELECTRON ASCENDS
+    text: "@unhappychoice ships Electron 43.1.0 to cycle-flyer. Version numbers keep climbing."
