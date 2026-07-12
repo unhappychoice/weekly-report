@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>292 commits across 17 repos: the great dependency harvest of July 2026</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W28/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W28/</guid>
+      <description>A week-long sweep of rubocop-ast, language_server-protocol, and MUI upgrades across the entire portfolio, plus a Clippy fix in gittype and automated LLM pricing sync in splashboard.
+
+This week was defined by breadth rather than depth: 292 commits spread across at least 17 repositories, almost entirely driven by dependency maintenance. rubocop-ast 1.50.0 and language_server-protocol 3.17.0.6 landed in basically every Ruby project in the portfolio simultaneously — irasutoya, irasutoya-cli, circleci-cli, bitflyer, bitflyer-cli, slack_channel_stats, terminal_image — like a coordinated dependency blitz. The sheer coordination of merging the same bumps across so many repos in one week is its own kind of discipline.
+
+The most technically interesting moment came from gittype, where a Clippy lint for useless borrows in println! arguments got fixed manually — a small but satisfying code-quality win amid all the automated churn. splashboard also got a genuinely useful automated commit: the daily LLM pricing sync from LiteLLM, keeping token cost data fresh without manual intervention. mdts was the busiest single repo with 11 PRs, sweeping through MUI 9.2.0, webpack 5.108.4, webpack-cli 7.2.1, and multiple typescript-eslint 8.63.0 bumps across both root and frontend packages.
+
+52 reviews this week — all approvals — spread across the full portfolio, which tells the real story: this was a week of being the responsible maintainer, keeping the dependency graph green and the CI passing across a large personal project surface area.
+
+
+Commits: 292, PRs: 1, Reviews: 52</description>
+      <pubDate>Sun, 12 Jul 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W28/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W28/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>227 commits across 20+ repos in a Dependabot marathon week</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W27/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W27/</guid>
