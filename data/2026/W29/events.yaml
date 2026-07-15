@@ -636,3 +636,813 @@
   payload:
     kind: generic
     action: started
+- id: "15032522983"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:48:54Z
+  payload:
+    kind: push
+    ref: refs/heads/article/meetings-are-shackled-play
+    commits: []
+- id: "15032291379"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:44:57Z
+  payload:
+    kind: push
+    ref: refs/heads/article/full-stack-8-of-10
+    commits: []
+- id: "15032289336"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:44:54Z
+  payload:
+    kind: push
+    ref: refs/heads/article/engineering-precedent
+    commits: []
+- id: "15032287116"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:44:52Z
+  payload:
+    kind: push
+    ref: refs/heads/article/meetings-are-shackled-play
+    commits: []
+- id: "15032251277"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:44:14Z
+  payload:
+    kind: push
+    ref: refs/heads/article/meetings-are-shackled-play
+    commits: []
+- id: "15032240255"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:44:03Z
+  payload:
+    kind: push
+    ref: refs/heads/article/meetings-are-shackled-play
+    commits: []
+- id: "11820749820"
+  type: IssueCommentEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-07-15T12:40:56Z
+  payload:
+    kind: generic
+    action: created
+- id: "11820722379"
+  type: IssueCommentEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:40:20Z
+  payload:
+    kind: generic
+    action: created
+- id: "15031867065"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:37:38Z
+  payload:
+    kind: push
+    ref: refs/heads/article/meetings-are-shackled-play
+    commits: []
+- id: "15031832834"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:37:01Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031831606"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:37:00Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031829662"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-15T12:36:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031830295"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:36:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031830397"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-07-15T12:36:58Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031828702"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:36:57Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031828329"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-07-15T12:36:56Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031828370"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-15T12:36:56Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15031804126"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:36:30Z
+  payload:
+    kind: push
+    ref: refs/heads/article/engineering-precedent
+    commits: []
+- id: "15031796470"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-15T12:36:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031796934"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:36:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031795372"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-07-15T12:36:21Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031795267"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:36:21Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031795093"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-15T12:36:20Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11820539522"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-15T12:36:20Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 841
+    prTitle: ""
+    state: approved
+- id: "11820539269"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-07-15T12:36:20Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 529
+    prTitle: ""
+    state: approved
+- id: "11820539015"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:36:19Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 449
+    prTitle: ""
+    state: approved
+- id: "11820539012"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-15T12:36:19Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 840
+    prTitle: ""
+    state: approved
+- id: "11820538736"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-07-15T12:36:19Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 530
+    prTitle: ""
+    state: approved
+- id: "11820538669"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-07-15T12:36:19Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 528
+    prTitle: ""
+    state: approved
+- id: "11820538593"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:36:18Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 448
+    prTitle: ""
+    state: approved
+- id: "11820538396"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-07-15T12:36:18Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 450
+    prTitle: ""
+    state: approved
+- id: "15031708469"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:34:51Z
+  payload:
+    kind: push
+    ref: refs/heads/article/full-stack-8-of-10
+    commits: []
+- id: "15031334812"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-07-15T12:28:41Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031333978"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T12:28:40Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031332372"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T12:28:39Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031316404"
+  type: DeleteEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-07-15T12:28:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031316489"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-07-15T12:28:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031316500"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T12:28:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15031315382"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-07-15T12:28:22Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031315194"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T12:28:21Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031315205"
+  type: PushEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-07-15T12:28:21Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15031315231"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-07-15T12:28:21Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11820177859"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T12:28:20Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1034
+    prTitle: ""
+    state: approved
+- id: "11820177723"
+  type: PullRequestReviewEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-07-15T12:28:20Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 537
+    prTitle: ""
+    state: approved
+- id: "11820177684"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-07-15T12:28:20Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 583
+    prTitle: ""
+    state: approved
+- id: "11820177617"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-07-15T12:28:20Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 129
+    prTitle: ""
+    state: approved
+- id: "11820177463"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-07-15T12:28:19Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 136
+    prTitle: ""
+    state: approved
+- id: "11820177381"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T12:28:19Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1029
+    prTitle: ""
+    state: approved
+- id: "15031207668"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:26:34Z
+  payload:
+    kind: push
+    ref: refs/heads/article/full-stack-8-of-10
+    commits: []
+- id: "15031195227"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:26:21Z
+  payload:
+    kind: push
+    ref: refs/heads/article/engineering-precedent
+    commits: []
+- id: "15031184978"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:26:11Z
+  payload:
+    kind: push
+    ref: refs/heads/article/meetings-are-shackled-play
+    commits: []
+- id: "15031171045"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:25:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11820071489"
+  type: IssueCommentEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:25:56Z
+  payload:
+    kind: generic
+    action: created
+- id: "11820071388"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:22:57Z
+  payload:
+    kind: pull_request
+    action: closed
+    number: 737
+    title: ""
+- id: "11819980484"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:23:58Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 740
+    title: ""
+- id: "15031036364"
+  type: CreateEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:23:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11819956445"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:23:25Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 739
+    title: ""
+- id: "15031005385"
+  type: CreateEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:23:14Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11819937083"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:22:59Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 738
+    title: ""
+- id: "15030989129"
+  type: CreateEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:22:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11819912810"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:22:25Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 737
+    title: ""
+- id: "15030941286"
+  type: CreateEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-07-15T12:22:10Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15026919297"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-07-15T11:10:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15026918342"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-07-15T11:10:53Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15026899611"
+  type: PushEvent
+  repo: unhappychoice/qiita-docs
+  createdAt: 2026-07-15T11:10:32Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15026899908"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-07-15T11:10:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15026900317"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T11:10:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15026898866"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T11:10:31Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15026899006"
+  type: PushEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-07-15T11:10:31Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15026898441"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-07-15T11:10:30Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15026896901"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-07-15T11:10:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11816903868"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-15T11:10:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1033
+    prTitle: ""
+    state: approved
+- id: "11816903745"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-07-15T11:10:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 219
+    prTitle: ""
+    state: approved
+- id: "11816903683"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-07-15T11:10:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 220
+    prTitle: ""
+    state: approved
+- id: "11816903673"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/qiita-docs
+  createdAt: 2026-07-15T11:10:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 6
+    prTitle: ""
+    state: approved
+- id: "15026896716"
+  type: DeleteEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-07-15T11:10:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15026896600"
+  type: DeleteEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-07-15T11:10:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "11816903162"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-07-15T11:10:28Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 254
+    prTitle: ""
+    state: approved
+- id: "15026895034"
+  type: PushEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-07-15T11:10:27Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15026895020"
+  type: PushEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-07-15T11:10:27Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15026895174"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-07-15T11:10:27Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15026895329"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-07-15T11:10:27Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "15026895571"
+  type: PushEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-07-15T11:10:27Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "11816901188"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-07-15T11:10:25Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 209
+    prTitle: ""
+    state: approved
+- id: "11816901093"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-07-15T11:10:25Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 61
+    prTitle: ""
+    state: approved
+- id: "11816901020"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-07-15T11:10:25Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 912
+    prTitle: ""
+    state: approved
+- id: "11816900697"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-07-15T11:10:24Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 255
+    prTitle: ""
+    state: approved
+- id: "11816900618"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-07-15T11:10:24Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 239
+    prTitle: ""
+    state: approved
+- id: "14977129299"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-07-14T17:10:30Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "14977125630"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-07-14T17:10:26Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "14977123435"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-14T17:10:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14977122474"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-14T17:10:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "11779413527"
+  type: IssueCommentEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-14T17:10:19Z
+  payload:
+    kind: generic
+    action: created
+- id: "14977098036"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-07-14T17:09:56Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "14977094991"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-14T17:09:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14977094129"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-14T17:09:52Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14977090621"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-14T17:09:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14977089776"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-14T17:09:47Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
