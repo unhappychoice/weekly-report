@@ -2145,3 +2145,75 @@
   payload:
     kind: generic
     action: started
+- id: "11955045724"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 296
+    title: "[CI Failure] unhappychoice/tapline"
+- id: "11955045683"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: opened
+    number: 296
+    title: "[CI Failure] unhappychoice/tapline"
+- id: "11955045614"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 294
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "11955045558"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 295
+    title: "[CI Failure] unhappychoice/mdts"
+- id: "11955045546"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 293
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "11955045518"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: opened
+    number: 294
+    title: "[CI Failure] unhappychoice/lintric"
+- id: "11955045504"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: opened
+    number: 293
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "11955045502"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-18T00:16:26Z
+  payload:
+    kind: issues
+    action: opened
+    number: 295
+    title: "[CI Failure] unhappychoice/mdts"
