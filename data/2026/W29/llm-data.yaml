@@ -1,0 +1,167 @@
+title: "282 commits across 20+ repos: the great dependency sweep of July 2026"
+subtitle: A week-long blitz of Dependabot approvals, OSS snapshot refreshes, and a quiet blog post about meetings landed
+  across Rust, Ruby, and TypeScript projects.
+overview: >
+  This week was defined by scale over novelty: 282 commits, 78 reviews, and PRs touching over 20 repositories across
+  multiple GitHub orgs. The dominant theme was dependency hygiene — Dependabot had clearly queued up a backlog, and I
+  systematically worked through it across splashboard, mdts, slack_channel_stats, gittype, circleci-cli, and a dozen
+  more. It's not glamorous, but keeping the dependency graph fresh across this many repos simultaneously is its own kind
+  of discipline.
+
+
+  The most interesting signal hiding in the noise is unhappychoice/unhappychoice.com, which racked up the lion's share
+  of commits — almost entirely automated "chore(data): refresh OSS snapshots" entries, but punctuated by two real
+  feature PRs: adding tab navigation below the hero and wiring up a GitHub profile link. The personal site is quietly
+  getting polish. Meanwhile, splashboard got a notable non-dep commit syncing LLM pricing data, and the blog shipped a
+  new article titled "meetings are shackled play."
+
+
+  Tuesday hit 77 commits and Wednesday peaked at 100 — a classic mid-week burst that's almost certainly the OSS snapshot
+  automation firing continuously alongside manual dep merges. The review queue of 78 approvals spread across orgs like
+  circleci-tools, bitflyer-tools, and irasutoya-tools tells the real story: this is a highly distributed OSS portfolio,
+  and keeping it all moving requires consistent, unglamorous throughput.
+summaries:
+  - type: deep-dive
+    heading: unhappychoice.com gets tab navigation and a GitHub link
+    body: "Buried under ~160 automated snapshot refreshes were two genuine feature PRs on my personal site. PR #9 added tab
+      navigation below the hero with per-tab card styling and font-weight active states, while PR #8 wired up a GitHub
+      profile link. The refactor also separated tabs from the hero component and shared the hero across the OSS page —
+      small architectural cleanup that makes future additions easier."
+    chips:
+      - label: repo
+        value: unhappychoice.com
+        color: default
+      - label: feature PRs
+        value: 2 merged
+        color: green
+      - label: snapshot commits
+        value: ~160 automated
+        color: default
+  - type: repo-summary
+    heading: 20+ repos touched, dep hygiene at industrial scale
+    body: "The week spanned an almost absurd breadth of repositories: splashboard (13 PRs), slack_channel_stats (8), mdts
+      (8), circleci-cli (8), gittype (5), blog (5), terminal_image (4), irasutoya (4), and a long tail including
+      DroidFlyer, Norimaki, bitflyer, color-hash.kt, RxSnackbar, kobito, steamfetch, gitlogue, lintric, cycle-flyer, and
+      deariary/github-weekly-reporter. The common thread across almost all of them was Dependabot — Rust crates, Ruby
+      gems, npm packages, and Gradle dependencies all got bumped in the same week."
+    chips:
+      - label: repos touched
+        value: 20+
+        color: default
+      - label: total PRs
+        value: 6 opened, 3 merged
+        color: default
+      - label: reviews given
+        value: "78"
+        color: green
+      - label: orgs
+        value: "5"
+        color: default
+  - type: commit-summary
+    heading: 282 commits with Wednesday peaking at 100
+    body: "The daily commit curve tells the automation story clearly: 46 on Monday, 77 Tuesday, 100 Wednesday, 53 Thursday,
+      84 Friday, 43 Saturday, 28 Sunday. The mid-week spike is almost certainly the OSS snapshot refresh job on
+      unhappychoice.com firing continuously — that repo alone accounts for well over 150 identical 'chore(data): refresh
+      OSS snapshots' commits. Strip those out and the underlying manual commit cadence is still solid at ~40-50 per
+      day."
+    chips:
+      - label: total commits
+        value: "282"
+        color: default
+      - label: peak day
+        value: Wed 100
+        color: green
+      - label: lines
+        value: +2159 -1450
+        color: default
+  - type: activity-pattern
+    heading: No days off, consistent throughput all seven days
+    body: Every single day of the week had meaningful commit activity — even Sunday still logged 28 commits. This isn't a
+      five-day sprint with a clean weekend; it's a steady background hum of OSS maintenance that doesn't really clock
+      out. The review queue of 78 approvals was similarly distributed, touching repos across circleci-tools,
+      bitflyer-tools, irasutoya-tools, and my own org.
+    chips:
+      - label: active days
+        value: 7 / 7
+        color: green
+      - label: lowest day
+        value: Sun 28
+        color: default
+      - label: reviews
+        value: 78 approvals
+        color: default
+  - type: content-creation
+    heading: "New blog post: 'meetings are shackled play'"
+    body: "Amid the dependency churn, the blog shipped something human: a new article with the evocative title 'meetings are
+      shackled play,' merged via PR #738. It's a small thing in the commit log but a welcome signal that there's writing
+      happening alongside the automation."
+    chips:
+      - label: repo
+        value: unhappychoice/blog
+        color: default
+      - label: PR
+        value: "#738 merged"
+        color: green
+  - type: contribution-summary
+    heading: "Cross-org contributions: circleci-tools, bitflyer-tools, irasutoya-tools, deariary"
+    body: A significant portion of the review work this week was outside my own org. circleci-tools/circleci-cli alone had 8
+      PRs and multiple reviews; bitflyer-tools repos (DroidFlyer, bitflyer, bitflyer-cli, cycle-flyer) and
+      irasutoya-tools repos (irasutoya, irasutoya-cli) all got dependency bumps and approvals. Even
+      deariary/github-weekly-reporter got two reviews — meta, given that's the tool generating this report.
+    chips:
+      - label: external orgs
+        value: "4"
+        color: default
+      - label: circleci-tools PRs
+        value: "8"
+        color: default
+      - label: deariary reviews
+        value: "2"
+        color: default
+highlights:
+  - type: pr
+    title: "chore(deps)(deps): bump feed-rs from 2.3.1 to 2.4.0"
+    repo: unhappychoice/splashboard
+    meta: merged Jul 2026 · +14 -14 · 1 file
+    body: This one was motivated by RUSTSEC-flagged security advisory, making it the most consequential of the dep bumps
+      this week — not just routine version chasing but an actual security hygiene fix.
+    url: https://github.com/unhappychoice/splashboard/pull/290
+  - type: pr
+    title: "chore(deps-dev): Bump eslint from 10.6.0 to 10.7.0"
+    repo: unhappychoice/mdts
+    meta: merged Jul 2026 · +3 -228 · 1 file
+    body: A net deletion of 225 lines from bumping eslint — the new version clearly cleaned up a lot of generated or
+      redundant config, which is a satisfying side effect of a routine dep bump.
+    url: https://github.com/unhappychoice/mdts/pull/832
+  - type: pr
+    title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.63.0 to 8.64.0 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Jul 2026 · +234 -9 · 2 files
+    body: The largest single diff of the week at +234 lines, driven by Dependabot rebasing the PR mid-flight — a reminder
+      that even routine dep bumps can get complicated in monorepo setups.
+    url: https://github.com/unhappychoice/mdts/pull/838
+  - type: pr
+    title: "chore(deps): bump json from 2.21.0 to 2.21.1"
+    repo: circleci-tools/circleci-cli
+    meta: merged Jul 2026 · +1 -1 · 1 file
+    body: "The most cross-repo bump of the week: the json gem from 2.20.0/2.21.0 to 2.21.1 landed in at least five separate
+      repos (terminal_image, slack_channel_stats, blog, bitflyer-cli, bitflyer, circleci-cli, irasutoya), making it the
+      unofficial theme dep of the week."
+    url: https://github.com/circleci-tools/circleci-cli/pull/1033
+ticker:
+  - label: MASS MERGE EVENT
+    text: "@unhappychoice triggers Dependabot across 20 repos simultaneously. Chaos ensues."
+  - label: WEDNESDAY SURGE
+    text: "@unhappychoice fires off 100 commits in a single day. Keyboard reportedly still smoking."
+  - label: SNAPSHOT FRENZY
+    text: "@unhappychoice refreshes OSS snapshots 160+ times. Scientists cannot explain the compulsion."
+  - label: SECURITY ALERT
+    text: "@unhappychoice neutralizes RUSTSEC advisory in splashboard. Crisis averted. Barely."
+  - label: LITERARY BOMBSHELL
+    text: "@unhappychoice publishes 'meetings are shackled play.' Corporate world shaken to its core."
+  - label: NO DAYS OFF
+    text: "@unhappychoice commits every single day for 7 days straight. Sleep status: unknown."
+  - label: 78 APPROVALS
+    text: "@unhappychoice rubber-stamps 78 PRs across 5 orgs. Thumb reportedly in critical condition."
+  - label: META MOMENT
+    text: "@unhappychoice reviews deariary/github-weekly-reporter — the tool writing this very ticker."
