@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>282 commits across 20+ repos: the great dependency sweep of July 2026</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W29/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W29/</guid>
+      <description>A week-long blitz of Dependabot approvals, OSS snapshot refreshes, and a quiet blog post about meetings landed across Rust, Ruby, and TypeScript projects.
+
+This week was defined by scale over novelty: 282 commits, 78 reviews, and PRs touching over 20 repositories across multiple GitHub orgs. The dominant theme was dependency hygiene — Dependabot had clearly queued up a backlog, and I systematically worked through it across splashboard, mdts, slack_channel_stats, gittype, circleci-cli, and a dozen more. It&apos;s not glamorous, but keeping the dependency graph fresh across this many repos simultaneously is its own kind of discipline.
+
+The most interesting signal hiding in the noise is unhappychoice/unhappychoice.com, which racked up the lion&apos;s share of commits — almost entirely automated &quot;chore(data): refresh OSS snapshots&quot; entries, but punctuated by two real feature PRs: adding tab navigation below the hero and wiring up a GitHub profile link. The personal site is quietly getting polish. Meanwhile, splashboard got a notable non-dep commit syncing LLM pricing data, and the blog shipped a new article titled &quot;meetings are shackled play.&quot;
+
+Tuesday hit 77 commits and Wednesday peaked at 100 — a classic mid-week burst that&apos;s almost certainly the OSS snapshot automation firing continuously alongside manual dep merges. The review queue of 78 approvals spread across orgs like circleci-tools, bitflyer-tools, and irasutoya-tools tells the real story: this is a highly distributed OSS portfolio, and keeping it all moving requires consistent, unglamorous throughput.
+
+
+Commits: 282, PRs: 6, Reviews: 78</description>
+      <pubDate>Sun, 19 Jul 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W29/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W29/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>292 commits across 17 repos: the great dependency harvest of July 2026</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W28/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W28/</guid>
