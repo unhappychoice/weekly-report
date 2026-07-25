@@ -2501,3 +2501,2181 @@
     prNumber: 855
     prTitle: ""
     state: approved
+- id: "15793940563"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:53:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15793939537"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:53:56Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12290526034"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:53:55Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 219
+    title: ""
+- id: "12290457075"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:50:23Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 219
+    title: ""
+- id: "15793728175"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:50:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12290355063"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:44:34Z
+  payload:
+    kind: generic
+    action: created
+- id: "15793410451"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:44:14Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15793409386"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:44:13Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12290348240"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:44:12Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 218
+    title: ""
+- id: "12290348162"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:44:13Z
+  payload:
+    kind: issues
+    action: closed
+    number: 215
+    title: Type parameters resolve by name across the whole file, ignoring scope
+- id: "12290290040"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:41:06Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 218
+    title: ""
+- id: "15793213670"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:40:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15792684500"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:30:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15792683462"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:30:57Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12290113274"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:30:56Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 217
+    title: ""
+- id: "12290072268"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:28:32Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 217
+    title: ""
+- id: "15792534941"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:28:13Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12290063830"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:28:03Z
+  payload:
+    kind: generic
+    action: created
+- id: "15792164496"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:21:20Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15792163721"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:21:19Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12289948266"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:21:19Z
+  payload:
+    kind: issues
+    action: closed
+    number: 212
+    title: Generic traits and interfaces are not matched to their implementations
+- id: "12289948181"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:21:18Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 216
+    title: ""
+- id: "15792021226"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-25T14:18:39Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12289896780"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:18:15Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 216
+    title: ""
+- id: "15791981810"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:17:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12289862608"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:16:17Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 215
+    title: Type parameters resolve by name across the whole file, ignoring scope
+- id: "12289862570"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:16:17Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 215
+    title: Type parameters resolve by name across the whole file, ignoring scope
+- id: "12289862535"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:16:17Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 215
+    title: Type parameters resolve by name across the whole file, ignoring scope
+- id: "12289862499"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:16:17Z
+  payload:
+    kind: issues
+    action: opened
+    number: 215
+    title: Type parameters resolve by name across the whole file, ignoring scope
+- id: "15791748020"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:13:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15791747298"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:13:31Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12289815747"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:13:31Z
+  payload:
+    kind: issues
+    action: closed
+    number: 211
+    title: Object literal shorthand properties do not read the binding they name
+- id: "12289815650"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:13:30Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 214
+    title: ""
+- id: "12289815627"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:13:31Z
+  payload:
+    kind: issues
+    action: closed
+    number: 210
+    title: TypeScript interface member declarations are emitted as usages, inventing a cycle between same-named members
+- id: "12289757000"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-25T14:10:11Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 856
+    prTitle: ""
+    state: commented
+- id: "12289755058"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:10:04Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 214
+    title: ""
+- id: "15791552372"
+  type: PushEvent
+  repo: yangching2/mdts
+  createdAt: 2026-07-25T14:09:49Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/handle-inaccessible-directories
+    commits: []
+- id: "15791549148"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:09:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12289716053"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:07:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 213
+    title: Member access resolves to every same-named member, not the one the receiver's type declares
+- id: "12289716013"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:07:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 213
+    title: Member access resolves to every same-named member, not the one the receiver's type declares
+- id: "12289715977"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:07:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 213
+    title: Member access resolves to every same-named member, not the one the receiver's type declares
+- id: "12289715940"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:07:50Z
+  payload:
+    kind: issues
+    action: opened
+    number: 213
+    title: Member access resolves to every same-named member, not the one the receiver's type declares
+- id: "12289687325"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:06:07Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 212
+    title: Generic traits and interfaces are not matched to their implementations
+- id: "12289687296"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:06:07Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 212
+    title: Generic traits and interfaces are not matched to their implementations
+- id: "12289687249"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:06:07Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 212
+    title: Generic traits and interfaces are not matched to their implementations
+- id: "12289687214"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:06:07Z
+  payload:
+    kind: issues
+    action: opened
+    number: 212
+    title: Generic traits and interfaces are not matched to their implementations
+- id: "12289680639"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:05:44Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 211
+    title: Object literal shorthand properties do not read the binding they name
+- id: "12289680594"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:05:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 211
+    title: Object literal shorthand properties do not read the binding they name
+- id: "12289680551"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:05:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 211
+    title: Object literal shorthand properties do not read the binding they name
+- id: "12289680405"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:05:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 210
+    title: TypeScript interface member declarations are emitted as usages, inventing a cycle between same-named members
+- id: "12289680367"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:05:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 210
+    title: TypeScript interface member declarations are emitted as usages, inventing a cycle between same-named members
+- id: "12289680337"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:05:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 210
+    title: TypeScript interface member declarations are emitted as usages, inventing a cycle between same-named members
+- id: "12289680308"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T14:05:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 210
+    title: TypeScript interface member declarations are emitted as usages, inventing a cycle between same-named members
+- id: "15790920337"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:58:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15790918992"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:58:19Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12289553843"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:58:20Z
+  payload:
+    kind: issues
+    action: closed
+    number: 199
+    title: TypeScript destructuring patterns do not reference the members they name
+- id: "12289553832"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:58:18Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 209
+    title: ""
+- id: "12289553722"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:58:20Z
+  payload:
+    kind: issues
+    action: closed
+    number: 197
+    title: TypeScript object literal fields link to unrelated members by name alone
+- id: "12289490630"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:54:33Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 209
+    title: ""
+- id: "15790700993"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:54:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15788452565"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:13:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15788451122"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:13:25Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12288813417"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:13:25Z
+  payload:
+    kind: issues
+    action: closed
+    number: 198
+    title: TypeScript private class field references produce no usage
+- id: "12288813400"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:13:24Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 208
+    title: ""
+- id: "12288757676"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:10:02Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 208
+    title: ""
+- id: "15788257992"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:09:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15788121567"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:07:13Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12288712358"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:07:11Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 207
+    title: ""
+- id: "15788120461"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:07:12Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12288712091"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:07:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 202
+    title: TypeScript abstract classes produce no definitions, and the abstract member edge points backwards
+- id: "12288655217"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:03:49Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 207
+    title: ""
+- id: "15787919661"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:03:33Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15787735651"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:00:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12288595568"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:00:19Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 206
+    title: ""
+- id: "15787734721"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:00:20Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12288595336"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T13:00:20Z
+  payload:
+    kind: issues
+    action: closed
+    number: 194
+    title: Self does not resolve to the type it stands for
+- id: "15787732659"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-25T13:00:18Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12288514435"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:55:35Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 206
+    title: ""
+- id: "15787455907"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:55:10Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15787264261"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:51:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12288448732"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:51:32Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 205
+    title: ""
+- id: "12288448551"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:51:34Z
+  payload:
+    kind: issues
+    action: closed
+    number: 201
+    title: let patterns register enum path components as bindings, losing the reference and capturing later ones
+- id: "12288448452"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:51:34Z
+  payload:
+    kind: issues
+    action: closed
+    number: 195
+    title: Struct pattern bindings are not registered, so later uses resolve to the fields
+- id: "15787262750"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:51:33Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12288399597"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:48:26Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 205
+    title: ""
+- id: "15787080688"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:48:07Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15786859125"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:43:58Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15786859709"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:43:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12288328177"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:43:57Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 204
+    title: ""
+- id: "12288328117"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:43:58Z
+  payload:
+    kind: issues
+    action: closed
+    number: 196
+    title: Column-proximity heuristics misclassify path components and drop real dependencies
+- id: "12288199240"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:35:15Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 204
+    title: ""
+- id: "15786377578"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T12:34:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15783761292"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:44:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15783759899"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:44:58Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12287443869"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:44:57Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 203
+    title: ""
+- id: "12287394456"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:41:36Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 203
+    title: ""
+- id: "15783559728"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:40:57Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15783291709"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:35:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15782764966"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:25:29Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12287147264"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:25Z
+  payload:
+    kind: generic
+    action: created
+- id: "12287143412"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:11Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 202
+    title: TypeScript abstract classes produce no definitions, and the abstract member edge points backwards
+- id: "12287143378"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:11Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 202
+    title: TypeScript abstract classes produce no definitions, and the abstract member edge points backwards
+- id: "12287143345"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:10Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 202
+    title: TypeScript abstract classes produce no definitions, and the abstract member edge points backwards
+- id: "12287143315"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:10Z
+  payload:
+    kind: issues
+    action: opened
+    number: 202
+    title: TypeScript abstract classes produce no definitions, and the abstract member edge points backwards
+- id: "12287143259"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:10Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 201
+    title: let patterns register enum path components as bindings, losing the reference and capturing later ones
+- id: "12287143213"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:10Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 201
+    title: let patterns register enum path components as bindings, losing the reference and capturing later ones
+- id: "12287143169"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:10Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 201
+    title: let patterns register enum path components as bindings, losing the reference and capturing later ones
+- id: "12287143135"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:24:10Z
+  payload:
+    kind: issues
+    action: opened
+    number: 201
+    title: let patterns register enum path components as bindings, losing the reference and capturing later ones
+- id: "15781425932"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T11:00:00Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12286753185"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:59:57Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 200
+    title: ""
+- id: "15781425071"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:59:58Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12286664220"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:54:13Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 200
+    title: ""
+- id: "15781119373"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:53:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12286642861"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 199
+    title: TypeScript destructuring patterns do not reference the members they name
+- id: "12286642836"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:54Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 199
+    title: TypeScript destructuring patterns do not reference the members they name
+- id: "12286642804"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:54Z
+  payload:
+    kind: issues
+    action: opened
+    number: 199
+    title: TypeScript destructuring patterns do not reference the members they name
+- id: "12286642414"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 198
+    title: TypeScript private class field references produce no usage
+- id: "12286642374"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 198
+    title: TypeScript private class field references produce no usage
+- id: "12286642352"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:52Z
+  payload:
+    kind: issues
+    action: opened
+    number: 198
+    title: TypeScript private class field references produce no usage
+- id: "12286642275"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 197
+    title: TypeScript object literal fields link to unrelated members by name alone
+- id: "12286642238"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 197
+    title: TypeScript object literal fields link to unrelated members by name alone
+- id: "12286642207"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:52Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 197
+    title: TypeScript object literal fields link to unrelated members by name alone
+- id: "12286642164"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:52:51Z
+  payload:
+    kind: issues
+    action: opened
+    number: 197
+    title: TypeScript object literal fields link to unrelated members by name alone
+- id: "12286602915"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:50:28Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 196
+    title: Column-proximity heuristics misclassify path components and drop real dependencies
+- id: "12286602896"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:50:28Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 196
+    title: Column-proximity heuristics misclassify path components and drop real dependencies
+- id: "12286602859"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:50:28Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 196
+    title: Column-proximity heuristics misclassify path components and drop real dependencies
+- id: "12286602825"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:50:28Z
+  payload:
+    kind: issues
+    action: opened
+    number: 196
+    title: Column-proximity heuristics misclassify path components and drop real dependencies
+- id: "12286539480"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 195
+    title: Struct pattern bindings are not registered, so later uses resolve to the fields
+- id: "12286539449"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 195
+    title: Struct pattern bindings are not registered, so later uses resolve to the fields
+- id: "12286539407"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 195
+    title: Struct pattern bindings are not registered, so later uses resolve to the fields
+- id: "12286539383"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:29Z
+  payload:
+    kind: issues
+    action: opened
+    number: 195
+    title: Struct pattern bindings are not registered, so later uses resolve to the fields
+- id: "12286539277"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:28Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 194
+    title: Self does not resolve to the type it stands for
+- id: "12286539252"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:28Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 194
+    title: Self does not resolve to the type it stands for
+- id: "12286539216"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:28Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 194
+    title: Self does not resolve to the type it stands for
+- id: "12286539188"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T10:46:28Z
+  payload:
+    kind: issues
+    action: opened
+    number: 194
+    title: Self does not resolve to the type it stands for
+- id: "15777795448"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:50:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15777793716"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:50:49Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12285700644"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:50:49Z
+  payload:
+    kind: issues
+    action: closed
+    number: 191
+    title: Implementations are not linked to declarations inherited from a supertype
+- id: "12285700566"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:50:48Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 193
+    title: ""
+- id: "12285657961"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:47:37Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 193
+    title: ""
+- id: "15777604455"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:47:18Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15777225531"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:40:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12285558577"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:40:21Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 192
+    title: ""
+- id: "15777223931"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:40:22Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12285558562"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:40:22Z
+  payload:
+    kind: issues
+    action: closed
+    number: 188
+    title: TypeScript class methods are not linked to the interface methods they implement
+- id: "12285517109"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:37:15Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 192
+    title: ""
+- id: "15777040172"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:36:56Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12285512510"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:36:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 191
+    title: Implementations are not linked to declarations inherited from a supertype
+- id: "12285512481"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:36:55Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 191
+    title: Implementations are not linked to declarations inherited from a supertype
+- id: "12285512451"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:36:55Z
+  payload:
+    kind: issues
+    action: opened
+    number: 191
+    title: Implementations are not linked to declarations inherited from a supertype
+- id: "15776186521"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:21:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12285298267"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:21:17Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 190
+    title: ""
+- id: "15776185309"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:21:18Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12285298057"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:21:18Z
+  payload:
+    kind: issues
+    action: closed
+    number: 187
+    title: A function is preferred over a shadowing local binding, and over scope itself
+- id: "12285175469"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:12:32Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 190
+    title: ""
+- id: "15775676632"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T09:12:10Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15773650519"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:36:02Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12284625504"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:35:59Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 189
+    title: ""
+- id: "15773648860"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:36:00Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12284588732"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:33:35Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 189
+    title: ""
+- id: "15773487743"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:33:10Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12284562945"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:31:56Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 188
+    title: TypeScript class methods are not linked to the interface methods they implement
+- id: "12284562917"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:31:56Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 188
+    title: TypeScript class methods are not linked to the interface methods they implement
+- id: "12284562890"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:31:56Z
+  payload:
+    kind: issues
+    action: opened
+    number: 188
+    title: TypeScript class methods are not linked to the interface methods they implement
+- id: "12284544229"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:30:41Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 187
+    title: A function is preferred over a shadowing local binding, and over scope itself
+- id: "12284544196"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:30:41Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 187
+    title: A function is preferred over a shadowing local binding, and over scope itself
+- id: "12284544170"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:30:41Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 187
+    title: A function is preferred over a shadowing local binding, and over scope itself
+- id: "12284544125"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:30:41Z
+  payload:
+    kind: issues
+    action: opened
+    number: 187
+    title: A function is preferred over a shadowing local binding, and over scope itself
+- id: "15772285407"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:11:44Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15772284351"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:11:42Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12284243444"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:11:43Z
+  payload:
+    kind: issues
+    action: closed
+    number: 184
+    title: TypeScript constructor parameter properties are not registered as properties
+- id: "12284243283"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:11:41Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 186
+    title: ""
+- id: "12284193199"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:08:53Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 186
+    title: ""
+- id: "15772108601"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T08:08:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15771194188"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:52:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15771193196"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:52:41Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12283919929"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:52:40Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 185
+    title: ""
+- id: "12283919826"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:52:41Z
+  payload:
+    kind: issues
+    action: closed
+    number: 173
+    title: DependencyType is misclassified for method calls and hardcoded in new_with_scope
+- id: "12283833570"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:47:25Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 185
+    title: ""
+- id: "15770865632"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:47:00Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12283817164"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:46:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 184
+    title: TypeScript constructor parameter properties are not registered as properties
+- id: "12283817120"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:46:30Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 184
+    title: TypeScript constructor parameter properties are not registered as properties
+- id: "12283817083"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:46:30Z
+  payload:
+    kind: issues
+    action: opened
+    number: 184
+    title: TypeScript constructor parameter properties are not registered as properties
+- id: "15770390188"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:38:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12283695909"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:38:51Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 183
+    title: ""
+- id: "15770389325"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:38:52Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12283695701"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:38:52Z
+  payload:
+    kind: issues
+    action: closed
+    number: 172
+    title: Duplicate dependency edges inflate total_dependencies
+- id: "12283658309"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:36:26Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 183
+    title: ""
+- id: "15770224488"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:36:08Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12283608893"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:33:14Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 182
+    title: ""
+- id: "15770051340"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:33:15Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15770052031"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:33:16Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12283608513"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:33:15Z
+  payload:
+    kind: issues
+    action: closed
+    number: 177
+    title: Struct literal field names do not depend on field declarations
+- id: "12283558154"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:30:10Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 182
+    title: ""
+- id: "15769841896"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:29:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15768544251"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:07:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15768543497"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:07:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12283141021"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:07:45Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 181
+    title: ""
+- id: "12283140912"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:07:46Z
+  payload:
+    kind: issues
+    action: closed
+    number: 176
+    title: Enum variants are not registered as definitions
+- id: "12283097587"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:05:05Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 181
+    title: ""
+- id: "15768376018"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:04:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15768229845"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:02:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12283050439"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:02:17Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 180
+    title: ""
+- id: "15768228458"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:02:18Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12283050166"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:02:18Z
+  payload:
+    kind: issues
+    action: closed
+    number: 175
+    title: Trait method implementations are not linked to their trait declarations
+- id: "12283023955"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:00:40Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 180
+    title: ""
+- id: "15768100352"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T07:00:17Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15767514460"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:50:05Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12282855132"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:50:02Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 179
+    title: ""
+- id: "12282854782"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:50:04Z
+  payload:
+    kind: issues
+    action: closed
+    number: 171
+    title: Inline format string captures are not extracted as usages
+- id: "15767512753"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:50:03Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15767372358"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:47:34Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/format-string-captures
+    commits: []
+- id: "15767331441"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:46:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15767329758"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:46:49Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12282804177"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:46:49Z
+  payload:
+    kind: issues
+    action: closed
+    number: 169
+    title: Accuracy measurement harness for dependency detection
+- id: "12282804107"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:46:48Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 178
+    title: ""
+- id: "12282682872"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:39:01Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 179
+    title: ""
+- id: "15766870076"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:38:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12282663997"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:37:49Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 178
+    title: ""
+- id: "15766797981"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:37:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12282539091"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:30:16Z
+  payload:
+    kind: generic
+    action: created
+- id: "12282421935"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:41Z
+  payload:
+    kind: generic
+    action: created
+- id: "12282421852"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:40Z
+  payload:
+    kind: generic
+    action: created
+- id: "12282417804"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 177
+    title: Struct literal field names do not depend on field declarations
+- id: "12282417769"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 177
+    title: Struct literal field names do not depend on field declarations
+- id: "12282417736"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:26Z
+  payload:
+    kind: issues
+    action: opened
+    number: 177
+    title: Struct literal field names do not depend on field declarations
+- id: "12282417556"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 176
+    title: Enum variants are not registered as definitions
+- id: "12282417511"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:25Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 176
+    title: Enum variants are not registered as definitions
+- id: "12282417468"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:22:25Z
+  payload:
+    kind: issues
+    action: opened
+    number: 176
+    title: Enum variants are not registered as definitions
+- id: "12282219216"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:09:10Z
+  payload:
+    kind: generic
+    action: created
+- id: "12282218868"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:09:09Z
+  payload:
+    kind: generic
+    action: created
+- id: "12282218644"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:09:08Z
+  payload:
+    kind: generic
+    action: created
+- id: "12282213402"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-25T06:08:46Z
+  payload:
+    kind: generic
+    action: created
+- id: "12282213361"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-25T06:08:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 284
+    title: "[Pending Release] circleci-tools/circleci-cli"
+- id: "12282213026"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:45Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 175
+    title: Trait method implementations are not linked to their trait declarations
+- id: "12282212989"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:45Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 175
+    title: Trait method implementations are not linked to their trait declarations
+- id: "12282212967"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:45Z
+  payload:
+    kind: issues
+    action: opened
+    number: 175
+    title: Trait method implementations are not linked to their trait declarations
+- id: "12282212499"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:43Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 174
+    title: Usage.name holds whole source expressions for composite node kinds
+- id: "12282212466"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 174
+    title: Usage.name holds whole source expressions for composite node kinds
+- id: "12282212306"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:42Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 173
+    title: DependencyType is misclassified for method calls and hardcoded in new_with_scope
+- id: "12282212282"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:42Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 173
+    title: DependencyType is misclassified for method calls and hardcoded in new_with_scope
+- id: "12282212246"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:42Z
+  payload:
+    kind: issues
+    action: opened
+    number: 173
+    title: DependencyType is misclassified for method calls and hardcoded in new_with_scope
+- id: "12282210337"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:34Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 172
+    title: Duplicate dependency edges inflate total_dependencies
+- id: "12282210307"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:34Z
+  payload:
+    kind: issues
+    action: opened
+    number: 172
+    title: Duplicate dependency edges inflate total_dependencies
+- id: "12282210211"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:34Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 171
+    title: Inline format string captures are not extracted as usages
+- id: "12282210155"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:34Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 171
+    title: Inline format string captures are not extracted as usages
+- id: "12282210123"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:34Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 171
+    title: Inline format string captures are not extracted as usages
+- id: "12282210101"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:34Z
+  payload:
+    kind: issues
+    action: opened
+    number: 171
+    title: Inline format string captures are not extracted as usages
+- id: "12282208250"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 170
+    title: Migrate node extraction from hand-written traversal to tree-sitter queries
+- id: "12282208214"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 170
+    title: Migrate node extraction from hand-written traversal to tree-sitter queries
+- id: "12282208162"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:26Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 170
+    title: Migrate node extraction from hand-written traversal to tree-sitter queries
+- id: "12282208135"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:26Z
+  payload:
+    kind: issues
+    action: opened
+    number: 170
+    title: Migrate node extraction from hand-written traversal to tree-sitter queries
+- id: "12282204885"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:13Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 169
+    title: Accuracy measurement harness for dependency detection
+- id: "12282204851"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:12Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 169
+    title: Accuracy measurement harness for dependency detection
+- id: "12282204811"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T06:08:12Z
+  payload:
+    kind: issues
+    action: opened
+    number: 169
+    title: Accuracy measurement harness for dependency detection
+- id: "15765235965"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-25T06:06:14Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12282175391"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-25T06:06:11Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1046
+    title: ""
+- id: "15765234785"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-07-25T06:06:12Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "12282170921"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-07-25T06:05:58Z
+  payload:
+    kind: issues
+    action: closed
+    number: 298
+    title: "[CI Failure] circleci-tools/Norimaki"
