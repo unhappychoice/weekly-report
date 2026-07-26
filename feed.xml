@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>lintric accuracy engine: 76 PRs of dependency resolution surgery</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W30/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W30/</guid>
+      <description>A week dominated by systematic fixes to lintric&apos;s cross-language dependency graph, shipping 5 releases and 478 commits across 15+ repos.
+
+This week was defined almost entirely by lintric — a Rust-based code dependency analysis tool that got a relentless, methodical overhaul. 76 of the 77 PRs touched lintric at some point, and the commit log reads like a graduate thesis: fixing namespace collisions, scoping match arms correctly, resolving member access by receiver type, linking trait implementations to their declarations. This wasn&apos;t a casual refactor — it was a deep, systematic audit of every edge case in how the tool models TypeScript and Rust code semantics.
+
+The narrative arc is fascinating: it started with infrastructure unblocking (fixing tree-sitter 0.25 API changes, tera 2.0 migration, clippy/audit CI failures) and then pivoted into a long accuracy sprint. Each PR followed a tight test-fix-test loop — pin the construct with an accuracy fixture, write the fix, verify snapshots. By the end of the week, lintric could handle let chains, match guards, accessor pairs, abstract classes, const generic parameters, aliased imports, and type/value namespace separation.
+
+Alongside the lintric marathon, two releases shipped for mdts (v0.20.4 and v0.20.5 with auto-focus file tree and livereload resilience), gittype landed on winget as v0.10.1, steamfetch and gitlogue each cut releases, and a Gradle OOM crisis in circleci-tools/Norimaki got diagnosed and squashed. The week ended with a dramatic commit surge — 191 on Saturday, 261 on Sunday.
+
+
+Commits: 478, PRs: 77, Reviews: 90</description>
+      <pubDate>Sun, 26 Jul 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W30/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W30/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>282 commits across 20+ repos: the great dependency sweep of July 2026</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W29/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W29/</guid>
