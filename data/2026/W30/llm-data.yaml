@@ -1,0 +1,193 @@
+title: "lintric accuracy engine: 76 PRs of dependency resolution surgery"
+subtitle: A week dominated by systematic fixes to lintric's cross-language dependency graph, shipping 5 releases and 478
+  commits across 15+ repos.
+overview: >
+  This week was defined almost entirely by lintric — a Rust-based code dependency analysis tool that got a relentless,
+  methodical overhaul. 76 of the 77 PRs touched lintric at some point, and the commit log reads like a graduate thesis:
+  fixing namespace collisions, scoping match arms correctly, resolving member access by receiver type, linking trait
+  implementations to their declarations. This wasn't a casual refactor — it was a deep, systematic audit of every edge
+  case in how the tool models TypeScript and Rust code semantics.
+
+
+  The narrative arc is fascinating: it started with infrastructure unblocking (fixing tree-sitter 0.25 API changes, tera
+  2.0 migration, clippy/audit CI failures) and then pivoted into a long accuracy sprint. Each PR followed a tight
+  test-fix-test loop — pin the construct with an accuracy fixture, write the fix, verify snapshots. By the end of the
+  week, lintric could handle let chains, match guards, accessor pairs, abstract classes, const generic parameters,
+  aliased imports, and type/value namespace separation.
+
+
+  Alongside the lintric marathon, two releases shipped for mdts (v0.20.4 and v0.20.5 with auto-focus file tree and
+  livereload resilience), gittype landed on winget as v0.10.1, steamfetch and gitlogue each cut releases, and a Gradle
+  OOM crisis in circleci-tools/Norimaki got diagnosed and squashed. The week ended with a dramatic commit surge — 191 on
+  Saturday, 261 on Sunday.
+summaries:
+  - type: deep-dive
+    heading: "lintric: rebuilding a dependency graph from first principles"
+    body: "The lintric work this week was extraordinary in scope — 50+ feature and fix PRs systematically closing accuracy
+      gaps in the tool's TypeScript and Rust dependency resolution engine. The approach was rigorous: every fix came
+      paired with an accuracy fixture that pinned the exact construct being handled, from `let` chain bindings and match
+      guard scopes to accessor direction, abstract class member linking, and type/value namespace separation. The
+      crowning achievement was moving from ad-hoc parent-tree walking to query-based extraction for both languages, and
+      adding a shift diagnostic that warns when annotations were written against a different line numbering."
+    chips:
+      - label: repo
+        value: unhappychoice/lintric
+        color: default
+      - label: PRs
+        value: 76 merged
+        color: green
+      - label: lines
+        value: +9k -6k
+        color: default
+      - label: languages
+        value: Rust + TypeScript
+        color: default
+  - type: activity-pattern
+    heading: Slow start, volcanic finish
+    body: "The week opened at a brisk 85 commits on Monday and peaked mid-week at 139 on Tuesday, but the real story is the
+      weekend explosion: 191 commits on Saturday and 261 on Sunday — more than a third of the week's entire output in
+      two days. Thursday and Friday were comparatively quiet at 52 and 54, suggesting a deliberate mid-week pause before
+      the final push. The 478-commit total across 7 days is a serious output, and the back-loaded pattern suggests the
+      lintric accuracy sprint hit its stride heading into the weekend."
+    chips:
+      - label: peak
+        value: Sun 261
+        color: green
+      - label: total commits
+        value: "478"
+        color: default
+      - label: quietest
+        value: Thu 52
+        color: default
+      - label: weekend share
+        value: 452 / 478
+        color: default
+  - type: repo-summary
+    heading: 15+ repos touched, one repo ruled them all
+    body: "lintric consumed the vast majority of the week's energy with 76 PRs, but the portfolio stayed healthy: mdts
+      shipped two releases with real UX improvements, splashboard churned through 7 Rust dependency bumps,
+      circleci-tools/circleci-cli and Norimaki both got CI fixes, and gittype landed on winget. The dependency
+      maintenance work spanned Rust (tokio, serde, clap, anyhow, async-trait), TypeScript (typescript-eslint, webpack,
+      MUI), Ruby (async-http, simplecov, concurrent-ruby), and Gradle — a genuine polyglot week."
+    chips:
+      - label: active repos
+        value: 15+
+        color: default
+      - label: lintric PRs
+        value: "76"
+        color: default
+      - label: releases shipped
+        value: "5"
+        color: green
+      - label: languages
+        value: Rust, TS, Ruby, Kotlin
+        color: default
+  - type: review-summary
+    heading: 90 reviews, all approvals, zero friction
+    body: "90 reviews went out this week across an impressive spread of repos: gittype (8), mdts (9), steamfetch (7),
+      circleci-cli (7), Norimaki (5), slack_channel_stats (6), kobito (4), lintric (4), and more. Every single one was
+      an approval — this is largely self-review of Dependabot and automated PRs, but the sheer throughput of staying on
+      top of dependency queues across 15 repos is its own kind of discipline. Two reviews also landed on
+      deariary/github-weekly-reporter, the tool generating this very report."
+    chips:
+      - label: total reviews
+        value: "90"
+        color: default
+      - label: approval rate
+        value: 100%
+        color: green
+      - label: repos reviewed
+        value: 15+
+        color: default
+  - type: tech-debt
+    heading: Unblocking what Dependabot couldn't fix alone
+    body: Several PRs this week required hands-on intervention where automated tooling hit its limits. The tree-sitter 0.25
+      stack upgrade in lintric required coordinating three crates simultaneously and manually updating call sites from
+      `language()` to `LANGUAGE.into()`. The tera 2.0 migration needed rewriting `Context::into_json()` usages with
+      `serde_json::json!`. In cycle-pusher and cycle-flyer, transitive vulnerabilities via `tslint@6.1.3` required
+      adding npm `overrides` to unpin vulnerable majors. And in circleci-tools/Norimaki, a D8 dexing OOM needed both a
+      heap increase and a resource class bump to fully resolve.
+    chips:
+      - label: tree-sitter bump
+        value: 0.22 → 0.25
+        color: default
+      - label: tera bump
+        value: 1.20 → 2.0
+        color: default
+      - label: npm overrides
+        value: 3 vulns fixed
+        color: green
+  - type: contribution-summary
+    heading: Shipping gittype to winget and fixing Norimaki's OOM
+    body: "Two notable cross-org contributions this week: a PR to microsoft/winget-pkgs landing gittype v0.10.1 in the
+      Windows package registry, and a targeted fix to circleci-tools/Norimaki diagnosing a `java.lang.OutOfMemoryError`
+      during D8 dexing that had been killing the deploy job. The Norimaki fix was surgical — one-line heap increase plus
+      a CI resource class bump — but it unblocked an otherwise stalled deployment pipeline."
+    chips:
+      - label: microsoft/winget-pkgs
+        value: gittype v0.10.1
+        color: default
+      - label: circleci-tools/Norimaki
+        value: OOM fixed
+        color: green
+highlights:
+  - type: pr
+    title: "chore(deps): bump tree-sitter stack (0.25) and grammar crates together"
+    repo: unhappychoice/lintric
+    meta: merged · +263 -394 · 25 files
+    body: "The coordinated tree-sitter 0.25 upgrade that Dependabot couldn't land on its own — superseding three stalled
+      individual PRs and manually updating every `language()` call site to the new `LANGUAGE.into()` API. Net negative
+      line count tells the story: the new API is cleaner."
+    url: https://github.com/unhappychoice/lintric/pull/165
+  - type: pr
+    title: "chore(deps): bump tera from 1.20.1 to 2.0.0"
+    repo: unhappychoice/lintric
+    meta: merged · +12 -624 · 3 files
+    body: A 612-line net deletion by migrating away from the removed `Context::into_json()` API to direct
+      `serde_json::json!` construction — the kind of major-version bump that requires real source changes and pays off
+      in simplicity.
+    url: https://github.com/unhappychoice/lintric/pull/164
+  - type: pr
+    title: "fix(ci): raise Gradle daemon heap to fix D8 OOM on deploy"
+    repo: circleci-tools/Norimaki
+    meta: merged · +1 -1 · 1 file
+    body: One line changed, one broken deployment pipeline unblocked — the Gradle daemon was running with default ~512 MiB
+      while D8 dexing needed significantly more, and the launcher-level JVM_OPTS weren't being inherited by the daemon
+      process.
+    url: https://github.com/circleci-tools/Norimaki/pull/451
+  - type: pr
+    title: "fix(deps): add npm overrides for js-yaml, form-data, brace-expansion"
+    repo: unhappychoice/cycle-pusher
+    meta: merged · +28 -46 · 2 files
+    body: Security updates that Dependabot kept marking as `security_update_not_possible` due to tslint's transitive pins on
+      vulnerable dependency majors — solved by adding explicit npm overrides to force the safe versions through.
+    url: https://github.com/unhappychoice/cycle-pusher/pull/359
+  - type: release
+    title: v0.20.5
+    repo: unhappychoice/mdts
+    meta: released Jul 2026
+    body: Ships auto-focus of the current file in the left file tree and makes livereload resilient to permission errors by
+      skipping inaccessible directories — two quality-of-life improvements that came from external contributors.
+  - type: release
+    title: Release v0.10.1
+    repo: unhappychoice/gittype
+    meta: released Jul 2026
+    body: Adds winget package distribution, meaning gittype is now installable via `winget install unhappychoice.gittype` —
+      a meaningful distribution milestone for a Rust CLI tool.
+ticker:
+  - label: HISTORIC VOLUME
+    text: "@unhappychoice merges 76 PRs into lintric in a single week. Analysts baffled."
+  - label: WEEKEND SURGE
+    text: "@unhappychoice fires 261 commits on Sunday alone. Neighbors report suspicious keyboard sounds."
+  - label: SURGICAL STRIKE
+    text: "@unhappychoice fixes Norimaki OOM crisis with exactly ONE line changed. Heroes do exist."
+  - label: NET NEGATIVE
+    text: "@unhappychoice deletes 612 lines migrating tera 2.0. Codebase visibly relieved."
+  - label: GOING PUBLIC
+    text: "@unhappychoice ships gittype to Microsoft's winget registry. Windows users rejoice."
+  - label: DEPENDABOT WHISPERER
+    text: "@unhappychoice processes 90 reviews this week. All approvals. Zero mercy for stale deps."
+  - label: TREE SURGERY
+    text: "@unhappychoice manually untangles tree-sitter 0.25 across 25 files. Dependabot watches in shame."
+  - label: POLYGLOT RAMPAGE
+    text: "@unhappychoice touches Rust, TypeScript, Ruby, Kotlin and Gradle in the same week. Unhinged."

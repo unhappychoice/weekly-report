@@ -1,0 +1,5512 @@
+username: unhappychoice
+avatarUrl: https://avatars.githubusercontent.com/u/5608948?u=6ca2fca8320cb6be5b802f6c5a6359933754ab2e&v=4
+profile:
+  name: Yuji Ueki
+  bio: "\r\n    ＼ Software Engineer ／\r\n\r\n"
+  company: null
+  location: Tokyo, Japan
+  followers: 3646
+  following: 10932
+  publicRepos: 65
+dateRange:
+  from: 2026-07-20
+  to: 2026-07-26
+stats:
+  totalCommits: 478
+  totalAdditions: 16481
+  totalDeletions: 9640
+  prsOpened: 77
+  prsMerged: 77
+  prsReviewed: 90
+  issuesOpened: 0
+  issuesClosed: 0
+dailyCommits:
+  - date: 2026-07-20
+    count: 85
+  - date: 2026-07-21
+    count: 139
+  - date: 2026-07-22
+    count: 93
+  - date: 2026-07-23
+    count: 52
+  - date: 2026-07-24
+    count: 54
+  - date: 2026-07-25
+    count: 191
+  - date: 2026-07-26
+    count: 261
+repositories:
+  - name: unhappychoice/lintric
+    commits: 0
+    prsOpened: 76
+    prsMerged: 72
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/lintric
+  - name: unhappychoice/mdts
+    commits: 0
+    prsOpened: 13
+    prsMerged: 13
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/mdts
+  - name: unhappychoice/splashboard
+    commits: 0
+    prsOpened: 10
+    prsMerged: 10
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/splashboard
+  - name: circleci-tools/circleci-cli
+    commits: 0
+    prsOpened: 10
+    prsMerged: 9
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/circleci-cli
+  - name: unhappychoice/gittype
+    commits: 0
+    prsOpened: 10
+    prsMerged: 10
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gittype
+  - name: unhappychoice/steamfetch
+    commits: 0
+    prsOpened: 9
+    prsMerged: 9
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/steamfetch
+  - name: unhappychoice/slack_channel_stats
+    commits: 0
+    prsOpened: 7
+    prsMerged: 6
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/slack_channel_stats
+  - name: circleci-tools/Norimaki
+    commits: 0
+    prsOpened: 6
+    prsMerged: 6
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/Norimaki
+  - name: deariary/github-weekly-reporter
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/github-weekly-reporter
+  - name: unhappychoice/cycle-pusher
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/cycle-pusher
+  - name: unhappychoice/gitlogue
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gitlogue
+  - name: unhappychoice/kobito
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/kobito
+  - name: bitflyer-tools/cycle-flyer
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/cycle-flyer
+  - name: unhappychoice/cycle-cropper
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/cycle-cropper
+  - name: irasutoya-tools/irasutoya
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/irasutoya-tools/irasutoya
+  - name: microsoft/winget-pkgs
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/microsoft/winget-pkgs
+  - name: unhappychoice/tapline
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/tapline
+  - name: unhappychoice/terminal_image
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/terminal_image
+  - name: unhappychoice/blog
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/blog
+  - name: unhappychoice/oss-issue-opener
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/oss-issue-opener
+  - name: bitflyer-tools/DroidFlyer
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/DroidFlyer
+  - name: unhappychoice/RxSnackbar
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/RxSnackbar
+  - name: unhappychoice/color-hash.kt
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/color-hash.kt
+  - name: irasutoya-tools/irasutoya-cli
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/irasutoya-tools/irasutoya-cli
+pullRequests:
+  - title: "chore(deps)(deps): bump tokio from 1.52.3 to 1.53.0"
+    body: |-
+      Bumps [tokio](https://github.com/tokio-rs/tokio) from 1.52.3 to 1.53.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/tokio-rs/tokio/releases">tokio's releases</a>.</em></p>
+      <blockquote>
+      <h2>Tokio v1.53.0</h2>
+      <h1>1.53.0 (July 17th, 2026)</h1>
+      <h3>Added</...
+    url: https://github.com/unhappychoice/splashboard/pull/303
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 4
+    deletions: 13
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:04:50Z
+    mergedAt: 2026-07-19T16:11:14Z
+  - title: "chore(deps)(deps): bump regex from 1.13.0 to 1.13.1"
+    body: >-
+      Bumps [regex](https://github.com/rust-lang/regex) from 1.13.0 to 1.13.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/rust-lang/regex/blob/master/CHANGELOG.md">regex's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h1>1.13.1 (2026-07-15)</h1>
+
+      <p>This is a release tha...
+    url: https://github.com/unhappychoice/splashboard/pull/301
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 6
+    deletions: 15
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:04:19Z
+    mergedAt: 2026-07-19T16:11:19Z
+  - title: "chore(deps)(deps): bump serde from 1.0.228 to 1.0.229"
+    body: |-
+      Bumps [serde](https://github.com/serde-rs/serde) from 1.0.228 to 1.0.229.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.229</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </blockquote...
+    url: https://github.com/unhappychoice/splashboard/pull/297
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 20
+    deletions: 18
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:03:14Z
+    mergedAt: 2026-07-19T16:11:36Z
+  - title: "chore(deps)(deps): bump toml from 1.1.2+spec-1.1.0 to 1.1.3+spec-1.1.0"
+    body: >-
+      Bumps [toml](https://github.com/toml-rs/toml) from 1.1.2+spec-1.1.0 to 1.1.3+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/eb251609a333580bf005cae27df853bb63dffdbe"><code>eb25160</code></a>
+      chore: Release</li>
+
+      <li><a href="https://github.co...
+    url: https://github.com/unhappychoice/splashboard/pull/299
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 8
+    deletions: 17
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:03:47Z
+    mergedAt: 2026-07-19T16:11:28Z
+  - title: "chore(deps)(deps): bump anyhow from 1.0.103 to 1.0.104"
+    body: |-
+      Bumps [anyhow](https://github.com/dtolnay/anyhow) from 1.0.103 to 1.0.104.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/anyhow/releases">anyhow's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.0.104</h2>
+      <ul>
+      <li>Update <code>syn</code> dev-dependency...
+    url: https://github.com/unhappychoice/splashboard/pull/304
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 4
+    deletions: 13
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:05:04Z
+    mergedAt: 2026-07-19T16:11:10Z
+  - title: "chore(deps)(deps): bump async-trait from 0.1.89 to 0.1.91"
+    body: |-
+      Bumps [async-trait](https://github.com/dtolnay/async-trait) from 0.1.89 to 0.1.91.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/async-trait/releases">async-trait's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.1.90</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      ...
+    url: https://github.com/unhappychoice/splashboard/pull/300
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 16
+    deletions: 14
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:04:03Z
+    mergedAt: 2026-07-19T16:11:23Z
+  - title: "chore(deps)(deps): bump clap from 4.6.1 to 4.6.2"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.1 to 4.6.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.2</h2>
+      <h2>[4.6.2] - 2026-07-15</h2>
+      <h3>Fixes</h3>
+      <ul>
+      <li><em>(h...
+    url: https://github.com/unhappychoice/splashboard/pull/298
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 6
+    deletions: 15
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:03:31Z
+    mergedAt: 2026-07-19T16:11:32Z
+  - title: "fix(deps): add npm overrides for js-yaml, form-data, brace-expansion"
+    body: >-
+      Dependabot security-update runs kept failing with `security_update_not_possible` because `tslint@6.1.3`
+      transitively pins the vulnerable majors of `js-yaml` (3.14.x) and `form-data` (2.5.x). Same pattern as
+      [cycle-flyer#905](https://github.com/unhappychoice/cycle-flyer/pull/905).
+
+
+      Add an `overrides`...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/359
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels: []
+    additions: 28
+    deletions: 46
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-07-21T12:07:24Z
+    mergedAt: 2026-07-21T13:06:18Z
+  - title: "chore(deps): bump tree-sitter-rust from 0.21.2 to 0.24.2"
+    body: >-
+      Bumps [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) from 0.21.2 to 0.24.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/tree-sitter/tree-sitter-rust/releases">tree-sitter-rust's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.24.2</h2>
+
+      <...
+    url: https://github.com/unhappychoice/lintric/pull/152
+    repository: unhappychoice/lintric
+    state: closed
+    labels:
+      - dependencies
+      - rust
+    additions: 28
+    deletions: 6
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-03-30T03:13:27Z
+    mergedAt: null
+  - title: "style: apply cargo fmt and fix two clippy warnings"
+    body: >-
+      - Apply `cargo fmt` across `bms`, `chart`, `game`, `render`, `runtime`, and the `game_property` test — this is
+      what the failing `fmt & clippy` CI job was rejecting.
+
+      - Extract a `TimingResolver<'a>` type alias in `collect_timing_events` to silence `clippy::type_complexity` on the
+      `(Vec<u32>, Box<dyn ...
+    url: https://github.com/unhappychoice/tapline/pull/1
+    repository: unhappychoice/tapline
+    state: merged
+    labels: []
+    additions: 149
+    deletions: 72
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-21T12:07:14Z
+    mergedAt: 2026-07-21T13:06:02Z
+  - title: "chore(deps): bump tree-sitter from 0.22.6 to 0.25.10"
+    body: >-
+      Bumps [tree-sitter](https://github.com/tree-sitter/tree-sitter) from 0.22.6 to 0.25.10.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/tree-sitter/tree-sitter/releases">tree-sitter's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.25.10</h2>
+
+      <p>No release notes...
+    url: https://github.com/unhappychoice/lintric/pull/144
+    repository: unhappychoice/lintric
+    state: closed
+    labels:
+      - dependencies
+      - rust
+    additions: 38
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-02-04T03:46:28Z
+    mergedAt: null
+  - title: "chore(deps): bump tree-sitter-typescript from 0.21.2 to 0.23.2"
+    body: >-
+      Bumps [tree-sitter-typescript](https://github.com/tree-sitter/tree-sitter-typescript) from 0.21.2 to 0.23.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/tree-sitter/tree-sitter-typescript/releases">tree-sitter-typescript's
+      releases</a>.</em></p>
+
+      <blockq...
+    url: https://github.com/unhappychoice/lintric/pull/141
+    repository: unhappychoice/lintric
+    state: closed
+    labels:
+      - dependencies
+      - rust
+    additions: 28
+    deletions: 6
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-02-04T03:45:45Z
+    mergedAt: null
+  - title: "chore(deps): bump tree-sitter stack (0.25) and grammar crates together"
+    body: >-
+      Coordinated upgrade of the three tree-sitter crates that Dependabot could not land individually. Supersedes #141,
+      #144, #152.
+
+
+      ### API changes applied
+
+      - `tree_sitter_rust::language()` → `tree_sitter_rust::LANGUAGE.into()` (and the two TypeScript variants). Updated
+      at each call site in `crates/core/s...
+    url: https://github.com/unhappychoice/lintric/pull/165
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 263
+    deletions: 394
+    changedFiles: 25
+    author: unhappychoice
+    createdAt: 2026-07-21T12:17:58Z
+    mergedAt: 2026-07-21T13:00:52Z
+  - title: "chore(deps): bump tera from 1.20.1 to 2.0.0"
+    body: >-
+      Replaces #158 (which Dependabot can't fix on its own — a source change is required).
+
+
+      - Bumps `tera` 1.20.1 → 2.0.0 in `crates/cli/Cargo.toml`.
+
+      - `tera::Context::into_json()` was removed in 2.0. `html_output.rs` now builds each per-line JSON value directly
+      with `serde_json::json!` instead of round-t...
+    url: https://github.com/unhappychoice/lintric/pull/164
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 12
+    deletions: 624
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-21T12:01:01Z
+    mergedAt: 2026-07-21T12:18:58Z
+  - title: "chore(deps): bump tera from 1.20.1 to 2.0.0"
+    body: >-
+      Bumps [tera](https://github.com/Keats/tera) from 1.20.1 to 2.0.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/Keats/tera/blob/master/CHANGELOG.md">tera's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>2.0.0 (2026-06-26)</h2>
+
+      <p>see <a href="https://github.com/Kea...
+    url: https://github.com/unhappychoice/lintric/pull/158
+    repository: unhappychoice/lintric
+    state: closed
+    labels:
+      - dependencies
+      - rust
+    additions: 6
+    deletions: 614
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-06-29T03:06:05Z
+    mergedAt: null
+  - title: "chore(deps): bump clap from 4.6.2 to 4.6.3"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.2 to 4.6.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.3</h2>
+      <h2>[4.6.3] - 2026-07-20</h2>
+      <h3>Fixes</h3>
+      <ul>
+      <li><em>(d...
+    url: https://github.com/unhappychoice/lintric/pull/161
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 4
+    deletions: 4
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T03:04:46Z
+    mergedAt: 2026-07-21T11:58:01Z
+  - title: "chore(deps): bump serde_json from 1.0.150 to 1.0.151"
+    body: |-
+      Bumps [serde_json](https://github.com/serde-rs/json) from 1.0.150 to 1.0.151.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/json/releases">serde_json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.151</h2>
+      <ul>
+      <li>Add RawValue::from_string_unche...
+    url: https://github.com/unhappychoice/lintric/pull/162
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T03:04:54Z
+    mergedAt: 2026-07-21T11:57:31Z
+  - title: "fix(ci): raise Gradle daemon heap to fix D8 OOM on deploy"
+    body: "The CircleCI `deploy` job (build [#1854](https://circleci.com/gh/circleci-tools/Norimaki/1854)) was dying with
+      `java.lang.OutOfMemoryError: Java heap space` during D8 dexing. The Gradle daemon was running with the default
+      ~512 MiB — the launcher-level `JVM_OPTS=-Xmx3200m` in `.circleci/config.yml` o..."
+    url: https://github.com/circleci-tools/Norimaki/pull/451
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-07-21T12:07:31Z
+    mergedAt: 2026-07-22T10:49:04Z
+  - title: "fix(ci): resolve clippy question-mark lint and audit vulnerabilities"
+    body: >-
+      - Rewrite `resolve_relative_path` in `module_resolver.rs` using `?` to silence `clippy::question_mark` (newly
+      enforced under Rust 1.97, blocking CI on `main`).
+
+      - Bump transitive deps in `Cargo.lock` to clear three RustSec advisories the audit job was failing on:
+       - `crossbeam-epoch` 0.9.18 → 0.9.20 ...
+    url: https://github.com/unhappychoice/lintric/pull/163
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 14
+    deletions: 23
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-07-21T11:47:38Z
+    mergedAt: 2026-07-21T11:54:50Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.64.0 to 8.65.0"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.64.0 to 8.65.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases">@​typescript-eslint/pars...
+    url: https://github.com/unhappychoice/mdts/pull/845
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 232
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T07:43:53Z
+    mergedAt: 2026-07-21T11:08:56Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.64.0 to 8.65.0"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.64.0 to 8.65.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/843
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 61
+    deletions: 61
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T07:43:38Z
+    mergedAt: 2026-07-21T11:08:53Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.64.0 to 8.65.0 in /packages/frontend"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.64.0 to 8.65.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/844
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 63
+    deletions: 63
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-21T07:43:46Z
+    mergedAt: 2026-07-21T11:09:34Z
+  - title: "chore(deps): bump clap from 4.6.2 to 4.6.3"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.2 to 4.6.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.3</h2>
+      <h2>[4.6.3] - 2026-07-20</h2>
+      <h3>Fixes</h3>
+      <ul>
+      <li><em>(d...
+    url: https://github.com/unhappychoice/gitlogue/pull/225
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 4
+    deletions: 4
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T02:23:45Z
+    mergedAt: 2026-07-21T11:08:53Z
+  - title: "chore(deps): bump io-event from 1.19.2 to 1.19.3"
+    body: |-
+      Bumps [io-event](https://github.com/socketry/io-event) from 1.19.2 to 1.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/io-event/releases">io-event's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.19.3</h2>
+      <ul>
+      <li>Prevent <code>URing</code>, <c...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1041
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T03:04:10Z
+    mergedAt: 2026-07-21T11:08:53Z
+  - title: "chore(deps): bump brace-expansion from 1.1.11 to 1.1.16"
+    body: >-
+      Bumps [brace-expansion](https://github.com/juliangruber/brace-expansion) from 1.1.11 to 1.1.16.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/juliangruber/brace-expansion/releases">brace-expansion's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.1.15</h2>
+
+      <ul...
+    url: https://github.com/unhappychoice/cycle-cropper/pull/134
+    repository: unhappychoice/cycle-cropper
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T23:43:26Z
+    mergedAt: 2026-07-21T11:08:53Z
+  - title: "chore(deps-dev): bump io-event from 1.19.2 to 1.19.3"
+    body: |-
+      Bumps [io-event](https://github.com/socketry/io-event) from 1.19.2 to 1.19.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/io-event/releases">io-event's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.19.3</h2>
+      <ul>
+      <li>Prevent <code>URing</code>, <c...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/142
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T03:05:30Z
+    mergedAt: 2026-07-21T11:08:53Z
+  - title: "chore(deps): bump serde_json from 1.0.150 to 1.0.151"
+    body: |-
+      Bumps [serde_json](https://github.com/serde-rs/json) from 1.0.150 to 1.0.151.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/json/releases">serde_json's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.151</h2>
+      <ul>
+      <li>Add RawValue::from_string_unche...
+    url: https://github.com/unhappychoice/steamfetch/pull/69
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T03:06:05Z
+    mergedAt: 2026-07-21T11:09:30Z
+  - title: "chore(deps): bump clap from 4.6.2 to 4.6.3"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.2 to 4.6.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.3</h2>
+      <h2>[4.6.3] - 2026-07-20</h2>
+      <h3>Fixes</h3>
+      <ul>
+      <li><em>(d...
+    url: https://github.com/unhappychoice/steamfetch/pull/68
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 4
+    deletions: 4
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T03:05:48Z
+    mergedAt: 2026-07-21T11:09:57Z
+  - title: "chore(deps): bump libc from 0.2.186 to 0.2.187"
+    body: |-
+      Bumps [libc](https://github.com/rust-lang/libc) from 0.2.186 to 0.2.187.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rust-lang/libc/releases">libc's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.2.187</h2>
+      <p>This release contains a number of improvements r...
+    url: https://github.com/unhappychoice/steamfetch/pull/67
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T03:05:37Z
+    mergedAt: 2026-07-21T11:08:53Z
+  - title: "chore(deps): bump serde from 1.0.228 to 1.0.229"
+    body: |-
+      Bumps [serde](https://github.com/serde-rs/serde) from 1.0.228 to 1.0.229.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.229</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </blockquote...
+    url: https://github.com/unhappychoice/lintric/pull/160
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 26
+    deletions: 15
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:07:14Z
+    mergedAt: 2026-07-20T16:40:47Z
+  - title: "chore(deps): bump anyhow from 1.0.103 to 1.0.104"
+    body: |-
+      Bumps [anyhow](https://github.com/dtolnay/anyhow) from 1.0.103 to 1.0.104.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/anyhow/releases">anyhow's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.0.104</h2>
+      <ul>
+      <li>Update <code>syn</code> dev-dependency...
+    url: https://github.com/unhappychoice/gitlogue/pull/223
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T02:24:44Z
+    mergedAt: 2026-07-20T16:34:32Z
+  - title: "chore(ci)(deps): bump actions/setup-node from 6 to 7"
+    body: >-
+      Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6 to 7.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v7.0.0</h2>
+
+      <h2>What's Changed</h2>
+
+      <h3>...
+    url: https://github.com/unhappychoice/splashboard/pull/296
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-19T14:02:51Z
+    mergedAt: 2026-07-20T16:38:53Z
+  - title: "chore(deps): bump serde from 1.0.228 to 1.0.229"
+    body: |-
+      Bumps [serde](https://github.com/serde-rs/serde) from 1.0.228 to 1.0.229.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.229</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </blockquote...
+    url: https://github.com/unhappychoice/gitlogue/pull/224
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 18
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T02:25:00Z
+    mergedAt: 2026-07-20T16:34:29Z
+  - title: "chore(deps): Bump @mui/x-tree-view from 9.9.0 to 9.10.0 in /packages/frontend"
+    body: |-
+      Bumps [@mui/x-tree-view](https://github.com/mui/mui-x/tree/HEAD/packages/x-tree-view) from 9.9.0 to 9.10.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mui/mui-x/releases">@​mui/x-tree-view's releases</a>.</em></p>
+      <blockquote>
+      <h2>v9.10.0</h2>
+      <p>We'd ...
+    url: https://github.com/unhappychoice/mdts/pull/842
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 14
+    deletions: 239
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-20T07:44:27Z
+    mergedAt: 2026-07-20T16:38:58Z
+  - title: "build(deps-dev): bump concurrent-ruby from 1.3.7 to 1.3.8"
+    body: >-
+      Bumps [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) from 1.3.7 to 1.3.8.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ruby-concurrency/concurrent-ruby/releases">concurrent-ruby's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.3.8</h2...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/540
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:03:28Z
+    mergedAt: 2026-07-20T16:34:28Z
+  - title: "chore(deps-dev): bump simplecov from 1.0.1 to 1.0.2"
+    body: >-
+      Bumps [simplecov](https://github.com/simplecov-ruby/simplecov) from 1.0.1 to 1.0.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/simplecov-ruby/simplecov/releases">simplecov's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.0.2</h2>
+
+      <h2>What's Changed</h2>
+
+      <u...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/139
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:09:51Z
+    mergedAt: 2026-07-20T16:34:28Z
+  - title: "build(deps-dev): bump simplecov from 1.0.1 to 1.0.2"
+    body: >-
+      Bumps [simplecov](https://github.com/simplecov-ruby/simplecov) from 1.0.1 to 1.0.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/simplecov-ruby/simplecov/releases">simplecov's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.0.2</h2>
+
+      <h2>What's Changed</h2>
+
+      <u...
+    url: https://github.com/irasutoya-tools/irasutoya/pull/541
+    repository: irasutoya-tools/irasutoya
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:03:56Z
+    mergedAt: 2026-07-20T16:34:34Z
+  - title: "build(deps-dev): Bump simplecov from 1.0.1 to 1.0.2"
+    body: >-
+      Bumps [simplecov](https://github.com/simplecov-ruby/simplecov) from 1.0.1 to 1.0.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/simplecov-ruby/simplecov/releases">simplecov's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.0.2</h2>
+
+      <h2>What's Changed</h2>
+
+      <u...
+    url: https://github.com/unhappychoice/terminal_image/pull/586
+    repository: unhappychoice/terminal_image
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:03:51Z
+    mergedAt: 2026-07-20T16:34:24Z
+  - title: "chore(deps): Bump concurrent-ruby from 1.3.7 to 1.3.8"
+    body: >-
+      Bumps [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) from 1.3.7 to 1.3.8.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ruby-concurrency/concurrent-ruby/releases">concurrent-ruby's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.3.8</h2...
+    url: https://github.com/unhappychoice/blog/pull/741
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:04:25Z
+    mergedAt: 2026-07-20T16:34:27Z
+  - title: "chore(deps): bump thiserror from 2.0.18 to 2.0.19"
+    body: |-
+      Bumps [thiserror](https://github.com/dtolnay/thiserror) from 2.0.18 to 2.0.19.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
+      <blockquote>
+      <h2>2.0.19</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </...
+    url: https://github.com/unhappychoice/steamfetch/pull/63
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 5
+    deletions: 5
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:09:30Z
+    mergedAt: 2026-07-20T16:42:57Z
+  - title: "chore(deps): bump anyhow from 1.0.103 to 1.0.104"
+    body: |-
+      Bumps [anyhow](https://github.com/dtolnay/anyhow) from 1.0.103 to 1.0.104.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/anyhow/releases">anyhow's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.0.104</h2>
+      <ul>
+      <li>Update <code>syn</code> dev-dependency...
+    url: https://github.com/unhappychoice/steamfetch/pull/64
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:09:43Z
+    mergedAt: 2026-07-20T16:34:29Z
+  - title: "chore(deps): bump futures from 0.3.32 to 0.3.33"
+    body: |-
+      Bumps [futures](https://github.com/rust-lang/futures-rs) from 0.3.32 to 0.3.33.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rust-lang/futures-rs/releases">futures's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.3.33</h2>
+      <ul>
+      <li>Fix <code>ReadLine</code>'s...
+    url: https://github.com/unhappychoice/steamfetch/pull/66
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 18
+    deletions: 18
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:10:14Z
+    mergedAt: 2026-07-20T16:36:06Z
+  - title: "chore(deps): bump serde from 1.0.228 to 1.0.229"
+    body: |-
+      Bumps [serde](https://github.com/serde-rs/serde) from 1.0.228 to 1.0.229.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.229</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </blockquote...
+    url: https://github.com/unhappychoice/steamfetch/pull/65
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 40
+    deletions: 29
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:10:00Z
+    mergedAt: 2026-07-20T16:34:23Z
+  - title: "chore(deps-dev): bump concurrent-ruby from 1.3.7 to 1.3.8"
+    body: >-
+      Bumps [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) from 1.3.7 to 1.3.8.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ruby-concurrency/concurrent-ruby/releases">concurrent-ruby's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.3.8</h2...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/140
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:10:33Z
+    mergedAt: 2026-07-20T16:34:22Z
+  - title: "chore(deps-dev): bump protocol-http2 from 0.26.0 to 0.26.1"
+    body: >-
+      Bumps [protocol-http2](https://github.com/socketry/protocol-http2) from 0.26.0 to 0.26.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/socketry/protocol-http2/releases">protocol-http2's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.26.1</h2>
+
+      <ul>
+
+      <li>Improv...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/141
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:10:51Z
+    mergedAt: 2026-07-20T16:34:20Z
+  - title: "chore(deps): bump protocol-http2 from 0.26.0 to 0.26.1"
+    body: >-
+      Bumps [protocol-http2](https://github.com/socketry/protocol-http2) from 0.26.0 to 0.26.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/socketry/protocol-http2/releases">protocol-http2's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.26.1</h2>
+
+      <ul>
+
+      <li>Improv...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1037
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:27:44Z
+    mergedAt: 2026-07-20T16:34:23Z
+  - title: "chore(deps): bump rugged from 1.9.4 to 1.9.6"
+    body: >-
+      Bumps [rugged](https://github.com/libgit2/rugged) from 1.9.4 to 1.9.6.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/libgit2/rugged/commit/e32f6e9b87cf04102fd0edad0e6dcea9346c8162"><code>e32f6e9</code></a>
+      Merge pull request <a href="https://redirect.github.com/libgit2/ru...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1038
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:27:58Z
+    mergedAt: 2026-07-20T16:34:16Z
+  - title: "chore(deps): bump simplecov from 1.0.1 to 1.0.2"
+    body: >-
+      Bumps [simplecov](https://github.com/simplecov-ruby/simplecov) from 1.0.1 to 1.0.2.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/simplecov-ruby/simplecov/releases">simplecov's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.0.2</h2>
+
+      <h2>What's Changed</h2>
+
+      <u...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1039
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:28:12Z
+    mergedAt: 2026-07-20T16:34:12Z
+  - title: "chore(deps): bump ignore from 0.4.29 to 0.4.30"
+    body: |-
+      Bumps [ignore](https://github.com/BurntSushi/ripgrep) from 0.4.29 to 0.4.30.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/BurntSushi/ripgrep/commit/227381db0ee83dfa4341f1e27ff9617c0f5ad992"><code>227381d</code></a> ignore-0.4.30</li>
+      <li><a href="https://github.com/Burnt...
+    url: https://github.com/unhappychoice/gittype/pull/467
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T12:54:26Z
+    mergedAt: 2026-07-20T16:35:53Z
+  - title: "chore(deps): bump thiserror from 2.0.18 to 2.0.19"
+    body: |-
+      Bumps [thiserror](https://github.com/dtolnay/thiserror) from 2.0.18 to 2.0.19.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/thiserror/releases">thiserror's releases</a>.</em></p>
+      <blockquote>
+      <h2>2.0.19</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </...
+    url: https://github.com/unhappychoice/gittype/pull/469
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 26
+    deletions: 15
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T12:55:03Z
+    mergedAt: 2026-07-20T16:34:11Z
+  - title: "chore(deps): bump async-trait from 0.1.89 to 0.1.91"
+    body: |-
+      Bumps [async-trait](https://github.com/dtolnay/async-trait) from 0.1.89 to 0.1.91.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/async-trait/releases">async-trait's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.1.90</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      ...
+    url: https://github.com/unhappychoice/gittype/pull/470
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 14
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T12:55:42Z
+    mergedAt: 2026-07-20T16:35:56Z
+  - title: "chore(deps): bump anyhow from 1.0.103 to 1.0.104"
+    body: |-
+      Bumps [anyhow](https://github.com/dtolnay/anyhow) from 1.0.103 to 1.0.104.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/dtolnay/anyhow/releases">anyhow's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.0.104</h2>
+      <ul>
+      <li>Update <code>syn</code> dev-dependency...
+    url: https://github.com/unhappychoice/gittype/pull/472
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T12:56:11Z
+    mergedAt: 2026-07-20T16:36:03Z
+  - title: "chore(deps): bump concurrent-ruby from 1.3.7 to 1.3.8"
+    body: >-
+      Bumps [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) from 1.3.7 to 1.3.8.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ruby-concurrency/concurrent-ruby/releases">concurrent-ruby's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v1.3.8</h2...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1040
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T03:28:27Z
+    mergedAt: 2026-07-20T16:34:18Z
+  - title: "chore(deps): bump serde from 1.0.228 to 1.0.229"
+    body: |-
+      Bumps [serde](https://github.com/serde-rs/serde) from 1.0.228 to 1.0.229.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.229</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </blockquote...
+    url: https://github.com/unhappychoice/gittype/pull/468
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 18
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T12:54:43Z
+    mergedAt: 2026-07-20T16:34:19Z
+  - title: "chore(deps): bump serde_json from 1.0.150 to 1.0.151"
+    body: |-
+      [//]: # (dependabot-start)
+      ⚠️ **Dependabot is rebasing this PR** ⚠️ 
+
+      Rebasing might not happen immediately, so don't worry if this takes some time.
+
+      Note: if you make any changes to this PR yourself, they will take precedence over the rebase.
+
+      ---
+
+      [//]: # (dependabot-end)
+
+      Bumps [serde_json](https...
+    url: https://github.com/unhappychoice/gittype/pull/471
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-20T12:55:56Z
+    mergedAt: 2026-07-20T16:36:00Z
+  - title: "chore(deps-dev): Bump @testing-library/jest-dom from 6.9.1 to 7.0.0 in /packages/frontend"
+    body: >-
+      Bumps [@testing-library/jest-dom](https://github.com/testing-library/jest-dom) from 6.9.1 to 7.0.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/testing-library/jest-dom/releases">@​testing-library/jest-dom's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v7.0....
+    url: https://github.com/unhappychoice/mdts/pull/846
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 6
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-21T07:43:55Z
+    mergedAt: 2026-07-22T11:09:11Z
+  - title: "chore(deps): bump softprops/action-gh-release from 2 to 3"
+    body: >-
+      Bumps [softprops/action-gh-release](https://github.com/softprops/action-gh-release) from 2 to 3.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/softprops/action-gh-release/releases">softprops/action-gh-release's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v3.0...
+    url: https://github.com/unhappychoice/kobito/pull/44
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-05-07T15:38:17Z
+    mergedAt: 2026-07-22T11:08:47Z
+  - title: "build(deps-dev): bump typescript from 6.0.3 to 7.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 6.0.3 to 7.0.2.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li>See full diff in <a href="https://github.com/microsoft/TypeScript/commits">compare view</a></li>
+      </ul>
+      </details>
+      <details>
+      <summary>Maintainer changes</summary>
+      <p>This ver...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/358
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 369
+    deletions: 8
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-09T03:03:28Z
+    mergedAt: 2026-07-22T11:06:04Z
+  - title: "chore(deps-dev): bump typescript from 6.0.3 to 7.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 6.0.3 to 7.0.2.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li>See full diff in <a href="https://github.com/microsoft/TypeScript/commits">compare view</a></li>
+      </ul>
+      </details>
+      <details>
+      <summary>Maintainer changes</summary>
+      <p>This ver...
+    url: https://github.com/unhappychoice/cycle-cropper/pull/132
+    repository: unhappychoice/cycle-cropper
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 126
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-09T03:03:29Z
+    mergedAt: 2026-07-22T11:05:16Z
+  - title: "chore(deps-dev): bump typescript from 6.0.3 to 7.0.2"
+    body: |-
+      Bumps [typescript](https://github.com/microsoft/TypeScript) from 6.0.3 to 7.0.2.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li>See full diff in <a href="https://github.com/microsoft/TypeScript/commits">compare view</a></li>
+      </ul>
+      </details>
+      <details>
+      <summary>Maintainer changes</summary>
+      <p>This ver...
+    url: https://github.com/unhappychoice/oss-issue-opener/pull/291
+    repository: unhappychoice/oss-issue-opener
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 369
+    deletions: 8
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-09T03:05:14Z
+    mergedAt: 2026-07-22T11:04:52Z
+  - title: "chore(deps-dev): bump fast-uri from 3.1.2 to 3.1.4"
+    body: |-
+      Bumps [fast-uri](https://github.com/fastify/fast-uri) from 3.1.2 to 3.1.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/fastify/fast-uri/releases">fast-uri's releases</a>.</em></p>
+      <blockquote>
+      <h2>v3.1.4</h2>
+      <h2>⚠️ Security Release</h2>
+      <p>Fix for <a h...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/914
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T10:52:58Z
+    mergedAt: 2026-07-22T10:58:01Z
+  - title: "build(deps): bump org.kodein.di:kodein-di from 7.32.0 to 7.33.0"
+    body: >-
+      Bumps [org.kodein.di:kodein-di](https://github.com/kosi-libs/Kodein) from 7.32.0 to 7.33.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/kosi-libs/Kodein/releases">org.kodein.di:kodein-di's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>7.33.0</h2>
+
+      <h2>What's C...
+    url: https://github.com/circleci-tools/Norimaki/pull/453
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:03:17Z
+    mergedAt: 2026-07-22T23:39:00Z
+  - title: "build(deps): bump io.kotest:kotest-assertions-core from 6.2.2 to 6.2.3"
+    body: >-
+      Bumps [io.kotest:kotest-assertions-core](https://github.com/kotest/kotest) from 6.2.2 to 6.2.3.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/kotest/kotest/releases">io.kotest:kotest-assertions-core's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.2.3</h2>
+
+      <h...
+    url: https://github.com/circleci-tools/Norimaki/pull/452
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:03:12Z
+    mergedAt: 2026-07-22T10:55:18Z
+  - title: "build(deps): bump io.kotest:kotest-runner-junit5 from 6.2.2 to 6.2.3"
+    body: >-
+      Bumps [io.kotest:kotest-runner-junit5](https://github.com/kotest/kotest) from 6.2.2 to 6.2.3.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/kotest/kotest/releases">io.kotest:kotest-runner-junit5's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v6.2.3</h2>
+
+      <h2>Wh...
+    url: https://github.com/circleci-tools/Norimaki/pull/454
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:03:32Z
+    mergedAt: 2026-07-22T10:55:12Z
+  - title: "chore(deps): bump clap from 4.6.2 to 4.6.3"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.2 to 4.6.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.3</h2>
+      <h2>[4.6.3] - 2026-07-20</h2>
+      <h3>Fixes</h3>
+      <ul>
+      <li><em>(d...
+    url: https://github.com/unhappychoice/gittype/pull/474
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 4
+    deletions: 4
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T12:54:42Z
+    mergedAt: 2026-07-22T10:51:42Z
+  - title: "chore(deps-dev): bump electron from 43.1.1 to 43.2.0"
+    body: |-
+      Bumps [electron](https://github.com/electron/electron) from 43.1.1 to 43.2.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+      <blockquote>
+      <h2>electron v43.2.0</h2>
+      <h1>Release Notes for v43.2.0<...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/913
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:03:40Z
+    mergedAt: 2026-07-22T10:51:41Z
+  - title: "chore(deps): bump clap from 4.6.3 to 4.6.4"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.3 to 4.6.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.4</h2>
+      <h2>[4.6.4] - 2026-07-21</h2>
+      <h3>Internal</h3>
+      <ul>
+      <li>Upd...
+    url: https://github.com/unhappychoice/lintric/pull/167
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 7
+    deletions: 18
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:04:58Z
+    mergedAt: 2026-07-22T10:51:41Z
+  - title: "chore(deps): bump ignore from 0.4.30 to 0.4.31"
+    body: |-
+      Bumps [ignore](https://github.com/BurntSushi/ripgrep) from 0.4.30 to 0.4.31.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/BurntSushi/ripgrep/commit/59e318f5ace48db54f37bb67c152535bc17fa153"><code>59e318f</code></a> ignore-0.4.31</li>
+      <li><a href="https://github.com/Burnt...
+    url: https://github.com/unhappychoice/gittype/pull/473
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-21T12:53:54Z
+    mergedAt: 2026-07-22T10:52:33Z
+  - title: "chore(deps): bump libc from 0.2.187 to 0.2.189"
+    body: |-
+      Bumps [libc](https://github.com/rust-lang/libc) from 0.2.187 to 0.2.189.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rust-lang/libc/releases">libc's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.2.189</h2>
+      <h3>Added</h3>
+      <ul>
+      <li>Emscripten: Add <code>pthre...
+    url: https://github.com/unhappychoice/steamfetch/pull/70
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:05:38Z
+    mergedAt: 2026-07-22T10:51:41Z
+  - title: "chore(deps-dev): Bump eslint-plugin-jest from 29.15.4 to 29.15.5 in /packages/frontend"
+    body: >-
+      Bumps [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) from 29.15.4 to 29.15.5.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/jest-community/eslint-plugin-jest/releases">eslint-plugin-jest's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h...
+    url: https://github.com/unhappychoice/mdts/pull/851
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 6
+    deletions: 6
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-22T07:44:07Z
+    mergedAt: 2026-07-22T10:51:38Z
+  - title: "chore(deps): Bump react-dom from 19.2.7 to 19.2.8 in /packages/frontend"
+    body: |-
+      Bumps [react-dom](https://github.com/react/react/tree/HEAD/packages/react-dom) from 19.2.7 to 19.2.8.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/react/react/releases">react-dom's releases</a>.</em></p>
+      <blockquote>
+      <h2>19.2.8 (July 21st, 2026)</h2>
+      <h2...
+    url: https://github.com/unhappychoice/mdts/pull/850
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-22T07:43:57Z
+    mergedAt: 2026-07-22T10:52:30Z
+  - title: "chore(deps-dev): bump async-http from 0.95.1 to 0.96.0"
+    body: |-
+      Bumps [async-http](https://github.com/socketry/async-http) from 0.95.1 to 0.96.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async-http/releases">async-http's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.96.0</h2>
+      <ul>
+      <li>Made <code>metrics</co...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/144
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 9
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:07:20Z
+    mergedAt: 2026-07-22T10:51:38Z
+  - title: "chore(deps): bump async-http from 0.95.1 to 0.96.0"
+    body: |-
+      Bumps [async-http](https://github.com/socketry/async-http) from 0.95.1 to 0.96.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async-http/releases">async-http's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.96.0</h2>
+      <ul>
+      <li>Made <code>metrics</co...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1043
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 9
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:04:24Z
+    mergedAt: 2026-07-22T10:51:38Z
+  - title: "chore(deps-dev): bump async from 2.42.0 to 2.43.0"
+    body: |-
+      Bumps [async](https://github.com/socketry/async) from 2.42.0 to 2.43.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async/releases">async's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.43.0</h2>
+      <ul>
+      <li>Propagate cancellation causes through task...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/143
+    repository: unhappychoice/slack_channel_stats
+    state: closed
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:06:09Z
+    mergedAt: null
+  - title: "chore(deps): bump async from 2.42.0 to 2.43.0"
+    body: |-
+      Bumps [async](https://github.com/socketry/async) from 2.42.0 to 2.43.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async/releases">async's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.43.0</h2>
+      <ul>
+      <li>Propagate cancellation causes through task...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1042
+    repository: circleci-tools/circleci-cli
+    state: closed
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T03:03:18Z
+    mergedAt: null
+  - title: "feat: auto-focus current file in the left file tree"
+    body: |-
+      - Highlight the currently open document in the left file tree via `selectedItems`
+      - Expand ancestor folders when the path changes or the tree finishes loading (`ensureExpandedNodes`)
+      - Scroll the selected item into view so deep files stay visible after navigation
+    url: https://github.com/unhappychoice/mdts/pull/849
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 231
+    deletions: 34
+    changedFiles: 9
+    author: re-f
+    createdAt: 2026-07-22T04:43:03Z
+    mergedAt: 2026-07-25T13:00:16Z
+  - title: "chore(deps): bump clap from 4.6.3 to 4.6.4"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.3 to 4.6.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.4</h2>
+      <h2>[4.6.4] - 2026-07-21</h2>
+      <h3>Internal</h3>
+      <ul>
+      <li>Upd...
+    url: https://github.com/unhappychoice/gittype/pull/475
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 5
+    deletions: 5
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T12:53:55Z
+    mergedAt: 2026-07-22T23:38:56Z
+  - title: "chore(deps): bump glob from 0.3.3 to 0.3.4"
+    body: |-
+      Bumps [glob](https://github.com/rust-lang/glob) from 0.3.3 to 0.3.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rust-lang/glob/releases">glob's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.3.4</h2>
+      <ul>
+      <li>Cache filename for sorting in <code>fill_todo</...
+    url: https://github.com/unhappychoice/gittype/pull/476
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-22T12:54:40Z
+    mergedAt: 2026-07-22T23:38:49Z
+  - title: "chore(deps-dev): Bump ts-jest from 29.4.11 to 29.4.12"
+    body: |-
+      Bumps [ts-jest](https://github.com/kulshekhar/ts-jest) from 29.4.11 to 29.4.12.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/kulshekhar/ts-jest/releases">ts-jest's releases</a>.</em></p>
+      <blockquote>
+      <h2>v29.4.12</h2>
+      <p>Please refer to <a href="https://...
+    url: https://github.com/unhappychoice/mdts/pull/852
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 7
+    deletions: 232
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-23T07:43:21Z
+    mergedAt: 2026-07-23T12:36:16Z
+  - title: "chore(deps): bump clap from 4.6.2 to 4.6.4"
+    body: |-
+      Bumps [clap](https://github.com/clap-rs/clap) from 4.6.2 to 4.6.4.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/clap-rs/clap/releases">clap's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.6.4</h2>
+      <h2>[4.6.4] - 2026-07-21</h2>
+      <h3>Internal</h3>
+      <ul>
+      <li>Upd...
+    url: https://github.com/unhappychoice/kobito/pull/64
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 5
+    deletions: 5
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-23T15:14:18Z
+    mergedAt: 2026-07-24T09:46:08Z
+  - title: "chore(deps): bump base64 from 0.22.1 to 0.23.0"
+    body: >-
+      Bumps [base64](https://github.com/marshallpierce/rust-base64) from 0.22.1 to 0.23.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/marshallpierce/rust-base64/blob/master/RELEASE-NOTES.md">base64's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h1>0.23.0</h1>
+
+      <ul>
+
+      <li>...
+    url: https://github.com/unhappychoice/steamfetch/pull/71
+    repository: unhappychoice/steamfetch
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 10
+    deletions: 4
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:05:39Z
+    mergedAt: 2026-07-24T09:45:49Z
+  - title: "chore(deps-dev): Bump webpack from 5.108.4 to 5.109.0 in /packages/frontend"
+    body: |-
+      Bumps [webpack](https://github.com/webpack/webpack) from 5.108.4 to 5.109.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+      <blockquote>
+      <h2>v5.109.0</h2>
+      <h3>Minor Changes</h3>
+      <ul>
+      <li>
+      <p>Defaul...
+    url: https://github.com/unhappychoice/mdts/pull/853
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 13
+    deletions: 42
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-24T07:43:39Z
+    mergedAt: 2026-07-24T09:45:43Z
+  - title: "build(deps): bump com.android.application from 9.3.0 to 9.3.1"
+    body: |-
+      Bumps com.android.application from 9.3.0 to 9.3.1.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=com.android.application&package-manager=gradle&previous-version=9.3.0&new-version=9.3.1)](https://docs.github.com/en/github/managi...
+    url: https://github.com/bitflyer-tools/DroidFlyer/pull/531
+    repository: bitflyer-tools/DroidFlyer
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:03:05Z
+    mergedAt: 2026-07-24T09:40:19Z
+  - title: "chore(deps): bump serde from 1.0.228 to 1.0.229"
+    body: |-
+      Bumps [serde](https://github.com/serde-rs/serde) from 1.0.228 to 1.0.229.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/serde-rs/serde/releases">serde's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.0.229</h2>
+      <ul>
+      <li>Update to syn 3</li>
+      </ul>
+      </blockquote...
+    url: https://github.com/unhappychoice/kobito/pull/65
+    repository: unhappychoice/kobito
+    state: merged
+    labels: []
+    additions: 24
+    deletions: 13
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-23T15:14:24Z
+    mergedAt: 2026-07-24T09:40:46Z
+  - title: "build(deps): bump com.android.library from 9.3.0 to 9.3.1"
+    body: |-
+      Bumps com.android.library from 9.3.0 to 9.3.1.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=com.android.library&package-manager=gradle&previous-version=9.3.0&new-version=9.3.1)](https://docs.github.com/en/github/managing-secur...
+    url: https://github.com/unhappychoice/RxSnackbar/pull/240
+    repository: unhappychoice/RxSnackbar
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:03:05Z
+    mergedAt: 2026-07-24T09:40:12Z
+  - title: "build(deps): bump com.android.tools.build:gradle from 9.3.0 to 9.3.1"
+    body: |-
+      Bumps com.android.tools.build:gradle from 9.3.0 to 9.3.1.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=com.android.tools.build:gradle&package-manager=gradle&previous-version=9.3.0&new-version=9.3.1)](https://docs.github.com/en...
+    url: https://github.com/unhappychoice/color-hash.kt/pull/256
+    repository: unhappychoice/color-hash.kt
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:03:16Z
+    mergedAt: 2026-07-24T09:39:46Z
+  - title: "build(deps): bump pusher-js from 8.5.0 to 8.6.0"
+    body: |-
+      Bumps [pusher-js](https://github.com/pusher/pusher-js) from 8.5.0 to 8.6.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/pusher/pusher-js/releases">pusher-js's releases</a>.</em></p>
+      <blockquote>
+      <h2>v8.6.0</h2>
+      <h2>8.6.0</h2>
+      <ul>
+      <li>[ADDED] Emit <code...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/360
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:03:24Z
+    mergedAt: 2026-07-24T09:39:28Z
+  - title: "chore(deps): bump tera from 2.0.0 to 2.1.0"
+    body: >-
+      Bumps [tera](https://github.com/Keats/tera) from 2.0.0 to 2.1.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/Keats/tera/blob/master/CHANGELOG.md">tera's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>2.1.0 (2026-06-23)</h2>
+
+      <ul>
+
+      <li>Add .iter() method to Kwargs</...
+    url: https://github.com/unhappychoice/lintric/pull/168
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:04:53Z
+    mergedAt: 2026-07-24T09:38:40Z
+  - title: "build(deps): bump com.android.application from 9.3.0 to 9.3.1"
+    body: |-
+      Bumps com.android.application from 9.3.0 to 9.3.1.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=com.android.application&package-manager=gradle&previous-version=9.3.0&new-version=9.3.1)](https://docs.github.com/en/github/managi...
+    url: https://github.com/circleci-tools/Norimaki/pull/455
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:03:33Z
+    mergedAt: 2026-07-24T09:39:06Z
+  - title: "chore(deps-dev): bump async-http from 0.96.0 to 0.97.0"
+    body: |-
+      Bumps [async-http](https://github.com/socketry/async-http) from 0.96.0 to 0.97.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async-http/releases">async-http's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.97.0</h2>
+      <ul>
+      <li>Exposed all supported ...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/145
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:05:42Z
+    mergedAt: 2026-07-24T09:38:34Z
+  - title: "chore(deps): bump async-http from 0.96.0 to 0.97.0"
+    body: |-
+      Bumps [async-http](https://github.com/socketry/async-http) from 0.96.0 to 0.97.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async-http/releases">async-http's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.97.0</h2>
+      <ul>
+      <li>Exposed all supported ...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1044
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-07-24T03:03:14Z
+    mergedAt: 2026-07-24T09:38:12Z
+  - title: "chore(deps): Bump @mui/x-tree-view from 9.10.0 to 9.10.1 in /packages/frontend"
+    body: |-
+      Bumps [@mui/x-tree-view](https://github.com/mui/mui-x/tree/HEAD/packages/x-tree-view) from 9.10.0 to 9.10.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mui/mui-x/releases">@​mui/x-tree-view's releases</a>.</em></p>
+      <blockquote>
+      <h2>v9.10.1</h2>
+      <p>We'd...
+    url: https://github.com/unhappychoice/mdts/pull/854
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-24T07:43:53Z
+    mergedAt: 2026-07-24T09:37:47Z
+  - title: "chore(deps-dev): Bump eslint-plugin-jest from 29.15.5 to 29.16.0 in /packages/frontend"
+    body: >-
+      Bumps [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) from 29.15.5 to 29.16.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/jest-community/eslint-plugin-jest/releases">eslint-plugin-jest's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h...
+    url: https://github.com/unhappychoice/mdts/pull/855
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-24T07:44:10Z
+    mergedAt: 2026-07-24T09:37:21Z
+  - title: "refactor(core): delete the unreachable Rust resolution path"
+    body: >-
+      Addresses the first concrete step on #125. Does not close it — the specialized resolvers that issue names are a
+      separate question from the dead path.
+
+
+      ## Why
+
+
+      `rust_dependency_resolver.rs` held **two parallel resolution implementations and only one ran**.
+      `resolve_dependencies` goes through `resolve...
+    url: https://github.com/unhappychoice/lintric/pull/219
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 5
+    deletions: 629
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-07-25T14:50:23Z
+    mergedAt: 2026-07-25T14:53:55Z
+  - title: "fix(core): resolve type parameters in the scope that declares them"
+    body: >-
+      close: #215
+
+
+      ## Problem
+
+
+      Every `T` in a file resolved to the first one declared:
+
+
+      `T` being the most common type parameter name there is, any file with two generic items had every reference but
+      the first pointing at the wrong declaration — and two unrelated generic items appeared coupled.
+
+
+      ## What i...
+    url: https://github.com/unhappychoice/lintric/pull/218
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 132
+    deletions: 33
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-07-25T14:41:06Z
+    mergedAt: 2026-07-25T14:44:12Z
+  - title: "fix(core): stop a type parameter declaration depending on another of the same name"
+    body: >-
+      Partial fix for #215 — the declaration half. **Does not close the issue**; the reference half is diagnosed in a
+      comment there rather than attempted here.
+
+
+      ## What is fixed
+
+
+      `T` in `<T>` sits under a `type_parameter` node, and `is_identifier_in_definition_context` looked only one level
+      up at `type_pa...
+    url: https://github.com/unhappychoice/lintric/pull/217
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 41
+    deletions: 22
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-07-25T14:28:32Z
+    mergedAt: 2026-07-25T14:30:56Z
+  - title: "fix(core): match generic traits and interfaces to their implementations"
+    body: >-
+      close: #212
+
+
+      ## Problem
+
+
+      The implementation queries named a trait or interface as a plain identifier, so anything carrying type arguments
+      was invisible:
+
+
+      Two patterns failed at once: the `trait:` field of the impl parses as `generic_type` rather than
+      `type_identifier`, and the supertrait bound does ...
+    url: https://github.com/unhappychoice/lintric/pull/216
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 138
+    deletions: 14
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-07-25T14:18:15Z
+    mergedAt: 2026-07-25T14:21:18Z
+  - title: "fix(core): stop member declarations becoming usages, and read shorthand properties"
+    body: >-
+      close: #210
+
+      close: #211
+
+
+      Two defects noticed while probing #197 and now filed and fixed.
+
+
+      ## #210 — a member declaration was a usage, inventing a cycle
+
+
+      Both lines are declarations, neither references the other, and together they form a **cycle**. That is worse than
+      an ordinary false positive: `depe...
+    url: https://github.com/unhappychoice/lintric/pull/214
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 106
+    deletions: 63
+    changedFiles: 18
+    author: unhappychoice
+    createdAt: 2026-07-25T14:10:04Z
+    mergedAt: 2026-07-25T14:13:30Z
+  - title: "fix(server): handle permission-denied directories gracefully"
+    body: "Fixes a crash where running `npx mdts` in a folder that contains a sub-directory the process can't read made the
+      whole tree view unusable (`Error: EACCES: permission denied, scandir ...`). Inaccessible directories are now
+      skipped gracefully — in both the file-tree API and the livereload watcher — wi..."
+    url: https://github.com/unhappychoice/mdts/pull/856
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 167
+    deletions: 4
+    changedFiles: 6
+    author: yangching2
+    createdAt: 2026-07-24T13:46:49Z
+    mergedAt: 2026-07-25T14:18:38Z
+  - title: "fix(core): stop treating an object shape's field names as member references"
+    body: >-
+      close: #197
+
+      close: #199
+
+
+      ## The decision
+
+
+      `#197` proposed three options and I recommended the middle one — link only where the target type is stated
+      locally. **That was wrong**, and the review pushed back on the premise rather than the option.
+
+
+      A TypeScript object literal's field name is not a refer...
+    url: https://github.com/unhappychoice/lintric/pull/209
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 158
+    deletions: 204
+    changedFiles: 21
+    author: unhappychoice
+    createdAt: 2026-07-25T13:54:33Z
+    mergedAt: 2026-07-25T13:58:18Z
+  - title: "fix(core): resolve TypeScript private field references"
+    body: >-
+      close: #198
+
+
+      ## Problem
+
+
+      `this.#n` produced **no usage at all** — not an unresolved one, none:
+
+
+      A `#name` member parses as `private_property_identifier`, and the usage extractor handled only
+      `property_identifier`. Private fields are the modern way to write encapsulated state, so any class using them...
+    url: https://github.com/unhappychoice/lintric/pull/208
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 80
+    deletions: 10
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-07-25T13:10:02Z
+    mergedAt: 2026-07-25T13:13:24Z
+  - title: "fix(core): handle TypeScript abstract classes and abstract members"
+    body: >-
+      close: #202
+
+
+      ## Problem
+
+
+      `abstract class` and `abstract` members parse as their own node kinds, and neither was handled:
+
+
+      Neither `Shape` nor the abstract `area` existed as a definition. And with nothing to define it, the abstract
+      member's name fell through to identifier handling and became a **usag...
+    url: https://github.com/unhappychoice/lintric/pull/207
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 149
+    deletions: 17
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-07-25T13:03:49Z
+    mergedAt: 2026-07-25T13:07:11Z
+  - title: "feat(core): resolve Self to the type it stands for"
+    body: >-
+      close: #194
+
+
+      ## Problem
+
+
+      `Self` was collected as a type usage but matched no definition, so nothing resolved:
+
+
+      Idiomatic Rust is full of `-> Self`, `Self { .. }` and `Self::CONST`, and every such line looked independent of
+      the very type it belongs to. Changing a type showed no relationship to its ow...
+    url: https://github.com/unhappychoice/lintric/pull/206
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 202
+    deletions: 24
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-07-25T12:55:35Z
+    mergedAt: 2026-07-25T13:00:19Z
+  - title: "fix(core): tell a pattern's references apart from its bindings"
+    body: >-
+      close: #195
+
+      close: #201
+
+
+      ## Problem
+
+
+      Patterns were walked as an undifferentiated bag of identifiers, and the three forms failed in three different
+      ways:
+
+
+      The last one is the damaging case. `extract_let_definition` collected every identifier inside the pattern and made
+      each a binding:
+
+
+      Those fake bin...
+    url: https://github.com/unhappychoice/lintric/pull/205
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 225
+    deletions: 26
+    changedFiles: 13
+    author: unhappychoice
+    createdAt: 2026-07-25T12:48:26Z
+    mergedAt: 2026-07-25T12:51:32Z
+  - title: "fix(core): decide path membership from the tree, not from columns"
+    body: >-
+      close: #196
+
+
+      ## Problem
+
+
+      Two checks decided whether an identifier belonged to a qualified path by comparing line and column numbers against
+      every other usage on the line. Both misfired on routine code and silently dropped real dependencies.
+
+
+      ## Fixes
+
+
+      **`is_part_of_qualified_path`** treated any type...
+    url: https://github.com/unhappychoice/lintric/pull/204
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 177
+    deletions: 60
+    changedFiles: 15
+    author: unhappychoice
+    createdAt: 2026-07-25T12:35:15Z
+    mergedAt: 2026-07-25T12:43:57Z
+  - title: "test(accuracy): work through the language specification"
+    body: >-
+      Continues #200 by covering the constructs the fixture set still had no fixture for.
+
+
+      ## Coverage added
+
+
+      **Rust:** type aliases, associated types, `impl Trait` in argument and return position, tuple and unit structs,
+      iterator chains with closures as arguments, import aliases and nested groups, `let e...
+    url: https://github.com/unhappychoice/lintric/pull/203
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 338
+    deletions: 7
+    changedFiles: 13
+    author: unhappychoice
+    createdAt: 2026-07-25T11:41:36Z
+    mergedAt: 2026-07-25T11:44:57Z
+  - title: "test(accuracy): broaden the fixture set across both languages"
+    body: >-
+      ## Why
+
+
+      The fixture set was too narrow to justify a score of 1.000, and the pattern had already repeated twice: the
+      harness reported perfect accuracy right up until a fixture reached a defect.
+
+
+      So 1.000 has now meant "the fixtures do not reach the bug" three times out of three.
+
+
+      ## What
+
+
+      Fixtures 14...
+    url: https://github.com/unhappychoice/lintric/pull/200
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 353
+    deletions: 14
+    changedFiles: 13
+    author: unhappychoice
+    createdAt: 2026-07-25T10:54:13Z
+    mergedAt: 2026-07-25T10:59:57Z
+  - title: "feat(core): follow supertypes when resolving a declaration"
+    body: >-
+      close: #191
+
+
+      ## Problem
+
+
+      An implementation was matched only against the type it names, so a declaration inherited from a supertype produced
+      nothing:
+
+
+      The queries pair `Extended` with `run`, `Extended` declares nothing, so nothing matched. The deeper the hierarchy,
+      the more of the relationship went u...
+    url: https://github.com/unhappychoice/lintric/pull/193
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 273
+    deletions: 26
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-07-25T09:47:37Z
+    mergedAt: 2026-07-25T09:50:48Z
+  - title: "fix(core): let scope decide before definition type does"
+    body: >-
+      close: #187
+
+
+      ## Problem
+
+
+      A name matching both a local binding and a function resolved to the function — losing the correct edge and
+      producing a wrong one in its place:
+
+
+      This was the only known defect that produced a **wrong** edge rather than a missing one, which is worse: the
+      metrics then charge di...
+    url: https://github.com/unhappychoice/lintric/pull/190
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 193
+    deletions: 8
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-07-25T09:12:32Z
+    mergedAt: 2026-07-25T09:21:17Z
+  - title: "fix(core): link TypeScript class methods to the interface methods they implement"
+    body: >-
+      close: #188
+
+
+      ## Problem
+
+
+      `class Square implements Shape` resolved, but `area()` in the class had no edge to `area()` in the interface. An
+      interface is the contract its implementors depend on, and for TypeScript that coupling was invisible — while the
+      Rust equivalent had been fixed in #175, leaving t...
+    url: https://github.com/unhappychoice/lintric/pull/192
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 290
+    deletions: 128
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-07-25T09:37:15Z
+    mergedAt: 2026-07-25T09:40:21Z
+  - title: "test(accuracy): grow the fixture set, and correct the README about snapshots"
+    body: >-
+      ## Why
+
+
+      Two things prompted this.
+
+
+      **The README oversold this crate.** It read as though the snapshot suite were the weaker option. It is not: there
+      are **352 snapshots** across `crates/core`, `crates/cli` and `crates/test-generator`, and 20 real fixture source
+      files already covering imports, generi...
+    url: https://github.com/unhappychoice/lintric/pull/189
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 249
+    deletions: 30
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-07-25T08:33:35Z
+    mergedAt: 2026-07-25T08:35:59Z
+  - title: "fix(core): register TypeScript parameter properties as properties"
+    body: >-
+      close: #184
+
+
+      ## Problem
+
+
+      `constructor(public value: number)` declares a class property, not merely a parameter, but it was registered as a
+      `VariableDefinition`:
+
+
+      The dependency itself resolved, so no edge was lost and the accuracy harness never saw this. What was wrong was
+      the classification — and a...
+    url: https://github.com/unhappychoice/lintric/pull/186
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 123
+    deletions: 7
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-07-25T08:08:53Z
+    mergedAt: 2026-07-25T08:11:41Z
+  - title: "fix(core): count a line-to-line dependency once"
+    body: >-
+      close: #172
+
+
+      ## Problem
+
+
+      `ir_to_graph` called `graph.add_edge` once per reported dependency with no deduplication, so repeated references
+      to the same line became repeated edges. For `self.x * self.x + self.y * self.y`:
+
+
+      `total_dependencies` counts outgoing edges, so L8 reported **4** while it depend...
+    url: https://github.com/unhappychoice/lintric/pull/183
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 150
+    deletions: 80
+    changedFiles: 13
+    author: unhappychoice
+    createdAt: 2026-07-25T07:36:26Z
+    mergedAt: 2026-07-25T07:38:51Z
+  - title: "fix(core): classify a dependency by what it resolves to"
+    body: >-
+      close: #173
+
+
+      ## Problem
+
+
+      `get_dependency_type` keyed only on the usage kind, so `p.norm()` was reported as `StructFieldAccess`. A method
+      call and a field read are the same `field_expression` at the usage site — only what they resolve to tells them
+      apart.
+
+
+      Separately, `Dependency::new_with_scope` har...
+    url: https://github.com/unhappychoice/lintric/pull/185
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 239
+    deletions: 127
+    changedFiles: 25
+    author: unhappychoice
+    createdAt: 2026-07-25T07:47:25Z
+    mergedAt: 2026-07-25T07:52:40Z
+  - title: "fix(core): resolve struct literal field names to their declarations"
+    body: >-
+      close: #177
+
+
+      ## Problem
+
+
+      `Point { x: a, y: b }` names the fields `x` and `y`, but only the value expressions were extracted. The field
+      names never became usages, so the line had no dependency on the field declarations — even though the declarations
+      existed and reading the same fields through `self.x...
+    url: https://github.com/unhappychoice/lintric/pull/182
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 415
+    deletions: 69
+    changedFiles: 26
+    author: unhappychoice
+    createdAt: 2026-07-25T07:30:10Z
+    mergedAt: 2026-07-25T07:33:14Z
+  - title: "fix(core): register enum variants as definitions"
+    body: >-
+      close: #176
+
+
+      ## Problem
+
+
+      Enum variants were never registered as definitions, so references to them resolved to nothing. As with trait
+      method signatures (#175), the declaration sites were instead emitted as **usages** — the relationship was
+      inverted.
+
+
+      For `crates/accuracy/fixtures/rust/enums.rs`, ext...
+    url: https://github.com/unhappychoice/lintric/pull/181
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 150
+    deletions: 19
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-07-25T07:05:05Z
+    mergedAt: 2026-07-25T07:07:45Z
+  - title: "feat(core): link trait method implementations to their declarations"
+    body: >-
+      close: #175
+
+
+      ## Problem
+
+
+      A method in `impl Trait for Type` had no dependency on the trait method signature it satisfies. Changing a trait
+      signature showed no relationship to any of its implementations — which is exactly the coupling this tool exists to
+      surface.
+
+
+      The relationship was in fact inverted...
+    url: https://github.com/unhappychoice/lintric/pull/180
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 253
+    deletions: 25
+    changedFiles: 16
+    author: unhappychoice
+    createdAt: 2026-07-25T07:00:40Z
+    mergedAt: 2026-07-25T07:02:17Z
+  - title: "fix(core): extract identifiers captured by Rust format strings"
+    body: >-
+      close: #171
+
+
+      > **Stacked on #178.** Base is `feature/accuracy-measurement-harness` because the accuracy numbers this PR moves
+      live in that branch. GitHub will retarget this to `main` once #178 merges.
+
+
+      ## Problem
+
+
+      Since Rust 2021, `println!("{name}")` refers to `name` directly rather than through th...
+    url: https://github.com/unhappychoice/lintric/pull/179
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 428
+    deletions: 21
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-07-25T06:39:01Z
+    mergedAt: 2026-07-25T06:50:02Z
+  - title: "feat(accuracy): add dependency detection accuracy harness"
+    body: >-
+      close: #169
+
+
+      ## Why
+
+
+      There is currently no way to tell whether Lintric's dependency detection is getting better or worse. The suite is
+      large and green, but it cannot detect an accuracy regression and it cannot say how accurate we are now:
+
+
+      - **Snapshot tests** record whatever the analyzer currently ...
+    url: https://github.com/unhappychoice/lintric/pull/178
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 1231
+    deletions: 4
+    changedFiles: 32
+    author: unhappychoice
+    createdAt: 2026-07-25T06:37:49Z
+    mergedAt: 2026-07-25T06:46:48Z
+  - title: "fix: pin openssl to the default gem version to unblock releases"
+    body: >-
+      ## Why
+
+
+      The `release` workflow still fails after #1045
+      ([run](https://github.com/circleci-tools/circleci-cli/actions/runs/30146652831)):
+
+
+      `rubygems/release-gem@v1` preloads `rubygems-attestation-patch.rb` via `RUBYOPT`, which requires `openssl` before
+      `Bundler.setup` runs. That activates Ruby 3.4.4'...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1046
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels: []
+    additions: 6
+    deletions: 1
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-07-25T06:01:48Z
+    mergedAt: 2026-07-25T06:06:11Z
+  - title: "refactor(rust): state resolution preferences as a table, and split the resolver"
+    body: >-
+      Two changes to `rust_dependency_resolver.rs`, 913 lines before and 385 after.
+
+
+      ## `select_best_definition_by_priority` was 176 lines of one shape written eleven times
+
+
+      Every rule was "scan the candidates, return the first whose kind is in this set", spelled out as an explicit loop.
+      The repetition hi...
+    url: https://github.com/unhappychoice/lintric/pull/275
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 586
+    deletions: 619
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-07-26T13:55:44Z
+    mergedAt: 2026-07-26T14:09:00Z
+  - title: "refactor(models): split scope.rs, and drop what nothing calls"
+    body: >-
+      `scope.rs` was 547 lines holding **seven types** plus a stray `impl Definition`. It had become the place things
+      went when they did not obviously belong elsewhere.
+
+
+      ## Four modules, one idea each
+
+
+      `Definition::new_simple` — a test-only constructor — goes to `definition.rs`, where the type lives.
+
+
+      ## ...
+    url: https://github.com/unhappychoice/lintric/pull/276
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 271
+    deletions: 374
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-07-26T14:51:25Z
+    mergedAt: 2026-07-26T15:00:34Z
+  - title: "refactor: split the extractors along their seams"
+    body: >-
+      Both extractor files held two unrelated types, and the Rust one interleaved them: `RustDefinitionExtractor`'s impl
+      blocks sat at lines 20, 50 and 128, then the whole usage extractor, then more of the definition extractor at 790.
+      Reading either meant skipping the other.
+
+
+      ## Eight modules, each answer...
+    url: https://github.com/unhappychoice/lintric/pull/274
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 1459
+    deletions: 1553
+    changedFiles: 15
+    author: unhappychoice
+    createdAt: 2026-07-26T13:13:53Z
+    mergedAt: 2026-07-26T13:26:05Z
+  - title: "chore(deps): bump actions/checkout from 7.0.0 to 7.0.1"
+    body: >-
+      Bumps [actions/checkout](https://github.com/actions/checkout) from 7.0.0 to 7.0.1.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/actions/checkout/releases">actions/checkout's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v7.0.1</h2>
+
+      <h2>What's Changed</h2>
+
+      <ul>...
+    url: https://github.com/deariary/github-weekly-reporter/pull/147
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 6
+    deletions: 6
+    changedFiles: 3
+    author: dependabot[bot]
+    createdAt: 2026-07-25T21:52:21Z
+    mergedAt: 2026-07-26T13:02:00Z
+  - title: "chore(deps): bump the minor-and-patch group with 6 updates"
+    body: >-
+      Bumps the minor-and-patch group with 6 updates:
+
+
+      Updates `@anthropic-ai/sdk` from 0.112.3 to 0.115.0
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/anthropics/anthropic-sdk-typescript/releases">@​anthropic-ai/sdk's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>s...
+    url: https://github.com/deariary/github-weekly-reporter/pull/148
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 85
+    deletions: 85
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-25T21:53:03Z
+    mergedAt: 2026-07-26T13:01:31Z
+  - title: "test(accuracy): pin the constructs probing found already correct"
+    body: >-
+      Probing for defects turns up far more constructs that work than ones that do not — and verifying one by hand
+      leaves nothing behind. These four fixtures record what was checked while chasing #265, #267 and #269:
+
+
+      Every one was already correct. The point is that nothing was keeping them so.
+
+
+      ## Covera...
+    url: https://github.com/unhappychoice/lintric/pull/271
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 185
+    deletions: 4
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-26T08:59:49Z
+    mergedAt: 2026-07-26T12:13:46Z
+  - title: "fix(typescript): let an export name a declaration in either namespace"
+    body: >-
+      close: #272
+
+
+      A regression I introduced in #260.
+
+
+      #260 separates the type and value namespaces, filtering an `Identifier` usage away from type declarations. In
+      `export type { Spec }` the grammar gives `Spec` as a plain `identifier`, so the usage reads as a value position
+      and the interface was ruled o...
+    url: https://github.com/unhappychoice/lintric/pull/273
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 193
+    deletions: 7
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-07-26T12:27:35Z
+    mergedAt: 2026-07-26T12:40:46Z
+  - title: "fix(typescript): register an aliased import under its local name"
+    body: >-
+      close: #269
+
+
+      `aid` is the local name; `helper` is the other module's name for the same thing and is not a local name at all.
+      The query captured `name:`, so `helper` became a declaration nothing could refer to and `aid` had none.
+
+
+      ## A negated field says what two patterns cannot
+
+
+      The local name is `a...
+    url: https://github.com/unhappychoice/lintric/pull/270
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 39
+    deletions: 4
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-26T08:44:02Z
+    mergedAt: 2026-07-26T08:55:54Z
+  - title: "fix(rust): bind the names in a let chain"
+    body: >-
+      close: #267
+
+
+      Neither `m` nor `n` became a definition, so the body had nothing to reference. `while let ... && ...` was affected
+      the same way; the unchained forms were fine.
+
+
+      ## Cause
+
+
+      `is_pattern_binding` walked up to the `if_expression` and required its condition to **be** a `let_condition`:
+
+
+      A cha...
+    url: https://github.com/unhappychoice/lintric/pull/268
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 36
+    deletions: 16
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-26T08:16:02Z
+    mergedAt: 2026-07-26T08:28:14Z
+  - title: "fix(typescript): stop a declaration one scope deeper from being visible"
+    body: >-
+      close: #265
+
+
+      ## Cause
+
+
+      `is_in_scope_chain` accepted a definition whose scope's **parent** is in the usage's chain:
+
+
+      The allowance was carried over from Rust, where a scope-creating item registers its own name inside the scope it
+      creates. In TypeScript it means **any declaration one level deeper than...
+    url: https://github.com/unhappychoice/lintric/pull/266
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 39
+    deletions: 19
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-26T07:48:49Z
+    mergedAt: 2026-07-26T08:00:58Z
+  - title: "fix: key a member access by its span, not its start"
+    body: |-
+      close: #262
+
+      The receiver of `.shared()` is `a.to_b()`, whose type the file does not state — so #254's rule says emit nothing.
+
+      ## Cause
+
+      Rust records a method call at the **start of its receiver**, so line 11 holds two usages with identical starts:
+
+      `ReceiverNarrowing` keyed accesses by `(start_lin...
+    url: https://github.com/unhappychoice/lintric/pull/263
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 52
+    deletions: 18
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-26T06:33:59Z
+    mergedAt: 2026-07-26T06:44:46Z
+  - title: "docs(accuracy): record the self-consistency sweep over real code"
+    body: "The fixtures measure correctness on a few hundred hand-written cases. This records a complementary check that
+      runs the analyzer over the repository's own source and asserts something weaker at much larger scale: **for every
+      edge, the symbol appears as a word on both the source and the target line.**..."
+    url: https://github.com/unhappychoice/lintric/pull/264
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 22
+    deletions: 0
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-07-26T06:45:20Z
+    mergedAt: 2026-07-26T06:57:21Z
+  - title: "fix(rust): resolve a path head to a module or type, not a same-named value"
+    body: >-
+      close: #259 — the Rust half; the TypeScript half landed in #260.
+
+
+      Both `Setting`s resolved to the **function**, so `Setting::LEVEL`'s head pointed at L4 instead of the module at
+      L1.
+
+
+      Rust's usage kinds do not distinguish a path head from a call target — both are `Identifier` — so the fix uses the
+      pa...
+    url: https://github.com/unhappychoice/lintric/pull/261
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 75
+    deletions: 6
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-26T06:09:55Z
+    mergedAt: 2026-07-26T06:21:50Z
+  - title: "fix(typescript): keep type and value namespaces apart"
+    body: >-
+      Part of #259 — the TypeScript half.
+
+
+      TypeScript keeps types and values in separate namespaces, so an interface and a `const` may share a name and each
+      is invisible where the other belongs. The usage kinds already carried the distinction — `TypeIdentifier` at L5,
+      `Identifier` at L6 — and nothing acte...
+    url: https://github.com/unhappychoice/lintric/pull/260
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 59
+    deletions: 4
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-26T05:55:54Z
+    mergedAt: 2026-07-26T06:06:55Z
+  - title: "fix(typescript): link a getter to the getter it implements"
+    body: >-
+      close: #257
+
+
+      `trait_implementation.rs` paired on `(declaring type, member name)`. An interface's getter and setter are both
+      `method_signature` with the same `name:` — `get`/`set` are anonymous tokens — so the two collapsed into one entry
+      and the later one won.
+
+
+      The accessor role now joins the key. `...
+    url: https://github.com/unhappychoice/lintric/pull/258
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 129
+    deletions: 25
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-26T05:44:14Z
+    mergedAt: 2026-07-26T05:52:35Z
+  - title: "fix: resolve a shadowing binding's initializer to the previous binding"
+    body: >-
+      close: #251
+
+
+      The inner declaration was the only candidate in the block's scope, so `find_map` stopped there and the resulting
+      self-edge was dropped. TypeScript behaved the same way.
+
+
+      ## Why the obvious fix failed, and what replaced it
+
+
+      #251 records the attempt: restricting the scope search's fallbac...
+    url: https://github.com/unhappychoice/lintric/pull/256
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 189
+    deletions: 16
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-07-26T05:20:37Z
+    mergedAt: 2026-07-26T05:31:46Z
+  - title: "fix(rust): resolve a method call by the receiver's type"
+    body: >-
+      close: #254
+
+
+      #213 settled this for TypeScript. Rust had the same defect and was worse: it picked one candidate
+      deterministically rather than emitting all of them, so every call but the one on the first-declared type was a
+      **false positive** pointing into another type's impl.
+
+
+      ## Shared rather than d...
+    url: https://github.com/unhappychoice/lintric/pull/255
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 489
+    deletions: 223
+    changedFiles: 18
+    author: unhappychoice
+    createdAt: 2026-07-26T03:54:35Z
+    mergedAt: 2026-07-26T04:02:09Z
+  - title: "fix(typescript): stop collecting a pattern's default value as a binding"
+    body: >-
+      close: #252
+
+
+      `const { x = fallback } = src` **reads** `fallback`. It was collected as a binding, so the reference shadowed the
+      declaration it was naming, resolved to itself on its own line, and the edge was dropped:
+
+
+      A computed key was collected the same way:
+
+
+      ## Cause
+
+
+      `find_identifier_nodes_in_nod...
+    url: https://github.com/unhappychoice/lintric/pull/253
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 52
+    deletions: 19
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-07-26T03:29:59Z
+    mergedAt: 2026-07-26T03:40:33Z
+  - title: "feat(accuracy): say when annotations were written against a different numbering"
+    body: >-
+      Adding a sentence to a fixture's header comment shifts every line below it, so every `@line` written before that
+      edit points one short. The harness then reports a wall of missing and spurious edges — which reads like a broken
+      analyzer rather than a stale annotation.
+
+
+      That has now cost several rounds...
+    url: https://github.com/unhappychoice/lintric/pull/250
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 147
+    deletions: 1
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-26T03:01:41Z
+    mergedAt: 2026-07-26T03:11:53Z
+  - title: "fix(typescript): link an abstract class's members to what they implement"
+    body: >-
+      close: #248
+
+
+      The `implementations` query matched only `class_declaration`. #202 added `abstract_class_declaration` to
+      `definitions.scm`, to `declarations` and to `supertypes` — so an abstract class was recognised as **declaring** a
+      contract and as a supertype, but never as **satisfying** one.
+
+
+      It do...
+    url: https://github.com/unhappychoice/lintric/pull/249
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 51
+    deletions: 15
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-26T02:50:32Z
+    mergedAt: 2026-07-26T03:00:43Z
+  - title: "fix(typescript): give an enum member with an initializer a definition"
+    body: >-
+      close: #244
+
+
+      `enum E { A }` registered `A`; `enum E { A = 1 }` did not.
+
+
+      `extract_enum_members` walked `enum_body`'s **direct children** for a `property_identifier`. A bare member is one;
+      a valued member's name is the `name:` of an `enum_assignment`, a grandchild.
+
+
+      Both are shapes, so the pattern mo...
+    url: https://github.com/unhappychoice/lintric/pull/245
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 22
+    deletions: 29
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-07-26T02:20:15Z
+    mergedAt: 2026-07-26T02:30:33Z
+  - title: "fix: link every implemented member to its declaration, not only methods"
+    body: >-
+      close: #246
+
+
+      #175 and #188 established that an implementation is coupled to the contract it satisfies. Only **methods** got the
+      edge.
+
+
+      ## What was added
+
+
+      The shared `trait_implementation.rs` pairs on (declaring type, member name) and does not care what kind of member
+      it is, so capturing the new form...
+    url: https://github.com/unhappychoice/lintric/pull/247
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 80
+    deletions: 26
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-26T02:34:06Z
+    mergedAt: 2026-07-26T02:44:56Z
+  - title: "docs: record the grammar sweep that finds uncovered declarations"
+    body: >-
+      The last four accuracy fixes (#233, #234, #239, #241) all came from the same technique rather than from reading
+      code, so it belongs in the docs.
+
+
+      **The sweep:** list every grammar node with a field that can hold an identifier, subtract what the query files
+      capture, and probe what is left.
+
+
+      #241 is t...
+    url: https://github.com/unhappychoice/lintric/pull/243
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 30
+    deletions: 3
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-07-26T02:06:47Z
+    mergedAt: 2026-07-26T02:15:55Z
+  - title: "fix(typescript): treat a catch parameter and a for-of binding as declarations"
+    body: >-
+      close: #241
+
+
+      Two declaration forms produced no definition, so their names were read as references — one inventing an edge, the
+      other losing one.
+
+
+      ## The `for` that does not declare
+
+
+      `for (existing of values)` with no `const`/`let`/`var` assigns to a binding that already exists, so it reads
+      rather th...
+    url: https://github.com/unhappychoice/lintric/pull/242
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 76
+    deletions: 10
+    changedFiles: 9
+    author: unhappychoice
+    createdAt: 2026-07-26T01:59:00Z
+    mergedAt: 2026-07-26T02:06:05Z
+  - title: "fix(rust): scope each match arm, and stop reading a guard's names as bindings"
+    body: >-
+      close: #239
+
+
+      Two defects in how a match arm's pattern is read, both invisible until a name is reused across arms or a guard is
+      written on its own line.
+
+
+      ## An arm's binding resolved from another arm
+
+
+      `scopes.scm` scoped the `match_expression` but not each `match_arm`, so every arm's bindings landed ...
+    url: https://github.com/unhappychoice/lintric/pull/240
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 84
+    deletions: 14
+    changedFiles: 10
+    author: unhappychoice
+    createdAt: 2026-07-26T01:37:15Z
+    mergedAt: 2026-07-26T01:47:19Z
+  - title: "fix(typescript): reach the getter when reading and the setter when writing"
+    body: >-
+      close: #235
+
+
+      A getter and a setter of the same name are one member declared in two places. The receiver's type cannot tell them
+      apart — both belong to the same class — so #213's narrowing left both and something downstream picked one.
+      Direction is what distinguishes them:
+
+
+      `+=` reads the old value b...
+    url: https://github.com/unhappychoice/lintric/pull/238
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 188
+    deletions: 5
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-07-25T20:40:57Z
+    mergedAt: 2026-07-25T20:50:59Z
+  - title: "fix(rust): give a const generic parameter a definition"
+    body: >-
+      close: #234
+
+
+      `N` produced no definition, so the field had nothing to depend on — no edge at all. Renaming the parameter breaks
+      the field, which is exactly the coupling this tool exists to record.
+
+
+      Now:
+
+
+      A const generic is captured as a const rather than a type: it declares a value, though it is writ...
+    url: https://github.com/unhappychoice/lintric/pull/237
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 20
+    deletions: 6
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-07-25T20:32:01Z
+    mergedAt: 2026-07-25T20:39:31Z
+  - title: "fix(typescript): stop reading a declaration's own name as a reference"
+    body: >-
+      close: #233
+
+
+      Nine declaration forms were missing from `bindings.scm`, so their names resolved to whatever unrelated declaration
+      happened to share the name:
+
+
+      `inner` in a function expression is bound inside its own body; it names nothing outside. Same for a class
+      expression, and an overload signature...
+    url: https://github.com/unhappychoice/lintric/pull/236
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 65
+    deletions: 7
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-25T20:00:39Z
+    mergedAt: 2026-07-25T20:08:43Z
+  - title: "fix(typescript): see through a wrapped receiver, and read a type stated at the access"
+    body: >-
+      Found by probing the code #226 had just landed, against forms no fixture reached.
+
+
+      `a!.label` produced **no member edge at all**. The receiver was matched only as a bare identifier, so a non-null
+      assertion left its type unknown — and an unknown type with two same-named members yields nothing by desi...
+    url: https://github.com/unhappychoice/lintric/pull/232
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 105
+    deletions: 59
+    changedFiles: 4
+    author: unhappychoice
+    createdAt: 2026-07-25T19:50:28Z
+    mergedAt: 2026-07-25T19:55:49Z
+  - title: "fix: stop emitting usages whose name is a whole expression"
+    body: >-
+      close: #174
+
+
+      `Usage.name` held the raw text of the node, so composite kinds carried an expression rather than a symbol:
+
+
+      Name-based resolution can never match `Point { x: a, y: b }`, so these were dead weight; a multi-line literal also
+      put newlines into the field, which leaked into `debug ir` and ev...
+    url: https://github.com/unhappychoice/lintric/pull/231
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 12
+    deletions: 218
+    changedFiles: 35
+    author: unhappychoice
+    createdAt: 2026-07-25T19:16:06Z
+    mergedAt: 2026-07-25T19:23:46Z
+  - title: "refactor: move the property identifier check to a query, and drop arms the grammar cannot produce"
+    body: >-
+      Part of #170, following #227, #228 and #229.
+
+
+      ## The property identifier path
+
+
+      `extract_property_identifier_usage` dispatched on the parent kind to decide whether a member occurrence declares
+      or reads. Both reasons it may not be a reference now sit in `bindings.scm`:
+
+
+      - `@binding` — a member declara...
+    url: https://github.com/unhappychoice/lintric/pull/230
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 67
+    deletions: 98
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-25T19:01:49Z
+    mergedAt: 2026-07-25T19:10:16Z
+  - title: "test(models): cover the layer nothing tested directly"
+    body: "#276 merged with `codecov/patch` red, which I should have looked at before merging rather than after. The
+      complaint was fair: 24 lines of the moved code were uncovered, because **nothing exercised the model layer on its
+      own** — the scope tree, symbol table and registries were reached only through wh..."
+    url: https://github.com/unhappychoice/lintric/pull/277
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 245
+    deletions: 30
+    changedFiles: 6
+    author: unhappychoice
+    createdAt: 2026-07-26T15:06:50Z
+    mergedAt: 2026-07-26T15:20:11Z
+  - title: "refactor(rust): drop two more parent walks from usage extraction"
+    body: >-
+      Part of #170, following #227 and #228.
+
+
+      ## `is_function_name_in_call_expression` → a query
+
+
+      It walked up through arbitrary parents to ask whether the identifier was a call expression's first child. That is
+      `function:`, stated directly:
+
+
+      A qualified callee such as `HashMap::new` is deliberately absen...
+    url: https://github.com/unhappychoice/lintric/pull/229
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 37
+    deletions: 57
+    changedFiles: 5
+    author: unhappychoice
+    createdAt: 2026-07-25T18:29:12Z
+    mergedAt: 2026-07-25T18:36:36Z
+  - title: "refactor(typescript): locate bindings by query instead of walking parents"
+    body: >-
+      Part of #170. Same move as #227, now for TypeScript.
+
+
+      `is_usage_context` and `is_type_identifier_in_definition_context` were 100 lines of parent-kind dispatch between
+      them, deciding whether an identifier declares a name or reads one. Both are now set lookups over
+      `queries/typescript/bindings.scm`.
+
+
+      ...
+    url: https://github.com/unhappychoice/lintric/pull/228
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 117
+    deletions: 104
+    changedFiles: 7
+    author: unhappychoice
+    createdAt: 2026-07-25T18:21:58Z
+    mergedAt: 2026-07-25T18:26:26Z
+  - title: "refactor(rust): locate bindings by query instead of walking parents"
+    body: >-
+      Part of #170.
+
+
+      `is_identifier_in_definition_context` was 75 lines of parent-kind dispatch deciding whether an identifier declares
+      a name or reads one. Every arm re-derived a structural pattern that tree-sitter's query language states directly,
+      so it moves to `queries/rust/bindings.scm` and the extra...
+    url: https://github.com/unhappychoice/lintric/pull/227
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 141
+    deletions: 79
+    changedFiles: 8
+    author: unhappychoice
+    createdAt: 2026-07-25T17:48:20Z
+    mergedAt: 2026-07-25T17:57:13Z
+  - title: "fix(typescript): resolve member access by the receiver's type"
+    body: >-
+      close: #213
+
+
+      `receiver.member` was linked to **every** declaration sharing the member's name. Two interfaces both declaring
+      `id` each gained an edge from a single access, one of them to a type the line never mentions.
+
+
+      ## What decides now
+
+
+      The receiver's type, taken from where the file states it:
+
+
+      P...
+    url: https://github.com/unhappychoice/lintric/pull/226
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 645
+    deletions: 139
+    changedFiles: 18
+    author: unhappychoice
+    createdAt: 2026-07-25T17:35:34Z
+    mergedAt: 2026-07-25T17:41:11Z
+  - title: "fix(core): give TypeScript block scopes, and filter candidates by scope"
+    body: >-
+      close: #223
+
+
+      Two defects, and the second was only visible once the first was fixed.
+
+
+      ## Blocks did not scope
+
+
+      `statement_block` now opens a scope. The extractor had matched `"block"` — a node this grammar does not have — so
+      blocks had never scoped and a `const` inside one was registered in the enclo...
+    url: https://github.com/unhappychoice/lintric/pull/225
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 231
+    deletions: 102
+    changedFiles: 23
+    author: unhappychoice
+    createdAt: 2026-07-25T16:42:30Z
+    mergedAt: 2026-07-25T16:50:37Z
+  - title: "feat(core): locate scopes by query in both languages"
+    body: >-
+      Third increment on #170, after #221 and #222.
+
+
+      ## What moves
+
+
+      `creates_scope` was a `match` on node kind in each extractor, mapping a kind to a scope type with no conditions
+      attached — the same shape-only decision the declaration queries already handle.
+
+
+      The whole node is captured rather than a name...
+    url: https://github.com/unhappychoice/lintric/pull/224
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 151
+    deletions: 34
+    changedFiles: 12
+    author: unhappychoice
+    createdAt: 2026-07-25T16:09:14Z
+    mergedAt: 2026-07-25T16:12:21Z
+  - title: "feat(core): locate TypeScript declarations by query too"
+    body: |-
+      Second increment on #170, following #221. Brings TypeScript to the same shape as Rust.
+
+      ## What moves
+
+      Twelve more near-identical functions become query patterns:
+
+      **193 lines out of that extractor, 895 → 702.** Both languages now go through the same runner.
+
+      TypeScript needed one thing Rust did not...
+    url: https://github.com/unhappychoice/lintric/pull/222
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 278
+    deletions: 311
+    changedFiles: 11
+    author: unhappychoice
+    createdAt: 2026-07-25T15:35:02Z
+    mergedAt: 2026-07-25T15:39:22Z
+  - title: "feat(core): locate Rust declarations by query instead of by hand"
+    body: >-
+      First increment on #170. **Does not close it** — this migrates Rust declaration extraction; usages, scopes and
+      TypeScript remain.
+
+
+      ## What moves
+
+
+      Fourteen node kinds were each handled by a near-identical function: find the `name:` child, build a `Definition`
+      of a fixed type. That pattern belongs in ...
+    url: https://github.com/unhappychoice/lintric/pull/221
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 330
+    deletions: 324
+    changedFiles: 12
+    author: unhappychoice
+    createdAt: 2026-07-25T15:17:26Z
+    mergedAt: 2026-07-25T15:24:18Z
+  - title: "refactor(core): drop the resolver state nothing reads"
+    body: >-
+      Second step on #125, following #219. **Still does not close it** — see below for what remains and why it is a
+      judgement call rather than a cleanup.
+
+
+      ## What #219 revealed
+
+
+      Deleting the unreachable path left every specialized resolver in `RustDependencyResolver` with **zero call
+      sites**:
+
+
+      And the acc...
+    url: https://github.com/unhappychoice/lintric/pull/220
+    repository: unhappychoice/lintric
+    state: merged
+    labels: []
+    additions: 2
+    deletions: 75
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-07-25T15:04:28Z
+    mergedAt: 2026-07-25T15:08:13Z
+  - title: "chore: bump BUNDLED WITH to 2.7.2 to unblock releases"
+    body: >-
+      ## Why
+
+
+      The `release` workflow run for v4.0.3 failed in `rubygems/release-gem@v1`
+      ([run](https://github.com/circleci-tools/circleci-cli/actions/runs/30146263127)):
+
+
+      `rubygems/release-gem` preloads `rubygems-attestation-patch.rb` through `RUBYOPT`, which requires `openssl` before
+      `Bundler.setup` runs...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1045
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels: []
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-07-25T05:50:18Z
+    mergedAt: 2026-07-25T05:57:07Z
+  - title: "ci: run deploy on a large resource class to stop the daemon being OOM-killed"
+    body: >-
+      ## Why
+
+
+      The `deploy` job on `master` is still red ([build #1881](https://circleci.com/gh/circleci-tools/Norimaki/1881)),
+      but the failure mode changed after #451:
+
+
+      That is the kernel OOM-killer, not a Java heap OOM. The docker `medium` container has 4 GiB and hosts both the
+      Gradle daemon (2 GiB heap ...
+    url: https://github.com/circleci-tools/Norimaki/pull/456
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels: []
+    additions: 3
+    deletions: 1
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-07-25T05:10:26Z
+    mergedAt: 2026-07-25T05:56:48Z
+  - title: "chore(deps): bump overrides to non-vulnerable versions"
+    body: >-
+      ## Why
+
+
+      Three Dependabot security update jobs fail on the default branch with `security_update_not_possible`, because each
+      vulnerable package is only reachable transitively and the update path would downgrade a top-level dependency:
+
+
+      Dependabot's own suggestion for these is "add an override/resoluti...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/915
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels: []
+    additions: 26
+    deletions: 24
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-07-25T05:06:51Z
+    mergedAt: 2026-07-25T05:29:49Z
+  - title: "chore: drop Ruby 3.1 support"
+    body: >-
+      ## Why
+
+
+      Dependabot has been failing on the default branch (`dependency_file_not_resolvable`):
+
+
+      > Because simplecov >= 1.0.0.rc3 depends on Ruby >= 3.2 and Gemfile depends on simplecov = 1.0.2, Ruby >= 3.2 is
+      required. So, because current Ruby version is = 3.1.7, version solving has failed.
+
+
+      Dependab...
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/653
+    repository: irasutoya-tools/irasutoya-cli
+    state: merged
+    labels: []
+    additions: 3
+    deletions: 3
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-25T05:04:39Z
+    mergedAt: 2026-07-25T05:29:37Z
+  - title: "New version: unhappychoice.gittype version 0.10.1"
+    body: >-
+      ### Pull request has been created with [WinGet Releaser](https://github.com/vedantmgoyal9/winget-releaser)
+      :rocket:
+
+       ###### Microsoft Reviewers: [Open in CodeFlow](https://microsoft.github.io/open-pr/?codeflow=https://github.com/microsoft/winget-pkgs/pull/407652)
+    url: https://github.com/microsoft/winget-pkgs/pull/407652
+    repository: microsoft/winget-pkgs
+    state: merged
+    labels:
+      - Azure-Pipeline-Passed
+      - Validation-Completed
+      - Moderator-Approved
+      - Publish-Pipeline-Succeeded
+      - New-Manifest
+    additions: 205
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-07-25T05:56:40Z
+    mergedAt: 2026-07-25T15:52:10Z
+  - title: "New package: unhappychoice.gittype version 0.10.0"
+    body: >-
+      ## Reference Links
+
+
+      - Project: https://github.com/unhappychoice/gittype
+
+      - Release: https://github.com/unhappychoice/gittype/releases/tag/v0.10.0
+
+
+      ## About this package
+
+
+      GitType is a Rust CLI typing game that turns source code from real repositories into typing challenges. It parses
+      code with tree-si...
+    url: https://github.com/microsoft/winget-pkgs/pull/382074
+    repository: microsoft/winget-pkgs
+    state: merged
+    labels:
+      - Azure-Pipeline-Passed
+      - Validation-Completed
+      - Moderator-Approved
+      - Publish-Pipeline-Succeeded
+      - New-Package
+    additions: 59
+    deletions: 0
+    changedFiles: 3
+    author: unhappychoice
+    createdAt: 2026-06-01T11:18:38Z
+    mergedAt: 2026-06-09T18:55:25Z
+  - title: "chore: sync llm pricing from LiteLLM"
+    body: >-
+      Automated daily refresh of `data/llm_pricing.json` from LiteLLM's price table.
+
+
+      **Review checklist:**
+
+      - [ ] Diff is plausible (no order-of-magnitude jumps that aren't matched by a public Anthropic / OpenAI
+      announcement)
+
+      - [ ] No models silently disappeared (would zero-cost their token counts)
+
+      - [ ] ...
+    url: https://github.com/unhappychoice/splashboard/pull/305
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - automation
+      - pricing
+    additions: 7
+    deletions: 0
+    changedFiles: 1
+    author: github-actions[bot]
+    createdAt: 2026-07-25T02:33:45Z
+    mergedAt: 2026-07-25T05:28:48Z
+  - title: "chore: sync llm pricing from LiteLLM"
+    body: >-
+      Automated daily refresh of `data/llm_pricing.json` from LiteLLM's price table.
+
+
+      **Review checklist:**
+
+      - [ ] Diff is plausible (no order-of-magnitude jumps that aren't matched by a public Anthropic / OpenAI
+      announcement)
+
+      - [ ] No models silently disappeared (would zero-cost their token counts)
+
+      - [ ] ...
+    url: https://github.com/unhappychoice/splashboard/pull/295
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - automation
+      - pricing
+    additions: 0
+    deletions: 70
+    changedFiles: 1
+    author: github-actions[bot]
+    createdAt: 2026-07-19T00:37:10Z
+    mergedAt: 2026-07-19T06:45:55Z
+  - title: "chore(deps): bump the minor-and-patch group across 1 directory with 10 updates"
+    body: >-
+      Bumps the minor-and-patch group with 9 updates in the / directory:
+
+
+      Updates `@anthropic-ai/sdk` from 0.110.0 to 0.112.3
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/anthropics/anthropic-sdk-typescript/releases">@​anthropic-ai/sdk's
+      releases</a>.</em></p>...
+    url: https://github.com/deariary/github-weekly-reporter/pull/146
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 351
+    deletions: 240
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-07-18T21:54:04Z
+    mergedAt: 2026-07-19T06:43:54Z
+  - title: "chore(deps): bump actions/setup-node from 6 to 7"
+    body: >-
+      Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6 to 7.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/actions/setup-node/releases">actions/setup-node's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v7.0.0</h2>
+
+      <h2>What's Changed</h2>
+
+      <h3>...
+    url: https://github.com/deariary/github-weekly-reporter/pull/145
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - github_actions
+    additions: 7
+    deletions: 7
+    changedFiles: 4
+    author: dependabot[bot]
+    createdAt: 2026-07-18T21:52:37Z
+    mergedAt: 2026-07-19T06:46:23Z
+issues: []
+events:
+  - id: "11991879843"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-19T16:11:03Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 303
+      prTitle: ""
+      state: approved
+  - id: "11991879831"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-19T16:11:02Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 304
+      prTitle: ""
+      state: approved
+  - id: "11991879760"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-19T16:11:02Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 299
+      prTitle: ""
+      state: approved
+  - id: "11991879733"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-19T16:11:02Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 301
+      prTitle: ""
+      state: approved
+  - id: "11991879670"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-19T16:11:02Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 297
+      prTitle: ""
+      state: approved
+  - id: "11991879636"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-19T16:11:02Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 298
+      prTitle: ""
+      state: approved
+  - id: "11991879541"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-19T16:11:01Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 300
+      prTitle: ""
+      state: approved
+  - id: "12076775681"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/lintric
+    createdAt: 2026-07-21T11:57:18Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 161
+      prTitle: ""
+      state: approved
+  - id: "12076772894"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/lintric
+    createdAt: 2026-07-21T11:57:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 162
+      prTitle: ""
+      state: approved
+  - id: "12074616485"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-21T11:08:56Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 845
+      prTitle: ""
+      state: approved
+  - id: "12074616428"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-21T11:08:56Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 844
+      prTitle: ""
+      state: approved
+  - id: "12074614238"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 843
+      prTitle: ""
+      state: approved
+  - id: "12074614221"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1041
+      prTitle: ""
+      state: approved
+  - id: "12074614091"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gitlogue
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 225
+      prTitle: ""
+      state: approved
+  - id: "12074613993"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/cycle-cropper
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 134
+      prTitle: ""
+      state: approved
+  - id: "12074613861"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 142
+      prTitle: ""
+      state: approved
+  - id: "12074613802"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 69
+      prTitle: ""
+      state: approved
+  - id: "12074613755"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 68
+      prTitle: ""
+      state: approved
+  - id: "12074613636"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-21T11:08:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 67
+      prTitle: ""
+      state: approved
+  - id: "12033760305"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/lintric
+    createdAt: 2026-07-20T16:40:45Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 160
+      prTitle: ""
+      state: approved
+  - id: "12033681664"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-20T16:38:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 842
+      prTitle: ""
+      state: approved
+  - id: "12033678356"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-07-20T16:38:52Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 296
+      prTitle: ""
+      state: approved
+  - id: "12033470954"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gitlogue
+    createdAt: 2026-07-20T16:34:30Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 223
+      prTitle: ""
+      state: approved
+  - id: "12033468618"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gitlogue
+    createdAt: 2026-07-20T16:34:27Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 224
+      prTitle: ""
+      state: approved
+  - id: "12033468207"
+    type: PullRequestReviewEvent
+    repo: irasutoya-tools/irasutoya
+    createdAt: 2026-07-20T16:34:27Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 540
+      prTitle: ""
+      state: approved
+  - id: "12033467960"
+    type: PullRequestReviewEvent
+    repo: irasutoya-tools/irasutoya
+    createdAt: 2026-07-20T16:34:26Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 541
+      prTitle: ""
+      state: approved
+  - id: "12033467439"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-07-20T16:34:25Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 741
+      prTitle: ""
+      state: approved
+  - id: "12033466220"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/terminal_image
+    createdAt: 2026-07-20T16:34:24Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 586
+      prTitle: ""
+      state: approved
+  - id: "12033465131"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-07-20T16:34:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 139
+      prTitle: ""
+      state: approved
+  - id: "12033465056"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-20T16:34:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 63
+      prTitle: ""
+      state: approved
+  - id: "12033464810"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-20T16:34:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 66
+      prTitle: ""
+      state: approved
+  - id: "12033464516"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-20T16:34:22Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 64
+      prTitle: ""
+      state: approved
+  - id: "12033464119"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-20T16:34:21Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 65
+      prTitle: ""
+      state: approved
+  - id: "12033464021"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-07-20T16:34:21Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 140
+      prTitle: ""
+      state: approved
+  - id: "12033462851"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-07-20T16:34:20Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 141
+      prTitle: ""
+      state: approved
+  - id: "12033459464"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-20T16:34:15Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1037
+      prTitle: ""
+      state: approved
+  - id: "12033458467"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-20T16:34:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1038
+      prTitle: ""
+      state: approved
+  - id: "12033455578"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-20T16:34:11Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 469
+      prTitle: ""
+      state: approved
+  - id: "12033455356"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-20T16:34:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1039
+      prTitle: ""
+      state: approved
+  - id: "12033455352"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-20T16:34:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 467
+      prTitle: ""
+      state: approved
+  - id: "12033455208"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-20T16:34:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 470
+      prTitle: ""
+      state: approved
+  - id: "12033455129"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-20T16:34:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1040
+      prTitle: ""
+      state: approved
+  - id: "12033455067"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-20T16:34:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 472
+      prTitle: ""
+      state: approved
+  - id: "12033455008"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-20T16:34:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 468
+      prTitle: ""
+      state: approved
+  - id: "12033454885"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-20T16:34:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 471
+      prTitle: ""
+      state: approved
+  - id: "12133179262"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-22T11:09:10Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 846
+      prTitle: ""
+      state: approved
+  - id: "12133162266"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-07-22T11:08:46Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 44
+      prTitle: ""
+      state: approved
+  - id: "12133041664"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/cycle-pusher
+    createdAt: 2026-07-22T11:06:04Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 358
+      prTitle: ""
+      state: approved
+  - id: "12133005549"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/cycle-cropper
+    createdAt: 2026-07-22T11:05:15Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 132
+      prTitle: ""
+      state: approved
+  - id: "12132987706"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/oss-issue-opener
+    createdAt: 2026-07-22T11:04:51Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 291
+      prTitle: ""
+      state: approved
+  - id: "12132691893"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-07-22T10:58:01Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 914
+      prTitle: ""
+      state: approved
+  - id: "12132571798"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-07-22T10:55:18Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 452
+      prTitle: ""
+      state: approved
+  - id: "12132569168"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-07-22T10:55:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 453
+      prTitle: ""
+      state: approved
+  - id: "12132566525"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-07-22T10:55:11Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 454
+      prTitle: ""
+      state: approved
+  - id: "12132412425"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-07-22T10:51:41Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 913
+      prTitle: ""
+      state: approved
+  - id: "12132412353"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-22T10:51:41Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 474
+      prTitle: ""
+      state: approved
+  - id: "12132412016"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/lintric
+    createdAt: 2026-07-22T10:51:40Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 167
+      prTitle: ""
+      state: approved
+  - id: "12132412006"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-22T10:51:40Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 473
+      prTitle: ""
+      state: approved
+  - id: "12132411897"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-22T10:51:40Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 70
+      prTitle: ""
+      state: approved
+  - id: "12132409636"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-22T10:51:37Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 850
+      prTitle: ""
+      state: approved
+  - id: "12132409583"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-22T10:51:37Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 851
+      prTitle: ""
+      state: approved
+  - id: "12132409548"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-22T10:51:37Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1043
+      prTitle: ""
+      state: approved
+  - id: "12132409514"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-07-22T10:51:37Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 144
+      prTitle: ""
+      state: approved
+  - id: "12132409365"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-07-22T10:51:36Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 143
+      prTitle: ""
+      state: approved
+  - id: "12132409318"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-22T10:51:36Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1042
+      prTitle: ""
+      state: approved
+  - id: "12196088412"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-23T13:09:46Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 849
+      prTitle: ""
+      state: approved
+  - id: "12194449747"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-23T12:36:15Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 852
+      prTitle: ""
+      state: approved
+  - id: "12167077743"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-07-22T23:38:59Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 453
+      prTitle: ""
+      state: approved
+  - id: "12167076156"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-22T23:38:56Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 475
+      prTitle: ""
+      state: approved
+  - id: "12167072983"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-07-22T23:38:48Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 476
+      prTitle: ""
+      state: approved
+  - id: "12242860115"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-07-24T09:46:07Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 64
+      prTitle: ""
+      state: approved
+  - id: "12242847580"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/steamfetch
+    createdAt: 2026-07-24T09:45:49Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 71
+      prTitle: ""
+      state: approved
+  - id: "12242843191"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-24T09:45:43Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 853
+      prTitle: ""
+      state: approved
+  - id: "12242657726"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-07-24T09:41:17Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 64
+      prTitle: ""
+      state: approved
+  - id: "12242634394"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/kobito
+    createdAt: 2026-07-24T09:40:44Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 65
+      prTitle: ""
+      state: approved
+  - id: "12242616099"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/DroidFlyer
+    createdAt: 2026-07-24T09:40:18Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 531
+      prTitle: ""
+      state: approved
+  - id: "12242610608"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/RxSnackbar
+    createdAt: 2026-07-24T09:40:11Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 240
+      prTitle: ""
+      state: approved
+  - id: "12242592906"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/color-hash.kt
+    createdAt: 2026-07-24T09:39:45Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 256
+      prTitle: ""
+      state: approved
+  - id: "12242581465"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/cycle-pusher
+    createdAt: 2026-07-24T09:39:28Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 360
+      prTitle: ""
+      state: approved
+  - id: "12242565883"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-07-24T09:39:05Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 455
+      prTitle: ""
+      state: approved
+  - id: "12242548687"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/lintric
+    createdAt: 2026-07-24T09:38:39Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 168
+      prTitle: ""
+      state: approved
+  - id: "12242545306"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-07-24T09:38:34Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 145
+      prTitle: ""
+      state: approved
+  - id: "12242529672"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-07-24T09:38:11Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1044
+      prTitle: ""
+      state: approved
+  - id: "12242513877"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-24T09:37:47Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 854
+      prTitle: ""
+      state: approved
+  - id: "12242495570"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-24T09:37:20Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 855
+      prTitle: ""
+      state: approved
+  - id: "12289757000"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-07-25T14:10:11Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 856
+      prTitle: ""
+      state: commented
+  - id: "12311876955"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-07-26T13:01:31Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 147
+      prTitle: ""
+      state: approved
+  - id: "12311876842"
+    type: PullRequestReviewEvent
+    repo: deariary/github-weekly-reporter
+    createdAt: 2026-07-26T13:01:31Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 148
+      prTitle: ""
+      state: approved
+commitMessages:
+  - repo: unhappychoice/splashboard
+    messages:
+      - "Merge pull request #305 from unhappychoice/chore/sync-llm-pricing"
+      - "Merge pull request #296 from unhappychoice/dependabot/github_actions/actions/setup-node-7"
+      - "Merge pull request #297 from unhappychoice/dependabot/cargo/serde-1.0.229"
+      - "Merge pull request #298 from unhappychoice/dependabot/cargo/clap-4.6.2"
+      - "Merge pull request #299 from unhappychoice/dependabot/cargo/toml-1.1.3spec-1.1.0"
+      - "Merge pull request #300 from unhappychoice/dependabot/cargo/async-trait-0.1.91"
+      - "Merge pull request #301 from unhappychoice/dependabot/cargo/regex-1.13.1"
+      - "Merge pull request #303 from unhappychoice/dependabot/cargo/tokio-1.53.0"
+      - "Merge pull request #304 from unhappychoice/dependabot/cargo/anyhow-1.0.104"
+  - repo: unhappychoice/gittype
+    messages:
+      - "Merge pull request #475 from unhappychoice/dependabot/cargo/clap-4.6.4"
+      - "Merge pull request #476 from unhappychoice/dependabot/cargo/glob-0.3.4"
+      - "Merge pull request #473 from unhappychoice/dependabot/cargo/ignore-0.4.31"
+      - "Merge pull request #474 from unhappychoice/dependabot/cargo/clap-4.6.3"
+      - "Merge pull request #472 from unhappychoice/dependabot/cargo/anyhow-1.0.104"
+      - "Merge pull request #471 from unhappychoice/dependabot/cargo/serde_json-1.0.151"
+      - "Merge pull request #470 from unhappychoice/dependabot/cargo/async-trait-0.1.91"
+      - "Merge pull request #467 from unhappychoice/dependabot/cargo/ignore-0.4.30"
+      - "Merge pull request #468 from unhappychoice/dependabot/cargo/serde-1.0.229"
+      - "Merge pull request #469 from unhappychoice/dependabot/cargo/thiserror-2.0.19"
+  - repo: circleci-tools/circleci-cli
+    messages:
+      - ":tada: Bump circleci-cli to 4.0.3"
+      - "Merge pull request #1046 from circleci-tools/fix/release-openssl-conflict"
+      - "fix: pin openssl to the default gem version to unblock releases"
+      - "Merge pull request #1045 from circleci-tools/fix/bundler-openssl-default-gem"
+      - "chore: bump BUNDLED WITH to 2.7.2 to unblock releases"
+      - "Merge pull request #1044 from circleci-tools/dependabot/bundler/async-http-0.97.0"
+      - "Merge pull request #1043 from circleci-tools/dependabot/bundler/async-http-0.96.0"
+      - "Merge pull request #1041 from circleci-tools/dependabot/bundler/io-event-1.19.3"
+      - "Merge pull request #1037 from circleci-tools/dependabot/bundler/protocol-http2-0.26.1"
+      - "Merge pull request #1040 from circleci-tools/dependabot/bundler/concurrent-ruby-1.3.8"
+      - "Merge pull request #1038 from circleci-tools/dependabot/bundler/rugged-1.9.6"
+      - "Merge pull request #1039 from circleci-tools/dependabot/bundler/simplecov-1.0.2"
+  - repo: unhappychoice/mdts
+    messages:
+      - "docs: update CHANGELOG.md for v0.20.5"
+      - 0.20.5
+      - "Merge pull request #856 from yangching2/fix/handle-inaccessible-directories"
+      - "refactor(server): extract shared errno predicates into utils"
+      - "Merge pull request #849 from re-f/feature/file-tree-auto-focus"
+      - "docs: update CHANGELOG.md for v0.20.4"
+      - 0.20.4
+      - "Merge pull request #853 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/webpack-5.109.0"
+      - "Merge pull request #854 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/mui/x-tree-view-9.10.1"
+      - "Merge pull request #855 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/eslint-plugin-jest-29.16.0"
+      - "Merge pull request #852 from unhappychoice/dependabot/npm_and_yarn/ts-jest-29.4.12"
+      - "Merge pull request #846 from
+        unhappychoice/dependabot/npm_and_yarn/packages/frontend/testing-library/jest-dom-7.0.0"
+      - "Merge pull request #850 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/react-dom-19.2.8"
+      - "Merge pull request #851 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/eslint-plugin-jest-29.15.5"
+      - "Merge pull request #844 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/typescript-eslint-8.65.0"
+      - "Merge pull request #845 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint/parser-8.65.0"
+      - "Merge pull request #843 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint-8.65.0"
+      - "Merge pull request #842 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/mui/x-tree-view-9.10.0"
+  - repo: unhappychoice/steamfetch
+    messages:
+      - "Merge pull request #71 from unhappychoice/dependabot/cargo/base64-0.23.0"
+      - "Merge pull request #70 from unhappychoice/dependabot/cargo/libc-0.2.189"
+      - "Merge pull request #68 from unhappychoice/dependabot/cargo/clap-4.6.3"
+      - "Merge pull request #69 from unhappychoice/dependabot/cargo/serde_json-1.0.151"
+      - "Merge pull request #67 from unhappychoice/dependabot/cargo/libc-0.2.187"
+      - "Merge pull request #63 from unhappychoice/dependabot/cargo/thiserror-2.0.19"
+      - "Merge pull request #66 from unhappychoice/dependabot/cargo/futures-0.3.33"
+      - "Merge pull request #64 from unhappychoice/dependabot/cargo/anyhow-1.0.104"
+      - "Merge pull request #65 from unhappychoice/dependabot/cargo/serde-1.0.229"
+  - repo: unhappychoice/slack_channel_stats
+    messages:
+      - "Merge pull request #145 from unhappychoice/dependabot/bundler/async-http-0.97.0"
+      - "Merge pull request #144 from unhappychoice/dependabot/bundler/async-http-0.96.0"
+      - "Merge pull request #142 from unhappychoice/dependabot/bundler/io-event-1.19.3"
+      - "Merge pull request #139 from unhappychoice/dependabot/bundler/simplecov-1.0.2"
+      - "Merge pull request #140 from unhappychoice/dependabot/bundler/concurrent-ruby-1.3.8"
+      - "Merge pull request #141 from unhappychoice/dependabot/bundler/protocol-http2-0.26.1"
+  - repo: deariary/github-weekly-reporter
+    messages:
+      - "Merge pull request #147 from deariary/dependabot/github_actions/actions/checkout-7.0.1"
+      - "Merge pull request #148 from deariary/dependabot/npm_and_yarn/minor-and-patch-8f48025c75"
+  - repo: circleci-tools/Norimaki
+    messages:
+      - "Merge pull request #456 from circleci-tools/fix/ci-daemon-killed-oom"
+      - "ci: run deploy on a large resource class to stop the daemon being OOM-killed"
+      - "Merge pull request #455 from circleci-tools/dependabot/gradle/com.android.application-9.3.1"
+      - "Merge pull request #453 from circleci-tools/dependabot/gradle/org.kodein.di-kodein-di-7.33.0"
+      - "Merge pull request #452 from circleci-tools/dependabot/gradle/io.kotest-kotest-assertions-core-6.2.3"
+      - "Merge pull request #454 from circleci-tools/dependabot/gradle/io.kotest-kotest-runner-junit5-6.2.3"
+      - "Merge pull request #451 from circleci-tools/fix/ci-gradle-daemon-oom"
+      - "fix(ci): raise Gradle daemon heap to fix D8 OOM on deploy"
+  - repo: unhappychoice/gitlogue
+    messages:
+      - "Merge pull request #225 from unhappychoice/dependabot/cargo/clap-4.6.3"
+      - "Merge pull request #223 from unhappychoice/dependabot/cargo/anyhow-1.0.104"
+      - "Merge pull request #224 from unhappychoice/dependabot/cargo/serde-1.0.229"
+  - repo: unhappychoice/cycle-pusher
+    messages:
+      - "Merge pull request #360 from unhappychoice/dependabot/npm_and_yarn/pusher-js-8.6.0"
+      - "Merge pull request #358 from unhappychoice/dependabot/npm_and_yarn/typescript-7.0.2"
+      - "Merge pull request #359 from unhappychoice/fix/dependabot-security-overrides"
+      - "fix(deps): add npm overrides for js-yaml, form-data, brace-expansion"
+  - repo: bitflyer-tools/cycle-flyer
+    messages:
+      - "Merge pull request #915 from bitflyer-tools/chore/bump-vulnerable-overrides"
+      - "chore(deps): bump overrides to non-vulnerable versions"
+      - "Merge pull request #914 from bitflyer-tools/dependabot/npm_and_yarn/fast-uri-3.1.4"
+      - "Merge pull request #913 from bitflyer-tools/dependabot/npm_and_yarn/electron-43.2.0"
+  - repo: unhappychoice/kobito
+    messages:
+      - "Merge pull request #61 from unhappychoice/dependabot/cargo/serde_json-1.0.151"
+      - "Merge pull request #62 from unhappychoice/dependabot/cargo/anyhow-1.0.104"
+      - "Merge pull request #63 from unhappychoice/dependabot/cargo/tokio-1.53.1"
+      - "Merge pull request #64 from unhappychoice/dependabot/cargo/clap-4.6.4"
+      - "Merge pull request #65 from unhappychoice/dependabot/cargo/serde-1.0.229"
+      - "Merge pull request #44 from unhappychoice/dependabot/github_actions/softprops/action-gh-release-3"
+  - repo: unhappychoice/lintric
+    messages:
+      - "refactor(models): split scope.rs, and drop what nothing calls"
+      - "Merge pull request #275 from unhappychoice/refactor/resolver-priority-table"
+      - "refactor(rust): split visibility and path reasoning out of the resolver"
+      - "refactor(rust): state resolution preferences as a table"
+      - "Merge pull request #274 from unhappychoice/refactor/split-rust-extractors"
+      - "refactor(typescript): split the extractors, and drop what never ran"
+      - "refactor(rust): split the extractors, and state `use` bindings as a query"
+      - "Merge pull request #273 from unhappychoice/fix/export-specifier-namespace"
+      - "test(accuracy): pin pattern forms, macros, unions and casts"
+      - "fix(typescript): let an export name a declaration in either namespace"
+      - "Merge pull request #271 from unhappychoice/test/pin-verified-constructs"
+      - "test(accuracy): pin the constructs probing found already correct"
+      - "Merge pull request #270 from unhappychoice/fix/aliased-import-binding"
+      - "test(accuracy): cover TypeScript imports"
+      - "fix(typescript): register an aliased import under its local name"
+      - "Merge pull request #268 from unhappychoice/fix/let-chain-bindings"
+      - "test(accuracy): chain the conditions in an if let and a while let"
+      - "fix(rust): bind the names in a let chain"
+      - "Merge pull request #266 from unhappychoice/fix/for-header-and-switch-case-scope"
+      - "test(accuracy): scope a for header, a switch case and a while body"
+      - "fix(typescript): stop a declaration one scope deeper from being visible"
+      - "Merge pull request #264 from unhappychoice/docs/self-consistency-audit"
+      - "docs(accuracy): record the self-consistency sweep over real code"
+      - "Merge pull request #263 from unhappychoice/fix/chained-receiver-collision"
+      - "test(accuracy): chain between two types declaring one method name"
+      - "fix: key a member access by its span, not its start"
+      - "Merge pull request #261 from unhappychoice/fix/rust-path-head-namespace"
+      - "test(accuracy): declare one name as both a module and a function"
+      - "fix(rust): resolve a path head to a module or type, not a same-named value"
+      - "Merge pull request #260 from unhappychoice/fix/type-value-namespaces"
+      - "test(accuracy): declare one name in both namespaces"
+      - "fix(typescript): keep type and value namespaces apart"
+      - "Merge pull request #258 from unhappychoice/fix/accessor-implementation-link"
+      - "test(accuracy): declare an accessor pair on an interface"
+      - "fix(typescript): link a getter to the getter it implements"
+      - "Merge pull request #256 from unhappychoice/fix/binding-not-visible-to-initializer"
+      - "test(accuracy): pin what a binding's own initializer reads"
+      - "fix: resolve a shadowing binding's initializer to the previous binding"
+      - "feat: record which declaration a usage cannot be naming"
+      - "Merge pull request #255 from unhappychoice/fix/rust-method-receiver-type"
+      - "test: drop a method edge to a type the line does not name"
+      - "test(accuracy): pin what a Rust method call's receiver states"
+      - "fix(rust): resolve a method call by the receiver's type"
+      - "refactor: share receiver narrowing between the two languages"
+      - "Merge pull request #253 from unhappychoice/fix/pattern-defaults-and-keys"
+      - "test: drop the default value from the generated snapshots"
+      - "test(accuracy): pin a pattern's default value and computed key"
+      - "fix(typescript): stop collecting a pattern's default value as a binding"
+      - "Merge pull request #250 from unhappychoice/feat/shift-diagnostic"
+      - "test(accuracy): cover the shift detector, including its silences"
+      - "feat(accuracy): say when annotations were written against a different numbering"
+      - "Merge pull request #249 from unhappychoice/fix/abstract-class-implementations"
+      - "test(accuracy): put an abstract class on the implementing side"
+      - "fix(typescript): link an abstract class's members to what they implement"
+      - "Merge pull request #247 from unhappychoice/fix/non-method-implementations"
+      - "test(accuracy): pin the implemented const, type and property"
+      - "fix: link every implemented member to its declaration, not only methods"
+      - "Merge pull request #245 from unhappychoice/fix/valued-enum-members"
+      - "test(accuracy): pin enum members that carry an initializer"
+      - "fix(typescript): give an enum member with an initializer a definition"
+      - "Merge pull request #243 from unhappychoice/docs/grammar-sweep"
+      - "docs: record the grammar sweep that finds uncovered declarations"
+      - "Merge pull request #242 from unhappychoice/fix/catch-and-loop-bindings"
+      - "test: record the loop and catch names as definitions"
+      - "test(accuracy): collide loop and catch names with an outer declaration"
+      - "fix(typescript): treat a catch parameter and a for-of binding as declarations"
+      - "Merge pull request #240 from unhappychoice/fix/match-guard-binding"
+      - "test: record the scope ids match arms introduce"
+      - "test(accuracy): pin what a match arm binds and what it reads"
+      - "fix(rust): stop reading a match guard's names as bindings"
+      - "fix(rust): scope each match arm"
+      - "Merge pull request #238 from unhappychoice/fix/accessor-direction"
+      - "test(accuracy): pin both directions through an accessor pair"
+      - "fix(typescript): reach the getter when reading and the setter when writing"
+      - "feat(query): state which accesses write, and which methods are accessors"
+      - "Merge pull request #237 from unhappychoice/fix/const-generic-parameter"
+      - "test(accuracy): pin const generic parameters"
+      - "fix(rust): give a const generic parameter a definition"
+      - "Merge pull request #236 from unhappychoice/fix/typescript-declaration-names"
+      - "test: record the generator declaration as a definition"
+      - "test(accuracy): collide every declaration form with its own name"
+      - "fix(typescript): stop reading a declaration's own name as a reference"
+      - "Merge pull request #232 from unhappychoice/fix/wrapped-receiver-narrowing"
+      - "test(accuracy): pin every wrapper a receiver can wear"
+      - "fix(typescript): see through a wrapped receiver, and read a stated one"
+      - "Merge pull request #231 from unhappychoice/fix/composite-usage-names"
+      - "test: drop the composite usage entries from snapshots"
+      - "fix: stop emitting usages whose name is a whole expression"
+      - "Merge pull request #230 from unhappychoice/refactor/property-identifier-query"
+      - "docs: record the node-types sweep that finds dead arms"
+      - "refactor: drop three match arms the grammar cannot produce"
+      - "feat(query): state which member occurrences declare rather than read"
+      - "Merge pull request #229 from unhappychoice/refactor/rust-callee-query"
+      - "fix(test): follow the renamed binding query accessor"
+      - "refactor(rust): drop two more parent walks from usage extraction"
+      - "feat(query): capture the Rust callee already counted elsewhere"
+      - "Merge pull request #228 from unhappychoice/refactor/typescript-binding-query"
+      - "test(query): assert the TypeScript binding query across both grammars"
+      - "refactor(typescript): ask the binding query instead of walking parents"
+      - "feat(query): locate TypeScript bindings by query"
+      - "Merge pull request #227 from unhappychoice/refactor/rust-binding-query"
+      - "test(query): assert the binding query separates the two roles"
+      - "refactor(rust): ask the binding query instead of walking parents"
+      - "feat(query): locate Rust bindings by query"
+      - "Merge pull request #226 from unhappychoice/fix/member-access-by-receiver-type"
+      - "docs: record the receiver-type rule and its cost"
+      - "test(accuracy): pin member access against the receiver's type"
+      - "test(typescript): cover which member a receiver reaches"
+      - "refactor(core): share one map_pairs between query callers"
+      - "fix(typescript): resolve member access by the receiver's type"
+      - "feat(query): add pair helpers for relationship queries"
+      - "Merge pull request #225 from unhappychoice/fix/typescript-block-scopes"
+      - "fix(core): give TypeScript block scopes, and filter candidates by scope"
+      - "Merge pull request #224 from unhappychoice/feat/scope-queries"
+      - "feat(core): locate scopes by query in both languages"
+      - "Merge pull request #222 from unhappychoice/feat/typescript-definition-queries"
+      - "feat(core): locate TypeScript declarations by query too"
+      - "Merge pull request #221 from unhappychoice/feat/query-based-extraction"
+      - "feat(core): locate Rust declarations by query instead of by hand"
+      - "Merge pull request #220 from unhappychoice/refactor/unused-specialized-resolvers"
+      - "refactor(core): drop the resolver state nothing reads"
+      - "Merge pull request #219 from unhappychoice/refactor/remove-dead-resolution-path"
+      - "refactor(core): delete the unreachable Rust resolution path"
+      - "Merge pull request #218 from unhappychoice/fix/untangle-resolution-selectors"
+      - "test: cover type parameter scope, and settle the associated type question"
+      - "fix(core): resolve type parameters in the scope that declares them"
+      - "Merge pull request #217 from unhappychoice/fix/type-parameter-scope"
+      - "test: cover type parameter declarations, and pin what #215 still gets wrong"
+      - "fix(core): stop a type parameter declaration depending on another of the same name"
+      - "Merge pull request #216 from unhappychoice/fix/generic-supertypes"
+      - "test: cover generic traits and interfaces"
+      - "fix(core): match generic traits and interfaces to their implementations"
+      - "Merge pull request #214 from unhappychoice/fix/remaining-extraction-gaps"
+      - "test: cover object shapes and shared member names"
+      - "fix(core): stop member declarations becoming usages, and read shorthand properties"
+      - "Merge pull request #209 from unhappychoice/fix/drop-object-literal-member-matching"
+      - "test: record the object shape decision and its cost"
+      - "fix(core): stop treating an object shape's field names as member references"
+      - "Merge pull request #208 from unhappychoice/fix/typescript-private-fields"
+      - "test(core): cover TypeScript private members"
+      - "fix(core): resolve TypeScript private field references"
+      - "Merge pull request #207 from unhappychoice/fix/typescript-abstract-classes"
+      - "test(core): cover TypeScript abstract classes"
+      - "fix(core): handle TypeScript abstract classes and abstract members"
+      - "Merge pull request #206 from unhappychoice/fix/self-type-resolution"
+      - "test(core): cover Self resolution"
+      - "feat(core): resolve Self to the type it stands for"
+      - "Merge pull request #205 from unhappychoice/fix/pattern-references-and-bindings"
+      - "test(core): cover pattern references and bindings"
+      - "fix(core): tell a pattern's references apart from its bindings"
+      - "Merge pull request #204 from unhappychoice/fix/path-component-detection"
+      - "test(core): cover qualified path and generic argument resolution"
+      - "fix(core): decide path membership from the tree, not from columns"
+      - "Merge pull request #203 from unhappychoice/test/language-spec-fixtures"
+      - "test(accuracy): work through the language specification"
+      - "Merge pull request #200 from unhappychoice/test/broaden-accuracy-fixtures"
+      - "test(accuracy): broaden the fixture set across both languages"
+      - "Merge pull request #193 from unhappychoice/fix/supertype-declarations"
+      - "test: cover inherited declarations in both languages"
+      - "feat(core): resolve inherited declarations for Rust and TypeScript"
+      - "feat(core): follow supertypes when resolving a declaration"
+      - "Merge pull request #192 from unhappychoice/fix/typescript-interface-implementations"
+      - "test(core): cover TypeScript interface implementations"
+      - "fix(core): link TypeScript class methods to the interface methods they implement"
+      - "refactor(core): make implementation-to-declaration resolution language neutral"
+      - "Merge pull request #190 from unhappychoice/fix/scope-precedence-over-definition-type"
+      - "test(core): cover scope precedence and shadowing"
+      - "fix(core): let scope decide before definition type does"
+      - "Merge pull request #189 from unhappychoice/test/grow-accuracy-fixtures"
+      - "docs(accuracy): stop implying the project has no coverage, and pin import resolution"
+      - "test(accuracy): grow the fixture set beyond the constructs already covered"
+      - "Merge pull request #186 from unhappychoice/fix/typescript-parameter-properties"
+      - "test(core): cover TypeScript parameter properties"
+      - "fix(core): register TypeScript parameter properties as properties"
+      - "Merge pull request #185 from unhappychoice/fix/dependency-type-classification"
+      - "test(core): cover dependency classification and refresh snapshots"
+      - "fix(core): classify a dependency by what it resolves to"
+      - "refactor(core): remove the unused Dependency constructor"
+      - "Merge pull request #183 from unhappychoice/fix/duplicate-dependency-edges"
+      - "test(core): cover dependency deduplication and refresh snapshots"
+      - "fix(core): count a line-to-line dependency once"
+      - "Merge pull request #182 from unhappychoice/fix/struct-literal-field-references"
+      - "test(core): cover field initializers and refresh snapshots"
+      - "fix(core): resolve struct literal field names to their declarations"
+      - "Merge pull request #181 from unhappychoice/fix/enum-variant-definitions"
+      - "test(core): cover enum variant definitions and refresh snapshots"
+      - "fix(core): register enum variants as definitions"
+      - "Merge pull request #180 from unhappychoice/fix/declaration-sites-as-usages"
+      - "test(core): cover trait implementation linking and refresh snapshots"
+      - "feat(core): link trait method implementations to their declarations"
+      - "fix(core): stop emitting trait method signatures as usages"
+      - "Merge pull request #179 from unhappychoice/fix/format-string-captures"
+      - "test(core): cover format string capture extraction"
+      - "fix(core): extract identifiers captured by Rust format strings"
+      - "refactor(core): let a node yield more than one usage"
+      - "Merge pull request #178 from unhappychoice/feature/accuracy-measurement-harness"
+      - "ci: report dependency detection accuracy in the run summary"
+      - "docs(accuracy): document the expectation format and how to run the harness"
+      - "feat(accuracy): add dependency detection accuracy harness"
+      - "Merge pull request #168 from unhappychoice/dependabot/cargo/tera-2.1.0"
+      - "Merge pull request #167 from unhappychoice/dependabot/cargo/clap-4.6.4"
+      - "Merge pull request #165 from unhappychoice/fix/tree-sitter-0.25-upgrade"
+      - "chore(deps): bump tree-sitter, tree-sitter-rust, tree-sitter-typescript"
+      - "Merge pull request #164 from unhappychoice/fix/tera-2.0-upgrade"
+      - "chore(deps): bump tera from 1.20.1 to 2.0.0"
+      - "Merge pull request #161 from unhappychoice/dependabot/cargo/clap-4.6.3"
+      - "Merge pull request #162 from unhappychoice/dependabot/cargo/serde_json-1.0.151"
+      - "Merge pull request #163 from unhappychoice/fix/ci-clippy-and-audit"
+      - "fix(ci): resolve clippy question-mark lint and audit vulnerabilities"
+      - "Merge pull request #160 from unhappychoice/dependabot/cargo/serde-1.0.229"
+  - repo: irasutoya-tools/irasutoya
+    messages:
+      - "Merge pull request #541 from irasutoya-tools/dependabot/bundler/simplecov-1.0.2"
+      - "Merge pull request #540 from irasutoya-tools/dependabot/bundler/concurrent-ruby-1.3.8"
+  - repo: unhappychoice/tapline
+    messages:
+      - "Merge pull request #1 from unhappychoice/fix/ci-cargo-fmt"
+      - "style: apply cargo fmt and fix clippy warnings"
+  - repo: unhappychoice/cycle-cropper
+    messages:
+      - "Merge pull request #132 from unhappychoice/dependabot/npm_and_yarn/typescript-7.0.2"
+      - "Merge pull request #134 from unhappychoice/dependabot/npm_and_yarn/brace-expansion-1.1.16"
+  - repo: microsoft/winget-pkgs
+    messages:
+      - "New version: unhappychoice.gittype version 0.10.1 (#407652)"
+  - repo: unhappychoice/terminal_image
+    messages:
+      - "Merge pull request #586 from unhappychoice/dependabot/bundler/simplecov-1.0.2"
+  - repo: unhappychoice/blog
+    messages:
+      - "Merge pull request #741 from unhappychoice/dependabot/bundler/concurrent-ruby-1.3.8"
+  - repo: unhappychoice/oss-issue-opener
+    messages:
+      - "Merge pull request #291 from unhappychoice/dependabot/npm_and_yarn/typescript-7.0.2"
+  - repo: unhappychoice/RxSnackbar
+    messages:
+      - "Merge pull request #240 from unhappychoice/dependabot/gradle/com.android.library-9.3.1"
+  - repo: bitflyer-tools/DroidFlyer
+    messages:
+      - "Merge pull request #531 from bitflyer-tools/dependabot/gradle/com.android.application-9.3.1"
+  - repo: unhappychoice/color-hash.kt
+    messages:
+      - "Merge pull request #256 from unhappychoice/dependabot/gradle/com.android.tools.build-gradle-9.3.1"
+  - repo: irasutoya-tools/irasutoya-cli
+    messages:
+      - "Merge pull request #653 from irasutoya-tools/chore/drop-ruby-31"
+      - "chore: drop Ruby 3.1 support"
+releases:
+  - repo: unhappychoice/mdts
+    tag: v0.20.5
+    name: v0.20.5
+    body: >-
+      
+      ### ✨ Features
+
+      - auto-focus current file in the left file tree ([d9e8329](https://github.com/unhappychoice/mdts/commit/d9e8329))
+      ([#849](https://github.com/unhappychoice/mdts/pull/849))
+
+
+      ### 🐛 Bug Fixes
+
+      - keep livereload alive on permission errors ([1953b77](https://github.com/unhappychoice/mdts/commit/1953b77))
+      ([#856](https://github.com/unhappychoice/mdts/pull/856))
+
+      - skip inaccessible directories in the file tree ([bc1d572](https://github.com/unhappychoice/mdts/commit/bc1d572))
+      ([#856](http...
+    url: https://github.com/unhappychoice/mdts/releases/tag/v0.20.5
+    publishedAt: 2026-07-25T14:21:29Z
+  - repo: unhappychoice/mdts
+    tag: v0.20.4
+    name: v0.20.4
+    body: >-
+      
+      ### 🐛 Bug Fixes
+
+      - load commander via dynamic import for ESM compatibility
+      ([9fcd960](https://github.com/unhappychoice/mdts/commit/9fcd960))
+      ([#758](https://github.com/unhappychoice/mdts/pull/758))
+
+      - add @eslint/js as explicit dep (no longer bundled in eslint v10)
+      ([0b76df3](https://github.com/unhappychoice/mdts/commit/0b76df3))
+      ([#783](https://github.com/unhappychoice/mdts/pull/783))
+
+      - upgrade all babel packages to v8 to resolve peer dependency conflicts ([2b2af38](https://github.com/unhappych...
+    url: https://github.com/unhappychoice/mdts/releases/tag/v0.20.4
+    publishedAt: 2026-07-25T05:43:59Z
+  - repo: unhappychoice/gittype
+    tag: v0.10.1
+    name: Release v0.10.1
+    body: >-
+      ### ✨ Features
+
+
+      - feat: add winget package distribution ([e202bd9](https://github.com/unhappychoice/gittype/commit/e202bd9))
+
+
+      ### 🐛 Bug Fixes
+
+
+      - fix(clippy): remove useless borrow in println! argument
+      ([aff9611](https://github.com/unhappychoice/gittype/commit/aff9611))
+
+      - fix(nix): use rust-overlay's latest stable for unstable package
+      ([6b54544](https://github.com/unhappychoice/gittype/commit/6b54544))
+
+      - fix: update Dart parser queries for tree-sitter-dart 0.2.0 ([dbc6aaa](https://github.com/unh...
+    url: https://github.com/unhappychoice/gittype/releases/tag/v0.10.1
+    publishedAt: 2026-07-25T05:47:43Z
+  - repo: unhappychoice/steamfetch
+    tag: v0.5.6
+    name: Release v0.5.6
+    body: >-
+      
+      ### Other Changes
+
+
+      - chore: bump version to v0.5.6 ([7464c07](https://github.com/unhappychoice/steamfetch/commit/7464c07))
+
+      - chore(deps): bump base64 from 0.22.1 to 0.23.0
+      ([3b461e7](https://github.com/unhappychoice/steamfetch/commit/3b461e7))
+
+      - chore(deps): bump libc from 0.2.187 to 0.2.189
+      ([96d7ef3](https://github.com/unhappychoice/steamfetch/commit/96d7ef3))
+
+      - chore(deps): bump serde_json from 1.0.150 to 1.0.151
+      ([ab19a06](https://github.com/unhappychoice/steamfetch/commit/ab19a06))
+
+      - chore...
+    url: https://github.com/unhappychoice/steamfetch/releases/tag/v0.5.6
+    publishedAt: 2026-07-25T05:46:55Z
+  - repo: unhappychoice/gitlogue
+    tag: v0.10.0
+    name: Release v0.10.0
+    body: >-
+      
+      ### ✨ Features
+
+
+      - feat(git): detect renames in diff extraction and preserve old_path
+      ([782e28f](https://github.com/unhappychoice/gitlogue/commit/782e28f))
+
+
+      ### 🐛 Bug Fixes
+
+
+      - fix(ci): bump cachix/install-nix-action to v31 in release.yml
+      ([f9c046f](https://github.com/unhappychoice/gitlogue/commit/f9c046f))
+
+      - fix(ci): bump cachix/install-nix-action from v27 to v31
+      ([d52afc8](https://github.com/unhappychoice/gitlogue/commit/d52afc8))
+
+      - fix(ci): bump rust-cache prefix-key to invalidate stale cache...
+    url: https://github.com/unhappychoice/gitlogue/releases/tag/v0.10.0
+    publishedAt: 2026-07-25T05:47:10Z
+externalContributions: []
