@@ -4679,3 +4679,1571 @@
     action: closed
     number: 298
     title: "[CI Failure] circleci-tools/Norimaki"
+- id: "12313960068"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T14:51:25Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 276
+    title: ""
+- id: "15858500755"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T14:51:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12313943311"
+  type: WatchEvent
+  repo: shimabox/shimabox-blog-demo
+  createdAt: 2026-07-26T14:50:30Z
+  payload:
+    kind: generic
+    action: started
+- id: "12313940160"
+  type: WatchEvent
+  repo: shimabox/launchd-plist-generator
+  createdAt: 2026-07-26T14:50:21Z
+  payload:
+    kind: generic
+    action: started
+- id: "12313936210"
+  type: WatchEvent
+  repo: shimabox/diagoram
+  createdAt: 2026-07-26T14:50:08Z
+  payload:
+    kind: generic
+    action: started
+- id: "12313929624"
+  type: WatchEvent
+  repo: shimabox/psap
+  createdAt: 2026-07-26T14:49:50Z
+  payload:
+    kind: generic
+    action: started
+- id: "15856128161"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T14:09:03Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12313144454"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T14:09:00Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 275
+    title: ""
+- id: "15856126999"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T14:09:01Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12312897726"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T13:55:44Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 275
+    title: ""
+- id: "15855334018"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T13:55:43Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12312704235"
+  type: WatchEvent
+  repo: shimabox/komadori
+  createdAt: 2026-07-26T13:45:20Z
+  payload:
+    kind: generic
+    action: started
+- id: "15853598444"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T13:26:07Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15853597706"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T13:26:06Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12312321476"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T13:26:05Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 274
+    title: ""
+- id: "12312101662"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T13:13:53Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 274
+    title: ""
+- id: "15852869661"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T13:13:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12311899142"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-26T13:02:43Z
+  payload:
+    kind: generic
+    action: created
+- id: "12311898469"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-07-26T13:02:41Z
+  payload:
+    kind: generic
+    action: created
+- id: "15852169236"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-07-26T13:02:02Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15852167563"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-07-26T13:02:01Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15852139514"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-07-26T13:01:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15852137955"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-07-26T13:01:32Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12311876955"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-07-26T13:01:31Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 147
+    prTitle: ""
+    state: approved
+- id: "12311876842"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-07-26T13:01:31Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 148
+    prTitle: ""
+    state: approved
+- id: "15850888649"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:40:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12311507209"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:40:46Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 273
+    title: ""
+- id: "12311507067"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:40:48Z
+  payload:
+    kind: issues
+    action: closed
+    number: 272
+    title: export type { X } lost its edge to the type it names
+- id: "15850887378"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:40:47Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12311267080"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:27:35Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 273
+    title: ""
+- id: "15850087269"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:27:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12311258720"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:27:06Z
+  payload:
+    kind: issues
+    action: opened
+    number: 272
+    title: export type { X } lost its edge to the type it names
+- id: "12311030324"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:13:46Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 271
+    title: ""
+- id: "15849240003"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:13:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15849238909"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T12:13:47Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12307884784"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:59:49Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 271
+    title: ""
+- id: "15838148295"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:59:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15837928385"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:55:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15837926646"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:55:55Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12307827316"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:55:55Z
+  payload:
+    kind: issues
+    action: closed
+    number: 269
+    title: An aliased import registers the other module's name, not the local one
+- id: "12307827211"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:55:54Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 270
+    title: ""
+- id: "12307638663"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:44:02Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 270
+    title: ""
+- id: "15837226900"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:43:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12307632996"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:43:40Z
+  payload:
+    kind: issues
+    action: opened
+    number: 269
+    title: An aliased import registers the other module's name, not the local one
+- id: "15836277623"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:28:17Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12307392987"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:28:14Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 268
+    title: ""
+- id: "12307392821"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:28:16Z
+  payload:
+    kind: issues
+    action: closed
+    number: 267
+    title: A let chain's bindings are not declarations
+- id: "15836275946"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:28:15Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12307202035"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:16:02Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 268
+    title: ""
+- id: "15835532568"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:16:01Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12307196328"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:15:40Z
+  payload:
+    kind: issues
+    action: opened
+    number: 267
+    title: A let chain's bindings are not declarations
+- id: "15834606175"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:01:01Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12306959584"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:01:00Z
+  payload:
+    kind: issues
+    action: closed
+    number: 265
+    title: A for-header declaration and a switch case's block leak past their scope
+- id: "15834604517"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:00:59Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12306959464"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T08:00:58Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 266
+    title: ""
+- id: "12306773932"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T07:48:49Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 266
+    title: ""
+- id: "15833853261"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T07:48:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12306767693"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T07:48:24Z
+  payload:
+    kind: issues
+    action: opened
+    number: 265
+    title: A for-header declaration and a switch case's block leak past their scope
+- id: "12305976498"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:57:21Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 264
+    title: ""
+- id: "15830917248"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:57:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15830916808"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:57:22Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12305798852"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:45:20Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 264
+    title: ""
+- id: "15830339255"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:45:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15830315572"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:44:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12305790535"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:44:46Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 263
+    title: ""
+- id: "15830314342"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:44:47Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12305790474"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:44:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 262
+    title: A chained method call resolves through the wrong receiver
+- id: "12305636336"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:33:59Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 263
+    title: ""
+- id: "15829839453"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:33:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12305632011"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:33:41Z
+  payload:
+    kind: issues
+    action: opened
+    number: 262
+    title: A chained method call resolves through the wrong receiver
+- id: "15829325639"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:21:53Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15829325072"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:21:52Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12305463214"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:21:52Z
+  payload:
+    kind: issues
+    action: closed
+    number: 259
+    title: A type-position reference resolves to a same-named value declaration
+- id: "12305463098"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:21:50Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 261
+    title: ""
+- id: "12305296267"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:09:55Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 261
+    title: ""
+- id: "15828833778"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:09:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15828714512"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:06:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12305255534"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:06:55Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 260
+    title: ""
+- id: "15828713799"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T06:06:56Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12305095475"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:55:54Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 260
+    title: ""
+- id: "15828238461"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:55:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12305057561"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:52:58Z
+  payload:
+    kind: issues
+    action: opened
+    number: 259
+    title: A type-position reference resolves to a same-named value declaration
+- id: "15828102825"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:52:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15828102211"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:52:36Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12305052130"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:52:36Z
+  payload:
+    kind: issues
+    action: closed
+    number: 257
+    title: A class getter is linked to the interface's setter, not its getter
+- id: "12305052063"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:52:35Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 258
+    title: ""
+- id: "12304937421"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:44:14Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 258
+    title: ""
+- id: "15827743473"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:44:13Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12304932839"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:43:55Z
+  payload:
+    kind: issues
+    action: opened
+    number: 257
+    title: A class getter is linked to the interface's setter, not its getter
+- id: "15827193606"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:31:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12304769792"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:31:46Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 256
+    title: ""
+- id: "12304769656"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:31:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 251
+    title: A let binding that shadows across a block boundary loses the edge to what it reads
+- id: "15827192567"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:31:46Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12304621434"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:20:37Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 256
+    title: ""
+- id: "15826695361"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T05:20:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15823295420"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T04:02:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12303520512"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T04:02:09Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 255
+    title: ""
+- id: "15823294383"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T04:02:10Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12303520225"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T04:02:10Z
+  payload:
+    kind: issues
+    action: closed
+    number: 254
+    title: Rust method calls resolve to the first same-named method, ignoring the receiver's type
+- id: "15822989868"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:54:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12303419390"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:54:35Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 255
+    title: ""
+- id: "12303263081"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:42:41Z
+  payload:
+    kind: issues
+    action: opened
+    number: 254
+    title: Rust method calls resolve to the first same-named method, ignoring the receiver's type
+- id: "15822520087"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:40:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12303230299"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:40:33Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 253
+    title: ""
+- id: "15822519374"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:40:35Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12303229956"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:40:35Z
+  payload:
+    kind: issues
+    action: closed
+    number: 252
+    title: A destructuring default value and a computed key are collected as bindings
+- id: "12303077751"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:29:59Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 253
+    title: ""
+- id: "15822153536"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:29:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12303071860"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:29:30Z
+  payload:
+    kind: issues
+    action: opened
+    number: 252
+    title: A destructuring default value and a computed key are collected as bindings
+- id: "12303019225"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:25:18Z
+  payload:
+    kind: issues
+    action: opened
+    number: 251
+    title: A let binding that shadows across a block boundary loses the edge to what it reads
+- id: "15821542108"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:11:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12302838549"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:11:53Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 250
+    title: ""
+- id: "15821541645"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:11:54Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12302699037"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:01:41Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 250
+    title: ""
+- id: "15821189715"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:01:40Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15821149699"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:00:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12302686205"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:00:43Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 249
+    title: ""
+- id: "15821148970"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:00:45Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12302686015"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T03:00:45Z
+  payload:
+    kind: issues
+    action: closed
+    number: 248
+    title: An abstract class implementing an interface gets no member edges
+- id: "12302554284"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:50:32Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 249
+    title: ""
+- id: "15820800451"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:50:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12302549942"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:50:12Z
+  payload:
+    kind: issues
+    action: opened
+    number: 248
+    title: An abstract class implementing an interface gets no member edges
+- id: "15820617415"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:44:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15820616839"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:44:57Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12302480282"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:44:57Z
+  payload:
+    kind: issues
+    action: closed
+    number: 246
+    title: Only methods are linked to the declaration they implement, not consts, types or properties
+- id: "12302480197"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:44:56Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 247
+    title: ""
+- id: "12302328181"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:34:06Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 247
+    title: ""
+- id: "15820264928"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:34:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12302322742"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:33:45Z
+  payload:
+    kind: issues
+    action: opened
+    number: 246
+    title: Only methods are linked to the declaration they implement, not consts, types or properties
+- id: "15820146792"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:30:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15820146387"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:30:34Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12302273933"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:30:34Z
+  payload:
+    kind: issues
+    action: closed
+    number: 244
+    title: An enum member with an initializer produces no definition
+- id: "12302273904"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:30:33Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 245
+    title: ""
+- id: "12302120263"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:20:15Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 245
+    title: ""
+- id: "15819804299"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:20:15Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12302114072"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:19:52Z
+  payload:
+    kind: issues
+    action: opened
+    number: 244
+    title: An enum member with an initializer produces no definition
+- id: "15819669400"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:15:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15819668743"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:15:57Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12302048777"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:15:55Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 243
+    title: ""
+- id: "12301900363"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:06:47Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 243
+    title: ""
+- id: "15819389922"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:06:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15819371311"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:06:07Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15819370827"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:06:06Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12301889480"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:06:05Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 242
+    title: ""
+- id: "12301889469"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T02:06:06Z
+  payload:
+    kind: issues
+    action: closed
+    number: 241
+    title: A catch parameter and a for-of binding are not declarations in TypeScript
+- id: "12301779466"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:59:00Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 242
+    title: ""
+- id: "15819147594"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:58:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12301772145"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:58:32Z
+  payload:
+    kind: issues
+    action: opened
+    number: 241
+    title: A catch parameter and a for-of binding are not declarations in TypeScript
+- id: "15818819162"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:47:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15818818557"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:47:20Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12301593792"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:47:20Z
+  payload:
+    kind: issues
+    action: closed
+    number: 239
+    title: A match arm's binding is visible in the next arm, and a guard's names count as bindings
+- id: "12301593647"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:47:19Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 240
+    title: ""
+- id: "12301445096"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:37:15Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 240
+    title: ""
+- id: "15818528714"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:37:14Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12301437526"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-26T01:36:44Z
+  payload:
+    kind: issues
+    action: opened
+    number: 239
+    title: A match arm's binding is visible in the next arm, and a guard's names count as bindings
+- id: "15809343906"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:51:02Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12296947107"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:50:59Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 238
+    title: ""
+- id: "15809343311"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:51:01Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12296946844"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:51:01Z
+  payload:
+    kind: issues
+    action: closed
+    number: 235
+    title: Reading a getter resolves to the setter that shares its name
+- id: "12296765939"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:40:57Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 238
+    title: ""
+- id: "15808987091"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:40:56Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15808938602"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:39:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12296738092"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:39:33Z
+  payload:
+    kind: issues
+    action: closed
+    number: 234
+    title: A const generic parameter produces no definition, so uses of it have nothing to reference
+- id: "15808937911"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:39:32Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12296737985"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:39:31Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 237
+    title: ""
+- id: "12296608012"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:32:01Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 237
+    title: ""
+- id: "15808673566"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:31:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15807852278"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:08:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15807851685"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:08:44Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12296207521"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:08:43Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 236
+    title: ""
+- id: "12296207360"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:08:44Z
+  payload:
+    kind: issues
+    action: closed
+    number: 233
+    title: A declaration's own name is read as a reference for several TypeScript forms
+- id: "12296070531"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:00:39Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 236
+    title: ""
+- id: "15807538763"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T20:00:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12296000573"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:56:40Z
+  payload:
+    kind: issues
+    action: opened
+    number: 235
+    title: Reading a getter resolves to the setter that shares its name
+- id: "12296000212"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:56:38Z
+  payload:
+    kind: issues
+    action: opened
+    number: 234
+    title: A const generic parameter produces no definition, so uses of it have nothing to reference
+- id: "12295992658"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:56:14Z
+  payload:
+    kind: issues
+    action: opened
+    number: 233
+    title: A declaration's own name is read as a reference for several TypeScript forms
+- id: "12295984983"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:55:49Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 232
+    title: ""
+- id: "15807364744"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:55:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15807364325"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:55:50Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "15807172655"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:50:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12295891935"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:50:28Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 232
+    title: ""
+- id: "12295443176"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:24:23Z
+  payload:
+    kind: generic
+    action: created
+- id: "15806196570"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:23:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12295432658"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:23:46Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 231
+    title: ""
+- id: "15806195754"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:23:47Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12295432330"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:23:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 174
+    title: Usage.name holds whole source expressions for composite node kinds
+- id: "12295300918"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:16:06Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 231
+    title: ""
+- id: "15805909200"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:16:05Z
+  payload:
+    kind: generic
+    action: ""
+- id: "15805689009"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:10:18Z
+  payload:
+    kind: generic
+    action: ""
+- id: "12295196531"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:10:16Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 230
+    title: ""
+- id: "15805688354"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:10:17Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "12295042685"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-07-25T19:01:49Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 230
+    title: ""
