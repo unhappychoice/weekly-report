@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>281 commits across 14 repos: the great dependency harvest of late July</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W31/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W31/</guid>
+      <description>A week dominated by Dependabot wrangling across Ruby, Rust, and JS ecosystems, with a real fix sneaking into mdts v0.20.6.
+
+This week was essentially a full-scale dependency maintenance operation across my entire portfolio. With 281 commits, 26 PRs opened, and 25 merged, the raw numbers look impressive — but the real story is that almost every one of those PRs was a Dependabot bump landing across 14 different repos spanning Ruby, Rust, and JavaScript. It&apos;s the kind of week where you&apos;re not so much writing code as you are shepherding the ecosystem&apos;s churn through your CI pipelines.
+
+The one moment of genuine feature work came from unhappychoice/mdts, where I fixed h6 heading styling and dropped dead CSS variables — a small but satisfying cleanup that shipped as v0.20.6. Over in unhappychoice/splashboard, I also had to write an actual fix: a real code change to disambiguate remote name comparison after the gix 0.86 bump broke things, which is exactly the kind of subtle breakage a Cargo upgrade can hide. And unhappychoice/lintric quietly accumulated 24 PRs worth of activity around model layer test coverage and scope model refactoring.
+
+Monday was the heaviest day by far with 73 commits, suggesting I front-loaded the week&apos;s dependency sweep hard and let it taper off toward the weekend. The review queue was equally relentless — 52 approvals across repos including gitlogue, steamfetch, gittype, and oss-issue-opener, meaning almost every merged PR got a personal sign-off.
+
+
+Commits: 281, PRs: 26, Reviews: 52</description>
+      <pubDate>Sun, 02 Aug 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W31/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W31/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>lintric accuracy engine: 76 PRs of dependency resolution surgery</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W30/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W30/</guid>
