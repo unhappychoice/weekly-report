@@ -1,0 +1,172 @@
+title: "281 commits across 14 repos: the great dependency harvest of late July"
+subtitle: A week dominated by Dependabot wrangling across Ruby, Rust, and JS ecosystems, with a real fix sneaking into
+  mdts v0.20.6.
+overview: >
+  This week was essentially a full-scale dependency maintenance operation across my entire portfolio. With 281 commits,
+  26 PRs opened, and 25 merged, the raw numbers look impressive — but the real story is that almost every one of those
+  PRs was a Dependabot bump landing across 14 different repos spanning Ruby, Rust, and JavaScript. It's the kind of week
+  where you're not so much writing code as you are shepherding the ecosystem's churn through your CI pipelines.
+
+
+  The one moment of genuine feature work came from unhappychoice/mdts, where I fixed h6 heading styling and dropped dead
+  CSS variables — a small but satisfying cleanup that shipped as v0.20.6. Over in unhappychoice/splashboard, I also had
+  to write an actual fix: a real code change to disambiguate remote name comparison after the gix 0.86 bump broke
+  things, which is exactly the kind of subtle breakage a Cargo upgrade can hide. And unhappychoice/lintric quietly
+  accumulated 24 PRs worth of activity around model layer test coverage and scope model refactoring.
+
+
+  Monday was the heaviest day by far with 73 commits, suggesting I front-loaded the week's dependency sweep hard and let
+  it taper off toward the weekend. The review queue was equally relentless — 52 approvals across repos including
+  gitlogue, steamfetch, gittype, and oss-issue-opener, meaning almost every merged PR got a personal sign-off.
+summaries:
+  - type: deep-dive
+    heading: "The one real bug: gix 0.86 breaks remote name comparison in splashboard"
+    body: "Buried inside a week of Dependabot noise was a genuine fix: after bumping gix from an earlier version to 0.86.0,
+      remote name comparison in unhappychoice/splashboard started misbehaving due to an API disambiguation change. The
+      commit message 'fix: disambiguate remote name comparison for gix 0.86' tells the story — this wasn't a one-click
+      merge, it required actually reading the gix changelog and patching the call site. It's a good reminder that Rust
+      ecosystem bumps aren't always free."
+    chips:
+      - label: repo
+        value: splashboard
+        color: default
+      - label: crate
+        value: gix 0.86.0
+        color: default
+      - label: type
+        value: real bug fix
+        color: green
+  - type: repo-summary
+    heading: 14 repos touched, lintric leading the pack
+    body: unhappychoice/lintric topped the activity chart with 24 PRs, followed by unhappychoice/mdts,
+      unhappychoice/slack_channel_stats, and circleci-tools/circleci-cli each at 11 PRs. The splashboard Rust project
+      saw 7 PRs. Beyond my own repos, I was active in irasutoya-tools/irasutoya-cli, irasutoya-tools/irasutoya,
+      circleci-tools/circleci-cli, and bitflyer-tools/bitflyer-cli — a genuinely wide blast radius for a single week.
+    chips:
+      - label: repos touched
+        value: "14"
+        color: default
+      - label: top repo
+        value: lintric (24 PRs)
+        color: default
+      - label: cross-org repos
+        value: "4"
+        color: default
+  - type: tech-debt
+    heading: lintric gets model layer test coverage and a scope refactor
+    body: "While most of the week was dependency churn, unhappychoice/lintric saw some real structural work: a
+      'test/model-layer-coverage' branch landed covering model layer code that had no direct tests, and a
+      'refactor/split-scope-models' PR reorganized scope models into a cleaner structure. These are the kinds of
+      unglamorous but important improvements that make a codebase easier to work with long-term."
+    chips:
+      - label: repo
+        value: unhappychoice/lintric
+        color: default
+      - label: PRs
+        value: 24 total
+        color: default
+      - label: focus
+        value: tests + refactor
+        color: green
+  - type: activity-pattern
+    heading: "Front-loaded hard: 73 commits on Monday, coasting by Sunday"
+    body: "The daily commit curve tells a clear story — 73 on Monday July 27, dropping steadily through the week to just 15
+      on Sunday August 2. This looks like a deliberate sweep: batch all the Dependabot merges early in the week, then
+      let reviews and smaller tasks fill the back half. The total of 281 commits across 7 days is a solid clip,
+      averaging 40 per day at peak."
+    chips:
+      - label: peak day
+        value: Mon 73
+        color: green
+      - label: quietest day
+        value: Sun 15
+        color: default
+      - label: weekly total
+        value: 281 commits
+        color: default
+  - type: review-summary
+    heading: "52 approvals: every repo in the portfolio got a sign-off"
+    body: "I approved 52 PRs this week with zero rejections or change requests recorded — which makes sense given most were
+      Dependabot bumps with green CI. The review spread was impressively wide: circleci-tools/circleci-cli led with the
+      most approvals, but I also reviewed in unhappychoice/gitlogue, unhappychoice/steamfetch, unhappychoice/gittype,
+      and unhappychoice/oss-issue-opener. At 52 reviews across 14 repos, that's an average of roughly 7-8 approvals per
+      day."
+    chips:
+      - label: total reviews
+        value: "52"
+        color: default
+      - label: all approved
+        value: 100%
+        color: green
+      - label: repos reviewed
+        value: "14"
+        color: default
+  - type: contribution-summary
+    heading: "Cross-org maintenance: circleci-tools, irasutoya-tools, bitflyer-tools"
+    body: A notable chunk of this week's work happened outside my personal namespace. circleci-tools/circleci-cli alone saw
+      11 PRs and the most review activity of any single repo. irasutoya-tools picked up simplecov and rbs bumps across
+      both irasutoya and irasutoya-cli. bitflyer-tools/bitflyer-cli got a bitflyer gem bump from 2.0.2 to 2.0.3 that
+      actually removed 12 lines — a net cleanup. Keeping these satellite orgs current is quiet but real maintenance
+      work.
+    chips:
+      - label: orgs contributed to
+        value: "3"
+        color: default
+      - label: circleci-cli PRs
+        value: "11"
+        color: default
+      - label: bitflyer bump
+        value: -12 lines
+        color: green
+highlights:
+  - type: pr
+    title: "chore(deps): Bump chalk from 5.6.2 to 6.0.0"
+    repo: unhappychoice/mdts
+    meta: merged · +6 -6 · 2 files
+    body: This wasn't just a patch bump — chalk 6.0.0 is a breaking release that drops support for Node.js below 22, making
+      it the most consequential dependency upgrade of the week. Merging it signals that mdts is committing to the Node
+      22+ baseline.
+    url: https://github.com/unhappychoice/mdts/pull/859
+  - type: pr
+    title: "fix: disambiguate remote name comparison for gix 0.86"
+    repo: unhappychoice/splashboard
+    meta: merged
+    body: The only non-Dependabot code fix of the week — gix 0.86 quietly changed how remote names are compared, and this
+      patch corrected the call site before it could cause silent misbehavior in splashboard's git operations.
+  - type: pr
+    title: "test(models): cover the layer nothing tested directly"
+    repo: unhappychoice/lintric
+    meta: merged
+    body: Filling in a gap in lintric's test suite by directly covering the model layer for the first time — the kind of PR
+      that doesn't ship features but makes every future refactor safer.
+    url: https://github.com/unhappychoice/lintric/pull/277
+  - type: release
+    title: v0.20.6
+    repo: unhappychoice/mdts
+    meta: released
+    body: "A focused bug-fix release: h6 headings finally get proper styling and dead CSS variables get cleaned out. Small
+      surface area, but it closes a visual inconsistency that had been lingering in the markdown renderer."
+  - type: pr
+    title: "chore(deps): bump bitflyer from 2.0.2 to 2.0.3"
+    repo: bitflyer-tools/bitflyer-cli
+    meta: merged · +1 -12 · 1 file
+    body: A dependency bump that actually deleted 11 net lines — the new bitflyer gem version cleaned up its own internals
+      enough to shrink the lockfile entry, which is a satisfying kind of upgrade.
+    url: https://github.com/bitflyer-tools/bitflyer-cli/pull/194
+ticker:
+  - label: MASS MERGE EVENT
+    text: "@unhappychoice merges 25 PRs in 7 days. Dependabot weeps with joy."
+  - label: BREAKING NEWS
+    text: "@unhappychoice upgrades chalk to v6.0.0, boldly drops Node <22 support forever"
+  - label: LONE SURVIVOR
+    text: "@unhappychoice finds ONE real bug in a sea of 281 commits. Witnesses call it historic."
+  - label: APPROVE MACHINE
+    text: "@unhappychoice rubber-stamps 52 PRs across 14 repos. Fingers reportedly still intact."
+  - label: RUST DRAMA
+    text: "@unhappychoice battles gix 0.86 remote name disambiguation. Emerges victorious."
+  - label: MONDAY MASSACRE
+    text: "@unhappychoice drops 73 commits before the week even gets going. Authorities alarmed."
+  - label: CROSS-ORG CHAOS
+    text: "@unhappychoice invades circleci-tools, irasutoya-tools AND bitflyer-tools in one week"
+  - label: CSS JUSTICE
+    text: "@unhappychoice finally styles h6 in mdts v0.20.6. Dead CSS variables have been eliminated."
