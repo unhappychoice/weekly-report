@@ -1027,3 +1027,27 @@
     prNumber: 1051
     prTitle: ""
     state: approved
+- id: "13002270181"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-08-09T13:34:24Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1064
+    title: ""
+- id: "17197109948"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-08-09T13:34:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "17197108441"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-08-09T13:34:25Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
