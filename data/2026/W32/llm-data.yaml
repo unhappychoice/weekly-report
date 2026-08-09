@@ -1,0 +1,149 @@
+title: Dependency maintenance marathon across 15+ repos, plus gittype v0.10.2
+subtitle: 195 commits and 39 reviews later, every repo in the fleet is patched and a TUI resize bug is fixed.
+overview: >
+  This week was a full-scale dependency sweep across virtually every repo I maintain. The ruby/json use-after-free fix
+  (2.21.1 → 2.21.2) alone rippled through eight separate repositories — blog, bitflyer, bitflyer-cli, irasutoya,
+  irasutoya-cli, circleci-cli, slack_channel_stats, and terminal_image — which meant a lot of repetitive but genuinely
+  important security hygiene work. Alongside that, the openai Node SDK jumped a full major version (6.49.0 → 7.1.0) in
+  github-weekly-reporter, and splashboard got its LLM pricing data synced from LiteLLM.
+
+
+  The most interesting non-dependency story was gittype v0.10.2 shipping with a real bug fix: a TUI redraw on terminal
+  resize contributed by an outside contributor (0utsights). It's a small thing but it's one of those polish fixes that
+  makes a terminal tool feel genuinely solid. I also had to do some surgical work on circleci-cli around the openssl
+  bump — it went in, got reverted, and then Dependabot was explicitly told to stop touching it, which tells a story
+  about painful transitive dependency conflicts.
+
+
+  Commit volume was remarkably consistent all week — no single blowout day, just a steady 40–66 commits per day across
+  seven days. The 39 reviews were almost entirely approvals on Dependabot PRs, which is the unglamorous but necessary
+  side of maintaining a large fleet of personal and org repos.
+summaries:
+  - type: deep-dive
+    heading: The openssl saga in circleci-cli
+    body: "The most interesting drama this week was a three-act play in circleci-cli: Dependabot bumped openssl to 4.0.2,
+      that got merged, then got explicitly reverted back to 3.3.0, and finally a Dependabot ignore rule was added to
+      stop it from trying again. This kind of 'merge, revert, lock' pattern usually signals a painful incompatibility
+      somewhere in the dependency tree. It's a small thing but it's the kind of careful, deliberate maintenance that
+      keeps a CLI tool actually working."
+    chips:
+      - label: repo
+        value: circleci-tools/circleci-cli
+        color: default
+      - label: commits
+        value: 3 for openssl
+        color: default
+      - label: outcome
+        value: pinned to 3.3.0
+        color: default
+  - type: repo-summary
+    heading: 15+ repos touched in a single week
+    body: The dependency wave hit everything from Rust crates (clap, toml, ignore, shaku) to Ruby gems (json, rbs,
+      protocol-url, protocol-http1) to npm packages (openai, socket.io-parser, fast-uri, brace-expansion,
+      typescript-eslint, ws, markdown-it). The busiest repos were circleci-cli and mdts with 6 PRs each, followed by
+      cycle-flyer at 5. The json 2.21.2 security patch was the most widely applied single change, landing in 8 repos.
+    chips:
+      - label: repos touched
+        value: 15+
+        color: default
+      - label: busiest
+        value: circleci-cli (6 PRs)
+        color: default
+      - label: most-replicated fix
+        value: json 2.21.2 × 8
+        color: default
+  - type: activity-pattern
+    heading: Seven-day grind, no days off
+    body: Commits ran every single day this week with no rest day in sight. Friday was the peak at 66 commits, but even the
+      lightest days (Monday and Thursday) still hit 40. The consistency is less about bursts of inspiration and more
+      about the mechanical rhythm of reviewing and merging a large Dependabot queue across many repos.
+    chips:
+      - label: peak
+        value: Fri 66
+        color: green
+      - label: floor
+        value: Mon/Thu 40
+        color: default
+      - label: total
+        value: 195 commits
+        color: default
+      - label: days active
+        value: 7 / 7
+        color: green
+  - type: review-summary
+    heading: 39 approvals, zero rejections
+    body: Every single one of the 39 reviews this week was an approval, which makes sense given they were almost entirely
+      Dependabot PRs on my own or org repos. The most-reviewed repos were mdts (6 reviews), circleci-cli (4), and
+      slack_channel_stats (4). It's a lot of review volume but the cognitive load per review is low — the real work is
+      just staying on top of the queue.
+    chips:
+      - label: reviews
+        value: 39 approved
+        color: green
+      - label: rejections
+        value: "0"
+        color: default
+      - label: top repo
+        value: mdts × 6
+        color: default
+  - type: contribution-summary
+    heading: Contributions outside my own orgs
+    body: "Two external contributions landed this week: a PR to ligurio/awesome-ttygames adding a game to games.yaml, and
+      the gittype v0.10.2 release incorporating a fix from outside contributor 0utsights for TUI redraw on terminal
+      resize. The awesome-ttygames contribution is a nice small open-source citizenship moment — that list is a fun
+      community resource."
+    chips:
+      - label: external PRs
+        value: "2"
+        color: default
+      - label: repos
+        value: ligurio/awesome-ttygames
+        color: default
+      - label: external contributor
+        value: 0utsights → gittype
+        color: default
+highlights:
+  - type: release
+    title: Release v0.10.2
+    repo: unhappychoice/gittype
+    meta: released Aug 2026
+    body: Ships a fix for TUI redraw on terminal resize, contributed by 0utsights — the kind of polish that makes a terminal
+      tool feel production-quality. Also rolled in clap 4.6.5 and tree-sitter-erlang 0.20.0.
+  - type: pr
+    title: "chore: sync llm pricing from LiteLLM"
+    repo: unhappychoice/splashboard
+    meta: merged Aug 2026 · +8 -8 · 1 file
+    body: Automated daily refresh of llm_pricing.json from LiteLLM's price table. Keeping LLM cost data current matters a
+      lot when you're building anything that tracks or displays model pricing.
+    url: https://github.com/unhappychoice/splashboard/pull/312
+  - type: pr
+    title: "chore(deps): bump openai from 6.49.0 to 7.1.0"
+    repo: deariary/github-weekly-reporter
+    meta: merged Aug 2026 · +8 -5 · 2 files
+    body: A full major version bump on the openai Node SDK — v7 brings meaningful API surface changes, so this is more than
+      a routine patch bump.
+    url: https://github.com/deariary/github-weekly-reporter/pull/150
+  - type: pr
+    title: Update games.yaml
+    repo: ligurio/awesome-ttygames
+    meta: merged Aug 2026 · +4 -0 · 1 file
+    body: A small open-source contribution to the awesome-ttygames community list — adding a terminal game to a curated
+      public resource.
+    url: https://github.com/ligurio/awesome-ttygames/pull/92
+ticker:
+  - label: MASS PATCHING
+    text: "@unhappychoice applies json 2.21.2 security fix to 8 repos simultaneously"
+  - label: OPENSSL CHAOS
+    text: "@unhappychoice merges, reverts, and bans an openssl bump in the same week"
+  - label: UNSTOPPABLE
+    text: "@unhappychoice fires off 195 commits across 7 straight days without blinking"
+  - label: HISTORIC MERGE
+    text: "@unhappychoice ships gittype v0.10.2, fixing TUI resize bugs for terminal purists"
+  - label: REVIEW MACHINE
+    text: "@unhappychoice approves 39 PRs this week. Zero rejections. Zero mercy for old deps."
+  - label: PRICE CHECK
+    text: "@unhappychoice syncs LLM pricing data in splashboard. Economists reportedly nervous."
+  - label: OPEN SOURCE HERO
+    text: "@unhappychoice spotted adding games to awesome-ttygames. Sources call it 'wholesome'"
+  - label: MAJOR VERSION
+    text: "@unhappychoice yeets openai SDK from v6 to v7. No survivors in the old API surface."
