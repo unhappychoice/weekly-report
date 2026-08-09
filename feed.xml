@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency maintenance marathon across 15+ repos, plus gittype v0.10.2</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W32/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W32/</guid>
+      <description>195 commits and 39 reviews later, every repo in the fleet is patched and a TUI resize bug is fixed.
+
+This week was a full-scale dependency sweep across virtually every repo I maintain. The ruby/json use-after-free fix (2.21.1 → 2.21.2) alone rippled through eight separate repositories — blog, bitflyer, bitflyer-cli, irasutoya, irasutoya-cli, circleci-cli, slack_channel_stats, and terminal_image — which meant a lot of repetitive but genuinely important security hygiene work. Alongside that, the openai Node SDK jumped a full major version (6.49.0 → 7.1.0) in github-weekly-reporter, and splashboard got its LLM pricing data synced from LiteLLM.
+
+The most interesting non-dependency story was gittype v0.10.2 shipping with a real bug fix: a TUI redraw on terminal resize contributed by an outside contributor (0utsights). It&apos;s a small thing but it&apos;s one of those polish fixes that makes a terminal tool feel genuinely solid. I also had to do some surgical work on circleci-cli around the openssl bump — it went in, got reverted, and then Dependabot was explicitly told to stop touching it, which tells a story about painful transitive dependency conflicts.
+
+Commit volume was remarkably consistent all week — no single blowout day, just a steady 40–66 commits per day across seven days. The 39 reviews were almost entirely approvals on Dependabot PRs, which is the unglamorous but necessary side of maintaining a large fleet of personal and org repos.
+
+
+Commits: 195, PRs: 3, Reviews: 39</description>
+      <pubDate>Sun, 09 Aug 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W32/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W32/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>281 commits across 14 repos: the great dependency harvest of late July</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W31/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W31/</guid>
