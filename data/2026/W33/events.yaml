@@ -1590,3 +1590,39 @@
     prNumber: 878
     prTitle: ""
     state: approved
+- id: "13316319936"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-08-15T00:04:45Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 306
+    title: "[CI Failure] unhappychoice/cycle-pusher"
+- id: "13316319883"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-08-15T00:04:45Z
+  payload:
+    kind: issues
+    action: opened
+    number: 306
+    title: "[CI Failure] unhappychoice/cycle-pusher"
+- id: "13316319806"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-08-15T00:04:44Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 305
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "13316319738"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-08-15T00:04:44Z
+  payload:
+    kind: issues
+    action: opened
+    number: 305
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
