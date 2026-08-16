@@ -1,0 +1,174 @@
+title: CI git identity sweep across 13 repos in a single week
+subtitle: A coordinated chore/git-identity-in-workflows rollout reclaimed the contribution graph from bot-authored
+  commits, landing across every active project simultaneously.
+overview: >
+  This week had a clear, singular mission: fix the CI commit authorship problem across the entire portfolio. Automated
+  GitHub Actions commits had been landing under bot identities or inconsistent names, meaning the contribution graph
+  wasn't reflecting real work. The fix was simple — swap in `Yuji Ueki <unhappychoice@gmail.com>` — but it needed to be
+  applied everywhere, and "everywhere" turned out to be 13 repositories spanning personal projects, org tools, and side
+  projects.
+
+
+  Tuesday was the explosion point: 206 commits in a single day, which is where the bulk of the cross-repo sweep
+  happened. The rest of the week maintained a remarkably steady cadence of 40–43 commits per day, with a second burst on
+  Sunday (94 commits) as the tail end of the cleanup and dependency wave landed. The 70 reviews logged this week were
+  almost entirely self-approvals on Dependabot and CI fix PRs — a necessary but mechanical part of maintaining a
+  portfolio this wide.
+
+
+  Alongside the identity sweep, Dependabot kept the dependency pipeline busy: reline 0.7.0 rolled out across Ruby
+  projects, MUI bumped to 9.3.1 in mdts (requiring a snapshot update), and a scattering of Cargo, Gradle, and npm bumps
+  landed across gittype, splashboard, lintric, and more. The lintric refactor to support tree-sitter 0.26's iterator API
+  was the one genuinely technical commit in an otherwise infrastructure-heavy week.
+summaries:
+  - type: deep-dive
+    heading: The great git identity reclamation
+    body: "Thirteen repositories were getting their automated commits attributed to a bot or an inconsistent identity,
+      silently erasing contributions from the graph. The fix — a one-line CI config change per repo — was applied as a
+      coordinated sweep: kobito, gittype, splashboard, gitlogue, steamfetch, terminal_image, github-weekly-reporter,
+      blog, irasutoya-cli, irasutoya, cycle-flyer, circleci-cli, bitflyer-cli, and bitflyer all got the treatment. It's
+      the kind of yak-shave that looks trivial per-repo but matters a lot when you're maintaining 20+ active projects
+      and want the history to actually mean something."
+    chips:
+      - label: repos patched
+        value: "13"
+        color: default
+      - label: PR title
+        value: "chore(ci): use personal git identity"
+        color: default
+      - label: files changed
+        value: 1 per repo
+        color: default
+  - type: commit-summary
+    heading: 206-commit Tuesday and a steady-state week
+    body: Tuesday's 206-commit spike is where the identity sweep and a backlog of dependency merges collided — merge commits
+      cascade fast when you're closing out a queue of Dependabot PRs across a dozen repos at once. The rest of the week
+      was almost metronomically consistent at 40–43 commits per day, which reflects the automated dependency pipeline
+      humming along. Sunday's 94-commit bump suggests a second cleanup pass to close out stragglers.
+    chips:
+      - label: total commits
+        value: "300"
+        color: default
+      - label: peak day
+        value: Tue 206
+        color: green
+      - label: steadiest stretch
+        value: Mon/Wed–Sat ~41
+        color: default
+      - label: Sunday burst
+        value: "94"
+        color: default
+  - type: repo-summary
+    heading: 20+ repos touched, mdts and gittype led the charge
+    body: mdts topped the activity chart with 9 PRs — mostly a MUI 9.3.1 bump that required a snapshot update for the new
+      roving tabindex behavior, plus typescript-eslint and other JS deps. gittype followed with 8 PRs, all Cargo
+      dependency updates (rusqlite, tree-sitter-scala, thiserror, clap, and more). circleci-cli and irasutoya each saw
+      5+ PRs from the combined CI identity fix and Ruby dep wave.
+    chips:
+      - label: unhappychoice/mdts
+        value: 9 PRs
+        color: default
+      - label: unhappychoice/gittype
+        value: 8 PRs
+        color: default
+      - label: circleci-tools/circleci-cli
+        value: 7 PRs
+        color: default
+      - label: total repos active
+        value: 20+
+        color: default
+  - type: tech-debt
+    heading: "lintric: the one real refactor hiding in the noise"
+    body: "Buried under the dependency avalanche was a genuine refactor in lintric: migrating tree-sitter traversal to use
+      iterators for the 0.26 API, and updating to comfy-table 8's new `load_style` API. These weren't just version bumps
+      — the tree-sitter 0.26 iterator change required actual code restructuring to traverse children differently. It's a
+      small but meaningful signal that lintric is being kept current with upstream breaking changes, not just pinned."
+    chips:
+      - label: repo
+        value: unhappychoice/lintric
+        color: default
+      - label: tree-sitter
+        value: 0.26 iterator API
+        color: default
+      - label: comfy-table
+        value: 8.0.0 load_style
+        color: default
+  - type: review-summary
+    heading: "70 approvals: the cost of owning a wide portfolio"
+    body: All 70 reviews this week were approvals, spread across roughly 25 distinct repositories. This is the mechanical
+      overhead of running Dependabot across a large personal portfolio — every automated PR needs a human approval to
+      merge, and when you're the only maintainer, that's all you. The review breadth (circleci-tools, bitflyer-tools,
+      irasutoya-tools, deariary, and personal repos) shows how wide the maintenance surface actually is.
+    chips:
+      - label: total reviews
+        value: "70"
+        color: default
+      - label: all approved
+        value: 100%
+        color: green
+      - label: distinct repos reviewed
+        value: ~25
+        color: default
+  - type: contribution-summary
+    heading: "Cross-org reach: CI fixes land in 5 external orgs"
+    body: The git identity fix wasn't just a personal-repo concern — it rolled out to deariary/github-weekly-reporter,
+      irasutoya-tools/irasutoya and irasutoya-cli, bitflyer-tools/cycle-flyer and bitflyer-cli and bitflyer, and
+      circleci-tools/circleci-cli. That's five separate GitHub orgs getting the same CI hygiene treatment in the same
+      week, which speaks to how consistently the automated commit pattern had crept in everywhere.
+    chips:
+      - label: orgs touched
+        value: "5"
+        color: default
+      - label: deariary
+        value: github-weekly-reporter
+        color: default
+      - label: bitflyer-tools
+        value: 3 repos
+        color: default
+highlights:
+  - type: pr
+    title: "chore(ci): use personal git identity for automated commits"
+    repo: unhappychoice/kobito
+    meta: merged Aug 2026 · +4 -4 · 1 file
+    body: The first of 13 identical PRs that reclaimed the contribution graph from bot-authored CI commits — a small change
+      with outsized impact on history attribution across the entire portfolio.
+    url: https://github.com/unhappychoice/kobito/pull/67
+  - type: pr
+    title: "chore(deps): Bump @mui/material from 9.2.0 to 9.3.1 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Aug 2026 · +37 -37 · 4 files
+    body: "This wasn't a rubber-stamp bump — MUI 9.3.1 introduced a roving tabindex behavior change that required a manual
+      snapshot update (`test: update snapshots for MUI 9.3.1 roving tabindex`), making it the most hands-on dependency
+      update of the week."
+    url: https://github.com/unhappychoice/mdts/pull/880
+  - type: pr
+    title: "chore(ci): use personal git identity for automated commits"
+    repo: deariary/github-weekly-reporter
+    meta: merged Aug 2026 · +2 -2 · 1 file
+    body: "Somewhat meta: the weekly reporter that generates this report now correctly attributes its own automated commits
+      to the actual author."
+    url: https://github.com/unhappychoice/kobito/pull/67
+  - type: pr
+    title: "build(deps-dev): Bump reline from 0.6.3 to 0.7.0"
+    repo: unhappychoice/terminal_image
+    meta: merged Aug 2026 · +2 -2 · 1 file
+    body: reline 0.7.0 landed across four Ruby repos this week (terminal_image, slack_channel_stats, irasutoya,
+      irasutoya-cli) in a coordinated wave — keeping the Ruby toolchain current across the board.
+    url: https://github.com/unhappychoice/terminal_image/pull/590
+ticker:
+  - label: BREAKING NEWS
+    text: "@unhappychoice storms 13 repos, forcibly evicting bot from git history"
+  - label: TUESDAY CARNAGE
+    text: "@unhappychoice detonates 206 commits in a single day. Markets rattled."
+  - label: IDENTITY CRISIS
+    text: "@unhappychoice discovers CI has been impersonating a robot for months. Not pleased."
+  - label: ROBOT EVICTED
+    text: "@unhappychoice replaces bot author with real name across entire portfolio. Dramatic."
+  - label: SNAPSHOT DRAMA
+    text: "@unhappychoice forced to manually update MUI snapshots after 9.3.1 changes tabindex. The audacity."
+  - label: SOMEWHAT META
+    text: "@unhappychoice fixes the weekly reporter's git identity. Report now credits itself correctly."
+  - label: 70 APPROVALS
+    text: "@unhappychoice rubber-stamps 70 PRs across 25 repos. Thumb reportedly exhausted."
+  - label: TREE-SITTER DRAMA
+    text: "@unhappychoice refactors lintric traversal for tree-sitter 0.26 iterator API. Witnesses shaken."
