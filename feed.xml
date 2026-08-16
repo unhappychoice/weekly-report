@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>CI git identity sweep across 13 repos in a single week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W33/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W33/</guid>
+      <description>A coordinated chore/git-identity-in-workflows rollout reclaimed the contribution graph from bot-authored commits, landing across every active project simultaneously.
+
+This week had a clear, singular mission: fix the CI commit authorship problem across the entire portfolio. Automated GitHub Actions commits had been landing under bot identities or inconsistent names, meaning the contribution graph wasn&apos;t reflecting real work. The fix was simple — swap in `Yuji Ueki &lt;unhappychoice@gmail.com&gt;` — but it needed to be applied everywhere, and &quot;everywhere&quot; turned out to be 13 repositories spanning personal projects, org tools, and side projects.
+
+Tuesday was the explosion point: 206 commits in a single day, which is where the bulk of the cross-repo sweep happened. The rest of the week maintained a remarkably steady cadence of 40–43 commits per day, with a second burst on Sunday (94 commits) as the tail end of the cleanup and dependency wave landed. The 70 reviews logged this week were almost entirely self-approvals on Dependabot and CI fix PRs — a necessary but mechanical part of maintaining a portfolio this wide.
+
+Alongside the identity sweep, Dependabot kept the dependency pipeline busy: reline 0.7.0 rolled out across Ruby projects, MUI bumped to 9.3.1 in mdts (requiring a snapshot update), and a scattering of Cargo, Gradle, and npm bumps landed across gittype, splashboard, lintric, and more. The lintric refactor to support tree-sitter 0.26&apos;s iterator API was the one genuinely technical commit in an otherwise infrastructure-heavy week.
+
+
+Commits: 300, PRs: 15, Reviews: 70</description>
+      <pubDate>Sun, 16 Aug 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W33/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W33/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency maintenance marathon across 15+ repos, plus gittype v0.10.2</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W32/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W32/</guid>
