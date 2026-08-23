@@ -1,0 +1,153 @@
+title: 264 commits of dependency triage and a blog post about engineering standards
+subtitle: A week dominated by Dependabot merges across 8+ repos, punctuated by a new article on what separates engineers
+  from task-executors.
+overview: >
+  This week was a full-on dependency maintenance sprint spread across a surprisingly wide surface area — Ruby, Rust,
+  Java, JavaScript, and Gradle all got attention across repos ranging from unhappychoice/mdts to circleci-tools/Norimaki
+  to bitflyer-tools/DroidFlyer. With 264 commits and 62 reviews logged, the rhythm was less about big feature work and
+  more about keeping the fleet of projects healthy and up-to-date. Monday was the clear burst day with 87 commits,
+  suggesting a backlog of Dependabot PRs got triaged in one focused session.
+
+
+  The most interesting non-dependency item this week was the blog post that landed in unhappychoice/blog: "全員 8 割が最低ライン
+  ― かなづち使えない棟梁問題" — an article arguing that what distinguishes engineers from task-executors isn't their domain
+  ownership but whether they can see a problem end-to-end. 151 lines of new writing in a single PR, which stands out as
+  the only genuinely original content creation in an otherwise maintenance-heavy week.
+
+
+  The splashboard repo also got some recurring automated love with two "sync llm pricing from LiteLLM" commits, keeping
+  its LLM cost data fresh. It's a quiet but useful signal that automated pipelines are running and being trusted. The
+  week closed with a steady cadence rather than a dramatic finish — 30 commits on Sunday, winding down from the Monday
+  peak.
+summaries:
+  - type: deep-dive
+    heading: A blog post worth more than a thousand dep bumps
+    body: "The standout moment this week wasn't a code change — it was the article ':+1: Add everyone 8 of 10 is the floor'
+      landing in unhappychoice/blog. At 151 lines, it argues that the line between engineer and task-executor is the
+      ability to see a problem from start to finish, not the scope of your job title. It's the kind of writing that
+      takes real thinking time, which makes it notable in a week otherwise dominated by automated PRs."
+    chips:
+      - label: repo
+        value: unhappychoice/blog
+        color: default
+      - label: lines added
+        value: "+151"
+        color: green
+      - label: files
+        value: "1"
+        color: default
+  - type: repo-summary
+    heading: Eight repos, one week, zero features — just hygiene
+    body: Activity spanned unhappychoice/mdts (7 PRs), slack_channel_stats (6), circleci-tools/Norimaki (6),
+      circleci-tools/circleci-cli (6), gittype (5), splashboard (5), blog (5), and bitflyer-tools/DroidFlyer (4). The
+      cross-language spread — Ruby, Rust, Java, JavaScript — reflects a broad portfolio being kept current rather than
+      any single project getting deep investment this week. It's the kind of week that doesn't feel glamorous but
+      prevents future pain.
+    chips:
+      - label: repos active
+        value: 8+
+        color: default
+      - label: total PRs
+        value: 20 merged
+        color: green
+      - label: languages
+        value: Ruby, Rust, Java, JS
+        color: default
+  - type: activity-pattern
+    heading: Monday burst, then a steady cruise
+    body: Monday opened with 87 commits — nearly a third of the week's total in a single day — which looks like a deliberate
+      Dependabot triage session to clear the queue. The rest of the week settled into a remarkably consistent 40-53
+      commits per day through Saturday, then tapered to 30 on Sunday. No dead days, no all-nighters; just a reliable
+      daily output that suggests good habits more than heroics.
+    chips:
+      - label: peak
+        value: Mon 87
+        color: green
+      - label: low
+        value: Sun 30
+        color: default
+      - label: total commits
+        value: "264"
+        color: default
+      - label: daily avg
+        value: ~38
+        color: default
+  - type: review-summary
+    heading: "62 approvals: the invisible glue holding the dep pipeline together"
+    body: All 62 reviews this week came back as approvals, spread across unhappychoice/gittype, circleci-tools/circleci-cli,
+      slack_channel_stats, Norimaki, blog, and splashboard. This is the review work that makes automated dependency
+      updates actually land — someone has to eyeball the diffs and confirm nothing blew up. It's not glamorous, but 62
+      approvals across that many repos in a week is a real time commitment.
+    chips:
+      - label: reviews
+        value: "62"
+        color: default
+      - label: outcome
+        value: all approved
+        color: green
+      - label: repos covered
+        value: "6"
+        color: default
+  - type: automation
+    heading: splashboard's LLM pricing pipeline keeps ticking
+    body: "Two separate 'chore: sync llm pricing from LiteLLM' commits landed in unhappychoice/splashboard this week, adding
+      35 lines of updated pricing data across two runs. The PR template even includes a review checklist: verify no
+      order-of-magnitude jumps, confirm no models silently disappeared. It's a small but well-thought-out automated
+      workflow that keeps LLM cost tracking honest without manual effort."
+    chips:
+      - label: repo
+        value: unhappychoice/splashboard
+        color: default
+      - label: runs
+        value: 2 syncs
+        color: default
+      - label: lines added
+        value: "+35"
+        color: green
+highlights:
+  - type: pr
+    title: ":+1: Add 'everyone 8 of 10 is the floor' article"
+    repo: unhappychoice/blog
+    meta: merged Aug 2026 · +151 -0 · 1 file
+    body: "The week's most original contribution: a 151-line article arguing that engineering identity is about end-to-end
+      problem ownership, not job scope. A rare piece of real writing in an otherwise dependency-heavy week."
+    url: https://github.com/unhappychoice/blog/pull/740
+  - type: pr
+    title: "chore: sync llm pricing from LiteLLM"
+    repo: unhappychoice/splashboard
+    meta: merged Aug 2026 · +23 -0 · 1 file
+    body: The automated LLM pricing pipeline fired twice this week, keeping splashboard's cost data current. The built-in
+      review checklist — watching for silent model disappearances and price jumps — shows real care in the automation
+      design.
+    url: https://github.com/unhappychoice/splashboard/pull/321
+  - type: pr
+    title: "chore(deps-dev): Bump eslint-plugin-jest from 29.16.0 to 29.16.1 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Aug 2026 · +5 -230 · 2 files
+    body: A dependency bump that actually deleted 225 net lines — the kind of update worth paying attention to, since it
+      suggests the new version cleaned up some bundled or generated content.
+    url: https://github.com/unhappychoice/mdts/pull/892
+  - type: pr
+    title: "chore(deps): Bump open from 11.0.0 to 11.0.1"
+    repo: unhappychoice/mdts
+    meta: merged Aug 2026 · +26 -239 · 1 file
+    body: Another net-negative line count from a dep bump in mdts — open 11.0.1 fixed a WSL failure and shed 213 lines in
+      the process, a welcome shrink to the lockfile.
+    url: https://github.com/unhappychoice/mdts/pull/891
+ticker:
+  - label: MONDAY MAYHEM
+    text: "@unhappychoice detonates 87 commits in a single day. Dependabot trembles."
+  - label: WORDS MATTER
+    text: "@unhappychoice publishes 151-line manifesto on who counts as an engineer"
+  - label: RUBBER STAMP
+    text: "@unhappychoice approves 62 PRs in one week. Wrist reportedly still attached."
+  - label: ROBOT ALLY
+    text: "@unhappychoice lets LiteLLM pipeline sync pricing twice. Trusts the machine."
+  - label: MULTILINGUAL
+    text: "@unhappychoice wrangles Ruby, Rust, Java, and JS deps in a single week. Unhinged."
+  - label: NET NEGATIVE
+    text: "@unhappychoice merges dep bump that deletes 213 lines. Somehow a win."
+  - label: FLEET ADMIRAL
+    text: "@unhappychoice patrols 8 repos in 7 days. No dependency left behind."
+  - label: STEADY HANDS
+    text: "@unhappychoice posts 40-53 commits daily for 5 straight days. Metronome energy."
