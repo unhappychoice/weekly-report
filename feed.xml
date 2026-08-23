@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>264 commits of dependency triage and a blog post about engineering standards</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W34/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W34/</guid>
+      <description>A week dominated by Dependabot merges across 8+ repos, punctuated by a new article on what separates engineers from task-executors.
+
+This week was a full-on dependency maintenance sprint spread across a surprisingly wide surface area — Ruby, Rust, Java, JavaScript, and Gradle all got attention across repos ranging from unhappychoice/mdts to circleci-tools/Norimaki to bitflyer-tools/DroidFlyer. With 264 commits and 62 reviews logged, the rhythm was less about big feature work and more about keeping the fleet of projects healthy and up-to-date. Monday was the clear burst day with 87 commits, suggesting a backlog of Dependabot PRs got triaged in one focused session.
+
+The most interesting non-dependency item this week was the blog post that landed in unhappychoice/blog: &quot;全員 8 割が最低ライン ― かなづち使えない棟梁問題&quot; — an article arguing that what distinguishes engineers from task-executors isn&apos;t their domain ownership but whether they can see a problem end-to-end. 151 lines of new writing in a single PR, which stands out as the only genuinely original content creation in an otherwise maintenance-heavy week.
+
+The splashboard repo also got some recurring automated love with two &quot;sync llm pricing from LiteLLM&quot; commits, keeping its LLM cost data fresh. It&apos;s a quiet but useful signal that automated pipelines are running and being trusted. The week closed with a steady cadence rather than a dramatic finish — 30 commits on Sunday, winding down from the Monday peak.
+
+
+Commits: 264, PRs: 1, Reviews: 62</description>
+      <pubDate>Sun, 23 Aug 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W34/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W34/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>CI git identity sweep across 13 repos in a single week</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W33/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W33/</guid>
