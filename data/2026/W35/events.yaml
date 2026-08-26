@@ -371,3 +371,685 @@
     kind: push
     ref: refs/heads/gh-pages
     commits: []
+- id: "18965153879"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T14:40:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18955062471"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:18:05Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18954387776"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:01:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18954190590"
+  type: DeleteEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:59:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18953407092"
+  type: DeleteEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:52:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18953405908"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:52:10Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "18952118783"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-08-26T04:38:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18952106001"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:38:49Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "18952087810"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-08-26T04:38:37Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "18949740415"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-08-26T04:38:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13873562791"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:22:03Z
+  payload:
+    kind: generic
+    action: created
+- id: "13873553454"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:21:47Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 303
+    title: ""
+- id: "18918056820"
+  type: CreateEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:21:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13873432317"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:18:08Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 302
+    title: ""
+- id: "13873139405"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:09:27Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 301
+    title: ""
+- id: "18916756713"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T05:05:15Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18916755746"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T05:05:15Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13872883778"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:01:39Z
+  payload:
+    kind: generic
+    action: created
+- id: "13872875921"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T05:01:25Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 300
+    title: ""
+- id: "13872722364"
+  type: IssueCommentEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:56:30Z
+  payload:
+    kind: generic
+    action: created
+- id: "13872721057"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:56:27Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 466
+    title: ""
+- id: "18916047279"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:56:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18916046518"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:56:28Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "13872586533"
+  type: IssueCommentEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:52:16Z
+  payload:
+    kind: generic
+    action: created
+- id: "13872583998"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:12Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 299
+    title: "Repo hygiene: unnecessary dummy workspace package, unused workspace.dependencies, broken doc links, stale docs"
+- id: "13872583911"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:12Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 299
+    title: "Repo hygiene: unnecessary dummy workspace package, unused workspace.dependencies, broken doc links, stale docs"
+- id: "13872583821"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:11Z
+  payload:
+    kind: issues
+    action: opened
+    number: 299
+    title: "Repo hygiene: unnecessary dummy workspace package, unused workspace.dependencies, broken doc links, stale docs"
+- id: "13872583252"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:52:09Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 540
+    title: ""
+- id: "13872582985"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:10Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 298
+    title: "CI fixes: dead rust matrix, clippy without --all-targets, no github-actions dependabot, no audit cron, no
+      coverage gate"
+- id: "13872582868"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:10Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 298
+    title: "CI fixes: dead rust matrix, clippy without --all-targets, no github-actions dependabot, no audit cron, no
+      coverage gate"
+- id: "13872582799"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:10Z
+  payload:
+    kind: issues
+    action: opened
+    number: 298
+    title: "CI fixes: dead rust matrix, clippy without --all-targets, no github-actions dependabot, no audit cron, no
+      coverage gate"
+- id: "13872581987"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:08Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 297
+    title: "Generated test suite: no regeneration check in CI, hand-maintained coverage numbers, ~60% of named node kinds
+      excluded"
+- id: "13872581873"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:08Z
+  payload:
+    kind: issues
+    action: opened
+    number: 297
+    title: "Generated test suite: no regeneration check in CI, hand-maintained coverage numbers, ~60% of named node kinds
+      excluded"
+- id: "13872581341"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:07Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 296
+    title: "CLI test coverage: error paths, exit codes, and --html are entirely untested"
+- id: "13872581293"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:07Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 296
+    title: "CLI test coverage: error paths, exit codes, and --html are entirely untested"
+- id: "13872581231"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:07Z
+  payload:
+    kind: issues
+    action: opened
+    number: 296
+    title: "CLI test coverage: error paths, exit codes, and --html are entirely untested"
+- id: "13872580051"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:05Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 295
+    title: Deduplicate resolver scaffolding shared verbatim between Rust and TypeScript; trim the public API surface
+- id: "13872579989"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:04Z
+  payload:
+    kind: issues
+    action: opened
+    number: 295
+    title: Deduplicate resolver scaffolding shared verbatim between Rust and TypeScript; trim the public API surface
+- id: "13872579299"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:03Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 294
+    title: Replace Result<_, String> with a typed error enum; remove panics/unwraps from library paths
+- id: "13872579187"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:03Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 294
+    title: Replace Result<_, String> with a typed error enum; remove panics/unwraps from library paths
+- id: "13872579106"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:03Z
+  payload:
+    kind: issues
+    action: opened
+    number: 294
+    title: Replace Result<_, String> with a typed error enum; remove panics/unwraps from library paths
+- id: "13872578179"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:01Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 293
+    title: ~28% of core src is unreachable from the analysis pipeline, pinned by ~23% of the test suite
+- id: "13872578101"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:52:01Z
+  payload:
+    kind: issues
+    action: opened
+    number: 293
+    title: ~28% of core src is unreachable from the analysis pipeline, pinned by ~23% of the test suite
+- id: "13872572073"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:50Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 292
+    title: "Hot-path allocations and rescans: stringly-typed Usage.context, double content clones, subtree-DFS ancestry
+      checks"
+- id: "13872571966"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:50Z
+  payload:
+    kind: issues
+    action: opened
+    number: 292
+    title: "Hot-path allocations and rescans: stringly-typed Usage.context, double content clones, subtree-DFS ancestry
+      checks"
+- id: "13872571281"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:48Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 291
+    title: Tree-sitter queries are recompiled from source on every analysis
+- id: "13872571199"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:48Z
+  payload:
+    kind: issues
+    action: opened
+    number: 291
+    title: Tree-sitter queries are recompiled from source on every analysis
+- id: "13872570116"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:46Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 290
+    title: calculate_metrics is quadratic in file length and discards its own memoization
+- id: "13872570054"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:46Z
+  payload:
+    kind: issues
+    action: opened
+    number: 290
+    title: calculate_metrics is quadratic in file length and discards its own memoization
+- id: "13872569465"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:45Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 289
+    title: Remove test-shaped magic constants from resolution logic ("MyStruct", line-distance < 20, fn main special-case)
+- id: "13872569362"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:45Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 289
+    title: Remove test-shaped magic constants from resolution logic ("MyStruct", line-distance < 20, fn main special-case)
+- id: "13872569296"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:44Z
+  payload:
+    kind: issues
+    action: opened
+    number: 289
+    title: Remove test-shaped magic constants from resolution logic ("MyStruct", line-distance < 20, fn main special-case)
+- id: "13872568967"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:44Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 288
+    title: is_hoisted and accessibility are computed then unconditionally overwritten; TS var-hoisting detection can never
+      fire
+- id: "13872568863"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:44Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 288
+    title: is_hoisted and accessibility are computed then unconditionally overwritten; TS var-hoisting detection can never
+      fire
+- id: "13872568805"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:43Z
+  payload:
+    kind: issues
+    action: opened
+    number: 288
+    title: is_hoisted and accessibility are computed then unconditionally overwritten; TS var-hoisting detection can never
+      fire
+- id: "13872563011"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:32Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 287
+    title: Add LICENSE file and crate publishing metadata
+- id: "13872562902"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:32Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 287
+    title: Add LICENSE file and crate publishing metadata
+- id: "13872562815"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:32Z
+  payload:
+    kind: issues
+    action: opened
+    number: 287
+    title: Add LICENSE file and crate publishing metadata
+- id: "13872562250"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 286
+    title: "HTML report: complexity color-coding never applies, wrong value fed to thresholds, filename collisions"
+- id: "13872562134"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:31Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 286
+    title: "HTML report: complexity color-coding never applies, wrong value fed to thresholds, filename collisions"
+- id: "13872562020"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:31Z
+  payload:
+    kind: issues
+    action: opened
+    number: 286
+    title: "HTML report: complexity color-coding never applies, wrong value fed to thresholds, filename collisions"
+- id: "13872561394"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 285
+    title: CLI always exits 0, even when analysis fails
+- id: "13872561384"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 285
+    title: CLI always exits 0, even when analysis fails
+- id: "13872561252"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:29Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 285
+    title: CLI always exits 0, even when analysis fails
+- id: "13872561172"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:29Z
+  payload:
+    kind: issues
+    action: opened
+    number: 285
+    title: CLI always exits 0, even when analysis fails
+- id: "13872560422"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:28Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 284
+    title: Release workflow archives a binary that is never built — release artifacts are broken
+- id: "13872560302"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:27Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 284
+    title: Release workflow archives a binary that is never built — release artifacts are broken
+- id: "13872560222"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-08-26T04:51:27Z
+  payload:
+    kind: issues
+    action: opened
+    number: 284
+    title: Release workflow archives a binary that is never built — release artifacts are broken
+- id: "13872530697"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:50:28Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 466
+    title: ""
+- id: "18915553729"
+  type: CreateEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:50:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "13872343319"
+  type: IssueCommentEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-08-26T04:44:33Z
+  payload:
+    kind: generic
+    action: created
+- id: "13872340849"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:44:29Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 540
+    title: ""
+- id: "18915067361"
+  type: CreateEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:44:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18914636388"
+  type: DeleteEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-08-26T04:38:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18914635265"
+  type: PushEvent
+  repo: unhappychoice/RxSnackbar
+  createdAt: 2026-08-26T04:38:53Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "18914625096"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-08-26T04:38:45Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "18914620580"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-08-26T04:38:41Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "18914605238"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-08-26T04:38:30Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "18914600799"
+  type: DeleteEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-08-26T04:38:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "18914600224"
+  type: PushEvent
+  repo: unhappychoice/gittype
+  createdAt: 2026-08-26T04:38:26Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
