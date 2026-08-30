@@ -1,0 +1,180 @@
+title: lintric gets a real CLI overhaul while Dependabot sweeps the fleet
+subtitle: Four open PRs fixing lintric's HTML output, exit codes, release pipeline, and crate metadata — plus 217
+  commits merging dependency updates across 20+ repos.
+overview: >
+  This week split neatly into two very different modes of work. The bulk of the commit volume — 217 commits spread
+  across every single day — came from Dependabot wrangling: merging Ruby, JavaScript, Rust, and Java dependency bumps
+  across a sprawling fleet of repos ranging from circleci-tools/circleci-cli to bitflyer-tools/DroidFlyer to
+  deariary/github-weekly-reporter. It's the kind of invisible maintenance work that keeps everything from quietly
+  rotting, and this week it happened at scale.
+
+
+  The more interesting story is lintric. I opened four substantive PRs there that collectively address a cluster of bugs
+  that made the tool genuinely unusable in practice: HTML complexity colouring that never actually applied, a CLI that
+  always exited 0 even on hard errors, a release workflow that archived a binary path that didn't exist, and missing
+  crate metadata that left `lintric --help` with a blank description. These aren't cosmetic — they're the difference
+  between a tool that works and one that just looks like it does. Meanwhile, gitlogue shipped v0.11.0 with Godot file
+  syntax highlighting, contributed by an external collaborator.
+
+
+  The review queue was heavy too — 41 reviews across the week, with mdts getting the most attention by far, including a
+  back-and-forth with change requests. Sunday closed out with a remarkable 213 commits, suggesting a big merge-queue
+  flush to end the week.
+summaries:
+  - type: deep-dive
+    heading: "lintric: four bugs that made the tool non-functional"
+    body: I opened four PRs against lintric this week that together address a pretty embarrassing cluster of defects. The
+      HTML report's complexity colouring never applied because the CSS selector was compound and never matched; the CLI
+      exited 0 on every error including unreadable paths; the release workflow tar'd a binary path that didn't exist
+      because no crate declared a `[[bin]]`; and `lintric --help` rendered with an empty description because crate
+      metadata was missing from Cargo.toml. Each bug was independently annoying, but together they made the tool look
+      broken end-to-end. Getting these fixed is the prerequisite for any real release.
+    chips:
+      - label: open PRs
+        value: "4"
+        color: default
+      - label: lines changed
+        value: +473 -201
+        color: default
+      - label: files touched
+        value: "16"
+        color: default
+  - type: repo-summary
+    heading: 20+ repos touched, Dependabot doing the heavy lifting
+    body: "The week's commit log reads like a tour of the entire portfolio: Ruby gems bumped in circleci-cli and
+      slack_channel_stats, Gradle wrapper updated in DroidFlyer, RxSnackbar, and color-hash.kt, Electron bumped in
+      cycle-flyer, Rust crates updated in steamfetch, splashboard, and lintric, and a batch of 8 JS packages merged in
+      github-weekly-reporter. mdts led the repo activity table with 9 PRs, followed by lintric at 8. This kind of
+      dependency hygiene across 20+ repos doesn't happen by accident — it takes consistent review throughput to keep the
+      queue from piling up."
+    chips:
+      - label: repos active
+        value: 20+
+        color: default
+      - label: top repo
+        value: mdts (9 PRs)
+        color: default
+      - label: languages
+        value: Ruby, JS, Rust, Java
+        color: default
+  - type: review-summary
+    heading: 41 reviews, mdts getting the most scrutiny
+    body: I posted 41 reviews this week, and mdts dominated — it received multiple rounds including two changes_requested
+      verdicts and a string of comment threads, suggesting some real back-and-forth rather than rubber-stamping. The
+      rest of the review activity was mostly approvals on Dependabot PRs across the fleet, which is the right call when
+      the diffs are a lockfile line or two. gitlogue and gittype also got review attention, with gittype picking up
+      comment and created-review events that suggest active discussion.
+    chips:
+      - label: total reviews
+        value: "41"
+        color: default
+      - label: changes requested
+        value: "2"
+        color: default
+      - label: hottest repo
+        value: mdts
+        color: default
+  - type: activity-pattern
+    heading: Steady all week, then Sunday explodes with 213 commits
+    body: "Commit activity was remarkably consistent Monday through Saturday — ranging from 31 to 80 commits per day with no
+      true rest day. Then Sunday hit with 213 commits, nearly triple any other day. That's almost certainly a large
+      merge-queue flush or a rebase cascade rather than 213 individual pieces of work, but it's a striking end to an
+      already high-volume week. Total for the period: 217 commits, which means Sunday alone accounted for roughly 98% of
+      the week's output by count."
+    chips:
+      - label: peak day
+        value: Sun 213
+        color: green
+      - label: quietest day
+        value: Thu 31
+        color: default
+      - label: total commits
+        value: "217"
+        color: default
+  - type: release
+    heading: gitlogue v0.11.0 ships Godot syntax highlighting
+    body: gitlogue tagged v0.11.0 this week, the headline feature being Godot file highlighting contributed by an external
+      collaborator (merged from Flesymeb/feature/godot-syntax-highlighting). I handled the release mechanics — bumping
+      the version, updating flake.nix hashes, refreshing the supported language docs, and fixing the nixpkgs pin so
+      crate downloads worked again. It's a small release but it's the kind of thing that matters to the niche of
+      developers using gitlogue for GDScript projects.
+    chips:
+      - label: release
+        value: v0.11.0
+        color: green
+      - label: repo
+        value: gitlogue
+        color: default
+      - label: external contributor
+        value: Flesymeb
+        color: default
+  - type: contribution-summary
+    heading: "Cross-org contributions: circleci-tools and bitflyer-tools"
+    body: A meaningful chunk of this week's activity happened outside my own repos. I merged dependency PRs into
+      circleci-tools/circleci-cli (async-http, io-endpoint, protocol-http1), circleci-tools/CircleCI (gradle-wrapper),
+      and bitflyer-tools/cycle-flyer and DroidFlyer. The circleci-tools/Norimaki repo also got a CI memory headroom
+      bump. Maintaining these org repos in parallel with personal projects is a recurring pattern — the review queue
+      spans multiple GitHub orgs.
+    chips:
+      - label: external orgs
+        value: "3"
+        color: default
+      - label: circleci-tools PRs
+        value: "4"
+        color: default
+      - label: bitflyer-tools PRs
+        value: "4"
+        color: default
+highlights:
+  - type: pr
+    title: "fix(cli): repair complexity colouring, report file names and paths in HTML output"
+    repo: unhappychoice/lintric
+    meta: opened Aug 2026 · +157 -55 · 4 files
+    body: The HTML report's main feature — colour-coded complexity — had never actually worked because of a compound CSS
+      selector mismatch. This PR fixes that along with missing file names and paths in the output, making the report
+      genuinely useful for the first time.
+    url: https://github.com/unhappychoice/lintric/pull/302
+  - type: pr
+    title: "fix(cli): exit non-zero when analysis reports an error"
+    repo: unhappychoice/lintric
+    meta: opened Aug 2026 · +270 -136 · 5 files
+    body: lintric was silently exiting 0 on every error — unreadable paths, failed analysis, write errors — making it
+      impossible to use reliably in CI. This is the fix that makes the tool actually trustworthy in automated pipelines.
+    url: https://github.com/unhappychoice/lintric/pull/301
+  - type: release
+    title: Release v0.11.0
+    repo: unhappychoice/gitlogue
+    meta: released Aug 2026
+    body: Shipped Godot file syntax highlighting contributed by an external collaborator, alongside a nixpkgs fix that
+      unblocked crate downloads. A clean community-contribution release.
+  - type: pr
+    title: "fix: repair the release workflow's binary name and packaging"
+    repo: unhappychoice/lintric
+    meta: opened Aug 2026 · +17 -2 · 2 files
+    body: The release workflow was archiving a binary path that never existed because no crate declared a `[[bin]]` —
+      meaning no published release would have ever worked. Caught and fixed before any v* tag was pushed.
+    url: https://github.com/unhappychoice/lintric/pull/300
+  - type: pr
+    title: "chore(deps): bump the minor-and-patch group with 8 updates"
+    repo: deariary/github-weekly-reporter
+    meta: merged Aug 2026 · +279 -345 · 2 files
+    body: The week's largest single diff by line count, bumping 8 JS packages including the Anthropic SDK from 0.116.0 to
+      0.119.0. The net negative line count is a good sign — newer SDK, less lockfile bloat.
+    url: https://github.com/deariary/github-weekly-reporter/pull/154
+ticker:
+  - label: MASS MERGE EVENT
+    text: "@unhappychoice detonates 213 commits on a Sunday. Analysts shaken."
+  - label: FLEET WIDE ALERT
+    text: "@unhappychoice updates deps across 20+ repos. No crate left behind."
+  - label: TOOL IS BROKEN
+    text: "@unhappychoice discovers lintric HTML report never worked. Ever. Not once."
+  - label: EXIT CODE CRISIS
+    text: "@unhappychoice finds lintric exits 0 on every error. Fixes it. CI saved."
+  - label: HISTORIC MERGE
+    text: "@unhappychoice ships gitlogue v0.11.0 with Godot syntax highlighting"
+  - label: 41 REVIEWS
+    text: "@unhappychoice blankets mdts in review comments. Changes requested. Twice."
+  - label: GHOST BINARY
+    text: "@unhappychoice finds release workflow archiving a path that never existed"
+  - label: SPLASHBOARD LIVE
+    text: "@unhappychoice syncs LLM pricing from LiteLLM. The dashboard knows all."
