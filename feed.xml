@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>lintric gets a real CLI overhaul while Dependabot sweeps the fleet</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W35/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W35/</guid>
+      <description>Four open PRs fixing lintric&apos;s HTML output, exit codes, release pipeline, and crate metadata — plus 217 commits merging dependency updates across 20+ repos.
+
+This week split neatly into two very different modes of work. The bulk of the commit volume — 217 commits spread across every single day — came from Dependabot wrangling: merging Ruby, JavaScript, Rust, and Java dependency bumps across a sprawling fleet of repos ranging from circleci-tools/circleci-cli to bitflyer-tools/DroidFlyer to deariary/github-weekly-reporter. It&apos;s the kind of invisible maintenance work that keeps everything from quietly rotting, and this week it happened at scale.
+
+The more interesting story is lintric. I opened four substantive PRs there that collectively address a cluster of bugs that made the tool genuinely unusable in practice: HTML complexity colouring that never actually applied, a CLI that always exited 0 even on hard errors, a release workflow that archived a binary path that didn&apos;t exist, and missing crate metadata that left `lintric --help` with a blank description. These aren&apos;t cosmetic — they&apos;re the difference between a tool that works and one that just looks like it does. Meanwhile, gitlogue shipped v0.11.0 with Godot file syntax highlighting, contributed by an external collaborator.
+
+The review queue was heavy too — 41 reviews across the week, with mdts getting the most attention by far, including a back-and-forth with change requests. Sunday closed out with a remarkable 213 commits, suggesting a big merge-queue flush to end the week.
+
+
+Commits: 217, PRs: 9, Reviews: 41</description>
+      <pubDate>Sun, 30 Aug 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W35/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W35/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>264 commits of dependency triage and a blog post about engineering standards</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W34/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W34/</guid>
