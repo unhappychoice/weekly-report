@@ -696,3 +696,57 @@
     prNumber: 176
     prTitle: ""
     state: approved
+- id: "14465174420"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-05T00:02:25Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 311
+    title: "[CI Failure] unhappychoice/gittype"
+- id: "14465174416"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-05T00:02:24Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 310
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "14465174338"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-05T00:02:24Z
+  payload:
+    kind: issues
+    action: opened
+    number: 310
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "14465174286"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-05T00:02:24Z
+  payload:
+    kind: issues
+    action: opened
+    number: 311
+    title: "[CI Failure] unhappychoice/gittype"
+- id: "14465174047"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-05T00:02:24Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 309
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "14465173912"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-05T00:02:24Z
+  payload:
+    kind: issues
+    action: opened
+    number: 309
+    title: "[CI Failure] circleci-tools/Norimaki"
