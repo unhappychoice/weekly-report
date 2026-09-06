@@ -1,0 +1,2249 @@
+username: unhappychoice
+avatarUrl: https://avatars.githubusercontent.com/u/5608948?u=6ca2fca8320cb6be5b802f6c5a6359933754ab2e&v=4
+profile:
+  name: Yuji Ueki
+  bio: "\r\n    ＼ Software Engineer ／\r\n\r\n"
+  company: null
+  location: Tokyo, Japan
+  followers: 3683
+  following: 10999
+  publicRepos: 65
+dateRange:
+  from: 2026-08-31
+  to: 2026-09-06
+stats:
+  totalCommits: 210
+  totalAdditions: 9094
+  totalDeletions: 7630
+  prsOpened: 5
+  prsMerged: 5
+  prsReviewed: 63
+  issuesOpened: 0
+  issuesClosed: 0
+dailyCommits:
+  - date: 2026-08-31
+    count: 120
+  - date: 2026-09-01
+    count: 46
+  - date: 2026-09-02
+    count: 106
+  - date: 2026-09-03
+    count: 56
+  - date: 2026-09-04
+    count: 70
+  - date: 2026-09-05
+    count: 28
+  - date: 2026-09-06
+    count: 38
+repositories:
+  - name: unhappychoice/mdts
+    commits: 0
+    prsOpened: 25
+    prsMerged: 23
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/mdts
+  - name: unhappychoice/splashboard
+    commits: 0
+    prsOpened: 7
+    prsMerged: 7
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/splashboard
+  - name: bitflyer-tools/cycle-flyer
+    commits: 0
+    prsOpened: 7
+    prsMerged: 7
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/cycle-flyer
+  - name: circleci-tools/circleci-cli
+    commits: 0
+    prsOpened: 6
+    prsMerged: 6
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/circleci-cli
+  - name: unhappychoice/gittype
+    commits: 0
+    prsOpened: 5
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gittype
+  - name: unhappychoice/slack_channel_stats
+    commits: 0
+    prsOpened: 4
+    prsMerged: 4
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/slack_channel_stats
+  - name: unhappychoice/gitlogue
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/gitlogue
+  - name: unhappychoice/blog
+    commits: 0
+    prsOpened: 3
+    prsMerged: 3
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/blog
+  - name: deariary/github-weekly-reporter
+    commits: 0
+    prsOpened: 2
+    prsMerged: 2
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/deariary/github-weekly-reporter
+  - name: unhappychoice/oss-issue-opener
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/oss-issue-opener
+  - name: circleci-tools/Norimaki
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/circleci-tools/Norimaki
+  - name: unhappychoice/zenn-docs
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/zenn-docs
+  - name: bitflyer-tools/DroidFlyer
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/bitflyer-tools/DroidFlyer
+  - name: unhappychoice/cycle-pusher
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/cycle-pusher
+  - name: unhappychoice/lintric
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/lintric
+  - name: unhappychoice/RxSnackbar
+    commits: 0
+    prsOpened: 1
+    prsMerged: 1
+    issuesOpened: 0
+    issuesClosed: 0
+    url: https://github.com/unhappychoice/RxSnackbar
+pullRequests:
+  - title: "chore(deps): Bump mermaid from 11.17.1 to 11.17.2 in /packages/frontend"
+    body: |-
+      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.17.1 to 11.17.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
+      <blockquote>
+      <h2>mermaid@11.17.2</h2>
+      <h3>Patch Changes</h3>
+      <ul>
+      <...
+    url: https://github.com/unhappychoice/mdts/pull/915
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 230
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-31T07:45:50Z
+    mergedAt: 2026-09-02T14:46:14Z
+  - title: "chore(deps-dev): Bump eslint-plugin-jest from 29.16.1 to 29.16.5 in /packages/frontend"
+    body: >-
+      Bumps [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) from 29.16.1 to 29.16.5.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/jest-community/eslint-plugin-jest/releases">eslint-plugin-jest's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h...
+    url: https://github.com/unhappychoice/mdts/pull/913
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 230
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-31T07:45:23Z
+    mergedAt: 2026-09-02T14:46:09Z
+  - title: "chore(deps): Bump open from 11.0.1 to 11.0.2"
+    body: |-
+      Bumps [open](https://github.com/sindresorhus/open) from 11.0.1 to 11.0.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/sindresorhus/open/releases">open's releases</a>.</em></p>
+      <blockquote>
+      <h2>v11.0.2</h2>
+      <ul>
+      <li>Update dependencies 6f006ad</li>
+      </ul>...
+    url: https://github.com/unhappychoice/mdts/pull/918
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 11
+    deletions: 236
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-02T07:43:21Z
+    mergedAt: 2026-09-02T14:46:26Z
+  - title: "chore(deps-dev): Bump jest-util from 30.4.1 to 30.5.0"
+    body: |-
+      Bumps [jest-util](https://github.com/jestjs/jest/tree/HEAD/packages/jest-util) from 30.4.1 to 30.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest-util's releases</a>.</em></p>
+      <blockquote>
+      <h2>v30.5.0</h2>
+      <p>On a personal not...
+    url: https://github.com/unhappychoice/mdts/pull/917
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 925
+    deletions: 290
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-01T07:44:17Z
+    mergedAt: 2026-09-02T14:46:20Z
+  - title: "chore(deps): bump async from 2.44.1 to 2.45.1"
+    body: |-
+      Bumps [async](https://github.com/socketry/async) from 2.44.1 to 2.45.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async/releases">async's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.45.1</h2>
+      <ul>
+      <li>Fixed <code>Scheduler#io_wait</code> retur...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1082
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:04:40Z
+    mergedAt: 2026-09-02T14:46:09Z
+  - title: "chore(deps-dev): Bump axios from 1.19.0 to 1.20.0"
+    body: |-
+      Bumps [axios](https://github.com/axios/axios) from 1.19.0 to 1.20.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/axios/axios/releases">axios's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.20.0 — August 19, 2026</h2>
+      <p>This release hardens runtime option ...
+    url: https://github.com/unhappychoice/mdts/pull/912
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 228
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T07:45:11Z
+    mergedAt: 2026-09-02T14:46:04Z
+  - title: "chore(deps-dev): bump async-http-faraday from 0.22.2 to 0.23.0"
+    body: |-
+      Bumps [async-http-faraday](https://github.com/socketry/async-http) from 0.22.2 to 0.23.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/socketry/async-http/commit/587522cbbdefd9bbf7a154994d7d09607c7fb7cc"><code>587522c</code></a> Bump version.</li>
+      <li><a href="https://gi...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/175
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 5
+    deletions: 5
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:09:10Z
+    mergedAt: 2026-09-02T14:46:10Z
+  - title: "chore(deps): bump io-event from 1.19.5 to 1.21.1"
+    body: |-
+      Bumps [io-event](https://github.com/socketry/io-event) from 1.19.5 to 1.21.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/io-event/releases">io-event's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.21.1</h2>
+      <ul>
+      <li>Fix the <code>URing</code> com...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1081
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:04:33Z
+    mergedAt: 2026-09-02T14:46:04Z
+  - title: "chore(deps)(deps): bump tui-big-text from 0.8.8 to 0.8.9"
+    body: >-
+      Bumps [tui-big-text](https://github.com/ratatui/tui-widgets) from 0.8.8 to 0.8.9.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/ratatui/tui-widgets/releases">tui-big-text's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>tui-big-text-v0.8.9</h2>
+
+      <h3>🐛 Bug Fixes<...
+    url: https://github.com/unhappychoice/splashboard/pull/325
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-30T14:02:49Z
+    mergedAt: 2026-09-02T14:46:04Z
+  - title: "chore(deps-dev): bump io-event from 1.19.5 to 1.21.1"
+    body: |-
+      Bumps [io-event](https://github.com/socketry/io-event) from 1.19.5 to 1.21.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/io-event/releases">io-event's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.21.1</h2>
+      <ul>
+      <li>Fix the <code>URing</code> com...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/174
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:08:30Z
+    mergedAt: 2026-09-02T14:46:04Z
+  - title: "chore(deps)(deps): bump gix from 0.86.0 to 0.87.1"
+    body: |-
+      Bumps [gix](https://github.com/GitoxideLabs/gitoxide) from 0.86.0 to 0.87.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/GitoxideLabs/gitoxide/releases">gix's releases</a>.</em></p>
+      <blockquote>
+      <h2>gix v0.87.1</h2>
+      <h3>New Features</h3>
+      <ul>
+      <li>
+      <p>ad...
+    url: https://github.com/unhappychoice/splashboard/pull/324
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 116
+    deletions: 106
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-30T14:02:37Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "chore(deps-dev): bump @types/node from 26.3.0 to 26.4.0"
+    body: >-
+      Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 26.3.0 to
+      26.4.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li>See full diff in <a href="https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node">compare
+      view</a></li>
+
+      </ul>
+
+      </detail...
+    url: https://github.com/unhappychoice/oss-issue-opener/pull/308
+    repository: unhappychoice/oss-issue-opener
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:07:29Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "chore(deps): bump chrono-english from 0.2.0 to 0.2.1"
+    body: |-
+      Bumps [chrono-english](https://github.com/stevedonovan/chrono-english) from 0.2.0 to 0.2.1.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li>See full diff in <a href="https://github.com/stevedonovan/chrono-english/commits/v0.2.1">compare view</a></li>
+      </ul>
+      </details>
+      <br />
+
+      [![Dependabot compatibilit...
+    url: https://github.com/unhappychoice/gitlogue/pull/235
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T02:25:02Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "build(deps): bump com.android.application from 9.3.2 to 9.4.0"
+    body: |-
+      Bumps com.android.application from 9.3.2 to 9.4.0.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=com.android.application&package-manager=gradle&previous-version=9.3.2&new-version=9.4.0)](https://docs.github.com/en/github/managi...
+    url: https://github.com/circleci-tools/Norimaki/pull/467
+    repository: circleci-tools/Norimaki
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-02T03:03:19Z
+    mergedAt: 2026-09-02T14:45:59Z
+  - title: "chore(deps-dev): bump zenn-cli from 0.5.2 to 0.5.3"
+    body: |-
+      Bumps [zenn-cli](https://github.com/zenn-dev/zenn-editor/tree/HEAD/packages/zenn-cli) from 0.5.2 to 0.5.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/zenn-dev/zenn-editor/releases">zenn-cli's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.5.3</h2>
+      <ul>
+      <li>...
+    url: https://github.com/unhappychoice/zenn-docs/pull/10
+    repository: unhappychoice/zenn-docs
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 990
+    deletions: 7
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:07:35Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "chore(deps): bump async-http-faraday from 0.22.2 to 0.23.0"
+    body: |-
+      Bumps [async-http-faraday](https://github.com/socketry/async-http) from 0.22.2 to 0.23.0.
+      <details>
+      <summary>Commits</summary>
+      <ul>
+      <li><a href="https://github.com/socketry/async-http/commit/587522cbbdefd9bbf7a154994d7d09607c7fb7cc"><code>587522c</code></a> Bump version.</li>
+      <li><a href="https://gi...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1080
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 5
+    deletions: 5
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:03:54Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "build(deps): bump com.android.application from 9.3.2 to 9.4.0"
+    body: |-
+      Bumps com.android.application from 9.3.2 to 9.4.0.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=com.android.application&package-manager=gradle&previous-version=9.3.2&new-version=9.4.0)](https://docs.github.com/en/github/managi...
+    url: https://github.com/bitflyer-tools/DroidFlyer/pull/541
+    repository: bitflyer-tools/DroidFlyer
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-02T03:03:26Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "build(deps): bump qs from 6.15.3 to 6.16.0 in /example"
+    body: |-
+      Bumps [qs](https://github.com/ljharb/qs) from 6.15.3 to 6.16.0.
+      <details>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ljharb/qs/blob/main/CHANGELOG.md">qs's changelog</a>.</em></p>
+      <blockquote>
+      <h2><strong>6.16.0</strong></h2>
+      <ul>
+      <li>[New] <code>stringify</code>: a...
+    url: https://github.com/unhappychoice/cycle-pusher/pull/362
+    repository: unhappychoice/cycle-pusher
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-02T03:03:15Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "chore(deps-dev): bump async from 2.44.1 to 2.45.1"
+    body: |-
+      Bumps [async](https://github.com/socketry/async) from 2.44.1 to 2.45.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/socketry/async/releases">async's releases</a>.</em></p>
+      <blockquote>
+      <h2>v2.45.1</h2>
+      <ul>
+      <li>Fixed <code>Scheduler#io_wait</code> retur...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/173
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:07:51Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "build(deps): Bump tera from 2.2.0 to 2.3.0"
+    body: >-
+      Bumps [tera](https://github.com/Keats/tera) from 2.2.0 to 2.3.0.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/Keats/tera/blob/master/CHANGELOG.md">tera's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>2.3.0 (2026-08-26)</h2>
+
+      <ul>
+
+      <li>Add <code>State::{escape,autoe...
+    url: https://github.com/unhappychoice/lintric/pull/307
+    repository: unhappychoice/lintric
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T03:07:25Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "chore(deps): Bump markdown-it from 15.0.0 to 15.0.1"
+    body: >-
+      Bumps [markdown-it](https://github.com/markdown-it/markdown-it) from 15.0.0 to 15.0.1.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/markdown-it/markdown-it/blob/master/CHANGELOG.md">markdown-it's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>[15.0.1] - 2026-08-27...
+    url: https://github.com/unhappychoice/mdts/pull/911
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 228
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T07:45:05Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "build(deps): bump com.android.library from 9.3.2 to 9.4.0"
+    body: |-
+      Bumps com.android.library from 9.3.2 to 9.4.0.
+
+      [![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=com.android.library&package-manager=gradle&previous-version=9.3.2&new-version=9.4.0)](https://docs.github.com/en/github/managing-secur...
+    url: https://github.com/unhappychoice/RxSnackbar/pull/244
+    repository: unhappychoice/RxSnackbar
+    state: merged
+    labels:
+      - dependencies
+      - java
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-02T03:02:57Z
+    mergedAt: 2026-09-02T14:45:58Z
+  - title: "chore(deps): bump open from 5.4.1 to 5.4.2"
+    body: |-
+      Bumps [open](https://github.com/Byron/open-rs) from 5.4.1 to 5.4.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/Byron/open-rs/releases">open's releases</a>.</em></p>
+      <blockquote>
+      <h2>v5.4.2</h2>
+      <h3>Bug Fixes</h3>
+      <ul>
+      <li>wait in that_detached instead ...
+    url: https://github.com/unhappychoice/gittype/pull/493
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-27T12:54:13Z
+    mergedAt: 2026-09-03T03:20:08Z
+  - title: "chore(deps-dev): Bump jest from 30.4.2 to 30.5.0"
+    body: |-
+      Bumps [jest](https://github.com/jestjs/jest/tree/HEAD/packages/jest) from 30.4.2 to 30.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest's releases</a>.</em></p>
+      <blockquote>
+      <h2>v30.5.0</h2>
+      <p>On a personal note: King Harald ...
+    url: https://github.com/unhappychoice/mdts/pull/916
+    repository: unhappychoice/mdts
+    state: closed
+    labels:
+      - dependencies
+      - javascript
+    additions: 1171
+    deletions: 1786
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-01T07:44:03Z
+    mergedAt: null
+  - title: "chore: sync llm pricing from LiteLLM"
+    body: >-
+      Automated daily refresh of `data/llm_pricing.json` from LiteLLM's price table.
+
+
+      **Review checklist:**
+
+      - [ ] Diff is plausible (no order-of-magnitude jumps that aren't matched by a public Anthropic / OpenAI
+      announcement)
+
+      - [ ] No models silently disappeared (would zero-cost their token counts)
+
+      - [ ] ...
+    url: https://github.com/unhappychoice/splashboard/pull/326
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - automation
+      - pricing
+    additions: 7
+    deletions: 0
+    changedFiles: 1
+    author: github-actions[bot]
+    createdAt: 2026-09-02T00:31:55Z
+    mergedAt: 2026-09-02T14:45:18Z
+  - title: "chore(deps-dev): bump jest from 30.4.2 to 30.5.1"
+    body: >-
+      Supersedes #916, which targets 30.5.0 and fails the `test` job.
+
+
+      ## Why 30.5.0 broke `test`
+
+
+      `test/unit/utils/logger.test.ts` failed with 7 errors:
+
+
+      jest 30.5.0 regressed ESM subpath imports. A package's `#`-prefixed import is not evaluated before the module that
+      imports it, so the imported binding ...
+    url: https://github.com/unhappychoice/mdts/pull/920
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 1202
+    deletions: 1817
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-09-03T03:10:20Z
+    mergedAt: 2026-09-03T03:12:21Z
+  - title: "chore(deps): bump flate2 from 1.1.9 to 1.1.10"
+    body: |-
+      Bumps [flate2](https://github.com/rust-lang/flate2-rs) from 1.1.9 to 1.1.10.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rust-lang/flate2-rs/releases">flate2's releases</a>.</em></p>
+      <blockquote>
+      <h2>1.1.10</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>feat: re...
+    url: https://github.com/unhappychoice/gittype/pull/496
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 11
+    deletions: 4
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T12:54:04Z
+    mergedAt: 2026-09-03T03:08:32Z
+  - title: "chore(deps): bump uuid from 1.25.0 to 1.26.0"
+    body: |-
+      Bumps [uuid](https://github.com/uuid-rs/uuid) from 1.25.0 to 1.26.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/uuid-rs/uuid/releases">uuid's releases</a>.</em></p>
+      <blockquote>
+      <h2>v1.26.0</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>Add ContextV7::with_addi...
+    url: https://github.com/unhappychoice/gittype/pull/497
+    repository: unhappychoice/gittype
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 2
+    deletions: 2
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-31T12:54:11Z
+    mergedAt: 2026-09-03T03:08:36Z
+  - title: "chore(deps): bump @mui/material and @mui/icons-material to 9.4.0"
+    body: >-
+      Supersedes #910 and #914.
+
+
+      ## Why one PR instead of two
+
+
+      `packages/frontend/package.json` declares both packages with a caret range (`^9.3.1`), so each Dependabot PR
+      resolves `@mui/material` to 9.4.0 in its lockfile. Both therefore hit the same snapshot failures and cannot be
+      merged independently — ...
+    url: https://github.com/unhappychoice/mdts/pull/919
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 72
+    deletions: 72
+    changedFiles: 13
+    author: unhappychoice
+    createdAt: 2026-09-03T02:33:40Z
+    mergedAt: 2026-09-03T03:00:25Z
+  - title: "fix(nix): update nixpkgs to fix crates.io 403 on crate downloads"
+    body: |-
+      Unblocks the `Nix Build` check, which is currently red on every open PR (#496, #497).
+
+      ## Cause
+
+      `nix build .#unstable` fails while vendoring crates:
+
+      crates.io now rejects requests that carry the default curl User-Agent, which is what nixpkgs `fetchurl` sends:
+
+      It is not a flake or a transient erro...
+    url: https://github.com/unhappychoice/gittype/pull/498
+    repository: unhappychoice/gittype
+    state: merged
+    labels: []
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-09-03T02:34:06Z
+    mergedAt: 2026-09-03T03:00:17Z
+  - title: "chore(deps): bump @xmldom/xmldom from 0.9.10 to 0.9.12"
+    body: |-
+      Bumps [@xmldom/xmldom](https://github.com/xmldom/xmldom) from 0.9.10 to 0.9.12.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/xmldom/xmldom/releases">@​xmldom/xmldom's releases</a>.</em></p>
+      <blockquote>
+      <h2>0.9.12</h2>
+      <p><a href="https://github.com/xmld...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/927
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-02T17:22:23Z
+    mergedAt: 2026-09-03T02:14:23Z
+  - title: "chore(deps-dev): bump fast-uri from 3.1.5 to 3.1.7"
+    body: |-
+      Bumps [fast-uri](https://github.com/fastify/fast-uri) from 3.1.5 to 3.1.7.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/fastify/fast-uri/releases">fast-uri's releases</a>.</em></p>
+      <blockquote>
+      <h2>v3.1.7</h2>
+      <h2>⚠️ Security Warning</h2>
+      <p>This is a se...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/928
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-02T23:27:09Z
+    mergedAt: 2026-09-03T02:14:12Z
+  - title: "chore(deps): bump protocol-http2 from 0.26.2 to 0.28.0"
+    body: >-
+      Bumps [protocol-http2](https://github.com/socketry/protocol-http2) from 0.26.2 to 0.28.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/socketry/protocol-http2/releases">protocol-http2's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.28.0</h2>
+
+      <ul>
+
+      <li>Treat ...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1084
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-04T03:04:43Z
+    mergedAt: 2026-09-04T04:59:41Z
+  - title: "chore(deps-dev): bump electron from 44.0.0 to 44.1.0"
+    body: |-
+      Bumps [electron](https://github.com/electron/electron) from 44.0.0 to 44.1.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/electron/electron/releases">electron's releases</a>.</em></p>
+      <blockquote>
+      <h2>electron v44.1.0</h2>
+      <h1>Release Notes for v44.1.0<...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/931
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-04T03:04:33Z
+    mergedAt: 2026-09-04T04:59:41Z
+  - title: "chore(deps): Bump rmagick from 7.1.2 to 7.1.3"
+    body: |-
+      Bumps [rmagick](https://github.com/rmagick/rmagick) from 7.1.2 to 7.1.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rmagick/rmagick/releases">rmagick's releases</a>.</em></p>
+      <blockquote>
+      <h2>RMagick 7.1.3</h2>
+      <h2>Bug Fixes</h2>
+      <ul>
+      <li>Fix Magick.li...
+    url: https://github.com/unhappychoice/blog/pull/755
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-04T03:03:51Z
+    mergedAt: 2026-09-04T04:59:41Z
+  - title: "chore: sync llm pricing from LiteLLM"
+    body: >-
+      Automated daily refresh of `data/llm_pricing.json` from LiteLLM's price table.
+
+
+      **Review checklist:**
+
+      - [ ] Diff is plausible (no order-of-magnitude jumps that aren't matched by a public Anthropic / OpenAI
+      announcement)
+
+      - [ ] No models silently disappeared (would zero-cost their token counts)
+
+      - [ ] ...
+    url: https://github.com/unhappychoice/splashboard/pull/327
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - automation
+      - pricing
+    additions: 6
+    deletions: 0
+    changedFiles: 1
+    author: github-actions[bot]
+    createdAt: 2026-09-04T00:29:23Z
+    mergedAt: 2026-09-04T04:58:05Z
+  - title: "chore(deps): Bump react-router-dom from 7.18.2 to 7.18.3 in /packages/frontend"
+    body: >-
+      Bumps [react-router-dom](https://github.com/remix-run/react-router/tree/HEAD/packages/react-router-dom) from
+      7.18.2 to 7.18.3.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/remix-run/react-router/blob/react-router-dom@7.18.3/packages/react-router-dom/CHANGELO...
+    url: https://github.com/unhappychoice/mdts/pull/924
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 9
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-03T07:43:52Z
+    mergedAt: 2026-09-03T15:47:06Z
+  - title: "chore(deps-dev): Bump jest-environment-jsdom from 30.4.1 to 30.5.0 in /packages/frontend"
+    body: >-
+      Bumps [jest-environment-jsdom](https://github.com/jestjs/jest/tree/HEAD/packages/jest-environment-jsdom) from
+      30.4.1 to 30.5.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest-environment-jsdom's
+      releases</a>.</em></p>
+
+      <blockquote...
+    url: https://github.com/unhappychoice/mdts/pull/922
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 435
+    deletions: 22
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-03T07:43:30Z
+    mergedAt: 2026-09-03T15:47:02Z
+  - title: "chore(deps-dev): bump browserslist from 4.28.2 to 4.28.8"
+    body: >-
+      Bumps [browserslist](https://github.com/browserslist/browserslist) from 4.28.2 to 4.28.8.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/browserslist/browserslist/releases">browserslist's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>4.28.8</h2>
+
+      <ul>
+
+      <li>Fixed <...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/930
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 23
+    deletions: 23
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-03T02:23:06Z
+    mergedAt: 2026-09-03T15:47:04Z
+  - title: "chore(deps): bump qs from 6.15.1 to 6.16.0"
+    body: |-
+      Bumps [qs](https://github.com/ljharb/qs) from 6.15.1 to 6.16.0.
+      <details>
+      <summary>Changelog</summary>
+      <p><em>Sourced from <a href="https://github.com/ljharb/qs/blob/main/CHANGELOG.md">qs's changelog</a>.</em></p>
+      <blockquote>
+      <h2><strong>6.16.0</strong></h2>
+      <ul>
+      <li>[New] <code>stringify</code>: a...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/929
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 10
+    deletions: 9
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-03T02:23:04Z
+    mergedAt: 2026-09-03T15:46:59Z
+  - title: "chore(deps): update terminal-notifier requirement from >= 2.0, < 3.1 to >= 2.0, < 3.2"
+    body: >-
+      Updates the requirements on [terminal-notifier](https://github.com/julienXX/terminal-notifier) to permit the
+      latest version.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/julienXX/terminal-notifier/releases">terminal-notifier's
+      releases</a>.</em></p>
+
+      <blo...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1083
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-03T03:04:03Z
+    mergedAt: 2026-09-03T15:46:57Z
+  - title: "chore(deps-dev): Bump @testing-library/react from 16.3.2 to 16.3.3 in /packages/frontend"
+    body: >-
+      Bumps [@testing-library/react](https://github.com/testing-library/react-testing-library) from 16.3.2 to 16.3.3.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/testing-library/react-testing-library/releases">@​testing-library/react's
+      releases</a>.</em></p>
+
+      ...
+    url: https://github.com/unhappychoice/mdts/pull/921
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-03T07:43:18Z
+    mergedAt: 2026-09-03T15:46:57Z
+  - title: "fix(deps): bump form-data to 2.5.6 to fix CRLF injection"
+    body: >-
+      Closes #932
+
+
+      ## Problem
+
+
+      `form-data` before 2.5.6 concatenates multipart field names and filenames into the `Content-Disposition` header
+      without escaping CR, LF, or `"`, allowing header injection.
+
+
+      - Advisory: [GHSA-hmw2-7cc7-3qxx](https://github.com/advisories/GHSA-hmw2-7cc7-3qxx) (CWE-93, CVSS 7.5...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/933
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels: []
+    additions: 9
+    deletions: 8
+    changedFiles: 2
+    author: unhappychoice
+    createdAt: 2026-09-06T14:00:33Z
+    mergedAt: 2026-09-06T14:40:03Z
+  - title: "chore(deps): Bump rmagick from 7.1.1 to 7.1.2"
+    body: |-
+      Bumps [rmagick](https://github.com/rmagick/rmagick) from 7.1.1 to 7.1.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rmagick/rmagick/releases">rmagick's releases</a>.</em></p>
+      <blockquote>
+      <h2>RMagick 7.1.2</h2>
+      <h2>Bug Fixes</h2>
+      <ul>
+      <li>Fix memory le...
+    url: https://github.com/unhappychoice/blog/pull/754
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-03T03:05:23Z
+    mergedAt: 2026-09-03T15:46:57Z
+  - title: "chore(deps-dev): bump protocol-http2 from 0.26.2 to 0.28.0"
+    body: >-
+      Bumps [protocol-http2](https://github.com/socketry/protocol-http2) from 0.26.2 to 0.28.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/socketry/protocol-http2/releases">protocol-http2's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>v0.28.0</h2>
+
+      <ul>
+
+      <li>Treat ...
+    url: https://github.com/unhappychoice/slack_channel_stats/pull/176
+    repository: unhappychoice/slack_channel_stats
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 1
+    deletions: 1
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-03T03:09:12Z
+    mergedAt: 2026-09-03T15:46:57Z
+  - title: "chore(nix): update nixpkgs to fix crate downloads"
+    body: >-
+      ## Problem
+
+
+      `Nix Build` CI is failing on every branch (e.g. #232):
+
+
+      crates.io now rejects the `/api/v1/crates/<name>/<version>/download` endpoint (403 for any crate), and the pinned
+      nixpkgs (`050e09e`, 2025-11-22) uses exactly that URL in `import-cargo-lock.nix`. Any `nix build .#unstable` fails
+      as ...
+    url: https://github.com/unhappychoice/gitlogue/pull/234
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels: []
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: unhappychoice
+    createdAt: 2026-08-30T07:29:32Z
+    mergedAt: 2026-08-30T07:34:42Z
+  - title: "chore: sync llm pricing from LiteLLM"
+    body: >-
+      Automated daily refresh of `data/llm_pricing.json` from LiteLLM's price table.
+
+
+      **Review checklist:**
+
+      - [ ] Diff is plausible (no order-of-magnitude jumps that aren't matched by a public Anthropic / OpenAI
+      announcement)
+
+      - [ ] No models silently disappeared (would zero-cost their token counts)
+
+      - [ ] ...
+    url: https://github.com/unhappychoice/splashboard/pull/328
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - automation
+      - pricing
+    additions: 7
+    deletions: 0
+    changedFiles: 1
+    author: github-actions[bot]
+    createdAt: 2026-09-06T03:06:06Z
+    mergedAt: 2026-09-06T13:57:19Z
+  - title: "chore(deps)(deps): bump toml from 1.1.4+spec-1.1.0 to 1.1.5+spec-1.1.0"
+    body: >-
+      Bumps [toml](https://github.com/toml-rs/toml) from 1.1.4+spec-1.1.0 to 1.1.5+spec-1.1.0.
+
+      <details>
+
+      <summary>Commits</summary>
+
+      <ul>
+
+      <li><a
+      href="https://github.com/toml-rs/toml/commit/e93ed4e1dec245fb523aec2afd0a300da4207f4e"><code>e93ed4e</code></a>
+      chore: Release</li>
+
+      <li><a href="https://github.co...
+    url: https://github.com/unhappychoice/splashboard/pull/330
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 4
+    deletions: 4
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-06T14:03:00Z
+    mergedAt: 2026-09-06T14:43:40Z
+  - title: "chore(deps-dev): bump js-yaml from 4.3.0 to 4.3.2"
+    body: >-
+      Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 4.3.0 to 4.3.2.
+
+      <details>
+
+      <summary>Changelog</summary>
+
+      <p><em>Sourced from <a href="https://github.com/nodeca/js-yaml/blob/4.3.2/CHANGELOG.md">js-yaml's
+      changelog</a>.</em></p>
+
+      <blockquote>
+
+      <h2>4.3.2 - 2026-08-26</h2>
+
+      <h3>Changed</h3>
+
+      <ul>
+
+      <li>...
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/934
+    repository: bitflyer-tools/cycle-flyer
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-06T14:41:02Z
+    mergedAt: 2026-09-06T14:43:47Z
+  - title: "chore(deps)(deps): bump netdev from 0.46.1 to 0.46.2"
+    body: |-
+      Bumps [netdev](https://github.com/shellrow/netdev) from 0.46.1 to 0.46.2.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/shellrow/netdev/releases">netdev's releases</a>.</em></p>
+      <blockquote>
+      <h2>v0.46.2</h2>
+      <h2>What's Changed</h2>
+      <ul>
+      <li>fix(windows): ...
+    url: https://github.com/unhappychoice/splashboard/pull/329
+    repository: unhappychoice/splashboard
+    state: merged
+    labels:
+      - dependencies
+      - rust
+    additions: 22
+    deletions: 13
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-06T14:02:48Z
+    mergedAt: 2026-09-06T14:44:17Z
+  - title: "chore(deps): bump the minor-and-patch group with 6 updates"
+    body: >-
+      Bumps the minor-and-patch group with 6 updates:
+
+
+      Updates `@anthropic-ai/sdk` from 0.121.0 to 0.123.0
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/anthropics/anthropic-sdk-typescript/releases">@​anthropic-ai/sdk's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>s...
+    url: https://github.com/deariary/github-weekly-reporter/pull/156
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 185
+    deletions: 181
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-05T21:53:12Z
+    mergedAt: 2026-09-06T09:44:02Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.68.0 to 8.69.0"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.68.0 to 8.69.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/928
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 61
+    deletions: 61
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-04T07:44:32Z
+    mergedAt: 2026-09-06T09:43:53Z
+  - title: "chore(deps-dev): Bump css-loader from 7.1.4 to 7.1.5 in /packages/frontend"
+    body: |-
+      Bumps [css-loader](https://github.com/webpack/css-loader) from 7.1.4 to 7.1.5.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/webpack/css-loader/releases">css-loader's releases</a>.</em></p>
+      <blockquote>
+      <h2>v7.1.5</h2>
+      <h3><a href="https://github.com/webp...
+    url: https://github.com/unhappychoice/mdts/pull/927
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-04T07:44:24Z
+    mergedAt: 2026-09-06T09:43:58Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.68.0 to 8.69.0"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.68.0 to 8.69.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases">@​typescript-eslint/pars...
+    url: https://github.com/unhappychoice/mdts/pull/926
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 193
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-09-04T07:44:17Z
+    mergedAt: 2026-09-06T09:44:01Z
+  - title: "chore(deps-dev): Bump jest from 30.4.2 to 30.5.0 in /packages/frontend"
+    body: |-
+      Bumps [jest](https://github.com/jestjs/jest/tree/HEAD/packages/jest) from 30.4.2 to 30.5.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/jestjs/jest/releases">jest's releases</a>.</em></p>
+      <blockquote>
+      <h2>v30.5.0</h2>
+      <p>On a personal note: King Harald ...
+    url: https://github.com/unhappychoice/mdts/pull/925
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 1240
+    deletions: 1481
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-04T07:44:12Z
+    mergedAt: 2026-09-06T09:44:06Z
+  - title: "chore(deps-dev): Bump webpack from 5.109.2 to 5.110.3 in /packages/frontend"
+    body: |-
+      Bumps [webpack](https://github.com/webpack/webpack) from 5.109.2 to 5.110.3.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/webpack/webpack/releases">webpack's releases</a>.</em></p>
+      <blockquote>
+      <h2>v5.110.3</h2>
+      <h3>Patch Changes</h3>
+      <ul>
+      <li>
+      <p>Fix <c...
+    url: https://github.com/unhappychoice/mdts/pull/923
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 28
+    deletions: 41
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-09-03T07:43:40Z
+    mergedAt: 2026-09-06T14:43:44Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.67.0 to 8.68.0 in /packages/frontend"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.67.0 to 8.68.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases">@​typescript-eslint/pars...
+    url: https://github.com/unhappychoice/mdts/pull/909
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 234
+    deletions: 9
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-28T07:45:50Z
+    mergedAt: 2026-08-30T06:51:44Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.67.0 to 8.68.0 in /packages/frontend"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.67.0 to 8.68.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/906
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 63
+    deletions: 63
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-28T07:45:25Z
+    mergedAt: 2026-08-30T06:51:40Z
+  - title: "chore(deps): bump the minor-and-patch group with 7 updates"
+    body: >-
+      Bumps the minor-and-patch group with 7 updates:
+
+
+      Updates `@anthropic-ai/sdk` from 0.119.0 to 0.121.0
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/anthropics/anthropic-sdk-typescript/releases">@​anthropic-ai/sdk's
+      releases</a>.</em></p>
+
+      <blockquote>
+
+      <h2>s...
+    url: https://github.com/deariary/github-weekly-reporter/pull/155
+    repository: deariary/github-weekly-reporter
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 223
+    deletions: 209
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-29T21:53:25Z
+    mergedAt: 2026-08-30T06:56:26Z
+  - title: "chore(deps-dev): Bump eslint from 10.9.0 to 10.9.1"
+    body: |-
+      Bumps [eslint](https://github.com/eslint/eslint) from 10.9.0 to 10.9.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/eslint/eslint/releases">eslint's releases</a>.</em></p>
+      <blockquote>
+      <h2>v10.9.1</h2>
+      <h2>Bug Fixes</h2>
+      <ul>
+      <li><a href="https://github...
+    url: https://github.com/unhappychoice/mdts/pull/905
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-28T07:45:18Z
+    mergedAt: 2026-08-30T06:51:26Z
+  - title: "chore(deps-dev): Bump @typescript-eslint/parser from 8.67.0 to 8.68.0"
+    body: >-
+      Bumps
+      [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/parser) from
+      8.67.0 to 8.68.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a
+      href="https://github.com/typescript-eslint/typescript-eslint/releases">@​typescript-eslint/pars...
+    url: https://github.com/unhappychoice/mdts/pull/904
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 232
+    deletions: 7
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-28T07:45:12Z
+    mergedAt: 2026-08-30T06:51:35Z
+  - title: "chore(deps-dev): Bump typescript-eslint from 8.67.0 to 8.68.0"
+    body: >-
+      Bumps
+      [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint)
+      from 8.67.0 to 8.68.0.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/typescript-eslint/typescript-eslint/releases">typescript-eslint's
+      r...
+    url: https://github.com/unhappychoice/mdts/pull/901
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 64
+    deletions: 64
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-28T07:44:52Z
+    mergedAt: 2026-08-30T06:51:31Z
+  - title: "chore(deps): Bump mermaid from 11.17.0 to 11.17.1 in /packages/frontend"
+    body: |-
+      Bumps [mermaid](https://github.com/mermaid-js/mermaid) from 11.17.0 to 11.17.1.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/mermaid-js/mermaid/releases">mermaid's releases</a>.</em></p>
+      <blockquote>
+      <h2>mermaid@11.17.1</h2>
+      <h3>Patch Changes</h3>
+      <ul>
+      <...
+    url: https://github.com/unhappychoice/mdts/pull/903
+    repository: unhappychoice/mdts
+    state: merged
+    labels:
+      - dependencies
+      - javascript
+    additions: 5
+    deletions: 5
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-28T07:45:10Z
+    mergedAt: 2026-08-30T06:51:22Z
+  - title: "feat: add system theme following (auto light/dark mode)"
+    body: Adds a `System` (auto) color mode that follows the operating system's light/dark appearance, so the UI
+      automatically matches the system theme without a manual choice.
+    url: https://github.com/unhappychoice/gittype/pull/495
+    repository: unhappychoice/gittype
+    state: open
+    labels: []
+    additions: 539
+    deletions: 9
+    changedFiles: 14
+    author: CAESIUS-TIM
+    createdAt: 2026-08-28T03:39:46Z
+    mergedAt: null
+  - title: "chore(deps): Bump rouge from 3.30.0 to 4.7.0"
+    body: |-
+      Bumps [rouge](https://github.com/rouge-ruby/rouge) from 3.30.0 to 4.7.0.
+      <details>
+      <summary>Release notes</summary>
+      <p><em>Sourced from <a href="https://github.com/rouge-ruby/rouge/releases">rouge's releases</a>.</em></p>
+      <blockquote>
+      <h2>v4.7.0</h2>
+      <p>🎉 Happy New Year 2026! 🎉</p>
+      <p>This release...
+    url: https://github.com/unhappychoice/blog/pull/753
+    repository: unhappychoice/blog
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 1
+    author: dependabot[bot]
+    createdAt: 2026-08-28T03:03:48Z
+    mergedAt: 2026-08-30T06:56:11Z
+  - title: "chore(deps): update terminal-notifier requirement from ~> 2.0.0 to >= 2.0, < 3.1"
+    body: >-
+      Updates the requirements on [terminal-notifier](https://github.com/julienXX/terminal-notifier) to permit the
+      latest version.
+
+      <details>
+
+      <summary>Release notes</summary>
+
+      <p><em>Sourced from <a href="https://github.com/julienXX/terminal-notifier/releases">terminal-notifier's
+      releases</a>.</em></p>
+
+      <blo...
+    url: https://github.com/circleci-tools/circleci-cli/pull/1078
+    repository: circleci-tools/circleci-cli
+    state: merged
+    labels:
+      - dependencies
+      - ruby
+    additions: 3
+    deletions: 3
+    changedFiles: 2
+    author: dependabot[bot]
+    createdAt: 2026-08-27T03:03:48Z
+    mergedAt: 2026-08-30T06:56:17Z
+  - title: "fix: stop welcome markdown from replacing the open document"
+    body: >-
+      - Deep links now initialize `currentPath` from the URL, so opening a file no longer starts by fetching the welcome
+      page
+
+      - Ignore stale content and outline responses so a late welcome request cannot overwrite the selected document
+
+      - Abort in-flight fetches when the path changes, and encode markdown A...
+    url: https://github.com/unhappychoice/mdts/pull/899
+    repository: unhappychoice/mdts
+    state: merged
+    labels: []
+    additions: 509
+    deletions: 69
+    changedFiles: 20
+    author: re-f
+    createdAt: 2026-08-27T08:28:18Z
+    mergedAt: 2026-08-30T09:54:36Z
+  - title: "fix: serve markdown files inside dot-directories"
+    body: >-
+      - `/api/markdown` used `express.static` with the default `dotfiles: 'ignore'`, so a path like
+      `/.layout-audit/fixes/README.md` skipped the file on disk and fell through to the SPA catch-all.
+
+      - The frontend then rendered `index.html` as markdown, which left the preview blank while the outline (read v...
+    url: https://github.com/unhappychoice/mdts/pull/900
+    repository: unhappychoice/mdts
+    state: open
+    labels: []
+    additions: 52
+    deletions: 1
+    changedFiles: 5
+    author: re-f
+    createdAt: 2026-08-27T08:37:06Z
+    mergedAt: null
+  - title: "feat(syntax): add Godot file highlighting"
+    body: |-
+      - Add Tree-sitter syntax highlighting for the Godot file family.
+      - Support GDScript (`.gd`) and Godot shaders (`.gdshader`, `.gdshaderinc`).
+      - Support text scenes, resources, and project settings (`.tscn`, `.tres`, `.godot`).
+      - Reuse the shader grammar's bundled query and add focused queries where t...
+    url: https://github.com/unhappychoice/gitlogue/pull/232
+    repository: unhappychoice/gitlogue
+    state: merged
+    labels: []
+    additions: 331
+    deletions: 12
+    changedFiles: 12
+    author: Flesymeb
+    createdAt: 2026-08-17T05:33:05Z
+    mergedAt: 2026-08-30T07:44:52Z
+issues: []
+events:
+  - id: "14288862213"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-02T14:46:24Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 918
+      prTitle: ""
+      state: approved
+  - id: "14288856364"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-02T14:46:19Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 917
+      prTitle: ""
+      state: approved
+  - id: "14288848910"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-02T14:46:14Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 915
+      prTitle: ""
+      state: approved
+  - id: "14288842900"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-02T14:46:09Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 913
+      prTitle: ""
+      state: approved
+  - id: "14288842885"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-09-02T14:46:09Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1082
+      prTitle: ""
+      state: approved
+  - id: "14288841822"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-09-02T14:46:08Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 175
+      prTitle: ""
+      state: approved
+  - id: "14288836089"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-09-02T14:46:03Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1081
+      prTitle: ""
+      state: approved
+  - id: "14288835325"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-02T14:46:03Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 912
+      prTitle: ""
+      state: approved
+  - id: "14288835233"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-09-02T14:46:03Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 325
+      prTitle: ""
+      state: approved
+  - id: "14288834608"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-09-02T14:46:02Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 174
+      prTitle: ""
+      state: approved
+  - id: "14288829238"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/Norimaki
+    createdAt: 2026-09-02T14:45:58Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 467
+      prTitle: ""
+      state: approved
+  - id: "14288828983"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/oss-issue-opener
+    createdAt: 2026-09-02T14:45:58Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 308
+      prTitle: ""
+      state: approved
+  - id: "14288828848"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-09-02T14:45:58Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 324
+      prTitle: ""
+      state: approved
+  - id: "14288828574"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gitlogue
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 235
+      prTitle: ""
+      state: approved
+  - id: "14288828568"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/zenn-docs
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 10
+      prTitle: ""
+      state: approved
+  - id: "14288828396"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/DroidFlyer
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 541
+      prTitle: ""
+      state: approved
+  - id: "14288828327"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/cycle-pusher
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 362
+      prTitle: ""
+      state: approved
+  - id: "14288828278"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1080
+      prTitle: ""
+      state: approved
+  - id: "14288828103"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/lintric
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 307
+      prTitle: ""
+      state: approved
+  - id: "14288828077"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 173
+      prTitle: ""
+      state: approved
+  - id: "14288827899"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/RxSnackbar
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 244
+      prTitle: ""
+      state: approved
+  - id: "14288827823"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-02T14:45:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 911
+      prTitle: ""
+      state: approved
+  - id: "14288772606"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-09-02T14:45:13Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 326
+      prTitle: ""
+      state: approved
+  - id: "14330954866"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-09-03T03:20:07Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 493
+      prTitle: ""
+      state: approved
+  - id: "14330504479"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-09-03T03:08:36Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 497
+      prTitle: ""
+      state: approved
+  - id: "14330501863"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/gittype
+    createdAt: 2026-09-03T03:08:32Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 496
+      prTitle: ""
+      state: approved
+  - id: "14328295636"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-09-03T02:14:12Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 927
+      prTitle: ""
+      state: approved
+  - id: "14328295600"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-09-03T02:14:12Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 928
+      prTitle: ""
+      state: approved
+  - id: "14409303636"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-09-04T04:59:42Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1084
+      prTitle: ""
+      state: approved
+  - id: "14409303205"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-09-04T04:59:41Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 755
+      prTitle: ""
+      state: approved
+  - id: "14409302935"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-09-04T04:59:40Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 931
+      prTitle: ""
+      state: approved
+  - id: "14409249680"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/splashboard
+    createdAt: 2026-09-04T04:58:01Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 327
+      prTitle: ""
+      state: approved
+  - id: "14373391905"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-03T15:47:05Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 924
+      prTitle: ""
+      state: approved
+  - id: "14373389445"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-09-03T15:47:03Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 930
+      prTitle: ""
+      state: approved
+  - id: "14373387212"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-03T15:47:01Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 922
+      prTitle: ""
+      state: approved
+  - id: "14373383237"
+    type: PullRequestReviewEvent
+    repo: bitflyer-tools/cycle-flyer
+    createdAt: 2026-09-03T15:46:57Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 929
+      prTitle: ""
+      state: approved
+  - id: "14373381526"
+    type: PullRequestReviewEvent
+    repo: circleci-tools/circleci-cli
+    createdAt: 2026-09-03T15:46:56Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 1083
+      prTitle: ""
+      state: approved
+  - id: "14373381376"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/blog
+    createdAt: 2026-09-03T15:46:56Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 754
+      prTitle: ""
+      state: approved
+  - id: "14373381333"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/mdts
+    createdAt: 2026-09-03T15:46:56Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 921
+      prTitle: ""
+      state: approved
+  - id: "14373380976"
+    type: PullRequestReviewEvent
+    repo: unhappychoice/slack_channel_stats
+    createdAt: 2026-09-03T15:46:55Z
+    payload:
+      kind: review
+      action: created
+      prNumber: 176
+      prTitle: ""
+      state: approved
+commitMessages:
+  - repo: unhappychoice/gittype
+    messages:
+      - "Merge pull request #493 from unhappychoice/dependabot/cargo/open-5.4.2"
+      - "Merge pull request #497 from unhappychoice/dependabot/cargo/uuid-1.26.0"
+      - "Merge pull request #496 from unhappychoice/dependabot/cargo/flate2-1.1.10"
+      - "Merge pull request #498 from unhappychoice/fix/nix-crates-download-403"
+      - "fix(nix): update nixpkgs to fix crates.io 403 on crate downloads"
+  - repo: unhappychoice/mdts
+    messages:
+      - "Merge pull request #923 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/webpack-5.110.2"
+      - "Merge pull request #925 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/jest-30.5.0"
+      - "Merge pull request #926 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint/parser-8.69.0"
+      - "Merge pull request #927 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/css-loader-7.1.5"
+      - "Merge pull request #928 from unhappychoice/dependabot/npm_and_yarn/typescript-eslint-8.69.0"
+      - "Merge pull request #924 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/react-router-dom-7.18.3"
+      - "Merge pull request #922 from
+        unhappychoice/dependabot/npm_and_yarn/packages/frontend/jest-environment-jsdom-30.5.0"
+      - "Merge pull request #921 from
+        unhappychoice/dependabot/npm_and_yarn/packages/frontend/testing-library/react-16.3.3"
+      - "Merge pull request #920 from unhappychoice/chore/bump-jest-30.5.1"
+      - "chore(deps-dev): bump jest from 30.4.2 to 30.5.1"
+      - "Merge pull request #919 from unhappychoice/chore/bump-mui-9.4.0"
+      - "chore(deps): bump @mui/material and @mui/icons-material to 9.4.0"
+      - "Merge pull request #918 from unhappychoice/dependabot/npm_and_yarn/open-11.0.2"
+      - "Merge pull request #917 from unhappychoice/dependabot/npm_and_yarn/jest-util-30.5.0"
+      - "Merge pull request #915 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/mermaid-11.17.2"
+      - "Merge pull request #913 from unhappychoice/dependabot/npm_and_yarn/packages/frontend/eslint-plugin-jest-29.16.5"
+      - "Merge pull request #912 from unhappychoice/dependabot/npm_and_yarn/axios-1.20.0"
+      - "Merge pull request #911 from unhappychoice/dependabot/npm_and_yarn/markdown-it-15.0.1"
+  - repo: bitflyer-tools/cycle-flyer
+    messages:
+      - "Merge pull request #934 from bitflyer-tools/dependabot/npm_and_yarn/js-yaml-4.3.2"
+      - "Merge pull request #933 from bitflyer-tools/fix/form-data-crlf-injection"
+      - "fix(deps): bump form-data to 2.5.6 to fix CRLF injection"
+      - "Merge pull request #931 from bitflyer-tools/dependabot/npm_and_yarn/electron-44.1.0"
+      - "Merge pull request #930 from bitflyer-tools/dependabot/npm_and_yarn/browserslist-4.28.8"
+      - "Merge pull request #929 from bitflyer-tools/dependabot/npm_and_yarn/qs-6.16.0"
+      - "Merge pull request #927 from bitflyer-tools/dependabot/npm_and_yarn/xmldom/xmldom-0.9.12"
+      - "Merge pull request #928 from bitflyer-tools/dependabot/npm_and_yarn/fast-uri-3.1.7"
+  - repo: circleci-tools/circleci-cli
+    messages:
+      - "Merge pull request #1084 from circleci-tools/dependabot/bundler/protocol-http2-0.28.0"
+      - "Merge pull request #1083 from circleci-tools/dependabot/bundler/terminal-notifier-3.1.0"
+      - "Merge pull request #1082 from circleci-tools/dependabot/bundler/async-2.45.1"
+      - "Merge pull request #1081 from circleci-tools/dependabot/bundler/io-event-1.21.1"
+      - "Merge pull request #1080 from circleci-tools/dependabot/bundler/async-http-faraday-0.23.0"
+  - repo: unhappychoice/splashboard
+    messages:
+      - "Merge pull request #329 from unhappychoice/dependabot/cargo/netdev-0.46.2"
+      - "Merge pull request #330 from unhappychoice/dependabot/cargo/toml-1.1.5spec-1.1.0"
+      - "Merge pull request #328 from unhappychoice/chore/sync-llm-pricing"
+      - "chore: sync llm pricing from LiteLLM"
+      - "Merge pull request #327 from unhappychoice/chore/sync-llm-pricing"
+      - "chore: sync llm pricing from LiteLLM"
+      - "Merge pull request #325 from unhappychoice/dependabot/cargo/tui-big-text-0.8.9"
+      - "Merge pull request #324 from unhappychoice/dependabot/cargo/gix-0.87.1"
+      - "Merge pull request #326 from unhappychoice/chore/sync-llm-pricing"
+      - "chore: sync llm pricing from LiteLLM"
+  - repo: unhappychoice/gitlogue
+    messages:
+      - "Merge pull request #235 from unhappychoice/dependabot/cargo/chrono-english-0.2.1"
+  - repo: unhappychoice/blog
+    messages:
+      - "Merge pull request #755 from unhappychoice/dependabot/bundler/rmagick-7.1.3"
+      - "Merge pull request #754 from unhappychoice/dependabot/bundler/rmagick-7.1.2"
+  - repo: deariary/github-weekly-reporter
+    messages:
+      - "Merge pull request #156 from deariary/dependabot/npm_and_yarn/minor-and-patch-40476bd412"
+  - repo: unhappychoice/slack_channel_stats
+    messages:
+      - "Merge pull request #176 from unhappychoice/dependabot/bundler/protocol-http2-0.28.0"
+      - "Merge pull request #175 from unhappychoice/dependabot/bundler/async-http-faraday-0.23.0"
+      - "Merge pull request #174 from unhappychoice/dependabot/bundler/io-event-1.21.1"
+      - "Merge pull request #173 from unhappychoice/dependabot/bundler/async-2.45.1"
+  - repo: unhappychoice/oss-issue-opener
+    messages:
+      - "Merge pull request #308 from unhappychoice/dependabot/npm_and_yarn/types/node-26.4.0"
+  - repo: circleci-tools/Norimaki
+    messages:
+      - "Merge pull request #467 from circleci-tools/dependabot/gradle/com.android.application-9.4.0"
+  - repo: bitflyer-tools/DroidFlyer
+    messages:
+      - "Merge pull request #541 from bitflyer-tools/dependabot/gradle/com.android.application-9.4.0"
+  - repo: unhappychoice/zenn-docs
+    messages:
+      - "Merge pull request #10 from unhappychoice/dependabot/npm_and_yarn/zenn-cli-0.5.3"
+  - repo: unhappychoice/cycle-pusher
+    messages:
+      - "Merge pull request #362 from unhappychoice/dependabot/npm_and_yarn/example/qs-6.16.0"
+  - repo: unhappychoice/lintric
+    messages:
+      - "Merge pull request #307 from unhappychoice/dependabot/cargo/tera-2.3.0"
+  - repo: unhappychoice/RxSnackbar
+    messages:
+      - "Merge pull request #244 from unhappychoice/dependabot/gradle/com.android.library-9.4.0"
+releases: []
+externalContributions: []

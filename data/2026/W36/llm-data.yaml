@@ -1,0 +1,151 @@
+title: "210 commits across 15+ repos: the great dependency harvest of September"
+subtitle: A week dominated by Dependabot wrangling across JavaScript, Ruby, Rust, and Java stacks, with a side of CRLF
+  injection fixes and Nix crate download debugging.
+overview: >
+  This week was a full-on dependency maintenance marathon, touching over 15 repositories across at least four language
+  ecosystems — JavaScript, Ruby, Rust, and Java. The sheer breadth is striking: from mdts and cycle-flyer on the
+  frontend side, to circleci-cli and slack_channel_stats in Ruby, to splashboard, gitlogue, and lintric in Rust. It
+  wasn't glamorous work, but keeping this many projects current simultaneously is genuinely non-trivial.
+
+
+  The most interesting moments came from the non-Dependabot commits hiding in the noise. In bitflyer-tools/cycle-flyer,
+  a CRLF injection vulnerability in form-data got patched by bumping to 2.5.6 — a real security fix, not just a version
+  number bump. Over in gittype, nixpkgs had to be updated to resolve a 403 error hitting crates.io downloads, which is
+  the kind of yak-shaving that eats an afternoon. And splashboard saw repeated LiteLLM pricing syncs, suggesting active
+  maintenance of LLM cost tracking data.
+
+
+  The commit volume was enormous — 210 total, with a jaw-dropping 120 on August 31st alone — and reviews matched the
+  pace at 63 approvals spread across mdts, cycle-flyer, splashboard, and more. This was a week of keeping the lights on
+  across a sprawling personal and team portfolio, and doing it at scale.
+summaries:
+  - type: deep-dive
+    heading: Security and infra fixes buried in the dep noise
+    body: "Two commits stood out from the Dependabot flood: a deliberate fix in bitflyer-tools/cycle-flyer bumping form-data
+      to 2.5.6 to patch a CRLF injection vulnerability, and a Nix config update in gittype to resolve a crates.io 403
+      that was blocking cargo downloads. Both required actual diagnosis rather than just rubber-stamping a version bump.
+      The gittype fix in particular — updating nixpkgs to unblock crate downloads — is the kind of invisible
+      infrastructure work that nobody notices until it breaks."
+    chips:
+      - label: security fix
+        value: CRLF injection
+        color: red
+      - label: infra fix
+        value: Nix/crates.io 403
+        color: default
+      - label: repos
+        value: cycle-flyer, gittype
+        color: default
+  - type: repo-summary
+    heading: 15+ repos touched, mdts leads the pack
+    body: "unhappychoice/mdts was the busiest repo by far with 25 PRs, covering everything from mermaid and axios to jest,
+      webpack, MUI 9.4.0, and typescript-eslint. splashboard and bitflyer-tools/cycle-flyer each saw 7 PRs, while
+      circleci-cli and gittype rounded out the top five. Across the board, the stack diversity was remarkable: npm
+      packages, Ruby gems, Cargo crates, and Gradle plugins all got attention in the same week."
+    chips:
+      - label: unhappychoice/mdts
+        value: 25 PRs
+        color: green
+      - label: bitflyer-tools/cycle-flyer
+        value: 7 PRs
+        color: default
+      - label: unhappychoice/splashboard
+        value: 7 PRs
+        color: default
+      - label: total repos
+        value: 15+
+        color: default
+  - type: activity-pattern
+    heading: 120 commits on Monday, then a steady grind to Sunday
+    body: "August 31st was an absolute outlier with 120 commits — more than half the week's total in a single day. The pace
+      stayed high through Tuesday (46) and Wednesday (106 — another big burst), then tapered into the 28–70 range for
+      the back half of the week. There were no true rest days; even Sunday clocked 38 commits. This looks like a
+      deliberate batch-processing strategy: clear the Dependabot queue in big focused sessions rather than spreading it
+      thin."
+    chips:
+      - label: peak day
+        value: Mon 120
+        color: green
+      - label: second peak
+        value: Wed 106
+        color: green
+      - label: quietest day
+        value: Sat 28
+        color: default
+      - label: total commits
+        value: "210"
+        color: default
+  - type: review-summary
+    heading: 63 approvals, zero rejections, pure throughput
+    body: Every single one of the 63 reviews this week was an approval — this is the expected pattern for a Dependabot-heavy
+      week where the author is also the reviewer on their own repos. mdts and cycle-flyer absorbed the most review
+      attention, followed by splashboard, circleci-cli, and slack_channel_stats. The review count actually slightly
+      exceeds the PR count visible in the data, suggesting some PRs received multiple passes before merge.
+    chips:
+      - label: reviews
+        value: 63 approvals
+        color: green
+      - label: top repo
+        value: mdts (9 reviews)
+        color: default
+      - label: rejection rate
+        value: 0%
+        color: default
+  - type: tech-debt
+    heading: "LiteLLM pricing syncs in splashboard: quiet active development"
+    body: "Amid all the automated dependency work, splashboard saw three separate 'chore: sync llm pricing from LiteLLM'
+      commits this week — manual updates to keep LLM cost data current. This signals that splashboard is an actively
+      used tool, not just a maintained project. Keeping LLM pricing in sync is the kind of ongoing operational work that
+      suggests real usage driving the maintenance."
+    chips:
+      - label: repo
+        value: unhappychoice/splashboard
+        color: default
+      - label: syncs
+        value: 3 LiteLLM updates
+        color: default
+highlights:
+  - type: pr
+    title: "fix(deps): bump form-data to 2.5.6 to fix CRLF injection"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged · +0 -0 · security fix
+    body: A genuine security patch, not a routine bump — CRLF injection in form-data is a real attack vector. This one
+      required identifying the vulnerability and deliberately targeting the fix version.
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/933
+  - type: pr
+    title: "fix(nix): update nixpkgs to fix crates.io 403 on crate downloads"
+    repo: unhappychoice/gittype
+    meta: merged · 1 file
+    body: Debugging a 403 from crates.io through Nix is exactly the kind of opaque infrastructure problem that can derail a
+      build pipeline. Getting this resolved unblocked cargo dependency work across the repo.
+    url: https://github.com/unhappychoice/gittype/pull/498
+  - type: pr
+    title: "chore(deps-dev): bump jest-util from 30.4.1 to 30.5.0"
+    repo: unhappychoice/mdts
+    meta: merged · +925 -290 · 1 file
+    body: The biggest line-count change of the week at +925 -290 — a minor version bump to jest-util that brought
+      significant lockfile churn. A good reminder that 'minor' in semver doesn't mean 'small diff'.
+  - type: pr
+    title: "chore(deps-dev): bump zenn-cli from 0.5.2 to 0.5.3"
+    repo: unhappychoice/zenn-docs
+    meta: merged · +990 -7 · 2 files
+    body: Nearly 1,000 lines added for a patch-version CLI bump in zenn-docs — almost certainly a lockfile regeneration, but
+      it topped the raw line-count charts for the week.
+    url: https://github.com/unhappychoice/zenn-docs/pull/10
+ticker:
+  - label: MASS EVENT
+    text: "@unhappychoice merges deps across 15 repos. Dependabot weeps with relief."
+  - label: BREAKING NEWS
+    text: "@unhappychoice drops 120 commits on a Monday. Weekend? Never heard of it."
+  - label: SECURITY ALERT
+    text: "@unhappychoice personally neutralizes CRLF injection in cycle-flyer. Crisis averted."
+  - label: NIX DRAMA
+    text: "@unhappychoice battles crates.io 403 errors through Nix. Emerges victorious."
+  - label: STAGGERING
+    text: "@unhappychoice fires off 63 approvals in 7 days. Rubber stamp reportedly worn through."
+  - label: LLM WATCH
+    text: "@unhappychoice syncs LiteLLM pricing into splashboard three times. Costs monitored."
+  - label: HISTORIC MERGE
+    text: "@unhappychoice touches Java, Ruby, Rust, and JS deps in single week. Polyglot mode: on."
+  - label: ECONOMISTS STUNNED
+    text: "@unhappychoice adds 9,094 lines and deletes 7,630 more. Net gain: order from chaos."
