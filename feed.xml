@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>210 commits across 15+ repos: the great dependency harvest of September</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W36/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W36/</guid>
+      <description>A week dominated by Dependabot wrangling across JavaScript, Ruby, Rust, and Java stacks, with a side of CRLF injection fixes and Nix crate download debugging.
+
+This week was a full-on dependency maintenance marathon, touching over 15 repositories across at least four language ecosystems — JavaScript, Ruby, Rust, and Java. The sheer breadth is striking: from mdts and cycle-flyer on the frontend side, to circleci-cli and slack_channel_stats in Ruby, to splashboard, gitlogue, and lintric in Rust. It wasn&apos;t glamorous work, but keeping this many projects current simultaneously is genuinely non-trivial.
+
+The most interesting moments came from the non-Dependabot commits hiding in the noise. In bitflyer-tools/cycle-flyer, a CRLF injection vulnerability in form-data got patched by bumping to 2.5.6 — a real security fix, not just a version number bump. Over in gittype, nixpkgs had to be updated to resolve a 403 error hitting crates.io downloads, which is the kind of yak-shaving that eats an afternoon. And splashboard saw repeated LiteLLM pricing syncs, suggesting active maintenance of LLM cost tracking data.
+
+The commit volume was enormous — 210 total, with a jaw-dropping 120 on August 31st alone — and reviews matched the pace at 63 approvals spread across mdts, cycle-flyer, splashboard, and more. This was a week of keeping the lights on across a sprawling personal and team portfolio, and doing it at scale.
+
+
+Commits: 210, PRs: 5, Reviews: 63</description>
+      <pubDate>Sun, 06 Sep 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W36/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W36/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>lintric gets a real CLI overhaul while Dependabot sweeps the fleet</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W35/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W35/</guid>
