@@ -173,3 +173,54 @@
     prNumber: 177
     prTitle: ""
     state: approved
+- id: "14579572470"
+  type: IssuesEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-09-07T15:23:24Z
+  payload:
+    kind: issues
+    action: closed
+    number: 236
+    title: release.yml computes Homebrew SHAs without checking curl's HTTP status
+- id: "14579425173"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-09-07T15:20:35Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 238
+    title: ""
+- id: "20345550833"
+  type: DeleteEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-09-07T15:20:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14579424361"
+  type: IssuesEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-09-07T15:20:37Z
+  payload:
+    kind: issues
+    action: closed
+    number: 236
+    title: release.yml computes Homebrew SHAs without checking curl's HTTP status
+- id: "20345549543"
+  type: PushEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-09-07T15:20:36Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14578819721"
+  type: PullRequestEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-09-07T15:09:52Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 238
+    title: ""
