@@ -453,3 +453,1295 @@
     action: opened
     number: 940
     title: ""
+- id: "20928839927"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-09-12T03:55:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20928551205"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20928546421"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20928383965"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-12T05:26:30Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20927148114"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-12T02:48:02Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20927148979"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-09-12T02:48:05Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20927148048"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-09-12T02:48:02Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20926990876"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T02:41:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20917288320"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T14:21:03Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14913214710"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T14:21:03Z
+  payload:
+    kind: issues
+    action: closed
+    number: 289
+    title: Remove test-shaped magic constants from resolution logic ("MyStruct", line-distance < 20, fn main special-case)
+- id: "14913214578"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T14:21:02Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 306
+    title: ""
+- id: "20916029929"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:51:22Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/resolution-heuristics
+    commits: []
+- id: "14912918523"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T14:09:50Z
+  payload:
+    kind: generic
+    action: created
+- id: "14912473598"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:51:23Z
+  payload:
+    kind: generic
+    action: created
+- id: "20913369960"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:40:18Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20913355716"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:40:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14912208111"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:40:04Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 302
+    title: ""
+- id: "20913354562"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:40:05Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14912208001"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:40:05Z
+  payload:
+    kind: issues
+    action: closed
+    number: 286
+    title: "HTML report: complexity color-coding never applies, wrong value fed to thresholds, filename collisions"
+- id: "14912207228"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:40:03Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 308
+    prTitle: ""
+    state: approved
+- id: "14912206507"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T13:40:00Z
+  payload:
+    kind: generic
+    action: created
+- id: "20907871604"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20907858059"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-11T15:47:30Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20907853469"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-11T15:47:24Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20904739948"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:30Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "20904738732"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-11T15:47:28Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20902717980"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-11T15:47:29Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20902714336"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-11T15:47:24Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20897226794"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:15Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "20894081842"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:12:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20893927702"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:08:49Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20890559511"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-09-12T02:48:02Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20890559409"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-09-12T02:48:02Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20889409870"
+  type: DeleteEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-12T05:41:09Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20889131257"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:50Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "20889118193"
+  type: DeleteEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20888930453"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-09-12T05:28:40Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20888851876"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-12T05:26:33Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20888845961"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-09-12T05:26:24Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20886104910"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:12:33Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "20885939563"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:08:26Z
+  payload:
+    kind: push
+    ref: refs/heads/chore/eslint-10-frontend
+    commits: []
+- id: "20883284485"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-12T02:53:29Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/bundler/json-3.0.2
+    commits: []
+- id: "20883075250"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-12T02:48:01Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20883057823"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-12T02:55:33Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20882780162"
+  type: DeleteEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-09-12T02:48:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20882778405"
+  type: PushEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-09-12T02:48:01Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14902505132"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T06:09:38Z
+  payload:
+    kind: generic
+    action: created
+- id: "14902505129"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T06:09:38Z
+  payload:
+    kind: generic
+    action: created
+- id: "14902505040"
+  type: IssueCommentEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T06:09:38Z
+  payload:
+    kind: generic
+    action: created
+- id: "20880530605"
+  type: PushEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T06:08:58Z
+  payload:
+    kind: push
+    ref: refs/heads/fix/resolution-heuristics
+    commits: []
+- id: "14902078219"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:49:33Z
+  payload:
+    kind: issues
+    action: closed
+    number: 282
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "14902077920"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:49:31Z
+  payload:
+    kind: generic
+    action: created
+- id: "14902075802"
+  type: ReleaseEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-12T05:49:24Z
+  payload:
+    kind: release
+    action: published
+    tag: v2.1.0
+    name: v2.1.0
+- id: "14902048511"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:48:09Z
+  payload:
+    kind: generic
+    action: created
+- id: "14902048209"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:48:09Z
+  payload:
+    kind: issues
+    action: closed
+    number: 303
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "20878860470"
+  type: PushEvent
+  repo: unhappychoice/homebrew-tap
+  createdAt: 2026-09-12T05:45:47Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "20878524926"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-12T05:41:09Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "14901896800"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-12T05:41:08Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 545
+    title: ""
+- id: "14901797696"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:36:31Z
+  payload:
+    kind: generic
+    action: created
+- id: "14901797678"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:36:32Z
+  payload:
+    kind: issues
+    action: closed
+    number: 285
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "14901795039"
+  type: ReleaseEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-12T05:36:24Z
+  payload:
+    kind: release
+    action: published
+    tag: v1.1.2
+    name: v1.1.2
+- id: "14901763576"
+  type: PullRequestEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:34:57Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 314
+    title: ""
+- id: "20878071173"
+  type: PushEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:34:58Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14901763312"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:34:58Z
+  payload:
+    kind: issues
+    action: closed
+    number: 286
+    title: "[Pending Release] unhappychoice/committers.top"
+- id: "14901746037"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:34:12Z
+  payload:
+    kind: issues
+    action: closed
+    number: 283
+    title: "[Pending Release] circleci-tools/CircleCI"
+- id: "14901746010"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:34:11Z
+  payload:
+    kind: generic
+    action: created
+- id: "14901738054"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:49Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 304
+    title: ""
+- id: "14901737890"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:50Z
+  payload:
+    kind: issues
+    action: closed
+    number: 288
+    title: is_hoisted and accessibility are computed then unconditionally overwritten; TS var-hoisting detection can never
+      fire
+- id: "14901734013"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:37Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 303
+    title: ""
+- id: "14901733012"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:33:36Z
+  payload:
+    kind: generic
+    action: created
+- id: "14901732743"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:33:37Z
+  payload:
+    kind: issues
+    action: closed
+    number: 301
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "14901732287"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:33:34Z
+  payload:
+    kind: generic
+    action: created
+- id: "14901732186"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:33:35Z
+  payload:
+    kind: issues
+    action: closed
+    number: 305
+    title: "[CI Failure] bitflyer-tools/DroidFlyer"
+- id: "14901731501"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:33:33Z
+  payload:
+    kind: generic
+    action: created
+- id: "14901731396"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:33:34Z
+  payload:
+    kind: issues
+    action: closed
+    number: 311
+    title: "[CI Failure] unhappychoice/gittype"
+- id: "14901729162"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:28Z
+  payload:
+    kind: issues
+    action: closed
+    number: 285
+    title: CLI always exits 0, even when analysis fails
+- id: "14901728480"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:25Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 301
+    title: ""
+- id: "14901724832"
+  type: PullRequestEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:14Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 300
+    title: ""
+- id: "14901724480"
+  type: IssuesEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:33:15Z
+  payload:
+    kind: issues
+    action: closed
+    number: 284
+    title: Release workflow archives a binary that is never built — release artifacts are broken
+- id: "14901723900"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-12T05:33:13Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 545
+    title: ""
+- id: "14901711695"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:32:42Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 302
+    prTitle: ""
+    state: commented
+- id: "14901711653"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:32:42Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 306
+    prTitle: ""
+    state: commented
+- id: "14901711525"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/lintric
+  createdAt: 2026-09-12T05:32:42Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 308
+    prTitle: ""
+    state: changes_requested
+- id: "14901684965"
+  type: ReleaseEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-09-12T05:31:21Z
+  payload:
+    kind: release
+    action: published
+    tag: 2.1.1
+    name: 2.1.1
+- id: "14901684688"
+  type: IssuesEvent
+  repo: unhappychoice/gitlogue
+  createdAt: 2026-09-12T05:31:22Z
+  payload:
+    kind: issues
+    action: closed
+    number: 89
+    title: "feat: manual playback controls"
+- id: "14901582974"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-12T05:26:32Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 759
+    title: ""
+- id: "14901582966"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:26:33Z
+  payload:
+    kind: issues
+    action: closed
+    number: 302
+    title: "[CI Failure] unhappychoice/blog"
+- id: "14901582060"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-12T05:26:29Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 470
+    title: ""
+- id: "14901581706"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:26:30Z
+  payload:
+    kind: issues
+    action: closed
+    number: 309
+    title: "[CI Failure] circleci-tools/Norimaki"
+- id: "14901581070"
+  type: PullRequestEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-09-12T05:26:26Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 363
+    title: ""
+- id: "14901580651"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:26:27Z
+  payload:
+    kind: issues
+    action: closed
+    number: 306
+    title: "[CI Failure] unhappychoice/cycle-pusher"
+- id: "14901579871"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-09-12T05:26:23Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 557
+    title: ""
+- id: "20877451113"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-09-12T05:26:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14901579589"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:26:24Z
+  payload:
+    kind: issues
+    action: closed
+    number: 310
+    title: "[CI Failure] irasutoya-tools/irasutoya"
+- id: "14901564983"
+  type: PullRequestEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-12T05:25:43Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 314
+    title: ""
+- id: "14900023916"
+  type: PullRequestEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:12:32Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 940
+    title: ""
+- id: "20871837930"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:08:48Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14899945559"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:08:46Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 941
+    prTitle: ""
+    state: approved
+- id: "14899944083"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-12T04:08:41Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 759
+    title: ""
+- id: "20871503759"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T04:04:13Z
+  payload:
+    kind: push
+    ref: refs/heads/dependabot/npm_and_yarn/packages/frontend/mui/x-tree-view-9.13.0
+    commits: []
+- id: "14899826694"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-12T04:03:16Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 470
+    title: ""
+- id: "14899697877"
+  type: PullRequestEvent
+  repo: unhappychoice/cycle-pusher
+  createdAt: 2026-09-12T03:57:06Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 363
+    title: ""
+- id: "14899675078"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-09-12T03:55:58Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 557
+    title: ""
+- id: "14898377100"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-12T02:55:32Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1088
+    prTitle: ""
+    state: approved
+- id: "20866181068"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-09-12T02:50:36Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20865994595"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-09-12T02:48:03Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20865995625"
+  type: DeleteEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-09-12T02:48:03Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20865994965"
+  type: DeleteEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-09-12T02:48:03Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20865993823"
+  type: PushEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-09-12T02:48:02Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "20865994272"
+  type: DeleteEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-09-12T02:48:02Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20865993721"
+  type: DeleteEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-09-12T02:48:02Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20865992923"
+  type: PushEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-09-12T02:48:01Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "14898215853"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-09-12T02:48:00Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 699
+    prTitle: ""
+    state: approved
+- id: "14898215802"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-09-12T02:48:00Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 596
+    prTitle: ""
+    state: approved
+- id: "14898215769"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-09-12T02:48:00Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 69
+    prTitle: ""
+    state: approved
+- id: "14898215762"
+  type: PullRequestReviewEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-09-12T02:48:00Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 556
+    prTitle: ""
+    state: approved
+- id: "14898215753"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-09-12T02:48:00Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 199
+    prTitle: ""
+    state: approved
+- id: "14898215631"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/steamfetch
+  createdAt: 2026-09-12T02:47:59Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 81
+    prTitle: ""
+    state: approved
+- id: "14898215597"
+  type: PullRequestReviewEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-09-12T02:47:59Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 663
+    prTitle: ""
+    state: approved
+- id: "14898215492"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-12T02:47:59Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 758
+    prTitle: ""
+    state: approved
+- id: "20865513185"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T02:41:23Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14898075847"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-12T02:41:21Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 942
+    prTitle: ""
+    state: approved
+- id: "20854564696"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:31Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20847246399"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-11T15:47:25Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20847245494"
+  type: PushEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-09-11T15:47:25Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20847245001"
+  type: PushEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-09-11T15:47:24Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20815669544"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-09-11T15:49:44Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "14871015140"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:44Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 943
+    prTitle: ""
+    state: approved
+- id: "14871013144"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:41Z
+  payload:
+    kind: generic
+    action: created
+- id: "14871010469"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:40Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 942
+    prTitle: ""
+    state: approved
+- id: "20815502748"
+  type: DeleteEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14871007122"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:36Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 931
+    prTitle: ""
+    state: approved
+- id: "20815495316"
+  type: PushEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:34Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14871003797"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:32Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 945
+    prTitle: ""
+    state: approved
+- id: "14871002722"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-11T15:47:31Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 544
+    prTitle: ""
+    state: approved
+- id: "20815489568"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-11T15:47:29Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20815487721"
+  type: PushEvent
+  repo: unhappychoice/zenn-docs
+  createdAt: 2026-09-11T15:47:28Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "14870999357"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-09-11T15:47:28Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 944
+    prTitle: ""
+    state: approved
+- id: "14870999154"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-11T15:47:28Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 469
+    prTitle: ""
+    state: approved
+- id: "14870998753"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-11T15:47:27Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 543
+    prTitle: ""
+    state: approved
+- id: "14870998424"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-11T15:47:27Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1089
+    prTitle: ""
+    state: approved
+- id: "20815485019"
+  type: DeleteEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-11T15:47:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "14870998022"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-09-11T15:47:26Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 313
+    prTitle: ""
+    state: approved
+- id: "14870997449"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/zenn-docs
+  createdAt: 2026-09-11T15:47:26Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 11
+    prTitle: ""
+    state: approved
+- id: "20815483661"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-11T15:47:25Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20815482796"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-11T15:47:24Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "14870994251"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-09-11T15:47:23Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 215
+    prTitle: ""
+    state: approved
+- id: "14870994082"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-09-11T15:47:22Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1087
+    prTitle: ""
+    state: approved
+- id: "14870993734"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-09-11T15:47:22Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 757
+    prTitle: ""
+    state: approved
+- id: "14870993659"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-09-11T15:47:22Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 179
+    prTitle: ""
+    state: approved
+- id: "14870993533"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-09-11T15:47:22Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 542
+    prTitle: ""
+    state: approved
+- id: "14870993169"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/color-hash.kt
+  createdAt: 2026-09-11T15:47:21Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 260
+    prTitle: ""
+    state: approved
+- id: "14870993085"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-09-11T15:47:21Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 468
+    prTitle: ""
+    state: approved
