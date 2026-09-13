@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>lintric resolution heuristics and a 170-commit Saturday</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W37/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W37/</guid>
+      <description>A week dominated by dependency hygiene across 20+ repos, punctuated by deep Rust fixes in lintric and a suspiciously productive Saturday.
+
+This week was fundamentally a maintenance and housekeeping sprint across a sprawling portfolio of projects. The dependency update conveyor belt ran hard — 15 PRs merged, 64 reviews approved, touching everything from Rust crates to Ruby gems to npm packages across repos like mdts, gitlogue, steamfetch, gittype, and half a dozen others. It&apos;s the kind of week where the commit graph looks like a heartbeat monitor rather than a sprint chart.
+
+The genuinely interesting story lives in lintric, where I was deep in the weeds on Rust resolution heuristics — fixing how qualified members are narrowed by resolved owner identity, preserving imports reached through module paths, and resolving lexical imports and enum members by their roles. These aren&apos;t glamorous commit messages, but they represent the kind of careful, fiddly static analysis work that&apos;s easy to get wrong. The PR activity there (comments, a changes_requested, multiple iterations) tells the story of a feature that needed real thought.
+
+Saturday the 12th was something else entirely — 170 commits in a single day, which dwarfs the rest of the week combined. That&apos;s clearly an automated or batch-merge day where the dependency pipeline flushed, but it&apos;s a striking spike. Alongside that, four releases shipped: DroidFlyer v2.1.0, Norimaki v1.1.2, splashboard v2.10.1, and circleci-tools/CircleCI 2.1.1 — a solid release cadence for a single week.
+
+
+Commits: 171, PRs: 15, Reviews: 64</description>
+      <pubDate>Sun, 13 Sep 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W37/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W37/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>210 commits across 15+ repos: the great dependency harvest of September</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W36/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W36/</guid>
