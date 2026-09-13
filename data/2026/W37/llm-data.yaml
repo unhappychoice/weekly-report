@@ -1,0 +1,182 @@
+title: lintric resolution heuristics and a 170-commit Saturday
+subtitle: A week dominated by dependency hygiene across 20+ repos, punctuated by deep Rust fixes in lintric and a
+  suspiciously productive Saturday.
+overview: >
+  This week was fundamentally a maintenance and housekeeping sprint across a sprawling portfolio of projects. The
+  dependency update conveyor belt ran hard — 15 PRs merged, 64 reviews approved, touching everything from Rust crates to
+  Ruby gems to npm packages across repos like mdts, gitlogue, steamfetch, gittype, and half a dozen others. It's the
+  kind of week where the commit graph looks like a heartbeat monitor rather than a sprint chart.
+
+
+  The genuinely interesting story lives in lintric, where I was deep in the weeds on Rust resolution heuristics — fixing
+  how qualified members are narrowed by resolved owner identity, preserving imports reached through module paths, and
+  resolving lexical imports and enum members by their roles. These aren't glamorous commit messages, but they represent
+  the kind of careful, fiddly static analysis work that's easy to get wrong. The PR activity there (comments, a
+  changes_requested, multiple iterations) tells the story of a feature that needed real thought.
+
+
+  Saturday the 12th was something else entirely — 170 commits in a single day, which dwarfs the rest of the week
+  combined. That's clearly an automated or batch-merge day where the dependency pipeline flushed, but it's a striking
+  spike. Alongside that, four releases shipped: DroidFlyer v2.1.0, Norimaki v1.1.2, splashboard v2.10.1, and
+  circleci-tools/CircleCI 2.1.1 — a solid release cadence for a single week.
+summaries:
+  - type: deep-dive
+    heading: "lintric: untangling Rust resolution heuristics"
+    body: The most technically dense work this week was in unhappychoice/lintric, where I pushed a series of fixes around
+      how the static analysis core resolves symbols. Commits like 'prefer concrete members over trait defaults', 'narrow
+      qualified members by resolved owner identity', and 'resolve lexical imports and enum members by their roles' point
+      to a systematic effort to make the resolution engine more correct. The review activity here was notably different
+      from the rest of the week — I left comments and a changes_requested on lintric PRs, which means I was actually
+      thinking critically rather than rubber-stamping dependency bumps.
+    chips:
+      - label: repo
+        value: unhappychoice/lintric
+        color: default
+      - label: PRs reviewed
+        value: 7 PRs
+        color: default
+      - label: review types
+        value: approved + changes_requested
+        color: default
+  - type: activity-pattern
+    heading: 170 commits on a Saturday — what happened?
+    body: "The daily commit distribution this week is wild: 47, 36, 57, 25, 25, 170, 10. Saturday the 12th accounts for more
+      commits than Monday through Friday combined. This is almost certainly the day the dependency merge pipeline ran in
+      bulk — Dependabot PRs queuing up and flushing all at once across the 20+ active repos. The bookend days (Sunday at
+      10) confirm the burst was a one-day event, not a sustained push."
+    chips:
+      - label: peak day
+        value: "Sat Sep 12: 170"
+        color: green
+      - label: total commits
+        value: "171"
+        color: default
+      - label: quietest day
+        value: "Sun Sep 13: 10"
+        color: default
+  - type: repo-summary
+    heading: 20+ repos touched, mdts leads the charge
+    body: unhappychoice/mdts was the busiest repo by far with 18 PRs, covering eslint 9→10 migration, jest 30.5.1,
+      jest-environment-jsdom, webpack-cli, typescript-eslint, and @types/aws-lambda updates. Beyond mdts, the week
+      spread across lintric, circleci-cli, cycle-flyer, blog, DroidFlyer, gitlogue, steamfetch, and more — a true
+      portfolio maintenance week spanning JavaScript, Rust, Ruby, and Kotlin ecosystems.
+    chips:
+      - label: unhappychoice/mdts
+        value: 18 PRs
+        color: default
+      - label: unhappychoice/lintric
+        value: 7 PRs
+        color: default
+      - label: total repos
+        value: 20+
+        color: default
+      - label: languages
+        value: JS · Rust · Ruby · Kotlin
+        color: default
+  - type: release-roundup
+    heading: Four releases shipped, including DroidFlyer v2.1.0
+    body: Four projects cut releases this week. DroidFlyer v2.1.0 landed with a batch of Gradle and Kotlin dependency bumps.
+      Norimaki v1.1.2 shipped with a targetSdk raise to 36 for Play Store compliance. splashboard v2.10.1 fixed a remote
+      name comparison bug for gix 0.86. circleci-tools/CircleCI 2.1.1 followed with Kotlin version bumps and test
+      improvements. Steady release cadence across the Android and Rust projects.
+    chips:
+      - label: releases
+        value: 4 shipped
+        color: green
+      - label: DroidFlyer
+        value: v2.1.0
+        color: default
+      - label: Norimaki
+        value: v1.1.2
+        color: default
+      - label: splashboard
+        value: v2.10.1
+        color: default
+  - type: review-summary
+    heading: 64 reviews, mostly approvals — with one notable exception
+    body: I logged 64 reviews this week spanning 20+ repos, and the overwhelming majority were approvals on dependency
+      update PRs. The exception was lintric, where I left two comments and a changes_requested — the only repo this week
+      where the review process involved actual back-and-forth. That ratio (63 approvals vs. 1 changes_requested)
+      reflects a week where most work was mechanical dependency hygiene, with lintric as the sole place requiring real
+      judgment.
+    chips:
+      - label: total reviews
+        value: "64"
+        color: default
+      - label: approved
+        value: "61"
+        color: green
+      - label: changes_requested
+        value: "1"
+        color: default
+      - label: commented
+        value: "2"
+        color: default
+  - type: tech-debt
+    heading: "Silent CI bug in gitlogue: curl eating 404s"
+    body: "One of the more satisfying fixes this week was 'fix(ci): fail Homebrew SHA step on HTTP errors' in gitlogue. The
+      bug was subtle: `curl -sL | sha256sum` exits 0 even on a 404, so the pipeline was happily hashing error response
+      bodies and writing bogus SHAs to the Homebrew formula while reporting success. The fix extracted a `fetch_sha`
+      helper with `curl -fsSL --retry 3 --retry-delay 5` and added `set -euo pipefail` to make failures actually fail.
+      Classic silent CI footgun."
+    chips:
+      - label: repo
+        value: unhappychoice/gitlogue
+        color: default
+      - label: fix
+        value: curl -fsSL + set -euo pipefail
+        color: default
+      - label: lines
+        value: +10 -4
+        color: default
+highlights:
+  - type: pr
+    title: "fix(ci): fail Homebrew SHA step on HTTP errors"
+    repo: unhappychoice/gitlogue
+    meta: merged Sep 2026 · +10 -4 · 1 file
+    body: "A genuinely sneaky bug: curl silently digesting 404 error bodies and producing a valid-looking SHA for the
+      Homebrew formula. Adding `set -euo pipefail` and a proper `fetch_sha` helper closes the gap."
+    url: https://github.com/unhappychoice/gitlogue/pull/238
+  - type: pr
+    title: "chore(deps-dev): Bump jest from 30.5.0 to 30.5.1 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Sep 2026 · +338 -640 · 2 files
+    body: A dependency bump that actually deleted more than it added — 640 lines out, 338 in. jest 30.5.1 apparently cleaned
+      up some generated lockfile bloat in the process.
+    url: https://github.com/unhappychoice/mdts/pull/938
+  - type: release
+    title: v2.1.0
+    repo: bitflyer-tools/DroidFlyer
+    meta: released Sep 2026
+    body: DroidFlyer hits v2.1.0 with a Kotlin and Gradle refresh. Keeping the Android trading app current with the Kotlin
+      2.x ecosystem.
+  - type: release
+    title: Release v2.10.1
+    repo: unhappychoice/splashboard
+    meta: released Sep 2026
+    body: Patched a remote name comparison bug introduced by a gix 0.86 API change — the kind of upstream breakage that only
+      surfaces when you actually run the tool.
+  - type: pr
+    title: "chore(deps-dev): Bump eslint from 10.9.1 to 10.10.0"
+    repo: unhappychoice/mdts
+    meta: merged Sep 2026 · +127 -76 · 1 file
+    body: Part of the broader eslint 9→10 migration push in mdts this week — this one brought in new features from eslint
+      10.10.0 alongside the config churn.
+    url: https://github.com/unhappychoice/mdts/pull/937
+ticker:
+  - label: SATURDAY SURGE
+    text: "@unhappychoice detonates 170 commits in a single Saturday. Experts call it unprecedented."
+  - label: REPO RAMPAGE
+    text: "@unhappychoice storms through 20+ repos in 7 days. No dependency left behind."
+  - label: SILENT KILLER
+    text: "@unhappychoice hunts down curl-eating-404s bug hiding in gitlogue CI for unknown months."
+  - label: REVIEW MACHINE
+    text: "@unhappychoice approves 61 PRs in one week. Rubber stamp industry reports record profits."
+  - label: TRAIT TROUBLE
+    text: "@unhappychoice forces lintric to prefer concrete members over trait defaults. Traits weep."
+  - label: FOUR RELEASES
+    text: "@unhappychoice ships DroidFlyer, Norimaki, splashboard and CircleCI in a single week."
+  - label: YARN CRISIS
+    text: "@unhappychoice upgrades jest, eslint, webpack-cli and typescript-eslint simultaneously. Chaos ensues."
+  - label: RUST NEVER SLEEPS
+    text: "@unhappychoice bumps dirs, toml, and open crates across gitlogue, steamfetch, and gittype simultaneously."
