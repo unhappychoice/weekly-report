@@ -1,0 +1,162 @@
+title: 63 dependency approvals across 20+ repos in one week
+subtitle: "A week of automated maintenance at scale: Dependabot sweeps hit Rust, Ruby, JavaScript, and Java projects
+  simultaneously."
+overview: >
+  This week was defined almost entirely by dependency maintenance at a scale that's genuinely impressive to look at.
+  With 127 commits across a sprawling portfolio of repos — from Rust TUI projects like splashboard and gittype, to Ruby
+  tooling in bitflyer-tools and irasutoya-tools, to JavaScript frontends in mdts and cycle-flyer — the week read like a
+  coordinated Dependabot blitz across every language I work in. The one standout manual commit was a fix in mdts to pin
+  mermaid's look and layout back to pre-12 defaults after a major version bump broke things, which is exactly the kind
+  of subtle regression that a pure dep-bump week will surface.
+
+
+  The review queue was the real story: 63 approvals across more than 20 distinct repos, touching rubocop 1.91.0 rollouts
+  across at least four Ruby projects simultaneously, robolectric 4.17 landing in both DroidFlyer and color-hash.kt, and
+  a tachyonfx bump in splashboard that came with a surprisingly chunky +75 -20 diff for a patch release. Monday and
+  Friday were the burst days — 87 and 92 commits respectively — suggesting these were the days the merge queues got
+  processed in bulk.
+
+
+  The only genuinely novel work this week was the LiteLLM pricing sync automation in splashboard and a vitest 4→5
+  upgrade in deariary/github-weekly-reporter that someone hand-crafted rather than leaving to Dependabot. Otherwise,
+  this was a week of keeping the fleet updated and the bots happy — unglamorous but essential work that compounds
+  quietly over time.
+summaries:
+  - type: deep-dive
+    heading: mermaid 12 breaks mdts, gets pinned back
+    body: "Buried inside a week of rubber-stamp dep bumps was one actual debugging moment: after mermaid jumped to 12.0.0,
+      the frontend rendering in mdts drifted from the expected look and layout. The fix was a deliberate commit —
+      'fix(frontend): pin mermaid look and feel to the pre-12 defaults' — which tells the real story: major version
+      bumps in diagramming libraries are sneaky, and automated merges don't catch visual regressions. Worth watching for
+      a proper mermaid 12 migration later."
+    chips:
+      - label: repo
+        value: unhappychoice/mdts
+        color: default
+      - label: issue
+        value: mermaid v12 layout drift
+        color: default
+      - label: fix
+        value: pre-12 defaults pinned
+        color: green
+  - type: review-summary
+    heading: 63 approvals, 20+ repos, zero rejections
+    body: The review queue this week was a marathon, not a sprint. 63 approvals spanning unhappychoice/mdts (8 reviews),
+      circleci-tools/circleci-cli (7), unhappychoice/slack_channel_stats (7), and unhappychoice/splashboard (5) among
+      others. Every single one was an approval — this is the rhythm of a well-maintained Dependabot setup where the
+      developer trusts the automation and moves fast. The breadth across Ruby, Rust, JavaScript, and Java in a single
+      week is notable.
+    chips:
+      - label: total reviews
+        value: "63"
+        color: green
+      - label: repos covered
+        value: 20+
+        color: default
+      - label: approval rate
+        value: 100%
+        color: green
+      - label: top repo
+        value: mdts (8 reviews)
+        color: default
+  - type: activity-pattern
+    heading: Two burst days bookend a steady merge week
+    body: "Monday opened with 87 commits and Friday closed with 92 — both clearly batch-merge days where the Dependabot
+      queue got processed in one sitting. Tuesday through Thursday held steady in the 23–33 range, and Sunday wound down
+      to just 10. The pattern suggests a deliberate workflow: let PRs accumulate, then clear them in focused sessions
+      rather than dripping approvals throughout the day."
+    chips:
+      - label: peak day
+        value: Fri 92
+        color: green
+      - label: second peak
+        value: Mon 87
+        color: green
+      - label: quietest
+        value: Sun 10
+        color: default
+      - label: total commits
+        value: "127"
+        color: default
+  - type: repo-summary
+    heading: 20 repos touched, every language represented
+    body: splashboard led with 10 PRs, followed by mdts at 9 and circleci-cli and slack_channel_stats at 7 each. The Rust
+      projects (gittype, gitlogue, splashboard, lintric, steamfetch, kobito) got cargo bumps across the board, while
+      Ruby repos (bitflyer, bitflyer-cli, irasutoya, irasutoya-cli, circleci-cli, terminal_image, blog) all picked up
+      rubocop 1.91.0 and various bundler updates. Java/Kotlin projects (DroidFlyer, color-hash.kt, Norimaki) landed
+      robolectric 4.17.
+    chips:
+      - label: most active
+        value: splashboard (10 PRs)
+        color: default
+      - label: languages
+        value: Rust, Ruby, JS, Java
+        color: default
+      - label: total repos
+        value: 20+
+        color: default
+  - type: tech-debt
+    heading: vitest 5 lands in github-weekly-reporter
+    body: "One non-trivial upgrade this week: deariary/github-weekly-reporter jumped from vitest 4.1.11 to 5.0.0, and this
+      one was hand-crafted rather than auto-generated — the commit message shows a manual bump of both vitest and
+      @vitest/coverage-v8 together. Major version test framework upgrades require a bit more care than a patch bump, so
+      this one stands out from the Dependabot noise as something that actually needed human attention."
+    chips:
+      - label: repo
+        value: deariary/github-weekly-reporter
+        color: default
+      - label: upgrade
+        value: vitest 4 → 5
+        color: green
+      - label: type
+        value: manual bump
+        color: default
+highlights:
+  - type: pr
+    title: "chore: sync llm pricing from LiteLLM"
+    repo: unhappychoice/splashboard
+    meta: merged Sep 2026 · +5 -0 · 1 file
+    body: "The only automation-authored (non-Dependabot) PR this week: an automated daily refresh of LLM pricing data from
+      LiteLLM's price table. The review checklist in the PR body — checking for order-of-magnitude jumps and silently
+      disappeared models — shows real thought went into making this safe to auto-merge."
+    url: https://github.com/unhappychoice/splashboard/pull/331
+  - type: pr
+    title: "chore(deps-dev): Bump @babel/core from 8.0.1 to 8.0.5 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged Sep 2026 · +73 -75 · 2 files
+    body: The largest diff of any dep bump this week at +73 -75, which is unusually large for a lock file update —
+      suggesting the package graph shifted meaningfully with the babel 8.0.1 → 8.0.5 jump.
+    url: https://github.com/unhappychoice/mdts/pull/947
+  - type: pr
+    title: "chore(deps)(deps): bump tachyonfx from 0.25.1 to 0.25.2"
+    repo: unhappychoice/splashboard
+    meta: merged Sep 2026 · +75 -20 · 1 file
+    body: A patch bump with a +75 -20 diff in a single file is a red flag worth noting — tachyonfx 0.25.2 apparently brought
+      substantial internal changes despite the minor version label. Worth keeping an eye on rendering behavior in
+      splashboard.
+    url: https://github.com/unhappychoice/splashboard/pull/335
+  - type: pr
+    title: "chore(deps): bump the minor-and-patch group with 7 updates"
+    repo: deariary/github-weekly-reporter
+    meta: merged Sep 2026 · +297 -207 · 2 files
+    body: The single biggest diff of the week at +297 -207, driven by a grouped Dependabot PR updating 7 packages at once
+      including the Anthropic SDK from 0.123.0 to 0.124.0. Grouped bumps keep the PR count down but make diffs harder to
+      audit.
+    url: https://github.com/deariary/github-weekly-reporter/pull/157
+ticker:
+  - label: MASS APPROVAL
+    text: "@unhappychoice approves 63 PRs in 7 days. Merge button reportedly smoking."
+  - label: BURST MODE
+    text: "@unhappychoice drops 92 commits on a Friday. Weekend plans: cancelled."
+  - label: FLEET UPDATE
+    text: "@unhappychoice rolls rubocop 1.91.0 across 4 Ruby repos simultaneously."
+  - label: PATCH CHAOS
+    text: "@unhappychoice discovers tachyonfx 'patch' release hiding +75 line diff. Experts alarmed."
+  - label: MERMAID DRAMA
+    text: "@unhappychoice pins mermaid back to pre-12 defaults after diagrams go rogue."
+  - label: POLYGLOT ALERT
+    text: "@unhappychoice merges Rust, Ruby, JS, and Java deps in a single week. Unhinged."
+  - label: LLM PRICES
+    text: "@unhappychoice automates LiteLLM pricing sync. Token costs now updated daily."
+  - label: VITEST 5 LANDS
+    text: "@unhappychoice manually upgrades vitest to v5. One small step for deps, one giant leap."
