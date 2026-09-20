@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>63 dependency approvals across 20+ repos in one week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W38/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W38/</guid>
+      <description>A week of automated maintenance at scale: Dependabot sweeps hit Rust, Ruby, JavaScript, and Java projects simultaneously.
+
+This week was defined almost entirely by dependency maintenance at a scale that&apos;s genuinely impressive to look at. With 127 commits across a sprawling portfolio of repos — from Rust TUI projects like splashboard and gittype, to Ruby tooling in bitflyer-tools and irasutoya-tools, to JavaScript frontends in mdts and cycle-flyer — the week read like a coordinated Dependabot blitz across every language I work in. The one standout manual commit was a fix in mdts to pin mermaid&apos;s look and layout back to pre-12 defaults after a major version bump broke things, which is exactly the kind of subtle regression that a pure dep-bump week will surface.
+
+The review queue was the real story: 63 approvals across more than 20 distinct repos, touching rubocop 1.91.0 rollouts across at least four Ruby projects simultaneously, robolectric 4.17 landing in both DroidFlyer and color-hash.kt, and a tachyonfx bump in splashboard that came with a surprisingly chunky +75 -20 diff for a patch release. Monday and Friday were the burst days — 87 and 92 commits respectively — suggesting these were the days the merge queues got processed in bulk.
+
+The only genuinely novel work this week was the LiteLLM pricing sync automation in splashboard and a vitest 4→5 upgrade in deariary/github-weekly-reporter that someone hand-crafted rather than leaving to Dependabot. Otherwise, this was a week of keeping the fleet updated and the bots happy — unglamorous but essential work that compounds quietly over time.
+
+
+Commits: 127, PRs: 1, Reviews: 63</description>
+      <pubDate>Sun, 20 Sep 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W38/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W38/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>lintric resolution heuristics and a 170-commit Saturday</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W37/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W37/</guid>
