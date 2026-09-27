@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency sweep week: 59 approvals across 20+ repos</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W39/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W39/</guid>
+      <description>A high-velocity maintenance sprint touching Ruby, JS, Kotlin, Rust, Java, and Android deps — plus mdts v0.21.0 shipping.
+
+This week was a full-on dependency maintenance marathon. With 122 commits across more than 20 repositories and 59 PR approvals, the throughput was remarkable — not because of any single dramatic feature, but because of the sheer breadth of the ecosystem being kept healthy. Ruby gems, npm packages, Cargo crates, Gradle plugins, and GitHub Actions all got attention in the same week.
+
+The most interesting narrative arc was the commit volume curve: a steady warmup through Monday to Thursday, then an absolute explosion on Saturday (224) and Sunday (275). That weekend burst accounts for nearly half the week&apos;s commits, suggesting a focused automation or merge session to clear the dependency backlog. The one genuine feature moment was mdts v0.21.0 shipping, which included a mermaid rendering fix and a security-conscious restriction of the `/api/markdown` endpoint to markdown-only files.
+
+Cross-org reach was wide this week — circleci-tools, bitflyer-tools, irasutoya-tools, and deariary all saw activity alongside the personal unhappychoice repos. The blog also got a new engineering article merged. It&apos;s a week that won&apos;t make headlines, but it&apos;s the kind of unglamorous infrastructure work that keeps a large multi-repo portfolio from quietly rotting.
+
+
+Commits: 122, PRs: 2, Reviews: 59</description>
+      <pubDate>Sun, 27 Sep 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W39/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W39/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>63 dependency approvals across 20+ repos in one week</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W38/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W38/</guid>
