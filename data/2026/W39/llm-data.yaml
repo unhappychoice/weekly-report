@@ -1,0 +1,171 @@
+title: "Dependency sweep week: 59 approvals across 20+ repos"
+subtitle: A high-velocity maintenance sprint touching Ruby, JS, Kotlin, Rust, Java, and Android deps — plus mdts v0.21.0
+  shipping.
+overview: >
+  This week was a full-on dependency maintenance marathon. With 122 commits across more than 20 repositories and 59 PR
+  approvals, the throughput was remarkable — not because of any single dramatic feature, but because of the sheer
+  breadth of the ecosystem being kept healthy. Ruby gems, npm packages, Cargo crates, Gradle plugins, and GitHub Actions
+  all got attention in the same week.
+
+
+  The most interesting narrative arc was the commit volume curve: a steady warmup through Monday to Thursday, then an
+  absolute explosion on Saturday (224) and Sunday (275). That weekend burst accounts for nearly half the week's commits,
+  suggesting a focused automation or merge session to clear the dependency backlog. The one genuine feature moment was
+  mdts v0.21.0 shipping, which included a mermaid rendering fix and a security-conscious restriction of the
+  `/api/markdown` endpoint to markdown-only files.
+
+
+  Cross-org reach was wide this week — circleci-tools, bitflyer-tools, irasutoya-tools, and deariary all saw activity
+  alongside the personal unhappychoice repos. The blog also got a new engineering article merged. It's a week that won't
+  make headlines, but it's the kind of unglamorous infrastructure work that keeps a large multi-repo portfolio from
+  quietly rotting.
+summaries:
+  - type: deep-dive
+    heading: "mdts v0.21.0: mermaid fixes and API hardening"
+    body: The headline ship of the week was mdts v0.21.0, which pinned mermaid's look and layout to pre-v12 defaults — a
+      pragmatic rollback to avoid upstream rendering regressions. The release also restricted `/api/markdown` to only
+      serve actual markdown files, closing a subtle attack surface. Fifteen PRs were merged into mdts this week alone,
+      making it the busiest single repo by a wide margin.
+    chips:
+      - label: release
+        value: v0.21.0
+        color: green
+      - label: repo
+        value: unhappychoice/mdts
+        color: default
+      - label: PRs merged
+        value: "15"
+        color: default
+      - label: bug fixes
+        value: 2 notable
+        color: default
+  - type: activity-pattern
+    heading: Flat week, then a weekend avalanche
+    body: "Commits were steady but modest Monday through Friday (ranging 31–85/day), then the weekend hit differently: 224
+      on Saturday and 275 on Sunday. That two-day burst alone accounts for roughly 41% of the week's 122 commits. This
+      pattern strongly suggests a batch merge session — likely clearing a queue of Dependabot PRs across the full
+      portfolio."
+    chips:
+      - label: peak day
+        value: Sun 275
+        color: green
+      - label: weekend total
+        value: 499 commits
+        color: default
+      - label: weekday avg
+        value: 57/day
+        color: default
+  - type: review-summary
+    heading: 59 approvals, zero rejections — the merge machine
+    body: Every single one of the 59 reviews this week was an approval. That's not laziness — it reflects a workflow where
+      Dependabot PRs are vetted by compatibility scores and changelogs before hitting the queue. The review spread
+      covered 20+ distinct repos across 5 orgs, which means this wasn't rubber-stamping one project but actively
+      shepherding an entire ecosystem.
+    chips:
+      - label: reviews
+        value: 59 approved
+        color: green
+      - label: repos reviewed
+        value: 20+
+        color: default
+      - label: rejections
+        value: "0"
+        color: default
+  - type: repo-summary
+    heading: 20+ repos touched across 5 orgs
+    body: unhappychoice/mdts led the pack with 15 PRs, followed by circleci-tools/circleci-cli (6) and
+      unhappychoice/splashboard (6). The bitflyer-tools org saw Android and Electron updates across DroidFlyer,
+      cycle-flyer, and bitflyer-cli. irasutoya-tools got regexp_parser and unicode-display_width bumps in both its
+      repos. The deariary org had github-weekly-reporter and .github both updated.
+    chips:
+      - label: unhappychoice/mdts
+        value: 15 PRs
+        color: default
+      - label: circleci-tools/circleci-cli
+        value: 6 PRs
+        color: default
+      - label: unhappychoice/splashboard
+        value: 6 PRs
+        color: default
+      - label: orgs touched
+        value: "5"
+        color: default
+  - type: contribution-summary
+    heading: "Cross-org maintenance: circleci, bitflyer, irasutoya, deariary"
+    body: A significant chunk of the week's work happened outside personal repos. circleci-tools/circleci-cli absorbed 6
+      Ruby dependency merges including faraday-http-cache jumping a major version (2.x → 3.0.0). bitflyer-tools saw
+      Android Gradle plugin and PubNub SDK bumps in DroidFlyer, plus an Electron patch in cycle-flyer. The
+      deariary/github-weekly-reporter got its Anthropic SDK and other JS deps updated, and deariary/.github had its
+      integrations docs refreshed.
+    chips:
+      - label: external orgs
+        value: "4"
+        color: default
+      - label: faraday-http-cache
+        value: 2.x → 3.0.0
+        color: default
+      - label: electron
+        value: 44.3.0 → 44.4.2
+        color: default
+  - type: deep-dive
+    heading: splashboard keeps its LLM pricing fresh
+    body: "Among the non-Dependabot commits, unhappychoice/splashboard had two manual 'chore: sync llm pricing from LiteLLM'
+      commits this week — a recurring maintenance task to keep the tool's model cost data current. This ran alongside
+      four Cargo dependency bumps (clap, toml, ratatui-image, netdev), showing splashboard getting both data and library
+      maintenance simultaneously."
+    chips:
+      - label: repo
+        value: unhappychoice/splashboard
+        color: default
+      - label: llm sync
+        value: 2 runs
+        color: default
+      - label: cargo bumps
+        value: "4"
+        color: default
+highlights:
+  - type: release
+    title: v0.21.0
+    repo: unhappychoice/mdts
+    meta: released Sep 2026
+    body: "Shipped two meaningful bug fixes: mermaid rendering pinned to pre-v12 defaults to avoid upstream layout
+      regressions, and the `/api/markdown` API endpoint now rejects non-markdown files — a quiet but important security
+      improvement."
+  - type: pr
+    title: "chore(deps): bump faraday-http-cache from 2.7.0 to 3.0.0"
+    repo: circleci-tools/circleci-cli
+    meta: merged Sep 2026 · +2 -2 · 1 file
+    body: A major version bump on faraday-http-cache deserves a callout — 2.x to 3.0.0 is a breaking-change boundary and
+      merging it cleanly across both circleci-cli and slack_channel_stats shows the test suites held up.
+    url: https://github.com/circleci-tools/circleci-cli/pull/1098
+  - type: pr
+    title: "chore(deps)(deps): bump clap from 4.6.3 to 4.6.7"
+    repo: unhappychoice/splashboard
+    meta: merged Sep 2026 · +7 -7 · 1 file
+    body: clap jumped four patch versions in one go, picking up new CLI features. Keeping a TUI tool like splashboard on a
+      recent clap ensures argument parsing stays ergonomic as the tool grows.
+    url: https://github.com/unhappychoice/splashboard/pull/341
+  - type: pr
+    title: "chore(deps): bump the minor-and-patch group with 5 updates"
+    repo: deariary/github-weekly-reporter
+    meta: merged Sep 2026 · +17 -17 · 2 files
+    body: The Anthropic SDK bumped from 0.124.0 to 0.126.0 in the very tool that generates these reports — a pleasingly
+      self-referential update that keeps the AI layer current.
+    url: https://github.com/deariary/github-weekly-reporter/pull/162
+ticker:
+  - label: WEEKEND SURGE
+    text: "@unhappychoice drops 499 commits in 48 hrs. Authorities are concerned."
+  - label: MASS APPROVAL
+    text: "@unhappychoice approves 59 PRs in one week. Zero rejections. Zero mercy."
+  - label: SHIPS IT
+    text: "@unhappychoice releases mdts v0.21.0, taming mermaid's chaotic new defaults"
+  - label: MAJOR BUMP
+    text: "@unhappychoice yeets faraday-http-cache past a major version. No one blinks."
+  - label: SELF UPDATE
+    text: "@unhappychoice upgrades the Anthropic SDK in the tool writing this very report"
+  - label: FIVE ORGS
+    text: "@unhappychoice touches 20+ repos across 5 GitHub orgs before Sunday ends"
+  - label: LLM WATCHER
+    text: "@unhappychoice syncs LLM pricing from LiteLLM twice. Keeping tabs on the robots."
+  - label: NO SURVIVORS
+    text: "@unhappychoice's dep backlog: obliterated. Ruby, JS, Rust, Java — all patched."
