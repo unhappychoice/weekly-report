@@ -1154,3 +1154,39 @@
     prNumber: 197
     prTitle: ""
     state: approved
+- id: "16322375437"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-03T02:25:27Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 322
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "16322375341"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-03T02:25:27Z
+  payload:
+    kind: issues
+    action: opened
+    number: 322
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "16322375253"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-03T02:25:27Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 321
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "16322375164"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-03T02:25:27Z
+  payload:
+    kind: issues
+    action: opened
+    number: 321
+    title: "[CI Failure] bitflyer-tools/cycle-flyer"
