@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Dependency sweep week: 59 approvals across 20+ repos - 2026-09-21 - 2026-09-27</title>
+  <title>gitlogue v0.12.0 ships watch mode, Monoid Studio launches, and 49 dep PRs get rubber-stamped - 2026-09-28 - 2026-10-04</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="A high-velocity maintenance sprint touching Ruby, JS, Kotlin, Rust, Java, and Android deps — plus mdts v0.21.0 shipping." />
+  <meta name="description" content="A week split between creative feature work on gitlogue and gitlogue&#x27;s new commit watch mode, a fresh org website for Monoid Studio, and an industrial-scale dependency review marathon spanning 20+ repos." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <meta property="og:title" content="Dependency sweep week: 59 approvals across 20+ repos" />
-  <meta property="og:description" content="A high-velocity maintenance sprint touching Ruby, JS, Kotlin, Rust, Java, and Android deps — plus mdts v0.21.0 shipping." />
-  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W39/og.png" />
+  <meta property="og:title" content="gitlogue v0.12.0 ships watch mode, Monoid Studio launches, and 49 dep PRs get rubber-stamped" />
+  <meta property="og:description" content="A week split between creative feature work on gitlogue and gitlogue&#x27;s new commit watch mode, a fresh org website for Monoid Studio, and an industrial-scale dependency review marathon spanning 20+ repos." />
+  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W40/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W39/" />
+  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W40/" />
   <meta property="og:site_name" content="unhappychoice Weekly Reports" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Dependency sweep week: 59 approvals across 20+ repos" />
-  <meta name="twitter:description" content="A high-velocity maintenance sprint touching Ruby, JS, Kotlin, Rust, Java, and Android deps — plus mdts v0.21.0 shipping." />
-  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W39/og.png" />
+  <meta name="twitter:title" content="gitlogue v0.12.0 ships watch mode, Monoid Studio launches, and 49 dep PRs get rubber-stamped" />
+  <meta name="twitter:description" content="A week split between creative feature work on gitlogue and gitlogue&#x27;s new commit watch mode, a fresh org website for Monoid Studio, and an industrial-scale dependency review marathon spanning 20+ repos." />
+  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W40/og.png" />
   <meta name="author" content="unhappychoice" />
   <meta name="theme-color" content="#050505" />
-  <meta property="article:published_time" content="2026-09-27" />
+  <meta property="article:published_time" content="2026-10-04" />
   <meta property="article:author" content="https://github.com/unhappychoice" />
   <link rel="icon" href="https://avatars.githubusercontent.com/u/5608948?u&#x3D;6ca2fca8320cb6be5b802f6c5a6359933754ab2e&amp;v&#x3D;4" />
-  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W39/" />
+  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W40/" />
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://unhappychoice.github.io/weekly-report/feed.xml" />
   <meta name="view-transition" content="same-origin" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Dependency sweep week: 59 approvals across 20+ repos",
-    "description": "A high-velocity maintenance sprint touching Ruby, JS, Kotlin, Rust, Java, and Android deps — plus mdts v0.21.0 shipping.",
+    "headline": "gitlogue v0.12.0 ships watch mode, Monoid Studio launches, and 49 dep PRs get rubber-stamped",
+    "description": "A week split between creative feature work on gitlogue and gitlogue's new commit watch mode, a fresh org website for Monoid Studio, and an industrial-scale dependency review marathon spanning 20+ repos.",
     "author": {
       "@type": "Person",
       "name": "unhappychoice",
       "url": "https://github.com/unhappychoice"
     },
-    "image": "https://unhappychoice.github.io/weekly-report/2026/W39/og.png",
-    "datePublished": "2026-09-27"
+    "image": "https://unhappychoice.github.io/weekly-report/2026/W40/og.png",
+    "datePublished": "2026-10-04"
   }
   </script>
   <script type="application/ld+json">
@@ -48,7 +48,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://unhappychoice.github.io/weekly-report/" },
-      { "@type": "ListItem", "position": 2, "name": "2026-09-21 - 2026-09-27", "item": "https://unhappychoice.github.io/weekly-report/2026/W39/" }
+      { "@type": "ListItem", "position": 2, "name": "2026-09-28 - 2026-10-04", "item": "https://unhappychoice.github.io/weekly-report/2026/W40/" }
     ]
   }
   </script>
@@ -597,19 +597,19 @@
         <span>unhappychoice</span>
       </a>
       <span class="header-sep">&middot;</span>
-      <span class="header-date">2026-09-21 - 2026-09-27</span>
+      <span class="header-date">2026-09-28 - 2026-10-04</span>
     </div>
-    <h1 class="header-title">Dependency sweep week: 59 approvals across 20+ repos</h1>
-    <p class="header-sub">A high-velocity maintenance sprint touching Ruby, JS, Kotlin, Rust, Java, and Android deps — plus mdts v0.21.0 shipping.</p>
+    <h1 class="header-title">gitlogue v0.12.0 ships watch mode, Monoid Studio launches, and 49 dep PRs get rubber-stamped</h1>
+    <p class="header-sub">A week split between creative feature work on gitlogue and gitlogue&#x27;s new commit watch mode, a fresh org website for Monoid Studio, and an industrial-scale dependency review marathon spanning 20+ repos.</p>
   </div>
 </div>
 
 <main id="main-content">
 <article class="page">
   <div class="overview">
-    <p>This week was a full-on dependency maintenance marathon. With 122 commits across more than 20 repositories and 59 PR approvals, the throughput was remarkable — not because of any single dramatic feature, but because of the sheer breadth of the ecosystem being kept healthy. Ruby gems, npm packages, Cargo crates, Gradle plugins, and GitHub Actions all got attention in the same week.</p>
-  <p>The most interesting narrative arc was the commit volume curve: a steady warmup through Monday to Thursday, then an absolute explosion on Saturday (224) and Sunday (275). That weekend burst accounts for nearly half the week's commits, suggesting a focused automation or merge session to clear the dependency backlog. The one genuine feature moment was mdts v0.21.0 shipping, which included a mermaid rendering fix and a security-conscious restriction of the <code>/api/markdown</code> endpoint to markdown-only files.</p>
-  <p>Cross-org reach was wide this week — circleci-tools, bitflyer-tools, irasutoya-tools, and deariary all saw activity alongside the personal unhappychoice repos. The blog also got a new engineering article merged. It's a week that won't make headlines, but it's the kind of unglamorous infrastructure work that keeps a large multi-repo portfolio from quietly rotting.</p>
+    <p>This week had two very distinct personalities. On one side: real feature work — gitlogue's new commit watch mode landed in v0.12.0, letting users replay new commits as they're made, with thoughtful polish like returning to the waiting screen after playback and respecting pause/detached checkout states. On the other side: an absolute avalanche of dependency maintenance, with 49 reviews approved across 20+ repos spanning Ruby, JavaScript, Rust, Java, and Kotlin. The sheer breadth of repos touched — from circleci-tools to bitflyer-tools to irasutoya-tools — tells the story of someone maintaining a genuinely large personal ecosystem.</p>
+  <p>The gitlogue release was the week's highlight. The <code>feat/commit-watch-mode</code> branch came together with a clean set of commits — feature, fix, refactor — before being bumped to v0.12.0 and shipped. Meanwhile, unhappychoice/splashboard quietly got two LLM pricing sync commits, keeping it current with LiteLLM's ever-shifting model landscape. And then there's the surprise cameo: monoid-studio/monoid-studio.github.io, a brand new org site that went from zero to live with a logo, favicon, sticky header redesign, custom domain, and agent guidelines docs — all in one burst.</p>
+  <p>The daily commit counts tell an interesting story: Sunday opened hot at 124, climbed through the week to peak at 298 on Saturday — a classic end-of-week sprint. Wednesday was the quietest day at 56 commits, suggesting a brief pause mid-week before the final push. With 112 commits, +4139/-1954 lines, and 49 approvals across repos in at least 5 languages, this was a maintenance marathon with a creative highlight reel tucked inside.</p>
   
   </div>
   <div class="section-group">
@@ -621,81 +621,23 @@
   
     <div class="section-summary">
       <div class="section-type">deep-dive</div>
-      <div class="section-heading">mdts v0.21.0: mermaid fixes and API hardening</div>
-      <div class="section-body">The headline ship of the week was mdts v0.21.0, which pinned mermaid's look and layout to pre-v12 defaults — a pragmatic rollback to avoid upstream rendering regressions. The release also restricted <code>/api/markdown</code> to only serve actual markdown files, closing a subtle attack surface. Fifteen PRs were merged into mdts this week alone, making it the busiest single repo by a wide margin.</div>
+      <div class="section-heading">gitlogue watch mode: a feature worth shipping</div>
+      <div class="section-body">The <code>feat/commit-watch-mode</code> branch was the week's most interesting engineering story. The feature lets users watch new commits replay in real time as they're made — and the commit history shows careful iteration: first the core feature, then a fix for pause and detached checkout edge cases, then a redraw fix for UI state changes without animation progress, then a polish pass to return to the waiting screen after playback. That's a complete feature arc in one branch, shipped cleanly as v0.12.0.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">release</span> <span class="chip-value chip-green">v0.21.0</span></span>
-        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/mdts</span></span>
-        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-default">15</span></span>
-        <span class="chip"><span class="chip-label">bug fixes</span> <span class="chip-value chip-default">2 notable</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">activity-pattern</div>
-      <div class="section-heading">Flat week, then a weekend avalanche</div>
-      <div class="section-body">Commits were steady but modest Monday through Friday (ranging 31–85/day), then the weekend hit differently: 224 on Saturday and 275 on Sunday. That two-day burst alone accounts for roughly 41% of the week's 122 commits. This pattern strongly suggests a batch merge session — likely clearing a queue of Dependabot PRs across the full portfolio.</div>
-  
-      <div class="mini-heatmap">
-        <div class="mh-day">
-          <div class="mh-block mh-level-2">85</div>
-          <div class="mh-label">Mon</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-1">61</div>
-          <div class="mh-label">Tue</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-1">51</div>
-          <div class="mh-label">Wed</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-1">31</div>
-          <div class="mh-label">Thu</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-1">59</div>
-          <div class="mh-label">Fri</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">224</div>
-          <div class="mh-label">Sat</div>
-        </div>
-        <div class="mh-day">
-          <div class="mh-block mh-level-4">275</div>
-          <div class="mh-label">Sun</div>
-        </div>
-      </div>
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-green">Sun 275</span></span>
-        <span class="chip"><span class="chip-label">weekend total</span> <span class="chip-value chip-default">499 commits</span></span>
-        <span class="chip"><span class="chip-label">weekday avg</span> <span class="chip-value chip-default">57/day</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">review-summary</div>
-      <div class="section-heading">59 approvals, zero rejections — the merge machine</div>
-      <div class="section-body">Every single one of the 59 reviews this week was an approval. That's not laziness — it reflects a workflow where Dependabot PRs are vetted by compatibility scores and changelogs before hitting the queue. The review spread covered 20+ distinct repos across 5 orgs, which means this wasn't rubber-stamping one project but actively shepherding an entire ecosystem.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">reviews</span> <span class="chip-value chip-green">59 approved</span></span>
-        <span class="chip"><span class="chip-label">repos reviewed</span> <span class="chip-value chip-default">20+</span></span>
-        <span class="chip"><span class="chip-label">rejections</span> <span class="chip-value chip-default">0</span></span>
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/gitlogue</span></span>
+        <span class="chip"><span class="chip-label">release</span> <span class="chip-value chip-green">v0.12.0</span></span>
+        <span class="chip"><span class="chip-label">commits</span> <span class="chip-value chip-default">8 on branch</span></span>
+        <span class="chip"><span class="chip-label">fixes</span> <span class="chip-value chip-default">2 edge cases</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">repo-summary</div>
-      <div class="section-heading">20+ repos touched across 5 orgs</div>
-      <div class="section-body">unhappychoice/mdts led the pack with 15 PRs, followed by circleci-tools/circleci-cli (6) and unhappychoice/splashboard (6). The bitflyer-tools org saw Android and Electron updates across DroidFlyer, cycle-flyer, and bitflyer-cli. irasutoya-tools got regexp_parser and unicode-display_width bumps in both its repos. The deariary org had github-weekly-reporter and .github both updated.</div>
+      <div class="section-heading">20+ repos touched, all corners of the ecosystem</div>
+      <div class="section-body">This week's activity spanned an unusually wide surface area: unhappychoice/mdts led with 14 PRs, followed by circleci-tools/circleci-cli and unhappychoice/slack_channel_stats at 6 each. Gradle wrapper 9.8.0 hit DroidFlyer, Norimaki, color-hash.kt, CircleCI, and RxSnackbar simultaneously. The polyglot nature of the week — Ruby, JavaScript, Rust, Java, Kotlin all getting updates — reflects a sprawling personal tooling empire under active maintenance.</div>
   
   
   
@@ -703,10 +645,19 @@
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/mdts</span>
-            <span class="repo-bar-value">15 PRs</span>
+            <span class="repo-bar-value">14 PRs</span>
           </div>
           <div class="repo-bar-track">
             <div class="repo-bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
+            <span class="repo-bar-value">6 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:43%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -715,79 +666,16 @@
             <span class="repo-bar-value">6 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:40%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/splashboard</span>
-            <span class="repo-bar-value">6 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:40%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
-            <span class="repo-bar-value">5 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:33%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
-            <span class="repo-bar-value">3 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:20%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
+            <div class="repo-bar-fill" style="width:43%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/blog</span>
-            <span class="repo-bar-value">2 PRs</span>
+            <span class="repo-bar-value">3 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
-          </div>
-        </div>
-        <div class="repo-bar-item">
-          <div class="repo-bar-header">
-            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
-            <span class="repo-bar-value">2 PRs</span>
-          </div>
-          <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
+            <div class="repo-bar-fill" style="width:21%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
@@ -796,39 +684,48 @@
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
+            <div class="repo-bar-fill" style="width:14%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
+            <div class="repo-bar-fill" style="width:14%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/terminal_image</span>
+            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
+            <div class="repo-bar-fill" style="width:14%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-label">unhappychoice/splashboard</span>
             <span class="repo-bar-value">2 PRs</span>
           </div>
           <div class="repo-bar-track">
-            <div class="repo-bar-fill" style="width:13%"></div>
+            <div class="repo-bar-fill" style="width:14%"></div>
           </div>
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/color-hash.kt</span>
+            <span class="repo-bar-label">unhappychoice/steamfetch</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
@@ -846,6 +743,15 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/color-hash.kt</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
             <span class="repo-bar-label">circleci-tools/CircleCI</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
@@ -855,7 +761,7 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/RxSnackbar</span>
+            <span class="repo-bar-label">unhappychoice/lintric</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
@@ -873,6 +779,24 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">monoid-studio/monoid-studio.github.io</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
             <span class="repo-bar-label">unhappychoice/gitlogue</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
@@ -882,7 +806,7 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">unhappychoice/kobito</span>
+            <span class="repo-bar-label">unhappychoice/RxSnackbar</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
@@ -891,7 +815,34 @@
         </div>
         <div class="repo-bar-item">
           <div class="repo-bar-header">
-            <span class="repo-bar-label">deariary/.github</span>
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/terminal_image</span>
             <span class="repo-bar-value">1 PRs</span>
           </div>
           <div class="repo-bar-track">
@@ -901,38 +852,97 @@
       </div>
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">unhappychoice/mdts</span> <span class="chip-value chip-default">15 PRs</span></span>
-        <span class="chip"><span class="chip-label">circleci-tools/circleci-cli</span> <span class="chip-value chip-default">6 PRs</span></span>
-        <span class="chip"><span class="chip-label">unhappychoice/splashboard</span> <span class="chip-value chip-default">6 PRs</span></span>
-        <span class="chip"><span class="chip-label">orgs touched</span> <span class="chip-value chip-default">5</span></span>
+        <span class="chip"><span class="chip-label">repos active</span> <span class="chip-value chip-default">20+</span></span>
+        <span class="chip"><span class="chip-label">most active</span> <span class="chip-value chip-default">mdts (14 PRs)</span></span>
+        <span class="chip"><span class="chip-label">languages</span> <span class="chip-value chip-default">5</span></span>
+        <span class="chip"><span class="chip-label">orgs</span> <span class="chip-value chip-default">6</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">content-creation</div>
+      <div class="section-heading">Monoid Studio goes live</div>
+      <div class="section-body">A new GitHub org — monoid-studio — quietly launched this week with a full website push: logo, favicon, square avatar variant, sticky header redesign, custom monoid.studio domain, contact email, and agent guidelines docs all landed in one concentrated burst of commits. It's a small detail in the overall stats but a meaningful one — a new creative identity taking shape in public.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">monoid-studio/monoid-studio.github.io</span></span>
+        <span class="chip"><span class="chip-label">commits</span> <span class="chip-value chip-default">9</span></span>
+        <span class="chip"><span class="chip-label">domain</span> <span class="chip-value chip-green">monoid.studio</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">review-summary</div>
+      <div class="section-heading">49 approvals, zero rejections — the dep-bot whisperer</div>
+      <div class="section-body">Every single one of the 49 reviews this week was an approval, and the vast majority were Dependabot PRs getting a human eyeball before merge. The most reviewed repo by far was unhappychoice/mdts with 11 approvals, followed by circleci-tools/circleci-cli at 6. This kind of review volume is only sustainable with a disciplined triage mindset — scan, verify, approve, move on.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">reviews</span> <span class="chip-value chip-default">49</span></span>
+        <span class="chip"><span class="chip-label">approved</span> <span class="chip-value chip-green">49/49</span></span>
+        <span class="chip"><span class="chip-label">top repo</span> <span class="chip-value chip-default">mdts (11)</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">activity-pattern</div>
+      <div class="section-heading">Saturday surge: 298 commits to close the week</div>
+      <div class="section-body">The daily commit pattern shows a week that started strong (124 on Sunday), dipped mid-week (56 on Wednesday), then absolutely exploded on Saturday with 298 commits — nearly triple the mid-week low. This kind of Saturday spike usually means a batch of dependency merges hitting simultaneously across many repos, which tracks perfectly with the dep-bot marathon visible in the commit messages.</div>
+  
+      <div class="mini-heatmap">
+        <div class="mh-day">
+          <div class="mh-block mh-level-2">124</div>
+          <div class="mh-label">Mon</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-2">100</div>
+          <div class="mh-label">Tue</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-1">66</div>
+          <div class="mh-label">Wed</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-2">118</div>
+          <div class="mh-label">Thu</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-2">133</div>
+          <div class="mh-label">Fri</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-1">56</div>
+          <div class="mh-label">Sat</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-4">298</div>
+          <div class="mh-label">Sun</div>
+        </div>
+      </div>
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-green">Sat 298</span></span>
+        <span class="chip"><span class="chip-label">quietest</span> <span class="chip-value chip-default">Wed 56</span></span>
+        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">112 (authored)</span></span>
+        <span class="chip"><span class="chip-label">total logged</span> <span class="chip-value chip-default">895 across week</span></span>
       </div>
     </div>
     <div class="section-summary">
       <div class="section-type">contribution-summary</div>
-      <div class="section-heading">Cross-org maintenance: circleci, bitflyer, irasutoya, deariary</div>
-      <div class="section-body">A significant chunk of the week's work happened outside personal repos. circleci-tools/circleci-cli absorbed 6 Ruby dependency merges including faraday-http-cache jumping a major version (2.x → 3.0.0). bitflyer-tools saw Android Gradle plugin and PubNub SDK bumps in DroidFlyer, plus an Electron patch in cycle-flyer. The deariary/github-weekly-reporter got its Anthropic SDK and other JS deps updated, and deariary/.github had its integrations docs refreshed.</div>
+      <div class="section-heading">Cross-org contributions: security fixes land in mdts</div>
+      <div class="section-body">Two PRs from external contributor JMR-dev — fix-security-vulns and fix-frontend-security-vulns — were merged into unhappychoice/mdts this week, both getting approved. It's a notable signal that mdts is active enough to attract outside security contributions, and that the review pipeline is responsive enough to get them merged quickly.</div>
   
   
   
   
       <div class="data-chips">
-        <span class="chip"><span class="chip-label">external orgs</span> <span class="chip-value chip-default">4</span></span>
-        <span class="chip"><span class="chip-label">faraday-http-cache</span> <span class="chip-value chip-default">2.x → 3.0.0</span></span>
-        <span class="chip"><span class="chip-label">electron</span> <span class="chip-value chip-default">44.3.0 → 44.4.2</span></span>
-      </div>
-    </div>
-    <div class="section-summary">
-      <div class="section-type">deep-dive</div>
-      <div class="section-heading">splashboard keeps its LLM pricing fresh</div>
-      <div class="section-body">Among the non-Dependabot commits, unhappychoice/splashboard had two manual 'chore: sync llm pricing from LiteLLM' commits this week — a recurring maintenance task to keep the tool's model cost data current. This ran alongside four Cargo dependency bumps (clap, toml, ratatui-image, netdev), showing splashboard getting both data and library maintenance simultaneously.</div>
-  
-  
-  
-  
-      <div class="data-chips">
-        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/splashboard</span></span>
-        <span class="chip"><span class="chip-label">llm sync</span> <span class="chip-value chip-default">2 runs</span></span>
-        <span class="chip"><span class="chip-label">cargo bumps</span> <span class="chip-value chip-default">4</span></span>
+        <span class="chip"><span class="chip-label">external contributor</span> <span class="chip-value chip-default">JMR-dev</span></span>
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/mdts</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-green">2 security fixes</span></span>
       </div>
     </div>
   </div>
@@ -946,27 +956,27 @@
     <div class="highlight-grid">
     <div class="highlight-card">
       <span class="highlight-badge highlight-release">release</span>
-      <div class="highlight-title">v0.21.0</div>
-      <div class="highlight-meta">unhappychoice/mdts · released Sep 2026</div>
-      <div class="highlight-body">Shipped two meaningful bug fixes: mermaid rendering pinned to pre-v12 defaults to avoid upstream layout regressions, and the <code>/api/markdown</code> API endpoint now rejects non-markdown files — a quiet but important security improvement.</div>
+      <div class="highlight-title">Release v0.12.0</div>
+      <div class="highlight-meta">unhappychoice/gitlogue · released Oct 2026</div>
+      <div class="highlight-body">The headline ship of the week: gitlogue v0.12.0 brings commit watch mode, letting users replay new commits in real time. Edge cases around pause, detached checkouts, and UI redraws were all ironed out before tagging.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/circleci-tools/circleci-cli/pull/1098" target="_blank" rel="noopener nofollow">chore(deps): bump faraday-http-cache from 2.7.0 to 3.0.0</a></div>
-      <div class="highlight-meta">circleci-tools/circleci-cli · merged Sep 2026 · +2 -2 · 1 file</div>
-      <div class="highlight-body">A major version bump on faraday-http-cache deserves a callout — 2.x to 3.0.0 is a breaking-change boundary and merging it cleanly across both circleci-cli and slack_channel_stats shows the test suites held up.</div>
+      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/163" target="_blank" rel="noopener nofollow">chore(deps): bump the minor-and-patch group with 7 updates</a></div>
+      <div class="highlight-meta">deariary/github-weekly-reporter · merged · +84 -84 · 2 files</div>
+      <div class="highlight-body">A single Dependabot PR bumping 7 packages at once in the weekly reporter itself — including the Anthropic SDK — is a satisfying meta-moment: the tool that generates these reports got its own deps updated this week.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/unhappychoice/splashboard/pull/341" target="_blank" rel="noopener nofollow">chore(deps)(deps): bump clap from 4.6.3 to 4.6.7</a></div>
-      <div class="highlight-meta">unhappychoice/splashboard · merged Sep 2026 · +7 -7 · 1 file</div>
-      <div class="highlight-body">clap jumped four patch versions in one go, picking up new CLI features. Keeping a TUI tool like splashboard on a recent clap ensures argument parsing stays ergonomic as the tool grows.</div>
+      <div class="highlight-title"><a href="https://github.com/bitflyer-tools/DroidFlyer/pull/550" target="_blank" rel="noopener nofollow">build(deps): bump gradle-wrapper from 9.7.1 to 9.8.0</a></div>
+      <div class="highlight-meta">bitflyer-tools/DroidFlyer · merged · +42 -12 · 3 files</div>
+      <div class="highlight-body">Gradle 9.8.0 landed across four Android/JVM repos simultaneously — DroidFlyer, Norimaki, color-hash.kt, and CircleCI — making this one of the more coordinated upgrade waves of the week.</div>
     </div>
     <div class="highlight-card">
       <span class="highlight-badge highlight-pr">pr</span>
-      <div class="highlight-title"><a href="https://github.com/deariary/github-weekly-reporter/pull/162" target="_blank" rel="noopener nofollow">chore(deps): bump the minor-and-patch group with 5 updates</a></div>
-      <div class="highlight-meta">deariary/github-weekly-reporter · merged Sep 2026 · +17 -17 · 2 files</div>
-      <div class="highlight-body">The Anthropic SDK bumped from 0.124.0 to 0.126.0 in the very tool that generates these reports — a pleasingly self-referential update that keeps the AI layer current.</div>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/mdts/pull/973" target="_blank" rel="noopener nofollow">chore(deps-dev): Bump supertest from 7.2.2 to 7.3.0</a></div>
+      <div class="highlight-meta">unhappychoice/mdts · merged · +3 -3 · 1 file</div>
+      <div class="highlight-body">Among the mdts dep parade, the supertest bump to 7.3.0 stands out — the release notes specifically mention stabilizing ephemeral server requests, a fix that matters for a test-heavy TypeScript monorepo.</div>
     </div>
     </div>
   </div>
@@ -975,15 +985,14 @@
 
 <div class="share-bar">
   <span class="share-label">Share</span>
-  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W39/&text=Dependency%20sweep%20week%3A%2059%20approvals%20across%2020%2B%20repos&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W39/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
-  <a href="https://bsky.app/intent/compose?text=Dependency%20sweep%20week%3A%2059%20approvals%20across%2020%2B%20repos%20https://unhappychoice.github.io/weekly-report/2026/W39/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W40/&text=gitlogue%20v0.12.0%20ships%20watch%20mode%2C%20Monoid%20Studio%20launches%2C%20and%2049%20dep%20PRs%20get%20rubber-stamped&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W40/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
+  <a href="https://bsky.app/intent/compose?text=gitlogue%20v0.12.0%20ships%20watch%20mode%2C%20Monoid%20Studio%20launches%2C%20and%2049%20dep%20PRs%20get%20rubber-stamped%20https://unhappychoice.github.io/weekly-report/2026/W40/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
 </div>
 
-
 <nav class="week-nav" aria-label="Week navigation">
-  <a href="../../2026/W38/" class="week-nav-link">&larr; Previous week</a>
-  <a href="../../2026/W40/" class="week-nav-link">Next week &rarr;</a>
+  <a href="../../2026/W39/" class="week-nav-link">&larr; Previous week</a>
+  <span></span>
 </nav>
 
 

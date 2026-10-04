@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>gitlogue v0.12.0 ships watch mode, Monoid Studio launches, and 49 dep PRs get rubber-stamped</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W40/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W40/</guid>
+      <description>A week split between creative feature work on gitlogue and gitlogue&apos;s new commit watch mode, a fresh org website for Monoid Studio, and an industrial-scale dependency review marathon spanning 20+ repos.
+
+This week had two very distinct personalities. On one side: real feature work — gitlogue&apos;s new commit watch mode landed in v0.12.0, letting users replay new commits as they&apos;re made, with thoughtful polish like returning to the waiting screen after playback and respecting pause/detached checkout states. On the other side: an absolute avalanche of dependency maintenance, with 49 reviews approved across 20+ repos spanning Ruby, JavaScript, Rust, Java, and Kotlin. The sheer breadth of repos touched — from circleci-tools to bitflyer-tools to irasutoya-tools — tells the story of someone maintaining a genuinely large personal ecosystem.
+
+The gitlogue release was the week&apos;s highlight. The `feat/commit-watch-mode` branch came together with a clean set of commits — feature, fix, refactor — before being bumped to v0.12.0 and shipped. Meanwhile, unhappychoice/splashboard quietly got two LLM pricing sync commits, keeping it current with LiteLLM&apos;s ever-shifting model landscape. And then there&apos;s the surprise cameo: monoid-studio/monoid-studio.github.io, a brand new org site that went from zero to live with a logo, favicon, sticky header redesign, custom domain, and agent guidelines docs — all in one burst.
+
+The daily commit counts tell an interesting story: Sunday opened hot at 124, climbed through the week to peak at 298 on Saturday — a classic end-of-week sprint. Wednesday was the quietest day at 56 commits, suggesting a brief pause mid-week before the final push. With 112 commits, +4139/-1954 lines, and 49 approvals across repos in at least 5 languages, this was a maintenance marathon with a creative highlight reel tucked inside.
+
+
+Commits: 112, PRs: 2, Reviews: 49</description>
+      <pubDate>Sun, 04 Oct 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W40/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W40/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency sweep week: 59 approvals across 20+ repos</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W39/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W39/</guid>
