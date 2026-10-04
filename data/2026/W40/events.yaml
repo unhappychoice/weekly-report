@@ -1190,3 +1190,28 @@
     action: opened
     number: 321
     title: "[CI Failure] bitflyer-tools/cycle-flyer"
+- id: "22963804862"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-10-04T03:39:20Z
+  payload:
+    kind: generic
+    action: ""
+- id: "22935915156"
+  type: PushEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-10-04T03:39:19Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "16369325772"
+  type: PullRequestReviewEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-10-04T03:39:12Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 164
+    prTitle: ""
+    state: approved
