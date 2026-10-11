@@ -1,0 +1,168 @@
+title: Dependency sweep across 15 repos, plus feed-rs 3.0 and tree-sitter-haskell 0.24 migrations
+subtitle: 108 commits and 39 approvals later, the ecosystem is up to date — with two Rust releases shipped along the way.
+overview: >
+  This week was a broad maintenance sweep across the entire personal and org ecosystem. The bulk of the work was
+  dependency updates — listen 3.10.1, simplecov 1.3.2, and various Rust crate bumps landing across 15+ repos
+  simultaneously — but buried in that routine churn were two genuinely interesting migrations that required hands-on
+  fixes rather than just rubber-stamping Dependabot's work.
+
+
+  The headline technical story was the feed-rs 2.4.0 → 3.0.0 upgrade in splashboard, which broke the existing API
+  surface enough to require manual test fixture updates and workarounds for newly private struct fields. Similarly, the
+  tree-sitter-haskell 0.23.1 → 0.24.1 bump in gittype silently broke all Haskell extraction tests because the grammar
+  renamed a misspelled node type (`type_synomym` → `type_synonym`) — a subtle breakage that required digging into the
+  grammar changelog to diagnose. Both fixes shipped as part of releases: splashboard v2.10.2 and gittype v0.10.3.
+
+
+  Wednesday (Oct 8) was the peak with 205 activity events, reflecting the burst of merges and reviews as the dependency
+  wave crested. The week also included dropping Ruby 3.2 support in terminal_image and irasutoya-cli, bumping
+  @electron-forge to 8.0.1 in cycle-flyer (which required jumping Node.js CI from 20 to 24), and syncing LLM pricing
+  data in splashboard. Not glamorous, but the kind of week that keeps a multi-repo portfolio healthy.
+summaries:
+  - type: deep-dive
+    heading: Two Rust migrations that actually required thought
+    body: The feed-rs 3.0.0 upgrade in splashboard wasn't a one-liner — the new version introduced private fields on
+      MediaObject and added required fields like Link::target and Feed::people, forcing manual test fixture updates
+      before Clippy and tests would pass again. Meanwhile, tree-sitter-haskell 0.24.1 silently renamed the misspelled
+      `type_synomym` node to `type_synonym`, which blew up every Haskell extraction test in gittype with an 'Invalid
+      node type' error. Both were the kind of breakage where the diff looks small but the debugging time is real.
+    chips:
+      - label: feed-rs
+        value: 2.4.0 → 3.0.0
+        color: default
+      - label: tree-sitter-haskell
+        value: 0.23.1 → 0.24.1
+        color: default
+      - label: repos fixed
+        value: splashboard + gittype
+        color: default
+  - type: repo-summary
+    heading: 15 repos touched, led by mdts and cycle-flyer
+    body: "mdts was the busiest repo by PR count with 10 merges, mostly typescript-eslint and eslint upgrades across its
+      monorepo frontend and root packages. cycle-flyer saw the most consequential changes: the @electron-forge 7 → 8
+      jump required moving CI from Node 20 to 24, and a security override was added for the compression package.
+      splashboard, gittype, and circleci-cli each shipped releases off the back of their updates."
+    chips:
+      - label: unhappychoice/mdts
+        value: 10 PRs
+        color: default
+      - label: bitflyer-tools/cycle-flyer
+        value: 6 PRs
+        color: default
+      - label: unhappychoice/splashboard
+        value: 5 PRs
+        color: default
+      - label: unhappychoice/gittype
+        value: 5 PRs
+        color: default
+  - type: activity-pattern
+    heading: Wednesday blowout, bookended by quieter days
+    body: "Activity built steadily from Monday (76) through a big Wednesday spike of 205 events — the day the bulk of
+      dependency merges and reviews landed together. Thursday dropped sharply to 41 before rebounding Friday (122), with
+      Sunday trailing off at 12. The pattern is classic batch-merge behavior: Dependabot queues up all week, then
+      everything gets reviewed and merged in one concentrated burst mid-week."
+    chips:
+      - label: peak
+        value: Wed 205
+        color: green
+      - label: low
+        value: Sun 12
+        color: default
+      - label: total commits
+        value: "108"
+        color: default
+  - type: review-summary
+    heading: 39 approvals, mostly self-review on Dependabot PRs
+    body: All 39 reviews this week were approvals, spread across 13 different repos. The heaviest review load was on mdts (8
+      approvals) and cycle-flyer (4), reflecting the volume of Dependabot PRs queued up there. While the approval-only
+      pattern is expected for routine dependency bumps, the feed-rs and tree-sitter-haskell PRs required actual
+      validation before merging.
+    chips:
+      - label: reviews
+        value: 39 approved
+        color: green
+      - label: repos reviewed
+        value: "13"
+        color: default
+      - label: approval rate
+        value: 100%
+        color: green
+  - type: devops
+    heading: Electron Forge 8, Node 24 CI bump, and a Rust toolchain pin
+    body: "The @electron-forge 7.11.2 → 8.0.1 upgrade in cycle-flyer came with a hard requirement: Node.js 22.13.0 minimum,
+      which meant bumping CI and release workflows from Node 20 to 24. Separately, gittype's CI got a Rust toolchain pin
+      to 1.98.1 to prevent surprise breakage from nightly toolchain drift. A nixpkgs hash update also fixed a crates.io
+      403 error that was blocking Nix-based builds of gittype."
+    chips:
+      - label: electron-forge
+        value: 7 → 8
+        color: default
+      - label: node CI
+        value: 20 → 24
+        color: default
+      - label: rust pin
+        value: 1.98.1
+        color: default
+  - type: contribution-summary
+    heading: gittype 0.10.3 lands in winget-pkgs
+    body: Beyond the personal repo ecosystem, gittype v0.10.3 was submitted to microsoft/winget-pkgs this week, making the
+      release available via Windows Package Manager. It's a small PR by line count but it means the gittype release
+      pipeline is reaching the Windows ecosystem automatically alongside the Nix and Cargo distribution paths.
+    chips:
+      - label: microsoft/winget-pkgs
+        value: "PR #449985"
+        color: default
+      - label: gittype
+        value: v0.10.3
+        color: default
+highlights:
+  - type: pr
+    title: "chore(deps): bump feed-rs from 2.4.0 to 3.0.0"
+    repo: unhappychoice/splashboard
+    meta: merged Oct 2026 · +96 -69 · 7 files
+    body: Not your average Dependabot bump — feed-rs 3.0 introduced private fields and new required struct members that
+      broke Clippy and tests, requiring manual fixture updates and API adaptation before this could land.
+    url: https://github.com/unhappychoice/splashboard/pull/351
+  - type: pr
+    title: "chore(deps): bump tree-sitter-haskell from 0.23.1 to 0.24.1"
+    repo: unhappychoice/gittype
+    meta: merged Oct 2026 · +4 -4 · 3 files
+    body: The grammar renamed the misspelled `type_synomym` node to `type_synonym`, silently breaking all Haskell extraction
+      tests — required reading the grammar changelog to diagnose and fix the query.
+    url: https://github.com/unhappychoice/gitlogue/pull/245
+  - type: pr
+    title: "chore(deps-dev): bump @electron-forge packages to 8.0.1"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged Oct 2026 · +1551 -4755 · 4 files
+    body: A net deletion of over 3,200 lines thanks to lockfile churn, but the real work was upgrading CI from Node 20 to 24
+      to satisfy Electron Forge 8's hard minimum Node version requirement.
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/951
+  - type: release
+    title: Release v2.10.2
+    repo: unhappychoice/splashboard
+    meta: released Oct 2026
+    body: Bundles the feed-rs 3.0 migration, tui-markdown and tui-big-text bumps, starship-battery 0.12.0, and an LLM
+      pricing sync from LiteLLM — a solid maintenance release.
+  - type: release
+    title: Release v0.10.3
+    repo: unhappychoice/gittype
+    meta: released Oct 2026
+    body: Ships the tree-sitter-haskell 0.24.1 fix, a nixpkgs update to resolve crates.io 403 errors, and the Rust toolchain
+      pin to 1.98.1 — then immediately submitted to winget-pkgs for Windows distribution.
+ticker:
+  - label: MASS SWEEP
+    text: "@unhappychoice blitzes 15 repos with deps updates in a single week"
+  - label: TYPO CRIMES
+    text: "@unhappychoice hunts down `type_synomym` — a typo hiding in a grammar for years"
+  - label: LINE MASSACRE
+    text: "@unhappychoice deletes 4,755 lines in cycle-flyer. Lockfile did not survive."
+  - label: APPROVED AGAIN
+    text: "@unhappychoice approves 39 PRs this week. Rubber stamp reportedly worn thin."
+  - label: WINDOWS NOW
+    text: "@unhappychoice submits gittype to winget-pkgs. Windows users rejoice."
+  - label: NODE UPGRADE
+    text: "@unhappychoice forces CI off Node 20 after Electron Forge 8 issues ultimatum"
+  - label: BREAKING API
+    text: "@unhappychoice manually patches feed-rs 3.0 breakage. Sources call it 'not fun'."
+  - label: PEAK DETECTED
+    text: "@unhappychoice logs 205 events on Wednesday alone. Doctors concerned."
