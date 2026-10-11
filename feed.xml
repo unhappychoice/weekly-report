@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency sweep across 15 repos, plus feed-rs 3.0 and tree-sitter-haskell 0.24 migrations</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W41/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W41/</guid>
+      <description>108 commits and 39 approvals later, the ecosystem is up to date — with two Rust releases shipped along the way.
+
+This week was a broad maintenance sweep across the entire personal and org ecosystem. The bulk of the work was dependency updates — listen 3.10.1, simplecov 1.3.2, and various Rust crate bumps landing across 15+ repos simultaneously — but buried in that routine churn were two genuinely interesting migrations that required hands-on fixes rather than just rubber-stamping Dependabot&apos;s work.
+
+The headline technical story was the feed-rs 2.4.0 → 3.0.0 upgrade in splashboard, which broke the existing API surface enough to require manual test fixture updates and workarounds for newly private struct fields. Similarly, the tree-sitter-haskell 0.23.1 → 0.24.1 bump in gittype silently broke all Haskell extraction tests because the grammar renamed a misspelled node type (`type_synomym` → `type_synonym`) — a subtle breakage that required digging into the grammar changelog to diagnose. Both fixes shipped as part of releases: splashboard v2.10.2 and gittype v0.10.3.
+
+Wednesday (Oct 8) was the peak with 205 activity events, reflecting the burst of merges and reviews as the dependency wave crested. The week also included dropping Ruby 3.2 support in terminal_image and irasutoya-cli, bumping @electron-forge to 8.0.1 in cycle-flyer (which required jumping Node.js CI from 20 to 24), and syncing LLM pricing data in splashboard. Not glamorous, but the kind of week that keeps a multi-repo portfolio healthy.
+
+
+Commits: 108, PRs: 9, Reviews: 39</description>
+      <pubDate>Sun, 11 Oct 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W41/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W41/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>gitlogue v0.12.0 ships watch mode, Monoid Studio launches, and 49 dep PRs get rubber-stamped</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W40/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W40/</guid>
