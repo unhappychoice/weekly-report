@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency sweep week: CircleCI v2.1 migration and mdts v0.21.1 ship</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W42/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W42/</guid>
+      <description>158 commits and 72 reviews across 20+ repos, anchored by a CircleCI config breaking change fix and a pair of clean releases.
+
+This week was essentially a large-scale dependency maintenance operation spread across the entire portfolio. With Dependabot firing on everything from Rust crates to Kotlin Gradle plugins to Ruby gems, the bulk of the week was spent reviewing, approving, and merging a flood of automated PRs across repos like unhappychoice/mdts, unhappychoice/splashboard, bitflyer-tools/DroidFlyer, and circleci-tools/Norimaki. The commit count of 158 and 72 reviews tell the story: this was a high-throughput, broad-coverage week rather than a deep-feature one.
+
+The most interesting non-Dependabot story was the CircleCI config migration. CircleCI dropped support for config version 2 mid-year, which meant pipelines were erroring at compilation and Dependabot PRs were getting no CI checks — a silent failure mode that needed fixing fast. I pushed the `ci: migrate CircleCI config to version 2.1` fix to both circleci-tools/Norimaki and bitflyer-tools/DroidFlyer, restoring CI health across those repos.
+
+Two releases also shipped: mdts v0.21.1 landed with a bug fix for the simple-git v4 named export breakage and a lodash-es override under mermaid&apos;s chevrotain, and gitlogue v0.12.1 fixed a Windows key-repeat bug where key release events were firing commands twice. Monday was an absolute burst day with 292 commits, likely the automated merge wave kicking off, with the rest of the week settling into a steady review rhythm.
+
+
+Commits: 158, PRs: 5, Reviews: 72</description>
+      <pubDate>Sun, 18 Oct 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W42/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W42/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency sweep across 15 repos, plus feed-rs 3.0 and tree-sitter-haskell 0.24 migrations</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W41/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W41/</guid>
