@@ -303,3 +303,13 @@
     prNumber: 1025
     prTitle: ""
     state: approved
+- id: "17918637201"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-10-22T14:37:04Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 773
+    prTitle: ""
+    state: approved
