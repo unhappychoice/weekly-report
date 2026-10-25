@@ -1,0 +1,196 @@
+title: "cycle-flyer trading feature blitz: TWAP, stop orders, and sound alerts land in one week"
+subtitle: A burst of feature work across bitflyer-tools repos brings private event subscriptions, client-side order
+  types, and audio notifications to the trading stack, alongside 208 commits and 29 merged PRs across a sprawling
+  multi-repo week.
+overview: >
+  This week was dominated by a concentrated feature sprint on the bitflyer-tools trading ecosystem. cycle-flyer alone
+  received six sequential feature branches — selectable size presets, persistent order settings, stop ordering,
+  client-side TWAP ordering, private realtime event subscriptions, and notification sounds — all stacked and merged in a
+  single week. DroidFlyer got the private events treatment too, with realtime order channel subscriptions landing on the
+  Android side. It's the kind of week where a clear product vision drove a tight, purposeful commit chain rather than
+  scattered maintenance.
+
+
+  The week's commit curve tells an interesting story: Monday opened strong at 76, tapered through midweek, then
+  absolutely exploded on Friday (259) and Saturday (525) — nearly half the week's 208 commits landed in the final two
+  days. That Saturday surge suggests a deep flow state, likely fueled by the cycle-flyer feature chain where each branch
+  built directly on the previous one. The stacked branch strategy (feat/selectable-size → feat/store-values →
+  feat/stop-order → feat/twap-order → feat/private-events → feat/sound) is visible right in the merge commit history.
+
+
+  Beyond the trading work, there were meaningful contributions elsewhere: cycle-pusher gained presence channel member
+  streams and proper TypeScript 7 compatibility, terminal_image got an ANSI truecolor fallback with ImageMagick support
+  for non-PNG formats, cycle-cropper opened up the full cropper.js options API as props, and the monoid-studio org got a
+  public-facing refresh pointing to Ginza, Tokyo. The dependency maintenance machine also ran at full tilt — 58 reviews,
+  all approvals, across 13+ repos.
+summaries:
+  - type: deep-dive
+    heading: cycle-flyer's trading engine gets a full feature stack
+    body: "Six feature branches landed in sequence this week on cycle-flyer, each building on the last: selectable size
+      presets, persisted order settings, stop orders, client-side TWAP orders, private realtime event channels, and
+      finally audio notifications for order results and executions. The stacked branch strategy — merging each into the
+      next before rebasing to master — kept the diff clean and reviewable. The same private events feature was
+      simultaneously shipped to DroidFlyer, giving the Android client realtime order channel subscriptions via PubNub.
+      This is the most coherent product sprint of the week by a wide margin."
+    chips:
+      - label: repo
+        value: bitflyer-tools/cycle-flyer
+        color: default
+      - label: features shipped
+        value: "6"
+        color: green
+      - label: also on Android
+        value: DroidFlyer
+        color: default
+      - label: PRs merged
+        value: "12"
+        color: default
+  - type: activity-pattern
+    heading: "Saturday: 525 commits. A flow state for the history books."
+    body: "The daily commit distribution this week is wild: 76, 42, 35, 48, 23, 259, 525. The week started solidly, dipped
+      mid-week, then Friday and Saturday became an absolute torrent — Saturday alone accounted for more commits than
+      Monday through Thursday combined. This pattern almost certainly maps to the cycle-flyer feature chain, where each
+      stacked branch merge triggered a cascade of CI merges and dependency bumps across the fleet. Peak productivity
+      arrived at the weekend, not the start of the week."
+    chips:
+      - label: peak day
+        value: Sat 525
+        color: green
+      - label: total commits
+        value: "208"
+        color: default
+      - label: slowest day
+        value: Thu 23
+        color: default
+      - label: Fri+Sat share
+        value: 75%
+        color: default
+  - type: repo-summary
+    heading: 13+ repos touched, but three owned the week
+    body: cycle-flyer (12 PRs), Norimaki (11 PRs), and mdts (13 PRs) were the headline repos, but activity touched
+      everything from Ruby gems to Rust crates to Kotlin Android apps. Norimaki saw real feature work too — tablet
+      two-pane layout, screen transition animations, workflow and job name display, and a fix replacing Pusher with
+      polling for realtime build log updates. mdts was mostly dependency maintenance but did pick up a chokidar major
+      version bump (4.x → 6.x) as a manual fix.
+    chips:
+      - label: repos active
+        value: 13+
+        color: default
+      - label: top repo
+        value: mdts 13 PRs
+        color: default
+      - label: lines added
+        value: "+5744"
+        color: green
+      - label: lines removed
+        value: "-2406"
+        color: default
+  - type: deep-dive
+    heading: "terminal_image and cycle-cropper: two quiet but solid library improvements"
+    body: terminal_image gained an ANSI truecolor fallback path that converts non-PNG images through ImageMagick before
+      rendering — with proper size validation and streaming to avoid loading large files into memory. Meanwhile,
+      cycle-cropper was refactored to accept the full cropper.js options surface as React props, pinned to the stable
+      1.x line, and got TypeScript 7-compatible tsconfig. Both are small libraries that got meaningfully more capable
+      this week without much fanfare.
+    chips:
+      - label: repo
+        value: terminal_image
+        color: default
+      - label: repo
+        value: cycle-cropper
+        color: default
+      - label: feature
+        value: ANSI truecolor fallback
+        color: default
+      - label: TS compat
+        value: TypeScript 7
+        color: green
+  - type: review-summary
+    heading: 58 approvals, zero rejections — the dependency approval machine
+    body: "All 58 reviews this week were approvals, spread across 13 repos including deariary/github-weekly-reporter,
+      irasutoya-tools/irasutoya, and unhappychoice/splashboard. The pattern is clear: Dependabot opens, @unhappychoice
+      reviews and approves, CI passes, merge. It's a well-oiled maintenance loop running in the background while feature
+      work happens in parallel. No requested changes, no back-and-forth — just steady, responsible dependency hygiene
+      across a large personal and org repo fleet."
+    chips:
+      - label: reviews
+        value: "58"
+        color: default
+      - label: approved
+        value: "58"
+        color: green
+      - label: repos reviewed
+        value: "13"
+        color: default
+      - label: changes requested
+        value: "0"
+        color: default
+  - type: contribution-summary
+    heading: monoid-studio gets a public identity refresh
+    body: "The monoid-studio org received some love this week: the studio location was updated to Ginza, Tokyo in both the
+      website and the org profile, the products section was overhauled to list actual products instead of contract
+      services, and a deariary icon was added to its product card. Small changes, but they signal a deliberate shift in
+      how the studio presents itself publicly — products-first rather than services-first."
+    chips:
+      - label: org
+        value: monoid-studio
+        color: default
+      - label: location
+        value: Ginza, Tokyo
+        color: default
+      - label: PRs
+        value: "4"
+        color: default
+highlights:
+  - type: pr
+    title: "feat(sound): play notification sounds for order results and executions"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged Oct 2026 · +5 -5 in electron bump context · feature branch
+    body: The capstone of the week's cycle-flyer feature sprint — audio feedback for order fills and execution events.
+      Landing this meant the entire stack from selectable sizes to realtime private channels was already in place
+      underneath it.
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/965
+  - type: pr
+    title: "feat: fall back to ANSI truecolor rendering"
+    repo: unhappychoice/terminal_image
+    meta: merged Oct 2026 · feature
+    body: "A meaningful capability expansion for terminal_image: non-PNG inputs now route through ImageMagick with streaming
+      and size guards, making the library genuinely useful for arbitrary image formats in terminal environments."
+    url: https://github.com/unhappychoice/terminal_image/pull/607
+  - type: pr
+    title: "feat: accept all cropper.js options as props"
+    repo: unhappychoice/cycle-cropper
+    meta: merged Oct 2026 · feature
+    body: Instead of cherry-picking individual cropper.js options, cycle-cropper now passes the full options object through
+      as props — a clean API decision that avoids the endless prop-by-prop expansion problem.
+    url: https://github.com/unhappychoice/cycle-cropper/pull/141
+  - type: pr
+    title: "feat: add a two-pane tablet layout"
+    repo: circleci-tools/Norimaki
+    meta: merged Oct 2026 · feature
+    body: Norimaki's Android CI dashboard gets a proper tablet experience with a two-pane layout, part of a broader UI
+      polish week that also brought screen transition animations and workflow/job name display.
+    url: https://github.com/circleci-tools/Norimaki/pull/486
+  - type: pr
+    title: "feat: scope presence member selectors in isolated sources"
+    repo: unhappychoice/cycle-pusher
+    meta: merged Oct 2026 · feature
+    body: "cycle-pusher's isolation story gets more complete: presence member selectors are now scoped to their channel
+      namespace, preventing cross-contamination in apps with multiple isolated Pusher sources."
+ticker:
+  - label: SATURDAY SURGE
+    text: "@unhappychoice drops 525 commits on a Saturday. Authorities investigating."
+  - label: FEATURE AVALANCHE
+    text: "@unhappychoice stacks 6 trading features in cycle-flyer without breaking a sweat"
+  - label: SOUND THE ALARM
+    text: "@unhappychoice adds literal notification sounds to trading app. Markets react."
+  - label: REVIEW MACHINE
+    text: "@unhappychoice approves 58 PRs this week. Dependabot reportedly weeping with joy."
+  - label: GLOBE TROTTING
+    text: "@unhappychoice relocates monoid-studio HQ to Ginza, Tokyo via git push"
+  - label: ANSI TRUTHER
+    text: "@unhappychoice makes terminal_image render ANY image format. ImageMagick conscripted."
+  - label: TWAP ATTACK
+    text: "@unhappychoice ships client-side TWAP ordering to prod. Quants reportedly nervous."
+  - label: NO SURVIVORS
+    text: "@unhappychoice touches 13+ repos in 7 days. Dependency bots cannot keep up."
