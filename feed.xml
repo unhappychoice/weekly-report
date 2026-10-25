@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>cycle-flyer trading feature blitz: TWAP, stop orders, and sound alerts land in one week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W43/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W43/</guid>
+      <description>A burst of feature work across bitflyer-tools repos brings private event subscriptions, client-side order types, and audio notifications to the trading stack, alongside 208 commits and 29 merged PRs across a sprawling multi-repo week.
+
+This week was dominated by a concentrated feature sprint on the bitflyer-tools trading ecosystem. cycle-flyer alone received six sequential feature branches — selectable size presets, persistent order settings, stop ordering, client-side TWAP ordering, private realtime event subscriptions, and notification sounds — all stacked and merged in a single week. DroidFlyer got the private events treatment too, with realtime order channel subscriptions landing on the Android side. It&apos;s the kind of week where a clear product vision drove a tight, purposeful commit chain rather than scattered maintenance.
+
+The week&apos;s commit curve tells an interesting story: Monday opened strong at 76, tapered through midweek, then absolutely exploded on Friday (259) and Saturday (525) — nearly half the week&apos;s 208 commits landed in the final two days. That Saturday surge suggests a deep flow state, likely fueled by the cycle-flyer feature chain where each branch built directly on the previous one. The stacked branch strategy (feat/selectable-size → feat/store-values → feat/stop-order → feat/twap-order → feat/private-events → feat/sound) is visible right in the merge commit history.
+
+Beyond the trading work, there were meaningful contributions elsewhere: cycle-pusher gained presence channel member streams and proper TypeScript 7 compatibility, terminal_image got an ANSI truecolor fallback with ImageMagick support for non-PNG formats, cycle-cropper opened up the full cropper.js options API as props, and the monoid-studio org got a public-facing refresh pointing to Ginza, Tokyo. The dependency maintenance machine also ran at full tilt — 58 reviews, all approvals, across 13+ repos.
+
+
+Commits: 208, PRs: 31, Reviews: 58</description>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W43/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W43/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency sweep week: CircleCI v2.1 migration and mdts v0.21.1 ship</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W42/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W42/</guid>
