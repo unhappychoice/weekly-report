@@ -722,3 +722,559 @@
     prNumber: 365
     prTitle: ""
     state: approved
+- id: "18740655556"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:23Z
+  payload:
+    kind: generic
+    action: created
+- id: "18740655157"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:24Z
+  payload:
+    kind: issues
+    action: closed
+    number: 346
+    title: "[Pending Release] unhappychoice/terminal_image"
+- id: "18740654181"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:22Z
+  payload:
+    kind: issues
+    action: closed
+    number: 345
+    title: "[Pending Release] unhappychoice/mdts"
+- id: "18740654110"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:21Z
+  payload:
+    kind: generic
+    action: created
+- id: "18740652994"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:20Z
+  payload:
+    kind: issues
+    action: closed
+    number: 342
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "18740652892"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:18Z
+  payload:
+    kind: generic
+    action: created
+- id: "18740651370"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:17Z
+  payload:
+    kind: issues
+    action: closed
+    number: 341
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "18740651304"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:16Z
+  payload:
+    kind: generic
+    action: created
+- id: "18740650095"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:14Z
+  payload:
+    kind: generic
+    action: created
+- id: "18740650047"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:15Z
+  payload:
+    kind: issues
+    action: closed
+    number: 340
+    title: "[Pending Release] bitflyer-tools/cycle-flyer"
+- id: "18740649089"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:12Z
+  payload:
+    kind: generic
+    action: created
+- id: "18740648783"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:13Z
+  payload:
+    kind: issues
+    action: closed
+    number: 339
+    title: "[Pending Release] bitflyer-tools/bitflyer-cli"
+- id: "18740647719"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:11Z
+  payload:
+    kind: issues
+    action: closed
+    number: 338
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "18740647578"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T08:17:09Z
+  payload:
+    kind: generic
+    action: created
+- id: "18738919912"
+  type: PullRequestEvent
+  repo: microsoft/winget-pkgs
+  createdAt: 2026-10-31T07:27:58Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 466810
+    title: ""
+- id: "18736670760"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:23:48Z
+  payload:
+    kind: generic
+    action: created
+- id: "18736670733"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:23:49Z
+  payload:
+    kind: issues
+    action: closed
+    number: 344
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "18736669920"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:23:46Z
+  payload:
+    kind: generic
+    action: created
+- id: "18736669621"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:23:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 343
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "18736557814"
+  type: PullRequestEvent
+  repo: microsoft/winget-pkgs
+  createdAt: 2026-10-31T06:20:51Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 466810
+    title: ""
+- id: "18735762678"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:00:13Z
+  payload:
+    kind: generic
+    action: created
+- id: "18735762461"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:00:14Z
+  payload:
+    kind: issues
+    action: closed
+    number: 337
+    title: "[CI Failure] unhappychoice/steam.unhappychoice.com"
+- id: "18735760342"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:00:09Z
+  payload:
+    kind: generic
+    action: created
+- id: "18735760008"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T06:00:11Z
+  payload:
+    kind: issues
+    action: closed
+    number: 334
+    title: "[CI Failure] unhappychoice/cycle-cropper"
+- id: "18735751234"
+  type: PullRequestEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-10-31T05:59:55Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 212
+    title: ""
+- id: "18735748189"
+  type: PullRequestEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-10-31T05:59:50Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 778
+    title: ""
+- id: "18735668722"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-10-31T05:57:38Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 366
+    prTitle: ""
+    state: approved
+- id: "18733184258"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/zenn-docs
+  createdAt: 2026-10-31T04:52:59Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 16
+    prTitle: ""
+    state: approved
+- id: "18733180427"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-10-31T04:52:54Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1045
+    prTitle: ""
+    state: approved
+- id: "18728149580"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-10-31T02:57:52Z
+  payload:
+    kind: generic
+    action: created
+- id: "18728148725"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-10-31T02:57:50Z
+  payload:
+    kind: generic
+    action: created
+- id: "18728147341"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-10-31T02:57:49Z
+  payload:
+    kind: generic
+    action: created
+- id: "18728146653"
+  type: IssueCommentEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-10-31T02:57:48Z
+  payload:
+    kind: generic
+    action: created
+- id: "18728139980"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-10-31T02:57:40Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 777
+    prTitle: ""
+    state: approved
+- id: "18728139938"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-10-31T02:57:40Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1046
+    prTitle: ""
+    state: approved
+- id: "18728132521"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/kobito
+  createdAt: 2026-10-31T02:57:30Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 75
+    prTitle: ""
+    state: approved
+- id: "18728132368"
+  type: PullRequestReviewEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-10-31T02:57:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1123
+    prTitle: ""
+    state: approved
+- id: "18728132349"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-10-31T02:57:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 211
+    prTitle: ""
+    state: approved
+- id: "18728132159"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/mdts
+  createdAt: 2026-10-31T02:57:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 1043
+    prTitle: ""
+    state: approved
+- id: "18728131984"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-10-31T02:57:29Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 776
+    prTitle: ""
+    state: approved
+- id: "18727791063"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:42Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 346
+    title: "[Pending Release] unhappychoice/terminal_image"
+- id: "18727790936"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:42Z
+  payload:
+    kind: issues
+    action: opened
+    number: 346
+    title: "[Pending Release] unhappychoice/terminal_image"
+- id: "18727790581"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:41Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 345
+    title: "[Pending Release] unhappychoice/mdts"
+- id: "18727790477"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:41Z
+  payload:
+    kind: issues
+    action: opened
+    number: 345
+    title: "[Pending Release] unhappychoice/mdts"
+- id: "18727790106"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:41Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 343
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "18727790099"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:41Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 344
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "18727789974"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:41Z
+  payload:
+    kind: issues
+    action: opened
+    number: 344
+    title: "[Pending Release] unhappychoice/gittype"
+- id: "18727789903"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:41Z
+  payload:
+    kind: issues
+    action: opened
+    number: 343
+    title: "[Pending Release] unhappychoice/gitlogue"
+- id: "18727789578"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:40Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 341
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "18727789387"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:40Z
+  payload:
+    kind: issues
+    action: opened
+    number: 341
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "18727789280"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:40Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 342
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "18727789193"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:40Z
+  payload:
+    kind: issues
+    action: opened
+    number: 342
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "18727788604"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:39Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 340
+    title: "[Pending Release] bitflyer-tools/cycle-flyer"
+- id: "18727788374"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:38Z
+  payload:
+    kind: issues
+    action: opened
+    number: 340
+    title: "[Pending Release] bitflyer-tools/cycle-flyer"
+- id: "18727788340"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:38Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 339
+    title: "[Pending Release] bitflyer-tools/bitflyer-cli"
+- id: "18727788206"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:38Z
+  payload:
+    kind: issues
+    action: opened
+    number: 339
+    title: "[Pending Release] bitflyer-tools/bitflyer-cli"
+- id: "18727788045"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:38Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 338
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "18727787904"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:38Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 337
+    title: "[CI Failure] unhappychoice/steam.unhappychoice.com"
+- id: "18727787896"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:38Z
+  payload:
+    kind: issues
+    action: opened
+    number: 338
+    title: "[Pending Release] bitflyer-tools/bitflyer"
+- id: "18727787758"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:38Z
+  payload:
+    kind: issues
+    action: opened
+    number: 337
+    title: "[CI Failure] unhappychoice/steam.unhappychoice.com"
+- id: "18727786833"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:37Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 336
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "18727786649"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:36Z
+  payload:
+    kind: issues
+    action: opened
+    number: 336
+    title: "[CI Failure] unhappychoice/slack_channel_stats"
+- id: "18727786343"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:36Z
+  payload:
+    kind: issues
+    action: labeled
+    number: 335
+    title: "[CI Failure] unhappychoice/blog"
+- id: "18727786173"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-10-31T02:49:36Z
+  payload:
+    kind: issues
+    action: opened
+    number: 335
+    title: "[CI Failure] unhappychoice/blog"
