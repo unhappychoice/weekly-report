@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>gittype v0.10.4 and gitlogue v0.12.2 ship with Dart tree-sitter fixes</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W44/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W44/</guid>
+      <description>Two Rust CLI tools released in one week, plus a dependency sweep across 20+ repos spanning Ruby, Java, JavaScript, and Rust.
+
+This week had two distinct stories running in parallel. On one hand, I shipped actual bug-fix releases for two of my Rust CLI tools: gittype v0.10.4 fixed a renamed Dart AST node (`initialized_variable_declaration`), and gitlogue v0.12.2 patched Swift nil literal capture and switched Dart to use the bundled highlight query from tree-sitter-dart. Both releases also landed on winget for gittype, which is always satisfying to see propagate through the package ecosystem.
+
+The other story was a massive dependency maintenance sweep. With 199 commits across the week, the bulk of the activity was Dependabot PRs flowing through roughly 20 repositories — rubocop 1.92.1 alone got bumped across at least 7 repos, and the okhttp3 5.5.1 update hit both DroidFlyer and Norimaki. The week ended with a dramatic surge: 170 commits on Oct 31 and 229 on Nov 1, suggesting a big batch of dependency merges landed right at the end of the period.
+
+The splashboard repo had a quieter but interesting thread — three consecutive LLM pricing syncs from LiteLLM, hinting at active work keeping that tool current with a fast-moving AI landscape. Across the week I reviewed 56 PRs touching everything from Android Gradle configs to Babel and webpack builds, which meant context-switching at a pretty relentless pace.
+
+
+Commits: 199, PRs: 29, Reviews: 56</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W44/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W44/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>cycle-flyer trading feature blitz: TWAP, stop orders, and sound alerts land in one week</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W43/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W43/</guid>
