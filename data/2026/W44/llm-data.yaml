@@ -1,0 +1,166 @@
+title: gittype v0.10.4 and gitlogue v0.12.2 ship with Dart tree-sitter fixes
+subtitle: Two Rust CLI tools released in one week, plus a dependency sweep across 20+ repos spanning Ruby, Java,
+  JavaScript, and Rust.
+overview: >
+  This week had two distinct stories running in parallel. On one hand, I shipped actual bug-fix releases for two of my
+  Rust CLI tools: gittype v0.10.4 fixed a renamed Dart AST node (`initialized_variable_declaration`), and gitlogue
+  v0.12.2 patched Swift nil literal capture and switched Dart to use the bundled highlight query from tree-sitter-dart.
+  Both releases also landed on winget for gittype, which is always satisfying to see propagate through the package
+  ecosystem.
+
+
+  The other story was a massive dependency maintenance sweep. With 199 commits across the week, the bulk of the activity
+  was Dependabot PRs flowing through roughly 20 repositories — rubocop 1.92.1 alone got bumped across at least 7 repos,
+  and the okhttp3 5.5.1 update hit both DroidFlyer and Norimaki. The week ended with a dramatic surge: 170 commits on
+  Oct 31 and 229 on Nov 1, suggesting a big batch of dependency merges landed right at the end of the period.
+
+
+  The splashboard repo had a quieter but interesting thread — three consecutive LLM pricing syncs from LiteLLM, hinting
+  at active work keeping that tool current with a fast-moving AI landscape. Across the week I reviewed 56 PRs touching
+  everything from Android Gradle configs to Babel and webpack builds, which meant context-switching at a pretty
+  relentless pace.
+summaries:
+  - type: deep-dive
+    heading: Dart AST fixes unlock gittype and gitlogue releases
+    body: Both gittype and gitlogue needed fixes for tree-sitter-dart 0.3.0, which renamed and restructured some AST nodes.
+      In gittype I updated the reference to `initialized_variable_declaration`, while in gitlogue I switched to using
+      the highlight query bundled with the new tree-sitter-dart package rather than maintaining our own. gitlogue also
+      got a Swift fix — nil literals now correctly captured via the `nil_literal` node — and I added a test that asserts
+      every highlight and injection query compiles, so this class of breakage gets caught automatically going forward.
+    chips:
+      - label: gittype
+        value: v0.10.4
+        color: green
+      - label: gitlogue
+        value: v0.12.2
+        color: green
+      - label: winget
+        value: published
+        color: default
+      - label: languages fixed
+        value: Dart + Swift
+        color: default
+  - type: repo-summary
+    heading: 20+ repos touched in a cross-ecosystem dep sweep
+    body: The dependency wave hit Ruby (rubocop 1.92.1 across 7 repos, faraday, parser, protocol-http stack), Java/Android
+      (okhttp3 5.5.1, gson 2.15.0, Android Gradle plugin 9.5.0), JavaScript (electron 45.0.0, webpack, @mui/x-tree-view,
+      @babel/core, zenn-cli), and Rust (rusqlite, uuid, open, tree-sitter-dart, tree-sitter-md, tokio). The most
+      impactful single bump was probably electron 45.0.0 in cycle-flyer, a full major version jump. The webpack bump in
+      mdts was interesting too — upgrading from 5.112.0 to 5.112.1 shrank the lockfile by 157 net lines.
+    chips:
+      - label: repos touched
+        value: 20+
+        color: default
+      - label: PRs merged
+        value: "24"
+        color: default
+      - label: ecosystems
+        value: Ruby · Java · JS · Rust
+        color: default
+  - type: activity-pattern
+    heading: Quiet mid-week, then an explosive Halloween finish
+    body: "The week started strong with 88 commits on Monday, settled into a steady rhythm through Tuesday–Thursday (50, 34,
+      57), then dipped to 22 on Friday before absolutely exploding over the weekend: 170 on Oct 31 and 229 on Nov 1.
+      That Halloween/weekend surge accounts for nearly half the week's total 199 commits on its own. The pattern looks
+      like a big batch of Dependabot PRs queued up and got bulk-merged over the weekend."
+    chips:
+      - label: peak day
+        value: Nov 1 · 229
+        color: green
+      - label: quietest day
+        value: Oct 30 · 22
+        color: default
+      - label: weekend share
+        value: ~200 of 850 events
+        color: default
+  - type: review-summary
+    heading: 56 approvals across the full repo portfolio
+    body: "Every single review this week was an approval — 56 of them across repos ranging from unhappychoice/mdts (7
+      reviews) and circleci-tools/circleci-cli (6 reviews) to smaller personal projects like RxSnackbar, kobito, and
+      qiita-docs. This is almost entirely the rhythm of being the sole or primary maintainer across a large portfolio:
+      Dependabot opens, I review and approve, the CI goes green, merge. It's not glamorous but it keeps the dependency
+      graph healthy."
+    chips:
+      - label: reviews
+        value: 56 approvals
+        color: green
+      - label: repos reviewed
+        value: 22 distinct
+        color: default
+      - label: approval rate
+        value: 100%
+        color: green
+  - type: devops
+    heading: splashboard gets three LLM pricing syncs in one week
+    body: "The splashboard repo saw three separate `chore: sync llm pricing from LiteLLM` commits land across the week, each
+      via its own PR. LLM provider pricing changes fast enough that this is apparently a recurring chore. It's a small
+      signal that splashboard is actively maintained and tracking the AI tooling landscape closely."
+    chips:
+      - label: repo
+        value: unhappychoice/splashboard
+        color: default
+      - label: syncs
+        value: 3 this week
+        color: default
+  - type: contribution-summary
+    heading: gittype 0.10.4 lands in microsoft/winget-pkgs
+    body: "After releasing gittype v0.10.4, I submitted the package update to microsoft/winget-pkgs — PR #466810 titled 'New
+      version: unhappychoice.gittype version 0.10.4'. Getting a release into the Windows Package Manager index is a
+      small but meaningful step for discoverability of the tool outside the usual Unix-centric Rust CLI audience."
+    chips:
+      - label: upstream repo
+        value: microsoft/winget-pkgs
+        color: default
+      - label: PR
+        value: "#466810"
+        color: default
+highlights:
+  - type: release
+    title: Release v0.10.4
+    repo: unhappychoice/gittype
+    meta: released Oct 2026
+    body: Fixed a breaking change in tree-sitter-dart 0.3.0 where the `initialized_variable_declaration` node was renamed,
+      then published to winget so Windows users get the update automatically.
+  - type: release
+    title: Release v0.12.2
+    repo: unhappychoice/gitlogue
+    meta: released Oct 2026
+    body: Patched two language-specific bugs — Swift nil literal capture and Dart highlight queries — and added a
+      compile-time assertion test for all highlight and injection queries to prevent regressions.
+  - type: pr
+    title: "chore(deps-dev): bump electron from 44.9.1 to 45.0.0"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged · +5 -5 · 2 files
+    body: A full major version bump of Electron in the cycle-flyer desktop app — the kind of upgrade that can silently break
+      native module bindings or renderer APIs, so worth keeping an eye on.
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/966
+  - type: pr
+    title: "chore(deps-dev): Bump webpack from 5.112.0 to 5.112.1 in /packages/frontend"
+    repo: unhappychoice/mdts
+    meta: merged · +24 -181 · 2 files
+    body: A patch-level webpack bump that somehow shrank the lockfile by 157 net lines — a reminder that even tiny version
+      bumps can have outsized effects on the dependency graph.
+    url: https://github.com/unhappychoice/mdts/pull/1036
+  - type: pr
+    title: "fix(dart): use renamed initialized_variable_declaration node"
+    repo: unhappychoice/gittype
+    meta: merged · part of v0.10.4
+    body: The core fix that unblocked the v0.10.4 release — tree-sitter-dart 0.3.0 silently renamed this node and gittype
+      was crashing on Dart files until this landed.
+ticker:
+  - label: BREAKING NEWS
+    text: "@unhappychoice ships TWO Rust releases in one week. Dart devs rejoice."
+  - label: HALLOWEEN SURGE
+    text: "@unhappychoice merges 229 commits on Nov 1. Trick or treat, dependency graph."
+  - label: ABSOLUTE CARNAGE
+    text: "@unhappychoice bumps rubocop 1.92.1 across 7 repos in what experts call a 'blitz'"
+  - label: WINGET MOMENT
+    text: "@unhappychoice infiltrates microsoft/winget-pkgs. Windows users unsuspecting."
+  - label: SOURCES SAY
+    text: "@unhappychoice approved 56 PRs this week. Rubber stamp reportedly worn down."
+  - label: LLM WATCH
+    text: "@unhappychoice syncs LLM pricing THREE times in one week. The market moves fast."
+  - label: ELECTRON ALERT
+    text: "@unhappychoice yeets electron from v44 to v45. cycle-flyer holds its breath."
+  - label: NOT A DRILL
+    text: "@unhappychoice touches 20+ repos in 7 days. No ecosystem left behind."
