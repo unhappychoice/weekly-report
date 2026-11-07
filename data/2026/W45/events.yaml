@@ -314,3 +314,296 @@
     prNumber: 679
     prTitle: ""
     state: approved
+- id: "26461431626"
+  type: PushEvent
+  repo: unhappychoice/terminal_image
+  createdAt: 2026-11-07T09:50:31Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "26461326313"
+  type: PushEvent
+  repo: unhappychoice/slack_channel_stats
+  createdAt: 2026-11-07T09:48:55Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "26461324585"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-11-07T09:48:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "26461319579"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-07T09:48:49Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "26460914011"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-11-07T10:12:22Z
+  payload:
+    kind: generic
+    action: ""
+- id: "26459629246"
+  type: PushEvent
+  repo: unhappychoice/blog.unhappychoice.com
+  createdAt: 2026-11-07T09:50:49Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "26445533914"
+  type: DeleteEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-11-07T10:24:41Z
+  payload:
+    kind: generic
+    action: ""
+- id: "26443188920"
+  type: PushEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-11-07T09:48:52Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "26443186081"
+  type: DeleteEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-07T09:48:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "19422989263"
+  type: PullRequestEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-11-07T13:29:41Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 7
+    title: ""
+- id: "19418043757"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:22:39Z
+  payload:
+    kind: generic
+    action: created
+- id: "19418043205"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:22:40Z
+  payload:
+    kind: issues
+    action: closed
+    number: 354
+    title: "[Pending Release] bitflyer-tools/DroidFlyer"
+- id: "19418041869"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:22:36Z
+  payload:
+    kind: generic
+    action: created
+- id: "19418041542"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:22:37Z
+  payload:
+    kind: issues
+    action: closed
+    number: 355
+    title: "[Pending Release] circleci-tools/Norimaki"
+- id: "19417682022"
+  type: ReleaseEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T11:13:13Z
+  payload:
+    kind: release
+    action: published
+    tag: v2.2.0
+    name: v2.2.0
+- id: "19417680765"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T11:13:09Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 566
+    title: ""
+- id: "19417679559"
+  type: ReleaseEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-07T11:13:07Z
+  payload:
+    kind: release
+    action: published
+    tag: v1.2.0
+    name: v1.2.0
+- id: "19417676193"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-07T11:13:04Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 495
+    title: ""
+- id: "19417563298"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:10:06Z
+  payload:
+    kind: generic
+    action: created
+- id: "19417562073"
+  type: IssueCommentEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:10:04Z
+  payload:
+    kind: generic
+    action: created
+- id: "19417561975"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:10:08Z
+  payload:
+    kind: issues
+    action: closed
+    number: 357
+    title: "[Pending Release] unhappychoice/splashboard"
+- id: "19417561376"
+  type: IssuesEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-07T11:10:07Z
+  payload:
+    kind: issues
+    action: closed
+    number: 349
+    title: "[CI Failure] unhappychoice/cycle-pusher"
+- id: "19417374985"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T11:05:13Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 566
+    title: ""
+- id: "19417366427"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-07T11:05:00Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 495
+    title: ""
+- id: "19417362429"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T11:04:54Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 564
+    prTitle: ""
+    state: approved
+- id: "19417187636"
+  type: PullRequestReviewEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-07T11:00:22Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 973
+    prTitle: ""
+    state: approved
+- id: "19417049237"
+  type: IssueCommentEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T10:56:40Z
+  payload:
+    kind: generic
+    action: created
+- id: "19417045567"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-07T10:56:32Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 972
+    title: ""
+- id: "19417040439"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T10:56:27Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 565
+    title: ""
+- id: "19417037253"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-11-07T10:56:22Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 374
+    title: ""
+- id: "19416691981"
+  type: PullRequestEvent
+  repo: unhappychoice/splashboard
+  createdAt: 2026-11-07T10:47:20Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 374
+    title: ""
+- id: "19416569468"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T10:44:07Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 565
+    title: ""
+- id: "19416536636"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-07T10:43:16Z
+  payload:
+    kind: pull_request
+    action: opened
+    number: 972
+    title: ""
+- id: "19415850229"
+  type: PullRequestReviewEvent
+  repo: unhappychoice/blog
+  createdAt: 2026-11-07T10:24:37Z
+  payload:
+    kind: review
+    action: created
+    prNumber: 782
+    prTitle: ""
+    state: approved
+- id: "19415477329"
+  type: IssueCommentEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-07T10:14:24Z
+  payload:
+    kind: generic
+    action: created
