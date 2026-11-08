@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>Dependency maintenance marathon across 20+ repos with splashboard glibc fix</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W45/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W45/</guid>
+      <description>58 reviews, 11 PRs merged, and 5 releases shipped in a week dominated by Dependabot wrangling and a notable sysinfo compatibility fix.
+
+This week was a pure dependency maintenance sprint — the kind of week where you&apos;re the gardener of a large ecosystem, pruning and updating across more than 20 repositories simultaneously. From Rust crates like tree-sitter-scala and log, to JavaScript packages like glob, eslint, and @mui/x-tree-view, to Ruby gems like nokogiri and addressable, the breadth of the update sweep was impressive. mdts alone absorbed 11 PRs this week, making it the clear center of gravity.
+
+The most technically interesting moment came in splashboard, where a sysinfo bump to 0.40 introduced a glibc compatibility regression. The fix — disabling unused sysinfo features to keep glibc 2.17 builds working — landed in v2.10.4 and shows the kind of subtle cross-compilation gotcha that lurks behind routine dependency bumps. Alongside that, the LiteLLM pricing sync automation continued running, keeping splashboard&apos;s LLM cost data fresh without manual intervention.
+
+The activity pattern this week was striking: Saturday (Nov 8) absolutely exploded with 985 recorded commit events, dwarfing every other day. Five releases shipped across mdts, splashboard, cycle-flyer, DroidFlyer, and Norimaki. The 58 reviews logged — nearly all approvals on Dependabot PRs — reflect a deliberate, systematic approach to keeping a sprawling multi-language portfolio up to date.
+
+
+Commits: 137, PRs: 11, Reviews: 58</description>
+      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W45/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W45/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>gittype v0.10.4 and gitlogue v0.12.2 ship with Dart tree-sitter fixes</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W44/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W44/</guid>
