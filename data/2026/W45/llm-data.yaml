@@ -1,0 +1,172 @@
+title: Dependency maintenance marathon across 20+ repos with splashboard glibc fix
+subtitle: 58 reviews, 11 PRs merged, and 5 releases shipped in a week dominated by Dependabot wrangling and a notable
+  sysinfo compatibility fix.
+overview: >
+  This week was a pure dependency maintenance sprint — the kind of week where you're the gardener of a large ecosystem,
+  pruning and updating across more than 20 repositories simultaneously. From Rust crates like tree-sitter-scala and log,
+  to JavaScript packages like glob, eslint, and @mui/x-tree-view, to Ruby gems like nokogiri and addressable, the
+  breadth of the update sweep was impressive. mdts alone absorbed 11 PRs this week, making it the clear center of
+  gravity.
+
+
+  The most technically interesting moment came in splashboard, where a sysinfo bump to 0.40 introduced a glibc
+  compatibility regression. The fix — disabling unused sysinfo features to keep glibc 2.17 builds working — landed in
+  v2.10.4 and shows the kind of subtle cross-compilation gotcha that lurks behind routine dependency bumps. Alongside
+  that, the LiteLLM pricing sync automation continued running, keeping splashboard's LLM cost data fresh without manual
+  intervention.
+
+
+  The activity pattern this week was striking: Saturday (Nov 8) absolutely exploded with 985 recorded commit events,
+  dwarfing every other day. Five releases shipped across mdts, splashboard, cycle-flyer, DroidFlyer, and Norimaki. The
+  58 reviews logged — nearly all approvals on Dependabot PRs — reflect a deliberate, systematic approach to keeping a
+  sprawling multi-language portfolio up to date.
+summaries:
+  - type: deep-dive
+    heading: sysinfo 0.40 breaks glibc 2.17 builds in splashboard
+    body: "The splashboard bump from sysinfo 0.39 to 0.40 quietly pulled in GPU feature flags that depend on newer glibc
+      symbols, breaking builds targeting glibc 2.17. The fix was surgical: disable the unused sysinfo features at the
+      Cargo level to restore compatibility without losing any actual functionality. This shipped as v2.10.4 with a clear
+      commit trail — 'fix(deps): disable unused sysinfo features to keep glibc 2.17 builds'. It's a good reminder that
+      even patch-level Rust crate bumps can have non-obvious downstream ABI implications."
+    chips:
+      - label: repo
+        value: splashboard
+        color: default
+      - label: release
+        value: v2.10.4
+        color: green
+      - label: fix
+        value: glibc 2.17
+        color: default
+  - type: repo-summary
+    heading: mdts is the week's busiest repo by a wide margin
+    body: unhappychoice/mdts absorbed 11 PRs this week, covering glob, react-router-dom, @mui/x-tree-view, webpack-cli,
+      eslint (twice), ws, globals, and more — a full sweep of its JavaScript dependency surface. The repo also shipped
+      v0.21.2, packaging up the week's updates into a clean release. With 14 reviews logged against it, mdts was clearly
+      the primary maintenance focus.
+    chips:
+      - label: unhappychoice/mdts
+        value: 11 PRs
+        color: default
+      - label: release
+        value: v0.21.2
+        color: green
+      - label: languages
+        value: JS / TS
+        color: default
+  - type: review-summary
+    heading: 58 reviews — systematic Dependabot approval across the whole portfolio
+    body: Every single review this week was an approval, and they were spread across 15+ distinct repositories including
+      mdts, cycle-flyer, circleci-cli, irasutoya, DroidFlyer, and more. This is less about code review drama and more
+      about disciplined portfolio stewardship — making sure automated dependency PRs don't pile up and go stale. Eleven
+      of those approvals landed on mdts alone.
+    chips:
+      - label: reviews
+        value: 58 total
+        color: default
+      - label: approved
+        value: 58 / 58
+        color: green
+      - label: repos covered
+        value: 15+
+        color: default
+  - type: activity-pattern
+    heading: Saturday explodes to 985 — a 4x spike over any other day
+    body: "The daily commit distribution this week tells a dramatic story: Monday and Tuesday were solid at 164 and 155,
+      midweek dipped to the 27–40 range, Friday recovered to 237, and then Saturday went completely off the charts at
+      985. That Saturday number likely reflects a batch automation run or a mass-merge event rather than 985 individual
+      manual commits. The overall weekly total of 137 actual commits across repos is more representative of the real
+      workload."
+    chips:
+      - label: peak day
+        value: Sat 985
+        color: green
+      - label: quietest day
+        value: Wed 27
+        color: default
+      - label: total commits
+        value: "137"
+        color: default
+  - type: contribution-summary
+    heading: "Cross-org maintenance: bitflyer-tools, circleci-tools, irasutoya-tools"
+    body: "Beyond personal repos, the week included meaningful activity in three external orgs: bitflyer-tools (cycle-flyer
+      v1.1.0, DroidFlyer v2.2.0, bitflyer and bitflyer-cli releases), circleci-tools (Norimaki v1.2.0, circleci-cli
+      dependency updates), and irasutoya-tools (nokogiri and rubocop bumps). The ws and glob security override fix in
+      cycle-flyer — 'fix(deps): override ws and glob to patched versions' — was the most security-relevant contribution
+      outside personal repos this week."
+    chips:
+      - label: bitflyer-tools
+        value: 2 releases
+        color: default
+      - label: circleci-tools
+        value: 1 release
+        color: default
+      - label: irasutoya-tools
+        value: 4 PRs
+        color: default
+  - type: tech-debt
+    heading: Dependabot config hardening and Claude skill tracking
+    body: "Two small but meaningful housekeeping moves this week: adding dependabot ignore rules for prism major updates in
+      both blog and slack_channel_stats, and tracking a new 'dependabot-merge' skill in dotfiles/claude. The Claude
+      skill entry — 'docs(claude): harden dependabot-merge skill per review' — suggests some thought is going into
+      codifying the workflow for automated dependency management, which makes sense given the sheer volume of Dependabot
+      PRs being handled weekly."
+    chips:
+      - label: repos updated
+        value: blog, slack_channel_stats
+        color: default
+      - label: skill
+        value: dependabot-merge
+        color: default
+highlights:
+  - type: pr
+    title: "chore: sync llm pricing from LiteLLM"
+    repo: unhappychoice/splashboard
+    meta: merged Nov 2026 · +6 -0 · 1 file
+    body: An automated daily refresh of LLM pricing data from LiteLLM's price table — the PR even ships with a review
+      checklist to catch order-of-magnitude pricing jumps or silently disappeared models. A nice example of automation
+      with built-in sanity checks.
+    url: https://github.com/unhappychoice/splashboard/pull/373
+  - type: release
+    title: Release v2.10.4
+    repo: unhappychoice/splashboard
+    meta: released Nov 2026
+    body: The most technically substantive release of the week — fixes a glibc 2.17 compatibility regression introduced by
+      the sysinfo 0.39→0.40 bump by disabling unused GPU feature flags at the Cargo level.
+  - type: pr
+    title: "chore(deps): Bump glob from 13.0.6 to 14.0.3"
+    repo: unhappychoice/mdts
+    meta: merged Nov 2026 · +194 -13 · 2 files
+    body: The largest diff of any PR this week at +194 -13, reflecting glob's major version jump from 13 to 14 which
+      switched to minimatch internally. A bigger change than the typical one-line lockfile bump.
+    url: https://github.com/unhappychoice/mdts/pull/1047
+  - type: release
+    title: v1.1.0
+    repo: bitflyer-tools/cycle-flyer
+    meta: released Nov 2026
+    body: This release included a security-motivated override of ws and glob to patched versions — not just routine
+      dependency bumps, but an active response to known vulnerability surface in the dependency tree.
+  - type: pr
+    title: "chore(deps-dev): bump electron from 45.1.0 to 45.2.1"
+    repo: bitflyer-tools/cycle-flyer
+    meta: merged Nov 2026 · +5 -5 · 2 files
+    body: Electron 45.2.1 in late 2026 — a small but telling data point about how far the Electron ecosystem has come, and
+      how actively cycle-flyer is tracking it.
+    url: https://github.com/bitflyer-tools/cycle-flyer/pull/970
+ticker:
+  - label: MASS UPDATE
+    text: "@unhappychoice carpet-bombs 20+ repos with dependency updates. No package left behind."
+  - label: GLIBC CRISIS
+    text: "@unhappychoice defuses glibc 2.17 time bomb hidden inside sysinfo 0.40 upgrade."
+  - label: SATURDAY SURGE
+    text: "@unhappychoice logs 985 commit events in a single day. Scientists scramble to explain."
+  - label: RUBBER STAMP
+    text: "@unhappychoice approves 58 PRs in one week. Fingers reportedly still intact."
+  - label: LLM PRICES UPDATED
+    text: "@unhappychoice syncs LLM pricing from LiteLLM. Anthropic execs reportedly nervous."
+  - label: FIVE RELEASES
+    text: "@unhappychoice ships mdts, splashboard, cycle-flyer, DroidFlyer, and Norimaki in 7 days."
+  - label: SECURITY ALERT
+    text: "@unhappychoice overrides vulnerable ws and glob in cycle-flyer. Hackers weep."
+  - label: SKILL UNLOCKED
+    text: "@unhappychoice codifies dependabot-merge into Claude skills. The robots are learning."
