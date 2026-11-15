@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>tapline BMS engine goes from zero to feature-complete in one week - 2026-11-09 - 2026-11-15</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="109 PRs merged into unhappychoice/tapline as a full BMS/bmson player gets built from scratch, alongside kotlinz monad library construction and a dependency sweep across 20+ repos" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta property="og:title" content="tapline BMS engine goes from zero to feature-complete in one week" />
+  <meta property="og:description" content="109 PRs merged into unhappychoice/tapline as a full BMS/bmson player gets built from scratch, alongside kotlinz monad library construction and a dependency sweep across 20+ repos" />
+  <meta property="og:image" content="https://unhappychoice.github.io/weekly-report/2026/W46/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://unhappychoice.github.io/weekly-report/2026/W46/" />
+  <meta property="og:site_name" content="unhappychoice Weekly Reports" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="tapline BMS engine goes from zero to feature-complete in one week" />
+  <meta name="twitter:description" content="109 PRs merged into unhappychoice/tapline as a full BMS/bmson player gets built from scratch, alongside kotlinz monad library construction and a dependency sweep across 20+ repos" />
+  <meta name="twitter:image" content="https://unhappychoice.github.io/weekly-report/2026/W46/og.png" />
+  <meta name="author" content="unhappychoice" />
+  <meta name="theme-color" content="#050505" />
+  <meta property="article:published_time" content="2026-11-15" />
+  <meta property="article:author" content="https://github.com/unhappychoice" />
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/5608948?u&#x3D;6ca2fca8320cb6be5b802f6c5a6359933754ab2e&amp;v&#x3D;4" />
+  <link rel="canonical" href="https://unhappychoice.github.io/weekly-report/2026/W46/" />
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://unhappychoice.github.io/weekly-report/feed.xml" />
+  <meta name="view-transition" content="same-origin" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "tapline BMS engine goes from zero to feature-complete in one week",
+    "description": "109 PRs merged into unhappychoice/tapline as a full BMS/bmson player gets built from scratch, alongside kotlinz monad library construction and a dependency sweep across 20+ repos",
+    "author": {
+      "@type": "Person",
+      "name": "unhappychoice",
+      "url": "https://github.com/unhappychoice"
+    },
+    "image": "https://unhappychoice.github.io/weekly-report/2026/W46/og.png",
+    "datePublished": "2026-11-15"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://unhappychoice.github.io/weekly-report/" },
+      { "@type": "ListItem", "position": 2, "name": "2026-11-09 - 2026-11-15", "item": "https://unhappychoice.github.io/weekly-report/2026/W46/" }
+    ]
+  }
+  </script>
+  <style>
+    
+  :root { 
+    --b-bg: #050505;
+    --b-bg-hero: #0a0a0a;
+    --b-text: #e0e0e0;
+    --b-text-secondary: rgba(255,255,255,0.65);
+    --b-text-tertiary: rgba(255,255,255,0.3);
+    --b-heading: #ffffff;
+    --b-border: rgba(255,255,255,0.08);
+    --b-border-subtle: rgba(255,255,255,0.04);
+    --b-accent: #39d353;
+    --b-card-bg: rgba(255,255,255,0.02);
+    --b-chip-bg: rgba(255,255,255,0.04);
+    --b-chip-border: rgba(255,255,255,0.08);
+    --b-green: #3fb950;
+    --b-red: #f85149;
+    --b-badge-pr: #8957e5;
+    --b-badge-release: #238636;
+    --b-badge-issue: #d29922;
+    --b-badge-discussion: #58a6ff;
+    --b-heatmap-0: rgba(255,255,255,0.03);
+    --b-heatmap-1: #0e4429;
+    --b-heatmap-2: #006d32;
+    --b-heatmap-3: #26a641;
+    --b-heatmap-4: #39d353;
+    --b-heatmap-4-text: #000;
+    --b-nav-bg: rgba(5,5,5,0.8);
+    --b-nav-title: rgba(255,255,255,0.4);
+    --b-sep: rgba(255,255,255,0.15);
+    --b-hero-sub: rgba(255,255,255,0.5);
+    --b-footer-text: rgba(255,255,255,0.3);
+    --b-footer-link: rgba(255,255,255,0.5);
+    --b-grain-opacity: 0.03;
+ }
+  @media (prefers-color-scheme: light) { :root { 
+    --b-bg: #fafafa;
+    --b-bg-hero: #f0f0f0;
+    --b-text: #1a1a1a;
+    --b-text-secondary: rgba(0,0,0,0.6);
+    --b-text-tertiary: rgba(0,0,0,0.35);
+    --b-heading: #000000;
+    --b-border: rgba(0,0,0,0.1);
+    --b-border-subtle: rgba(0,0,0,0.05);
+    --b-accent: #1a7f37;
+    --b-card-bg: rgba(0,0,0,0.02);
+    --b-chip-bg: rgba(0,0,0,0.04);
+    --b-chip-border: rgba(0,0,0,0.1);
+    --b-green: #1a7f37;
+    --b-red: #cf222e;
+    --b-badge-pr: #8250df;
+    --b-badge-release: #1a7f37;
+    --b-badge-issue: #9a6700;
+    --b-badge-discussion: #0969da;
+    --b-heatmap-0: rgba(0,0,0,0.04);
+    --b-heatmap-1: #d0e8d0;
+    --b-heatmap-2: #a0d0a0;
+    --b-heatmap-3: #60b060;
+    --b-heatmap-4: #1a7f37;
+    --b-heatmap-4-text: #fff;
+    --b-nav-bg: rgba(250,250,250,0.85);
+    --b-nav-title: rgba(0,0,0,0.45);
+    --b-sep: rgba(0,0,0,0.15);
+    --b-hero-sub: rgba(0,0,0,0.45);
+    --b-footer-text: rgba(0,0,0,0.35);
+    --b-footer-link: rgba(0,0,0,0.5);
+    --b-grain-opacity: 0.02;
+ } }
+  html[data-theme="dark"] { 
+    --b-bg: #050505;
+    --b-bg-hero: #0a0a0a;
+    --b-text: #e0e0e0;
+    --b-text-secondary: rgba(255,255,255,0.65);
+    --b-text-tertiary: rgba(255,255,255,0.3);
+    --b-heading: #ffffff;
+    --b-border: rgba(255,255,255,0.08);
+    --b-border-subtle: rgba(255,255,255,0.04);
+    --b-accent: #39d353;
+    --b-card-bg: rgba(255,255,255,0.02);
+    --b-chip-bg: rgba(255,255,255,0.04);
+    --b-chip-border: rgba(255,255,255,0.08);
+    --b-green: #3fb950;
+    --b-red: #f85149;
+    --b-badge-pr: #8957e5;
+    --b-badge-release: #238636;
+    --b-badge-issue: #d29922;
+    --b-badge-discussion: #58a6ff;
+    --b-heatmap-0: rgba(255,255,255,0.03);
+    --b-heatmap-1: #0e4429;
+    --b-heatmap-2: #006d32;
+    --b-heatmap-3: #26a641;
+    --b-heatmap-4: #39d353;
+    --b-heatmap-4-text: #000;
+    --b-nav-bg: rgba(5,5,5,0.8);
+    --b-nav-title: rgba(255,255,255,0.4);
+    --b-sep: rgba(255,255,255,0.15);
+    --b-hero-sub: rgba(255,255,255,0.5);
+    --b-footer-text: rgba(255,255,255,0.3);
+    --b-footer-link: rgba(255,255,255,0.5);
+    --b-grain-opacity: 0.03;
+ }
+  html[data-theme="light"] { 
+    --b-bg: #fafafa;
+    --b-bg-hero: #f0f0f0;
+    --b-text: #1a1a1a;
+    --b-text-secondary: rgba(0,0,0,0.6);
+    --b-text-tertiary: rgba(0,0,0,0.35);
+    --b-heading: #000000;
+    --b-border: rgba(0,0,0,0.1);
+    --b-border-subtle: rgba(0,0,0,0.05);
+    --b-accent: #1a7f37;
+    --b-card-bg: rgba(0,0,0,0.02);
+    --b-chip-bg: rgba(0,0,0,0.04);
+    --b-chip-border: rgba(0,0,0,0.1);
+    --b-green: #1a7f37;
+    --b-red: #cf222e;
+    --b-badge-pr: #8250df;
+    --b-badge-release: #1a7f37;
+    --b-badge-issue: #9a6700;
+    --b-badge-discussion: #0969da;
+    --b-heatmap-0: rgba(0,0,0,0.04);
+    --b-heatmap-1: #d0e8d0;
+    --b-heatmap-2: #a0d0a0;
+    --b-heatmap-3: #60b060;
+    --b-heatmap-4: #1a7f37;
+    --b-heatmap-4-text: #fff;
+    --b-nav-bg: rgba(250,250,250,0.85);
+    --b-nav-title: rgba(0,0,0,0.45);
+    --b-sep: rgba(0,0,0,0.15);
+    --b-hero-sub: rgba(0,0,0,0.45);
+    --b-footer-text: rgba(0,0,0,0.35);
+    --b-footer-link: rgba(0,0,0,0.5);
+    --b-grain-opacity: 0.02;
+ }
+
+    
+  .theme-toggle-row {
+    margin-bottom: 1rem;
+  }
+  .theme-toggle {
+    background: none; border: none;
+    color: var(--b-text-tertiary); cursor: pointer;
+    font-size: 0.8125rem; line-height: 1;
+    padding: 0; opacity: 0.4;
+    transition: opacity 0.2s;
+  }
+  .theme-toggle:hover { opacity: 1; }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    /* GRAIN */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: var(--b-grain-opacity);
+    }
+
+    .skip-link {
+      position: absolute; top: -100%; left: 1rem;
+      padding: 0.5rem 1rem; background: var(--b-accent); color: var(--b-bg);
+      border-radius: 0 0 6px 6px; z-index: 200; font-size: 0.875rem; text-decoration: none;
+    }
+    .skip-link:focus { top: 0; }
+    :focus-visible { outline: 2px solid var(--b-accent); outline-offset: 2px; }
+
+    body {
+      font-family: 'Schibsted Grotesk', sans-serif;
+      background: var(--b-bg);
+      color: var(--b-text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+    }
+
+    code {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.875em;
+      padding: 0.15em 0.4em;
+      border-radius: 4px;
+      background: var(--b-chip-bg);
+      border: 1px solid var(--b-chip-border);
+    }
+
+    /* ===== NAV (matches index 960px) ===== */
+    nav[aria-label="Site navigation"] {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--b-nav-bg);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--b-border);
+    }
+    .nav-inner {
+      max-width: 960px; margin: 0 auto;
+      padding: 0.75rem 3rem;
+      display: flex; justify-content: space-between; align-items: center;
+      min-height: 56px;
+    }
+    nav a { color: var(--b-text); text-decoration: none; }
+    .nav-site-title {
+      font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--b-nav-title);
+      white-space: nowrap;
+    }
+    .nav-back {
+      font-family: 'Space Mono', monospace; font-size: 0.6875rem;
+      color: var(--b-text-tertiary);
+      padding: 0.375rem 0.75rem; border-radius: 6px;
+      border: 1px solid var(--b-chip-border); transition: all 0.2s;
+    }
+    .nav-back:hover { color: var(--b-text); border-color: var(--b-accent); }
+
+    /* ===== REPORT HERO ===== */
+    .report-hero {
+      position: relative;
+      background: var(--b-bg-hero);
+      padding: 8rem 3rem 4rem;
+      margin-bottom: 4rem;
+      overflow: hidden;
+    }
+    .report-hero::before {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 50%;
+      width: 900px; height: 400px;
+      transform: translateX(-50%);
+      background: radial-gradient(ellipse, var(--b-accent) / 0.06, transparent 70%);
+      pointer-events: none;
+    }
+    .report-hero-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .report-hero .header-meta {
+      display: flex; align-items: center; gap: 0.75rem;
+      margin-bottom: 2rem;
+      font-size: 0.8125rem; color: var(--b-text-tertiary);
+    }
+    .report-hero .header-sep { color: var(--b-sep); }
+    .report-hero .header-date {
+      font-family: 'Space Mono', monospace; font-size: 0.6875rem;
+      letter-spacing: 0.1em; text-transform: uppercase;
+    }
+    .report-hero .header-author {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      text-decoration: none; color: var(--b-text-secondary);
+      font-weight: 500; transition: color 0.3s;
+    }
+    .report-hero .header-author:hover { color: var(--b-accent); }
+    .report-hero .header-author img {
+      width: 32px; height: 32px; border-radius: 50%;
+      border: 2px solid color-mix(in srgb, var(--b-accent) 25%, transparent);
+    }
+    .report-hero .header-title {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -0.05em;
+      color: var(--b-heading);
+      margin-bottom: 1.25rem;
+      max-width: 80%;
+    }
+    .report-hero .header-sub {
+      font-size: 1.25rem;
+      color: var(--b-hero-sub);
+      font-weight: 300;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    /* ===== CONTENT ===== */
+    .page {
+      max-width: 960px; margin: 0 auto;
+      padding: 0 3rem 4rem;
+    }
+
+    /* OVERVIEW */
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .overview {
+      padding: 0 0 2rem;
+      margin-bottom: 4rem;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+      animation: fade-up 0.5s ease both;
+    }
+    .overview p {
+      font-size: 1.0625rem; color: var(--b-text-secondary);
+      line-height: 1.9; margin-bottom: 1.25rem;
+    }
+    .overview p:last-child { margin-bottom: 0; }
+    .overview strong { color: var(--b-text); font-weight: 500; }
+
+    /* SECTION GROUP */
+    .section-group { margin-bottom: 5rem; }
+    .section-group-header {
+      display: flex; align-items: center; gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .section-group-title {
+      font-size: clamp(3rem, 8vw, 5rem); font-weight: 900;
+      letter-spacing: -0.06em;
+    }
+    .section-group-line { flex: 1; height: 1px; background: var(--b-border); }
+    .section-group-count {
+      font-family: 'Space Mono', monospace; font-size: 0.75rem;
+      color: var(--b-text-tertiary); letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    /* SUMMARY CARDS - alternating wide offset */
+    @keyframes card-enter {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .section-summary:nth-child(2) { animation-delay: 0.05s; }
+    .section-summary:nth-child(3) { animation-delay: 0.1s; }
+    .section-summary:nth-child(4) { animation-delay: 0.15s; }
+    .section-summary:nth-child(5) { animation-delay: 0.2s; }
+    .section-summary:nth-child(6) { animation-delay: 0.25s; }
+    .section-summary {
+      margin-bottom: 2.5rem;
+      padding: 2rem 0 2rem 2.5rem;
+      border: none;
+      border-left: 2px solid var(--b-chip-border);
+      background: none;
+      max-width: 600px;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      animation: card-enter 0.4s ease both;
+      position: relative;
+    }
+    .section-summary:hover {
+      border-left-color: var(--b-accent);
+    }
+    .section-summary:first-child {
+      max-width: 700px;
+      padding: 2.5rem 0 2.5rem 3rem;
+      border-left-width: 3px;
+      border-left-color: color-mix(in srgb, var(--b-accent) 25%, transparent);
+    }
+    .section-summary:nth-child(even):not(:first-child) {
+      margin-left: auto;
+    }
+    .section-summary:nth-child(odd):not(:first-child) {
+      margin-right: auto;
+    }
+    .section-summary:hover {
+      transform: translateX(4px);
+    }
+    .section-summary .section-heading {
+      font-size: 2rem; font-weight: 900;
+      letter-spacing: -0.04em;
+      margin-left: -5rem;
+      margin-bottom: 1rem;
+      color: var(--b-heading);
+    }
+    .section-summary:first-child .section-heading {
+      margin-left: -6rem;
+      font-size: 2.75rem;
+    }
+    .section-summary .section-type {
+      font-family: 'Space Mono', monospace; font-size: 0.6875rem;
+      text-transform: uppercase; letter-spacing: 0.2em;
+      color: var(--b-accent); margin-bottom: 0.75rem;
+    }
+    .section-summary .section-body {
+      font-size: 1rem; color: var(--b-text-secondary); line-height: 1.85;
+    }
+
+    /* DATA CHIPS */
+    .data-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+    .chip {
+      font-family: 'Space Mono', monospace; font-size: 0.75rem;
+      padding: 0.3rem 0.65rem; border-radius: 6px;
+      background: var(--b-chip-bg); border: 1px solid var(--b-chip-border);
+      color: var(--b-text-secondary);
+      display: inline-flex; align-items: center; gap: 0.375rem;
+      transition: all 0.2s ease;
+    }
+    .chip:hover { border-color: color-mix(in srgb, var(--b-accent) 40%, transparent); }
+    .chip-green { color: var(--b-green); font-weight: 600; }
+    .chip-red { color: var(--b-red); font-weight: 600; }
+    .chip-default { font-weight: 600; }
+
+    /* HIGHLIGHT GRID */
+    .highlight-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    /* HIGHLIGHT CARD */
+    .highlight-card {
+      background: var(--b-card-bg);
+      border: 1px solid var(--b-chip-border);
+      border-radius: 12px;
+      padding: 2rem;
+      animation: card-enter 0.4s ease both;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .highlight-card:nth-child(2) { animation-delay: 0.05s; }
+    .highlight-card:nth-child(3) { animation-delay: 0.1s; }
+    .highlight-card:nth-child(4) { animation-delay: 0.15s; }
+    .highlight-card:nth-child(5) { animation-delay: 0.2s; }
+    .highlight-card:hover {
+      border-color: color-mix(in srgb, var(--b-badge-pr) 30%, transparent);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 48px color-mix(in srgb, var(--b-badge-pr) 8%, transparent), 0 4px 16px rgba(0,0,0,0.2);
+    }
+    .highlight-badge {
+      font-family: 'Space Mono', monospace; font-size: 0.6875rem;
+      text-transform: uppercase; letter-spacing: 0.15em;
+      display: inline-block; padding: 0.2rem 0.5rem;
+      border-radius: 4px; margin-bottom: 0.75rem; color: #fff;
+    }
+    .highlight-pr { background: var(--b-badge-pr); }
+    .highlight-release { background: var(--b-badge-release); }
+    .highlight-issue { background: var(--b-badge-issue); color: #000; }
+    .highlight-discussion { background: var(--b-badge-discussion); color: #000; }
+    .highlight-title { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.375rem; letter-spacing: -0.01em; }
+    .highlight-meta {
+      font-family: 'Space Mono', monospace; font-size: 0.75rem;
+      color: var(--b-text-tertiary); margin-bottom: 0.75rem; letter-spacing: 0.02em;
+    }
+    .highlight-title a { color: var(--b-text); text-decoration: none; transition: color 0.2s; }
+    .highlight-title a:hover { color: var(--b-accent); }
+    .highlight-body { font-size: 0.9375rem; color: var(--b-text-secondary); line-height: 1.75; }
+
+    /* MINI HEATMAP */
+    .mini-heatmap { display: flex; gap: 4px; margin-top: 1.25rem; }
+    .mh-day { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+    .mh-block {
+      width: 44px; height: 44px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Space Mono', monospace; font-size: 0.8125rem; font-weight: 600;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .mh-block:hover { transform: scale(1.15); }
+    .mh-label { font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--b-text-tertiary); }
+    .mh-level-0 { background: var(--b-heatmap-0); color: var(--b-text-tertiary); }
+    .mh-level-1 { background: var(--b-heatmap-1); }
+    .mh-level-2 { background: var(--b-heatmap-2); }
+    .mh-level-3 { background: var(--b-heatmap-3); }
+    .mh-level-4 { background: var(--b-heatmap-4); color: var(--b-heatmap-4-text); }
+
+    /* DIFF BAR */
+    .diff-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+    .diff-add { background: var(--b-green); height: 100%; }
+    .diff-del { background: var(--b-red); height: 100%; }
+    .diff-labels { display: flex; justify-content: space-between; font-family: 'Space Mono', monospace; font-size: 0.6875rem; }
+    .diff-label-add { color: var(--b-green); }
+    .diff-label-del { color: var(--b-red); }
+
+    /* REPO BARS */
+    .repo-bars { margin-top: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .repo-bar-item { font-size: 0.75rem; }
+    .repo-bar-header { display: flex; justify-content: space-between; margin-bottom: 0.25rem; }
+    .repo-bar-label { font-family: 'Space Mono', monospace; color: var(--b-text-secondary); font-size: 0.6875rem; }
+    .repo-bar-track { width: 100%; height: 4px; border-radius: 2px; background: var(--b-chip-bg); overflow: hidden; }
+    .repo-bar-fill { height: 100%; border-radius: 2px; background: var(--b-accent); transition: width 0.5s ease; }
+    .repo-bar-value { font-family: 'Space Mono', monospace; color: var(--b-text-tertiary); font-size: 0.6875rem; }
+
+    /* SHARE BAR */
+    .share-bar { max-width: 960px; margin: 3rem auto 0; padding: 2rem 3rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    .share-label { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--b-text-tertiary); text-transform: uppercase; letter-spacing: 0.2em; }
+    .share-btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 32px; height: 32px; border-radius: 6px;
+      border: 1px solid var(--b-chip-border); background: var(--b-chip-bg);
+      color: var(--b-text-secondary); text-decoration: none;
+      font-size: 0.75rem; font-weight: 600; transition: all 0.3s;
+    }
+    .share-btn:hover { border-color: var(--b-accent); color: var(--b-text); }
+
+    /* WEEK NAV */
+    .week-nav { max-width: 960px; margin: 0 auto; padding: 2rem; display: flex; justify-content: space-between; }
+    .week-nav-link {
+      font-family: 'Space Mono', monospace; font-size: 0.6875rem; color: var(--b-text-tertiary);
+      text-decoration: none; padding: 0.375rem 0.75rem; border-radius: 6px;
+      border: 1px solid var(--b-chip-border); transition: all 0.2s;
+    }
+    .week-nav-link:hover { color: var(--b-text); border-color: var(--b-accent); }
+
+    /* FOOTER */
+    .footer {
+      max-width: 960px; margin: 0 auto; text-align: center;
+      padding: 4rem 3rem; font-size: 0.8125rem;
+      color: var(--b-footer-text);
+      border-top: 1px solid var(--b-border);
+    }
+    .footer a { color: var(--b-footer-link); text-decoration: none; transition: color 0.2s; }
+    .footer a:hover { color: var(--b-accent); }
+
+    @view-transition { navigation: auto; }
+
+    @media (max-width: 600px) {
+      .nav-inner { padding: 0.75rem 1.5rem; }
+      .report-hero { padding: 6rem 1.5rem 3rem; }
+      .report-hero .header-title { font-size: clamp(2rem, 10vw, 3rem); max-width: 100%; }
+      .page { padding: 0 1.5rem 3rem; }
+      .section-summary { max-width: 100%; }
+      .section-summary:first-child { max-width: 100%; padding: 2rem; }
+      .section-summary .section-heading { margin-left: -0.5rem; font-size: 1.25rem; }
+      .section-summary:first-child .section-heading { margin-left: -0.5rem; font-size: 1.5rem; }
+      .highlight-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <script>
+(function(){
+  var s=localStorage.getItem("theme");
+  if(s)document.documentElement.setAttribute("data-theme",s);
+})();
+</script>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<nav aria-label="Site navigation">
+  <div class="nav-inner">
+    <a href="../../" class="nav-site-title">Dev Pulse</a>
+    <a href="../../" class="nav-back">&larr; All weeks</a>
+  </div>
+</nav>
+
+<div class="report-hero">
+  <div class="report-hero-inner">
+    <div class="header-meta">
+      <a href="https://github.com/unhappychoice" class="header-author" target="_blank" rel="noopener nofollow">
+        <img src="https://avatars.githubusercontent.com/u/5608948?u&#x3D;6ca2fca8320cb6be5b802f6c5a6359933754ab2e&amp;v&#x3D;4" alt="unhappychoice" width="32" height="32" loading="lazy" />
+        <span>unhappychoice</span>
+      </a>
+      <span class="header-sep">&middot;</span>
+      <span class="header-date">2026-11-09 - 2026-11-15</span>
+    </div>
+    <h1 class="header-title">tapline BMS engine goes from zero to feature-complete in one week</h1>
+    <p class="header-sub">109 PRs merged into unhappychoice/tapline as a full BMS/bmson player gets built from scratch, alongside kotlinz monad library construction and a dependency sweep across 20+ repos</p>
+  </div>
+</div>
+
+<main id="main-content">
+<article class="page">
+  <div class="overview">
+    <p>This week was dominated by one of the most ambitious single-repo sprints I've seen myself pull off: unhappychoice/tapline went from early scaffolding to a remarkably complete BMS/bmson rhythm game engine, with 109 PRs merged covering everything from BGA video playback and bmson slice audio to personal best persistence, chart selector search, and a full terminal renderer using half-block characters. The commit log reads like a feature roadmap being checked off at machine-gun pace — SCROLL/SPEED support, #LNMODE switching, EXRANK judgment widths, #STP millisecond stops, invisible notes, scratch lanes, PMS 9-button support, and more, all landing in a single week.</p>
+  <p>Alongside tapline, I was building out kotlinz — a Kotlin functional programming library — merging PRs for ListK, NonEmptyList, Eval, IO, Try, Cont with callCC, RWS, and then capping it off with do-notation style monad comprehension and multi-shot monad replay. That's essentially a full Arrow-style monad tower built from scratch in a few days. Meanwhile, oss-issue-opener saw 62 PRs of serious correctness work: fixing Gemfile heredoc exclusions, Gradle platform() wrapping, concurrent org repo scanning, and pagination bugs across CI checks and release comparisons.</p>
+  <p>The week also included a dependency maintenance sweep that touched 20+ repos — rspec, prism, and Rust crates getting bumped everywhere — plus releases shipping for mdts v0.21.3, steamfetch v0.5.8, gittype v0.10.5, and circleci-tools/CircleCI 2.1.2. Daily commit counts tell the real story: 708 commits on Saturday alone, with the week's total hitting 666 across a relentless seven-day stretch.</p>
+  
+  </div>
+  <div class="section-group">
+    <div class="section-group-header">
+      <h2 class="section-group-title">Summary</h2>
+      <div class="section-group-line"></div>
+      <span class="section-group-count">6 sections</span>
+    </div>
+  
+    <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">Building a BMS engine from scratch in Rust</div>
+      <div class="section-body">tapline went from early implementation to a feature-complete BMS/bmson rhythm game engine this week, with 109 PRs merged. The feature list is staggering: BGA video playback with half-block terminal rendering, bmson keysound slice playback, #LNMODE-aware long note judgment, SCROLL/SPEED scroll speed changes, #STP millisecond stops, EXRANK/DEFEXRANK judgment widths, EXWAV/WAVCMD audio processing, invisible notes, scratch lanes, PMS 9-button support, and personal best persistence. Performance work ran in parallel — binary search for BGA layer lookups, per-frame allocation elimination in audio gain application, O(log n) HUD badge lookups replacing linear scans, and asset indexing limited to referenced directories.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/tapline</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-green">109</span></span>
+        <span class="chip"><span class="chip-label">language</span> <span class="chip-value chip-default">Rust</span></span>
+        <span class="chip"><span class="chip-label">formats</span> <span class="chip-value chip-default">BMS + bmson</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">Monad tower assembled in kotlinz</div>
+      <div class="section-body">kotlinz got a full functional programming monad library built out this week across 12 PRs, starting with ListK and NonEmptyList, moving through Eval (with comonad), IO, Try, Cont with callCC, and RWS, then finishing with do-notation style monad comprehension and multi-shot monad replay via a replay mechanism. The CI was also modernized — migrated from Spek 1 to Kotest and from CircleCI to GitHub Actions with maven-publish, plus a Gradle 9.8.2 and Kotlin 2.4.21 upgrade.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">kotlinz/kotlinz</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-green">12</span></span>
+        <span class="chip"><span class="chip-label">monads shipped</span> <span class="chip-value chip-default">7</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">deep-dive</div>
+      <div class="section-heading">oss-issue-opener correctness marathon</div>
+      <div class="section-body">oss-issue-opener received 62 PRs of painstaking correctness fixes this week. The work covered Gemfile heredoc exclusion, gemspec multi-line dependency declarations, Gradle platform() wrapping and block-comment exclusion, Go require-only matching, Rust aliased dependency detection, Swift package-scoped production dependency limiting, and pagination fixes for CI checks, release comparisons, and existing issue listings. Performance improvements landed too: concurrent org repo scanning, reusing default branch listings, and running CI and release investigations concurrently per repository.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">repo</span> <span class="chip-value chip-default">unhappychoice/oss-issue-opener</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-green">62</span></span>
+        <span class="chip"><span class="chip-label">ecosystems fixed</span> <span class="chip-value chip-default">Ruby, Go, Rust, Swift, Gradle</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">activity-pattern</div>
+      <div class="section-heading">708 commits on a Saturday — the numbers don't lie</div>
+      <div class="section-body">The daily commit distribution this week was extraordinary. Monday and Tuesday opened strong at 332 and 292, then Wednesday dipped to 224 before Thursday exploded to 665. Friday came in at 392, Saturday at 543, and Sunday — the peak — hit 708. That's not a typo. The week's total of 666 commits across 192 opened and 189 merged PRs, with +24,817 lines added, reflects a sustained high-output sprint across multiple ambitious projects simultaneously.</div>
+  
+      <div class="mini-heatmap">
+        <div class="mh-day">
+          <div class="mh-block mh-level-2">332</div>
+          <div class="mh-label">Mon</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-2">292</div>
+          <div class="mh-label">Tue</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-2">224</div>
+          <div class="mh-label">Wed</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-4">665</div>
+          <div class="mh-label">Thu</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-3">392</div>
+          <div class="mh-label">Fri</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-4">543</div>
+          <div class="mh-label">Sat</div>
+        </div>
+        <div class="mh-day">
+          <div class="mh-block mh-level-4">708</div>
+          <div class="mh-label">Sun</div>
+        </div>
+      </div>
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">peak day</span> <span class="chip-value chip-green">Sun 708</span></span>
+        <span class="chip"><span class="chip-label">total commits</span> <span class="chip-value chip-default">666</span></span>
+        <span class="chip"><span class="chip-label">lines added</span> <span class="chip-value chip-green">+24,817</span></span>
+        <span class="chip"><span class="chip-label">PRs merged</span> <span class="chip-value chip-default">189</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">repo-summary</div>
+      <div class="section-heading">Dependency sweep across 20+ repos</div>
+      <div class="section-body">In between the big feature work, a thorough dependency maintenance pass hit every active repo. rspec-mocks, rspec-expectations, rspec-core, rspec-support, and prism all got bumped across terminal_image, irasutoya, irasutoya-cli, and slack_channel_stats. Rust repos got toml, sha2, clap, anyhow, crossterm, and proptest updates. The Gradle ecosystem saw gradle-wrapper, kotlin, and various Android deps updated across DroidFlyer, Norimaki, RxSnackbar, color-hash.kt, and CircleCI. CI runners were also pinned to ubuntu-24.04 across bitflyer-cli, bitflyer, and circleci-cli.</div>
+  
+  
+  
+      <div class="repo-bars">
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/tapline</span>
+            <span class="repo-bar-value">109 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/oss-issue-opener</span>
+            <span class="repo-bar-value">62 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:57%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">kotlinz/kotlinz</span>
+            <span class="repo-bar-value">12 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:11%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/mdts</span>
+            <span class="repo-bar-value">9 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:8%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya-cli</span>
+            <span class="repo-bar-value">6 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:6%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer-cli</span>
+            <span class="repo-bar-value">6 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:6%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/circleci-cli</span>
+            <span class="repo-bar-value">6 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:6%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/terminal_image</span>
+            <span class="repo-bar-value">5 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">irasutoya-tools/irasutoya</span>
+            <span class="repo-bar-value">5 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/slack_channel_stats</span>
+            <span class="repo-bar-value">5 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/bitflyer</span>
+            <span class="repo-bar-value">5 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gittype</span>
+            <span class="repo-bar-value">5 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/steamfetch</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:3%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/cycle-flyer</span>
+            <span class="repo-bar-value">3 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:3%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/Norimaki</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">bitflyer-tools/DroidFlyer</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/gitlogue</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">microsoft/winget-pkgs</span>
+            <span class="repo-bar-value">2 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:2%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/RxSnackbar</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">circleci-tools/CircleCI</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/color-hash.kt</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">deariary/github-weekly-reporter</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/cycle-pusher</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">acidlemon/mirage-ecs</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/lintric</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/splashboard</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+        <div class="repo-bar-item">
+          <div class="repo-bar-header">
+            <span class="repo-bar-label">unhappychoice/zenn-docs</span>
+            <span class="repo-bar-value">1 PRs</span>
+          </div>
+          <div class="repo-bar-track">
+            <div class="repo-bar-fill" style="width:1%"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">repos touched</span> <span class="chip-value chip-default">20+</span></span>
+        <span class="chip"><span class="chip-label">languages</span> <span class="chip-value chip-default">Ruby, Rust, JS, Kotlin</span></span>
+        <span class="chip"><span class="chip-label">CI fix</span> <span class="chip-value chip-default">ubuntu-24.04 pin</span></span>
+      </div>
+    </div>
+    <div class="section-summary">
+      <div class="section-type">review-summary</div>
+      <div class="section-heading">66 approvals across the whole portfolio</div>
+      <div class="section-body">Reviewed 66 PRs this week, all approved, spanning terminal_image, irasutoya, irasutoya-cli, slack_channel_stats, steamfetch, circleci-tools/CircleCI, RxSnackbar, mdts, circleci-tools/Norimaki, bitflyer-tools/DroidFlyer, gitlogue, and color-hash.kt. With dependency PRs flowing in from Dependabot across every repo simultaneously, the review queue was essentially a full-time job on top of everything else.</div>
+  
+  
+  
+  
+      <div class="data-chips">
+        <span class="chip"><span class="chip-label">reviews</span> <span class="chip-value chip-green">66 approved</span></span>
+        <span class="chip"><span class="chip-label">repos reviewed</span> <span class="chip-value chip-default">12+</span></span>
+      </div>
+    </div>
+  </div>
+  <div class="section-group">
+    <div class="section-group-header">
+      <h2 class="section-group-title">Highlights</h2>
+      <div class="section-group-line"></div>
+      <span class="section-group-count">5 items</span>
+    </div>
+  
+    <div class="highlight-grid">
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/tapline/pull/177" target="_blank" rel="noopener nofollow">feat: persist personal bests and display chart progress</a></div>
+      <div class="highlight-meta">unhappychoice/tapline · merged Nov 2026 · tapline</div>
+      <div class="highlight-body">The moment tapline went from a chart player to an actual game — personal bests now persist to disk and display in the chart selector, giving players something to chase.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/kotlinz/kotlinz/pull/33" target="_blank" rel="noopener nofollow">feat: support monad comprehension for multi-shot monads via replay</a></div>
+      <div class="highlight-meta">kotlinz/kotlinz · merged Nov 2026 · kotlinz</div>
+      <div class="highlight-body">The hardest piece of the kotlinz monad library: multi-shot monads like List can't use coroutine-based do-notation directly, so this PR implements a replay mechanism to make comprehension work correctly.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/tapline/pull/219" target="_blank" rel="noopener nofollow">fix(deps): migrate sha2 digest output to hybrid-array hex encoding for 0.11 bump</a></div>
+      <div class="highlight-meta">unhappychoice/tapline · merged Nov 2026 · tapline</div>
+      <div class="highlight-body">Not just a version bump — sha2 0.11 changed its digest API, requiring a real migration to hybrid-array hex encoding rather than a one-line lockfile update.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-pr">pr</span>
+      <div class="highlight-title"><a href="https://github.com/unhappychoice/oss-issue-opener/pull/465" target="_blank" rel="noopener nofollow">perf: scan repositories within an organization concurrently</a></div>
+      <div class="highlight-meta">unhappychoice/oss-issue-opener · merged Nov 2026 · oss-issue-opener</div>
+      <div class="highlight-body">A meaningful performance win for oss-issue-opener: org repo scanning now runs concurrently, which matters a lot when you're scanning dozens of repos on a weekly schedule.</div>
+    </div>
+    <div class="highlight-card">
+      <span class="highlight-badge highlight-release">release</span>
+      <div class="highlight-title">Release v0.5.8</div>
+      <div class="highlight-meta">unhappychoice/steamfetch · released Nov 2026</div>
+      <div class="highlight-body">Fixed a real CI breakage: Cargo's new build-dir layout moved the Steam API library lookup path, which this release patches along with a Rust 1.100 clippy lint fix.</div>
+    </div>
+    </div>
+  </div>
+</article>
+</main>
+
+<div class="share-bar">
+  <span class="share-label">Share</span>
+  <a href="https://x.com/intent/tweet?url=https://unhappychoice.github.io/weekly-report/2026/W46/&text=tapline%20BMS%20engine%20goes%20from%20zero%20to%20feature-complete%20in%20one%20week&hashtags=GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-x" aria-label="Share on X">𝕏</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://unhappychoice.github.io/weekly-report/2026/W46/" target="_blank" rel="noopener nofollow" class="share-btn share-linkedin" aria-label="Share on LinkedIn">in</a>
+  <a href="https://bsky.app/intent/compose?text=tapline%20BMS%20engine%20goes%20from%20zero%20to%20feature-complete%20in%20one%20week%20https://unhappychoice.github.io/weekly-report/2026/W46/%20%23GHWeeklyReporter" target="_blank" rel="noopener nofollow" class="share-btn share-bsky" aria-label="Share on Bluesky">🦋</a>
+</div>
+
+<nav class="week-nav" aria-label="Week navigation">
+  <a href="../../2026/W45/" class="week-nav-link">&larr; Previous week</a>
+  <span></span>
+</nav>
+
+
+<footer class="footer">
+  <div class="theme-toggle-row">
+    <button class="theme-toggle" type="button" aria-label="Toggle theme">&#9790;&#65038; Dark</button>
+  </div>
+  Powered by <a href="https://deariary.com?utm_source=github-weekly-reporter&utm_medium=footer" target="_blank" rel="noopener">deariary</a>
+  &nbsp;&middot;&nbsp;
+  Generated with <a href="https://github.com/deariary/github-weekly-reporter" target="_blank" rel="noopener">github-weekly-reporter</a>
+</footer>
+
+<script>
+(function(){
+  var btn=document.querySelector(".theme-toggle");
+  if(!btn)return;
+  function current(){
+    return document.documentElement.getAttribute("data-theme")
+      || (matchMedia("(prefers-color-scheme:light)").matches?"light":"dark");
+  }
+  function update(){btn.textContent=current()==="dark"?"\u2600\uFE0E Light":"\u263D\uFE0E Dark";}
+  update();
+  btn.addEventListener("click",function(){
+    var next=current()==="dark"?"light":"dark";
+    document.documentElement.setAttribute("data-theme",next);
+    localStorage.setItem("theme",next);
+    update();
+  });
+})();
+</script>
+</body>
+</html>

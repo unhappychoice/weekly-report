@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>tapline BMS engine goes from zero to feature-complete in one week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W46/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W46/</guid>
+      <description>109 PRs merged into unhappychoice/tapline as a full BMS/bmson player gets built from scratch, alongside kotlinz monad library construction and a dependency sweep across 20+ repos
+
+This week was dominated by one of the most ambitious single-repo sprints I&apos;ve seen myself pull off: unhappychoice/tapline went from early scaffolding to a remarkably complete BMS/bmson rhythm game engine, with 109 PRs merged covering everything from BGA video playback and bmson slice audio to personal best persistence, chart selector search, and a full terminal renderer using half-block characters. The commit log reads like a feature roadmap being checked off at machine-gun pace — SCROLL/SPEED support, #LNMODE switching, EXRANK judgment widths, #STP millisecond stops, invisible notes, scratch lanes, PMS 9-button support, and more, all landing in a single week.
+
+Alongside tapline, I was building out kotlinz — a Kotlin functional programming library — merging PRs for ListK, NonEmptyList, Eval, IO, Try, Cont with callCC, RWS, and then capping it off with do-notation style monad comprehension and multi-shot monad replay. That&apos;s essentially a full Arrow-style monad tower built from scratch in a few days. Meanwhile, oss-issue-opener saw 62 PRs of serious correctness work: fixing Gemfile heredoc exclusions, Gradle platform() wrapping, concurrent org repo scanning, and pagination bugs across CI checks and release comparisons.
+
+The week also included a dependency maintenance sweep that touched 20+ repos — rspec, prism, and Rust crates getting bumped everywhere — plus releases shipping for mdts v0.21.3, steamfetch v0.5.8, gittype v0.10.5, and circleci-tools/CircleCI 2.1.2. Daily commit counts tell the real story: 708 commits on Saturday alone, with the week&apos;s total hitting 666 across a relentless seven-day stretch.
+
+
+Commits: 666, PRs: 192, Reviews: 66</description>
+      <pubDate>Sun, 15 Nov 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W46/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W46/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>Dependency maintenance marathon across 20+ repos with splashboard glibc fix</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W45/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W45/</guid>
