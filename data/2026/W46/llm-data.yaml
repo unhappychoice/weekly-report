@@ -1,0 +1,183 @@
+title: tapline BMS engine goes from zero to feature-complete in one week
+subtitle: 109 PRs merged into unhappychoice/tapline as a full BMS/bmson player gets built from scratch, alongside
+  kotlinz monad library construction and a dependency sweep across 20+ repos
+overview: >
+  This week was dominated by one of the most ambitious single-repo sprints I've seen myself pull off:
+  unhappychoice/tapline went from early scaffolding to a remarkably complete BMS/bmson rhythm game engine, with 109 PRs
+  merged covering everything from BGA video playback and bmson slice audio to personal best persistence, chart selector
+  search, and a full terminal renderer using half-block characters. The commit log reads like a feature roadmap being
+  checked off at machine-gun pace — SCROLL/SPEED support, #LNMODE switching, EXRANK judgment widths, #STP millisecond
+  stops, invisible notes, scratch lanes, PMS 9-button support, and more, all landing in a single week.
+
+
+  Alongside tapline, I was building out kotlinz — a Kotlin functional programming library — merging PRs for ListK,
+  NonEmptyList, Eval, IO, Try, Cont with callCC, RWS, and then capping it off with do-notation style monad comprehension
+  and multi-shot monad replay. That's essentially a full Arrow-style monad tower built from scratch in a few days.
+  Meanwhile, oss-issue-opener saw 62 PRs of serious correctness work: fixing Gemfile heredoc exclusions, Gradle
+  platform() wrapping, concurrent org repo scanning, and pagination bugs across CI checks and release comparisons.
+
+
+  The week also included a dependency maintenance sweep that touched 20+ repos — rspec, prism, and Rust crates getting
+  bumped everywhere — plus releases shipping for mdts v0.21.3, steamfetch v0.5.8, gittype v0.10.5, and
+  circleci-tools/CircleCI 2.1.2. Daily commit counts tell the real story: 708 commits on Saturday alone, with the week's
+  total hitting 666 across a relentless seven-day stretch.
+summaries:
+  - type: deep-dive
+    heading: Building a BMS engine from scratch in Rust
+    body: "tapline went from early implementation to a feature-complete BMS/bmson rhythm game engine this week, with 109 PRs
+      merged. The feature list is staggering: BGA video playback with half-block terminal rendering, bmson keysound
+      slice playback, #LNMODE-aware long note judgment, SCROLL/SPEED scroll speed changes, #STP millisecond stops,
+      EXRANK/DEFEXRANK judgment widths, EXWAV/WAVCMD audio processing, invisible notes, scratch lanes, PMS 9-button
+      support, and personal best persistence. Performance work ran in parallel — binary search for BGA layer lookups,
+      per-frame allocation elimination in audio gain application, O(log n) HUD badge lookups replacing linear scans, and
+      asset indexing limited to referenced directories."
+    chips:
+      - label: repo
+        value: unhappychoice/tapline
+        color: default
+      - label: PRs merged
+        value: "109"
+        color: green
+      - label: language
+        value: Rust
+        color: default
+      - label: formats
+        value: BMS + bmson
+        color: default
+  - type: deep-dive
+    heading: Monad tower assembled in kotlinz
+    body: kotlinz got a full functional programming monad library built out this week across 12 PRs, starting with ListK and
+      NonEmptyList, moving through Eval (with comonad), IO, Try, Cont with callCC, and RWS, then finishing with
+      do-notation style monad comprehension and multi-shot monad replay via a replay mechanism. The CI was also
+      modernized — migrated from Spek 1 to Kotest and from CircleCI to GitHub Actions with maven-publish, plus a Gradle
+      9.8.2 and Kotlin 2.4.21 upgrade.
+    chips:
+      - label: repo
+        value: kotlinz/kotlinz
+        color: default
+      - label: PRs merged
+        value: "12"
+        color: green
+      - label: monads shipped
+        value: "7"
+        color: default
+  - type: deep-dive
+    heading: oss-issue-opener correctness marathon
+    body: "oss-issue-opener received 62 PRs of painstaking correctness fixes this week. The work covered Gemfile heredoc
+      exclusion, gemspec multi-line dependency declarations, Gradle platform() wrapping and block-comment exclusion, Go
+      require-only matching, Rust aliased dependency detection, Swift package-scoped production dependency limiting, and
+      pagination fixes for CI checks, release comparisons, and existing issue listings. Performance improvements landed
+      too: concurrent org repo scanning, reusing default branch listings, and running CI and release investigations
+      concurrently per repository."
+    chips:
+      - label: repo
+        value: unhappychoice/oss-issue-opener
+        color: default
+      - label: PRs merged
+        value: "62"
+        color: green
+      - label: ecosystems fixed
+        value: Ruby, Go, Rust, Swift, Gradle
+        color: default
+  - type: activity-pattern
+    heading: 708 commits on a Saturday — the numbers don't lie
+    body: The daily commit distribution this week was extraordinary. Monday and Tuesday opened strong at 332 and 292, then
+      Wednesday dipped to 224 before Thursday exploded to 665. Friday came in at 392, Saturday at 543, and Sunday — the
+      peak — hit 708. That's not a typo. The week's total of 666 commits across 192 opened and 189 merged PRs, with
+      +24,817 lines added, reflects a sustained high-output sprint across multiple ambitious projects simultaneously.
+    chips:
+      - label: peak day
+        value: Sun 708
+        color: green
+      - label: total commits
+        value: "666"
+        color: default
+      - label: lines added
+        value: +24,817
+        color: green
+      - label: PRs merged
+        value: "189"
+        color: default
+  - type: repo-summary
+    heading: Dependency sweep across 20+ repos
+    body: In between the big feature work, a thorough dependency maintenance pass hit every active repo. rspec-mocks,
+      rspec-expectations, rspec-core, rspec-support, and prism all got bumped across terminal_image, irasutoya,
+      irasutoya-cli, and slack_channel_stats. Rust repos got toml, sha2, clap, anyhow, crossterm, and proptest updates.
+      The Gradle ecosystem saw gradle-wrapper, kotlin, and various Android deps updated across DroidFlyer, Norimaki,
+      RxSnackbar, color-hash.kt, and CircleCI. CI runners were also pinned to ubuntu-24.04 across bitflyer-cli,
+      bitflyer, and circleci-cli.
+    chips:
+      - label: repos touched
+        value: 20+
+        color: default
+      - label: languages
+        value: Ruby, Rust, JS, Kotlin
+        color: default
+      - label: CI fix
+        value: ubuntu-24.04 pin
+        color: default
+  - type: review-summary
+    heading: 66 approvals across the whole portfolio
+    body: Reviewed 66 PRs this week, all approved, spanning terminal_image, irasutoya, irasutoya-cli, slack_channel_stats,
+      steamfetch, circleci-tools/CircleCI, RxSnackbar, mdts, circleci-tools/Norimaki, bitflyer-tools/DroidFlyer,
+      gitlogue, and color-hash.kt. With dependency PRs flowing in from Dependabot across every repo simultaneously, the
+      review queue was essentially a full-time job on top of everything else.
+    chips:
+      - label: reviews
+        value: 66 approved
+        color: green
+      - label: repos reviewed
+        value: 12+
+        color: default
+highlights:
+  - type: pr
+    title: "feat: persist personal bests and display chart progress"
+    repo: unhappychoice/tapline
+    meta: merged Nov 2026 · tapline
+    body: The moment tapline went from a chart player to an actual game — personal bests now persist to disk and display in
+      the chart selector, giving players something to chase.
+    url: https://github.com/unhappychoice/tapline/pull/177
+  - type: pr
+    title: "feat: support monad comprehension for multi-shot monads via replay"
+    repo: kotlinz/kotlinz
+    meta: merged Nov 2026 · kotlinz
+    body: "The hardest piece of the kotlinz monad library: multi-shot monads like List can't use coroutine-based do-notation
+      directly, so this PR implements a replay mechanism to make comprehension work correctly."
+    url: https://github.com/kotlinz/kotlinz/pull/33
+  - type: pr
+    title: "fix(deps): migrate sha2 digest output to hybrid-array hex encoding for 0.11 bump"
+    repo: unhappychoice/tapline
+    meta: merged Nov 2026 · tapline
+    body: Not just a version bump — sha2 0.11 changed its digest API, requiring a real migration to hybrid-array hex
+      encoding rather than a one-line lockfile update.
+    url: https://github.com/unhappychoice/tapline/pull/219
+  - type: pr
+    title: "perf: scan repositories within an organization concurrently"
+    repo: unhappychoice/oss-issue-opener
+    meta: merged Nov 2026 · oss-issue-opener
+    body: "A meaningful performance win for oss-issue-opener: org repo scanning now runs concurrently, which matters a lot
+      when you're scanning dozens of repos on a weekly schedule."
+    url: https://github.com/unhappychoice/oss-issue-opener/pull/465
+  - type: release
+    title: Release v0.5.8
+    repo: unhappychoice/steamfetch
+    meta: released Nov 2026
+    body: "Fixed a real CI breakage: Cargo's new build-dir layout moved the Steam API library lookup path, which this
+      release patches along with a Rust 1.100 clippy lint fix."
+ticker:
+  - label: HISTORIC MERGE
+    text: "@unhappychoice merges 109 PRs into tapline in 7 days. Historians baffled."
+  - label: ABSOLUTE CARNAGE
+    text: "@unhappychoice ships BGA video, bmson audio, and scratch lanes simultaneously"
+  - label: BREAKING NEWS
+    text: "@unhappychoice posts 708 commits on a Sunday. Weekend? Never heard of it."
+  - label: MONAD CRISIS
+    text: "@unhappychoice assembles full monad tower in kotlinz. ListK, IO, RWS all accounted for."
+  - label: NO SURVIVORS
+    text: "@unhappychoice fixes Gemfile heredocs, Gradle platform() wraps, and Go require scopes in one week"
+  - label: EXPERTS BAFFLED
+    text: "@unhappychoice approves 66 PRs while simultaneously writing a BMS engine in Rust"
+  - label: JUST IN
+    text: "@unhappychoice pins ubuntu-24.04 across 4 repos. CI runners reportedly relieved."
+  - label: NOT A DRILL
+    text: "@unhappychoice ships 666 commits in one week. Coincidence? Sources are not sure."
