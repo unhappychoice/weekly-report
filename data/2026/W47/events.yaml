@@ -34,3 +34,1899 @@
     kind: push
     ref: refs/heads/main
     commits: []
+- id: "27569296942"
+  type: CreateEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-17T23:23:51Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27569222726"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:26:15Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27569168662"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:25:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27569163310"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-17T23:22:00Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27569063163"
+  type: PushEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-17T23:20:44Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-9269bfb0
+    commits: []
+- id: "27569054527"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:24:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568874282"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-17T22:57:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568865364"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-17T22:57:33Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568743960"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:21:56Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568723502"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:21:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568711422"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:21:29Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27568693614"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:21:14Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568549255"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:19:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568504723"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:18:52Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/monad-error
+    commits: []
+- id: "27568485343"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:18:37Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568483946"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:18:36Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27568388226"
+  type: CreateEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-17T22:44:39Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568369084"
+  type: CreateEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-17T22:52:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568335361"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:17:19Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568150383"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568135812"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:40Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568134042"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:40Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568083155"
+  type: CreateEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-17T22:49:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27568077495"
+  type: CreateEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-17T22:41:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567992733"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-17T22:48:18Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567965220"
+  type: CreateEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-17T22:48:03Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567950617"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:14:08Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567899890"
+  type: PushEvent
+  repo: unhappychoice/tapline
+  createdAt: 2026-11-18T09:10:09Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-7727933b
+    commits: []
+- id: "27567801352"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:12:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567704775"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:11:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567464057"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-17T22:42:06Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567312872"
+  type: CreateEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-17T22:40:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27567269145"
+  type: CreateEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-17T23:02:56Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27566745102"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-17T22:29:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27566083273"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:28:52Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27566077472"
+  type: CreateEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-17T22:23:18Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27566038461"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-17T22:50:21Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565984499"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:27:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565965669"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-17T22:49:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565870007"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:26:54Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27565851366"
+  type: DeleteEvent
+  repo: unhappychoice/dotfiles
+  createdAt: 2026-11-17T20:50:40Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565799915"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:20:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565772336"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:25:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565752431"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:25:43Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27565708448"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:19:38Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27565685927"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:19:25Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27565620268"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-17T22:45:32Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565540605"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:23:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565431688"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:22:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565357118"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:21:43Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27565337014"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:16:15Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565321305"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:16:06Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27565293641"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:50Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/tuple2
+    commits: []
+- id: "27565267653"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:35Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565150409"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:19:54Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565136390"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:19:47Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565116998"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:14:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565040173"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-17T22:38:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27565031557"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:18:55Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27564967716"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:18:23Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27564922313"
+  type: PushEvent
+  repo: unhappychoice/tapline
+  createdAt: 2026-11-18T08:45:01Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-53309c36
+    commits: []
+- id: "27564919355"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T08:45:00Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27564799882"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:16:59Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27564737028"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:16:20Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/group
+    commits: []
+- id: "27564685237"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:48Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27564493769"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:14:03Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27564317942"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:12:25Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27563802368"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:26:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27563519392"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:24:50Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27563305790"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:22:54Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/either-t
+    commits: []
+- id: "27563284505"
+  type: CreateEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-17T22:22:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27563060154"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-17T22:20:11Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27563000658"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:19:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562878773"
+  type: CreateEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-17T22:18:26Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562845630"
+  type: DeleteEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:18:08Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562844593"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:18:07Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27562750277"
+  type: CreateEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-17T21:57:04Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562697346"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:16:47Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27562688086"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:16:42Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562662180"
+  type: CreateEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-17T22:16:28Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562579973"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562574140"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:15:29Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562542052"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-17T21:54:58Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562508092"
+  type: CreateEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-17T22:14:41Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562502725"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:14:37Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/ior
+    commits: []
+- id: "27562428767"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:13:40Z
+  payload:
+    kind: push
+    ref: refs/heads/feat/monad-error
+    commits: []
+- id: "27562425576"
+  type: CreateEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-17T22:13:36Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562319777"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:12:27Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562261918"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:11:57Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562227877"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:11:38Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27562182764"
+  type: PushEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:11:14Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27562040479"
+  type: CreateEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-17T22:10:05Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27561889444"
+  type: PushEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T08:20:37Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27560853180"
+  type: CreateEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-17T21:56:45Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27560742115"
+  type: CreateEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-17T21:55:30Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27557845711"
+  type: PushEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-18T07:47:48Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-73ef503f
+    commits: []
+- id: "27557720551"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T07:46:47Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-0a6a3933
+    commits: []
+- id: "27555392086"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T07:25:50Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-651be589
+    commits: []
+- id: "27554182243"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T07:14:07Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-2926a921
+    commits: []
+- id: "20549657758"
+  type: IssueCommentEvent
+  repo: kotlinz/kotlinz
+  createdAt: 2026-11-18T13:40:58Z
+  payload:
+    kind: generic
+    action: created
+- id: "27553776030"
+  type: DeleteEvent
+  repo: deariary/github-weekly-reporter
+  createdAt: 2026-11-17T20:51:17Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27553621106"
+  type: PushEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-18T07:09:11Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-bccc508e
+    commits: []
+- id: "27551674322"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T06:51:07Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/improve-dependencies-5128e4c5
+    commits: []
+- id: "27550996943"
+  type: PushEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T06:44:02Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-ef79b101
+    commits: []
+- id: "27550829286"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T06:42:28Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-0a24cc26
+    commits: []
+- id: "27549995353"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T06:34:19Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-73fe22bc
+    commits: []
+- id: "27549849988"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T06:32:42Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-0210a2da
+    commits: []
+- id: "27549537054"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T06:30:11Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-78c28f60
+    commits: []
+- id: "27549385699"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T06:28:40Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-a45c215a
+    commits: []
+- id: "27548415212"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T06:20:31Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-0ecdf6c0
+    commits: []
+- id: "27548402962"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T06:20:25Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-0edb2d46
+    commits: []
+- id: "27546403170"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-18T06:01:00Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-ef85cab9
+    commits: []
+- id: "27545612428"
+  type: DeleteEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T05:53:18Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27545610911"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T05:53:17Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27544125127"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T05:37:12Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27543516375"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-18T05:31:24Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-05267c60
+    commits: []
+- id: "27542974781"
+  type: DeleteEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T05:25:34Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27542973007"
+  type: PushEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T05:25:32Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27542959590"
+  type: CreateEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T05:25:20Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27542921167"
+  type: PushEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T05:24:44Z
+  payload:
+    kind: push
+    ref: refs/heads/factory/implement-2f60da74
+    commits: []
+- id: "20530433333"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:44:56Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 635
+    title: ""
+- id: "20530206313"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:40:38Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 528
+    title: ""
+- id: "20530154450"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:44:56Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 635
+    title: ""
+- id: "20530100840"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:40:38Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 528
+    title: ""
+- id: "20530057494"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-18T14:00:41Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 270
+    title: ""
+- id: "20529938394"
+  type: PullRequestEvent
+  repo: unhappychoice/tapline
+  createdAt: 2026-11-18T14:39:58Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 265
+    title: ""
+- id: "20529936784"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:54:56Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 554
+    title: ""
+- id: "20529936413"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:54:56Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 554
+    title: ""
+- id: "20529935128"
+  type: PullRequestEvent
+  repo: unhappychoice/tapline
+  createdAt: 2026-11-18T14:39:58Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 265
+    title: ""
+- id: "20529933737"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:53:46Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 538
+    title: ""
+- id: "20529932012"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:19:15Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 280
+    title: ""
+- id: "20529931741"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T14:39:58Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 732
+    title: ""
+- id: "20529931527"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T14:39:58Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 732
+    title: ""
+- id: "20529925257"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:34:45Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 628
+    title: ""
+- id: "20529921746"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:34:45Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 628
+    title: ""
+- id: "20529918012"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:53:13Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 555
+    title: ""
+- id: "20529917786"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:53:13Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 555
+    title: ""
+- id: "20529874524"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-18T14:00:41Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 270
+    title: ""
+- id: "20529867720"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:42:56Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 779
+    title: ""
+- id: "20529865498"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:53:22Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 569
+    title: ""
+- id: "20529856831"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:19:59Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 277
+    title: ""
+- id: "20529853508"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:42:56Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 779
+    title: ""
+- id: "20529851542"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:19:59Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 277
+    title: ""
+- id: "20529843232"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:19:15Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 280
+    title: ""
+- id: "20529776091"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:58:33Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 532
+    title: ""
+- id: "27542362090"
+  type: DeleteEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T05:17:46Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20529712088"
+  type: PullRequestEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-18T14:34:11Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 511
+    title: ""
+- id: "20529705811"
+  type: PullRequestEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-18T14:34:11Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 511
+    title: ""
+- id: "20529650379"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-18T14:08:26Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 271
+    title: ""
+- id: "20529649840"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:07:52Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 754
+    title: ""
+- id: "20529617333"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-18T14:50:22Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1196
+    title: ""
+- id: "20529568169"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:00:24Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 737
+    title: ""
+- id: "20529568048"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:00:24Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 737
+    title: ""
+- id: "20529545566"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-18T14:08:26Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 271
+    title: ""
+- id: "20529544070"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:07:52Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 754
+    title: ""
+- id: "20529538228"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:00:02Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 734
+    title: ""
+- id: "20529537946"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:00:02Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 734
+    title: ""
+- id: "20529513414"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:23:53Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 286
+    title: ""
+- id: "20529433161"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:23:49Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 292
+    title: ""
+- id: "27542165788"
+  type: PushEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-18T05:14:57Z
+  payload:
+    kind: push
+    ref: refs/heads/main
+    commits: []
+- id: "20529412719"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T14:32:57Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 599
+    title: ""
+- id: "20529407347"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:06:34Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 548
+    title: ""
+- id: "20529400756"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:06:34Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 548
+    title: ""
+- id: "20529397911"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T14:32:57Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 599
+    title: ""
+- id: "20529396296"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:23:53Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 286
+    title: ""
+- id: "20529394275"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:23:49Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 292
+    title: ""
+- id: "20529382474"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T14:33:46Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 602
+    title: ""
+- id: "20529328599"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T14:36:38Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 627
+    title: ""
+- id: "20529298784"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T14:23:09Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 603
+    title: ""
+- id: "27542087185"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya-cli
+  createdAt: 2026-11-18T05:13:24Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27542077208"
+  type: PushEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T05:13:12Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27541988039"
+  type: DeleteEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-18T05:11:43Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20529105545"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:21:19Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1051
+    title: ""
+- id: "20529056673"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:21:38Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1054
+    title: ""
+- id: "20529051583"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:21:19Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1051
+    title: ""
+- id: "20529051357"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:21:26Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1053
+    title: ""
+- id: "20529051231"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:21:38Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1054
+    title: ""
+- id: "27541948283"
+  type: PushEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T05:11:02Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20529043620"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:21:26Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1053
+    title: ""
+- id: "20529034417"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:20:55Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 285
+    title: ""
+- id: "20529028857"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:20:55Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 285
+    title: ""
+- id: "20529007863"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:20:27Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1055
+    title: ""
+- id: "20529006649"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:20:24Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 287
+    title: ""
+- id: "20529006050"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:20:24Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 287
+    title: ""
+- id: "20529003491"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:20:27Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1055
+    title: ""
+- id: "20528997579"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:20:13Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 281
+    title: ""
+- id: "20528995960"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:19:40Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1006
+    title: ""
+- id: "20528993125"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:19:51Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1018
+    title: ""
+- id: "20528988146"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:19:51Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1018
+    title: ""
+- id: "20528985620"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:19:40Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1006
+    title: ""
+- id: "20528982697"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:20:13Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 281
+    title: ""
+- id: "20528980566"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:19:48Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1017
+    title: ""
+- id: "20528980513"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:19:48Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1017
+    title: ""
+- id: "20528972942"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:19:18Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 282
+    title: ""
+- id: "20528964982"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:19:18Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 282
+    title: ""
+- id: "20528950137"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:18:09Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 253
+    title: ""
+- id: "20528937557"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:18:09Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 253
+    title: ""
+- id: "27541748120"
+  type: PushEvent
+  repo: bitflyer-tools/bitflyer-cli
+  createdAt: 2026-11-18T05:08:08Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "27541552532"
+  type: DeleteEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T05:06:14Z
+  payload:
+    kind: generic
+    action: ""
+- id: "27541385585"
+  type: DeleteEvent
+  repo: unhappychoice/tapline
+  createdAt: 2026-11-18T05:04:50Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20528188960"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:53:46Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 529
+    title: ""
+- id: "27541338479"
+  type: DeleteEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T05:04:24Z
+  payload:
+    kind: generic
+    action: ""
+- id: "20528099394"
+  type: PullRequestEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:52:11Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 275
+    title: ""
+- id: "20528030076"
+  type: PullRequestEvent
+  repo: circleci-tools/Norimaki
+  createdAt: 2026-11-18T14:52:48Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 532
+    title: ""
+- id: "20527980989"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:52:17Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1039
+    title: ""
+- id: "20527979926"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:52:11Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1038
+    title: ""
+- id: "20527975758"
+  type: IssuesEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:52:20Z
+  payload:
+    kind: issues
+    action: closed
+    number: 1030
+    title: Block invalid market and limit order inputs
+- id: "20527973954"
+  type: PullRequestEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-18T14:08:21Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 528
+    title: ""
+- id: "20527971195"
+  type: PullRequestEvent
+  repo: unhappychoice/oss-issue-opener
+  createdAt: 2026-11-18T14:08:21Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 528
+    title: ""
+- id: "20527969160"
+  type: IssuesEvent
+  repo: circleci-tools/CircleCI
+  createdAt: 2026-11-18T14:52:14Z
+  payload:
+    kind: issues
+    action: closed
+    number: 265
+    title: Serialize usage export dates as start and end
+- id: "20527968414"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:52:02Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1061
+    title: ""
+- id: "20527968113"
+  type: IssuesEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:52:14Z
+  payload:
+    kind: issues
+    action: closed
+    number: 1031
+    title: Display deposited collateral in the Collateral row
+- id: "20527964648"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T14:07:17Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 600
+    title: ""
+- id: "20527963564"
+  type: PullRequestEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T14:07:17Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 600
+    title: ""
+- id: "20527956973"
+  type: IssuesEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:52:10Z
+  payload:
+    kind: issues
+    action: closed
+    number: 1058
+    title: Keep trade polling alive after malformed responses
+- id: "20527955379"
+  type: IssuesEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:52:09Z
+  payload:
+    kind: issues
+    action: closed
+    number: 589
+    title: Mark random illustration helpers private in RBS
+- id: "20527954356"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:52:04Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 600
+    title: ""
+- id: "20527952198"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:29:05Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 772
+    title: ""
+- id: "20527951857"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:29:05Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 772
+    title: ""
+- id: "20527945388"
+  type: PullRequestEvent
+  repo: bitflyer-tools/bitflyer
+  createdAt: 2026-11-18T14:36:18Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 774
+    title: ""
+- id: "20527943432"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:06:55Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1004
+    title: ""
+- id: "20527942986"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:06:55Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 1004
+    title: ""
+- id: "20527940875"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-18T14:26:16Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1190
+    title: ""
+- id: "20527934096"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:51:49Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 631
+    title: ""
+- id: "20527933697"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:06:26Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 634
+    title: ""
+- id: "20527933145"
+  type: PullRequestEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:06:26Z
+  payload:
+    kind: pull_request
+    action: unlabeled
+    number: 634
+    title: ""
+- id: "20527929955"
+  type: IssuesEvent
+  repo: irasutoya-tools/irasutoya
+  createdAt: 2026-11-18T14:51:52Z
+  payload:
+    kind: issues
+    action: closed
+    number: 627
+    title: Lock the release workflow’s version-bump tool
+- id: "20527923139"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:51:44Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1046
+    title: ""
+- id: "20527922945"
+  type: IssuesEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:51:47Z
+  payload:
+    kind: issues
+    action: closed
+    number: 1035
+    title: Batch order book pruning for public executions
+- id: "20527914588"
+  type: IssuesEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:51:44Z
+  payload:
+    kind: issues
+    action: closed
+    number: 1009
+    title: Sandbox the Electron renderer
+- id: "20527912586"
+  type: PullRequestEvent
+  repo: bitflyer-tools/cycle-flyer
+  createdAt: 2026-11-18T14:51:41Z
+  payload:
+    kind: pull_request
+    action: merged
+    number: 1023
+    title: ""
+- id: "27541179245"
+  type: PushEvent
+  repo: bitflyer-tools/DroidFlyer
+  createdAt: 2026-11-18T05:02:43Z
+  payload:
+    kind: push
+    ref: refs/heads/master
+    commits: []
+- id: "20527909282"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-18T14:25:22Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1186
+    title: ""
+- id: "20527899254"
+  type: PullRequestEvent
+  repo: circleci-tools/circleci-cli
+  createdAt: 2026-11-18T14:26:04Z
+  payload:
+    kind: pull_request
+    action: labeled
+    number: 1185
+    title: ""
