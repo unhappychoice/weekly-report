@@ -14,6 +14,24 @@
       <height>630</height>
     </image>
     <item>
+      <title>3,801 commits across 8 ecosystems in a single week</title>
+      <link>https://unhappychoice.github.io/weekly-report/2026/W47/</link>
+      <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W47/</guid>
+      <description>From BMS gameplay fixes in tapline to CircleCI V3 API coverage, bitFlyer WebSocket hardening, and irasutoya image downloads — all in seven days.
+
+This was not a normal week. 3,801 commits, 1,024 PRs opened, 940 merged, and +117,930 lines added across more than a dozen repositories — the sheer scale is hard to process. The activity spans four distinct ecosystems: a BMS rhythm-game engine in Rust (tapline), Android CI monitoring apps (Norimaki, circleci-cli), a bitFlyer trading suite (bitflyer, bitflyer-cli, cycle-flyer, DroidFlyer), and a Japanese illustration scraper toolkit (irasutoya, irasutoya-cli). Each of these is a serious, full-featured project in its own right.
+
+The most technically dense work happened in two places simultaneously. In the bitflyer-tools org, I hardened the WebSocket realtime layer from the ground up: TLS certificate verification, handshake timeouts with monotonic clocks, subscription acknowledgment sequencing, and runtime subscription changes — all landed this week. In parallel, the circleci-tools org saw the CircleCI V2/V3 client library receive exhaustive API coverage, while Norimaki got a full Test Results screen and incremental log rendering. The tapline BMS engine meanwhile absorbed dozens of fixes for bmson playback, BGA pipeline correctness, and a new thumbnail cache.
+
+What stands out most is the burst pattern: Monday and Tuesday were warm-up days at 204 and 256 commits, then Wednesday exploded to 2,199 — nearly 58% of the week&apos;s total in a single day. Thursday through Sunday maintained a sustained 1,000–1,800 commit pace. The week reads less like a sprint and more like a controlled detonation.
+
+
+Commits: 3801, PRs: 1024, Reviews: 57</description>
+      <pubDate>Sun, 22 Nov 2026 16:00:00 GMT</pubDate>
+      <enclosure url="https://unhappychoice.github.io/weekly-report/2026/W47/og.png" type="image/png" length="0" />
+      <media:content url="https://unhappychoice.github.io/weekly-report/2026/W47/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+    <item>
       <title>tapline BMS engine goes from zero to feature-complete in one week</title>
       <link>https://unhappychoice.github.io/weekly-report/2026/W46/</link>
       <guid isPermaLink="true">https://unhappychoice.github.io/weekly-report/2026/W46/</guid>
