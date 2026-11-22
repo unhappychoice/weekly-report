@@ -1,0 +1,204 @@
+title: 3,801 commits across 8 ecosystems in a single week
+subtitle: From BMS gameplay fixes in tapline to CircleCI V3 API coverage, bitFlyer WebSocket hardening, and irasutoya
+  image downloads — all in seven days.
+overview: >
+  This was not a normal week. 3,801 commits, 1,024 PRs opened, 940 merged, and +117,930 lines added across more than a
+  dozen repositories — the sheer scale is hard to process. The activity spans four distinct ecosystems: a BMS
+  rhythm-game engine in Rust (tapline), Android CI monitoring apps (Norimaki, circleci-cli), a bitFlyer trading suite
+  (bitflyer, bitflyer-cli, cycle-flyer, DroidFlyer), and a Japanese illustration scraper toolkit (irasutoya,
+  irasutoya-cli). Each of these is a serious, full-featured project in its own right.
+
+
+  The most technically dense work happened in two places simultaneously. In the bitflyer-tools org, I hardened the
+  WebSocket realtime layer from the ground up: TLS certificate verification, handshake timeouts with monotonic clocks,
+  subscription acknowledgment sequencing, and runtime subscription changes — all landed this week. In parallel, the
+  circleci-tools org saw the CircleCI V2/V3 client library receive exhaustive API coverage, while Norimaki got a full
+  Test Results screen and incremental log rendering. The tapline BMS engine meanwhile absorbed dozens of fixes for bmson
+  playback, BGA pipeline correctness, and a new thumbnail cache.
+
+
+  What stands out most is the burst pattern: Monday and Tuesday were warm-up days at 204 and 256 commits, then Wednesday
+  exploded to 2,199 — nearly 58% of the week's total in a single day. Thursday through Sunday maintained a sustained
+  1,000–1,800 commit pace. The week reads less like a sprint and more like a controlled detonation.
+summaries:
+  - type: deep-dive
+    heading: WebSocket hardening across the entire bitflyer stack
+    body: The bitflyer Ruby gem received some of its most significant reliability work this week. I added TLS certificate
+      and hostname verification over an OpenSSL socket with websocket-driver, implemented subscription acknowledgment
+      IDs so `ready` only fires after all setup subscriptions confirm, added a 10-second monotonic-clock timeout for
+      pending handshakes, and wired up runtime subscription changes. Each of these shipped as its own focused PR with
+      regression tests. The effect is a realtime client that now handles TLS failures, stale sockets, late auth
+      rejections, and reconnect races without silently dropping state.
+    chips:
+      - label: repo
+        value: bitflyer-tools/bitflyer
+        color: default
+      - label: PRs merged
+        value: "84"
+        color: default
+      - label: key fix
+        value: TLS cert verification
+        color: default
+      - label: key fix
+        value: subscription ack sequencing
+        color: default
+  - type: deep-dive
+    heading: "tapline BMS engine: bmson, BGA pipeline, and caching"
+    body: "The unhappychoice/tapline Rust project was the single most active repo by commit volume. The work covered three
+      layers: correctness fixes for bmson playback (judgment rank, gauge recovery, LNTYPE 2 endpoints, trailing stops),
+      BGA pipeline fixes (video decoding scoped to self-contained media, off-screen culling, deferred loading off the
+      gameplay clock), and a new 32-slot LRU thumbnail cache for banner artwork. The cache tracks resolved path and
+      display dimensions, invalidates on source file metadata changes, and evicts LRU entries at capacity. On top of
+      that, players can now remap gameplay keys, adjust scroll speed, and retry charts from the result screen."
+    chips:
+      - label: repo
+        value: unhappychoice/tapline
+        color: default
+      - label: PRs merged
+        value: "95"
+        color: default
+      - label: cache size
+        value: 32 thumbnails
+        color: default
+      - label: new feature
+        value: key remapping
+        color: green
+  - type: repo-summary
+    heading: Eight repos, four ecosystems, one week
+    body: The top eight repos by PR count were cycle-flyer (106), circleci-tools/CircleCI (98), tapline (95), Norimaki (93),
+      DroidFlyer (91), circleci-cli (89), bitflyer-cli (85), and bitflyer (84). That's Android, Kotlin, Ruby, Rust, and
+      TypeScript all active simultaneously. The irasutoya and irasutoya-cli repos added image download commands, lazy
+      iteration, and category browsing. oss-issue-opener got CI alert auto-closing and a pile of correctness fixes for
+      dependency bump detection.
+    chips:
+      - label: repos active
+        value: 20+
+        color: default
+      - label: top repo
+        value: cycle-flyer (106 PRs)
+        color: default
+      - label: lines added
+        value: +117,930
+        color: green
+      - label: lines removed
+        value: -17,502
+        color: default
+  - type: deep-dive
+    heading: "CircleCI client library: V2/V3 API coverage sprint"
+    body: "The circleci-tools/CircleCI Kotlin library absorbed a huge amount of API surface this week. I added CircleCI API
+      v3 run support (trigger, list, wait), V2 webhook enablement and settings, deploy component listings with filters,
+      OIDC claim TTL updates, usage export serialization, and pipeline trigger `eventSource` serialization. Alongside
+      the new endpoints, I fixed a long tail of decode bugs: V2 job details now use the actual CircleCI response schema,
+      timestamps decode as OffsetDateTime, and pipeline parameters preserve numeric types. The library also migrated to
+      RxJava 3 and OkHttp 5."
+    chips:
+      - label: repo
+        value: circleci-tools/CircleCI
+        color: default
+      - label: PRs merged
+        value: "98"
+        color: default
+      - label: new
+        value: API v3 run support
+        color: green
+      - label: migration
+        value: RxJava 3 + OkHttp 5
+        color: default
+  - type: activity-pattern
+    heading: "Wednesday detonation: 2,199 commits in one day"
+    body: "The daily commit curve tells a clear story: 204 on Monday, 256 Tuesday, then 2,199 on Wednesday — a 8.6x jump.
+      Thursday through Sunday held between 1,043 and 1,801. Wednesday's spike likely reflects a large batch of
+      factory-branch merges landing across multiple repos simultaneously, which is consistent with the merge commit
+      density visible in the logs. The week never really came down from that plateau."
+    chips:
+      - label: peak
+        value: Wed 2,199
+        color: green
+      - label: lowest
+        value: Mon 204
+        color: default
+      - label: total
+        value: 3,801 commits
+        color: default
+      - label: sustained avg (Thu–Sun)
+        value: ~1,304/day
+        color: default
+  - type: deep-dive
+    heading: "Norimaki: Test Results screen and incremental log rendering"
+    body: Two of the most substantial Norimaki PRs this week were the Test Results screen (675 lines across 17 files) and
+      incremental build log rendering (663 lines across 15 files). The Test Results screen fetches every page of
+      CircleCI job test metadata, shows failed tests with class names and expandable messages, and distinguishes
+      unavailable results from zero failures. The log renderer formats chunks off the main thread, retains formatted
+      lines in a RecyclerView-backed structure, and updates only the unfinished line and newly inserted rows —
+      preserving ANSI colors and split escape sequences across chunks.
+    chips:
+      - label: repo
+        value: circleci-tools/Norimaki
+        color: default
+      - label: test results PR
+        value: +675 lines, 17 files
+        color: default
+      - label: log render PR
+        value: +663 lines, 15 files
+        color: default
+      - label: PRs merged
+        value: "93"
+        color: default
+highlights:
+  - type: pr
+    title: "feat: show failed test results on build details"
+    repo: circleci-tools/Norimaki
+    meta: merged Nov 2026 · +675 -1 · 17 files
+    body: The biggest feature addition in Norimaki this week — a full Test Results screen linked from build details that
+      pages through CircleCI job test metadata and renders failed tests with expandable messages. The near-zero deletion
+      count means this was pure greenfield screen work.
+    url: https://github.com/circleci-tools/Norimaki/pull/569
+  - type: pr
+    title: "fix: verify realtime TLS certificates and hostnames"
+    repo: bitflyer-tools/bitflyer
+    meta: merged Nov 2026 · +454 -302 · 15 files
+    body: "A significant security and reliability fix: the WebSocket connection now uses websocket-driver over an OpenSSL
+      socket that verifies the certificate chain and hostname before sending the upgrade. Failed TLS handshakes close
+      the socket cleanly, and the fix applies to both initial connections and automatic reconnects."
+    url: https://github.com/bitflyer-tools/bitflyer/pull/754
+  - type: pr
+    title: "perf: reuse cached banner thumbnails when revisiting charts"
+    repo: unhappychoice/tapline
+    meta: merged Nov 2026 · +438 -63 · 2 files
+    body: A 32-slot LRU cache for decoded banner artwork, keyed by resolved path and display dimensions. Switching between
+      charts now reuses cached pixels instead of re-decoding, and the cache invalidates correctly when source file
+      metadata changes.
+    url: https://github.com/unhappychoice/tapline/pull/265
+  - type: pr
+    title: "fix: bound memory used by live watch logs"
+    repo: circleci-tools/circleci-cli
+    meta: merged Nov 2026 · +408 -109 · 6 files
+    body: Active steps now keep at most 256 KiB of buffered output in memory before spilling to a temp file, and the watcher
+      cleans up those temp files after completion or shutdown. This prevents the watch command from silently consuming
+      unbounded memory on long-running builds.
+    url: https://github.com/circleci-tools/circleci-cli/pull/1196
+  - type: pr
+    title: "feat: download images from an illustration page"
+    repo: irasutoya-tools/irasutoya-cli
+    meta: merged Nov 2026 · +160 -2 · 5 files
+    body: Adds `irasutoya download PAGE_URL --output DIR` to save every image from a search or random result page, with
+      numeric suffix collision handling and directory creation. Works without the preview renderer, making it
+      scriptable.
+    url: https://github.com/irasutoya-tools/irasutoya-cli/pull/732
+ticker:
+  - label: SEISMIC EVENT
+    text: "@unhappychoice detonates 2,199 commits on a Wednesday. Seismologists baffled."
+  - label: BREAKING
+    text: "@unhappychoice opens 1,024 PRs in 7 days. GitHub servers reportedly weeping."
+  - label: CRYPTO CHAOS
+    text: "@unhappychoice verifies TLS certs on bitFlyer WebSockets. Exchange relieved."
+  - label: RHYTHM GAME DRAMA
+    text: "@unhappychoice fixes bmson gauge recovery AND adds key remapping. Gamers rejoice."
+  - label: ANDROID ALERT
+    text: "@unhappychoice ships Test Results screen to Norimaki in 675 lines. Zero deletions."
+  - label: MEMORY CRISIS AVERTED
+    text: "@unhappychoice caps circleci-cli watch logs at 256 KiB. Heap breathes again."
+  - label: HISTORIC CACHE
+    text: "@unhappychoice builds 32-slot LRU thumbnail cache in tapline. Pixels reused."
+  - label: IRASUTOYA EXCLUSIVE
+    text: "@unhappychoice teaches a CLI to download Japanese clip art. Priorities unclear."
